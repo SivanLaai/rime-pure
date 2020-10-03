@@ -3,7 +3,6 @@
 ## 皮肤预览：
 - 简约现代蓝[配色：XNOM]
 ![Image text](/Res/preview_blue.png#pic_left)
-
 - 绿野仙踪绿[配色：佛振]
 ![Image text](/Res/preview_green.png#pic_left)
 - Aqua[配色：佛振]
@@ -18,7 +17,7 @@
 - 1.data文件夹复制到小狼毫输入法data目录覆盖
 - 2.Rime文件夹复制到~\AppData\Rime目录覆盖
 - 3.重新部署
-#### 资源引用
+#### 资源整合
  - 小狼毫输入法：https://github.com/rime/weasel
  - 极点五笔：https://github.com/KyleBing/rime-wubi86-jidian
  - 词典：https://github.com/Bambooin/rimerc
