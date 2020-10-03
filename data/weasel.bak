@@ -10,27 +10,26 @@ app_options:
     ascii_mode: true
 
 style:
-  color_scheme: micosoft
-  font_face: Microsoft YaHei # 字体
-  font_point: 13 # 字体大小
-  horizontal: true # 是否横排显示输入框
+  color_scheme: aqua
+  font_face: Microsoft YaHei
+  font_point: 14
+  horizontal: false
   fullscreen: false
-  inline_preedit: true
+  inline_preedit: false
   preedit_type: composition
-  display_tray_icon: true
+  display_tray_icon: false
   label_format: "%s."
   layout:
-    # min_width: 160
-    # min_height: 0
-    border_width: 0
-    border: 0
-    margin_x: 12 #候选字左右边距
-    margin_y: 12 #候选字上下边距
+    min_width: 160
+    min_height: 0
+    border_width: 3
+    margin_x: 12
+    margin_y: 12
     spacing: 10
-    candidate_spacing: 24 # 候选字间隔
-    hilite_spacing: 3 # 序号和候选字之间的间隔
-    hilite_padding: 12 #候选字背景色色块高度 若想候选字背景色块无边界填充候选框，仅需其高度和候选字上下边距一致即可
-    round_corner: 0 #候选字背景色块圆角幅度
+    candidate_spacing: 5
+    hilite_spacing: 4
+    hilite_padding: 2
+    round_corner: 4
 
 preset_color_schemes:
   aqua:
@@ -539,27 +538,3 @@ preset_color_schemes:
     hilited_candidate_back_color: 0xd8bf00
     comment_text_color: 0x808080
     hilited_comment_text_color: 0x444444
-  micosoft:
-    name: 微软／Micosoft
-    author: "XNOM"
-    back_color: 0xffffff #候选框 背景色
-    border_color: 0xD77800 #候选框 边框颜色
-    text_color: 0x000000 #已选择字 文字颜色
-    hilited_text_color: 0x000000 #已选择字右侧拼音 文字颜色
-    hilited_back_color: 0xffffff #已选择字右侧拼音 背景色
-    hilited_candidate_text_color: 0xffffff #候选字颜色
-    hilited_candidate_back_color: 0xD77800 #候选字背景色
-    candidate_text_color: 0x000000 #未候选字颜色
-  WhiteAqua:
-    name: 白色／WhiteAqua
-    author: "KyleBing <https://kylebing.cn>"
-    creat_time: "2015-07-26"
-    back_color: 0xFFFFFF
-    border_color: 0xD6D6D6
-    text_color: 0x000000
-    hilited_text_color: 0x000000
-    hilited_back_color: 0xFFFFFF
-    hilited_candidate_text_color: 0xFFFFFF
-    hilited_candidate_back_color: 0x9BAD23
-    candidate_text_color: 0x000000
-    comment_text_color: 0xBBCC27
