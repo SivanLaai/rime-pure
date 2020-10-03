@@ -2,16 +2,22 @@
 
 ## 皮肤预览：
 - 简约现代蓝[配色：XNOM]
+
 ![Image text](/Res/preview_blue.png)
 - 绿野仙踪绿[配色：佛振]
+
 ![Image text](/Res/preview_green.png)
 - Aqua[配色：佛振]
+
 ![Image text](/Res/preview_blue1.png)
 - 安卓[配色：Patricivs]
+
 ![Image text](/Res/preview_android.png)
 - 暗堂[配色：佛振]
+
 ![Image text](/Res/preview_dark.png)
 - 孤寺[配色：佛振]
+
 ![Image text](/Res/preview_temple.png)
 # 安装方法
 - 1.data文件夹复制到小狼毫输入法data目录覆盖
