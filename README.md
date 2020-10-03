@@ -1,10 +1,24 @@
-# Rime-Configuration-Integeration
-# rime 配置整合（皮肤、词典、五笔86输入法）
-## 极点五笔：https://github.com/KyleBing/rime-wubi86-jidian
-## 词典：https://github.com/Bambooin/rimerc
+# rime美化布局 皮肤配色\配置\输入法整合
+
 ## 皮肤预览：
-![Image text](https://github.com/JaaikoLai/Rime-Configuration-Integeration/blob/master/Res/preview_blue.png)
+- 简约现代蓝[配色：XNOM]
+![Image text](/Res/preview_blue.png)
+- 绿野仙踪绿[配色：佛振]
+![Image text](/Res/preview_green.png)
+- Aqua[配色：佛振]
+![Image text](/Res/preview_blue1.png)
+- 安卓[配色：Patricivs]
+![Image text](/Res/preview_android.png)
+- 暗堂[配色：佛振]
+![Image text](/Res/preview_dark.png)
+- 孤寺[配色：佛振]
+![Image text](/Res/preview_temple.png)
 # 安装方法
-1.data文件夹复制到小狼毫输入法data目录覆盖
-2.Rime文件夹复制到~\AppData\Rime目录覆盖
-3.重新部署
+- 1.data文件夹复制到小狼毫输入法data目录覆盖
+- 2.Rime文件夹复制到~\AppData\Rime目录覆盖
+- 3.重新部署
+#### 资源引用
+ - 小狼毫输入法：https://github.com/rime/weasel
+ - 极点五笔：https://github.com/KyleBing/rime-wubi86-jidian
+ - 词典：https://github.com/Bambooin/rimerc
+ - 部分配色均整理自互联网，配色包含作者信息。
