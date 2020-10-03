@@ -4,3 +4,7 @@
 ## 词典：https://github.com/Bambooin/rimerc
 ## 皮肤预览：
 ![Image text](https://github.com/JaaikoLai/Rime-Configuration-Integeration/blob/master/Res/preview_blue.png)
+# 安装方法
+1.data文件夹复制到小狼毫输入法data目录覆盖
+2.Rime文件夹复制到~\AppData\Rime目录覆盖
+3.重新部署
