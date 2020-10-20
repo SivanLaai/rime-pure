@@ -1,0 +1,17 @@
+# encoding: utf-8
+---
+recipe:
+  Rx: customize
+  args:
+    - schema=luna_pinyin
+  description: >-
+    Customize input schema to show emoji suggestion with OpenCC
+
+install_files: >-
+  # emoji_suggestion.yaml
+  # opencc/*.*
+
+patch_files:
+  ${schema:-luna_pinyin}.custom.yaml:
+    - patch/+:
+        __include: emoji_suggestion:/patch
