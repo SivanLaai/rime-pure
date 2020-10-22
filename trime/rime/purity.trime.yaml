@@ -72,10 +72,13 @@ colors:
   13: &COLOR_DARK_SLATE_GRAY1 0xff253238 #墨绿色1
   14: &COLOR_LIGHT_GRAY_P 0xffcccccc #浅灰+
   15: &COLOR_DARK_SLATE_GRAY2 0xff354346 #墨绿色2
-  16: &COLOR_RED  0xffeb1212 #红色
+  16: &COLOR_RED  0xffeb1212 #红色 0xff2200
   17: &COLOR_DARK_RED 0xff881c1c  #深暗红
   18: &COLOR_LIGHT_SEA_BLUE 0xff1693d8 #浅海蓝
   19: &COLOR_DARK_SEA_BLUE 0xff007dc7  #暗海蓝
+  20: &COLOR_BLACK_1 0xff888888 #黑1
+  21: &COLOR_GRAY_1 0xffaaaaaa #灰1
+  21: &COLOR_LIGHT_BLUE 0xFF56A2FA #浅蓝
 
   
 
@@ -347,44 +350,6 @@ preset_color_schemes:
     ykgb: *COLOR_WHITE
     zkgb: *COLOR_WHITE
   
-  sougou:
-    name: "搜狗配色／sougou"  #方案名称
-    author: 风花絮 #作者信息
-    back_color: *COLOR_WHITE #候选区背景状态栏
-    border_color: *COLOR_DARK_GRAY_BLACK #邊框
-    candidate_separator_color: *COLOR_WHITE #候选分割背景
-    candidate_text_color: *COLOR_BLACK #候选文本
-    comment_text_color: *COLOR_GRAY_WHITE #提示
-    hilited_back_color: *COLOR_WHITE #高亮编码背景
-    hilited_candidate_back_color: *COLOR_WHITE #高亮候选背景
-    hilited_candidate_text_color: *COLOR_GRAY_BLUE #高亮候选文本
-    hilited_comment_text_color: *COLOR_BLACK #高亮提示
-    hilited_key_back_color: *COLOR_GRAY_BLUE #高亮按键背景
-    hilited_key_symbol_color: *COLOR_WHITE #高亮按键符号
-    hilited_key_text_color: *COLOR_BLACK #高亮按键文本
-    hilited_off_key_back_color: *COLOR_WHITE #高亮按键关闭状态背景
-    hilited_off_key_text_color: *COLOR_BLACK #高亮按键关闭状态文本
-    hilited_text_color: *COLOR_BLACK #高亮编码
-    key_back_color: *COLOR_WHITE #按键背景
-    key_symbol_color: *COLOR_GRAY #按键符号
-    key_text_color: *COLOR_BLACK #按键文本
-    keyboard_back_color: *COLOR_GRAY_WHITE #键盘背景
-    label_color: *COLOR_GRAY_BLUE #标签
-    off_key_back_color: *COLOR_DARK_GRAY_WHITE  #按键关闭状态背景
-    off_key_text_color: *COLOR_GRAY #按键关闭状态文本
-    preview_back_color: *COLOR_DARK_GRAY_WHITE #按键提示背景
-    preview_text_color: *COLOR_GRAY_BLUE #按键提示文本
-    text_color: *COLOR_GRAY_BLUE #编码
-    text_back_color: *COLOR_WHITE #编码区背景
-
-    kgb: *COLOR_WHITE #空格键背景色
-    kgb: *COLOR_BLACK #空格键文字颜色
-    hcb: *COLOR_GRAY_BLUE #回车键背景色
-    hcs: *COLOR_WHITE #回车键文字颜色
-    gnt: *COLOR_DARK_GRAY_WHITE #功能键背景色
-    gnt: *COLOR_WHITE #功能键文字颜色
-    hsb: *COLOR_DARK_GRAY_WHITE #退格键背景色
-    hst: *COLOR_WHITE #退格键文字颜色
 
   tongwen:
     name: "同文风格／tongwen"  #方案名称
