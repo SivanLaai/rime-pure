@@ -8,15 +8,15 @@ author: Jaaiko
 height:
 # ----------键盘高度调整------------
 
-  A: &VJG 53        #主辅键盘键高  自定   
-  B: &VJM 53        #主辅键盘末行键高  B≈A，如主键盘和符号键盘不等高，调整此数
-  C: &FJG 43.667       #符号键盘键高  C=A*4/5=46.4取整随意
+  A: &VJG 48        #主辅键盘键高  自定   
+  B: &VJM 48        #主辅键盘末行键高  B≈A，如主键盘和符号键盘不等高，调整此数
+  C: &FJG 39.7       #符号键盘键高  C=A*4/5=46.4取整随意
 
   D: &HXG 28       #候选区高度
 
 # -------调整完毕，如果出现上下档字符偏离键位，可调节下面项------
 
-  E: &DsymY 0.8           #主键盘上档文字纵向位置调节，负数上移，下同
+  E: &DsymY -0.2           #主键盘上档文字纵向位置调节，负数上移，下同
   F: &DsymX 0             #主键盘上档文字横向位置调节，负数左移
   G: &DtextY -0.4              #主键盘字母纵向位置调节
   H: &VJtextY 0            #助记键盘字母纵向位置调节
@@ -26,7 +26,7 @@ height:
   L: &CQ_symbol 0             #助记键盘符号（长按、上排文字）偏移
   M: &CQ_hintY -3            #助记符号（下排文字、下档文字）纵向位置调节
   N: &CQ_text_size 20
-  H: &VJG_Other 53
+  H: &VJG_Other 48
 
   1: &jpgd1 30 #表情键盘
   2: &jpgd2 24 #颜文字键盘1
@@ -199,7 +199,7 @@ preset_color_schemes:
     hilited_candidate_back_color: *COLOR_TRANSPARENT
     hilited_candidate_text_color: 0xff1693d8
     hilited_comment_text_color: 0xff696969
-    hilited_key_back_color: MIgnh1.png #0xffe1e1e1
+    hilited_key_back_color: MIkgh_space.png #0xffe1e1e1
     hilited_key_symbol_color: 0xff6f7b83
     hilited_key_text_color: *COLOR_BLACK
     hilited_off_key_back_color: *COLOR_WHITE
@@ -207,7 +207,7 @@ preset_color_schemes:
     hilited_on_key_back_color: *COLOR_WHITE
     hilited_on_key_text_color: *COLOR_BLACK
     hilited_text_color: 0xff23948e
-    key_back_color: MIbdb1.png # *COLOR_WHITE
+    key_back_color: MIkgb_space.png # *COLOR_WHITE
     #key_border_color: 0xffeceff1
     key_symbol_color: 0xff6f7b83
     key_text_color: 0xff4a4a4a
@@ -2036,7 +2036,7 @@ preset_keyboards:
       - {click: space1, key_text_size: 18, key_text_offset_x: 0, key_text_offset_y: 0, hilited_key_text_color: hkgt, key_symbol_offset_x: 0, key_symbol_offset_y: 6, long_click: VOICE_ASSIST_Ch, swipe_left: Left, swipe_right: Right, key_back_color: kgb, key_text_color: kgt, key_symbol_color: kgs, hilited_key_back_color: kgh, width: 26}
       # - {click: space1, long_click: VOICE_ASSIST_Ch, swipe_left: Left, swipe_right: Right, key_text_size: 13.5, width: 26, key_symbol_offset_x: 0, key_back_color: bdb, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: bdh, hilited_key_text_color: hbdt}
       - {click: ".", label: " 。", key_symbol_offset_x: 0, long_click: "?", width: 10, key_back_color: bdb, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: bdh, hilited_key_text_color: hbdt}
-      - {click: Mode_switch_cool, long_click: Theme_settings1, swipe_up: Color_settings, key_symbol_offset_x: 0, width: 12, key_back_color: gnb, key_symbol_color: gns, key_text_color: bdt, hilited_key_back_color: gnh, hilited_key_text_color: bdt, key_text_size: 15}
+      - {click: Mode_switch_cool, long_click: Color_switch, swipe_up: Theme_settings1, key_symbol_offset_x: 0, width: 12, key_back_color: gnb, key_symbol_color: gns, key_text_color: bdt, hilited_key_back_color: gnh, hilited_key_text_color: bdt, key_text_size: 15}
       - {click: Return, key_symbol_offset_x: 0, key_back_color: hcb, key_text_color: hct, hilited_key_text_color: hcht, key_symbol_color: hcs, hilited_key_back_color: hch, width: 15}
 
   # 五笔助记
@@ -2216,7 +2216,7 @@ preset_keyboards:
       - {click: 1, key_back_color: szbdb}
       - {click: 2, key_back_color: szbdb}
       - {click: 3, key_back_color: szbdb}
-      - {height: *VJM, click: K_back, key_back_color: szgnh, hilited_key_back_color: szgnb}
+      - {height: *VJM, click: K_back, key_back_color: szgnh, hilited_key_back_color: szgnb, key_text_size: 18}
 
       - {click: "-", key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 20, long_click: ":", key_symbol_color: key_symbol_color, key_back_color: szbdb}
       - {click: 4, key_back_color: szbdb}
@@ -2230,7 +2230,7 @@ preset_keyboards:
       - {click: 9, key_back_color: szbdb}
       - {click: BackSpace, key_back_color: szgnh, hilited_key_back_color: szgnb, }
       
-      - {click: K_symbol, key_back_color: szszgnhgnb, hilited_key_back_color: szgnb}
+      - {click: K_symbol, key_back_color: szgnh, hilited_key_back_color: szgnb, key_text_size: 18}
       - {click: "/", key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 18, long_click: "=", key_symbol_color: key_symbol_color, key_back_color: szbdb}
       - {click: 0, key_back_color: szbdb}
       - {click: ., key_back_color: szbdb}
@@ -5076,7 +5076,7 @@ preset_keys:
   K_defaultMR: {label: ⌨, functional: false, send: Eisu_toggle, select: .default}
   K_defaultVJ5: {label: ⌨, functional: false, send: Eisu_toggle, select: defaultVJ5}
   K_defaultVJ6: {label: ⌨, functional: false, send: Eisu_toggle, select: defaultVJ6}
-  K_menu: {label: ❖, preview: ' ', functional: false, send: Eisu_toggle, select: menu}
+  K_menu: {label: ⚙, preview: ' ', functional: false, send: Eisu_toggle, select: menu}
   K_menu1: {label: ●, preview: ' ', functional: false, send: Eisu_toggle, select: menu}
   K_menu2: {label: 选单, preview: ' ', functional: false, send: Eisu_toggle, select: menu}
   K_menux: {label: 菜单2, preview: ' ', functional: false, send: Eisu_toggle, select: menux}
@@ -5202,7 +5202,7 @@ preset_keys:
   K_symbolsD1: {label: "▲", send: Eisu_toggle, select: symbolsD1}
   K_symbolsD2: {label: "▲", send: Eisu_toggle, select: symbolsD2}
   K_symbolsD2x: {label: "▼", send: Eisu_toggle, select: symbolsD2}
-  K_move: {label: ❖, send: Eisu_toggle, select: move}
+  K_move: {label: ✡, send: Eisu_toggle, select: move}
   K_last: {label: 后退, functional: false, send: Eisu_toggle, select: .next}
   Schema_switch: {label: ⇄, functional: false, send: Control+Shift+1}
   Schema_Eng: {label: En, send: Control+Shift+0}
@@ -5210,13 +5210,14 @@ preset_keys:
   Color_switch2: {label: "配色", functional: false, send: PROG_RED}
   Help: {label: 说明, send: Help}
   Info: {label: 关于, send: INFO}
-  Menu: {label: "✡", functional: false, send: Menu}
+  Menu: {label: "⛶", functional: false, send: Menu}
   Menu1: {label: "●", functional: false, send: Menu}
   Menu2: {label: "选单", functional: false, send: Menu}
   Settings: {label: ⚙, functional: false, send: SETTINGS}
+  Color_settings: {label: ◲, send: SETTINGS, option: "color"}
   Color_settings: {label: 配色, send: SETTINGS, option: "color"}
-  Theme_settings: {label: " ", send: SETTINGS, option: "theme"}
-  Theme_settings1: {label: ⛶, send: SETTINGS, option: "theme"}
+  Theme_settings: {label: "✡", send: SETTINGS, option: "theme"}
+  Theme_settings1: {label: ❖, send: SETTINGS, option: "theme"}
   Theme_settings2: {label: 主题, send: SETTINGS, option: "theme"}
   Schema_settings: {label: 方案, send: SETTINGS, option: "schema"}
   # trime命令
