@@ -28,10 +28,10 @@
 - cherry机械键盘
 
 ![Image text](/Res/trime_cherry.jpg)
-- 极致简约[配色：Jaaiko，键盘布局：Jaaiko]
+- 极致简约[配色：lyhhap，键盘布局：lyhhap]
 
 ![Image text](/Res/trime_preview.jpg)
-- 默认黑[键盘布局：Jaaiko]
+- 默认黑[键盘布局：lyhhap]
 
 ![Image text](/Res/trime_wubi.jpg)
 - 五笔白色字根
@@ -40,7 +40,7 @@
 - 五笔彩色字根
 
 ![Image text](/Res/trime_wubicolor.jpg)
-- 炫彩[键盘布局：Jaaiko]
+- 炫彩[键盘布局：lyhhap]
 
 ![Image text](/Res/trime_xuancai.jpg)
 
@@ -50,6 +50,7 @@
 - 0.备份小狼毫输入法安装目录的"data"文件夹，备份"~\AppData\Rime"文件夹
 - 1."weasel\data"文件夹复制到小狼毫输入法"data"目录覆盖
 - 2."weasel\Rime"文件夹复制到"~\AppData\Rime"目录覆盖
+- 3.重新部署
 #### 同文（安卓端）
 - 1."trime\rime"文件夹复制到"sdcard\rime"目录覆盖
 - 2.重新部署
