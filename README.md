@@ -1,6 +1,8 @@
 # rime简约美化布局 皮肤配色\配置\输入法整合
 
 ## 输入法预览：
+#### 包含方案
+
 #### 小狼毫（PC端）
 - 简约现代蓝[配色：XNOM]
 
@@ -22,9 +24,26 @@
 ![Image text](/Res/preview_temple.png)
 
 #### 同文（安卓端）
-- 极致简约[配色：Jaaiko]
+##### 部分皮肤预览
+- cherry机械键盘
+
+![Image text](/Res/trime_cherry.jpg)
+- 极致简约[配色：Jaaiko，键盘布局：Jaaiko]
 
 ![Image text](/Res/trime_preview.jpg)
+- 默认黑[键盘布局：Jaaiko]
+
+![Image text](/Res/trime_wubi.jpg)
+- 五笔白色字根
+
+![Image text](/Res/trime_wubiwhite.jpg)
+- 五笔彩色字根
+
+![Image text](/Res/trime_wubicolor.jpg)
+- 炫彩[键盘布局：Jaaiko]
+
+![Image text](/Res/trime_xuancai.jpg)
+
 
 ## 安装方法
 #### 小狼毫（PC端）
@@ -34,8 +53,9 @@
 #### 同文（安卓端）
 - 1."trime\rime"文件夹复制到"sdcard\rime"目录覆盖
 - 2.重新部署
-## 资源整合
+## 相关资源
  - 小狼毫输入法：https://github.com/rime/weasel
+ - 同文输入法：https://github.com/osfans/trime
  - 极点五笔：https://github.com/KyleBing/rime-wubi86-jidian
  - 词典：https://github.com/Bambooin/rimerc
  - 部分配色均整理自互联网，配色包含作者信息。
