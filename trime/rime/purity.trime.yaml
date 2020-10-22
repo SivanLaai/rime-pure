@@ -8,15 +8,15 @@ author: Jaaiko
 height:
 # ----------键盘高度调整------------
 
-  A: &VJG 48        #主辅键盘键高  自定   
-  B: &VJM 48        #主辅键盘末行键高  B≈A，如主键盘和符号键盘不等高，调整此数
-  C: &FJG 39.7       #符号键盘键高  C=A*4/5=46.4取整随意
+  A: &VJG 53        #主辅键盘键高  自定   
+  B: &VJM 53        #主辅键盘末行键高  B≈A，如主键盘和符号键盘不等高，调整此数
+  C: &FJG 43.6666        #符号键盘键高  C=A*4/5=46.4取整随意
 
   D: &HXG 28       #候选区高度
 
 # -------调整完毕，如果出现上下档字符偏离键位，可调节下面项------
 
-  E: &DsymY -0.2           #主键盘上档文字纵向位置调节，负数上移，下同
+  E: &DsymY 0.8           #主键盘上档文字纵向位置调节，负数上移，下同
   F: &DsymX 0             #主键盘上档文字横向位置调节，负数左移
   G: &DtextY -0.4              #主键盘字母纵向位置调节
   H: &VJtextY 0            #助记键盘字母纵向位置调节
@@ -26,7 +26,7 @@ height:
   L: &CQ_symbol 0             #助记键盘符号（长按、上排文字）偏移
   M: &CQ_hintY -3            #助记符号（下排文字、下档文字）纵向位置调节
   N: &CQ_text_size 20
-  H: &VJG_Other 48
+  H: &VJG_Other 53
 
   1: &jpgd1 30 #表情键盘
   2: &jpgd2 24 #颜文字键盘1
@@ -2272,7 +2272,7 @@ preset_keyboards:
       - {click: zh_simp, hint: 简繁, swipe_left: K_menux, key_hint_offset_y: 0, key_text_offset_y: -4, key_text_color: key_text_color, key_symbol_color: key_text_color, key_back_color: xdb, hilited_key_text_color: cdt, hilited_key_back_color: xdb}
       - {click: "", width: 10, swipe_left: K_menux, key_back_color: xdb, hilited_key_back_color: xdb}
       #第三行
-      - {click: "", width: 100, swipe_left: K_menux, key_back_color: xdb, hilited_key_back_color: xdb}
+      - {click: "", width: 100, label: "By @lyhhap", swipe_left: K_menux, key_back_color: xdb, hilited_key_back_color: xdb}
       # 第四行
       - {height: *VJM, click: "", width: 47, swipe_left: K_menux, key_back_color: xdb, hilited_key_back_color: xdb}
       - {click: K_menux1, key_text_size: 8, width: 3, swipe_left: K_menux, key_text_offset_y: -9, key_text_offset_x: 0, key_text_color: cdt, key_symbol_color: key_text_color, key_back_color: xdb, hilited_key_text_color: cdt, hilited_key_back_color: xdb}
