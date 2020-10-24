@@ -245,8 +245,8 @@ preset_color_schemes:
     hsb: MIgnb.png
     szb: MIgnb.png
     szs: 0xff5b696f
-    bkss: *COLOR_WHITE # backspace按键颜色    
-    bkst: *COLOR_WHITE # backspace按键颜色
+    bkss: 0xff5f6b73 # backspace字符颜色    
+    bkst: *COLOR_WHITE # backspace字符颜色
     bksb: MIhcb1.png # backspace按键背景
     bksh: MIhch1.png # backspace按键激活背景
     gnb: MIgnb.png
@@ -310,7 +310,7 @@ preset_color_schemes:
     text_color: 0xff5b696f
     text_back_color: *COLOR_WHITE
     label_color: 0xff999999
-    ABC: MIgnb.png
+    ABC: MIbdb.png
     AAA: MIkey.png
     BBB: MIkey.png
     CCC: MIkey.png
@@ -327,14 +327,14 @@ preset_color_schemes:
     bdb: MIkey.png
     bdh: MIkeyh.png
     hbdt: 0xff37474f
-    hsb: MIgnb.png
-    szb: MIgnb.png
+    hsb: MIbdb.png
+    szb: MIbdb.png
     szs: 0xff5b696f   
-    bkss: *COLOR_WHITE
-    bkst: *COLOR_WHITE # backspace按键颜色
-    bksb: MIgnb.png # backspace按键背景
+    bkss: 0xff5b696f
+    bkst: *COLOR_WHITE # backspace字符颜色
+    bksb: MIbdb.png # backspace按键背景
     bksh: MIgnh.png # backspace按键激活背景
-    gnb: MIgnb.png
+    gnb: MIbdb.png
     gnh: MIgnh.png
     gns: 0xff5b696f
     kgb: MIkgb_space.png 
@@ -477,7 +477,7 @@ preset_color_schemes:
     hcb: *COLOR_LIGHT_SEA_BLUE #回车键背景色
     hcs: *COLOR_WHITE #回车键文字颜色    
     bkss: *COLOR_GRAY
-    bkst: *COLOR_WHITE # backspace按键颜色
+    bkst: *COLOR_WHITE # backspace字符颜色
     bksb: *COLOR_DARK_GRAY_WHITE # backspace按键背景
     # bksh: MIhch1.png # backspace按键激活背景
     gnb: *COLOR_DARK_GRAY_WHITE #功能键背景色
@@ -1177,7 +1177,7 @@ preset_color_schemes:
     comment_text_color: 0xffff7200
     fyt: 0xff666666    
     bkss: 0xff919191
-    bkst: 0xffe1e1e1 # backspace按键颜色
+    bkst: 0xffe1e1e1 # backspace字符颜色
     bksb: YS3gnb.png # backspace按键背景
     bksh: YSgnh.png # backspace按键激活背景
     gnb: YS3gnb.png
@@ -1283,7 +1283,7 @@ preset_color_schemes:
     bdb: XHbdb.png #主键标点背景
     bdh: XHgnb.png #主键标点键高亮背景    
     bkss: *COLOR_WHITE
-    bkst: 0xff616161 # backspace按键颜色
+    bkst: 0xff616161 # backspace字符颜色
     bksb: XHgnb.png # backspace按键背景
     bksh: XHgnb.png # backspace按键激活背景
     gnb: XHgnb.png #主键功能键背景
@@ -1327,7 +1327,7 @@ preset_color_schemes:
     comment_text_color: 0xff73cacc
     fyt: 0xffa3a7aa    
     bkss: 0xff5b696f
-    bkst: *COLOR_BLACK # backspace按键颜色
+    bkst: *COLOR_BLACK # backspace字符颜色
     bksb: GGgnb.png # backspace按键背景
     bksh: GGgnh.png # backspace按键激活背景
     gnb: GGgnb.png
@@ -1405,7 +1405,7 @@ preset_color_schemes:
     comment_text_color: 0xff7b868c
     fyt: 0xffa3a7aa    
     bkss: 0xff37474f
-    bkst: 0xff010101 # backspace按键颜色
+    bkst: 0xff010101 # backspace字符颜色
     bksb: IOSgnb.png # backspace按键背景
     bksh: IOSgnh.png # backspace按键激活背景
     gnb: IOSgnb.png
@@ -1482,7 +1482,7 @@ preset_color_schemes:
     comment_text_color: 0xFF3A9282
     fyt: 0xffa3a7aa    
     bkss: 0xff67777f
-    bkst: 0xff383838 # backspace按键颜色
+    bkst: 0xff383838 # backspace字符颜色
     bksb: IBgnb.png # backspace按键背景
     bksh: GGgnb.png # backspace按键激活背景
     gnb: IBgnb.png
@@ -1556,7 +1556,7 @@ preset_color_schemes:
     comment_text_color: 0xffe53935
     fyt: 0xff666666    
     bkss: 0xffa1a1a1
-    bkst: 0xffd2d2d3 # backspace按键颜色
+    bkst: 0xffd2d2d3 # backspace字符颜色
     bksb: 0xff202023 # backspace按键背景
     bksh: 0xff263238 # backspace按键激活背景
     gnb: 0xff202023
@@ -1629,7 +1629,7 @@ preset_color_schemes:
     comment_text_color: 0xffe93030
     fyt: 0xffa3a7aa    
     bkss: 0xff67777f
-    bkst: 0xff383838 # backspace按键颜色
+    bkst: 0xff383838 # backspace字符颜色
     bksb: *COLOR_WHITE # backspace按键背景
     bksh: 0xffefefef # backspace按键激活背景
     gnb: *COLOR_WHITE
@@ -1678,170 +1678,6 @@ preset_color_schemes:
     zjs: 0xff5f6b73
     zyb: *COLOR_WHITE
     zyt: 0x00ffffff
-  wkxc:
-    AAA: ABCkeyA.png
-    AAH: ABCkeyAH.png
-    ABC: ABCkey.png
-    ABH: ABCkeyAH.png
-    ABT: 0xff666666
-    BBB: ABCkeyB.png
-    BBH: ABCkeyBH.png
-    CCC: ABCkeyC.png
-    CCH: ABCkeyCH.png
-    TEX: *COLOR_TRANSPARENT
-    author: "flypy from sougou"
-    back_color: 0xffeeeeee
-    bdb: ABCgnb.png
-    bdh: ABCkeyBH.png
-    border_color: 0xffc1c7ca
-    candidate_separator_color: *COLOR_TRANSPARENT
-    candidate_text_color: 0xff333333
-    cdA: 0xFF4AD1C3
-    cdB: 0xffB3D743
-    cdC: 0xffE69A83
-    cdt: 0xFF4AD1C3
-    comment_text_color: 0xFF4AD1C3
-    fyt: 0xffd3d7da    
-    bkss: *COLOR_TRANSPARENT
-    bkst: 0xff333333 # backspace按键颜色
-    bksb: ABCgnb.png # backspace按键背景
-    bksh: ABCkeyAH.png # backspace按键激活背景
-    gnb: ABCgnb.png
-    gnh: ABCkeyAH.png
-    gns: *COLOR_TRANSPARENT
-    hcb: ABChcb.png
-    hch: ABCkeyCH.png
-    hcs: *COLOR_TRANSPARENT
-    hct: 0xff333333
-    hilited_back_color: *COLOR_TRANSPARENT
-    hilited_candidate_back_color: *COLOR_TRANSPARENT
-    hilited_candidate_text_color: 0xFF4AD1C3
-    hilited_comment_text_color: 0xff333333
-    hilited_key_back_color: ABCkeyAH.png
-    hilited_key_symbol_color: *COLOR_WHITE
-    hilited_key_text_color: *COLOR_WHITE
-    hilited_off_key_back_color: ABCkeyBH.png
-    hilited_off_key_text_color: *COLOR_WHITE
-    hilited_on_key_back_color: ABCkeyBH.png
-    hilited_on_key_text_color: *COLOR_WHITE
-    hilited_text_color: 0xff23948e
-    hsb: ABCgnb.png
-    key_back_color: ABCkeyF.png
-    key_symbol_color: 0xff919191
-    key_text_color: 0xff333333
-    keyboard_back_color: 0xffeeeeee
-    kgb: ABCkgb.png
-    kgh: ABCkgbH.png
-    kgs: 0xff919191
-    kgt: 0xff333333
-    label_color: 0xff666666
-    name: "无刻炫彩"
-    off_key_back_color: ABCkeyF.png
-    off_key_text_color: 0xff333333
-    on_key_back_color: ABCkeyF.png
-    on_key_text_color: 0xFF4AD1C3
-    preview_back_color: 0xff2b9de3
-    preview_text_color: *COLOR_WHITE
-    shadow_color: 0xff333333
-    szb: ABCgnb.png
-    szbdb: ABCgnb.png
-    szgnb: ABCgnb.png
-    szhcb: ABCgnb.png
-    szhct: 0xFF4AD1C3
-    szs: *COLOR_TRANSPARENT
-    text_back_color: *COLOR_WHITE
-    text_color: 0xFF4AD1C3
-    xdb: 0xffeeeeee
-    ykgb: ABCykgb.png
-    zjs: 0xff919191
-    zkgb: ABCzkgb.png
-    zyb: 0x00ffffff
-    zyt: 0x00ffffff
-  wkys:
-    AAA: YS2key.png
-    AAH: YS2keyH.png
-    ABC: YS2gnb.png
-    ABH: YS2keyH.png
-    ABT: *COLOR_TRANSPARENT
-    BBB: YS2key.png
-    BBH: YS2keyH.png
-    CCC: YS2key.png
-    CCH: YS2keyH.png
-    SHt: *COLOR_TRANSPARENT
-    TEX: *COLOR_TRANSPARENT
-    author: flypy.com
-    back_color: 0xff1e1e1e
-    bdb: YS2gnb.png
-    bdh: YS2gnh.png
-    bds: *COLOR_TRANSPARENT
-    bdt: *COLOR_TRANSPARENT
-    border_color: 0xff1f1f1f
-    candidate_separator_color: *COLOR_TRANSPARENT
-    candidate_text_color: 0xffc1c1c1
-    cdA: 0xff438afe
-    cdB: 0xff919191
-    cdC: 0xff919191
-    cdt: 0xff56a2fa
-    comment_text_color: 0xff919191
-    fyt: 0xff666666    
-    bkss: 0xff919191
-    bkst: 0xffd1d1d1 # backspace按键颜色
-    bksb: YS2gnb.png # backspace按键背景
-    bksh: YS2gnh.png # backspace按键激活背景
-    gnb: YS2gnb.png
-    gnh: YS2gnh.png
-    gns: 0xff919191
-    hcb: YS2hcb.png
-    hch: YSgnh.png
-    hcs: *COLOR_TRANSPARENT
-    hct: *COLOR_TRANSPARENT
-    hilited_back_color: *COLOR_TRANSPARENT
-    hilited_candidate_back_color: *COLOR_TRANSPARENT
-    hilited_candidate_text_color: 0xFF56A2FA
-    hilited_comment_text_color: 0xFF56A2FA
-    hilited_key_back_color: YS2gnh.png
-    hilited_key_symbol_color: 0xffe1e1e1
-    hilited_key_text_color: 0xffe1e1e1
-    hilited_off_key_back_color: YS2gnh.png
-    hilited_off_key_text_color: 0xffe1e1e1
-    hilited_on_key_back_color: YS2gnh.png
-    hilited_on_key_text_color: 0xffe1e1e1
-    hilited_text_color: 0xff23948e
-    hsb: YS2gnb.png
-    hst: *COLOR_TRANSPARENT
-    key_back_color: YS2bdb.png
-    key_border_color: 0xffeceff1
-    key_symbol_color: 0xff919191
-    key_text_color: 0xffd1d1d1
-    keyboard_back_color: 0xff1e1e1e
-    kgb: YS2kgb.png
-    kgh: YS2kgh.png
-    kgs: 0xff919191
-    kgt: 0xff919191
-    label_color: 0xff919191
-    name: "无刻夜色"
-    off_key_back_color: YS2gnb.png
-    off_key_text_color: 0xffd1d1d1
-    on_key_back_color: YS2key.png
-    on_key_text_color: 0xFF56A2FA
-    preview_back_color: 0xff00434c
-    preview_text_color: 0xffe1e1e1
-    shadow_color: *COLOR_BLACK
-    szb: YS2gnb.png
-    szhcb: YS2hcb.png
-    szhct: 0xffb1b1b1
-    szs: *COLOR_TRANSPARENT
-    szt: *COLOR_TRANSPARENT
-    text_back_color: 0xff1e1e1e
-    text_color: 0xFF56A2FA
-    xdb: 0xff1f1f1f
-    ykgb: YS2ykgb.png
-    ykgh: YS2ykgh.png
-    zjs: 0xff919191
-    zkgb: YS2zkgb.png
-    zkgh: YS2zkgh.png
-    zyb: 0x00ffffff
-    zyt: 0x00ffffff
   wwai:
     AAA: XHkey.png
     AAH: XHgnh.png
@@ -1868,7 +1704,7 @@ preset_color_schemes:
     comment_text_color: 0xFFFC978D
     fyt: 0xffd3d7da    
     bkss: *COLOR_WHITE
-    bkst: *COLOR_WHITE # backspace按键颜色
+    bkst: *COLOR_WHITE # backspace字符颜色
     bksb: XHgnb.png # backspace按键背景
     bksh: XHgnh.png # backspace按键激活背景
     gnb: XHgnb.png
@@ -1945,7 +1781,7 @@ preset_color_schemes:
     comment_text_color: 0xFF4AD1C3
     fyt: 0xffd3d7da    
     bkss: 0xff919191
-    bkst: 0xff333333 # backspace按键颜色
+    bkst: 0xff333333 # backspace字符颜色
     bksb: ABCkeyC.png # backspace按键背景
     bksh: ABCkeyCH.png # backspace按键激活背景
     gnb: ABCgnb.png
@@ -2022,7 +1858,7 @@ preset_color_schemes:
     comment_text_color: 0xff919191
     fyt: 0xff666666    
     bkss: 0xff919191
-    bkst: 0xffe1e1e1 # backspace按键颜色
+    bkst: 0xffe1e1e1 # backspace字符颜色
     bksb: YSgnb.png # backspace按键背景
     bksh: YSgnh.png # backspace按键激活背景
     gnb: YSgnb.png
@@ -2100,7 +1936,7 @@ preset_color_schemes:
     comment_text_color: 0xFF56A2FA
     fyt: 0xff666666    
     bkss: 0xff919191
-    bkst: 0xfff1f1f1 # backspace按键颜色
+    bkst: 0xfff1f1f1 # backspace字符颜色
     bksb: YS2gnb.png # backspace按键背景
     bksh: YS2gnh.png # backspace按键激活背景
     gnb: YS2gnb.png
