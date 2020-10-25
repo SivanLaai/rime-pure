@@ -320,34 +320,34 @@ preset_color_schemes:
     BBH: MIkeyh.png
     CCH: MIkeyh.png
     szbdb: MIkgb_space.png
-    szhcb: MIhcb.png
-    szhch: MIhch.png
-    szgnb: MIkga_space.png
+    szhcb: MIkgb_space.png
+    szhch: MIkgb_space.png
+    szgnb: MIkgb_space.png
     szgnh: MIkgh_space.png
-    szhct: *COLOR_WHITE
+    szhct: 0xff5b696f
     bdb: MIkey.png
     bdh: MIkeyh.png
     hbdt: 0xff37474f
     hsb: MIbdb.png
     szb: MIbdb.png
     szs: 0xff5b696f   
-    bkss: *COLOR_WHITE
-    bkst: *COLOR_WHITE # backspace按键颜色
+    bkss: 0xff6f7b83
+    bkst: 0xff5b696f  # backspace按键颜色
     bksb: MIbdb.png # backspace按键背景
     bksh: MIgnh.png # backspace按键激活背景
-    gnb: MIbdb.png
+    gnb: MIkgb_space.png
     gnh: MIgnh.png
     gns: 0xff5b696f
     kgb: MIkgb_space.png 
     kgh: MIkgh_space.png
     kgs: 0xff5f6b73
     kgt: 0xff4d4d4d
-    hcb: MIhcb.png
-    hch: MIhch.png
-    hcs: *COLOR_WHITE
-    hct: *COLOR_WHITE
-    hcht: *COLOR_WHITE
-    hchs: *COLOR_WHITE
+    hcb: MIbdb.png
+    hch: MIgnh.png
+    hcs: 0xff6f7b83
+    hct: 0xff5b696f
+    hcht: 0xff5b696f
+    hchs: 0xff6f7b83
     cdt: 0xff1693d8
     cdA: 0xff1693d8
     cdB: 0xff666666
@@ -2412,7 +2412,7 @@ preset_keyboards:
       - {click: Return, key_back_color: szhcb, hilited_key_back_color: szhch, key_text_color: szhct, hilited_key_text_color: szhct, key_symbol_color: hcs}
 
   use:
-    ascii_mode: 1
+    ascii_mode: 0
     author: flypy.com
     key_symbol_offset_y: *DsymY
     height: *VJG_Other
@@ -2440,9 +2440,9 @@ preset_keyboards:
       - {click: BDSS, key_back_color: szgnb, hilited_key_back_color: szgnb}
       # 第3行
       - {click: copy, key_back_color: szgnb, hilited_key_back_color: szgnb}
-      - {click: undo, key_back_color: szbdb, hilited_key_back_color: szgnb}
+      - {click: undo, key_back_color: szbdb, hilited_key_back_color: szgnb, key_text_size: 30}
       - {click: Down, key_back_color: szbdb, hilited_key_back_color: szgnb}
-      - {click: redo, key_back_color: szbdb, hilited_key_back_color: szgnb}
+      - {click: redo, key_back_color: szbdb, hilited_key_back_color: szgnb, key_text_size: 30}
       
       - {click: K_back, key_back_color: szgnb, hilited_key_back_color: szgnb}
       # 第4行
@@ -2484,7 +2484,7 @@ preset_keyboards:
       - {click: zh_simp, hint: 简繁, swipe_left: K_menux, key_hint_offset_y: 0, key_text_offset_y: -4, key_text_color: key_text_color, key_symbol_color: key_text_color, key_back_color: xdb, hilited_key_text_color: cdt, hilited_key_back_color: xdb}
       - {click: "", width: 10, swipe_left: K_menux, key_back_color: xdb, hilited_key_back_color: xdb}
       #第三行
-      - {click: "", width: 100, label: "By @lyhhap", swipe_left: K_menux, key_back_color: xdb, hilited_key_back_color: xdb}
+      - {click: "", width: 100, label: "By Jaaiko", swipe_left: K_menux, key_back_color: xdb, hilited_key_back_color: xdb}
       # 第四行
       - {height: *VJM, click: "", width: 47, swipe_left: K_menux, key_back_color: xdb, hilited_key_back_color: xdb}
       - {click: K_menux1, key_text_size: 8, width: 3, swipe_left: K_menux, key_text_offset_y: -9, key_text_offset_x: 0, key_text_color: cdt, key_symbol_color: key_text_color, key_back_color: xdb, hilited_key_text_color: cdt, hilited_key_back_color: xdb}
@@ -5206,9 +5206,9 @@ preset_keys:
   paste_Ch: {label: "粘贴", functional: false, send: Control+v}
   paste_text: {label: 貼上文本, send: Control+Shift+Alt+v} #>=Android 6.0
   share_text: {label: Ⓕ, send: Control+Alt+s} #>=Android 6.0
-  redo: {label: " ↪", functional: false, send: Control+y}
+  redo: {label: "↪", functional: false, send: Control+y}
   redo_Ch: {label: "重复", functional: false, send: Control+y}
-  undo: {label: " ↩", functional: false, send: Control+z}
+  undo: {label: "↩", functional: false, send: Control+z}
   undo_Ch: {label: "撤销", functional: false, send: Control+z}
   delimiterJ: {label: 次选, send: 2}
   delimiterK: {label: "三选", send: comma}
@@ -5412,7 +5412,7 @@ preset_keys:
   Flypy: {label: "键盘", send: Menu }
   Handian: {label: 金山, functional: false, send: function, command: run, option: " http://www.iciba.com/word?w=%3$s"}
   Xiaohe: {label: 小鹤主页, functional: false, send: function, command: run, option: "http://www.flypy.com"}
-  Baidu: {label: 百度, functional: false, send: function, command: run, option: "https://www.baidu.com/s?wd=%4$s"}
+  Baidu: {label: 百度, functional: false, send: function, command: run, option: "https://www.baidu.com/s?wd=%3$s"}
   Tieba: {label: 贴吧, functional: false, send: function, command: run, option: "com.baidu.tieba"}
   TrimeCmp: {label: 同文组件, send: function, command: run, option: "com.osfans.trime/ .Pref"} #运行程序指定组件：run包名/组件名
   date_time: {label: time, send: function, command: date, option: "yyyy-MM-dd  HH:mm:ss"}
