@@ -26,8 +26,8 @@
 - 3.同文手机端添加了两款机械键盘主题，cherry机械键盘/罗技
 - 4.极品五笔和四叶草拼音输入法在手机端支持简繁转有一些问题，原因是没有正确配置opencc，修改后手机端支持简繁转换
 
-### 安装导航
-[直至](https://github.com/JaaikoLai/BeautifulRime/blob/master/README.md#%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95)
+### 安装方法
+[点击直达](https://github.com/JaaikoLai/BeautifulRime/blob/master/README.md#%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95)
 
 ### 包含输入方案
  - 极点五笔：https://github.com/KyleBing/rime-wubi86-jidian
