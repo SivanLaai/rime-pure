@@ -18,24 +18,17 @@ switches:
     reset: 0
     states: [ 中, 英 ]
   - name: full_shape
-    reset: 0
     states: [ 半, 全 ]
-  - name: zh_simp_s2t
-    reset: 0
+  - name: simplification
     states: [ 简, 繁 ]
-  - name: ascii_punct
     reset: 0
+  - name: ascii_punct
     states: [ 。，, ．， ]
-  - name: symbol_support
-    reset: 1
-    states: [ "无符", "符" ]
-  - name: emoji_suggestion
-    reset: 1
-    states: [ 😔, 😀 ]
 
 engine:
   processors:
     - ascii_composer
+    - recognizer
     - key_binder
     - speller
     - punctuator
@@ -50,57 +43,30 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
+    - table_translator@custom_phrase
+    - reverse_lookup_translator
     - script_translator
   filters:
-    - simplifier@emoji_suggestion
-    - simplifier@symbol_support
     - simplifier
     - uniquifier
 
-simplifier:
-  option_name: zh_simp_s2t
-  opencc_config: s2t.json
-
-emoji_suggestion:
-  opencc_config: emoji.json
-  option_name: emoji_suggestion
-  tips: all
-
-symbol_support:
-  opencc_config: symbol.json
-  option_name: symbol_support
-  tips: all
-
 speller:
-  alphabet: zyxwvutsrqponmlkjihgfedcba1234567890
+  alphabet: 'zyxwvutsrqponmlkjihgfedcba1234567890'
   delimiter: " '"
   algebra:
-    # 九宫基础
     - "xlit|12345|+_*^0|"
-    # 基础
-    - abbrev/^([a-z]).+$/$1/
+    - erase/^xx$/
     - abbrev/^([zcs]h).+$/$1/
-    
-    # 补全
-    - derive/([dtngkhrzcs])o(u|ng)$/$1o/   # o = ou; o = ong
-    - derive/ong$/on/      # on = ong
-    - derive/^ding$/din/     # din = ding
-    
-    # 处理 v 和 u
-    - derive/^([nl])ue$/$1ve/   # nve = nue; lve = lue
-    - derive/^([jqxy])u/$1v/    # v = u; v = u
-    
-    # 智能纠错
-    - derive/ao$/oa/       # oa = ao
-    - derive/([iu])a(o|ng?)$/a$1$2/   # aio = iao; aing = iang; aung = uang
-    - derive/([aeiou])ng$/$1gn/   # gn = ng
-    - derive/un$/uen/    # uen = un
-    - derive/ui$/uei/    # uei = ui
-    - derive/iu$/iou/    # iou = ui
-    - derive/tie$/tei/    # tei = tie
-    - derive/i$/ii/      # ii = i  # i 不小心按两下
-    - derive/u$/uu/      # ui = u  # u 不小心按两下
-    # 九宫
+    - derive/^([nl])ve$/$1ue/
+    - derive/^([jqxy])u/$1v/
+    - derive/un$/uen/
+    - derive/ui$/uei/
+    - derive/iu$/iou/
+    - derive/([aeiou])ng$/$1gn/
+    - derive/([dtngkhrzcs])o(u|ng)$/$1o/
+    - derive/ong$/on/
+    - derive/ao$/oa/
+    - derive/([iu])a(o|ng?)$/a$1$2/
     - xlit/abcdefghijklmnopqrstuvwxyz/22233344455566677778889999/
     - derive/[+_*^0]//
     - derive/([+_*^0])$//
@@ -109,97 +75,40 @@ speller:
 translator:
   dictionary: clover
   prism: clover_jiugong
-  spelling_hints: 16
+  spelling_hints: 16 # ～字以內候選標註完整帶調拼音
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
+    - xform/eh/ê/
+
+custom_phrase:
+  dictionary: ""
+  user_dict: custom_phrase
+  db_class: stabledb
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 1
+
+reverse_lookup:
+  dictionary: stroke
+  enable_completion: true
+  prefix: "`"
+  suffix: "'"
+  tips: 〔笔画〕
+  preedit_format:
+    - "xlit|v|ü|"
+    - xform/iü/iv/
+    - xform/uü/uv/
 
 punctuator:
   import_preset: symbols
-  full_shape:
-    "`": "｀"
-    "~": "～"
-    "!": "！"
-    "@": "＠"
-    "#": "＃"
-    "$": "￥"
-    "%": "％"
-    "^": "……"
-    "&": "＆"
-    "*": "×"
-    "(": "（"
-    ")": "）"
-    "_": "——"
-    "+": "＋"
-    "-": "－"
-    "=": "＝"
-    "[": "【"
-    "]": "】"
-    "{": "｛"
-    "}": "｝"
-    "|": "｜"
-    "\\": "、"
-    "/": "、"
-    ";": "；"
-    "'": "‘"
-    ",": "，"
-    ".": "。"
-    "<": "《"
-    ">": "》"
-    "?": "？"
-  half_shape:
-    "`": "·"
-    "~": "～"
-    "!": "！"
-    "@": "@"
-    "#": "#"
-    "$": "￥"
-    "%": "%"
-    "^": "……"
-    "&": "&"
-    "*": "×"
-    "(": "（"
-    ")": "）"
-    "_": "——"
-    "+": "+"
-    "-": "-"
-    "=": "="
-    "[": "【"
-    "]": "】"
-    "{": "｛"
-    "}": "｝"
-    "|": "｜"
-    "\\": "、"
-    "/": "、"
-    ";": "；"
-    "'": "’"
-    ",": "，"
-    ".": "。"
-    "<": "《"
-    ">": "》"
-    "?": "？"
 
 key_binder:
   import_preset: default
-  bindings:
-    __patch:
-      - key_bindings:/emacs_editing  # emacs 习惯
-      - key_bindings:/move_by_word_with_tab  # tab 在单词间切换
-      - key_bindings:/paging_with_minus_equal  # 减号等号翻页
-      - key_bindings:/paging_with_comma_period   # 逗号句号翻页
-      - key_bindings:/paging_with_brackets   # 中括号翻页
-      - clover.key_bindings:/numbered_mode_switch   # Ctrl+Shift+数字 切换开关
-      - clover.key_bindings:/windows_compatible_mode_switch   # Windows 兼容
-      - clover.key_bindings:/kp_enter_is_return   # 小键盘回车设为普通回车
 
-ascii_composer:
+recognizer:
   import_preset: default
-  good_old_caps_lock: true
-  switch_key:
-    Shift_L: commit_code   # 左 Shift 切换直接上屏字母
-    Shift_R: commit_code   # 右 Shift 切换直接上屏字母
-    Control_L: noop
-    Control_R: noop
-    Caps_Lock: noop
-    Eisu_toggle: clear
+  patterns:
+    punct: "^/([0-9]0?|[a-z]+)$"
+    reverse_lookup: "`[a-z]*'?$"
