@@ -2437,7 +2437,7 @@ preset_keyboards:
       - {click: Left, key_back_color: szbdb, hilited_key_back_color: szgnb}
       - {click: Shift1, key_back_color: szbdb, hilited_key_back_color: szgnb}
       - {click: Right, key_back_color: szbdb, hilited_key_back_color: szgnb}
-      - {click: HDSS, key_back_color: szgnb, hilited_key_back_color: szgnb}
+      - {click: BDSS, key_back_color: szgnb, hilited_key_back_color: szgnb}
       # 第3行
       - {click: copy, key_back_color: szgnb, hilited_key_back_color: szgnb}
       - {click: undo, key_back_color: szbdb, hilited_key_back_color: szgnb}
@@ -5410,16 +5410,16 @@ preset_keys:
   ChineseDate: {label: 农历, send: function, command: date, option: "zh_CN@calendar=chinese"} #农历等日期(>=Android 7.0)：date 语言@calendar=历法 格式。具体參見https://developer.android.com/reference/android/icu/util/Calendar.html
   Time: {label: "™", send: function, command: date, option: " HH:mm:ss "}
   Flypy: {label: "键盘", send: Menu }
-  Handian: {label: 汉典, functional: false, send: function, command: run, option: "http://wap.zdic.net/s/?q=%3$s"}
+  Handian: {label: 金山, functional: false, send: function, command: run, option: " http://www.iciba.com/word?w=%3$s"}
   Xiaohe: {label: 小鹤主页, functional: false, send: function, command: run, option: "http://www.flypy.com"}
   Baidu: {label: 百度, functional: false, send: function, command: run, option: "https://www.baidu.com/s?wd=%4$s"}
   Tieba: {label: 贴吧, functional: false, send: function, command: run, option: "com.baidu.tieba"}
   TrimeCmp: {label: 同文组件, send: function, command: run, option: "com.osfans.trime/ .Pref"} #运行程序指定组件：run包名/组件名
   date_time: {label: time, send: function, command: date, option: "yyyy-MM-dd  HH:mm:ss"}
-  HDSS: {label: 汉典, send: function, command: run, option: "http://wap.zdic.net/s/?q=%3$s"} # 搜索网页: %3$s为光标前一个字符或选中字符或未上屏首选词条
+  HDSS: {label: 金山, functional: false, send: function, command: run, option: " http://www.iciba.com/word?w=%3$s"} # 搜索网页: %3$s为光标前一个字符或选中字符或未上屏首选词条
   BDHY: {label: Ⓓ, send: function, command: run, option: "https://hanyu.baidu.com/s?wd=%3$s"}
   XHIX: {label: 鹤形, send: function, command: run, option: "http://www.xhup.club/?search_word=%4$s"}
-  BDSS: {label: Ⓑ, send: function, command: run, option: "https://www.baidu.com/s?wd=%4$s"} # 搜索网页：%4$s为光标前所有字符或选中字符或未上屏首选词条
+  BDSS: {label: 🔍️, send: function, command: run, option: "https://www.baidu.com/s?wd=%4$s"} # 搜索网页：%4$s为光标前所有字符或选中字符或未上屏首选词条
   LLQ: {label: Ⓛ, send: function, command: web_search, option: "%4$s"} # 直达光标前http开头的网址或搜索光标前内容
   Deploy: {label: 部署, send: function, command: broadcast, option: "com.osfans.trime.deploy"}
   Sync: {label: 同步, send: function, command: broadcast, option: "com.osfans.trime.sync"}
