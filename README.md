@@ -58,7 +58,7 @@
 
 ![Image text](/Res/trime_preview_jiugong.png)
 
-##### 默认黑[键盘布局：lyhhap]
+##### 默认黑[键盘布局：Jaaiko]
 - 全键盘
 
 ![Image text](/Res/trime_wubi.jpg)
@@ -77,7 +77,7 @@
 
 ![Image text](/Res/trime_wubicolor.jpg)
 
-##### 炫彩[键盘布局：lyhhap]
+##### 炫彩[键盘布局：Jaaiko]
 - 全键盘
 
 ![Image text](/Res/trime_xuancai.jpg)
