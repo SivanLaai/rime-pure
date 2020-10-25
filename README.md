@@ -36,11 +36,11 @@
 
 ##### 🍀️四叶草九宫输入方案
 
-![Image text](/Res/jiugong.png)
+![Image text](/Res/trime_preview_jiugong.png)
 
 #### 部分皮肤预览
 
-#####cherry机械键盘
+##### cherry机械键盘
 - 全键盘
 
 ![Image text](/Res/trime_cherry.jpg)
@@ -49,7 +49,7 @@
 
 ![Image text](/Res/trime_cherry_jiugong.jpg)
 
-#####极致简约[配色：Jaaiko，键盘布局：Jaaiko]
+##### 极致简约[配色：Jaaiko，键盘布局：Jaaiko]
 - 全键盘
 
 ![Image text](/Res/trime_preview.jpg)
@@ -58,7 +58,7 @@
 
 ![Image text](/Res/trime_preview_jiugong.png)
 
-#####默认黑[键盘布局：lyhhap]
+##### 默认黑[键盘布局：lyhhap]
 - 全键盘
 
 ![Image text](/Res/trime_wubi.jpg)
@@ -67,17 +67,17 @@
 
 ![Image text](/Res/trime_wubi_jiugong.jpg)
 
-#####五笔白色字根
+##### 五笔白色字根
 - 全键盘
 
 ![Image text](/Res/trime_wubiwhite.jpg)
 
-#####五笔彩色字根
+##### 五笔彩色字根
 - 全键盘
 
 ![Image text](/Res/trime_wubicolor.jpg)
 
-#####炫彩[键盘布局：lyhhap]
+##### 炫彩[键盘布局：lyhhap]
 - 全键盘
 
 ![Image text](/Res/trime_xuancai.jpg)
