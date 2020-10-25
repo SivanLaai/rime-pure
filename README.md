@@ -6,13 +6,13 @@
 
 - **目前在手机端配置了基于四叶草拼音的九宫格输入法，为了表示对原作者的劳动致敬，遂命名为四叶草九宫方案，感觉已经和之前使用的百度或者讯飞输入法感觉相当。**
 
-- **感谢rime作者[lotem](https://github.com/lotem)**
+- **感谢rime作者@[lotem](https://github.com/lotem)**
 
-- **感谢trime作者[osfans](https://github.com/osfans)**
+- **感谢trime作者@[osfans](https://github.com/osfans)**
 
 - **感谢四叶草拼音作者@[fkxxyz](https://github.com/fkxxyz)**
 
-- **感谢极品五笔作者[KyleBing](https://github.com/KyleBing)**
+- **感谢极品五笔作者@[KyleBing](https://github.com/KyleBing)**
 
 - **感谢opencc作者@[BYVoid](https://github.com/BYVoid)**
 
