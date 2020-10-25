@@ -19,9 +19,9 @@ switches:
     states: [ 中, 英 ]
   - name: full_shape
     states: [ 半, 全 ]
-  - name: simplification
-    states: [ 简, 繁 ]
+  - name: traditional_chinese
     reset: 0
+    states: [ 简, 繁 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
 
@@ -100,6 +100,11 @@ reverse_lookup:
     - "xlit|v|ü|"
     - xform/iü/iv/
     - xform/uü/uv/
+
+# 支持简繁转换
+simplifier:
+  option_name: traditional_chinese
+  opencc_config: s2t.json
 
 punctuator:
   import_preset: symbols

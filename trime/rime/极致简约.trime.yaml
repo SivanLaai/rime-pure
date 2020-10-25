@@ -2043,7 +2043,7 @@ preset_keyboards:
       - {click: b, long_click: "^", key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: n, long_click: "/", key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
       - {click: m, long_click: ":", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
-      - {click: BackSpace, swipe_left: ClearH, swipe_up: Candidate_switch1, key_text_offset_y: 0, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst, width: 15}
+      - {click: BackSpace, swipe_left: Clear, swipe_up: Candidate_switch1, key_text_offset_y: 0, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst, width: 15}
       # 第四行
       #- {height: *VJM, click: K_symbols123, composing: delimiterD1, key_symbol_offset_x: 16, long_click: K_menu, swipe_up: Schema_switch, key_back_color: gnb, hilited_key_back_color: gnh, key_symbol_color: gns, width: 17.5} #如想设置为两个方案来回切换，可把此行首的#号移到811行
       #- {height: *VJM, click: K_symbols123, composing: delimiterD1, key_symbol_offset_x: 16, long_click: K_menu, swipe_up: IME_switch, key_back_color: gnb, hilited_key_back_color: gnh, key_symbol_color: gns, width: 17.5} #如想设置为输入法切换键，可把此行首的#号移到811行
@@ -2086,7 +2086,7 @@ preset_keyboards:
       - {click: 1, label: "分词", composing: "'", key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 1, key_text_size: 18}
       - {click: 2, label: ABC, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 2, key_text_size: 18}
       - {click: 3, label: DEF, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 3, key_text_size: 18}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, hilited_key_text_color: szhct, key_symbol_color: bkss, key_text_color: bkst, key_text_size: 20}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, hilited_key_text_color: szhct, key_symbol_color: bkss, key_text_color: bkst, key_text_size: 20}
 
       - {click: "?", key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 20, long_click: "!", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
       - {click: 4, label: GHI, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 4, key_text_size: 18}
@@ -2127,7 +2127,7 @@ preset_keyboards:
       - {click: 1, composing: "'", key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 1, key_text_size: 20}
       - {click: 2, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 2, key_text_size: 20}
       - {click: 3, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 3, key_text_size: 20}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, hilited_key_text_color: szhct, key_symbol_color: bkss, key_text_color: bkst, key_text_size: 20}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, hilited_key_text_color: szhct, key_symbol_color: bkss, key_text_color: bkst, key_text_size: 20}
 
       - {click: "?", key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 20, long_click: "!", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
       - {click: 4, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 4, key_text_size: 20}
@@ -2195,7 +2195,7 @@ preset_keyboards:
       - {click: b, long_click: "^", key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: n, long_click: "/", key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
       - {click: m, long_click: ":", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
-      - {click: BackSpace, swipe_left: ClearH, swipe_up: Candidate_switch1, key_text_offset_y: 0, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst, width: 15}
+      - {click: BackSpace, swipe_left: Clear, swipe_up: Candidate_switch1, key_text_offset_y: 0, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst, width: 15}
       # 第四行
       - {height: *VJM, click: K_jiugongNumber, composing: delimiterD, key_symbol_offset_x: 0, long_click: K_menu, key_back_color: gnb, hilited_key_back_color: gnh, key_symbol_color: gns, width: 15} #方案选择
       - {click: K_symbol, label: "符", long_click: Menu, key_symbol_offset_x: 0, key_back_color: gnb, key_symbol_color: gns, hilited_key_back_color: gnh, width: 12, key_text_size: 15}
@@ -2269,7 +2269,7 @@ preset_keyboards:
       - {click: b, long_click: "^", key_text_color: TEX, key_back_color: wb86cB.png, hilited_key_back_color: BBH, key_symbol_color: 0x00, key_text_color: 0x00}
       - {click: n, long_click: "/", key_text_color: TEX, key_back_color: wb86cN.png, hilited_key_back_color: CCH, key_symbol_color: 0x00, key_text_color: 0x00}
       - {click: m, long_click: ":", key_text_color: TEX, key_back_color: wb86cM.png, hilited_key_back_color: AAH, key_symbol_color: 0x00, key_text_color: 0x00}
-      - {click: BackSpace, swipe_left: ClearH, swipe_up: Candidate_switch1, key_text_offset_y: 0, key_back_color: hsb, hilited_key_back_color: gnh, key_symbol_color: gns, key_text_color: hst, width: 15}
+      - {click: BackSpace, swipe_left: Clear, swipe_up: Candidate_switch1, key_text_offset_y: 0, key_back_color: hsb, hilited_key_back_color: gnh, key_symbol_color: gns, key_text_color: hst, width: 15}
       - {height: *VJM, click: K_number, composing: delimiterD, key_symbol_offset_x: 0, long_click: K_menu, key_back_color: gnb, hilited_key_back_color: gnh, key_symbol_color: gns, width: 15} #方案选择
       - {click: K_symbol, label: "符", long_click: Menu, key_symbol_offset_x: 0, key_back_color: gnb, key_symbol_color: gns, hilited_key_back_color: gnh, width: 12, key_text_size: 15}
       - {click: ",", label: " ，", key_symbol_offset_x: 0, long_click: "!", key_back_color: bdb, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: bdh, hilited_key_text_color: hbdt, width: 10}
@@ -2340,7 +2340,7 @@ preset_keyboards:
       - {click: b, long_click: "^", key_text_color: TEX, key_back_color: wb86B.png, hilited_key_back_color: BBH, key_symbol_color: 0x00, key_text_color: 0x00}
       - {click: n, long_click: "/", key_text_color: TEX, key_back_color: wb86N.png, hilited_key_back_color: CCH, key_symbol_color: 0x00, key_text_color: 0x00}
       - {click: m, long_click: ":", key_text_color: TEX, key_back_color: wb86M.png, hilited_key_back_color: AAH, key_symbol_color: 0x00, key_text_color: 0x00}
-      - {click: BackSpace, swipe_left: ClearH, swipe_up: Candidate_switch1, key_text_offset_y: 0, key_back_color: gnb, hilited_key_back_color: gnh, key_symbol_color: gns, width: 15}
+      - {click: BackSpace, swipe_left: Clear, swipe_up: Candidate_switch1, key_text_offset_y: 0, key_back_color: gnb, hilited_key_back_color: gnh, key_symbol_color: gns, width: 15}
       - {height: *VJM, click: K_number, composing: delimiterD, key_symbol_offset_x: 0, long_click: K_menu, key_back_color: gnb, hilited_key_back_color: gnh, key_symbol_color: gns, width: 15} #方案选择
       - {click: K_symbol, label: "符", long_click: Menu, key_symbol_offset_x: 0, key_back_color: gnb, key_symbol_color: gns, hilited_key_back_color: gnh, width: 12, key_text_size: 15}
       - {click: ",", label: " ，", key_symbol_offset_x: 0, long_click: "!", key_back_color: bdb, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: bdh, hilited_key_text_color: hbdt, width: 10}
@@ -2391,7 +2391,7 @@ preset_keyboards:
       - {click: 1, composing: "'", key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 1, key_text_size: 20}
       - {click: 2, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 2, key_text_size: 20}
       - {click: 3, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 3, key_text_size: 20}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, hilited_key_text_color: szhct, key_symbol_color: bkss, key_text_color: bkst, key_text_size: 20}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, hilited_key_text_color: szhct, key_symbol_color: bkss, key_text_color: bkst, key_text_size: 20}
 
       - {click: "?", key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 20, long_click: "!", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
       - {click: 4, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 4, key_text_size: 20}
@@ -2431,7 +2431,7 @@ preset_keyboards:
       - {click: Up, key_back_color: szbdb, hilited_key_back_color: szgnb}
       - {click: End, key_back_color: szbdb, hilited_key_back_color: szgnb}
       # - {click: K_back, key_back_color: szgnb, hilited_key_back_color: szgnb}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst}
       # 第2行
       - {click: cut, key_back_color: szgnb, hilited_key_back_color: szgnb}
       - {click: Left, key_back_color: szbdb, hilited_key_back_color: szgnb}
@@ -2449,7 +2449,7 @@ preset_keyboards:
       - {height: *VJM, click: paste, key_back_color: szgnb, hilited_key_back_color: szgnb}
       - {click: Tab2, key_back_color: szgnb, hilited_key_back_color: szgnb}
       - {click: space3, key_back_color: szgnb, hilited_key_back_color: szgnb}
-      - {click: ClearH, key_back_color: szgnb, hilited_key_back_color: szgnb}
+      - {click: Clear, key_back_color: szgnb, hilited_key_back_color: szgnb}
       - {click: Delete, key_back_color: szgnb, hilited_key_back_color: szgnb} #share_text可将长按设为分享
     name: "功能"
     width: 20
@@ -2538,7 +2538,7 @@ preset_keyboards:
       - {click: "@hotmail.com", width: 27, key_text_size: 14}
       - {click: "@163.com", width: 27, key_text_size: 14}
       - {click: "@qq.com", width: 27, key_text_size: 14}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       
       - {click: "@gmail.com", width: 27, key_text_size: 14}
       - {click: "@126.com", width: 27, key_text_size: 14}
@@ -2578,7 +2578,7 @@ preset_keyboards:
       - {click: "."}
       - {click: "?"}
       - {click: "!"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: ":"}
       - {click: "/"}
       - {click: "^"}
@@ -2617,7 +2617,7 @@ preset_keyboards:
       - {click: ")"}
       - {click: "["}
       - {click: "]"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {ascii: "\\", click: "、"}
       - {click: '`'}
       - {click: '~'}
@@ -2656,7 +2656,7 @@ preset_keyboards:
       - {click: "Ⓑ"}
       - {click: "Ⓒ"}
       - {click: "Ⓓ"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "Ⓔ"}
       - {click: "Ⓕ"}
       - {click: "Ⓖ"}
@@ -2695,7 +2695,7 @@ preset_keyboards:
       - {click: "Ⓡ"}
       - {click: "Ⓢ"}
       - {click: "Ⓣ"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "Ⓤ"}
       - {click: "Ⓥ"}
       - {click: "Ⓦ"}
@@ -2734,7 +2734,7 @@ preset_keyboards:
       - {click: "。"}
       - {click: "？"}
       - {click: "！"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "："}
       - {click: "、"}
       - {click: "@"}
@@ -2773,7 +2773,7 @@ preset_keyboards:
       - {click: "【】{Left}"}
       - {click: "「」{Left}"}
       - {click: "『』{Left}"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "+"}
       - {click: "-"}
       - {click: "×"}
@@ -2812,7 +2812,7 @@ preset_keyboards:
       - {click: "^ω^", key_text_size: "11"}
       - {click: "^o^", key_text_size: "11"}
       - {click: "*^_^*", key_text_size: "11"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "↖(^ω^)↗", key_text_size: "11"}
       - {click: "(^o^)／", key_text_size: "11"}
       - {click: "(=^▽^=)", key_text_size: "11"}
@@ -2851,7 +2851,7 @@ preset_keyboards:
       - {click: "(●—●)", key_text_size: "11"}
       - {click: "(๑• . •๑)", key_text_size: "11"}
       - {click: "(๑•̀ㅂ•́)و✧", key_text_size: "11"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "罒ω罒", key_text_size: "11"}
       - {click: "(｡ì _ í｡)", key_text_size: "11"}
       - {click: "(๑•ี_เ•ี๑)", key_text_size: "11"}
@@ -2890,7 +2890,7 @@ preset_keyboards:
       - {click: "T_T", key_text_size: "11"}
       - {click: "⊙︿⊙", key_text_size: "11"}
       - {click: "〒▽〒", key_text_size: "11"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "⊙﹏⊙", key_text_size: "11"}
       - {click: "π_π", key_text_size: "11"}
       - {click: "(｡•́︿•̀｡)", key_text_size: "11"}
@@ -2929,7 +2929,7 @@ preset_keyboards:
       - {click: ">o<", key_text_size: "11"}
       - {click: "(-`ェ´-怒)", key_text_size: "11"}
       - {click: "ヽ(‘⌒´メ)ノ", key_text_size: "11"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "(*｀Ω´*)v", key_text_size: "11"}
       - {click: "(｡•ˇ‸ˇ•｡)", key_text_size: "11"}
       - {click: "(怒｀Д´怒)", key_text_size: "11"}
@@ -2968,7 +2968,7 @@ preset_keyboards:
       - {click: "d(ŐдŐ๑)", key_text_size: "11"}
       - {click: "┑(￣Д ￣)┍", key_text_size: "11"}
       - {click: "╭(°A°`)╮", key_text_size: "11"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "⊙▽⊙", key_text_size: "11"}
       - {click: "(๑òᆺó๑)", key_text_size: "11"}
       - {click: "(#ﾟДﾟ)", key_text_size: "11"}
@@ -3007,7 +3007,7 @@ preset_keyboards:
       - {click: "╮(╯_╰)╭", key_text_size: "11"}
       - {click: "（︶︿︶）", key_text_size: "11"}
       - {click: "_(:з」∠)_", key_text_size: "11"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "@_@", key_text_size: "11"}
       - {click: "╮(╯▽╰)╭", key_text_size: "11"}
       - {click: "(＠￣ー￣＠)", key_text_size: "11"}
@@ -3048,7 +3048,7 @@ preset_keyboards:
       - {click: "😀"}
       - {click: "😁"}
       - {click: "😂"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "😆"}
       - {click: "😉"}
       - {click: "😊"}
@@ -3095,7 +3095,7 @@ preset_keyboards:
       - {click: "😶"}
       - {click: "🙄"}
       - {click: "😏"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "🙃"}
       - {click: "😯"}
       - {click: "😪"}
@@ -3142,7 +3142,7 @@ preset_keyboards:
       - {click: "👌"}
       - {click: "💅"}
       - {click: "🙏"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "🖕"}
       - {click: "👎"}
       - {click: "✊"}
@@ -3189,7 +3189,7 @@ preset_keyboards:
       - {click: "😞"}
       - {click: "😟"}
       - {click: "😤"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "😢"}
       - {click: "😭"}
       - {click: "😦"}
@@ -3236,7 +3236,7 @@ preset_keyboards:
       - {click: "◇"}
       - {click: "□"}
       - {click: "☆"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "▲"}
       - {click: "▼"}
       - {click: "●"}
@@ -3283,7 +3283,7 @@ preset_keyboards:
       - {click: "☻"}
       - {click: "◐"}
       - {click: "㏂"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "☀"}
       - {click: "☾"}
       - {click: "♂"}
@@ -3330,7 +3330,7 @@ preset_keyboards:
       - {click: "♬"}
       - {click: "§"}
       - {click: "°"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "♭"}
       - {click: "♯"}
       - {click: "♮"}
@@ -3377,7 +3377,7 @@ preset_keyboards:
       - {click: "◤"}
       - {click: "㊤"}
       - {click: "◥"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "←"}
       - {click: "↔"}
       - {click: "→"}
@@ -3424,7 +3424,7 @@ preset_keyboards:
       - {click: "〼"}
       - {click: "▢"}
       - {click: "▣"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "⇦"}
       - {click: "⇧"}
       - {click: "⇨"}
@@ -3471,7 +3471,7 @@ preset_keyboards:
       - {click: "⚿"}
       - {click: "⛮"}
       - {click: "⚙"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "☳"}
       - {click: "☯"}
       - {click: "☱"}
@@ -3518,7 +3518,7 @@ preset_keyboards:
       - {click: "/"}
       - {click: "="}
       - {click: "≡"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "﹤"}
       - {click: "﹥"}
       - {click: "≦"}
@@ -3565,7 +3565,7 @@ preset_keyboards:
       - {click: "㎜"}
       - {click: "㎝"}
       - {click: "㎞"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "℃"}
       - {click: "¥"}
       - {click: "$"}
@@ -3612,7 +3612,7 @@ preset_keyboards:
       - {click: "∩"}
       - {click: "∧"}
       - {click: "⊙"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "⌒"}
       - {click: "∥"}
       - {click: "∟"}
@@ -3659,7 +3659,7 @@ preset_keyboards:
       - {click: "⁴"}
       - {click: "⁵"}
       - {click: "ⁿ"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "⁶"}
       - {click: "⁷"}
       - {click: "⁸"}
@@ -3706,7 +3706,7 @@ preset_keyboards:
       - {click: "₄"}
       - {click: "₅"}
       - {click: "ₙ"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "₆"}
       - {click: "₇"}
       - {click: "₈"}
@@ -3752,7 +3752,7 @@ preset_keyboards:
       - {click: "③"}
       - {click: "④"}
       - {click: "⑤"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "⑥"}
       - {click: "⑦"}
       - {click: "⑧"}
@@ -3795,7 +3795,7 @@ preset_keyboards:
       - {click: "⒔"}
       - {click: "⒕"}
       - {click: "⒖"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "⒗"}
       - {click: "⒘"}
       - {click: "⒙"}
@@ -3838,7 +3838,7 @@ preset_keyboards:
       - {click: "⒀"}
       - {click: "⒁"}
       - {click: "⒂"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "⒃"}
       - {click: "⒄"}
       - {click: "⒅"}
@@ -3881,7 +3881,7 @@ preset_keyboards:
       - {click: "➌"}
       - {click: "➍"}
       - {click: "➎"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "➏"}
       - {click: "➐"}
       - {click: "➑"}
@@ -3924,7 +3924,7 @@ preset_keyboards:
       - {click: "ⅲ"}
       - {click: "ⅳ"}
       - {click: "ⅴ"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "ⅵ"}
       - {click: "ⅶ"}
       - {click: "ⅷ"}
@@ -3968,7 +3968,7 @@ preset_keyboards:
       - {click: "┏"}
       - {click: "┳"}
       - {click: "┓"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "├"}
       - {click: "┼"}
       - {click: "┤"}
@@ -4015,7 +4015,7 @@ preset_keyboards:
       - {click: "╭"}
       - {click: "─"}
       - {click: "╮"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "╠"}
       - {click: "╬"}
       - {click: "╣"}
@@ -4062,7 +4062,7 @@ preset_keyboards:
       - {click: "╖"}
       - {click: "╱"}
       - {click: "╲"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "╘"}
       - {click: "╛"}
       - {click: "╙"}
@@ -4109,7 +4109,7 @@ preset_keyboards:
       - {click: "à"}
       - {click: "ō"}
       - {click: "ó"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "ē"}
       - {click: "é"}
       - {click: "ě"}
@@ -4156,7 +4156,7 @@ preset_keyboards:
       - {click: "ń"}
       - {click: "ň"}
       - {click: ""}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "ㄚ"}
       - {click: "ㄛ"}
       - {click: "ㄜ"}
@@ -4203,7 +4203,7 @@ preset_keyboards:
       - {click: "ㄊ"}
       - {click: "ㄋ"}
       - {click: "ㄌ"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "ㄍ"}
       - {click: "ㄎ"}
       - {click: "ㄏ"}
@@ -4250,7 +4250,7 @@ preset_keyboards:
       - {click: "Δ"}
       - {click: "Ε"}
       - {click: "Ζ"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "Η"}
       - {click: "Θ"}
       - {click: "Ι"}
@@ -4297,7 +4297,7 @@ preset_keyboards:
       - {click: "δ"}
       - {click: "ε"}
       - {click: "ζ"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "η"}
       - {click: "θ"}
       - {click: "ι"}
@@ -4344,7 +4344,7 @@ preset_keyboards:
       - {click: "Г"}
       - {click: "Д"}
       - {click: "Е"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "Ё"}
       - {click: "Ж"}
       - {click: "З"}
@@ -4391,7 +4391,7 @@ preset_keyboards:
       - {click: "Ъ"}
       - {click: "Ы"}
       - {click: "Ь"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "Э"}
       - {click: "Ю"}
       - {click: "Я"}
@@ -4438,7 +4438,7 @@ preset_keyboards:
       - {click: "о"}
       - {click: "п"}
       - {click: "р"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "с"}
       - {click: "т"}
       - {click: "у"}
@@ -4485,7 +4485,7 @@ preset_keyboards:
       - {click: "Ã"}
       - {click: "Ä"}
       - {click: "Å"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "Æ"}
       - {click: "Ç"}
       - {click: "È"}
@@ -4532,7 +4532,7 @@ preset_keyboards:
       - {click: "Ü"}
       - {click: "Ý"}
       - {click: "Þ"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "Š"}
       - {click: "Ÿ"}
       - {click: "Œ"}
@@ -4579,7 +4579,7 @@ preset_keyboards:
       - {click: "ï"}
       - {click: "ð"}
       - {click: "ñ"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "ò"}
       - {click: "ó"}
       - {click: "õ"}
@@ -4626,7 +4626,7 @@ preset_keyboards:
       - {click: "ㅕ"}
       - {click: "ㅗ"}
       - {click: "ㅛ"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "ㅜ"}
       - {click: "ㅠ"}
       - {click: "ㅡ"}
@@ -4673,7 +4673,7 @@ preset_keyboards:
       - {click: "ㄹ"}
       - {click: "ㅁ"}
       - {click: "ㅂ"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "ㅅ"}
       - {click: "ㅇ"}
       - {click: "ㅈ"}
@@ -4720,7 +4720,7 @@ preset_keyboards:
       - {click: "㉣"}
       - {click: "㉤"}
       - {click: "㉥"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "㉦"}
       - {click: "㉧"}
       - {click: "㉨"}
@@ -4767,7 +4767,7 @@ preset_keyboards:
       - {click: "㉻"}
       - {click: ""}
       - {click: ""}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "㈀"}
       - {click: "㈁"}
       - {click: "㈂"}
@@ -4814,7 +4814,7 @@ preset_keyboards:
       - {click: "㈕"}
       - {click: "㈖"}
       - {click: "㈗"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "㈘"}
       - {click: "㈙"}
       - {click: "㈚"}
@@ -4861,7 +4861,7 @@ preset_keyboards:
       - {click: "i:"}
       - {click: "u:"}
       - {click: "ʌ"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "ɒ"}
       - {click: "ə"}
       - {click: "ɪ"}
@@ -4908,7 +4908,7 @@ preset_keyboards:
       - {click: "d"}
       - {click: "g"}
       - {click: "v"}
-      - {click: BackSpace, swipe_left: ClearH, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
+      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst,hilited_key_text_color: hcht, width: 19}
       - {click: "ð"}
       - {click: "z"}
       - {click: "ʃ"}
@@ -5163,7 +5163,7 @@ preset_keys:
   space3: {repeatable: true, preview: '␣', label: "␣", functional: false, send: space}
   space_Ch: {repeatable: true, preview: '␣', label: "空格", functional: true, send: space}
   space_Ch1: {repeatable: false, preview: '␣', label: "  ", functional: true, send: space}
-  Clear: {label: Del, send: Clear}
+  Clear: {label: Clear, functional: false, text: "{Control+a}{Delete}"}
   Clear_Ch: {label: 全清, send: Clear}
   ClearH_Ch: {label: "删行", functional: false, text: "{End}{Shift+Home}{Delete}"} #清除行
   ClearH: {label: "Del↔", functional: false, text: "{End}{Shift+Home}{Delete}"}
