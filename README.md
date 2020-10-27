@@ -20,15 +20,15 @@
 
 - **enjoy it! 好用的话就点个赞。感谢你的使用，因为本人同时在安卓和windows端使用，所以会一直更新。**
 ## 更新说明
+2020-10-27
+- 1.新增讯飞皮肤
+- 2.更新部分细节
 2020-10-25
 - 1.去除了明月拼音，添加了以搜狗为基础的输入方案——🍀️四叶草简体拼音
 - 2.以🍀️四叶草简体拼音为基础，添加了四叶草九宫输入方案，方便在手机端可以使用
 - 3.同文手机端添加了两款机械键盘主题，cherry机械键盘/罗技
 - 4.四叶草拼音输入法在手机端支持简繁转有一些问题，原因是没有正确配置opencc，修改后手机端支持简繁转换
 - 5.极品五笔方案增加支持字符（输入`平方`可以选择`²`），emoji表情，繁简转换
-
-### 安装方法
-[点击直达](https://github.com/JaaikoLai/BeautifulRime/blob/master/README.md#%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95)
 
 ### 包含输入方案
  - 极点五笔：https://github.com/KyleBing/rime-wubi86-jidian
@@ -59,58 +59,43 @@
 ### 同文（安卓端）
 
 ##### 🍀️四叶草九宫输入方案
-![Image text](/Res/trime_preview_jiugong.png)
+![Image text](/Res/trime_preview_jiugong.jpg)
 
 ##### 手机端支持简繁转换
 
 ![Image text](/Res/trime_convert.jpg)
+
+
 #### 部分皮肤预览
 
+##### 讯飞默认皮肤[配色：Jaaiko，键盘布局：Jaaiko]
+
+![Image text](/Res/trime_xunfei.png)
+
 ##### cherry机械键盘
-- 全键盘
 
-![Image text](/Res/trime_cherry.jpg)
+![Image text](/Res/trime_cherry.png)
 
-- 九宫格
-
-![Image text](/Res/trime_cherry_jiugong.jpg)
 
 ##### 极致简约[配色：Jaaiko，键盘布局：Jaaiko]
-- 全键盘
 
-![Image text](/Res/trime_preview.jpg)
+![Image text](/Res/trime_preview.png)
 
-- 九宫格
 
-![Image text](/Res/trime_preview_jiugong.png)
+##### 默认黑
 
-##### 默认黑[键盘布局：Jaaiko]
-- 全键盘
+![Image text](/Res/trime_wubi.png)
 
-![Image text](/Res/trime_wubi.jpg)
 
-- 九宫格
+##### 五笔字根
 
-![Image text](/Res/trime_wubi_jiugong.jpg)
+![Image text](/Res/trime_wubizigen.png)
 
-##### 五笔白色字根
-- 全键盘
-
-![Image text](/Res/trime_wubiwhite.jpg)
-
-##### 五笔彩色字根
-- 全键盘
-
-![Image text](/Res/trime_wubicolor.jpg)
 
 ##### 炫彩[键盘布局：Jaaiko]
-- 全键盘
 
-![Image text](/Res/trime_xuancai.jpg)
+![Image text](/Res/trime_xuancai.png)
 
-- 九宫格
-
-![Image text](/Res/trime_xuancai_jiugong.jpg)
 
 
 ## 安装方法
