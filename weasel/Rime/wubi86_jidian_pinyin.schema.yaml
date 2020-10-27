@@ -73,7 +73,7 @@ abc_segmentor:
     - reverse_lookup
 
 reverse_lookup:
-  dictionary: pinyin_simp
+  dictionary: clover
   prefix: "`"
   suffix: "'"
   tips: [拼音]
