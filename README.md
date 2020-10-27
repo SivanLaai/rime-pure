@@ -72,7 +72,7 @@
 
 ![Image text](/Res/trime_xunfei.png)
 
-##### cherry机械键盘
+##### cherry机械键盘【小先生】
 
 ![Image text](/Res/trime_cherry.png)
 
@@ -82,12 +82,12 @@
 ![Image text](/Res/trime_preview.png)
 
 
-##### 默认黑
+##### 默认黑【佚名】
 
 ![Image text](/Res/trime_wubi.png)
 
 
-##### 五笔字根
+##### 五笔字根【佚名】
 
 ![Image text](/Res/trime_wubizigen.png)
 
