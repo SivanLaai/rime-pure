@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 config_version: "2020年10月20日"
-name: 极致简约 #方案名称
+name: 讯飞皮肤 #方案名称
 author: 冷粼粼
 
 
@@ -14,9 +14,9 @@ candidate_setting:
 # -------调整完毕，如果出现上下档字符偏离键位，可调节下面项------
 keyboard_height:
 # ----------键盘高度调整------------
-  A: &VJG 53        #主辅键盘键高  自定   
+  A: &VJG 53         #主辅键盘键高  自定   
   B: &VJM 53        #主辅键盘末行键高  B≈A，如主键盘和符号键盘不等高，调整此数
-  C: &FJG 43.6666        #符号键盘键高  C=A*4/5=46.4取整随意
+  C: &FJG 46        #符号键盘键高  (FJG × 5) + (FJH × 6) = (VJG × 4) + (VJH × 5) 解方程可以求出FJG = 46
   E: &DsymY 2.0           #主键盘上档文字纵向位置调节，负数上移，下同
   F: &DsymX 0             #主键盘上档文字横向位置调节，负数左移
   G: &DtextY 0              #主键盘字母纵向位置调节
@@ -28,6 +28,7 @@ keyboard_height:
   M: &CQ_hintY -3            #助记符号（下排文字、下档文字）纵向位置调节
   N: &CQ_text_size 20
   H: &VJG_Other 53
+  I: &NUM_SYM_W 15.5   # 数字  符号键盘  宽度
 
   1: &jpgd1 30 #表情键盘
   2: &jpgd2 24 #颜文字键盘1
@@ -44,12 +45,16 @@ code_height:
 other:
 #主键盘结构（四行）
   a: &VJH 6         #主键盘行距  建议不动
-  b: &VJL 3         #主键盘列距
+  b: &VJL 6         #主键盘列距
   c: &VJY 12         #主键盘圆角
 #符号键盘结构（五行）
-  d: &FJH 6         #符号键盘行距  建议不动
-  e: &FJL 3         #符号键盘列距
+  d: &FJH 2         #符号键盘行距  建议不动
+  e: &FJL 2         #符号键盘列距
   f: &FJY 12         #符号键盘圆角
+#数字键盘结构（四行）
+  g: &NJH 6         #数字键盘行距  建议不动
+  h: &NJL 6         #数字键盘列距
+  i: &NJY 12         #数字键盘圆角
 #键盘高度
 round_corner:
   1: &round1 12 #按键圆角半径
@@ -66,20 +71,24 @@ colors:
   6: &COLOR_GRAY_BLUE 0xff3266a0 # 灰蓝 0xff3266a0
   7: &COLOR_TRANSPARENT 0x00000000 #透明
   8: &COLOR_GRAY 0xff838383 # 灰
-  9: &COLOR_LIGHT_GRAY 0xFFd9d9d9 #浅灰
-  10: &COLOR_LIGHT_GRAY_PP 0xffeaeaea #浅灰++
-  11: &COLOR_DARK_SLATE_GRAY 0xFF1f272a #墨绿色
+  9: &COLOR_LIGHT_GRAY 0xFFe5e6eb #浅灰
+  10: &COLOR_LIGHT_GRAY_PP 0xffc9cace #浅灰++ 0xff6f7b83
+  11: &COLOR_DARK_SLATE_GRAY 0xFF2F4F4F #墨绿色
   12: &COLOR_ORANGE  0xFFf57d51  #橙
   13: &COLOR_DARK_SLATE_GRAY1 0xff253238 #墨绿色1
   14: &COLOR_LIGHT_GRAY_P 0xffcccccc #浅灰+
   15: &COLOR_DARK_SLATE_GRAY2 0xff354346 #墨绿色2
-  16: &COLOR_RED  0xffeb1212 #红色 0xff2200
+  16: &COLOR_RED  0xffe63549 #红色 0xff2200
   17: &COLOR_DARK_RED 0xff881c1c  #深暗红
   18: &COLOR_LIGHT_SEA_BLUE 0xff1693d8 #浅海蓝
   19: &COLOR_DARK_SEA_BLUE 0xff007dc7  #暗海蓝
   20: &COLOR_BLACK_1 0xff888888 #黑1
   21: &COLOR_GRAY_1 0xffaaaaaa #灰1
   21: &COLOR_LIGHT_BLUE 0xFF56A2FA #浅蓝
+  22: &COLOR_IFLY_BLUE 0xFF3d9dff #讯飞蓝
+  23: &COLOR_LIGHT_IFLY_GRAY_P 0xFFb6b7b9 #讯飞功能按键激活灰
+  24: &COLOR_NOSIGNAL_GRAY 0xffa3a7aa #按键无法选择灰
+  25: &COLOR_DARK_GRAY 0xff6f7b83 #深灰
 
   
 
@@ -192,176 +201,187 @@ fallback_colors:
 preset_color_schemes:
 #--------配色开始----------------#
   default:
-    name: "默认／标准配色"
+    name: "默认.讯飞原生版"
     author: jaaiko
-    back_color: 0xffeaeaea
-    border_color: *COLOR_LIGHT_GRAY
-    candidate_separator_color: *COLOR_TRANSPARENT
-    candidate_text_color: 0xff696969
-    comment_text_color: 0xFFADADAD
-    hilited_back_color: *COLOR_TRANSPARENT
-    hilited_candidate_back_color: *COLOR_TRANSPARENT
-    hilited_candidate_text_color: 0xff1693d8
-    hilited_comment_text_color: 0xff696969
-    hilited_key_back_color: MIkgh_space.png #0xffe1e1e1
-    hilited_key_symbol_color: 0xff6f7b83
-    hilited_key_text_color: *COLOR_BLACK
-    hilited_off_key_back_color: *COLOR_WHITE
-    hilited_off_key_text_color: *COLOR_BLACK
-    hilited_on_key_back_color: *COLOR_WHITE
-    hilited_on_key_text_color: *COLOR_BLACK
-    hilited_text_color: 0xff23948e
-    key_back_color: MIkgb_space.png # *COLOR_WHITE
-    #key_border_color: 0xffeceff1
-    key_symbol_color: 0xff6f7b83
-    key_text_color: 0xff4a4a4a
-    keyboard_back_color: *COLOR_LIGHT_GRAY
-    off_key_back_color: MIgnb1.png #0xffe1e1e1
-    off_key_text_color: 0xff4d4d4d
-    on_key_back_color:  MIgnb1.png # 0xffe1e1e1
-    on_key_text_color: 0xff1693d8
-    preview_back_color: 0xff1693d8
-    preview_text_color: *COLOR_WHITE
+    # 悬浮窗
+    border_color: *COLOR_LIGHT_GRAY #悬浮窗边框
+    text_color: *COLOR_BLACK #悬浮窗编码
+    text_back_color: *COLOR_WHITE #悬浮窗背景
+    hilited_text_color: *COLOR_BLACK #悬浮窗高亮编码
+    label_color: *COLOR_BLACK #悬浮窗候选项序号
+    hilited_back_color: *COLOR_TRANSPARENT #悬浮窗高亮编码背景
+    # 候选区
+    back_color: *COLOR_WHITE #0xffeaeaea #候选区背景状态栏(无障碍)
+    candidate_separator_color: *COLOR_TRANSPARENT #候选区分隔颜色
+    candidate_text_color: *COLOR_BLACK # 候选区文本颜色
+    comment_text_color: *COLOR_LIGHT_GRAY_PP #0xff242424 # 0xFFADADAD  # 候选区编码文本颜色
+    hilited_candidate_back_color: *COLOR_TRANSPARENT # 候选区高亮背景颜色
+    hilited_candidate_text_color: *COLOR_IFLY_BLUE #0xff1693d8 # 候选区高亮文本颜色
+    hilited_comment_text_color: *COLOR_IFLY_BLUE #0xff696969 # 候选区高亮编码文本颜色
+    # 键盘
+    keyboard_back_color: *COLOR_LIGHT_GRAY #键盘背景颜色
+    # 正常按键
+    key_back_color: *COLOR_WHITE #按键背景颜色
+    key_border_color: *COLOR_TRANSPARENT #按键边框颜色
+    key_symbol_color: *COLOR_DARK_GRAY # 0xff6f7b83 #按键符号颜色
+    key_text_color: *COLOR_BLACK # 0xff4a4a4a #按键文本颜色
+    hilited_key_back_color: *COLOR_LIGHT_GRAY_PP #0xffe1e1e1 #按键激活背景颜色
+    hilited_key_symbol_color: *COLOR_DARK_GRAY #按键激活符号颜色
+    hilited_key_text_color: *COLOR_BLACK #按键激活文本颜色
+    # 功能键，shift常态 
+    off_key_back_color: *COLOR_LIGHT_GRAY_PP #功能键，shift常态  背景颜色
+    off_key_text_color: *COLOR_BLACK #功能键，shift常态  文本颜色
+    hilited_off_key_back_color: *COLOR_LIGHT_IFLY_GRAY_P #激活功能键，shift常态  背景颜色
+    hilited_off_key_text_color: *COLOR_BLACK #激活功能键，shift常态  文本颜色
+    # shift激活 
+    on_key_back_color:  *COLOR_DARK_SEA_BLUE # 背景颜色
+    on_key_text_color: *COLOR_WHITE # 文本颜色
+    hilited_on_key_back_color: *COLOR_DARK_SEA_BLUE
+    hilited_on_key_text_color: *COLOR_WHITE
+    # 按键下去气泡
+    preview_back_color: *COLOR_TRANSPARENT
+    preview_text_color: *COLOR_BLACK
     shadow_color: *COLOR_BLACK
-    text_color: 0xff5b696f
-    text_back_color: *COLOR_WHITE
-    label_color: 0xff999999
-    ABC: MIgnb.png
-    AAA: MIkey.png
-    BBB: MIkey.png
-    CCC: MIkey.png
-    ABH: MIkeyh.png
-    AAH: MIkeyh.png
-    BBH: MIkeyh.png
-    CCH: MIkeyh.png
-    szbdb: MIkgb_space.png
-    szhcb: MIhcb.png
-    szhch: MIhch.png
-    szgnb: MIkga_space.png
-    szgnh: MIkgh_space.png 
+    # 按键额外配置
+    AAA: *COLOR_WHITE
+    BBB: *COLOR_WHITE
+    CCC: *COLOR_WHITE
+    ABH: *COLOR_LIGHT_GRAY_P
+    AAH: *COLOR_LIGHT_GRAY_P
+    BBH: *COLOR_LIGHT_GRAY_P
+    CCH: *COLOR_LIGHT_GRAY_P
+    # 数字
+    szbdb: *COLOR_WHITE
+    szhcb: *COLOR_LIGHT_GRAY_PP ####
+    szhch: *COLOR_LIGHT_IFLY_GRAY_P #####
+    szgnb: *COLOR_LIGHT_GRAY_PP
+    szgnh: *COLOR_LIGHT_IFLY_GRAY_P
+    szhct: *COLOR_BLACK
+    # 符号
+    bdb: *COLOR_WHITE
+    bdh: *COLOR_LIGHT_GRAY_P
+    # 功能
+    gnb: *COLOR_LIGHT_GRAY_PP
+    gnh: *COLOR_LIGHT_GRAY_PP
+    gns: *COLOR_DARK_GRAY
+    # 空格
+    kgb: *COLOR_WHITE 
+    kgh: *COLOR_LIGHT_GRAY_PP
+    kgs: *COLOR_DARK_GRAY
+    kgt: *COLOR_BLACK
+    # backspace
+    bkss: *COLOR_DARK_GRAY
+    bkst: *COLOR_BLACK # backspace按键颜色  
+    bksb: *COLOR_LIGHT_GRAY_PP # backspace按键背景 
+    bksh: *COLOR_LIGHT_IFLY_GRAY_P # backspace按键激活背景
+    # 回车
+    hcb: *COLOR_LIGHT_GRAY_PP
+    hch: *COLOR_LIGHT_IFLY_GRAY_P
+    hcs: *COLOR_DARK_GRAY
+    hct: *COLOR_BLACK
+    hcht: *COLOR_BLACK
+    hchs: *COLOR_DARK_GRAY
+    hbdt: *COLOR_BLACK
+    hsb: *COLOR_LIGHT_GRAY_PP
+    # 符号
+    cdt: *COLOR_IFLY_BLUE
+    fyt: *COLOR_NOSIGNAL_GRAY
+    # 菜单
+    xdb: *COLOR_WHITE
+  
+  default1:
+    name: "默认.讯飞修改版"
+    author: jaaiko
+    # 悬浮窗
+    border_color: *COLOR_LIGHT_GRAY #悬浮窗边框
+    text_color: *COLOR_BLACK #悬浮窗编码
+    text_back_color: *COLOR_WHITE #悬浮窗背景
+    hilited_text_color: *COLOR_BLACK #悬浮窗高亮编码
+    label_color: *COLOR_BLACK #悬浮窗候选项序号
+    hilited_back_color: *COLOR_TRANSPARENT #悬浮窗高亮编码背景
+    # 候选区
+    back_color: *COLOR_WHITE #0xffeaeaea #候选区背景状态栏(无障碍)
+    candidate_separator_color: *COLOR_TRANSPARENT #候选区分隔颜色
+    candidate_text_color: *COLOR_BLACK # 候选区文本颜色
+    comment_text_color: *COLOR_LIGHT_GRAY_PP #0xff242424 # 0xFFADADAD  # 候选区编码文本颜色
+    hilited_candidate_back_color: *COLOR_TRANSPARENT # 候选区高亮背景颜色
+    hilited_candidate_text_color: *COLOR_IFLY_BLUE #0xff1693d8 # 候选区高亮文本颜色
+    hilited_comment_text_color: *COLOR_IFLY_BLUE #0xff696969 # 候选区高亮编码文本颜色
+    # 键盘
+    keyboard_back_color: *COLOR_LIGHT_GRAY #键盘背景颜色
+    # 正常按键
+    key_back_color: *COLOR_WHITE #按键背景颜色
+    key_border_color: *COLOR_TRANSPARENT #按键边框颜色
+    key_symbol_color: *COLOR_DARK_GRAY # 0xff6f7b83 #按键符号颜色
+    key_text_color: *COLOR_BLACK # 0xff4a4a4a #按键文本颜色
+    hilited_key_back_color: *COLOR_LIGHT_GRAY_PP #0xffe1e1e1 #按键激活背景颜色
+    hilited_key_symbol_color: *COLOR_DARK_GRAY #按键激活符号颜色
+    hilited_key_text_color: *COLOR_BLACK #按键激活文本颜色
+    # 功能键，shift常态 
+    off_key_back_color: *COLOR_LIGHT_GRAY_PP #功能键，shift常态  背景颜色
+    off_key_text_color: *COLOR_BLACK #功能键，shift常态  文本颜色
+    hilited_off_key_back_color: *COLOR_LIGHT_IFLY_GRAY_P #激活功能键，shift常态  背景颜色
+    hilited_off_key_text_color: *COLOR_BLACK #激活功能键，shift常态  文本颜色
+    # shift激活 
+    on_key_back_color:  *COLOR_DARK_SEA_BLUE # 背景颜色
+    on_key_text_color: *COLOR_WHITE # 文本颜色
+    hilited_on_key_back_color: *COLOR_DARK_SEA_BLUE
+    hilited_on_key_text_color: *COLOR_WHITE
+    # 按键下去气泡
+    preview_back_color: *COLOR_TRANSPARENT
+    preview_text_color: *COLOR_BLACK
+    shadow_color: *COLOR_BLACK
+    # 按键额外配置
+    AAA: *COLOR_WHITE
+    BBB: *COLOR_WHITE
+    CCC: *COLOR_WHITE
+    ABH: *COLOR_LIGHT_GRAY_P
+    AAH: *COLOR_LIGHT_GRAY_P
+    BBH: *COLOR_LIGHT_GRAY_P
+    CCH: *COLOR_LIGHT_GRAY_P
+    # 数字
+    szbdb: *COLOR_WHITE
+    szhcb: *COLOR_LIGHT_SEA_BLUE
+    szhch: *COLOR_DARK_SEA_BLUE
+    szgnb: *COLOR_LIGHT_GRAY_PP
+    szgnh: *COLOR_WHITE
     szhct: *COLOR_WHITE
-    bdb: MIkey.png
-    bdh: MIkeyh.png
-    hbdt: 0xff37474f
-    hsb: MIgnb.png
-    szb: MIgnb.png
-    szs: 0xff5b696f
-    bkss: *COLOR_WHITE # backspace字符颜色    
-    bkst: *COLOR_WHITE # backspace按键颜色
-    bksb: MIhcb1.png # backspace按键背景
-    bksh: MIhch1.png # backspace按键激活背景
-    gnb: MIgnb.png
-    gnh: MIgnh.png
-    gns: 0xff5b696f
-    kgb: MIkgb_space.png 
-    kgh: MIkgh_space.png
-    kgs: 0xff5f6b73
-    kgt: 0xff4d4d4d
-    hcb: MIhcb.png
-    hch: MIhch.png
-    hcs: *COLOR_WHITE
+    # 符号
+    bdb: *COLOR_WHITE
+    bdh: *COLOR_LIGHT_GRAY_P
+    # 功能
+    gnb: *COLOR_LIGHT_GRAY_PP
+    gnh: *COLOR_LIGHT_GRAY_PP
+    gns: *COLOR_DARK_GRAY
+    # 空格
+    kgb: *COLOR_WHITE 
+    kgh: *COLOR_LIGHT_GRAY_PP
+    kgs: *COLOR_DARK_GRAY
+    kgt: *COLOR_BLACK
+    # backspace
+    bkss: *COLOR_WHITE
+    bkst: *COLOR_WHITE # backspace按键颜色  
+    bksb: *COLOR_RED # backspace按键背景 
+    bksh: *COLOR_DARK_RED # backspace按键激活背景
+    # 回车
+    hcb: *COLOR_LIGHT_SEA_BLUE
+    hch: *COLOR_DARK_SEA_BLUE
+    hcs: *COLOR_DARK_GRAY
     hct: *COLOR_WHITE
     hcht: *COLOR_WHITE
-    hchs: *COLOR_WHITE
-    cdt: 0xff1693d8
-    cdA: 0xff1693d8
-    cdB: 0xff666666
-    cdC: 0xff666666
-    fyt: 0xffa3a7aa
-    zyb: 0x00ffffff
-    zyt: 0x00ffffff
-    zjs: 0xff6f7b83
-    xdb: *COLOR_LIGHT_GRAY
-    ykgb: MIkgb_space.png
-    zkgb: MIkgb_space.png
-  
+    hchs: *COLOR_DARK_GRAY
+    hbdt: *COLOR_WHITE
+    hsb: *COLOR_LIGHT_SEA_BLUE
 
-  purewhite:
-    name: "默认／纯白"
-    author: jaaiko
-    back_color: 0xffeaeaea
-    border_color: *COLOR_LIGHT_GRAY
-    candidate_separator_color: *COLOR_TRANSPARENT
-    candidate_text_color: 0xff696969
-    comment_text_color: 0xFFADADAD
-    hilited_back_color: *COLOR_TRANSPARENT
-    hilited_candidate_back_color: *COLOR_TRANSPARENT
-    hilited_candidate_text_color: 0xff1693d8
-    hilited_comment_text_color: 0xff696969
-    hilited_key_back_color: MIkgh_space.png #0xffe1e1e1
-    hilited_key_symbol_color: 0xff6f7b83
-    hilited_key_text_color: *COLOR_BLACK
-    hilited_off_key_back_color: *COLOR_WHITE
-    hilited_off_key_text_color: *COLOR_BLACK
-    hilited_on_key_back_color: *COLOR_WHITE
-    hilited_on_key_text_color: *COLOR_BLACK
-    hilited_text_color: 0xff23948e
-    key_back_color: MIkgb_space.png # *COLOR_WHITE
-    #key_border_color: 0xffeceff1
-    key_symbol_color: 0xff6f7b83
-    key_text_color: 0xff4a4a4a
-    keyboard_back_color: *COLOR_LIGHT_GRAY
-    off_key_back_color: MIgnb1.png #0xffe1e1e1
-    off_key_text_color: 0xff4d4d4d
-    on_key_back_color:  MIgnb1.png # 0xffe1e1e1
-    on_key_text_color: 0xff1693d8
-    preview_back_color: 0xff1693d8
-    preview_text_color: *COLOR_WHITE
-    shadow_color: *COLOR_BLACK
-    text_color: 0xff5b696f
-    text_back_color: *COLOR_WHITE
-    label_color: 0xff999999
-    ABC: MIbdb.png
-    AAA: MIkey.png
-    BBB: MIkey.png
-    CCC: MIkey.png
-    ABH: MIkeyh.png
-    AAH: MIkeyh.png
-    BBH: MIkeyh.png
-    CCH: MIkeyh.png
-    szbdb: MIkgb_space.png
-    szhcb: MIkgb_space.png
-    szhch: MIkgb_space.png
-    szgnb: MIkgb_space.png
-    szgnh: MIkgh_space.png
-    szhct: 0xff5b696f
-    bdb: MIkey.png
-    bdh: MIkeyh.png
-    hbdt: 0xff37474f
-    hsb: MIbdb.png
-    szb: MIbdb.png
-    szs: 0xff5b696f   
-    bkss: 0xff6f7b83
-    bkst: 0xff5b696f  # backspace按键颜色
-    bksb: MIbdb.png # backspace按键背景
-    bksh: MIgnh.png # backspace按键激活背景
-    gnb: MIkgb_space.png
-    gnh: MIgnh.png
-    gns: 0xff5b696f
-    kgb: MIkgb_space.png 
-    kgh: MIkgh_space.png
-    kgs: 0xff5f6b73
-    kgt: 0xff4d4d4d
-    hcb: MIbdb.png
-    hch: MIgnh.png
-    hcs: 0xff6f7b83
-    hct: 0xff5b696f
-    hcht: 0xff5b696f
-    hchs: 0xff6f7b83
-    cdt: 0xff1693d8
-    cdA: 0xff1693d8
-    cdB: 0xff666666
-    cdC: 0xff666666
-    fyt: 0xffa3a7aa
-    zyb: 0x00ffffff
-    zyt: 0x00ffffff
-    zjs: 0xff6f7b83
-    xdb: *COLOR_LIGHT_GRAY
-    ykgb: MIkgb_space.png
-    zkgb: MIkgb_space.png
+
+    # 符号
+    cdt: *COLOR_IFLY_BLUE
+    fyt: *COLOR_NOSIGNAL_GRAY
+    # 菜单
+    xdb: *COLOR_WHITE
   
-  purify:
-    name: "默认／简约极致"
+  default2:
+    name: "默认.简约极致"
     author: jaaiko
     back_color: 0xffeaeaea
     border_color: *COLOR_LIGHT_GRAY
@@ -443,6 +463,175 @@ preset_color_schemes:
     xdb: *COLOR_LIGHT_GRAY
     ykgb: *COLOR_WHITE
     zkgb: *COLOR_WHITE
+
+  default3:
+    name: "默认.简约配色"
+    author: jaaiko
+    back_color: 0xffeaeaea
+    border_color: *COLOR_LIGHT_GRAY
+    candidate_separator_color: *COLOR_TRANSPARENT
+    candidate_text_color: 0xff696969
+    comment_text_color: 0xFFADADAD
+    hilited_back_color: *COLOR_TRANSPARENT
+    hilited_candidate_back_color: *COLOR_TRANSPARENT
+    hilited_candidate_text_color: 0xff1693d8
+    hilited_comment_text_color: 0xff696969
+    hilited_key_back_color: MIkgh_space.png #0xffe1e1e1
+    hilited_key_symbol_color: 0xff6f7b83
+    hilited_key_text_color: *COLOR_BLACK
+    hilited_off_key_back_color: MIkgh_space.png 
+    hilited_off_key_text_color: *COLOR_BLACK
+    hilited_on_key_back_color: MIkgh_space.png 
+    hilited_on_key_text_color: *COLOR_BLACK
+    hilited_text_color: 0xff23948e
+    key_back_color: MIkgb_space.png # *COLOR_WHITE
+    #key_border_color: 0xffeceff1
+    key_symbol_color: 0xff6f7b83
+    key_text_color: 0xff4a4a4a
+    keyboard_back_color: *COLOR_LIGHT_GRAY
+    off_key_back_color: MIkga_space.png #0xffe1e1e1
+    off_key_text_color: 0xff4d4d4d
+    on_key_back_color:  MIkga_space.png # 0xffe1e1e1
+    on_key_text_color: 0xff1693d8
+    preview_back_color: 0xff1693d8
+    preview_text_color: *COLOR_WHITE
+    shadow_color: *COLOR_BLACK
+    text_color: 0xff5b696f
+    text_back_color: *COLOR_WHITE
+    label_color: 0xff999999
+    ABC: MIgnb.png
+    AAA: MIkey.png
+    BBB: MIkey.png
+    CCC: MIkey.png
+    ABH: MIkeyh.png
+    AAH: MIkeyh.png
+    BBH: MIkeyh.png
+    CCH: MIkeyh.png
+    szbdb: MIkgb_space.png
+    szhcb: MIhcb.png
+    szhch: MIhch.png
+    szgnb: MIkga_space.png
+    szgnh: MIkgh_space.png 
+    szhct: *COLOR_WHITE
+    bdb: MIkey.png
+    bdh: MIkeyh.png
+    hbdt: 0xff37474f
+    hsb: MIgnb.png
+    szb: MIgnb.png
+    szs: 0xff5b696f
+    bkss: *COLOR_WHITE # backspace字符颜色    
+    bkst: *COLOR_WHITE # backspace按键颜色
+    bksb: MIhcb1.png # backspace按键背景
+    bksh: MIhch1.png # backspace按键激活背景
+    gnb: MIgnb.png
+    gnh: MIgnh.png
+    gns: 0xff5b696f
+    kgb: MIkgb_space.png 
+    kgh: MIkgh_space.png
+    kgs: 0xff5f6b73
+    kgt: 0xff4d4d4d
+    hcb: MIhcb.png
+    hch: MIhch.png
+    hcs: *COLOR_WHITE
+    hct: *COLOR_WHITE
+    hcht: *COLOR_WHITE
+    hchs: *COLOR_WHITE
+    cdt: 0xff1693d8
+    cdA: 0xff1693d8
+    cdB: 0xff666666
+    cdC: 0xff666666
+    fyt: 0xffa3a7aa
+    zyb: 0x00ffffff
+    zyt: 0x00ffffff
+    zjs: 0xff6f7b83
+    xdb: *COLOR_LIGHT_GRAY
+    ykgb: MIkgb_space.png
+    zkgb: MIkgb_space.png
+  
+
+  purewhite:
+    name: "默认.纯白"
+    author: jaaiko
+    back_color: 0xffeaeaea
+    border_color: *COLOR_LIGHT_GRAY
+    candidate_separator_color: *COLOR_TRANSPARENT
+    candidate_text_color: 0xff696969
+    comment_text_color: 0xFFADADAD
+    hilited_back_color: *COLOR_TRANSPARENT
+    hilited_candidate_back_color: *COLOR_TRANSPARENT
+    hilited_candidate_text_color: 0xff1693d8
+    hilited_comment_text_color: 0xff696969
+    hilited_key_back_color: MIkgh_space.png #0xffe1e1e1
+    hilited_key_symbol_color: 0xff6f7b83
+    hilited_key_text_color: *COLOR_BLACK
+    hilited_off_key_back_color: MIkgh_space.png
+    hilited_off_key_text_color: *COLOR_BLACK
+    hilited_on_key_back_color: MIkgh_space.png
+    hilited_on_key_text_color: *COLOR_BLACK
+    hilited_text_color: 0xff23948e
+    key_back_color: MIkgb_space.png # *COLOR_WHITE
+    #key_border_color: 0xffeceff1
+    key_symbol_color: 0xff6f7b83
+    key_text_color: 0xff4a4a4a
+    keyboard_back_color: *COLOR_LIGHT_GRAY
+    off_key_back_color: MIkgb_space.png #0xffe1e1e1
+    off_key_text_color: 0xff4d4d4d
+    on_key_back_color:  MIkgb_space.png # 0xffe1e1e1
+    on_key_text_color: 0xff1693d8
+    preview_back_color: 0xff1693d8
+    preview_text_color: *COLOR_WHITE
+    shadow_color: *COLOR_BLACK
+    text_color: 0xff5b696f
+    text_back_color: *COLOR_WHITE
+    label_color: 0xff999999
+    ABC: MIbdb.png
+    AAA: MIkey.png
+    BBB: MIkey.png
+    CCC: MIkey.png
+    ABH: MIkeyh.png
+    AAH: MIkeyh.png
+    BBH: MIkeyh.png
+    CCH: MIkeyh.png
+    szbdb: MIkgb_space.png
+    szhcb: MIkgb_space.png
+    szhch: MIkgb_space.png
+    szgnb: MIkgb_space.png
+    szgnh: MIkgh_space.png
+    szhct: 0xff5b696f
+    bdb: MIkey.png
+    bdh: MIkeyh.png
+    hbdt: 0xff37474f
+    hsb: MIbdb.png
+    szb: MIbdb.png
+    szs: 0xff5b696f   
+    bkss: 0xff6f7b83
+    bkst: 0xff5b696f  # backspace按键颜色
+    bksb: MIbdb.png # backspace按键背景
+    bksh: MIgnh.png # backspace按键激活背景
+    gnb: MIkgb_space.png
+    gnh: MIgnh.png
+    gns: 0xff5b696f
+    kgb: MIkgb_space.png 
+    kgh: MIkgh_space.png
+    kgs: 0xff5f6b73
+    kgt: 0xff4d4d4d
+    hcb: MIbdb.png
+    hch: MIgnh.png
+    hcs: 0xff6f7b83
+    hct: 0xff5b696f
+    hcht: 0xff5b696f
+    hchs: 0xff6f7b83
+    cdt: 0xff1693d8
+    cdA: 0xff1693d8
+    cdB: 0xff666666
+    cdC: 0xff666666
+    fyt: 0xffa3a7aa
+    zyb: 0x00ffffff
+    zyt: 0x00ffffff
+    zjs: 0xff6f7b83
+    xdb: *COLOR_LIGHT_GRAY
+    ykgb: MIkgb_space.png
+    zkgb: MIkgb_space.png
   
 
   tongwen:
@@ -1249,20 +1438,21 @@ preset_color_schemes:
     hilited_key_back_color: XHkeyG.png #高亮按键背景
     hilited_key_symbol_color: *COLOR_WHITE #高亮按键符号
     hilited_key_text_color: *COLOR_WHITE #高亮按键文本
-    hilited_off_key_back_color: XHkeyF.png #功能键高亮背景
+    hilited_off_key_back_color: XHkey.png #功能键高亮背景
     hilited_off_key_text_color: *COLOR_BLACK #功能键高亮文本
-    hilited_on_key_back_color: XHkeyF.png #shift锁定时的高亮背景，按下时
+    hilited_on_key_back_color: XHkey.png #shift锁定时的高亮背景，按下时
     hilited_on_key_text_color: *COLOR_BLACK #shift锁定时的高亮文本
     hilited_text_color: 0xff23948e #高亮编码
     key_back_color: XHkeyF.png #按键背景
+
     #key_border_color: 0xffeceff1 #按键边框 取消
     key_symbol_color: 0xff919191 #按键符号上下
     key_text_color: 0xff616161 #按键文本
     keyboard_back_color: 0xffeaeaea #键盘背景
     label_color: *COLOR_BLACK #悬浮窗候选项序号
-    off_key_back_color: XHkeyG.png #功能键背景
+    off_key_back_color: XHgnb.png #功能键背景
     off_key_text_color: *COLOR_WHITE #功能键文本
-    on_key_back_color: XHkeyG.png #shift锁键时背景
+    on_key_back_color: XHgnb.png #shift锁键时背景
     on_key_text_color: 0xfff97f70 #shift锁键时文本
     preview_back_color: 0xfff97f70 #按键气泡背景
     preview_text_color: *COLOR_WHITE #按键气泡文本
@@ -1423,9 +1613,9 @@ preset_color_schemes:
     hilited_key_back_color: IOSkeyh.png
     hilited_key_symbol_color: *COLOR_WHITE
     hilited_key_text_color: *COLOR_WHITE
-    hilited_off_key_back_color: IOSkeyh.png
+    hilited_off_key_back_color: IOSgnh.png
     hilited_off_key_text_color: *COLOR_WHITE
-    hilited_on_key_back_color: IOSkeyh.png
+    hilited_on_key_back_color: IOSgnh.png
     hilited_on_key_text_color: *COLOR_WHITE
     hilited_text_color: 0xff23948e
     hsb: IOSgnb.png
@@ -1439,9 +1629,9 @@ preset_color_schemes:
     kgt: 0xff666666
     label_color: 0xff999999
     name: iOS
-    off_key_back_color: IOSkeyG.png
+    off_key_back_color: IOSgnb.png
     off_key_text_color: 0xff010101
-    on_key_back_color: IOSkeyG.png
+    on_key_back_color: IOSgnb.png
     on_key_text_color: 0xff1181fc
     preview_back_color: 0xff1181fc
     preview_text_color: *COLOR_WHITE
@@ -1738,9 +1928,9 @@ preset_color_schemes:
     kgt: 0xff616161
     label_color: 0xff666666
     name: "彩色"
-    off_key_back_color: XHkeyG.png
+    off_key_back_color: XHgnb.png
     off_key_text_color: *COLOR_WHITE
-    on_key_back_color: XHgnh.png
+    on_key_back_color: XHgnb.png
     on_key_text_color: 0xffF97F70
     preview_back_color: 0xfff97f70
     preview_text_color: *COLOR_WHITE
@@ -2035,7 +2225,7 @@ preset_keyboards:
       - {click: l, long_click: "'", swipe_up: "'", key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
      # - {click: l, long_click: "'", key_text_color: zyt, key_back_color: zyb, key_symbol_color: zyt, hilited_key_text_color: zyt, hilited_key_back_color: zyb, hilited_key_symbol_color: zyt, width: 5}
       # 第三行
-      - {click: Shift_L, composing: Escape, width: 15, key_back_color: gnb, hilited_key_back_color: gnh, off_key_back_color: gnb, on_key_back_color: gnb}
+      - {click: Shift_L, composing: Escape, width: 15}
       - {click: z, long_click: "`", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
       - {click: x, long_click: cut, swipe_up: cut, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: c, long_click: copy, swipe_up: copy, key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
@@ -2069,83 +2259,81 @@ preset_keyboards:
     ascii_mode: 0 # 这个是ascii的键盘模式，为0切换ascii模式则会加载ascii_keyboard所指定的键盘
     author: "冷粼粼"
     name: "九宫格键盘"
-    width: 10
     lock: true
     ascii_keyboard: jiugong_number
     height: *VJG_Other
-    horizontal_gap: *VJL
-    vertical_gap: *VJH
+    horizontal_gap: *NJL
+    vertical_gap: *NJH
     key_text_offset_y: *DtextY
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
     key_symbol_offset_x: *DsymX
-    width: 20
+    width: 23
     keys:
-      - {click: ",", key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 20, long_click: ".", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
+      - {click: ",", width: *NUM_SYM_W, key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 20, long_click: ".", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
       - {click: 1, label: "分词", composing: "'", key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 1, key_text_size: 18}
       - {click: 2, label: ABC, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 2, key_text_size: 18}
       - {click: 3, label: DEF, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 3, key_text_size: 18}
-      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, hilited_key_text_color: szhct, key_symbol_color: bkss, key_text_color: bkst, key_text_size: 20}
+      - {click: BackSpace, width: *NUM_SYM_W, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, hilited_key_text_color: szhct, key_symbol_color: bkss, key_text_color: bkst, key_text_size: 20}
 
-      - {click: "?", key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 20, long_click: "!", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
+      - {click: "?", width: *NUM_SYM_W, key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 20, long_click: "!", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
       - {click: 4, label: GHI, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 4, key_text_size: 18}
       - {click: 5, label: JKL, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 5, key_text_size: 18}
       - {click: 6, label: MNO, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 6, key_text_size: 18}
-      - {click: K_jiugongNumber, label: "123", key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16}
+      - {click: K_jiugongNumber, width: *NUM_SYM_W, label: "123", key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16}
 
-      - {click: "@", key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 16, send_bindings: false, long_click: "(){Left}", swipe_left: "(", swipe_right: ")", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
+      - {click: "@", width: *NUM_SYM_W, key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 16, send_bindings: false, long_click: "(){Left}", swipe_left: "(", swipe_right: ")", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
       - {click: 7, label: PQRS, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 7, key_text_size: 18}
       - {click: 8, label: TUV, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 8, key_text_size: 18}
       - {click: 9, label: WXYZ, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 9, key_text_size: 18}
-      - {click: K_jiugong_use, label: "编辑", long_click: K_menu,  key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16}
+      - {click: K_jiugong_use, width: *NUM_SYM_W, label: "编辑", long_click: K_menu,  key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16}
       
-      - {click: "…", key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 18, send_bindings: false, long_click: "[]{Left}", swipe_left: "[", swipe_right: "]", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
+      - {click: "…", width: *NUM_SYM_W, key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 18, send_bindings: false, long_click: "[]{Left}", swipe_left: "[", swipe_right: "]", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
       - {click: K_symbol, label: "符", long_click: Menu, key_symbol_offset_x: 0, key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16}
       - {click: space3, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 0, key_text_size: 20}
       - {click: K_jiugongLetter, long_click: Theme_settings1, swipe_up: Color_switch, key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16}
-      - {click: Return, key_back_color: szhcb, hilited_key_back_color: szhch, key_text_color: szhct, hilited_key_text_color: szhct, key_symbol_color: hcs}
+      - {click: Return, width: *NUM_SYM_W, key_back_color: szhcb, hilited_key_back_color: szhch, key_text_color: szhct, hilited_key_text_color: szhct, key_symbol_color: hcs}
 
   
   jiugong_number:
     ascii_mode: 1 # 这个是ascii的键盘模式，为0切换ascii模式则会加载ascii_keyboard所指定的键盘
     author: "冷粼粼"
     name: "九宫格数字"
-    width: 10
     lock: false
     height: *VJG_Other
-    horizontal_gap: *VJL
-    vertical_gap: *VJH
+    horizontal_gap: *NJL
+    vertical_gap: *NJH
     key_text_offset_y: *DtextY
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
     key_symbol_offset_x: *DsymX
-    width: 20
+    width: 23
     keys:
-      - {click: ",", key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 20, long_click: ".", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
+      - {click: ",", width: *NUM_SYM_W, key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 20, long_click: ".", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
       - {click: 1, composing: "'", key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 1, key_text_size: 20}
       - {click: 2, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 2, key_text_size: 20}
       - {click: 3, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 3, key_text_size: 20}
-      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, hilited_key_text_color: szhct, key_symbol_color: bkss, key_text_color: bkst, key_text_size: 20}
+      - {click: BackSpace, width: *NUM_SYM_W, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, hilited_key_text_color: szhct, key_symbol_color: bkss, key_text_color: bkst, key_text_size: 20}
 
-      - {click: "?", key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 20, long_click: "!", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
+      - {click: "?", width: *NUM_SYM_W, key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 20, long_click: "!", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
       - {click: 4, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 4, key_text_size: 20}
       - {click: 5, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 5, key_text_size: 20}
       - {click: 6, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 6, key_text_size: 20}
-      - {click: K_back, swipe_up: Color_switch, key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16}
+      - {click: K_back, width: *NUM_SYM_W, swipe_up: Color_switch, key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16}
 
-      - {click: "@", key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 16, send_bindings: false, long_click: "(){Left}", swipe_left: "(", swipe_right: ")", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
+      - {click: "@", width: *NUM_SYM_W, key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 16, send_bindings: false, long_click: "(){Left}", swipe_left: "(", swipe_right: ")", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
       - {click: 7, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 7, key_text_size: 20}
       - {click: 8, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 8, key_text_size: 20}
       - {click: 9, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 9, key_text_size: 20}
-      - {click: K_jiugong_use, long_click: K_menu, key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16}
+      - {click: K_jiugong_use, width: *NUM_SYM_W, long_click: K_menu, key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16}
       
-      - {click: "…", key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 18, send_bindings: false, long_click: "[]{Left}", swipe_left: "[", swipe_right: "]", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
+      - {click: "…", width: *NUM_SYM_W, key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 18, send_bindings: false, long_click: "[]{Left}", swipe_left: "[", swipe_right: "]", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
       - {click: space3, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 0, key_text_size: 20}
       - {click: 0, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 0, key_text_size: 20}
       - {click: K_jiugongLetter, long_click: Theme_settings1, swipe_up: Color_switch, key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16}
-      - {click: Return, key_back_color: szhcb, hilited_key_back_color: szhch, key_text_color: szhct, hilited_key_text_color: szhct, key_symbol_color: hcs}
+      - {click: Return, width: *NUM_SYM_W, key_back_color: szhcb, hilited_key_back_color: szhch, key_text_color: szhct, hilited_key_text_color: szhct, key_symbol_color: hcs}
     
   default_jiugong_letter:
     ascii_mode: 1
@@ -2187,7 +2375,7 @@ preset_keyboards:
       - {click: l, long_click: "'", swipe_up: "'", key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
      # - {click: l, long_click: "'", key_text_color: zyt, key_back_color: zyb, key_symbol_color: zyt, hilited_key_text_color: zyt, hilited_key_back_color: zyb, hilited_key_symbol_color: zyt, width: 5}
       # 第三行
-      - {click: Shift_L, composing: Escape, width: 15, key_back_color: gnb, hilited_key_back_color: gnh, off_key_back_color: gnb, on_key_back_color: gnb}
+      - {click: Shift_L, composing: Escape, width: 15}
       - {click: z, long_click: "`", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
       - {click: x, long_click: cut, swipe_up: cut, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: c, long_click: copy, swipe_up: copy, key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
@@ -2332,7 +2520,7 @@ preset_keyboards:
       - {click: k, long_click: '"', key_text_color: TEX, key_back_color: wb86K.png, hilited_key_back_color: BBH, key_symbol_color: 0x00, key_text_color: 0x00}
       - {click: l, long_click: "'", key_text_color: TEX, key_back_color: wb86L.png, hilited_key_back_color: CCH, key_symbol_color: 0x00, key_text_color: 0x00}
       # 第三行
-      - {click: Shift_L, composing: Escape, width: 15, key_back_color: gnb, hilited_key_back_color: gnh, off_key_back_color: gnb, on_key_back_color: gnb}
+      - {click: Shift_L, composing: Escape, width: 15}
       - {click: z, long_click: "`", key_text_color: TEX, key_back_color: wb86Z.png, hilited_key_back_color: AAH, key_symbol_color: 0x00, key_text_color: 0x00}
       - {click: x, long_click: cut, swipe_up: cut, key_text_color: TEX, key_back_color: wb86X.png, hilited_key_back_color: BBH, key_symbol_color: 0x00, key_text_color: 0x00}
       - {click: c, long_click: copy, swipe_up: copy, key_text_color: TEX, key_back_color: wb86C.png, hilited_key_back_color: CCH, key_symbol_color: 0x00, key_text_color: 0x00}
@@ -2375,84 +2563,82 @@ preset_keyboards:
     ascii_mode: 1 # 这个是ascii的键盘模式，为0切换ascii模式则会加载ascii_keyboard所指定的键盘
     author: "冷粼粼"
     name: "九宫格数字"
-    width: 10
     lock: false
     height: *VJG_Other
-    horizontal_gap: *VJL
-    vertical_gap: *VJH
+    horizontal_gap: *NJL
+    vertical_gap: *NJH
     key_text_offset_y: *DtextY
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
     key_symbol_offset_x: *DsymX
-    width: 20
+    width: 23
     keys:
-      - {click: ",", key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 20, long_click: ".", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
+      - {click: ",", width: *NUM_SYM_W, key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 20, long_click: ".", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
       - {click: 1, composing: "'", key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 1, key_text_size: 20}
       - {click: 2, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 2, key_text_size: 20}
       - {click: 3, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 3, key_text_size: 20}
-      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, hilited_key_text_color: szhct, key_symbol_color: bkss, key_text_color: bkst, key_text_size: 20}
+      - {click: BackSpace, width: *NUM_SYM_W, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, hilited_key_text_color: szhct, key_symbol_color: bkss, key_text_color: bkst, key_text_size: 20}
 
-      - {click: "?", key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 20, long_click: "!", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
+      - {click: "?", width: *NUM_SYM_W, key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 20, long_click: "!", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
       - {click: 4, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 4, key_text_size: 20}
       - {click: 5, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 5, key_text_size: 20}
       - {click: 6, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 6, key_text_size: 20}
-      - {click: K_back, swipe_up: Color_switch, key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16}
+      - {click: K_back, width: *NUM_SYM_W, swipe_up: Color_switch, key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16}
 
-      - {click: "@", key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 16, send_bindings: false, long_click: "(){Left}", swipe_left: "(", swipe_right: ")", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
+      - {click: "@", width: *NUM_SYM_W, key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 16, send_bindings: false, long_click: "(){Left}", swipe_left: "(", swipe_right: ")", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
       - {click: 7, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 7, key_text_size: 20}
       - {click: 8, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 8, key_text_size: 20}
       - {click: 9, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 9, key_text_size: 20}
-      - {click: space3, key_back_color: szgnb, hilited_key_back_color: szgnh, swipe_up: 0, key_text_size: 20}
+      - {click: space3, width: *NUM_SYM_W, key_back_color: szgnb, hilited_key_back_color: szgnh, swipe_up: 0, key_text_size: 20}
       
-      - {click: K_symbol, label: "符", key_back_color: szgnb, hilited_key_back_color: szgnh, swipe_up: 0, key_text_size: 16}
+      - {click: K_symbol, width: *NUM_SYM_W, label: "符", key_back_color: szgnb, hilited_key_back_color: szgnh, swipe_up: 0, key_text_size: 16}
       - {click: "…", key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 18, send_bindings: false, long_click: "[]{Left}", swipe_left: "[", swipe_right: "]", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
       - {click: 0, key_back_color: szbdb, hilited_key_back_color: szgnh, swipe_up: 0, key_text_size: 20}
       - {click: "/", key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 18, long_click: "=", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
-      - {click: Return, key_back_color: szhcb, hilited_key_back_color: szhch, key_text_color: szhct, hilited_key_text_color: szhct, key_symbol_color: hcs}
+      - {click: Return, width: *NUM_SYM_W, key_back_color: szhcb, hilited_key_back_color: szhch, key_text_color: szhct, hilited_key_text_color: szhct, key_symbol_color: hcs}
 
   use:
     ascii_mode: 0
     author: flypy.com
+    name: "功能"
     key_symbol_offset_y: *DsymY
     height: *VJG_Other
-    horizontal_gap: *VJL
-    vertical_gap: *VJH
-    keyboard_back_color: xdb
+    horizontal_gap: *NJL
+    vertical_gap: *NJH
+    # keyboard_back_color: xdb
     key_text_offset_y: *DtextY
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
     key_symbol_offset_x: *DsymX
+    width: 23
     keys:
       # 第1行
-      - {click: select_all, key_back_color: szgnb, hilited_key_back_color: szgnb}
+      - {click: select_all, width: *NUM_SYM_W, key_back_color: szgnb, hilited_key_back_color: szgnb}
       - {click: Home, key_back_color: szbdb, hilited_key_back_color: szgnb}
       - {click: Up, key_back_color: szbdb, hilited_key_back_color: szgnb}
       - {click: End, key_back_color: szbdb, hilited_key_back_color: szgnb}
-      # - {click: K_back, key_back_color: szgnb, hilited_key_back_color: szgnb}
-      - {click: BackSpace, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst}
+      - {click: BackSpace, width: *NUM_SYM_W, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst, key_text_size: 20}
       # 第2行
-      - {click: cut, key_back_color: szgnb, hilited_key_back_color: szgnb}
+      - {click: cut, width: *NUM_SYM_W, key_back_color: szgnb, hilited_key_back_color: szgnb}
       - {click: Left, key_back_color: szbdb, hilited_key_back_color: szgnb}
       - {click: Shift1, key_back_color: szbdb, hilited_key_back_color: szgnb}
       - {click: Right, key_back_color: szbdb, hilited_key_back_color: szgnb}
-      - {click: BDSS, key_back_color: szgnb, hilited_key_back_color: szgnb}
+      - {click: BDSS, width: *NUM_SYM_W, key_back_color: szgnb, hilited_key_back_color: szgnb}
       # 第3行
-      - {click: copy, key_back_color: szgnb, hilited_key_back_color: szgnb}
+      - {click: copy, width: *NUM_SYM_W, key_back_color: szgnb, hilited_key_back_color: szgnb}
       - {click: undo, key_back_color: szbdb, hilited_key_back_color: szgnb, key_text_size: 30}
       - {click: Down, key_back_color: szbdb, hilited_key_back_color: szgnb}
       - {click: redo, key_back_color: szbdb, hilited_key_back_color: szgnb, key_text_size: 30}
-      
-      - {click: K_back, key_back_color: szgnb, hilited_key_back_color: szgnb}
+      - {click: K_back, width: *NUM_SYM_W, key_back_color: szgnb, hilited_key_back_color: szgnb}
       # 第4行
-      - {height: *VJM, click: paste, key_back_color: szgnb, hilited_key_back_color: szgnb}
+      - {click: paste, width: *NUM_SYM_W, key_back_color: szgnb, hilited_key_back_color: szgnb}
       - {click: Tab2, key_back_color: szgnb, hilited_key_back_color: szgnb}
       - {click: space3, key_back_color: szgnb, hilited_key_back_color: szgnb}
       - {click: Clear, key_back_color: szgnb, hilited_key_back_color: szgnb}
-      - {click: Delete, key_back_color: szgnb, hilited_key_back_color: szgnb} #share_text可将长按设为分享
-    name: "功能"
-    width: 20
+      - {click: Delete, width: *NUM_SYM_W, key_back_color: szgnb, hilited_key_back_color: szgnb} #share_text可将长按设为分享
+    
 
   menu:
     ascii_mode: 0
@@ -2469,29 +2655,29 @@ preset_keyboards:
     keys: 
       # 第一行
       - {click: "", width: 10, key_back_color: xdb, hilited_key_back_color: xdb}
-      - {click: Theme_settings1, hint: 主题, key_hint_offset_y: 0, key_text_offset_y: -4, key_text_color: key_text_color, key_symbol_color: key_text_color, key_back_color: xdb, hilited_key_text_color: cdt, hilited_key_back_color: xdb}
+      - {click: Theme_settings1, hint: 主题, key_hint_offset_y: 0, key_text_offset_y: -4, key_text_color: key_text_color, key_symbol_color: key_text_color, key_back_color: xdb, hilited_key_back_color: key_back_color, hilited_key_back_color: xdb}
       - {click: "", width: 10, key_back_color: xdb, hilited_key_back_color: xdb}
-      - {click: Color_switch, hint: 配色, key_hint_offset_y: 0, key_text_offset_y: -4, key_text_color: key_text_color, key_symbol_color: key_text_color, key_back_color: xdb, hilited_key_text_color: cdt, hilited_key_back_color: xdb}
+      - {click: Color_switch, hint: 配色, key_hint_offset_y: 0, key_text_offset_y: -4, key_text_color: key_text_color, key_symbol_color: key_text_color, key_back_color: xdb, hilited_key_back_color: key_back_color, hilited_key_back_color: xdb}
       - {click: "", width: 10, key_back_color: xdb, hilited_key_back_color: xdb}
-      - {click: VOICE_ASSIST, hint: 语音, key_hint_offset_y: 0, key_text_offset_y: -4, key_text_color: key_text_color, key_symbol_color: key_text_color, key_back_color: xdb, hilited_key_text_color: cdt, hilited_key_back_color: xdb}
+      - {click: VOICE_ASSIST, hint: 语音, key_hint_offset_y: 0, key_text_offset_y: -4, key_text_color: key_text_color, key_symbol_color: key_text_color, key_back_color: xdb, hilited_key_back_color: key_back_color, hilited_key_back_color: xdb}
       - {click: "", width: 10, key_back_color: xdb, hilited_key_back_color: xdb}
       # 第二行
       - {click: "", width: 10, key_back_color: xdb, hilited_key_back_color: xdb}
-      - {click: Settings, hint: 设置, key_hint_offset_y: 0, key_text_offset_y: -4, key_text_color: key_text_color, key_symbol_color: key_text_color, key_back_color: xdb, hilited_key_text_color: cdt, hilited_key_back_color: xdb}
+      - {click: Settings, hint: 设置, key_hint_offset_y: 0, key_text_offset_y: -4, key_text_color: key_text_color, key_symbol_color: key_text_color, key_back_color: xdb, hilited_key_back_color: key_back_color, hilited_key_back_color: xdb}
       - {click: "", width: 10, key_back_color: xdb, hilited_key_back_color: xdb}
-      - {click: Charset_switch, hint: 字集, swipe_left: K_menux, key_hint_offset_y: 0, key_text_offset_y: -4, key_text_color: key_text_color, key_symbol_color: key_text_color, key_back_color: xdb, hilited_key_text_color: cdt, hilited_key_back_color: xdb}
+      - {click: Charset_switch, hint: 字集, swipe_left: K_menux, key_hint_offset_y: 0, key_text_offset_y: -4, key_text_color: key_text_color, key_symbol_color: key_text_color, key_back_color: xdb, hilited_key_back_color: key_back_color, hilited_key_back_color: xdb}
       - {click: "", width: 10, swipe_left: K_menux, key_back_color: xdb, hilited_key_back_color: xdb}
-      - {click: zh_simp, hint: 简繁, swipe_left: K_menux, key_hint_offset_y: 0, key_text_offset_y: -4, key_text_color: key_text_color, key_symbol_color: key_text_color, key_back_color: xdb, hilited_key_text_color: cdt, hilited_key_back_color: xdb}
+      - {click: zh_simp, hint: 简繁, swipe_left: K_menux, key_hint_offset_y: 0, key_text_offset_y: -4, key_text_color: key_text_color, key_symbol_color: key_text_color, key_back_color: xdb, hilited_key_back_color: key_back_color, hilited_key_back_color: xdb}
       - {click: "", width: 10, swipe_left: K_menux, key_back_color: xdb, hilited_key_back_color: xdb}
       #第三行
       - {click: "", width: 100, label: "By Jaaiko", swipe_left: K_menux, key_back_color: xdb, hilited_key_back_color: xdb}
       # 第四行
       - {height: *VJM, click: "", width: 47, swipe_left: K_menux, key_back_color: xdb, hilited_key_back_color: xdb}
-      - {click: K_menux1, key_text_size: 8, width: 3, swipe_left: K_menux, key_text_offset_y: -9, key_text_offset_x: 0, key_text_color: cdt, key_symbol_color: key_text_color, key_back_color: xdb, hilited_key_text_color: cdt, hilited_key_back_color: xdb}
-      - {click: K_menux1, key_text_size: 7, width: 3, swipe_left: K_menux, key_text_offset_y: -9, key_text_offset_x: 0, key_symbol_color: key_text_color, key_back_color: xdb, hilited_key_text_color: cdt, hilited_key_back_color: xdb}
+      - {click: K_menux1, key_text_size: 8, width: 3, swipe_left: K_menux, key_text_offset_y: -9, key_text_offset_x: 0, key_back_color: key_back_color, key_symbol_color: key_text_color, key_back_color: xdb, hilited_key_back_color: key_back_color, hilited_key_back_color: xdb}
+      - {click: K_menux1, key_text_size: 7, width: 3, swipe_left: K_menux, key_text_offset_y: -9, key_text_offset_x: 0, key_symbol_color: key_text_color, key_back_color: xdb, hilited_key_back_color: key_back_color, hilited_key_back_color: xdb}
       - {click: "", width: 20, swipe_left: K_menux, key_back_color: xdb, hilited_key_back_color: xdb}
-      - {click: K_back1, width: 6, key_text_offset_y: -11, key_text_color: cdt, key_back_color: xdb, hilited_key_text_color: key_text_color, hilited_key_back_color: xdb}
-      - {click: K_back, width: 6, key_text_offset_y: -11, key_text_size: 10, key_text_color: cdt, key_back_color: xdb, hilited_key_text_color: key_text_color, hilited_key_back_color: xdb}
+      - {click: K_back1, width: 6, key_text_offset_y: -11, key_back_color: key_back_color, key_back_color: xdb, hilited_key_text_color: key_text_color, hilited_key_back_color: xdb}
+      - {click: K_back, width: 6, key_text_offset_y: -11, key_text_size: 10, key_back_color: key_back_color, key_back_color: xdb, hilited_key_text_color: key_text_color, hilited_key_back_color: xdb}
       - {click: "", width: 15, key_back_color: xdb, hilited_key_back_color: xdb}
     name: "选单1"
     width: 20
@@ -2532,7 +2718,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
 
       - {click: "@hotmail.com", width: 27, key_text_size: 14}
@@ -2555,7 +2743,7 @@ preset_keyboards:
       - {click: "", width: 27, key_text_size: 14}
       - {click: K_back, width: 19}
       
-      - {click: K_symbols00, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols00, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols10, width: 12.5}
       - {click: K_symbols20, width: 12.5}
       - {click: K_symbols30, width: 12.5}
@@ -2572,7 +2760,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: ","}
       - {click: "."}
@@ -2595,7 +2785,7 @@ preset_keyboards:
       - {click: "@"}
       - {click: K_back, width: 19}
       - {click: K_symbols00, width: 12.5}
-      - {click: K_symbols10, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols10, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols20, width: 12.5}
       - {click: K_symbols30, width: 12.5}
       - {click: K_symbols40, width: 12.5}
@@ -2611,7 +2801,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "("}
       - {click: ")"}
@@ -2634,7 +2826,7 @@ preset_keyboards:
       - {click: "&"}
       - {click: K_back, width: 19}
       - {click: K_symbols00, width: 12.5}
-      - {click: K_symbols10, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols10, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols20, width: 12.5}
       - {click: K_symbols30, width: 12.5}
       - {click: K_symbols40, width: 12.5}
@@ -2650,7 +2842,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "Ⓐ"}
       - {click: "Ⓑ"}
@@ -2673,7 +2867,7 @@ preset_keyboards:
       - {click: "Ⓟ"}
       - {click: K_back, width: 19}
       - {click: K_symbols00, width: 12.5}
-      - {click: K_symbols10, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols10, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols20, width: 12.5}
       - {click: K_symbols30, width: 12.5}
       - {click: K_symbols40, width: 12.5}
@@ -2689,7 +2883,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "Ⓠ"}
       - {click: "Ⓡ"}
@@ -2712,7 +2908,7 @@ preset_keyboards:
       - {click: ""}
       - {click: K_back, width: 19}
       - {click: K_symbols00, width: 12.5}
-      - {click: K_symbols10, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols10, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols20, width: 12.5}
       - {click: K_symbols30, width: 12.5}
       - {click: K_symbols40, width: 12.5}
@@ -2728,7 +2924,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "，"}
       - {click: "。"}
@@ -2752,7 +2950,7 @@ preset_keyboards:
       - {click: K_back, width: 19}
       - {click: K_symbols00, width: 12.5}
       - {click: K_symbols10, width: 12.5}
-      - {click: K_symbols20, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols20, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols30, width: 12.5}
       - {click: K_symbols40, width: 12.5}
       - {click: K_symbols50, width: 12.5}
@@ -2767,7 +2965,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "［］{Left}"}
       - {click: "【】{Left}"}
@@ -2791,7 +2991,7 @@ preset_keyboards:
       - {click: K_back, width: 19}
       - {click: K_symbols00, width: 12.5}
       - {click: K_symbols10, width: 12.5}
-      - {click: K_symbols20, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols20, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols30, width: 12.5}
       - {click: K_symbols40, width: 12.5}
       - {click: K_symbols50, width: 12.5}
@@ -2806,7 +3006,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "^_^", key_text_size: "11"}
       - {click: "^ω^", key_text_size: "11"}
@@ -2831,7 +3033,7 @@ preset_keyboards:
       - {click: K_symbols00, width: 12.5}
       - {click: K_symbols10, width: 12.5}
       - {click: K_symbols20, width: 12.5}
-      - {click: K_symbols30, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols30, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols40, width: 12.5}
       - {click: K_symbols50, width: 12.5}
       - {click: K_symbols60, width: 12.5}
@@ -2845,7 +3047,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "QwQ", key_text_size: "11"}
       - {click: "(●—●)", key_text_size: "11"}
@@ -2870,7 +3074,7 @@ preset_keyboards:
       - {click: K_symbols00, width: 12.5}
       - {click: K_symbols10, width: 12.5}
       - {click: K_symbols20, width: 12.5}
-      - {click: K_symbols30, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols30, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols40, width: 12.5}
       - {click: K_symbols50, width: 12.5}
       - {click: K_symbols60, width: 12.5}
@@ -2884,7 +3088,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "(＞﹏＜)", key_text_size: "11"}
       - {click: "T_T", key_text_size: "11"}
@@ -2909,7 +3115,7 @@ preset_keyboards:
       - {click: K_symbols00, width: 12.5}
       - {click: K_symbols10, width: 12.5}
       - {click: K_symbols20, width: 12.5}
-      - {click: K_symbols30, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols30, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols40, width: 12.5}
       - {click: K_symbols50, width: 12.5}
       - {click: K_symbols60, width: 12.5}
@@ -2923,7 +3129,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "(*￣︿￣)", key_text_size: "11"}
       - {click: ">o<", key_text_size: "11"}
@@ -2948,7 +3156,7 @@ preset_keyboards:
       - {click: K_symbols00, width: 12.5}
       - {click: K_symbols10, width: 12.5}
       - {click: K_symbols20, width: 12.5}
-      - {click: K_symbols30, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols30, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols40, width: 12.5}
       - {click: K_symbols50, width: 12.5}
       - {click: K_symbols60, width: 12.5}
@@ -2962,7 +3170,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "⊙_⊙", key_text_size: "11"}
       - {click: "d(ŐдŐ๑)", key_text_size: "11"}
@@ -2987,7 +3197,7 @@ preset_keyboards:
       - {click: K_symbols00, width: 12.5}
       - {click: K_symbols10, width: 12.5}
       - {click: K_symbols20, width: 12.5}
-      - {click: K_symbols30, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols30, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols40, width: 12.5}
       - {click: K_symbols50, width: 12.5}
       - {click: K_symbols60, width: 12.5}
@@ -3001,7 +3211,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "=_=", key_text_size: "11"}
       - {click: "╮(╯_╰)╭", key_text_size: "11"}
@@ -3026,7 +3238,7 @@ preset_keyboards:
       - {click: K_symbols00, width: 12.5}
       - {click: K_symbols10, width: 12.5}
       - {click: K_symbols20, width: 12.5}
-      - {click: K_symbols30, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols30, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols40, width: 12.5}
       - {click: K_symbols50, width: 12.5}
       - {click: K_symbols60, width: 12.5}
@@ -3040,7 +3252,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "😃"}
       - {click: "😄"}
@@ -3074,7 +3288,7 @@ preset_keyboards:
       - {click: K_symbols10, width: 12.5}
       - {click: K_symbols20, width: 12.5}
       - {click: K_symbols30, width: 12.5}
-      - {click: K_symbols40, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols40, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols50, width: 12.5}
       - {click: K_symbols60, width: 12.5}
       - {click: K_symbols0y, width: 12.5}
@@ -3087,7 +3301,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "😣"}
       - {click: "😥"}
@@ -3121,7 +3337,7 @@ preset_keyboards:
       - {click: K_symbols10, width: 12.5}
       - {click: K_symbols20, width: 12.5}
       - {click: K_symbols30, width: 12.5}
-      - {click: K_symbols40, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols40, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols50, width: 12.5}
       - {click: K_symbols60, width: 12.5}
       - {click: K_symbols0y, width: 12.5}
@@ -3134,7 +3350,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "☝"}
       - {click: "🖖"}
@@ -3168,7 +3386,7 @@ preset_keyboards:
       - {click: K_symbols10, width: 12.5}
       - {click: K_symbols20, width: 12.5}
       - {click: K_symbols30, width: 12.5}
-      - {click: K_symbols40, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols40, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols50, width: 12.5}
       - {click: K_symbols60, width: 12.5}
       - {click: K_symbols0y, width: 12.5}
@@ -3181,7 +3399,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "🤕"}
       - {click: "🙁"}
@@ -3215,7 +3435,7 @@ preset_keyboards:
       - {click: K_symbols10, width: 12.5}
       - {click: K_symbols20, width: 12.5}
       - {click: K_symbols30, width: 12.5}
-      - {click: K_symbols40, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols40, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols50, width: 12.5}
       - {click: K_symbols60, width: 12.5}
       - {click: K_symbols0y, width: 12.5}
@@ -3228,7 +3448,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "△"}
       - {click: "▽"}
@@ -3263,7 +3485,7 @@ preset_keyboards:
       - {click: K_symbols20, width: 12.5}
       - {click: K_symbols30, width: 12.5}
       - {click: K_symbols40, width: 12.5}
-      - {click: K_symbols50, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols50, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols60, width: 12.5}
       - {click: K_symbols0y, width: 12.5}
     name: "特殊1"
@@ -3275,7 +3497,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "☼"}
       - {click: "☽"}
@@ -3310,7 +3534,7 @@ preset_keyboards:
       - {click: K_symbols20, width: 12.5}
       - {click: K_symbols30, width: 12.5}
       - {click: K_symbols40, width: 12.5}
-      - {click: K_symbols50, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols50, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols60, width: 12.5}
       - {click: K_symbols0y, width: 12.5}
     name: "特殊2"
@@ -3322,7 +3546,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "♩"}
       - {click: "♪"}
@@ -3357,7 +3583,7 @@ preset_keyboards:
       - {click: K_symbols20, width: 12.5}
       - {click: K_symbols30, width: 12.5}
       - {click: K_symbols40, width: 12.5}
-      - {click: K_symbols50, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols50, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols60, width: 12.5}
       - {click: K_symbols0y, width: 12.5}
     name: "特殊3"
@@ -3369,7 +3595,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "↖"}
       - {click: "↑"}
@@ -3404,7 +3632,7 @@ preset_keyboards:
       - {click: K_symbols20, width: 12.5}
       - {click: K_symbols30, width: 12.5}
       - {click: K_symbols40, width: 12.5}
-      - {click: K_symbols50, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols50, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols60, width: 12.5}
       - {click: K_symbols0y, width: 12.5}
     name: "特殊4"
@@ -3416,7 +3644,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "❏"}
       - {click: "❐"}
@@ -3451,7 +3681,7 @@ preset_keyboards:
       - {click: K_symbols20, width: 12.5}
       - {click: K_symbols30, width: 12.5}
       - {click: K_symbols40, width: 12.5}
-      - {click: K_symbols50, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols50, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols60, width: 12.5}
       - {click: K_symbols0y, width: 12.5}
     name: "特殊5"
@@ -3463,7 +3693,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "☴"}
       - {click: "☲"}
@@ -3498,7 +3730,7 @@ preset_keyboards:
       - {click: K_symbols20, width: 12.5}
       - {click: K_symbols30, width: 12.5}
       - {click: K_symbols40, width: 12.5}
-      - {click: K_symbols50, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols50, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols60, width: 12.5}
       - {click: K_symbols0y, width: 12.5}
     name: "特殊6"
@@ -3510,7 +3742,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "﹢"}
       - {click: "﹣"}
@@ -3546,7 +3780,7 @@ preset_keyboards:
       - {click: K_symbols30, width: 12.5}
       - {click: K_symbols40, width: 12.5}
       - {click: K_symbols50, width: 12.5}
-      - {click: K_symbols60, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols60, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols0y, width: 12.5}
     name: "数学1"
     width: 13.5
@@ -3557,7 +3791,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "㎎"}
       - {click: "㎏"}
@@ -3593,7 +3829,7 @@ preset_keyboards:
       - {click: K_symbols30, width: 12.5}
       - {click: K_symbols40, width: 12.5}
       - {click: K_symbols50, width: 12.5}
-      - {click: K_symbols60, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols60, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols0y, width: 12.5}
     name: "数学2"
     width: 13.5
@@ -3604,7 +3840,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "∝"}
       - {click: "∽"}
@@ -3640,7 +3878,7 @@ preset_keyboards:
       - {click: K_symbols30, width: 12.5}
       - {click: K_symbols40, width: 12.5}
       - {click: K_symbols50, width: 12.5}
-      - {click: K_symbols60, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols60, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols0y, width: 12.5}
     name: "数学3"
     width: 13.5
@@ -3651,7 +3889,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "¹"}
       - {click: "²"}
@@ -3687,7 +3927,7 @@ preset_keyboards:
       - {click: K_symbols30, width: 12.5}
       - {click: K_symbols40, width: 12.5}
       - {click: K_symbols50, width: 12.5}
-      - {click: K_symbols60, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols60, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols0y, width: 12.5}
     name: "数学4"
     width: 13.5
@@ -3698,7 +3938,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "₁"}
       - {click: "₂"}
@@ -3734,7 +3976,7 @@ preset_keyboards:
       - {click: K_symbols30, width: 12.5}
       - {click: K_symbols40, width: 12.5}
       - {click: K_symbols50, width: 12.5}
-      - {click: K_symbols60, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols60, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols0y, width: 12.5}
     name: "数学5"
     width: 13.5
@@ -3745,7 +3987,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "①"}
       - {click: "②"}
@@ -3771,7 +4015,7 @@ preset_keyboards:
       - {click: "⒐"}
       - {click: "⒑"}
       - {click: K_back, width: 19}
-      - {click: K_symbols70, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols70, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols80, width: 12.5}
       - {click: K_symbols90, width: 12.5}
       - {click: K_symbolsA0, width: 12.5}
@@ -3788,7 +4032,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "⒒"}
       - {click: "⒓"}
@@ -3814,7 +4060,7 @@ preset_keyboards:
       - {click: "⑼"}
       - {click: "⑽"}
       - {click: K_back, width: 19}
-      - {click: K_symbols70, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols70, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols80, width: 12.5}
       - {click: K_symbols90, width: 12.5}
       - {click: K_symbolsA0, width: 12.5}
@@ -3831,7 +4077,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "⑾"}
       - {click: "⑿"}
@@ -3857,7 +4105,7 @@ preset_keyboards:
       - {click: "㈨"}
       - {click: "㈩"}
       - {click: K_back, width: 19}
-      - {click: K_symbols70, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols70, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols80, width: 12.5}
       - {click: K_symbols90, width: 12.5}
       - {click: K_symbolsA0, width: 12.5}
@@ -3874,7 +4122,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "➊"}
       - {click: "➋"}
@@ -3900,7 +4150,7 @@ preset_keyboards:
       - {click: "㊈"}
       - {click: "㊉"}
       - {click: K_back, width: 19}
-      - {click: K_symbols70, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols70, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols80, width: 12.5}
       - {click: K_symbols90, width: 12.5}
       - {click: K_symbolsA0, width: 12.5}
@@ -3917,7 +4167,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "ⅰ"}
       - {click: "ⅱ"}
@@ -3943,7 +4195,7 @@ preset_keyboards:
       - {click: "Ⅸ"}
       - {click: "Ⅹ"}
       - {click: K_back, width: 19}
-      - {click: K_symbols70, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols70, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols80, width: 12.5}
       - {click: K_symbols90, width: 12.5}
       - {click: K_symbolsA0, width: 12.5}
@@ -3960,7 +4212,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "┌"}
       - {click: "┬"}
@@ -3991,7 +4245,7 @@ preset_keyboards:
       - {click: "┆"}
       - {click: K_back, width: 19}
       - {click: K_symbols70, width: 12.5}
-      - {click: K_symbols80, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols80, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols90, width: 12.5}
       - {click: K_symbolsA0, width: 12.5}
       - {click: K_symbolsB0, width: 12.5}
@@ -4007,7 +4261,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "╔"}
       - {click: "╦"}
@@ -4038,7 +4294,7 @@ preset_keyboards:
       - {click: "┇"}
       - {click: K_back, width: 19}
       - {click: K_symbols70, width: 12.5}
-      - {click: K_symbols80, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols80, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols90, width: 12.5}
       - {click: K_symbolsA0, width: 12.5}
       - {click: K_symbolsB0, width: 12.5}
@@ -4054,7 +4310,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "╒"}
       - {click: "╕"}
@@ -4085,7 +4343,7 @@ preset_keyboards:
       - {click: "║"}
       - {click: K_back, width: 19}
       - {click: K_symbols70, width: 12.5}
-      - {click: K_symbols80, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols80, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols90, width: 12.5}
       - {click: K_symbolsA0, width: 12.5}
       - {click: K_symbolsB0, width: 12.5}
@@ -4101,7 +4359,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "ā"}
       - {click: "á"}
@@ -4133,7 +4393,7 @@ preset_keyboards:
       - {click: K_back, width: 19}
       - {click: K_symbols70, width: 12.5}
       - {click: K_symbols80, width: 12.5}
-      - {click: K_symbols90, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols90, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbolsA0, width: 12.5}
       - {click: K_symbolsB0, width: 12.5}
       - {click: K_symbolsC0, width: 12.5}
@@ -4148,7 +4408,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "ê"}
       - {click: ""}
@@ -4180,7 +4442,7 @@ preset_keyboards:
       - {click: K_back, width: 19}
       - {click: K_symbols70, width: 12.5}
       - {click: K_symbols80, width: 12.5}
-      - {click: K_symbols90, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols90, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbolsA0, width: 12.5}
       - {click: K_symbolsB0, width: 12.5}
       - {click: K_symbolsC0, width: 12.5}
@@ -4195,7 +4457,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "ㄇ"}
       - {click: "ㄈ"}
@@ -4227,7 +4491,7 @@ preset_keyboards:
       - {click: K_back, width: 19}
       - {click: K_symbols70, width: 12.5}
       - {click: K_symbols80, width: 12.5}
-      - {click: K_symbols90, key_text_color: cdt, width: 12.5}
+      - {click: K_symbols90, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbolsA0, width: 12.5}
       - {click: K_symbolsB0, width: 12.5}
       - {click: K_symbolsC0, width: 12.5}
@@ -4242,7 +4506,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "Α"}
       - {click: "Β"}
@@ -4275,7 +4541,7 @@ preset_keyboards:
       - {click: K_symbols70, width: 12.5}
       - {click: K_symbols80, width: 12.5}
       - {click: K_symbols90, width: 12.5}
-      - {click: K_symbolsA0, key_text_color: cdt, width: 12.5}
+      - {click: K_symbolsA0, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbolsB0, width: 12.5}
       - {click: K_symbolsC0, width: 12.5}
       - {click: K_symbolsD0, width: 12.5}
@@ -4289,7 +4555,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "α"}
       - {click: "β"}
@@ -4322,7 +4590,7 @@ preset_keyboards:
       - {click: K_symbols70, width: 12.5}
       - {click: K_symbols80, width: 12.5}
       - {click: K_symbols90, width: 12.5}
-      - {click: K_symbolsA0, key_text_color: cdt, width: 12.5}
+      - {click: K_symbolsA0, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbolsB0, width: 12.5}
       - {click: K_symbolsC0, width: 12.5}
       - {click: K_symbolsD0, width: 12.5}
@@ -4336,7 +4604,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "А"}
       - {click: "Б"}
@@ -4369,7 +4639,7 @@ preset_keyboards:
       - {click: K_symbols70, width: 12.5}
       - {click: K_symbols80, width: 12.5}
       - {click: K_symbols90, width: 12.5}
-      - {click: K_symbolsA0, key_text_color: cdt, width: 12.5}
+      - {click: K_symbolsA0, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbolsB0, width: 12.5}
       - {click: K_symbolsC0, width: 12.5}
       - {click: K_symbolsD0, width: 12.5}
@@ -4383,7 +4653,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "Ч"}
       - {click: "Ш"}
@@ -4416,7 +4688,7 @@ preset_keyboards:
       - {click: K_symbols70, width: 12.5}
       - {click: K_symbols80, width: 12.5}
       - {click: K_symbols90, width: 12.5}
-      - {click: K_symbolsA0, key_text_color: cdt, width: 12.5}
+      - {click: K_symbolsA0, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbolsB0, width: 12.5}
       - {click: K_symbolsC0, width: 12.5}
       - {click: K_symbolsD0, width: 12.5}
@@ -4430,7 +4702,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "л"}
       - {click: "м"}
@@ -4463,7 +4737,7 @@ preset_keyboards:
       - {click: K_symbols70, width: 12.5}
       - {click: K_symbols80, width: 12.5}
       - {click: K_symbols90, width: 12.5}
-      - {click: K_symbolsA0, key_text_color: cdt, width: 12.5}
+      - {click: K_symbolsA0, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbolsB0, width: 12.5}
       - {click: K_symbolsC0, width: 12.5}
       - {click: K_symbolsD0, width: 12.5}
@@ -4477,7 +4751,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "À"}
       - {click: "Á"}
@@ -4511,7 +4787,7 @@ preset_keyboards:
       - {click: K_symbols80, width: 12.5}
       - {click: K_symbols90, width: 12.5}
       - {click: K_symbolsA0, width: 12.5}
-      - {click: K_symbolsB0, key_text_color: cdt, width: 12.5}
+      - {click: K_symbolsB0, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbolsC0, width: 12.5}
       - {click: K_symbolsD0, width: 12.5}
       - {click: K_symbols0z, width: 12.5}
@@ -4524,7 +4800,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "Ù"}
       - {click: "Ú"}
@@ -4558,7 +4836,7 @@ preset_keyboards:
       - {click: K_symbols80, width: 12.5}
       - {click: K_symbols90, width: 12.5}
       - {click: K_symbolsA0, width: 12.5}
-      - {click: K_symbolsB0, key_text_color: cdt, width: 12.5}
+      - {click: K_symbolsB0, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbolsC0, width: 12.5}
       - {click: K_symbolsD0, width: 12.5}
       - {click: K_symbols0z, width: 12.5}
@@ -4571,7 +4849,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "ì"}
       - {click: "í"}
@@ -4605,7 +4885,7 @@ preset_keyboards:
       - {click: K_symbols80, width: 12.5}
       - {click: K_symbols90, width: 12.5}
       - {click: K_symbolsA0, width: 12.5}
-      - {click: K_symbolsB0, key_text_color: cdt, width: 12.5}
+      - {click: K_symbolsB0, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbolsC0, width: 12.5}
       - {click: K_symbolsD0, width: 12.5}
       - {click: K_symbols0z, width: 12.5}
@@ -4618,7 +4898,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "ㅏ"}
       - {click: "ㅑ"}
@@ -4653,7 +4935,7 @@ preset_keyboards:
       - {click: K_symbols90, width: 12.5}
       - {click: K_symbolsA0, width: 12.5}
       - {click: K_symbolsB0, width: 12.5}
-      - {click: K_symbolsC0, key_text_color: cdt, width: 12.5}
+      - {click: K_symbolsC0, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbolsD0, width: 12.5}
       - {click: K_symbols0z, width: 12.5}
     name: "韩文1"
@@ -4665,7 +4947,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "ㄱ"}
       - {click: "ㄴ"}
@@ -4700,7 +4984,7 @@ preset_keyboards:
       - {click: K_symbols90, width: 12.5}
       - {click: K_symbolsA0, width: 12.5}
       - {click: K_symbolsB0, width: 12.5}
-      - {click: K_symbolsC0, key_text_color: cdt, width: 12.5}
+      - {click: K_symbolsC0, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbolsD0, width: 12.5}
       - {click: K_symbols0z, width: 12.5}
     name: "韩文2"
@@ -4712,7 +4996,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "㉠"}
       - {click: "㉡"}
@@ -4747,7 +5033,7 @@ preset_keyboards:
       - {click: K_symbols90, width: 12.5}
       - {click: K_symbolsA0, width: 12.5}
       - {click: K_symbolsB0, width: 12.5}
-      - {click: K_symbolsC0, key_text_color: cdt, width: 12.5}
+      - {click: K_symbolsC0, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbolsD0, width: 12.5}
       - {click: K_symbols0z, width: 12.5}
     name: "韩文3"
@@ -4759,7 +5045,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "㉸"}
       - {click: "㉹"}
@@ -4794,7 +5082,7 @@ preset_keyboards:
       - {click: K_symbols90, width: 12.5}
       - {click: K_symbolsA0, width: 12.5}
       - {click: K_symbolsB0, width: 12.5}
-      - {click: K_symbolsC0, key_text_color: cdt, width: 12.5}
+      - {click: K_symbolsC0, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbolsD0, width: 12.5}
       - {click: K_symbols0z, width: 12.5}
     name: "韩文4"
@@ -4806,7 +5094,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "㈒"}
       - {click: "㈓"}
@@ -4841,7 +5131,7 @@ preset_keyboards:
       - {click: K_symbols90, width: 12.5}
       - {click: K_symbolsA0, width: 12.5}
       - {click: K_symbolsB0, width: 12.5}
-      - {click: K_symbolsC0, key_text_color: cdt, width: 12.5}
+      - {click: K_symbolsC0, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbolsD0, width: 12.5}
       - {click: K_symbols0z, width: 12.5}
     name: "韩文5"
@@ -4853,7 +5143,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "a:"}
       - {click: "ɔ:"}
@@ -4889,7 +5181,7 @@ preset_keyboards:
       - {click: K_symbolsA0, width: 12.5}
       - {click: K_symbolsB0, width: 12.5}
       - {click: K_symbolsC0, width: 12.5}
-      - {click: K_symbolsD0, key_text_color: cdt, width: 12.5}
+      - {click: K_symbolsD0, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols0z, width: 12.5}
     name: "音标1"
     width: 13.5
@@ -4900,7 +5192,9 @@ preset_keyboards:
     key_symbol_offset_y: *DsymY
     key_press_offset_x: 0
     key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
+    key_symbol_offset_x: *DsymX   
+    horizontal_gap: *FJL
+    vertical_gap: *FJH
     keys:
       - {click: "θ"}
       - {click: "s"}
@@ -4936,7 +5230,7 @@ preset_keyboards:
       - {click: K_symbolsA0, width: 12.5}
       - {click: K_symbolsB0, width: 12.5}
       - {click: K_symbolsC0, width: 12.5}
-      - {click: K_symbolsD0, key_text_color: cdt, width: 12.5}
+      - {click: K_symbolsD0, key_back_color: key_back_color, width: 12.5}
       - {click: K_symbols0z, width: 12.5}
     name: "音标2"
     width: 13.5
