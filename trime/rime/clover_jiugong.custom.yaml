@@ -6,7 +6,7 @@ patch:
   switches/@next 1:
     name: emoji_suggestion
     reset: 1
-    states: [ 😔, 😀 ]
+    states: [ 🙃️, 😄️ ]
   'engine/filters/@before 0':
     simplifier@symbol_support
   'engine/filters/@before 1':

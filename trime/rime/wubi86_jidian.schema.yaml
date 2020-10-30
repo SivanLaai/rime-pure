@@ -15,11 +15,11 @@ schema:
 switches:
   - name: ascii_mode
     reset: 0
-    states: [ 中文, 英文 ]
+    states: [ 中, 英 ]
   - name: full_shape
-    states: [ 半角, 全角 ]
+    states: [ 半, 全 ]
   - name: extended_charset
-    states: [ 常用, 扩展 ]
+    states: [ 常, 扩 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
 
@@ -48,24 +48,32 @@ engine:
     # - lua_filter@single_char_first_filter # 单字优先方法
 
 speller:
-  max_code_length: 4                    # 四码上屏
-  auto_select: true                     # 自动上屏
+  delimiter: " ;'"
+  # max_code_length: 4                    # 四码上屏
+  # auto_select: true                     # 自动上屏
 
 translator:
   dictionary: wubi86_jidian             # 翻译器将调取此字典文件
   enable_charset_filter: true           # 开启字符集过滤
   enable_completion: true               # 是否显示编码未输入完整的词条
-  enable_sentence: false                # 句子输入模式
-  enable_user_dict: false               # 是否开启用户词典（用户词典记录动态字词频，用户词）
-  enable_encoder: false
-  preedit_format:                       # 上屏码自定义
-#    - xform/.+//
-  comment_format:                       # 提示码自定义
-#    - xform/.+//                        # 配置：消除所有候选词后的提示码
+   # 开启自动造词相关设置，将下面四项都改为 true
+  enable_sentence: true                # 句子输入模式
+  enable_user_dict: true               # 是否开启用户词典（用户词典记录动态字词频，用户词）
+  enable_encoder: true                  # 自动造词
+  encode_commit_history: true          # 是否对已上屏的词自动造词
+
+  max_phrase_length: 10                 # 自动生成词的最大长度
+  user_dict: user                       # 用户词典名
+  db_class: tabledb                     # 用户词典类型 userdb - 二进制 / tabledb - 人类语言
+
+  # preedit_format:                       # 上屏码自定义
+  #  - xform/.+//
+  # comment_format:                       # 提示码自定义
+  #  - xform/.+//                        # 配置：消除所有候选词后的提示码
 
 
 reverse_lookup:
-  dictionary: pinyin_simp
+  dictionary: clover
   prefix: "z"
   suffix: "'"
   tips: [拼音]
