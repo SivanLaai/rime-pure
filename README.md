@@ -34,6 +34,7 @@
 ### 包含输入方案
  - 极点五笔：https://github.com/KyleBing/rime-wubi86-jidian 
 >支持五笔反查
+>
 >![Image text](/Res/wubireverse.png)
  - 🍀️四叶草简体拼音：https://github.com/fkxxyz/rime-cloverpinyin
  - 大写数字
