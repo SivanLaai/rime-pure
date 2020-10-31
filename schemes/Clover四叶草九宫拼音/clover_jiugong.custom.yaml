@@ -1,0 +1,23 @@
+patch:
+  switches/@next 0:
+    name: symbol_support
+    reset: 0
+    states: [ "无符", "符" ]
+  switches/@next 1:
+    name: emoji_suggestion
+    reset: 1
+    states: [ 😑️, 😁️ ]
+  'engine/filters/@before 0':
+    simplifier@symbol_support
+  'engine/filters/@before 1':
+    simplifier@emoji_suggestion
+  
+  emoji_suggestion:
+    opencc_config: emoji.json
+    option_name: emoji_suggestion
+    tips: all
+  # symbol_support
+  symbol_support:
+    opencc_config: symbol.json
+    option_name: symbol_support
+    tips: all

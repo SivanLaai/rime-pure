@@ -16,10 +16,16 @@
 
 - **感谢opencc作者@[BYVoid](https://github.com/BYVoid)**
 
+- **感谢小鹤双拼@[flypy](https://www.flypy.com/)**
+
 - **没有以上各位的辛苦付出，也就没有这么好用的输入法**
 
 - **enjoy it! 好用的话就点个赞。感谢你的使用，因为本人同时在安卓和windows端使用，所以会一直更新。**
 ## 更新说明
+#### 2020-10-31
+- 1.新增双拼输入方案支持-小鹤双拼
+- 2.所有输入方案配置支持繁简转换、中英转换、字符输入、emoji表情、全半角转换
+
 #### 2020-10-27
 - 1.新增讯飞皮肤
 - 2.更新部分细节
@@ -36,6 +42,9 @@
 >支持五笔反查
 >
 >![Image text](/Res/wubireverse.png)
+ - 小鹤双拼：https://www.flypy.com/index.html 
+>
+>![Image text](/Res/xiaohe.png)
  - 🍀️四叶草简体拼音：https://github.com/fkxxyz/rime-cloverpinyin
  - 大写数字
 
@@ -104,13 +113,39 @@
 
 ## 安装方法
 #### 小狼毫（PC端）
-- 0.备份小狼毫输入法安装目录的`data`文件夹，备份`~\AppData\Rime`文件夹
-- 1.`weasel\data`文件夹复制到小狼毫输入法`data`目录覆盖
-- 2.`weasel\Rime`文件夹复制到`~\AppData\Rime`目录覆盖
-- 3.重新部署
+><font face="微软雅黑" color=#000000>0.备份小狼毫输入法安装目录的`data`文件夹，备份`~\AppData\Rime`文件夹</font>
+><font face="微软雅黑" color=#000000>1.文件夹`weasel\data`内所有文件复制到小狼毫输入法`data`目录覆盖</font>
+><font face="微软雅黑" color=#000000>2.文件夹`weasel\Rime`内所有文件复制到`~\AppData\Rime`目录覆盖</font>
+><font face="微软雅黑" color=#000000>3.文件夹`schemes\基础文件`内所有文件复制到`~\AppData\Rime`目录覆盖</font>
+><font face="微软雅黑" color=#000000>4.拼音、五笔和双拼方案安装</font>
+>><font face="微软雅黑" color=#000000>4.1 拼音方案安装</font>
+>>><font face="微软雅黑" color=#000000>文件夹`schemes\Clover四叶草拼音`内所有文件复制到`~\AppData\Rime`目录覆盖</font>
+>>
+>><font face="微软雅黑" color=#000000>4.2 五笔方案安装（五笔反查依赖拼音词库，需先安装3.1拼音方案）</font>
+>>><font face="微软雅黑" color=#000000>文件夹`schemes\极点五笔`内所有文件复制到`~\AppData\Rime`目录覆盖</font>
+>>
+>><font face="微软雅黑" color=#000000>4.3 双拼方案安装</font>
+>>><font face="微软雅黑" color=#000000>文件夹`schemes\小鹤双拼`内所有文件复制到`~\AppData\Rime`目录覆盖</font>
+>>
+><font face="微软雅黑" color=#000000>5.重新部署</font>
+
 #### 同文（安卓端）
-- 1.`trime\rime`文件夹复制到`sdcard\rime`目录覆盖
-- 2.重新部署
+><font face="微软雅黑" color=#000000>0.备份`sdcard\rime`文件夹</font>
+><font face="微软雅黑" color=#000000>1.文件夹`trime\rime`内所有文件复制到`sdcard\rime`目录覆盖</font>
+><font face="微软雅黑" color=#000000>2.文件夹`schemes\基础文件`内所有文件复制到`sdcard\rime`目录覆盖</font>
+><font face="微软雅黑" color=#000000>3.拼音、五笔和双拼方案安装</font>
+>><font face="微软雅黑" color=#000000>3.1 拼音方案安装</font>
+>>><font face="微软雅黑" color=#000000>文件夹`schemes\Clover四叶草拼音`内所有文件复制到`sdcard\rime`目录覆盖</font>
+>>
+>><font face="微软雅黑" color=#000000>3.2 五笔方案安装（五笔反查依赖拼音词库，需先安装3.1拼音方案）
+>>>文件夹`schemes\极点五笔`内所有文件复制到`sdcard\rime`目录覆盖</font>
+>>
+>><font face="微软雅黑" color=#000000>3.3 双拼方案安装</font>
+>>><font face="微软雅黑" color=#000000>文件夹`schemes\小鹤双拼`内所有文件复制到`sdcard\rime`目录覆盖</font>
+>>
+><font face="微软雅黑" color=#000000>4.重新部署</font>
+
+
 ## 相关资源
  - 小狼毫输入法：https://github.com/rime/weasel
  - 同文输入法：https://github.com/osfans/trime

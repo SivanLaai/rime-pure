@@ -1,0 +1,119 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: clover_jiugong
+  name: 🍀️四叶草九宫格
+  version: "0.19"
+  author:
+    - Jaaiko <lyhhap@hotmail.com>
+  description: |
+    🍀️四叶草九宫格：
+    以🍀️四叶草简体拼音为基础所配置的一款适合在手机九宫格上输入的输入方案。
+  dependencies:
+    - emoji
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中, 英 ]
+  - name: full_shape
+    states: [ 半, 全 ]
+  - name: traditional_chinese
+    reset: 0
+    states: [ 简, 繁 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - table_translator@custom_phrase
+    - reverse_lookup_translator
+    - script_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: 'zyxwvutsrqponmlkjihgfedcba1234567890'
+  delimiter: " '"
+  algebra:
+    - "xlit|12345|+_*^0|"
+    - erase/^xx$/
+    - abbrev/^([zcs]h).+$/$1/
+    - derive/^([nl])ve$/$1ue/
+    - derive/^([jqxy])u/$1v/
+    - derive/un$/uen/
+    - derive/ui$/uei/
+    - derive/iu$/iou/
+    - derive/([aeiou])ng$/$1gn/
+    - derive/([dtngkhrzcs])o(u|ng)$/$1o/
+    - derive/ong$/on/
+    - derive/ao$/oa/
+    - derive/([iu])a(o|ng?)$/a$1$2/
+    - xlit/abcdefghijklmnopqrstuvwxyz/22233344455566677778889999/
+    - derive/[+_*^0]//
+    - derive/([+_*^0])$//
+    - derive/^(.*)$/\U$1/
+
+translator:
+  dictionary: clover
+  prism: clover_jiugong
+  spelling_hints: 16 # ～字以內候選標註完整帶調拼音
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+    - xform/eh/ê/
+
+custom_phrase:
+  dictionary: ""
+  user_dict: custom_phrase
+  db_class: stabledb
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 1
+
+reverse_lookup:
+  dictionary: stroke
+  enable_completion: true
+  prefix: "`"
+  suffix: "'"
+  tips: 〔笔画〕
+  preedit_format:
+    - "xlit|v|ü|"
+    - xform/iü/iv/
+    - xform/uü/uv/
+
+# 支持简繁转换
+simplifier:
+  option_name: traditional_chinese
+  opencc_config: s2t.json
+
+punctuator:
+  import_preset: symbols
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    punct: "^/([0-9]0?|[a-z]+)$"
+    reverse_lookup: "`[a-z]*'?$"

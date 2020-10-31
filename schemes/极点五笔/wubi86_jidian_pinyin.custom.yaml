@@ -1,0 +1,41 @@
+patch:
+  # 增加转换
+  'switches/@before 3':
+    name: traditional_chinese
+    reset: 0
+    states: [ 简, 繁 ]
+  switches/@next 0:
+    name: symbol_support
+    reset: 0
+    states: [ "无符", "符" ]
+  switches/@next 1:
+    name: emoji_suggestion
+    reset: 1
+    states: [ 😑️, 😁️ ]
+  
+  #######配置engine
+  'engine/filters/@before 0':
+    simplifier
+  engine/filters/@next 0:
+    simplifier@symbol_support
+  engine/filters/@next 1:
+    simplifier@emoji_suggestion
+  
+
+  #######emoji
+  emoji_suggestion:
+    opencc_config: emoji.json
+    option_name: emoji_suggestion
+    tips: all
+  # 支持简繁转换
+  simplifier:
+    option_name: traditional_chinese
+    opencc_config: s2t.json
+  # 支持符号
+  symbol_support:
+    opencc_config: symbol.json
+    option_name: symbol_support
+    tips: all
+  #标点及特殊表情
+  'punctuator/import_preset': symbols
+  'recognizer/patterns/punct': "^/([a-z]+|[0-9])$"

@@ -6,3 +6,32 @@ customization:
   rime_version: 1.5.3
 patch:
   "style/color_scheme": metroblue
+  "preset_color_schemes/metro":
+    author: flypy.com
+    back_color: 0xffffff
+    border_color: 0xe89f00
+    comment_text_color: 0x666666
+    hilited_back_color: 0xffffff
+    hilited_candidate_back_color: 0xe89f00
+    hilited_candidate_text_color: 0xffffff
+    hilited_comment_text_color: 0x666666
+    hilited_text_color: 0x000000
+    label_color: 0x666666
+    name: metro
+    text_color: 0x000000
+  "style/color_scheme": flypy
+  "style/display_tray_icon": false
+  "style/font_point": 12
+  "style/horizontal": true
+  "style/inline_preedit": true
+  "style/layout/border_width": 1
+  "style/layout/candidate_spacing": 30
+  "style/layout/hilite_padding": 12
+  "style/layout/hilite_spacing": 2
+  "style/layout/margin_x": 12
+  "style/layout/margin_y": 10
+  "style/layout/min_height": 0
+  "style/layout/min_width": 100
+  "style/layout/round_corner": 0
+  "style/layout/spacing": 10
+  "style/window/@0/move": ""
