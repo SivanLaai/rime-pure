@@ -6,12 +6,6 @@ customization:
   rime_version: 1.5.3
 patch:
   schema_list:
-    - {schema: bingzzjj}
-    - {schema: luna_jiugong}
-    - {schema: luna_pinyin}
-    - {schema: numbers}
-    - {schema: pinyin_simp}
-    - {schema: terra_jiugong}
+    - {schema: clover}
     - {schema: wubi86_jidian}
     - {schema: wubi86_jidian_pinyin}
-    - {schema: wubi86_jidian_trad}

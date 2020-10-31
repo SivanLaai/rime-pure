@@ -15,11 +15,11 @@ schema:
 switches:
   - name: ascii_mode
     reset: 0
-    states: [ 中文, 英文 ]
+    states: [ 中, 英文 ]
   - name: full_shape
-    states: [ 半角, 全角 ]
+    states: [ 半, 全角 ]
   - name: extended_charset
-    states: [ 常用, 扩展 ]
+    states: [ 常, 扩 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
 
@@ -65,7 +65,7 @@ translator:
 
 
 reverse_lookup:
-  dictionary: pinyin_simp
+  dictionary: clover
   prefix: "z"
   suffix: "'"
   tips: [拼音]
