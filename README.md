@@ -32,7 +32,9 @@
 - 5.极品五笔方案增加支持字符（输入`平方`可以选择`²`），emoji表情，繁简转换
 
 ### 包含输入方案
- - 极点五笔：https://github.com/KyleBing/rime-wubi86-jidian
+ - 极点五笔：https://github.com/KyleBing/rime-wubi86-jidian 
+>支持五笔反查
+>![Image text](/Res/wubireverse.png)
  - 🍀️四叶草简体拼音：https://github.com/fkxxyz/rime-cloverpinyin
  - 大写数字
 
