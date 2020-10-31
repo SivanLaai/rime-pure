@@ -114,9 +114,13 @@
 ## 安装方法
 #### 小狼毫（PC端）
 >0.备份小狼毫输入法安装目录的`data`文件夹，备份`~\AppData\Rime`文件夹
+>
 >1.文件夹`weasel\data`内所有文件复制到小狼毫输入法`data`目录覆盖
+>
 >2.文件夹`weasel\Rime`内所有文件复制到`~\AppData\Rime`目录覆盖
+>
 >3.文件夹`schemes\基础文件`内所有文件复制到`~\AppData\Rime`目录覆盖
+>
 >4.拼音、五笔和双拼方案安装
 >>4.1 拼音方案安装
 >>>文件夹`schemes\Clover四叶草拼音`内所有文件复制到`~\AppData\Rime`目录覆盖
@@ -131,8 +135,11 @@
 
 #### 同文（安卓端）
 >0.备份`sdcard\rime`文件夹
+>
 >1.文件夹`trime\rime`内所有文件复制到`sdcard\rime`目录覆盖
+>
 >2.文件夹`schemes\基础文件`内所有文件复制到`sdcard\rime`目录覆盖
+>
 >3.拼音、五笔和双拼方案安装
 >>3.1 拼音方案安装
 >>>文件夹`schemes\Clover四叶草拼音`内所有文件复制到`sdcard\rime`目录覆盖
