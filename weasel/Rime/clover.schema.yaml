@@ -35,7 +35,7 @@ switches:
     states: [ "无符", "符" ]
   - name: emoji_suggestion
     reset: 1
-    states: [ 🙃️, 😄️ ]
+    states: [ 😔, 😀 ]
   
   
 

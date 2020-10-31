@@ -3,7 +3,7 @@ patch:
   'switches/@before 3':
     name: traditional_chinese
     reset: 0
-    states: [ 简, 繁 ]
+    states: [ 简体, 繁体 ]
   switches/@next 0:
     name: symbol_support
     reset: 0
@@ -11,7 +11,7 @@ patch:
   switches/@next 1:
     name: emoji_suggestion
     reset: 1
-    states: [ 🙃️, 😄️ ]
+    states: [ 😔, 😀 ]
   
   #######配置engine
   'engine/filters/@before 0':
