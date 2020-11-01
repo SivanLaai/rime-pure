@@ -49,7 +49,7 @@
  - 大写数字
 
 ## 输入法预览：
-### 小狼毫（PC端）
+### 小狼毫输入法（PC端）
 - 简约现代蓝[配色：XNOM]
 
 ![Image text](/Res/preview_blue.png)
@@ -69,7 +69,7 @@
 
 ![Image text](/Res/preview_temple.png)
 
-### 同文（安卓端）
+### 同文输入法（安卓端）
 
 ##### 🍀️四叶草九宫输入方案
 ![Image text](/Res/trime_preview_jiugong.jpg)
