@@ -26,7 +26,10 @@
 #### 2020-10-31
 - 1.新增双拼输入方案支持-小鹤双拼
 - 2.所有输入方案配置支持繁简转换、中英转换、字符输入、emoji表情、全半角转换
-- 3.调整键盘布局，超大空格，方便五笔和双拼用户
+- 3.调整键盘布局，超大空格，减少误触
+- 4.增加同文优化版皮肤
+
+- ![Image text](/Res/space.jpg)
 
 
 #### 2020-10-27
@@ -84,6 +87,10 @@
 
 #### 部分皮肤预览
 
+##### 同文风优化版[配色：Jaaiko，键盘布局：Jaaiko]
+
+![Image text](/Res/trime_tongwen.jpg)
+
 ##### 讯飞默认皮肤[配色：Jaaiko，键盘布局：Jaaiko]
 
 ![Image text](/Res/trime_xunfei.png)
@@ -96,11 +103,6 @@
 ##### 极致简约[配色：Jaaiko，键盘布局：Jaaiko]
 
 ![Image text](/Res/trime_preview.png)
-
-
-##### 默认黑【佚名】
-
-![Image text](/Res/trime_wubi.png)
 
 
 ##### 五笔字根【佚名】

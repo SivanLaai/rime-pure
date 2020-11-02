@@ -16,7 +16,7 @@ keyboard_height:
 # ----------键盘高度调整------------
   A: &VJG 53         #主辅键盘键高  自定   
   B: &VJM 53        #主辅键盘末行键高  B≈A，如主键盘和符号键盘不等高，调整此数
-  C: &FJG 46        #符号键盘键高  (FJG × 5) + (FJH × 6) = (VJG × 4) + (VJH × 5) 解方程可以求出FJG = 46
+  C: &FJG 48        #符号键盘键高  (FJG × 5) + (FJH × 6) = (VJG × 4) + (VJH × 5) 解方程可以求出FJG = 48
   E: &DsymY 2.0           #主键盘上档文字纵向位置调节，负数上移，下同
   F: &DsymX 0             #主键盘上档文字横向位置调节，负数左移
   G: &DtextY 0              #主键盘字母纵向位置调节
@@ -27,7 +27,7 @@ keyboard_height:
   L: &CQ_symbol 0             #助记键盘符号（长按、上排文字）偏移
   M: &CQ_hintY -3            #助记符号（下排文字、下档文字）纵向位置调节
   N: &CQ_text_size 20
-  H: &VJG_Other 55
+  H: &VJG_Other 53
   I: &NUM_SYM_W 15.5   # 数字  符号键盘  宽度
 
   1: &jpgd1 30 #表情键盘
@@ -44,16 +44,16 @@ code_height:
 #-------调节尽量以配色中键高最低的配色为标准------
 other:
 #主键盘结构（四行）
-  a: &VJH 6         #主键盘行距  建议不动
-  b: &VJL 3         #主键盘列距
-  c: &VJY 4         #主键盘圆角
+  a: &VJH 8         #主键盘行距  建议不动
+  b: &VJL 4         #主键盘列距
+  c: &VJY 12         #主键盘圆角
 #符号键盘结构（五行）
   d: &FJH 2         #符号键盘行距  建议不动
   e: &FJL 2         #符号键盘列距
   f: &FJY 12         #符号键盘圆角
 #数字键盘结构（四行）
-  g: &NJH 4.4         #数字键盘行距  建议不动
-  h: &NJL 6         #数字键盘列距
+  g: &NJH 8         #数字键盘行距  建议不动
+  h: &NJL 8         #数字键盘列距
   i: &NJY 12         #数字键盘圆角
 #键盘高度
 round_corner:
@@ -78,7 +78,7 @@ colors:
   13: &COLOR_DARK_SLATE_GRAY1 0xff253238 #墨绿色1
   14: &COLOR_LIGHT_GRAY_P 0xffcccccc #浅灰+
   15: &COLOR_DARK_SLATE_GRAY2 0xff354346 #墨绿色2
-  16: &COLOR_RED  0xffe63549 #红色 0xff2200
+  16: &COLOR_RED  0xffe63549 #红色 0xffe63549 cd0b0b
   17: &COLOR_DARK_RED 0xff881c1c  #深暗红
   18: &COLOR_LIGHT_SEA_BLUE 0xff1693d8 #浅海蓝
   19: &COLOR_DARK_SEA_BLUE 0xff007dc7  #暗海蓝
@@ -89,8 +89,8 @@ colors:
   23: &COLOR_LIGHT_IFLY_GRAY_P 0xFFb6b7b9 #讯飞功能按键激活灰
   24: &COLOR_NOSIGNAL_GRAY 0xffa3a7aa #按键无法选择灰
   25: &COLOR_DARK_GRAY 0xff6f7b83 #深灰
+  26: &COLOR_DARK_SEA_BLUE_P 0xff025281 #深暗海蓝
 
-  
 
 #界面风格、功能开关
 style:
@@ -201,6 +201,95 @@ fallback_colors:
 preset_color_schemes:
 #--------配色开始----------------#
   default:
+    name: "默认.同文风优化版"
+    author: jaaiko
+    # 悬浮窗
+    border_color: *COLOR_LIGHT_GRAY #悬浮窗边框
+    text_color: *COLOR_BLACK #悬浮窗编码
+    text_back_color: *COLOR_WHITE #悬浮窗背景
+    hilited_text_color: *COLOR_BLACK #悬浮窗高亮编码
+    label_color: *COLOR_BLACK #悬浮窗候选项序号
+    hilited_back_color: *COLOR_TRANSPARENT #悬浮窗高亮编码背景
+    # 候选区
+    back_color: *COLOR_WHITE #0xffeaeaea #候选区背景状态栏(无障碍)
+    candidate_separator_color: *COLOR_TRANSPARENT #候选区分隔颜色
+    candidate_text_color: *COLOR_BLACK # 候选区文本颜色
+    comment_text_color: *COLOR_LIGHT_GRAY_PP #0xff242424 # 0xFFADADAD  # 候选区编码文本颜色
+    hilited_candidate_back_color: *COLOR_TRANSPARENT # 候选区高亮背景颜色
+    hilited_candidate_text_color: *COLOR_IFLY_BLUE #0xff1693d8 # 候选区高亮文本颜色
+    hilited_comment_text_color: *COLOR_IFLY_BLUE #0xff696969 # 候选区高亮编码文本颜色
+    # 键盘
+    keyboard_back_color: *COLOR_LIGHT_GRAY #键盘背景颜色
+    # 正常按键
+    key_back_color: *COLOR_WHITE #按键背景颜色
+    key_border_color: *COLOR_TRANSPARENT #按键边框颜色
+    key_symbol_color: *COLOR_DARK_GRAY # 0xff6f7b83 #按键符号颜色
+    key_text_color: *COLOR_BLACK # 0xff4a4a4a #按键文本颜色
+    hilited_key_back_color: *COLOR_LIGHT_GRAY_PP #0xffe1e1e1 #按键激活背景颜色
+    hilited_key_symbol_color: *COLOR_DARK_GRAY #按键激活符号颜色
+    hilited_key_text_color: *COLOR_BLACK #按键激活文本颜色
+    # 功能键，shift常态 
+    off_key_back_color: *COLOR_DARK_GRAY_WHITE #功能键，shift常态  背景颜色
+    off_key_text_color: *COLOR_BLACK #功能键，shift常态  文本颜色
+    hilited_off_key_back_color: *COLOR_GRAY #激活功能键，shift常态  背景颜色
+    hilited_off_key_text_color: *COLOR_BLACK #激活功能键，shift常态  文本颜色
+    # shift激活 
+    on_key_back_color:  *COLOR_DARK_SEA_BLUE_P # 背景颜色
+    on_key_text_color: *COLOR_WHITE # 文本颜色
+    hilited_on_key_back_color: *COLOR_DARK_SEA_BLUE_P
+    hilited_on_key_text_color: *COLOR_WHITE
+    # 按键下去气泡
+    preview_back_color: *COLOR_TRANSPARENT
+    preview_text_color: *COLOR_BLACK
+    shadow_color: *COLOR_BLACK
+    # 按键额外配置
+    AAA: *COLOR_WHITE
+    BBB: *COLOR_WHITE
+    CCC: *COLOR_WHITE
+    ABH: *COLOR_LIGHT_GRAY_P
+    AAH: *COLOR_LIGHT_GRAY_P
+    BBH: *COLOR_LIGHT_GRAY_P
+    CCH: *COLOR_LIGHT_GRAY_P
+    # 数字
+    szbdb: *COLOR_WHITE
+    szhcb: *COLOR_DARK_SEA_BLUE
+    szhch: *COLOR_DARK_SEA_BLUE_P
+    szgnb: *COLOR_DARK_GRAY_WHITE
+    szgnh: *COLOR_GRAY
+    szhct: *COLOR_WHITE
+    # 符号
+    bdb: *COLOR_WHITE
+    bdh: *COLOR_LIGHT_GRAY_P
+    # 功能
+    gnb: *COLOR_DARK_GRAY_WHITE
+    gnh: *COLOR_GRAY
+    gns: *COLOR_DARK_GRAY
+    # 空格
+    kgb: *COLOR_WHITE 
+    kgh: *COLOR_LIGHT_GRAY_PP
+    kgs: *COLOR_DARK_GRAY
+    kgt: *COLOR_BLACK
+    # backspace
+    bkss: *COLOR_WHITE
+    bkst: *COLOR_WHITE # backspace按键颜色  
+    bksb: *COLOR_RED # backspace按键背景 
+    bksh: *COLOR_DARK_RED # backspace按键激活背景
+    # 回车
+    hcb: *COLOR_DARK_SEA_BLUE
+    hch: *COLOR_DARK_SEA_BLUE_P
+    hcs: *COLOR_DARK_GRAY
+    hct: *COLOR_WHITE
+    hcht: *COLOR_WHITE
+    hchs: *COLOR_DARK_GRAY
+    hbdt: *COLOR_WHITE
+    hsb: *COLOR_DARK_SEA_BLUE
+    # 符号
+    cdt: *COLOR_IFLY_BLUE
+    fyt: *COLOR_NOSIGNAL_GRAY
+    # 菜单
+    xdb: *COLOR_WHITE
+
+  default1:
     name: "默认.讯飞原生版"
     author: jaaiko
     # 悬浮窗
@@ -289,6 +378,1723 @@ preset_color_schemes:
     # 菜单
     xdb: *COLOR_WHITE
 
+  default2:
+    name: "默认.简约配色"
+    author: jaaiko
+    back_color: 0xffeaeaea
+    border_color: *COLOR_LIGHT_GRAY
+    candidate_separator_color: *COLOR_TRANSPARENT
+    candidate_text_color: 0xff696969
+    comment_text_color: 0xFFADADAD
+    hilited_back_color: *COLOR_TRANSPARENT
+    hilited_candidate_back_color: *COLOR_TRANSPARENT
+    hilited_candidate_text_color: 0xff1693d8
+    hilited_comment_text_color: 0xff696969
+    hilited_key_back_color: MIkgh_space.png #0xffe1e1e1
+    hilited_key_symbol_color: 0xff6f7b83
+    hilited_key_text_color: *COLOR_BLACK
+    hilited_off_key_back_color: MIkgh_space.png 
+    hilited_off_key_text_color: *COLOR_BLACK
+    hilited_on_key_back_color: MIkgh_space.png 
+    hilited_on_key_text_color: *COLOR_BLACK
+    hilited_text_color: 0xff23948e
+    key_back_color: MIkgb_space.png # *COLOR_WHITE
+    #key_border_color: 0xffeceff1
+    key_symbol_color: 0xff6f7b83
+    key_text_color: 0xff4a4a4a
+    keyboard_back_color: *COLOR_LIGHT_GRAY
+    off_key_back_color: MIkga_space.png #0xffe1e1e1
+    off_key_text_color: 0xff4d4d4d
+    on_key_back_color:  MIkga_space.png # 0xffe1e1e1
+    on_key_text_color: 0xff1693d8
+    preview_back_color: 0xff1693d8
+    preview_text_color: *COLOR_WHITE
+    shadow_color: *COLOR_BLACK
+    text_color: 0xff5b696f
+    text_back_color: *COLOR_WHITE
+    label_color: 0xff999999
+    ABC: MIgnb.png
+    AAA: MIkey.png
+    BBB: MIkey.png
+    CCC: MIkey.png
+    ABH: MIkeyh.png
+    AAH: MIkeyh.png
+    BBH: MIkeyh.png
+    CCH: MIkeyh.png
+    szbdb: MIkgb_space.png
+    szhcb: MIhcb.png
+    szhch: MIhch.png
+    szgnb: MIkga_space.png
+    szgnh: MIkgh_space.png 
+    szhct: *COLOR_WHITE
+    bdb: MIkey.png
+    bdh: MIkeyh.png
+    hbdt: 0xff37474f
+    hsb: MIgnb.png
+    szb: MIgnb.png
+    szs: 0xff5b696f
+    bkss: *COLOR_WHITE # backspace字符颜色    
+    bkst: *COLOR_WHITE # backspace按键颜色
+    bksb: MIhcb1.png # backspace按键背景
+    bksh: MIhch1.png # backspace按键激活背景
+    gnb: MIgnb.png
+    gnh: MIgnh.png
+    gns: 0xff5b696f
+    kgb: MIkgb_space.png 
+    kgh: MIkgh_space.png
+    kgs: 0xff5f6b73
+    kgt: 0xff4d4d4d
+    hcb: MIhcb.png
+    hch: MIhch.png
+    hcs: *COLOR_WHITE
+    hct: *COLOR_WHITE
+    hcht: *COLOR_WHITE
+    hchs: *COLOR_WHITE
+    cdt: 0xff1693d8
+    cdA: 0xff1693d8
+    cdB: 0xff666666
+    cdC: 0xff666666
+    fyt: 0xffa3a7aa
+    zyb: 0x00ffffff
+    zyt: 0x00ffffff
+    zjs: 0xff6f7b83
+    xdb: *COLOR_LIGHT_GRAY
+    ykgb: MIkgb_space.png
+    zkgb: MIkgb_space.png
+  
+
+  purewhite:
+    name: "默认.纯白"
+    author: jaaiko
+    back_color: 0xffeaeaea
+    border_color: *COLOR_LIGHT_GRAY
+    candidate_separator_color: *COLOR_TRANSPARENT
+    candidate_text_color: 0xff696969
+    comment_text_color: 0xFFADADAD
+    hilited_back_color: *COLOR_TRANSPARENT
+    hilited_candidate_back_color: *COLOR_TRANSPARENT
+    hilited_candidate_text_color: 0xff1693d8
+    hilited_comment_text_color: 0xff696969
+    hilited_key_back_color: MIkgh_space.png #0xffe1e1e1
+    hilited_key_symbol_color: 0xff6f7b83
+    hilited_key_text_color: *COLOR_BLACK
+    hilited_off_key_back_color: MIkgh_space.png
+    hilited_off_key_text_color: *COLOR_BLACK
+    hilited_on_key_back_color: MIkgh_space.png
+    hilited_on_key_text_color: *COLOR_BLACK
+    hilited_text_color: 0xff23948e
+    key_back_color: MIkgb_space.png # *COLOR_WHITE
+    #key_border_color: 0xffeceff1
+    key_symbol_color: 0xff6f7b83
+    key_text_color: 0xff4a4a4a
+    keyboard_back_color: *COLOR_LIGHT_GRAY
+    off_key_back_color: MIkgb_space.png #0xffe1e1e1
+    off_key_text_color: 0xff4d4d4d
+    on_key_back_color:  MIkgb_space.png # 0xffe1e1e1
+    on_key_text_color: 0xff1693d8
+    preview_back_color: 0xff1693d8
+    preview_text_color: *COLOR_WHITE
+    shadow_color: *COLOR_BLACK
+    text_color: 0xff5b696f
+    text_back_color: *COLOR_WHITE
+    label_color: 0xff999999
+    ABC: MIbdb.png
+    AAA: MIkey.png
+    BBB: MIkey.png
+    CCC: MIkey.png
+    ABH: MIkeyh.png
+    AAH: MIkeyh.png
+    BBH: MIkeyh.png
+    CCH: MIkeyh.png
+    szbdb: MIkgb_space.png
+    szhcb: MIkgb_space.png
+    szhch: MIkgb_space.png
+    szgnb: MIkgb_space.png
+    szgnh: MIkgh_space.png
+    szhct: 0xff5b696f
+    bdb: MIkey.png
+    bdh: MIkeyh.png
+    hbdt: 0xff37474f
+    hsb: MIbdb.png
+    szb: MIbdb.png
+    szs: 0xff5b696f   
+    bkss: 0xff6f7b83
+    bkst: 0xff5b696f  # backspace按键颜色
+    bksb: MIbdb.png # backspace按键背景
+    bksh: MIgnh.png # backspace按键激活背景
+    gnb: MIkgb_space.png
+    gnh: MIgnh.png
+    gns: 0xff5b696f
+    kgb: MIkgb_space.png 
+    kgh: MIkgh_space.png
+    kgs: 0xff5f6b73
+    kgt: 0xff4d4d4d
+    hcb: MIbdb.png
+    hch: MIgnh.png
+    hcs: 0xff6f7b83
+    hct: 0xff5b696f
+    hcht: 0xff5b696f
+    hchs: 0xff6f7b83
+    cdt: 0xff1693d8
+    cdA: 0xff1693d8
+    cdB: 0xff666666
+    cdC: 0xff666666
+    fyt: 0xffa3a7aa
+    zyb: 0x00ffffff
+    zyt: 0x00ffffff
+    zjs: 0xff6f7b83
+    xdb: *COLOR_LIGHT_GRAY
+    ykgb: MIkgb_space.png
+    zkgb: MIkgb_space.png
+  
+
+  default_tongwen:
+    name: "同文风格／tongwen"  #方案名称
+    author: 风花絮 #作者信息
+    back_color: *COLOR_WHITE #候选区背景状态栏
+    candidate_separator_color: *COLOR_WHITE #候选分割背景
+    candidate_text_color: *COLOR_BLACK #候选文本
+    comment_text_color: *COLOR_GRAY_WHITE #提示
+    hilited_back_color: *COLOR_WHITE #高亮编码背景
+    hilited_candidate_back_color: *COLOR_WHITE #高亮候选背景
+    hilited_candidate_text_color: *COLOR_GRAY_BLUE #高亮候选文本
+    hilited_comment_text_color: *COLOR_BLACK #高亮提示
+    hilited_key_back_color: *COLOR_GRAY_BLUE #高亮按键背景
+    hilited_key_symbol_color: *COLOR_WHITE #高亮按键符号
+    hilited_key_text_color: *COLOR_BLACK #高亮按键文本
+    hilited_off_key_back_color: *COLOR_WHITE #高亮按键关闭状态背景
+    hilited_off_key_text_color: *COLOR_BLACK #高亮按键关闭状态文本
+    hilited_text_color: *COLOR_BLACK #高亮编码
+    key_back_color: *COLOR_WHITE #按键背景
+    key_symbol_color: *COLOR_GRAY #按键符号
+    key_text_color: *COLOR_BLACK #按键文本
+    keyboard_back_color: *COLOR_GRAY_WHITE #键盘背景
+    label_color: *COLOR_GRAY_BLUE #标签
+    off_key_back_color: *COLOR_DARK_GRAY_WHITE  #按键关闭状态背景
+    off_key_text_color: *COLOR_WHITE #按键关闭状态文本
+    preview_back_color: *COLOR_DARK_GRAY_WHITE #按键提示背景
+    preview_text_color: *COLOR_GRAY_BLUE #按键提示文本
+    text_color: *COLOR_GRAY_BLUE #编码
+    text_back_color: *COLOR_WHITE #编码区背景
+    kgb: *COLOR_WHITE #空格键背景色
+    kgt: *COLOR_BLACK #空格键文字颜色
+    hcb: *COLOR_LIGHT_SEA_BLUE #回车键背景色
+    hcs: *COLOR_WHITE #回车键文字颜色    
+    bkss: *COLOR_GRAY
+    bkst: *COLOR_WHITE # backspace按键颜色
+    bksb: *COLOR_DARK_GRAY_WHITE # backspace按键背景
+    # bksh: MIhch1.png # backspace按键激活背景
+    gnb: *COLOR_DARK_GRAY_WHITE #功能键背景色
+    gnt: *COLOR_WHITE #功能键文字颜色
+    hsb: *COLOR_DARK_GRAY_WHITE #退格键背景色
+    hst: *COLOR_WHITE #退格键文字颜色
+    baoe: *COLOR_WHITE #aoeiu背景色
+    taoe: *COLOR_GRAY_BLUE #aoeiu文字颜色
+    bh1: *COLOR_WHITE #第一行背景色
+    th1: *COLOR_BLACK #第一行文字颜色
+    bh2: *COLOR_WHITE #第二行背景色
+    th2: *COLOR_BLACK #第二行文字颜色
+    bh3: *COLOR_WHITE #第三行背景色
+    th3: *COLOR_BLACK #第三行文字颜色
+    bh4: *COLOR_WHITE #第四行背景色
+    th4: *COLOR_BLACK #第四行文字颜色
+
+
+  rime_yushe:
+    name: Rime預設／Rime #方案名稱
+    author: osfans #作者資訊
+    back_color: 0xffe4e7e9 #候選區背景
+    border_color: 0xffc1c7ca #邊框
+    candidate_separator_color: 0xffc1c7ca #候選分割背景
+    candidate_text_color: 0xff5a676e #候選文字
+    comment_text_color: 0xff7b868c #提示
+    hilited_back_color: 0xccd3d7da #標明編碼背景
+    hilited_candidate_back_color: 0xffd3d7da #標明候選背景
+    hilited_candidate_text_color: *COLOR_BLACK #標明候選文字
+    hilited_comment_text_color: *COLOR_BLACK #標明提示
+    hilited_key_back_color: 0xffd3d7da # 0xffd3d7da #標明按鍵背景
+    hilited_key_symbol_color: *COLOR_BLACK #標明按鍵符號
+    hilited_key_text_color: *COLOR_BLACK #標明按鍵文字
+    hilited_off_key_back_color: 0xffd3d7da # 0xffd3d7da #標明按鍵關閉狀態背景
+    hilited_off_key_text_color: *COLOR_BLACK #標明按鍵關閉狀態文字
+    hilited_on_key_back_color: 0xffd3d7da #0xffd3d7da #標明按鍵打開狀態背景
+    hilited_on_key_text_color: *COLOR_BLACK #標明按鍵打開狀態文字
+    hilited_text_color: 0xff23948e #標明編碼
+    key_back_color: 0xffeceff1 #0xffeceff1 #按鍵背景 
+    key_border_color: 0xffeceff1 #按鍵邊框
+    key_symbol_color: 0xff5f6b73 #按鍵符號
+    key_text_color: 0xff37474f #按鍵文字
+    keyboard_back_color: *COLOR_WHITE #鍵盤背景
+    label_color: *COLOR_BLACK #標籤
+    off_key_back_color: 0xffd3d7da #0xffd3d7da #按鍵關閉狀態背景
+    off_key_text_color: *COLOR_BLACK #按鍵關閉狀態文字
+    on_key_back_color: 0xff23948e # 0xff23948e #按鍵打開狀態背景
+    on_key_text_color: 0xff37474f #按鍵打開狀態文字
+    preview_back_color: 0x55bfbfbf #按鍵提示背景
+    preview_text_color: 0xff23948e #按鍵提示文字
+    shadow_color: *COLOR_BLACK #陰影
+    text_color: 0xff5a676e #編碼
+    text_back_color: 0xcce4e7e9 #編碼區背景
+
+  aqua:
+    name: 碧水／Aqua
+    author: 佛振 <chen.sst@gmail.com>
+    text_color: *COLOR_BLACK
+    back_color: 0xffeeeeec
+    border_color: 0xffe0e0e0
+    hilited_text_color: *COLOR_BLACK
+    hilited_back_color: 0xffd4d4d4
+    hilited_candidate_text_color: *COLOR_WHITE
+    hilited_candidate_back_color: 0xff0a3afa
+    
+
+  azure:
+    name: 青天／Azure
+    author: 佛振 <chen.sst@gmail.com>
+    text_color: 0xffcae8ff
+    candidate_text_color: 0xffeef8ff
+    back_color: 0xff014e8b
+    border_color: 0xff014e8b
+    hilited_text_color: 0xffeef8ff
+    hilited_back_color: 0xff014e8b
+    hilited_candidate_text_color: 0xfffffe7f
+    hilited_candidate_back_color: 0xff015ea9
+    comment_text_color: 0xff6496c6
+
+  luna:
+    name: 明月／Luna
+    author: 佛振 <chen.sst@gmail.com>
+    text_color: *COLOR_BLACK
+    back_color: *COLOR_WHITE
+    border_color: 0xffcccccc
+    hilited_text_color: *COLOR_BLACK
+    hilited_back_color: 0xffffff7f
+    hilited_candidate_text_color: *COLOR_WHITE
+    hilited_candidate_back_color: *COLOR_BLACK
+
+  ink:
+    name: 墨池／Ink
+    author: 佛振 <chen.sst@gmail.com>
+    text_color: *COLOR_BLACK
+    back_color: *COLOR_WHITE
+    border_color: *COLOR_BLACK
+    hilited_text_color: *COLOR_BLACK
+    hilited_back_color: 0xffdddddd
+    hilited_candidate_text_color: *COLOR_WHITE
+    hilited_candidate_back_color: *COLOR_BLACK
+
+  lost_temple:
+    name: 孤寺／Lost Temple
+    author: 佛振 <chen.sst@gmail.com>, based on ir_black
+    text_color: 0xfff6f3e8
+    back_color: 0xff444444
+    border_color: 0xff444444
+    hilited_text_color: 0xffcae682
+    hilited_back_color: 0xff222222
+    hilited_candidate_text_color: *COLOR_BLACK
+    hilited_candidate_back_color: 0xffcae682
+
+  dark_temple:
+    name: 暗堂／Dark Temple
+    author: 佛振 <chen.sst@gmail.com>, based on ir_black
+    text_color: 0xffdaf692
+    candidate_text_color: 0xffe6e3d8
+    back_color: 0xff222222
+    border_color: 0xff222222
+    hilited_text_color: 0xff9acfff
+    hilited_back_color: 0xff222222
+    hilited_candidate_text_color: 0xffdaf692
+    hilited_candidate_back_color: 0xff333333
+    comment_text_color: 0xffff6c60
+
+  starcraft:
+    name: 星際我爭霸／StarCraft
+    author: Contralisk <contralisk@gmail.com>, original artwork by Blizzard Entertainment
+    text_color: 0xff88aacc
+    candidate_text_color: 0xff55bb30
+    back_color: *COLOR_BLACK
+    border_color: 0xffa01010
+    hilited_text_color: 0xff96cbfe
+    hilited_back_color: *COLOR_BLACK
+    hilited_candidate_text_color: 0xffa8ff60
+    hilited_candidate_back_color: *COLOR_BLACK
+
+  google:
+    name: 谷歌／Google
+    author: skoj <skoj@qq.com>
+    text_color: 0xff666666
+    candidate_text_color: *COLOR_BLACK
+    back_color: *COLOR_WHITE
+    border_color: 0xffE2E2E2
+    hilited_text_color: *COLOR_BLACK
+    hilited_back_color: *COLOR_WHITE
+    hilited_candidate_text_color: *COLOR_WHITE
+    hilited_candidate_back_color: 0xff3975CE
+
+  solarized_rock:
+    name: 曬經石／Solarized Rock
+    author: "Aben <tntaben@gmail.com>, based on Ethan Schoonover's Solarized color scheme"
+    back_color: 0xff002b36
+    border_color: 0xff002b36
+    text_color: 0xff859900
+    hilited_text_color: 0xff2aa198
+    candidate_text_color: 0xff839496
+    hilited_candidate_text_color: *COLOR_WHITE
+    hilited_candidate_back_color: 0xffd33682
+
+  tintin:
+    name: "丁丁／ Tintin"
+    author: "Patricivs <ipatrickmac@me.com>"
+    text_color: *COLOR_WHITE
+    back_color: 0xff0095d9
+    border_color: 0xff0095d9
+    label_color: *COLOR_WHITE
+    candidate_text_color: *COLOR_WHITE
+    comment_text_color: *COLOR_WHITE
+    hilited_text_color: 0xff91d8f7
+    hilited_back_color: 0xff0095d9
+    hilited_candidate_text_color: *COLOR_WHITE
+    hilited_comment_text_color: *COLOR_WHITE
+    hilited_candidate_back_color: 0xfff16421
+
+  dota_2:
+    name: "DOTA 2"
+    author: "Patricivs <ipatrickmac@me.com>"
+    text_color: *COLOR_WHITE
+    back_color: 0xff100f12
+    border_color: 0xff100f12
+    label_color: 0xff8f755c
+    hilited_text_color: 0xffdd4118
+    hilited_back_color: 0xff100f12
+    candidate_text_color: 0xff8f755c
+    comment_text_color: 0xff8f755c
+    hilited_candidate_text_color: *COLOR_WHITE
+    hilited_comment_text_color: *COLOR_WHITE
+    hilited_candidate_back_color: 0xffdd4118
+
+  brasil:
+    name: "笆悉／Brasil"
+    author: "Patricivs <ipatrickmac@me.com>"
+    text_color: *COLOR_WHITE
+    back_color: 0xff119355
+    border_color: 0xff119355
+    label_color: *COLOR_WHITE
+    hilited_text_color: *COLOR_WHITE
+    hilited_back_color: 0xff17367d
+    candidate_text_color: *COLOR_WHITE
+    comment_text_color: *COLOR_WHITE
+    hilited_candidate_text_color: *COLOR_WHITE
+    hilited_comment_text_color: *COLOR_WHITE
+    hilited_candidate_back_color: 0xfff7c716
+
+  doraemon:
+    name: "銅鑼衛門／Doraemon"
+    author: "Patricivs <ipatrickmac@me.com>"
+    text_color: 0xffe50012
+    back_color: *COLOR_WHITE
+    border_color: 0xff009fe8
+    label_color: 0xff009fe8
+    hilited_text_color: *COLOR_WHITE
+    hilited_back_color: 0xffe50012
+    candidate_text_color: 0xff009fe8
+    comment_text_color: 0xff009fe8
+    hilited_candidate_text_color: *COLOR_WHITE
+    hilited_comment_text_color: *COLOR_WHITE
+    hilited_candidate_back_color: 0xff009fe8
+
+  espagna:
+    name: "埃斯巴尼亞／España"
+    author: "Patricivs <ipatrickmac@me.com>"
+    text_color: *COLOR_WHITE
+    back_color: 0xffc30d23
+    border_color: 0xffc30d23
+    label_color: *COLOR_WHITE
+    hilited_text_color: *COLOR_WHITE
+    hilited_back_color: 0xfff7b52c
+    candidate_text_color: *COLOR_WHITE
+    comment_text_color: *COLOR_WHITE
+    hilited_candidate_text_color: *COLOR_WHITE
+    hilited_comment_text_color: *COLOR_WHITE
+    hilited_candidate_back_color: 0xfff7b52c
+
+  gholabok:
+    name: "胡蘿菔／Gholabok"
+    author: "Patricivs <ipatrickmac@me.com>"
+    text_color: *COLOR_WHITE
+    back_color: 0xffe83929
+    border_color: 0xffe83929
+    label_color: *COLOR_WHITE
+    hilited_text_color: *COLOR_WHITE
+    hilited_back_color: 0xff007b43
+    candidate_text_color: *COLOR_WHITE
+    comment_text_color: *COLOR_WHITE
+    hilited_candidate_text_color: *COLOR_WHITE
+    hilited_comment_text_color: *COLOR_WHITE
+    hilited_candidate_back_color: 0xffed6d3d
+
+  kuma_shuzboz:
+    name: "熊出沒／Kuma Shuzboz"
+    author: "Patricivs <ipatrickmac@me.com>"
+    text_color: *COLOR_BLACK
+    back_color: 0xfff8b62d
+    border_color: 0xfff8b62d
+    label_color: *COLOR_WHITE
+    hilited_text_color: 0xfff8b62d
+    hilited_back_color: *COLOR_WHITE
+    candidate_text_color: *COLOR_WHITE
+    comment_text_color: *COLOR_WHITE
+    hilited_candidate_text_color: *COLOR_WHITE
+    hilited_comment_text_color: *COLOR_WHITE
+    hilited_candidate_back_color: *COLOR_BLACK
+
+  kuon:
+    name: "琨／Kuon"
+    author: "Patricivs <ipatrickmac@me.com>"
+    text_color: *COLOR_WHITE
+    back_color: 0xff3eb370
+    border_color: 0xff3eb370
+    label_color: *COLOR_WHITE
+    hilited_text_color: 0xff3eb370
+    hilited_back_color: *COLOR_WHITE
+    candidate_text_color: *COLOR_WHITE
+    comment_text_color: *COLOR_WHITE
+    hilited_candidate_text_color: 0xff3eb370
+    hilited_comment_text_color: 0xff3eb370
+    hilited_candidate_back_color: *COLOR_WHITE
+
+  macau:
+    name: "澳門／Macau"
+    author: "Patricivs <ipatrickmac@me.com>"
+    text_color: 0xffffd900
+    back_color: 0xff00a381
+    border_color: 0xff00a381
+    label_color: *COLOR_WHITE
+    hilited_text_color: *COLOR_WHITE
+    hilited_back_color: 0xffffd900
+    candidate_text_color: *COLOR_WHITE
+    comment_text_color: *COLOR_WHITE
+    hilited_candidate_text_color: 0xffffd900
+    hilited_comment_text_color: 0xffffd900
+    hilited_candidate_back_color: *COLOR_WHITE
+
+  nba:
+    name: "NBA"
+    author: "Patricivs <ipatrickmac@me.com>"
+    text_color: *COLOR_WHITE
+    back_color: 0xff006ab7
+    border_color: 0xff006ab7
+    label_color: *COLOR_WHITE
+    hilited_text_color: 0xffd71e54
+    hilited_back_color: *COLOR_WHITE
+    candidate_text_color: *COLOR_WHITE
+    comment_text_color: *COLOR_WHITE
+    hilited_candidate_text_color: *COLOR_WHITE
+    hilited_comment_text_color: *COLOR_WHITE
+    hilited_candidate_back_color: 0xffd71e54
+
+  ps4:
+    name: "遊驛四／PS4"
+    author: "Patricivs <ipatrickmac@me.com>"
+    text_color: *COLOR_WHITE
+    back_color: *COLOR_BLACK
+    border_color: *COLOR_BLACK
+    label_color: *COLOR_WHITE
+    hilited_text_color: *COLOR_WHITE
+    hilited_back_color: 0xff595757
+    candidate_text_color: *COLOR_WHITE
+    comment_text_color: *COLOR_WHITE
+    hilited_candidate_text_color: *COLOR_WHITE
+    hilited_comment_text_color: *COLOR_WHITE
+    hilited_candidate_back_color: 0xff009fe8
+
+  skype:
+    name: "斯蓋普／Skype"
+    author: "Patricivs <ipatrickmac@me.com>"
+    text_color: *COLOR_WHITE
+    back_color: 0xff00adef
+    border_color: 0xff00adef
+    label_color: *COLOR_WHITE
+    hilited_text_color: 0xff00adef
+    hilited_back_color: *COLOR_WHITE
+    candidate_text_color: *COLOR_WHITE
+    comment_text_color: *COLOR_WHITE
+    hilited_candidate_text_color: 0xff00adef
+    hilited_comment_text_color: 0xff00adef
+    hilited_candidate_back_color: *COLOR_WHITE
+
+  xbox_silver:
+    name: "銀色叉盒／Xbox Silver"
+    author: "Patricivs <ipatrickmac@me.com>"
+    text_color: 0xff8dc21f
+    back_color: 0xffeeeeef
+    border_color: 0xffeeeeef
+    label_color: 0xffb5f05b
+    hilited_text_color: *COLOR_WHITE
+    hilited_back_color: 0xffb5f05b
+    candidate_text_color: 0xff8dc21f
+    comment_text_color: 0xff8dc21f
+    hilited_candidate_text_color: *COLOR_WHITE
+    hilited_comment_text_color: *COLOR_WHITE
+    hilited_candidate_back_color: 0xff288c44
+
+  youtube:
+    name: "YouTube"
+    author: "Patricivs <ipatrickmac@me.com>"
+    text_color: *COLOR_BLACK
+    back_color: 0xffdedede
+    border_color: 0xffdedede
+    label_color: *COLOR_BLACK
+    hilited_text_color: 0xffc30d23
+    hilited_back_color: *COLOR_WHITE
+    candidate_text_color: *COLOR_BLACK
+    comment_text_color: *COLOR_BLACK
+    hilited_candidate_text_color: *COLOR_WHITE
+    hilited_comment_text_color: *COLOR_WHITE
+    hilited_candidate_back_color: 0xffc30d23
+
+  so_young:
+    name: "致青春／So Young"
+    author: "五磅兔 <zcunlin@foxmail.com>"
+    text_color: 0xffd33682
+    back_color: 0xfffdf6e3
+    border_color: 0xffeee8d5
+    label_color: 0xff93a1a1
+    candidate_text_color: 0xff657b83
+    comment_text_color: 0xff268bd2
+    hilited_text_color: 0xff839496
+    hilited_back_color: 0xffeee8d5
+    hilited_candidate_text_color: 0xffeee8d5
+    hilited_comment_text_color: 0xffeee8d5
+    hilited_candidate_back_color: 0xff2aa198
+
+  smurfs:
+    name: "藍精靈／Smurfs"
+    author: "skoj <skoj@qq.com>"
+    text_color: *COLOR_WHITE
+    back_color: 0xff1778bf
+    border_color: 0xffe0edf5
+    label_color: 0xff1778bf
+    hilited_text_color: 0xff6dbcdb
+    hilited_back_color: 0xff1778bf
+    candidate_text_color: 0xfff6f6f6
+    comment_text_color: 0xfff6f6f6
+    hilited_candidate_text_color: 0xfff6f6f6
+    hilited_comment_text_color: 0xfff6f6f6
+    hilited_candidate_back_color: 0xff6dbcdb
+
+  wii:
+    name: "Wii"
+    author: "Patricivs <ipatrickmac@me.com>"
+    text_color: 0xff595757
+    back_color: 0xffefefef
+    border_color: 0xffefefef
+    label_color: 0xffc8c9ca
+    hilited_text_color: 0xff33ccff
+    hilited_back_color: 0xffefefef
+    candidate_text_color: 0xff595757
+    comment_text_color: 0xffc8c9ca
+    hilited_candidate_text_color: *COLOR_WHITE
+    hilited_comment_text_color: *COLOR_WHITE
+    hilited_candidate_back_color: 0xff33ccff
+
+  android:
+    name: "安卓／Android"
+    author: "Patricivs <ipatrickmac@me.com>"
+    text_color: *COLOR_WHITE
+    back_color: 0xff1c7399
+    border_color: 0xff1c7399
+    label_color: 0xff3588c1
+    hilited_text_color: 0xffa8c450
+    hilited_back_color: 0xff1c7399
+    candidate_text_color: *COLOR_WHITE
+    comment_text_color: *COLOR_WHITE
+    hilited_candidate_text_color: *COLOR_WHITE
+    hilited_comment_text_color: *COLOR_WHITE
+    hilited_candidate_back_color: 0xffa8c450
+
+  cool_breeze:
+    name: "清風／Cool Breeze"
+    author: "skoj <skoj@qq.com>"
+    text_color: 0xffFF0000
+    back_color: 0xffFBFBFF
+    border_color: 0xffAAAAFF
+    hilited_text_color: 0xffCE0000
+    hilited_back_color: 0xffFBFBFF
+    candidate_text_color: 0xff009100
+    hilited_candidate_text_color: 0xff3A006F
+    hilited_candidate_back_color: 0xffACD6FF
+
+  google_plus:
+    name: "Google+"
+    author: "Patricivs <ipatrickmac@me.com>"
+    text_color: 0xffc8c9ca
+    back_color: *COLOR_WHITE
+    border_color: 0xffdd4b39
+    label_color: 0xffc8c9ca
+    hilited_text_color: 0xffdd4b39
+    hilited_back_color: *COLOR_WHITE
+    candidate_text_color: 0xffdd4b39
+    comment_text_color: 0xffc8c9ca
+    hilited_candidate_text_color: *COLOR_WHITE
+    hilited_comment_text_color: *COLOR_WHITE
+    hilited_candidate_back_color: 0xffdd4b39
+
+  modern_warfare:
+    name: "現代戰爭／Modern Warfare"
+    author: P1461
+    text_color: 0xff70bc14
+    back_color: 0xff0d1b0a
+    border_color: 0xff83ad4b
+    hilited_text_color: 0xfffcfdfb
+    hilited_back_color: 0xff060e03
+    candidate_text_color: 0xffdcfeab
+    comment_text_color: 0xfffbfdfc
+    hilited_candidate_text_color: 0xffdcfeab
+    hilited_candidate_back_color: 0xff636f67
+
+  brisk:
+    name: "輕盈／Brisk"
+    author: "skoj <skoj@qq.com>"
+    text_color: 0xffdc3822
+    back_color: *COLOR_WHITE
+    border_color: 0xff333333
+    hilited_text_color: 0xffdc3822
+    hilited_back_color: *COLOR_WHITE
+    candidate_text_color: 0xff575757
+    hilited_candidate_text_color: 0xffdc3822
+    hilited_candidate_back_color: *COLOR_WHITE
+
+  starcraft_ii:
+    name: "星際爭霸Ⅱ／StarCraft Ⅱ"
+    author: "Patricivs <ipatrickmac@me.com>"
+    text_color: *COLOR_WHITE
+    back_color: 0xff0a1929
+    border_color: 0xff464b53
+    label_color: *COLOR_WHITE
+    hilited_text_color: *COLOR_WHITE
+    hilited_back_color: 0xff0a1017
+    candidate_text_color: *COLOR_WHITE
+    comment_text_color: *COLOR_WHITE
+    hilited_candidate_text_color: *COLOR_WHITE
+    hilited_comment_text_color: *COLOR_WHITE
+    hilited_candidate_back_color: 0xff1eadef
+
+  steam:
+    name: "Steam"
+    author: "Patricivs <ipatrickmac@me.com>"
+    text_color: 0xff528ccd
+    back_color: 0xff171614
+    border_color: 0xff383635
+    label_color: *COLOR_WHITE
+    hilited_text_color: 0xffd1cfc9
+    hilited_back_color: 0xff171614
+    candidate_text_color: *COLOR_WHITE
+    comment_text_color: 0xffa9a7a7
+    hilited_candidate_text_color: *COLOR_WHITE
+    hilited_comment_text_color: 0xffa9a7a7
+    hilited_candidate_back_color: 0xff314259
+
+  flypy:
+    # description: |
+    #   小鶴飛揚：白底藍字，紅色標明。
+    #   根據小鶴雙拼官網圖片製作
+    #   http://www.flypy.com/images/mr.png
+    name: "小鶴飛揚／flypy"
+    author: "Pal.lxk <Pal.lxk@gmail.com>"
+    text_color: *COLOR_BLACK
+    back_color: *COLOR_WHITE
+    border_color: 0xffc6c6c6
+    label_color: 0xff0080ff
+    hilited_text_color: 0xff0080ff
+    hilited_back_color: *COLOR_WHITE
+    candidate_text_color: 0xff0080ff
+    comment_text_color: 0xff0080ff
+    hilited_candidate_text_color: 0xffb00000
+    hilited_comment_text_color: 0xffb00000
+    hilited_candidate_back_color: *COLOR_WHITE
+  tantsing:
+    name: 丹青
+    author: Mijiag
+    back_color: 0xffe3e3e3
+    border_color: *COLOR_BLACK
+    text_color: *COLOR_BLACK
+    hilited_text_color: 0xffe3e3e3
+    hilited_back_color: 0xff91071a
+    hilited_candidate_text_color: 0xffe3e3e3
+    hilited_candidate_back_color: 0xff730b6f
+    candidate_text_color: *COLOR_BLACK
+    comment_text_color: 0xff474747
+  yygc:
+    author: "小辛"
+    back_color: *COLOR_WHITE
+    border_color: *COLOR_WHITE
+    candidate_text_color: 0xff7f7f7f
+    comment_text_color: 0xff7f7f7f
+    hilited_back_color: *COLOR_WHITE
+    hilited_candidate_back_color: *COLOR_WHITE
+    hilited_candidate_text_color: 0xff7f7f7f
+    hilited_comment_text_color: 0xff7f7f7f
+    hilited_key_text_color: 0xff7f7f7f
+    hilited_off_key_back_color: *COLOR_WHITE
+    hilited_off_key_text_color: 0xff7f7f7f
+    hilited_on_key_back_color: *COLOR_WHITE
+    hilited_on_key_text_color: 0xff7f7f7f
+    hilited_text_color: 0xff7f7f7f
+    key_text_color: 0xff7f7f7f
+    label_color: 0xff7f7f7f
+    name: "一葉孤城"
+    off_key_text_color: 0xff7f7f7f
+    text_color: 0xff7f7f7f
+  feng01:
+    author: "风花絮"
+    back_color: 0xffF8EDD1
+    border_color: 0xffF8EDD1
+    candidate_text_color: 0xffA48464
+    comment_text_color: *COLOR_WHITE
+    hilited_back_color: 0xffF4E6C2
+    hilited_candidate_back_color: 0xffF4E6C2
+    hilited_candidate_text_color: 0xffBA6D65
+    hilited_text_color: 0xff969696
+    name: "奈々"
+    off_key_text_color: 0xffBA6D65
+    text_color: 0xffA48464
+  feng02:
+    author: "风花絮"
+    back_color: 0xFF537F92
+    border_color: 0xFF537F92
+    candidate_text_color: 0xffFAFAFF
+    comment_text_color: *COLOR_WHITE
+    hilited_back_color: 0xff537F92
+    hilited_candidate_back_color: 0xff969696
+    hilited_candidate_text_color: 0xffFFFAFA
+    hilited_text_color: 0xff969696
+    name: "独立日"
+    text_color: 0xffFFFAFA
+  feng03:
+    author: "风花絮"
+    back_color: 0xff599852
+    border_color: 0xff599852
+    candidate_text_color: *COLOR_WHITE
+    comment_text_color: 0xff969696
+    hilited_back_color: 0xff599852
+    hilited_candidate_back_color: 0xff599852
+    hilited_candidate_text_color: 0xfff5a54b
+    hilited_text_color: *COLOR_WHITE
+    key_back_color: *COLOR_WHITE
+    name: "一叶清荷"
+    off_key_text_color: 0xfff5a54b
+    text_color: 0xff6aa052
+    key_text_color: 0xff599852 #按键文本
+  feng04:
+    author: "风花絮"
+    back_color: 0xff7896AA
+    border_color: 0xff7896AA
+    candidate_text_color: *COLOR_WHITE
+    comment_text_color: 0xff969696
+    hilited_back_color: 0xff5289A7
+    hilited_candidate_back_color: 0xff7896AA
+    hilited_candidate_text_color: 0xffFFFF80
+    hilited_text_color: 0xff969696
+    key_back_color: 0xff5289A7
+    name: "往事回忆"
+    text_color: *COLOR_WHITE
+  feng05:
+    author: "风花絮"
+    back_color: *COLOR_BLACK
+    border_color: *COLOR_BLACK
+    candidate_text_color: *COLOR_WHITE
+    comment_text_color: *COLOR_WHITE
+    hilited_back_color: *COLOR_BLACK
+    hilited_candidate_back_color: *COLOR_BLACK
+    hilited_candidate_text_color: 0xffFEF94D
+    hilited_text_color: *COLOR_WHITE
+    key_back_color: 0xffFEF94D
+    name: "黄黑"
+    text_color: *COLOR_BLACK
+    key_text_color: *COLOR_BLACK #按键文本
+    key_symbol_color: *COLOR_BLACK #按键符号
+  feng06:
+    author: "风花絮"
+    back_color: 0xff789c80
+    border_color: 0xff789c80
+    candidate_text_color: 0xffFFFFBC
+    comment_text_color: 0xffFFFFBC
+    hilited_back_color: 0xff789c80
+    hilited_candidate_back_color: 0xff789c80
+    hilited_candidate_text_color: 0xffFE8F23
+    hilited_text_color: *COLOR_WHITE
+    key_back_color: 0xff367272
+    name: "花香流转"
+    text_color: *COLOR_WHITE
+  feng07:
+    author: "风花絮"
+    back_color: 0xffdaa14a
+    border_color: 0xffdaa14a
+    candidate_text_color: 0xffF5E1B4
+    comment_text_color: 0xff828282
+    hilited_back_color: 0xffdaa14a
+    hilited_candidate_back_color: 0xffdaa14a
+    hilited_candidate_text_color: 0xff2E1707
+    hilited_text_color: *COLOR_WHITE
+    key_back_color: 0xff2E1707
+    name: "巴黎遗梦"
+    off_key_text_color: 0xffD89C46
+    text_color: *COLOR_WHITE
+    
+  hong:
+    author: "风花絮"
+    back_color: 0xff353638
+    border_color: 0xff353638
+    candidate_text_color: *COLOR_WHITE
+    hilited_back_color: 0x00141617
+    hilited_candidate_back_color: 0x30594231
+    hilited_candidate_text_color: *COLOR_WHITE
+    hilited_text_color: 0xffc9cfd1
+    key_back_color: 0xff141617
+    label_color: *COLOR_WHITE
+    name: "黑橙／hong"
+    off_key_text_color: 0xffd7d7d7
+    text_color: 0xffcd8c52
+
+  wubi_white:
+    AAA: YS3key.png
+    AAH: YSkeyh.png
+    ABC: YS3gnb.png
+    ABH: YSkeyh.png
+    BBB: YS3key.png
+    BBH: YSkeyh.png
+    CCC: YS3key.png
+    CCH: YSkeyh.png
+    Enb: YS3lbj.png
+    author: 000
+    back_color: 0xff1f1f1f
+    bdb: YS3gnb.png
+    bdh: YSgnh.png
+    bdt: 0xfff1f1f1
+    border_color: 0xff1f1f1f
+    candidate_separator_color: *COLOR_TRANSPARENT
+    candidate_text_color: 0xffb1b1b1
+    cdA: 0xffff7200
+    cdB: 0xffb1b1b1
+    cdC: 0xFF2FA9D2
+    cdt: 0xffff7200
+    comment_text_color: 0xffff7200
+    fyt: 0xff666666    
+    bkss: 0xff919191
+    bkst: 0xffe1e1e1 # backspace按键颜色
+    bksb: YS3gnb.png # backspace按键背景
+    bksh: YSgnh.png # backspace按键激活背景
+    gnb: YS3gnb.png
+    gnh: YSgnh.png
+    gns: 0xff919191
+    hcb: YS3hcb.png
+    hch: YSgnh.png
+    hcs: 0xff919191
+    hct: 0xffff7200
+    hilited_back_color: *COLOR_TRANSPARENT
+    hilited_candidate_back_color: *COLOR_TRANSPARENT
+    hilited_candidate_text_color: 0xFF2FA9D2
+    hilited_comment_text_color: 0xFF2FA9D2
+    hilited_key_back_color: YSgnh.png
+    hilited_key_symbol_color: 0xffe1e1e1
+    hilited_key_text_color: 0xffe1e1e1
+    hilited_off_key_back_color: YSgnh.png
+    hilited_off_key_text_color: 0xffe1e1e1
+    hilited_on_key_back_color: YSgnh.png
+    hilited_on_key_text_color: 0xffe1e1e1
+    hilited_text_color: 0xff23948e # 0xff202023
+    hsb: YS3gnb.png
+    key_back_color: YS3gnb.png
+    key_border_color: 0xffeceff1
+    key_symbol_color: 0xff919191
+    key_text_color: 0xffe1e1e1
+    keyboard_back_color: YS3cbj.png
+    kgb: YS3kgb.png
+    kgh: YSkgh.png
+    kgs: 0xff919191
+    kgt: 0xff919191
+    label_color: 0xff919191
+    name: "五笔白色"
+    off_key_back_color: YS3gnb.png
+    off_key_text_color: 0xFF2FA9D2
+    on_key_back_color: YS3gnb.png
+    on_key_text_color: 0xffff7200
+    preview_back_color: 0xff00434c
+    preview_text_color: 0xffe1e1e1
+    shadow_color: *COLOR_BLACK
+    szb: YS3gnb.png
+    szhcb: YS3gnb.png
+    szhct: 0xffff7200
+    szs: 0xff919191
+    text_back_color: 0xee1f1f1f
+    text_color: 0xffff7200
+    vjb: YS3lbj.png
+    xdb: YS3cbj.png
+    ykgb: YS3ykgb.png
+    ykgh: YSykgh.png
+    zjs: 0xff919191
+    zkgb: YS3zkgb.png
+    zkgh: YSzkgh.png
+    zyb: 0x00ffffff
+    zyt: 0x00ffffff
+  flypy:
+    author: flypy.com
+    name: "小鹤"
+    back_color: 0xfffafafa #0xffeaeaea背景同色 #候选区背景状态栏
+    border_color: 0xffe9e9e9 #悬浮边框
+    candidate_separator_color: *COLOR_TRANSPARENT #候选分割背景
+    candidate_text_color: 0xff5a676e #候选文本
+    comment_text_color: 0xff7b868c #候选提示
+    hilited_back_color: *COLOR_TRANSPARENT #悬浮窗高亮编码背景
+    hilited_candidate_back_color: *COLOR_TRANSPARENT #高亮候选背景
+    hilited_candidate_text_color: 0xfff97f70 #高亮候选文本
+    hilited_comment_text_color: *COLOR_BLACK #高亮候选提示
+    hilited_key_back_color: XHkeyG.png #高亮按键背景
+    hilited_key_symbol_color: *COLOR_WHITE #高亮按键符号
+    hilited_key_text_color: *COLOR_WHITE #高亮按键文本
+    hilited_off_key_back_color: XHkey.png #功能键高亮背景
+    hilited_off_key_text_color: *COLOR_BLACK #功能键高亮文本
+    hilited_on_key_back_color: XHkey.png #shift锁定时的高亮背景，按下时
+    hilited_on_key_text_color: *COLOR_BLACK #shift锁定时的高亮文本
+    hilited_text_color: 0xff23948e #高亮编码
+    key_back_color: XHkeyF.png #按键背景
+
+    #key_border_color: 0xffeceff1 #按键边框 取消
+    key_symbol_color: 0xff919191 #按键符号上下
+    key_text_color: 0xff616161 #按键文本
+    keyboard_back_color: 0xffeaeaea #键盘背景
+    label_color: *COLOR_BLACK #悬浮窗候选项序号
+    off_key_back_color: XHgnb.png #功能键背景
+    off_key_text_color: *COLOR_WHITE #功能键文本
+    on_key_back_color: XHgnb.png #shift锁键时背景
+    on_key_text_color: 0xfff97f70 #shift锁键时文本
+    preview_back_color: 0xfff97f70 #按键气泡背景
+    preview_text_color: *COLOR_WHITE #按键气泡文本
+    shadow_color: *COLOR_BLACK #按键文字阴影（阴影半径在shadow_radius中设置）
+    text_back_color: 0xccffffff #编码区悬浮窗背景
+    text_color: 0xff5a676e #悬浮窗编码
+    ABC: XHgnb.png #比翼主题一排数字键主键背景
+    ABH: XHkey.png #比翼主题一排数字键主键高亮背景
+    ABT: *COLOR_WHITE #比翼主题一排数字键字体颜色
+    AAA: XHkey.png #主键背景
+    BBB: XHkey.png
+    CCC: XHkey.png
+    AAH: XHgnb.png #主键高亮
+    BBH: XHgnb.png
+    CCH: XHgnb.png
+    szbdb: XHbdb.png #数字键盘数字符号键背景
+    szgnb: XHgnb.png  #数字键盘功能键背景
+    szhcb: XHhcb.png  #数字键盘回车键背景
+    bdb: XHbdb.png #主键标点背景
+    bdh: XHgnb.png #主键标点键高亮背景    
+    bkss: *COLOR_WHITE
+    bkst: 0xff616161 # backspace按键颜色
+    bksb: XHgnb.png # backspace按键背景
+    bksh: XHgnb.png # backspace按键激活背景
+    gnb: XHgnb.png #主键功能键背景
+    gnh: XHkey.png #主键功能键高亮背景
+    gns: *COLOR_WHITE #功能键上档文字颜色
+    kgb: XHkgb.png #空格背景
+    kgh: XHkgh.png
+    kgs: 0xff67777f #空格键上档文字颜色
+    kgt: 0xff616161 #空格键文字颜色
+    hcb: XHhcb.png #回车键背景色
+    hch: XHkey.png #回车键高亮背景
+    hcs: *COLOR_WHITE #回车键上档文字颜色
+    hct: *COLOR_WHITE #回车键文字颜色
+    cdt: 0xfff97f70 #符号键盘当前菜单键文字颜色
+    fyt: 0xffd3d7da #翻页键止文字颜色
+    xnhe: 0xfff97f70 #xnhe键文字颜色
+    zyb: 0x00ffffff #al左右键背景色
+    zyt: 0x00ffffff #al左右键文字色
+    zjs: 0xff919191 #助记颜色
+    xdb: 0xffe9e9e9 #❖选单界面背景色
+  guge:
+    AAA: GGkey.png
+    AAH: GGkeyh.png
+    ABC: GGgnb.png
+    ABH: GGkeyh.png
+    BBB: GGkey.png
+    BBH: GGkeyh.png
+    CCC: GGkey.png
+    CCH: GGkeyh.png
+    author: flypy.com
+    back_color: 0xffeeeeee
+    bdb: GGgnb.png
+    bdh: GGgnh.png
+    border_color: 0xffeeeeee
+    candidate_separator_color: *COLOR_TRANSPARENT
+    candidate_text_color: 0xff333333
+    cdA: 0xff73cacc
+    cdB: 0xff666666
+    cdC: 0xff666666
+    cdt: 0xff73cacc
+    comment_text_color: 0xff73cacc
+    fyt: 0xffa3a7aa    
+    bkss: 0xff5b696f
+    bkst: *COLOR_BLACK # backspace按键颜色
+    bksb: GGgnb.png # backspace按键背景
+    bksh: GGgnh.png # backspace按键激活背景
+    gnb: GGgnb.png
+    gnh: GGgnh.png
+    gns: 0xff5b696f
+    hbdt: 0xff37474f
+    hcb: GGhcb.png
+    hch: GGhch.png
+    hchs: *COLOR_WHITE
+    hcht: *COLOR_WHITE
+    hcs: *COLOR_WHITE
+    hct: *COLOR_WHITE
+    hilited_back_color: *COLOR_TRANSPARENT
+    hilited_candidate_back_color: *COLOR_TRANSPARENT
+    hilited_candidate_text_color: 0xff73cacc
+    hilited_comment_text_color: 0xff333333
+    hilited_key_back_color: 0xffe1e1e1
+    hilited_key_symbol_color: 0xff6f7b83
+    hilited_key_text_color: *COLOR_BLACK
+    hilited_off_key_back_color: *COLOR_WHITE
+    hilited_off_key_text_color: *COLOR_BLACK
+    hilited_on_key_back_color: *COLOR_WHITE
+    hilited_on_key_text_color: *COLOR_BLACK
+    hilited_text_color: 0xff23948e
+    hsb: GGgnb.png
+    key_back_color: *COLOR_WHITE
+    key_symbol_color: 0xff6f7b83
+    key_text_color: *COLOR_BLACK
+    keyboard_back_color: 0xffeeeeee
+    kgb: GGkgb.png
+    kgh: GGkgh.png
+    kgs: 0xff5f6b73
+    kgt: 0xff4d4d4d
+    label_color: 0xff999999
+    name: "谷歌"
+    off_key_back_color: 0xffe1e1e1
+    off_key_text_color: 0xff4d4d4d
+    on_key_back_color: 0xffe1e1e1
+    on_key_text_color: 0xff73cacc
+    preview_back_color: 0xff73cacc
+    preview_text_color: *COLOR_WHITE
+    shadow_color: *COLOR_BLACK
+    szb: GGgnb.png
+    szhct: 0xff4286f3
+    szs: 0xff5b696f
+    text_back_color: *COLOR_WHITE
+    text_color: 0xff5b696f
+    xdb: 0xffeeeeee
+    ykgb: GGykgb.png
+    zjs: 0xff6f7b83
+    zkgb: GGzkgb.png
+    zyb: 0x00ffffff
+    zyt: 0x00ffffff
+  ios:
+    AAA: IOSkey.png
+    AAH: IOSkeyh.png
+    ABC: IOSkey.png
+    ABH: IOSkeyh.png
+    ABT: 0xff333333
+    BBB: IOSkey.png
+    BBH: IOSkeyh.png
+    CCC: IOSkey.png
+    CCH: IOSkeyh.png
+    author: "flypy from IOS"
+    back_color: 0xfff9f9f9
+    bdb: IOSbdb.png
+    bdh: IOSgnh.png
+    border_color: 0xFFD0D3DA
+    candidate_separator_color: *COLOR_TRANSPARENT
+    candidate_text_color: 0xff5a676e
+    cdA: 0xff438afe
+    cdB: 0xff666666
+    cdC: 0xff666666
+    cdt: 0xff1181fc
+    comment_text_color: 0xff7b868c
+    fyt: 0xffa3a7aa    
+    bkss: 0xff37474f
+    bkst: 0xff010101 # backspace按键颜色
+    bksb: IOSgnb.png # backspace按键背景
+    bksh: IOSgnh.png # backspace按键激活背景
+    gnb: IOSgnb.png
+    gnh: IOSgnh.png
+    gns: 0xff37474f
+    hcb: IOShcb.png
+    hch: IOSgnh.png
+    hcs: *COLOR_WHITE
+    hct: *COLOR_WHITE
+    hilited_back_color: *COLOR_TRANSPARENT
+    hilited_candidate_back_color: *COLOR_TRANSPARENT
+    hilited_candidate_text_color: 0xff1181fc
+    hilited_comment_text_color: *COLOR_BLACK
+    hilited_key_back_color: IOSkeyh.png
+    hilited_key_symbol_color: *COLOR_WHITE
+    hilited_key_text_color: *COLOR_WHITE
+    hilited_off_key_back_color: IOSgnh.png
+    hilited_off_key_text_color: *COLOR_WHITE
+    hilited_on_key_back_color: IOSgnh.png
+    hilited_on_key_text_color: *COLOR_WHITE
+    hilited_text_color: 0xff23948e
+    hsb: IOSgnb.png
+    key_back_color: IOSkeyF.png
+    key_symbol_color: 0xff5f6b73
+    key_text_color: 0xff010101
+    keyboard_back_color: 0xFFD0D3DA
+    kgb: IOSkgb.png
+    kgh: IOSkgh.png
+    kgs: 0xff67777f
+    kgt: 0xff666666
+    label_color: 0xff999999
+    name: iOS
+    off_key_back_color: IOSgnb.png
+    off_key_text_color: 0xff010101
+    on_key_back_color: IOSgnb.png
+    on_key_text_color: 0xff1181fc
+    preview_back_color: 0xff1181fc
+    preview_text_color: *COLOR_WHITE
+    shadow_color: *COLOR_BLACK
+    szb: IOSgnb.png
+    szbdb: IOSbdb.png
+    szgnb: IOSgnb.png
+    szhcb: IOShcb.png
+    szhct: *COLOR_WHITE
+    szs: 0xff37474f
+    text_back_color: *COLOR_WHITE
+    text_color: 0xff5a676e
+    xdb: 0xFFD0D3DA
+    ykgb: IOSykgb.png
+    zjs: 0xff5f6b73
+    zkgb: IOSzkgb.png
+    zyb: 0x00ffffff
+    zyt: 0x00ffffff
+  iybd:
+    AAA: IBkey.png
+    AAH: IBkeyH.png
+    ABC: IBkey.png
+    ABH: IBkeyH.png
+    BBB: IBkey.png
+    BBH: IBkeyH.png
+    CCC: IBkey.png
+    CCH: IBkeyH.png
+    author: "Imitation of SLJ's Dec"
+    back_color: 0xffececec
+    bdb: IBgnb.png
+    bdh: GGgnb.png
+    border_color: 0xffd7dade
+    candidate_separator_color: *COLOR_TRANSPARENT
+    candidate_text_color: 0xff5a676e
+    cdA: 0xffff6262
+    cdB: 0xff383838
+    cdC: 0xFF3A9282
+    cdt: 0xffff6262
+    comment_text_color: 0xFF3A9282
+    fyt: 0xffa3a7aa    
+    bkss: 0xff67777f
+    bkst: 0xff383838 # backspace按键颜色
+    bksb: IBgnb.png # backspace按键背景
+    bksh: GGgnb.png # backspace按键激活背景
+    gnb: IBgnb.png
+    gnh: GGgnb.png
+    gns: 0xff67777f
+    hcb: IBhcb.png
+    hch: GGgnb.png
+    hcs: 0xff37474f
+    hct: 0xffff6262
+    hilited_back_color: *COLOR_TRANSPARENT
+    hilited_candidate_back_color: *COLOR_TRANSPARENT
+    hilited_candidate_text_color: 0xFF3A9282
+    hilited_comment_text_color: *COLOR_BLACK
+    hilited_key_back_color: IBkeyH.png
+    hilited_key_symbol_color: *COLOR_WHITE
+    hilited_key_text_color: *COLOR_WHITE
+    hilited_off_key_back_color: IBkeyH.png
+    hilited_off_key_text_color: *COLOR_WHITE
+    hilited_on_key_back_color: IBkeyH.png
+    hilited_on_key_text_color: *COLOR_WHITE
+    hilited_text_color: 0xff23948e
+    hsb: IBgnb.png
+    key_back_color: IBgnb.png
+    key_symbol_color: 0xff67777f
+    key_text_color: 0xff383838
+    keyboard_back_color: 0xffececec
+    kgb: IBkgb.png
+    kgh: GGkgh.png
+    kgs: 0xff67777f
+    kgt: 0xff383838
+    label_color: 0xff7a878e
+    name: "灰白"
+    off_key_back_color: IBgnb.png
+    off_key_text_color: 0xFF3A9282
+    on_key_back_color: IBgnb.png
+    on_key_text_color: 0xffff6262
+    preview_back_color: 0xff1181fc
+    preview_text_color: *COLOR_WHITE
+    shadow_color: *COLOR_BLACK
+    szb: IBgnb.png
+    szhct: 0xffff6262
+    szs: 0xff67777f
+    text_back_color: *COLOR_WHITE
+    text_color: 0xFF3A9282
+    xdb: 0xffececec
+    ykgb: IBykgb.png
+    zjs: 0xff5f6b73
+    zkgb: IBzkgb.png
+    zyb: 0x00ffffff
+    zyt: 0x00ffffff
+  mumu:
+    AAA: 0xff202023
+    AAH: 0xff263238
+    ABC: 0xff202023
+    ABH: 0xff263238
+    BBB: 0xff202023
+    BBH: 0xff263238
+    CCC: 0xff202023
+    CCH: 0xff263238
+    author: flypy.com
+    back_color: 0xff202023
+    bdb: 0xff202023
+    bdh: 0xff263238
+    border_color: 0xFF313131
+    candidate_separator_color: *COLOR_TRANSPARENT
+    candidate_text_color: 0xffd2d2d3
+    cdA: 0xffb71c1c
+    cdB: 0xff0288d1
+    cdC: 0xff388e3c
+    cdt: 0xffe53935
+    comment_text_color: 0xffe53935
+    fyt: 0xff666666    
+    bkss: 0xffa1a1a1
+    bkst: 0xffd2d2d3 # backspace按键颜色
+    bksb: 0xff202023 # backspace按键背景
+    bksh: 0xff263238 # backspace按键激活背景
+    gnb: 0xff202023
+    gnh: 0xff263238
+    gns: 0xffa1a1a1
+    hcb: 0xff202023
+    hch: 0xff3c474c
+    hcs: 0xffc1c1c1
+    hct: 0xffd2d2d3
+    hilited_back_color: *COLOR_TRANSPARENT
+    hilited_candidate_back_color: *COLOR_TRANSPARENT
+    hilited_candidate_text_color: 0xffe53935
+    hilited_comment_text_color: 0xFF4db6ac
+    hilited_key_back_color: 0xff263238
+    hilited_key_symbol_color: *COLOR_WHITE
+    hilited_key_text_color: *COLOR_WHITE
+    hilited_off_key_back_color: 0xff263238
+    hilited_off_key_text_color: *COLOR_WHITE
+    hilited_on_key_back_color: 0xff263238
+    hilited_on_key_text_color: *COLOR_WHITE
+    hilited_text_color: 0xffd2d2d3
+    hsb: 0xff202023
+    key_back_color: 0xff202023
+    key_border_color: 0xffeceff1
+    key_symbol_color: 0xff202023
+    key_text_color: 0xffd2d2d3
+    keyboard_back_color: *COLOR_BLACK
+    kgb: 0xff202023
+    kgh: 0xff263238
+    kgs: 0xffa1a1a1
+    kgt: 0xffd2d2d3
+    label_color: 0xffaaaaaa
+    name: "暮暮"
+    off_key_back_color: 0xff202023
+    off_key_text_color: 0xffd2d2d3
+    on_key_back_color: 0xff202023
+    on_key_text_color: 0xffe93030
+    preview_back_color: 0xFF313131
+    preview_text_color: 0xffd2d2d3
+    shadow_color: *COLOR_BLACK
+    szb: 0xff202023
+    szhct: 0xff4db6ac
+    szs: 0xffa1a1a1
+    text_back_color: 0xff202023
+    text_color: 0xff5a676e
+    xdb: 0xff313131
+    zjs: 0xffa1a1a1
+    zyb: 0xff202023
+    zyt: 0x00ffffff
+  vcvc:
+    AAA: *COLOR_WHITE
+    AAH: 0xffefefef
+    ABC: *COLOR_WHITE
+    ABH: 0xffefefef
+    BBB: *COLOR_WHITE
+    BBH: 0xffefefef
+    CCC: *COLOR_WHITE
+    CCH: 0xffefefef
+    author: flypy.com
+    back_color: *COLOR_WHITE
+    bdb: *COLOR_WHITE
+    bdh: 0xffefefef
+    border_color: 0xffd7dade
+    candidate_separator_color: *COLOR_TRANSPARENT
+    candidate_text_color: 0xff5a676e
+    cdA: 0xffe93030
+    cdB: 0xff383838
+    cdC: 0xff4db6ac
+    cdt: 0xff4db6ac
+    comment_text_color: 0xffe93030
+    fyt: 0xffa3a7aa    
+    bkss: 0xff67777f
+    bkst: 0xff383838 # backspace按键颜色
+    bksb: *COLOR_WHITE # backspace按键背景
+    bksh: 0xffefefef # backspace按键激活背景
+    gnb: *COLOR_WHITE
+    gnh: 0xffefefef
+    gns: 0xff67777f
+    hcb: *COLOR_WHITE
+    hch: 0xffefefef
+    hcs: 0xff37474f
+    hct: 0xff383838
+    hilited_back_color: *COLOR_TRANSPARENT
+    hilited_candidate_back_color: *COLOR_TRANSPARENT
+    hilited_candidate_text_color: 0xffe93030
+    hilited_comment_text_color: *COLOR_BLACK
+    hilited_key_back_color: 0xffefefef
+    hilited_key_symbol_color: *COLOR_BLACK
+    hilited_key_text_color: 0xff383838
+    hilited_off_key_back_color: 0xffefefef
+    hilited_off_key_text_color: 0xff383838
+    hilited_on_key_back_color: 0xffefefef
+    hilited_on_key_text_color: 0xff383838
+    hilited_text_color: 0xff23948e
+    hsb: *COLOR_WHITE
+    key_back_color: *COLOR_WHITE
+    key_symbol_color: *COLOR_WHITE
+    key_text_color: 0xff383838
+    keyboard_back_color: 0xffefefef
+    kgb: *COLOR_WHITE
+    kgh: 0xffefefef
+    kgs: 0xff67777f
+    kgt: 0xff383838
+    label_color: 0xff999999
+    name: "朝朝"
+    off_key_back_color: *COLOR_WHITE
+    off_key_text_color: 0xff383838
+    on_key_back_color: *COLOR_WHITE
+    on_key_text_color: 0xffe93030
+    preview_back_color: 0xff1181fc
+    preview_text_color: *COLOR_WHITE
+    shadow_color: *COLOR_BLACK
+    szb: *COLOR_WHITE
+    szhct: 0xff4db6ac
+    szs: 0xff67777f
+    text_back_color: *COLOR_WHITE
+    text_color: 0xff5a676e
+    xdb: 0xffefefef
+    zjs: 0xff5f6b73
+    zyb: *COLOR_WHITE
+    zyt: 0x00ffffff
+  wwai:
+    AAA: XHkey.png
+    AAH: XHgnh.png
+    ABC: XHbdb.png
+    ABH: XHgnh.png
+    ABT: *COLOR_WHITE
+    BBB: XHkey.png
+    BBH: XHgnh.png
+    CCC: XHkey.png
+    CCH: XHgnh.png
+    author: 123
+    back_color: 0xffececec
+    bdb: XHbdb.png
+    bdh: XHgnh.png
+    bds: *COLOR_WHITE
+    bdt: *COLOR_WHITE
+    border_color: 0xffe9e9e9
+    candidate_separator_color: *COLOR_TRANSPARENT
+    candidate_text_color: 0xff616161
+    cdA: 0xFFFC978D
+    cdB: 0xff919191
+    cdC: 0xFF82d0d2
+    cdt: 0xFFcC675D
+    comment_text_color: 0xFFFC978D
+    fyt: 0xffd3d7da    
+    bkss: *COLOR_WHITE
+    bkst: *COLOR_WHITE # backspace按键颜色
+    bksb: XHgnb.png # backspace按键背景
+    bksh: XHgnh.png # backspace按键激活背景
+    gnb: XHgnb.png
+    gnh: XHgnh.png
+    gns: *COLOR_WHITE
+    hcb: XHhcb.png
+    hch: XHgnh.png
+    hcs: *COLOR_WHITE
+    hct: *COLOR_WHITE
+    hilited_back_color: *COLOR_TRANSPARENT
+    hilited_candidate_back_color: *COLOR_TRANSPARENT
+    hilited_candidate_text_color: 0xfff97f70
+    hilited_comment_text_color: *COLOR_BLACK
+    hilited_key_back_color: XHgnh.png
+    hilited_key_symbol_color: *COLOR_WHITE
+    hilited_key_text_color: *COLOR_WHITE
+    hilited_off_key_back_color: XHgnh.png
+    hilited_off_key_text_color: *COLOR_WHITE
+    hilited_on_key_back_color: XHgnh.png
+    hilited_on_key_text_color: *COLOR_WHITE
+    hilited_text_color: 0xff23948e
+    hsb: XHbdb.png
+    key_back_color: XHkeyF.png
+    key_symbol_color: 0xff919191
+    key_text_color: 0xff616161
+    keyboard_back_color: 0xffececec
+    kgb: XHkgb.png
+    kgh: XHkgh.png
+    kgs: 0xff67777f
+    kgt: 0xff616161
+    label_color: 0xff666666
+    name: "彩色"
+    off_key_back_color: XHgnb.png
+    off_key_text_color: *COLOR_WHITE
+    on_key_back_color: XHgnb.png
+    on_key_text_color: 0xffF97F70
+    preview_back_color: 0xfff97f70
+    preview_text_color: *COLOR_WHITE
+    shadow_color: *COLOR_BLACK
+    szb: XHszb.png
+    szbdb: XHbdb.png
+    szgnb: XHgnb.png
+    szhcb: XHhcb.png
+    szhct: *COLOR_WHITE
+    szs: *COLOR_WHITE
+    text_back_color: *COLOR_WHITE
+    text_color: 0xff5a676e
+    xdb: 0xffdcdcdc
+    ykgb: XHykgb.png
+    zjs: 0xFFA5B9B8
+    zkgb: XHzkgb.png
+    zyb: 0x00ffffff
+    zyt: 0x00ffffff
+  xuancai:
+    AAA: ABCkeyA.png
+    AAH: ABCkeyAH.png
+    ABC: ABCkey.png
+    ABH: ABCkeyAH.png
+    BBB: ABCkeyB.png
+    BBH: ABCkeyBH.png
+    CCC: ABCkeyC.png
+    CCH: ABCkeyCH.png
+    author: "flypy from sougou"
+    back_color: *COLOR_WHITE
+    bdb: ABCgnb.png
+    bdh: ABCkeyBH.png
+    border_color: 0xffc1c7ca
+    candidate_separator_color: *COLOR_TRANSPARENT
+    candidate_text_color: 0xff333333
+    cdA: 0xFF4AD1C3
+    cdB: 0xffB3D743
+    cdC: 0xffE69A83
+    cdt: 0xFF4AD1C3
+    comment_text_color: 0xFF4AD1C3
+    fyt: 0xffd3d7da    
+    bkss: 0xff919191
+    bkst: 0xff333333 # backspace按键颜色
+    bksb: ABCkeyC.png # backspace按键背景
+    bksh: ABCkeyCH.png # backspace按键激活背景
+    gnb: ABCgnb.png
+    gnh: ABCkeyAH.png
+    gns: 0xff919191
+    hcb: ABChcb.png
+    hch: ABCkeyCH.png
+    hcs: 0xff717171
+    hct: 0xff333333
+    hilited_back_color: *COLOR_TRANSPARENT
+    hilited_candidate_back_color: *COLOR_TRANSPARENT
+    hilited_candidate_text_color: 0xFF4AD1C3
+    hilited_comment_text_color: 0xff333333
+    hilited_key_back_color: ABCkeyAH.png
+    hilited_key_symbol_color: *COLOR_WHITE
+    hilited_key_text_color: *COLOR_WHITE
+    hilited_off_key_back_color: ABCkeyBH.png
+    hilited_off_key_text_color: *COLOR_WHITE
+    hilited_on_key_back_color: ABCkeyBH.png
+    hilited_on_key_text_color: *COLOR_WHITE
+    hilited_text_color: 0xff23948e
+    hsb: ABCgnb.png
+    key_back_color: ABCkeyF.png
+    key_symbol_color: 0xff919191
+    key_text_color: 0xff333333
+    keyboard_back_color: 0xffeeeeee
+    kgb: ABCkgb.png
+    kgh: ABCkgbH.png
+    kgs: 0xff919191
+    kgt: 0xff333333
+    label_color: 0xFF999999
+    name: "炫彩"
+    off_key_back_color: ABCkeyF.png
+    off_key_text_color: 0xff333333
+    on_key_back_color: ABCkeyF.png
+    on_key_text_color: 0xFF4AD1C3
+    preview_back_color: 0xff2b9de3
+    preview_text_color: *COLOR_WHITE
+    shadow_color: 0xff333333
+    szb: ABCgnb.png
+    szbdb: ABCkeyA.png
+    szgnb: ABCkeyC.png
+    szhcb: ABCkeyB.png
+    szhct: 0xff333333
+    szs: 0xff919191
+    text_back_color: *COLOR_WHITE
+    text_color: 0xFF4AD1C3
+    xdb: 0xffeeeeee
+    ykgb: ABCykgb.png
+    zjs: 0xff919191
+    zkgb: ABCzkgb.png
+    zyb: 0x00ffffff
+    zyt: 0x00ffffff
+  yese:
+    AAA: YSkey.png
+    AAH: YSkeyH.png
+    ABC: YSgnb.png
+    ABH: YSkeyH.png
+    BBB: YSkey.png
+    BBH: YSkeyH.png
+    CCC: YSkey.png
+    CCH: YSkeyH.png
+    author: flypy.com
+    back_color: 0xff141414
+    bdb: YSgnb.png
+    bdh: YSgnh.png
+    border_color: 0xff2e2e2e
+    candidate_separator_color: *COLOR_TRANSPARENT
+    candidate_text_color: 0xffe1e1e1
+    cdA: 0xff438afe
+    cdB: 0xff919191
+    cdC: 0xff919191
+    cdt: 0xFF56A2FA
+    comment_text_color: 0xff919191
+    fyt: 0xff666666    
+    bkss: 0xff919191
+    bkst: 0xffe1e1e1 # backspace按键颜色
+    bksb: YSgnb.png # backspace按键背景
+    bksh: YSgnh.png # backspace按键激活背景
+    gnb: YSgnb.png
+    gnh: YSgnh.png
+    gns: 0xff919191
+    hcb: YShcb.png
+    hch: YSgnh.png
+    hcs: 0xffb1b1b1
+    hct: 0xffe1e1e1
+    hilited_back_color: *COLOR_TRANSPARENT
+    hilited_candidate_back_color: *COLOR_TRANSPARENT
+    hilited_candidate_text_color: 0xFF56A2FA
+    hilited_comment_text_color: 0xFF56A2FA
+    hilited_key_back_color: YSgnh.png
+    hilited_key_symbol_color: 0xffe1e1e1
+    hilited_key_text_color: 0xffe1e1e1
+    hilited_off_key_back_color: YSgnh.png
+    hilited_off_key_text_color: 0xffe1e1e1
+    hilited_on_key_back_color: YSgnh.png
+    hilited_on_key_text_color: 0xffe1e1e1
+    hilited_text_color: 0xff23948e
+    hsb: YSgnb.png
+    key_back_color: YSbdb.png
+    key_border_color: 0xffeceff1
+    key_symbol_color: 0xff919191
+    key_text_color: 0xffe1e1e1
+    keyboard_back_color: 0xff141414
+    kgb: YSkgb.png
+    kgh: YSkgh.png
+    kgs: 0xff919191
+    kgt: 0xff919191
+    label_color: 0xFFcccccc
+    name: "夜色"
+    off_key_back_color: YSgnb.png
+    off_key_text_color: 0xffe1e1e1
+    on_key_back_color: YSgnb.png
+    on_key_text_color: 0xFF56A2FA
+    preview_back_color: 0xff00434c
+    preview_text_color: 0xffe1e1e1
+    shadow_color: *COLOR_BLACK
+    szb: YSgnb.png
+    szhcb: YShcb.png
+    szs: 0xff919191
+    text_back_color: 0xff2e2e2e
+    text_color: 0xFF56A2FA
+    xdb: 0xff2e2e2e
+    ykgb: YSykgb.png
+    ykgh: YSykgh.png
+    zjs: 0xff919191
+    zkgb: YSzkgb.png
+    zkgh: YSzkgh.png
+    zyb: 0x00ffffff
+    zyt: 0x00ffffff
+  yese2:
+    AAA: YS2key.png
+    AAH: YS2keyH.png
+    ABC: YS2gnb.png
+    ABH: YS2keyH.png
+    BBB: YS2key.png
+    BBH: YS2keyH.png
+    CCC: YS2key.png
+    CCH: YS2keyH.png
+    author: flypy.com
+    back_color: 0xFFC8CAC7
+    bdb: YS2gnb.png
+    bdh: YS2gnh.png
+    bdt: 0xffe1e1e1
+    border_color: 0xFFC8CAC7
+    candidate_separator_color: *COLOR_TRANSPARENT
+    candidate_text_color: 0xff2e2e2e
+    cdA: 0xff438afe
+    cdB: 0xff616161
+    cdC: 0xff616161
+    cdt: 0xFF56A2FA
+    comment_text_color: 0xFF56A2FA
+    fyt: 0xff666666    
+    bkss: 0xff919191
+    bkst: 0xfff1f1f1 # backspace按键颜色
+    bksb: YS2gnb.png # backspace按键背景
+    bksh: YS2gnh.png # backspace按键激活背景
+    gnb: YS2gnb.png
+    gnh: YS2gnh.png
+    gns: 0xff919191
+    hcb: YS2hcb.png
+    hch: YS2gnh.png
+    hcs: 0xffb1b1b1
+    hct: 0xffe1e1e1
+    hilited_back_color: *COLOR_TRANSPARENT
+    hilited_candidate_back_color: *COLOR_TRANSPARENT
+    hilited_candidate_text_color: 0xff438afe
+    hilited_comment_text_color: 0xFF338fd6
+    hilited_key_back_color: YS2gnh.png
+    hilited_key_symbol_color: 0xffe1e1e1
+    hilited_key_text_color: 0xffe1e1e1
+    hilited_off_key_back_color: YS2gnh.png
+    hilited_off_key_text_color: 0xffe1e1e1
+    hilited_on_key_back_color: YS2gnh.png
+    hilited_on_key_text_color: 0xffe1e1e1
+    hilited_text_color: 0xff23948e
+    hsb: YS2gnb.png
+    key_back_color: YS2bdb.png
+    key_border_color: 0xffeceff1
+    key_symbol_color: 0xff919191
+    key_text_color: 0xfff1f1f1
+    keyboard_back_color: 0xFFC8CAC7
+    kgb: YS2kgb.png
+    kgh: YS2kgh.png
+    kgs: 0xff919191
+    kgt: 0xff919191
+    label_color: 0xff666666
+    name: "夜色2"
+    off_key_back_color: YS2gnb.png
+    off_key_text_color: 0xffe1e1e1
+    on_key_back_color: YS2gnb.png
+    on_key_text_color: 0xFF56A2FA
+    preview_back_color: 0xff00434c
+    preview_text_color: 0xffe1e1e1
+    shadow_color: *COLOR_BLACK
+    szb: YS2gnb.png
+    szhcb: YS2hcb.png
+    szs: 0xff919191
+    text_back_color: 0xFFC8CAC7
+    text_color: 0xff438afe
+    xdb: 0xff4f4f4f
+    ykgb: YS2ykgb.png
+    ykgh: YS2ykgh.png
+    zjs: 0xff919191
+    zkgb: YS2zkgb.png
+    zkgh: YS2zkgh.png
+    zyb: 0x00ffffff
+    zyt: 0x00ffffff
 #--------配色结束----------------#
 # 键盘布局
 preset_keyboards:
