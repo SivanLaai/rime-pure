@@ -5,11 +5,15 @@ config_version: "2020年10月20日"
 name: 讯飞皮肤 #方案名称
 author: 冷粼粼
 
-
+# 键盘候选
 candidate_setting:
   A: &HXG 28  #候选区高度
-  B: &HXJJ 10 #候选间距
-  C: &HXZH 19 #候选字号
+  B: &HXJJ 15 #候选间距
+  C: &HXZH 20 #候选字号
+  D: &HXYJ 0  #候选圆角
+  E: &HXGD 28        #候选高  
+  F: &BMGD 15        #编码高 
+  G: &BMZH 13 #编码字体大小
 
 # -------调整完毕，如果出现上下档字符偏离键位，可调节下面项------
 keyboard_height:
@@ -29,18 +33,6 @@ keyboard_height:
   N: &CQ_text_size 20
   H: &VJG_Other 58
   I: &NUM_SYM_W 15.5   # 数字  符号键盘  宽度
-
-  1: &jpgd1 30 #表情键盘
-  2: &jpgd2 24 #颜文字键盘1
-  3: &jpgd3 24 #颜文字键盘2
-  4: &jpgd4 48 #主键盘
-  5: &jpgd5 39.5 #符号键盘
-  6: &hgap 8 #键盘横缝大小
-  7: &sgap 4 #键盘竖缝大小
-# 键盘候选
-code_height:
-  A: &HXGD 28        #候选高  
-  B: &BMGD 15        #编码高 
 #-------调节尽量以配色中键高最低的配色为标准------
 other:
 #主键盘结构（四行）
@@ -55,11 +47,8 @@ other:
   g: &NJH 6         #数字键盘行距  建议不动
   h: &NJL 6         #数字键盘列距
   i: &NJY 12         #数字键盘圆角
-#键盘高度
-round_corner:
-  1: &round1 12 #按键圆角半径
-  2: &round2 0 #候选窗口圆角
-  3: &round3 12 #回车键圆角
+
+
 
 #颜色
 colors:
@@ -90,6 +79,7 @@ colors:
   24: &COLOR_NOSIGNAL_GRAY 0xffa3a7aa #按键无法选择灰
   25: &COLOR_DARK_GRAY 0xff6f7b83 #深灰
   26: &COLOR_DARK_SEA_BLUE_P 0xff025281 #深暗海蓝
+  27: &COLOR_XPERIA_CANDIDATE_GREEN 0xff00a886 #SONY绿
 
 
 #界面风格、功能开关
@@ -106,16 +96,16 @@ style:
   comment_font: comment.ttf #编码提示字型
   comment_height: *BMGD #编码提示区高度
   comment_on_top: true #编码提示在上方或右侧
-  comment_text_size: 12 #编码提示字号
+  comment_text_size: *BMZH #编码提示字号
   hanb_font: hanb.ttf #扩充字体
   horizontal: true #水平模式
-  horizontal_gap: *hgap #键水平间距
+  horizontal_gap: *NJH #键水平间距
   layout:
     position: fixed #候选窗口位置：left|right|left_up|right_up|fixed|bottom_left|bottom_right|top_left|top_right(left、right需要Android5.0以上)
     min_length: 4 #候选窗口最小词长
-    max_length: 14 #超过字数则换行
-    sticky_lines: 1 #固顶行数
-    max_entries: 5 #候选窗口最大词条数
+    max_length: 4 #超过字数则换行
+    sticky_lines: 1 #固定行数
+    max_entries: 6 #候选窗口最大词条数
     border: 0 #候选窗口边框宽度
     max_width: 360 #最大宽度，超过则自动换行
     max_height: 300 #最大高度
@@ -126,7 +116,7 @@ style:
     line_spacing: 0 #候选词的行间距(px)
     line_spacing_multiplier: 1.2 #候选词的行间距(倍数)
     spacing: 1 #与预编辑或边缘的距离
-    round_corner: *round2 #候选窗口圆角
+    round_corner: *HXYJ #候选窗口圆角
     alpha: 0xff #透明度(0-255)
     elevation: 0 #阴影(>=Android5.0)
     background: background.png #颜色或者backgrounds目录下的图片文档名
@@ -152,7 +142,7 @@ style:
   preview_text_size: 40 #按键提示字号
   proximity_correction: true #按键纠错
   reset_ascii_mode: false #显示键盘时重置为中文状态
-  round_corner: *round1 #按键圆角半径
+  round_corner: *NJY #按键圆角半径
   shadow_radius: 0 #按键阴影半径
   speech_opencc_config: none #语音输入简繁转换
   symbol_font: symbol.ttf #符号字体
@@ -161,7 +151,7 @@ style:
   #text_height: 32 #编码区高度
   text_size: 14 #编码区字号
   vertical_correction: -5
-  vertical_gap: *sgap #键盘行距
+  vertical_gap: *NJL #键盘行距
 
   
 
@@ -205,19 +195,19 @@ preset_color_schemes:
     author: jaaiko
     # 悬浮窗
     border_color: *COLOR_LIGHT_GRAY #悬浮窗边框
-    text_color: *COLOR_BLACK #悬浮窗编码
+    text_color: *COLOR_XPERIA_CANDIDATE_GREEN #悬浮窗编码
     text_back_color: *COLOR_WHITE #悬浮窗背景
-    hilited_text_color: *COLOR_BLACK #悬浮窗高亮编码
+    hilited_text_color: *COLOR_XPERIA_CANDIDATE_GREEN #悬浮窗高亮编码
     label_color: *COLOR_BLACK #悬浮窗候选项序号
-    hilited_back_color: *COLOR_TRANSPARENT #悬浮窗高亮编码背景
+    hilited_back_color: *COLOR_TRANSPARENT #悬浮窗高亮编码背景MIUI
     # 候选区
     back_color: *COLOR_WHITE #0xffeaeaea #候选区背景状态栏(无障碍)
     candidate_separator_color: *COLOR_TRANSPARENT #候选区分隔颜色
     candidate_text_color: *COLOR_BLACK # 候选区文本颜色
     comment_text_color: *COLOR_LIGHT_GRAY_PP #0xff242424 # 0xFFADADAD  # 候选区编码文本颜色
     hilited_candidate_back_color: *COLOR_TRANSPARENT # 候选区高亮背景颜色
-    hilited_candidate_text_color: *COLOR_IFLY_BLUE #0xff1693d8 # 候选区高亮文本颜色
-    hilited_comment_text_color: *COLOR_IFLY_BLUE #0xff696969 # 候选区高亮编码文本颜色
+    hilited_candidate_text_color: *COLOR_DARK_SEA_BLUE #0xff1693d8 # 候选区高亮文本颜色
+    hilited_comment_text_color: *COLOR_ORANGE #0xff696969 # 候选区高亮编码文本颜色
     # 键盘
     keyboard_back_color: *COLOR_LIGHT_GRAY #键盘背景颜色
     # 正常按键
