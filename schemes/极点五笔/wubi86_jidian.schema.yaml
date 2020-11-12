@@ -15,9 +15,9 @@ schema:
 switches:
   - name: ascii_mode
     reset: 0
-    states: [ 中, 英文 ]
+    states: [ 中, 英 ]
   - name: full_shape
-    states: [ 半, 全角 ]
+    states: [ 半, 全 ]
   - name: extended_charset
     states: [ 常, 扩 ]
   - name: ascii_punct
