@@ -3,13 +3,12 @@
 
 schema:
   schema_id: flypy
-  name: "小鹤音形-官方优化版"
+  name: "小鹤音形"
   version: "1.0"
   author:
     - flypy
     - SivanLaai
   description: |
-    小鹤音形方案，调整以音为主，形为辅助的方式，输入，字典是小鹤官方提供。
     本方案支持“`”拼音反查，例如输入“`shuru”支持反查拼音为“shuru”的所有词组和汉字，反查依赖clover字典。
     方案由 SivanLaai 创建 - 2020年12月05日 12:06
   dependencies:
@@ -18,13 +17,15 @@ schema:
 switches:
   - name: ascii_mode
     reset: 0
-    states: [ 中文, 英文 ]
+    states: [ 中, 英 ]
   - name: full_shape
-    states: [ 半角, 全角 ]
-  - name: extended_charset
-    states: [ 常用, 扩展 ]
+    states: [ 半, 全 ]
+  - name: simplification
+    states: [ 简, 繁 ]
+    reset: 0
   - name: ascii_punct
     states: [ 。，, ．， ]
+    reset: 0
 
 engine:
   processors:
@@ -52,7 +53,9 @@ engine:
 
 speller:
   max_code_length: 4                    # 四码上屏
-  auto_select: false                     # 自动上屏
+  auto_select: true   #全码唯一自动上屏，无则后码顶上屏
+  auto_select_pattern: ^;.$|^\w{4}$
+  auto_clear: max_length #manual|auto|max_length 空码按下一键确认清屏|空码自动清|达到最长码时后码顶上清屏
 
 translator:
   dictionary: flypy                     # 翻译器将调取此字典文件
@@ -70,6 +73,11 @@ translator:
 abc_segmentor:
   extra_tags:
 #    - reverse_lookup
+
+simplification:
+  opencc_config: s2tw.json
+  option_name: simplification
+  tips: all #简繁对照
 
 reverse_lookup:
   dictionary: clover
