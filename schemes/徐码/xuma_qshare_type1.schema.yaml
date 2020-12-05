@@ -1,0 +1,29 @@
+# Rime schema settings
+# encoding: utf-8
+
+__include: xuma_qshare.schema:/
+
+schema:
+  schema_id: xuma_qshare_type1
+  name: 徐码·QS·一型
+  version: "2020-02-26"
+  author:
+    - 發明人 徐国银先生
+    - rime schema by Q
+  description: |
+    徐码简繁通打
+    chinput.com/xuma
+
+fixed:
+  enable_completion: false
+  preedit_format: []
+translator:
+  enable_completion: false
+  preedit_format: []
+
+menu:
+  page_size: 3
+
+style:
+  horizontal: true
+  inline_preedit: true

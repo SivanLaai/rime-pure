@@ -1,0 +1,17 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: xuma_52p_reverse
+  name: 徐码五二反·伪方案·勿用勿改
+  version: "2020.02.06"
+  author:
+    - 發明人 徐国银先生
+    - rime schema by Q
+  description: |
+    伪方案，不能打字。
+    不要选我，不要随意修改本方案及配套词典。
+    仅用于辅助主方案替换输入码为顶功候选。
+
+translator:
+  dictionary: xuma_52p_reverse

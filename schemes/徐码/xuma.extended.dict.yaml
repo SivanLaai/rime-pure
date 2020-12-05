@@ -1,0 +1,27 @@
+---
+name: "xuma.extended"
+version: "2020.04.12"
+sort: by_weight
+columns:
+  - text
+  - code
+  - weight
+  - stem
+...
+
+# 「#」号开头的行为注释，不生效。
+# 扩展词典添加词条示例，格式为「词条<TAB>编码」：
+
+新词条	yzvi
+
+# 长度在编码规则 encoder/rules 定义范围内的词组，可省略编码：
+# 重新部署时会按规则自动编码，能以 tecc 打出「自动编码词组」。
+
+自动编码词组
+
+# 自定义编码不必遵循徐码编码规则，词条也不必是汉字。
+
+不合徐码编码规则的词条	sdsd
+Xuma is good!	good
+Rime 徐码三重注解	rime
+Rime 徐码五二顶	rime

@@ -1,4 +1,5 @@
-## 【rime小狼毫\trime同文】手机/PC一站式配置【简约皮肤\拼音搜狗词库\原创trime同文四叶草九宫格拼音方案\四叶草拼音、小鹤双拼、极品五笔】
+## 【rime小狼毫\trime同文】手机/PC一站式配置【简约皮肤\拼音搜狗词库\原创trime同文四叶草九宫格拼音方案\四叶草拼音、小鹤双拼、极品五笔、徐码、郑码】
+
 ## 说明
 - rime是一款支持多平台的开源输入法，开源所以不需要担心自己的输入数据被输入法所搜集。虽然优点这么多，但是要使得输入法好用起来门槛比较高了，主要是在词库配置优化，依赖的东西多而且复杂。**本项目的目的在于安卓手机端和Win pc端都可以从本项目一站配置好rime输入法，达到省心好用的程度**。鉴于PC端已经有很多大神有现成的设置，所以花的时间较少，主要是整理收集。
 
@@ -6,7 +7,7 @@
 
 - **目前在手机端配置了基于四叶草拼音的九宫格输入法，为了表示对原作者的劳动致敬，遂命名为四叶草九宫方案，感觉已经和之前使用的百度或者讯飞输入法感觉相当。**
 
-- **感谢rime作者@[lotem](https://github.com/lotem)**
+- **感谢@[lotem](https://github.com/lotem)**
 
 - **感谢trime作者@[osfans](https://github.com/osfans)**
 
@@ -15,20 +16,45 @@
 - **感谢极品五笔作者@[KyleBing](https://github.com/KyleBing)**
 
 - **感谢opencc作者@[BYVoid](https://github.com/BYVoid)**
+ 
+- **感谢@[小鹤双拼](https://www.flypy.com/) @[郑码](http://zmdisk.ys168.com/) @[徐码](https://www.xumax.top/)**
 
-- **感谢小鹤双拼@[flypy](https://www.flypy.com/)**
-
-- **没有以上各位的辛苦付出，也就没有这么好用的输入法**
+- **没有以上资源和各位的辛苦付出，也就没有这个项目**
 
 - **enjoy it! 好用的话就点个赞。感谢你的使用，因为本人同时在安卓和windows端使用，所以会一直更新。**
 ## 更新说明
 
+#### 2020-12-5（大更新，增加徐码、郑码，支持拼音和五笔反查）
+- 1.优化小鹤双拼方案，输入音码会有候选提示，形码为辅
+>
+![Image text](/Res/flypy_youhua.png)
+- 2.优化小鹤双拼方案，双拼支持拼音“`”反查小鹤双拼编码
+>
+![Image text](/Res/flypy_fancha.png)
+- 3.增加徐码
+>
+![Image text](/Res/xuma.png)
+- 4.徐码支持五笔“`”反查编码
+>
+![Image text](/Res/xuma_wubi.png)
+- 5.徐码支持拼音“`”反查编码
+> 
+![Image text](/Res/xuma_pinyin.png)
+- 6.增加郑码
+>
+![Image text](/Res/zhengma.png)
+- 7.郑码支持拼音“`”反查编码
+>
+![Image text](/Res/zhengma_fancha.png)
+
 #### 2020-10-31
 - 1.新增双拼输入方案支持-小鹤双拼
+>
+![Image text](/Res/xiaohe.png)
 - 2.所有输入方案配置支持繁简转换、中英转换、字符输入、emoji表情、全半角转换
 - 3.调整键盘布局，超大空格，减少误触
-
-- ![Image text](/Res/space.jpg)
+>
+![Image text](/Res/space.jpg)
 - 4.增加同文优化版皮肤
 
 
@@ -42,17 +68,17 @@
 - 3.同文手机端添加了两款机械键盘主题，cherry机械键盘/罗技
 - 4.四叶草拼音输入法在手机端支持简繁转有一些问题，原因是没有正确配置opencc，修改后手机端支持简繁转换
 - 5.极品五笔方案增加支持字符（输入`平方`可以选择`²`），emoji表情，繁简转换
+- 6.支持五笔反查
+>
+![Image text](/Res/wubireverse.png)
 
 ### 包含输入方案
  - 极点五笔：https://github.com/KyleBing/rime-wubi86-jidian 
->支持五笔反查
->
->![Image text](/Res/wubireverse.png)
  - 小鹤双拼：https://www.flypy.com/index.html 
->
->![Image text](/Res/xiaohe.png)
  - 🍀️四叶草简体拼音：https://github.com/fkxxyz/rime-cloverpinyin
  - 大写数字
+ - 徐码 https://www.xumax.top/
+ - 郑码 http://zmdisk.ys168.com/
 
 ## 输入法预览：
 ### 小狼毫输入法（PC端）
@@ -130,11 +156,17 @@
 >>4.1 拼音方案安装
 >>>文件夹`schemes\Clover四叶草拼音`内所有文件复制到`~\AppData\Rime`目录覆盖
 >>
->>4.2 五笔方案安装（五笔反查依赖拼音词库，需先安装3.1拼音方案）
+>>4.2 五笔方案安装（五笔反查依赖拼音词库，需先安装4.1拼音方案）
 >>>文件夹`schemes\极点五笔`内所有文件复制到`~\AppData\Rime`目录覆盖
 >>
->>4.3 双拼方案安装
+>>4.3 双拼方案安装（双拼反查依赖拼音词库，需先安装4.1拼音方案）
 >>>文件夹`schemes\小鹤双拼`内所有文件复制到`~\AppData\Rime`目录覆盖
+>>
+>>4.4 郑码方案安装（反查依赖拼音词库，需先安装4.1拼音方案和4.2五笔方案）
+>>>文件夹`schemes\郑码`内所有文件复制到`~\AppData\Rime`目录覆盖
+>>
+>>4.5 徐码方案安装（反查依赖拼音词库，需先安装4.1拼音方案）
+>>>文件夹`schemes\徐码`内所有文件复制到`~\AppData\Rime`目录覆盖
 >>
 >5.重新部署
 
@@ -155,7 +187,7 @@
 >>3.3 五笔方案安装（五笔反查依赖拼音词库，需先安装3.1拼音方案）
 >>>文件夹`schemes\极点五笔`内所有文件复制到`sdcard\rime`目录覆盖
 >>
->>3.4 双拼方案安装
+>>3.4 双拼方案安装（双拼反查依赖拼音词库，需先安装3.1拼音方案）
 >>>文件夹`schemes\小鹤双拼`内所有文件复制到`sdcard\rime`目录覆盖
 >>
 >4.重新部署

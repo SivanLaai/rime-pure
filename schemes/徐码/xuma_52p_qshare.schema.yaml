@@ -1,0 +1,282 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: xuma_52p_qshare
+  name: 徐码五二
+  version: "2020-05-27"
+  author:
+    - SivanLaai
+    - 發明人 徐国银先生
+    - rime schema by Q
+  description: |
+    徐码简繁通打五二顶版
+    三重注解、双重反查、屏蔽词组、全码后置、简入繁出...
+    将普通徐码略作改造，五码顶二码上屏
+    https://ace-who.github.io/rime-xuma/
+  dependencies:
+    - xuma_qshare
+    - xuma_52p_long
+    - xuma_52p_reverse
+    - xuma_spelling_pseudo
+    - clover
+    - wubi86_jidian
+
+__patch:
+  - xuma_52p_qshare.custom:/patch?
+  - symbols:/patch?
+
+switches:
+  - options: [ gb2312, gbk, big5, utf8 ]
+    states: [ gb2312, GBK, BIG5, UTF-8 ]
+    reset: 1
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: traditionalization
+    reset: 0
+    states: [ 简体保持, 簡入繁出 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+  - name: xuma_spelling  # 三重注解
+    reset: 1
+    states: [ 拆, 扌⺁丅丶 ]
+  - name: xmsp_hide_pinyin  # 是否显示三重注解中的拼音
+    # states: [ 音, 哑 ]
+  - name: xuma_postpone_fullcode  # 仅作用于单字。
+    reset: 1
+    states: [ ＝原始排序, ↓全码后置 ]
+  - name: single_char_only
+    states: [ 词组派, 单字派 ]
+  # - name: lazy_clock
+    # states: [ 懒钟下班, ㍡开工 ]
+  - name: preedit_lazy_clock
+  - name: xuma_52p_precand  # 在 preedit 中分段提示顶功候选
+    states: [ 正常预显, 预显候选 ]
+  - name: detailed_x52_precand  # 更详细的顶功候选提示
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - affix_segmentor@long
+    - affix_segmentor@clover_lookup
+    - affix_segmentor@wubi86_jidian_lookup
+    - affix_segmentor@reverse_lookup
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - history_translator@history
+    - table_translator
+    - script_translator@long
+    - script_translator@clover_lookup
+    - table_translator@wubi86_jidian_lookup
+    - table_translator@make_phrase
+    - lua_translator@os_env
+    - lua_translator@helper
+  filters:
+    - lua_filter@single_char_only
+    - charset_filter@gb2312
+    - charset_filter@gbk
+    - charset_filter@big5
+    - charset_filter@utf8
+    - simplifier@simplify
+    - simplifier@traditionalize
+    - reverse_lookup_filter@clover_reverse_lookup
+    - reverse_lookup_filter@wubi86_jidian_reverse_lookup
+    - lua_filter@xuma_spelling@xmsp
+    - lua_filter@xuma_spelling@xmsp_for_rvlk
+    - lua_filter@xuma_postpone_fullcode
+    - lua_filter@lazy_clock
+    - lua_filter@xuma_52p_precand
+    - lua_filter@preedit_lazy_clock
+    - uniquifier
+
+single_char_only:
+  __include: gb2312
+
+# 防止对 punct 进行过滤
+gb2312:
+  tags:
+    __include: reverse_lookup/extra_tags
+    __append: [ abc, long, make_phrase, reverse_lookup ]
+gbk:  { __include: gb2312 }
+big5: { __include: gb2312 }
+
+simplify:
+  __include: gb2312
+  option_name: simplification
+  tips: all
+
+traditionalize:
+  __include: gb2312
+  opencc_config: s2t.json
+  option_name: traditionalization
+  tips: all
+  comment_format:
+    - xform/^/（/
+    - xform/$/）/
+
+lua_reverse_db:
+  spelling: xuma_spelling_pseudo
+  code: xuma
+  code_to_text: xuma_52p_reverse
+
+xuma_52p_precand:
+  tags: [ abc, long ]
+
+xmsp:
+  tags: [ abc, long, make_phrase, punct ]
+
+xmsp_for_rvlk:
+  tags:
+    __include: reverse_lookup/extra_tags
+
+xuma_postpone_fullcode:
+  tags: [ abc, long, make_phrase ]
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba[;'
+  initials: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " `"
+  algebra:
+    - erase/^\*?[a-z]{3,}$/  # 星号开头的是特码
+    - xform/_1/\[/
+    - xform/_2/;/
+    - xform/_3/'/
+  auto_select: true
+
+translator:
+  dictionary: xuma_52p
+  prism: xuma_52p_qshare
+  enable_completion: false
+  enable_sentence: false
+  enable_user_dict: false
+  enable_encoder: false
+  encode_commit_history: false
+  preedit_format:
+    - xform/$/\t〔主〕/
+
+# 结合 recognizer，仅翻译长度为三到四的输入段。
+long:
+  tag: long
+  dictionary: xuma_52p_long
+  enable_user_dict: false
+  enable_sentence: false
+  preedit_format:
+    - xform/$/\t〔长〕/
+
+make_phrase:
+  dictionary: xuma
+  user_dict: xuma
+  enable_encoder: true
+  enable_user_dict: true
+  enable_sentence: true
+  preedit_format:
+    - xform/$/\t〔造词〕/
+  tag: make_phrase
+
+history:
+  input: dl
+  size: 1
+  initial_quality: 2000
+
+reverse_lookup:
+  tag: reverse_lookup
+  prefix: "`"    # 反查引导符「`」
+  # suffix:   # 反查关闭符，暂不定义
+  tips: 【反查：拼音+笔画】
+  closing_tips: 【反查关闭】
+  # preedit_format:
+    # - xform/([nljqxy])v/$1ü/
+  extra_tags:
+    - clover_lookup
+    - wubi86_jidian_lookup
+
+clover_lookup:
+  tag: clover_lookup
+  dictionary: clover
+  prefix: '`P'
+  tips: 【四叶草拼音反查】
+  closing_tips: 【反查关闭】
+  initial_quality: 0.2
+
+wubi86_jidian_lookup:
+  tag: wubi86_jidian_lookup
+  dictionary: wubi86_jidian
+  prefix: '`B'
+  tips: 【五笔画反查】
+  closing_tips: 【反查关闭】
+  initial_quality: 0.5
+  preedit_format:
+    - 'xform/^([hspnz]+)$/$1\t（\U$1\E）/'
+    - xlit/HSPNZ/一丨丿丶乙/
+
+clover_reverse_lookup:
+  tags: [ clover, clover_lookup ]
+  dictionary: xuma
+
+wubi86_jidian_reverse_lookup:
+  __include: clover_reverse_lookup
+  tags: [ wubi86_jidian_lookup ]
+
+punctuator:
+  import_preset: default
+
+# 本节点仅用于被 __patch 指令引用
+key_bindings:
+  __append:
+    - { when: always, accept: "Control+Shift+F", toggle: traditionalization }
+    - { when: composing, accept: "Control+c", toggle: xuma_spelling }
+    - { when: composing, accept: "Control+y", toggle: xmsp_hide_pinyin }
+    - { when: composing, accept: "Control+s", toggle: single_char_only }
+    # - { when: composing, accept: "Control+t", toggle: lazy_clock }
+    - { when: composing, accept: "Control+t", toggle: preedit_lazy_clock }
+    - { when: always, accept: "Control+Shift+P", toggle: xuma_52p_precand }
+    - { when: composing, accept: "Control+d", toggle: detailed_x52_precand }
+    - { when: composing, accept: Tab, send: bracketleft }
+    # default 中的预设包括逗号和句号翻页，在此取消
+    - { when: has_menu, accept: comma, send: comma }
+    - { when: has_menu, accept: period, send: period }
+
+key_binder:
+  import_preset: default
+  bindings:
+    __patch:
+      - key_bindings
+      # 可仿照 key_bindings 根节点在 *.custom.yaml 文件中添加按键绑定。
+      - xuma_52p_qshare.custom:/keybindings?
+
+recognizer:
+  # import_preset: default
+  patterns:
+    long: "(?<![a-zA-Z`/])[a-z]{3,4}$"  # 前面可能有未上屏的符号等
+    uppercase: "[^`;]*[A-Z][-_+.'0-9A-Za-z]*$"
+    reverse_lookup:     "^`([a-z]+'?)*$"
+    clover_lookup: "`P([a-z]+'?)*$"
+    wubi86_jidian_lookup:      "`B([a-z]+'?)*$"
+    make_phrase: "^([a-z]{1,4}`)([a-z]+[`;']?)*$"
+    os_env: '^env/\w+'
+    helper: '^help/$'
+
+menu:
+  page_size: 3
+
+style:
+  horizontal: true
+  inline_preedit: true

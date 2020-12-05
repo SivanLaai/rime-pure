@@ -1,0 +1,17 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: xuma_spelling_pseudo
+  name: 徐码·伪方案·勿用勿改
+  version: "18.31"
+  author:
+    - 發明人 徐国银先生
+    - rime schema by Q
+  description: |
+    伪方案，不能打字。
+    不要选我，不要修改本方案及配套词典。
+    仅用于辅助三重注解方案实现注解功能。
+
+translator:
+  dictionary: xuma_spelling_pseudo

@@ -3,30 +3,28 @@
 
 schema:
   schema_id: flypy
-  name: 小鹤音形
-  version: "10.7.1"
+  name: "小鹤音形-官方优化版"
+  version: "1.0"
   author:
-    - 方案设计：何海峰 <flypy@qq.com>
+    - flypy
+    - SivanLaai
   description: |
-    小鹤音形主码表
+    小鹤音形方案，调整以音为主，形为辅助的方式，输入，字典是小鹤官方提供。
+    本方案支持“`”拼音反查，例如输入“`shuru”支持反查拼音为“shuru”的所有词组和汉字，反查依赖clover字典。
+    方案由 SivanLaai 创建 - 2020年12月05日 12:06
   dependencies:
-
-
-punctuator:
-  import_preset: default
+    # - clover
 
 switches:
   - name: ascii_mode
     reset: 0
-    states: [ 中, 英 ]
+    states: [ 中文, 英文 ]
   - name: full_shape
-    states: [ 半, 全 ]
-  - name: simplification
-    states: [ 简, 繁 ]
-    reset: 0
+    states: [ 半角, 全角 ]
+  - name: extended_charset
+    states: [ 常用, 扩展 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
-    reset: 0
 
 engine:
   processors:
@@ -46,124 +44,50 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
-    - table_translator
-    - lua_translator@date_translator
-    - lua_translator@time_translator
-    - table_translator@custom_phraseVD
-    - table_translator@custom_phraseXT
-    - table_translator@custom_phraseYH
     - reverse_lookup_translator
-    - history_translator@historyI
-    - history_translator@historyF
+    - table_translator
+    - lua_translator@date_translator # 自定义系统变量输出
   filters:
-    - simplifier
-    - simplifier@simplification
-    - uniquifier
+    # - lua_filter@single_char_first_filter # 单字优先方法
 
 speller:
-  alphabet: 'abcdefghijklmnopqrstuvwxyz;/'
-  initials: ';abcdefghijklmnopqrstuvwxyz'
-  finals: '/'
-  #delimiter: " '"
-  max_code_length: 4 #全码码长
-  auto_select: true   #全码唯一自动上屏，无则后码顶上屏
-  auto_select_pattern: ^;.$|^\w{4}$
-  auto_clear: max_length #manual|auto|max_length 空码按下一键确认清屏|空码自动清|达到最长码时后码顶上清屏
+  max_code_length: 4                    # 四码上屏
+  auto_select: false                     # 自动上屏
 
 translator:
-  dictionary: flypy
-  enable_charset_filter: false
-  enable_sentence: false
-  enable_completion: false # 编码提示开关
-  enable_user_dict: false
-  disable_user_dict_for_patterns:
-    - "^z.*$"
- 
+  dictionary: flypy                     # 翻译器将调取此字典文件
+  enable_charset_filter: true           # 开启字符集过滤
+  enable_completion: true               # 是否显示编码未输入完整的词条
+  enable_sentence: false                # 句子输入模式
+  enable_user_dict: false               # 是否开启用户词典（用户词典记录动态字词频，用户词）
+  enable_encoder: false
+  preedit_format:                       # 上屏码自定义
+#    - xform/.+//
+  comment_format:                       # 提示码自定义
+#    - xform/.+//                        # 配置：消除所有候选词后的提示码
 
-historyI:
-   input: i
-   size: 1 #重复前几次上屏
-   initial_quality: 0 #重码居后
-   
-historyF:
-   input: ;f
-   size: 1 #重复前几次上屏
-   initial_quality: 1 #首选
-   
-simplification:
-  opencc_config: s2tw.json
-  option_name: simplification
-  tips: all #简繁对照
-  
-custom_phraseVD:
-  dictionary: ""
-  user_dict: flypy_top
-  db_class: stabledb
-  enable_sentence: false
-  enable_completion: false
-  initial_quality: 0 #用户词和系统词重码 置顶
-
-custom_phraseXT:
-  dictionary: ""
-  user_dict: flypy_sys
-  db_class: stabledb
-  enable_sentence: false
-  enable_completion: false
-  initial_quality: -1 #本表词和系统词重码居后
-
-custom_phraseYH:
-  dictionary: ""
-  user_dict: flypy_user
-  db_class: stabledb
-  enable_sentence: false
-  enable_completion: false
-  initial_quality: -1 #用户词和系统词重码居后
-  
+# 输入的编码同时进行拼音反查，实现与拼音的混输
+abc_segmentor:
+  extra_tags:
+#    - reverse_lookup
 
 reverse_lookup:
-  dictionary: flypydz
-  comment_format:
-   # - xform/^/〔/
-   # - xform/$/〕/
-    - xform/ / /
-
+  dictionary: clover
+  prefix: "`"
+  suffix: "'"
+  tips: [拼音]
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+    
+punctuator:
+  import_preset: default
 
 key_binder:
-  import_preset: default #方案切换相关
-  bindings:
-    - {accept: bracketleft, send: Page_Up, when: paging} # [上翻页
-    - {accept: bracketright, send: Page_Down, when: has_menu} # ]下翻页
-    - {accept: comma, send: comma, when: paging} #注销逗号翻页
-    - {accept: period, send: period, when: has_menu} #注销句号翻页
-    - {accept: semicolon, send: 2, when: has_menu} #分号次选
-    #- {accept: Release+semicolon, send: semicolon, when: has_menu} #如要使用分号引导符号功能，并双击上屏分号，需注销此行
-    #- {accept: period, send: 2, when: has_menu} #句号次选，已用下面两行内容替代
-    - {accept: dollar, send: 2, when: composing}
-    - {accept: Release+dollar, send: period, when: composing}
-    - {accept: Release+period, send: period, when: composing}
-    - {accept: comma, send: 2, when: has_menu} #逗号次选
-   # - {accept: bar, send: 2, when: composing}
-    #- {accept: Release+bar, send: comma, when: composing}
-    - {accept: Release+comma, send: comma, when: composing}
-    - {accept: "Tab", send: Escape, when: composing}
-    - {accept: "Caps_Lock", send: Escape, when: composing} 
-    - {accept: "Shift_R", send: Escape, when: composing}
-    - {accept: "Shift+space", toggle: full_shape, when: always} #切换全半角
-    - {accept: "Control+period", toggle: ascii_punct, when: always} #切换中英标点
-  #  - {accept: "Control+m", select: .next, when: always} #切换方案
-    - {accept: "Control+j", toggle: simplification, when: always} #切换简繁
-   
+  import_preset: default
+
 recognizer:
   import_preset: default
   patterns:
-    #uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
-    uppercase: "" #中文状态大写锁定直接上屏
-    reverse_lookup: "[a-z`]*`+[a-z`]*"
-    punct: ""
-
-menu:
-  page_size: 5 #候选项数
-  
-style:
-  horizontal: true #竖排为false
-  
+    reverse_lookup: "`[a-z]*'?$"
