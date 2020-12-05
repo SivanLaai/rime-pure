@@ -25,25 +25,22 @@
 ## 更新说明
 
 #### 2020-12-5（大更新，增加徐码、郑码，支持拼音和五笔反查）
-- 1.优化小鹤双拼方案，输入音码会有候选提示，形码为辅
->
-![Image text](/Res/flypy_youhua.png)
-- 2.优化小鹤双拼方案，双拼支持拼音“`”反查小鹤双拼编码
+- 1.优化小鹤双拼方案，双拼支持拼音“`”反查小鹤双拼编码
 >
 ![Image text](/Res/flypy_fancha.png)
-- 3.增加徐码
+- 2.增加徐码
 >
 ![Image text](/Res/xuma.png)
-- 4.徐码支持五笔“`”反查编码
+- 3.徐码支持五笔“`”反查编码
 >
 ![Image text](/Res/xuma_wubi.png)
-- 5.徐码支持拼音“`”反查编码
+- 4.徐码支持拼音“`”反查编码
 > 
 ![Image text](/Res/xuma_pinyin.png)
-- 6.增加郑码
+- 5.增加郑码
 >
 ![Image text](/Res/zhengma.png)
-- 7.郑码支持拼音“`”反查编码
+- 6.郑码支持拼音“`”反查编码
 >
 ![Image text](/Res/zhengma_fancha.png)
 
