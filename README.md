@@ -43,7 +43,7 @@
 - 6.郑码支持拼音“`”反查编码
 >
 ![Image text](/Res/zhengma_fancha.png)
-- 7.全键盘的符号键盘
+- 7.手机同文，全键盘的符号键盘
 >
 ![Image text](/Res/trime_symbol.jpg)
 
