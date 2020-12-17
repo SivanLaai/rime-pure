@@ -80,7 +80,8 @@ translator:
   enable_user_dict: true               
   enable_encoder: true                 
   encode_commit_history: true          
-  max_phrase_length: 10                                     
+  max_phrase_length: 10     
+  user_dict: user                                                      
   db_class: tabledb                     
   disable_user_dict_for_patterns:       
     - "^z.*$"

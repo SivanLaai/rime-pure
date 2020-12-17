@@ -111,7 +111,7 @@ translator:
   enable_user_dict: true               
   enable_encoder: true                 
   encode_commit_history: true          
-  
+  user_dict: user 
   max_phrase_length: 10                                     
   db_class: tabledb                     
   disable_user_dict_for_patterns:       
