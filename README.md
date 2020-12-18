@@ -146,6 +146,9 @@
 
 
 ## 安装方法
+
+### 不看下面的繁索的安装直接去发布页面下载已编译版本
+- 传送门 https://github.com/SivanLaai/rime_pure/releases/tag/1.0.0
 #### 小狼毫（PC端）
 >0.备份小狼毫输入法安装目录的`data`文件夹，备份`~\AppData\Rime`文件夹，下载小狼毫安装包：https://rime.im/
 >
