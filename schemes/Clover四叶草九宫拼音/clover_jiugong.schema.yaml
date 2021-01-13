@@ -19,9 +19,9 @@ switches:
     states: [ 中, 英 ]
   - name: full_shape
     states: [ 半, 全 ]
-  - name: traditional_chinese
-    reset: 0
+  - name: simplification
     states: [ 简, 繁 ]
+    reset: 0
   - name: ascii_punct
     states: [ 。，, ．， ]
 
@@ -76,6 +76,15 @@ translator:
   dictionary: clover
   prism: clover_jiugong
   spelling_hints: 16 # ～字以內候選標註完整帶調拼音
+  enable_sentence: true               
+  enable_user_dict: true               
+  enable_encoder: true                 
+  encode_commit_history: true          
+  max_phrase_length: 10     
+  user_dict: user                                                      
+  db_class: tabledb                     
+  disable_user_dict_for_patterns:       
+    - "^z.*$"
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
@@ -100,11 +109,6 @@ reverse_lookup:
     - "xlit|v|ü|"
     - xform/iü/iv/
     - xform/uü/uv/
-
-# 支持简繁转换
-simplifier:
-  option_name: traditional_chinese
-  opencc_config: s2t.json
 
 punctuator:
   import_preset: symbols
