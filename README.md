@@ -210,3 +210,7 @@
  - 同文输入法：https://github.com/osfans/trime
  - 简繁转换opencc：https://github.com/BYVoid/OpenCC
  - 部分配色均整理自互联网，配色包含作者信息。
+
+##### 大家如果喜欢这个这个配置，可以支持一下我花了时间和经历的成果，同时也希望大家多多反馈问题。
+
+![Image text](/Res/a45c35cd5575760621be4b38e92f96a.jpg)
