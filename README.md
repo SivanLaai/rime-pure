@@ -28,6 +28,7 @@
 
 - 1.增加qq五笔
 - 2.增加笔画输入@[HarryWang29](https://github.com/HarryWang29)
+- 3.增加九宫格双拼
 
 #### 2020-12-17
 
