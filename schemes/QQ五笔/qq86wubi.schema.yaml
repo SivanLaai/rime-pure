@@ -50,7 +50,7 @@ engine:
 
 speller:
   max_code_length: 4                    # 四码上屏
-  auto_select: false                     # 自动上屏
+  auto_select: true                     # 自动上屏
 
 translator:
   dictionary: qq86wubi             # 翻译器将调取此字典文件
