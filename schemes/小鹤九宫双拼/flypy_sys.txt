@@ -1,0 +1,1896 @@
+# coding: utf-8
+# 小鹤音形符号、补充简码等词库
+# 该文件以UTF-8编码保存
+# 编码格式：字词+Tab符+编码（词库本身有重码则还需后面+Tab符+权重，权重大者居前，权重数字随意）
+# 
+#    === 强调一下 === 
+# 
+#   词条和编码之间的不是空格，而是Tab符，如果你不知道，就复制下面编码中的空白处
+#   或者按住键盘 G 键，切换到功能键盘，使用上面的Tab键
+# 
+#    ================
+# 
+# 本词库默认包含了临时生僻字、补充简码、增补字、符号及部分emoji表情
+
+
+https://flypy.com	xhgw
+https://bbs.flypy.com	xhlt
+http://flypy.ys168.com	xhwp
+http://xhrm.flypy.com	xhrm
+/wx	oi
+
+# 快捷符号，使用外接键盘时调换下面两行的数字
+：“	;q
+？	;w
+（	;e
+）	;r
+@	;t
+·	;y
+＝	;u
+〈	;i
+〉	;o
+～	;p
+！	;a
+……	;s
+、	;d
+《	;g
+＋	;h
+－	;j
+×	;k
+÷	;l
+“	;z
+→	;x
+”	;c
+——	;v
+》	;b
+〔	;n
+〕	;m
+
+# 表情
+😓	hj
+😭	ku
+😂	xn
+😠	nu
+😳	fd
+👍	ql
+👌	ok
+👎	ro
+👏	gv
+☕	ia
+🍺	pj
+🎂	dg
+🙏	bt
+🌹	mg
+💤	uv
+💔	ux
+🐂	nq
+🐂🚶	nr
+🐎🐎🐅🐅	mh
+🐾🐎👀🌸	gh
+🖕	cc
+🤔	sk
+
+# windows QQ表情
+/am	oqam
+/aiq	oqaq
+/bq	oqbq
+/bs	oqbu
+/bb	oqbb
+/baiy	oqby
+/bz	oqbz
+/cy	oqcy
+/ch	oqch
+/cd	oqcd
+/db	oqdb
+/dg	oqdg
+/dk	oqdk
+/dx	oqdx
+/dy	oqdy
+/fw	oqfw
+/fd	oqfd
+/fendou	oqfd
+/fan	oqfj
+/fn	oqfn
+/gg	oqgg
+/gz	oqgv
+/gy	oqgy
+/hanx	oqhx
+/huaix	oqhx
+/hq	oqhq
+/hx	oqhx
+/ht	oqht
+/hsh	oqhu
+/zhh	oqhh
+/yhh	oqhh
+/cj	oqij
+/jie	oqje
+/xjj	oqjj
+/jk	oqjk
+/jy	oqjy
+/jd	oqjd
+/jw	oqjw
+/kb	oqkb
+/ka	oqka
+/kf	oqkf
+/kt	oqkt
+/kel	oqkl
+/kl	oqkl
+/kuk	oqku
+/kun	oqky
+/lh	oqlh
+/lengh	oqlh
+/ll	oqll
+/lw	oqlw
+/mg	oqmg
+/no	oqno
+/ng	oqng
+/ok	oqok
+/oh	oqoh
+/tuu	oqot
+/pz	oqpz
+/qiang	oqql
+/qt	oqqt
+/qq	oqqb
+/qiao	oqqd
+/qd	oqqq
+/ruo	oqro
+/se	oqse
+/tx	oqtx
+/tiao	oqtn
+/tp	oqtp
+/ts	oqts
+/ty	oqty
+/shl	oqul
+/shuai	oquk
+/shui	oquv
+/zk	oqvk
+/zhem	oqvm
+/zhm	oqvm
+/zhq	oqvq
+/zhd	oqvd
+/zt	oqvt
+/wx	oqwx
+/ws	oqwu
+/wq	oqwq
+/xk	oqxk
+/xs	oqxs
+/xia	oqxx
+/xig	oqxg
+/xu...	oqxu
+/xyx	oqxy
+/xw	oqxw
+/yiw	oqyw
+/yx	oqyx
+/yb	oqyb
+/youl	oqyl
+/yun	oqyy
+/zj	oqzj
+/wzm	oqzm
+/sr	oqsr
+/jx	oqjx
+/px	oqpx
+/mm	oqmm
+/wn	oqwn
+/lb	oqlb
+/zyj	oqvy
+/kk	oqkk
+/aini	oqan
+/bp	oqbp
+/bt	oqbt
+/tl	oqtl
+/dz	oqdz
+/wl	oqwl
+/chi	oqii
+/kg	oqkg
+/cp	oqip
+/hb	oqhb
+/yao	oqyc
+/hn	oqhn
+
+# 二重简码
+按	a
+吧	b
+此	c
+打	d
+嗯	e
+发	f
+管	g
+化	h
+见	j
+块	k
+立	l
+嘛	m
+哪	n
+期	q
+入	r
+随	s
+它	t
+之	v
+位	w
+性	x
+子	z
+宝	bc
+笨	bf
+甭	bg
+逼	bi
+备	bw
+猜	cd
+达	da
+道	dc
+东	ds
+逗	dz
+份	ff
+疯	fg
+复	fu
+搞	gc
+钙	gd
+哥	ge
+官	gr
+故	gu
+华	hx
+壶	hu
+扯	ie
+程	ig
+臭	iz
+今	jb
+极	ji
+贱	jm
+居	ju
+佳	jx
+抠	kz
+溜	lq
+骂	ma
+美	mw
+浓	ns
+弃	qi
+缺	qt
+惹	re
+忍	rf
+扔	rg
+寺	si
+淘	tc
+替	ti
+舔	tm
+通	ts
+退	tv
+省	ug
+守	uz
+招	vc
+症	vg
+战	vj
+终	vs
+文	wf
+忘	wh
+玩	wj
+未	ww
+心	xb
+型	xk
+凶	xs
+隐	yb
+野	ye
+杨	yh
+严	yj
+园	yr
+友	yz
+遭	zc
+揍	zz
+坐	zo
+堆	dv
+
+#符号
+！	oa
+：	ob
+一	oba	111
+丨	obl	111
+丿	obp	111
+丶	obd	111
+乛	obv	111
+乀	obn	111
+鱼	oba
+冖	obb	100
+宀	obb	99
+丷	obb	98
+疒	obb	97
+勹	obb	96
+比左部	obb	95
+艹	obc	100
+廾	obc	99
+冫	obd	100
+氵	obd	99
+	obd	98
+刂	obd	97
+阝	obe	100
+卩	obe	99
+彐	obe	98
+山	obe	97
+见下部	obe	96
+扌	obf	100
+寿带上部	obf	99
+	obf	98
+缶	obf	97
+既左部	obg	100
+艮	obg	99
+鬼	obg	98
+革	obg	96
+骨	obg	97
+灬	obh	100
+虍	obh	99
+黑	obh	98
+余下部	obh	97
+彳	obi	100
+亍	obi	99
+虫	obi	98
+钅	obj	100
+金	obj	99
+	obj	98
+匚	obk	100
+冂	obk	99
+凵	obk	98
+囗	obk	97
+㠯	obk	96
+耂	obl	100
+立	obl	99
+龙	obl	98
+朩	obm
+	obn	100
+牜	obn	99
+日	obo	100
+月	obo	99
+目	obo	98
+礻	obp	100
+衤	obp	99
+犭	obq	100
+求	obq	99
+具其上部	obq	98
+亻	obr
+纟	obs	100
+厶	obs	99
+	obs	98
+罒	obs	97
+田	obt
+饣	obu	100
+	obu	99
+	obu	98
+氺	obu	97
+石	obu	96
+	obv	100
+豸	obv	99
+亠	obw	100
+夂	obw	99
+攵	obw	98
+文	obw	97
+忄	obx	100
+乂	obx	99
+⺍	obx	98
+	obx	97
+	obx	96
+讠	oby	100
+	oby	99
+	oby	98
+𧘇	oby	97
+羊	oby	96
+	obz	100
+廴	obz	99
+辶	obz	98
+”	oc
+、	od
+（	oh
+）	oj
+《	ok	90
+》	ol
+〔	on
+〕	om
+；	of
+成组标点d	ofb
+“”	ofbd	100
+（）	ofbd	99
+《》	ofbd	98
+〈〉	ofbd	97
+〔〕	ofbd	96
+‘’	ofbd	95
+「」	ofbd	94
+『』	ofbd	93
+【】	ofbd	92
+〖〗	ofbd	91
+［］	ofbd	90
+｛｝	ofbd	89
+．	ofbd	88
+。	ofbd	87
+，	ofbd	86
+、	ofbd	85
+；	ofbd	84
+：	ofbd	83
+？	ofbd	82
+！	ofbd	81
+…	ofbd	80
+—	ofbd	79
+·	ofbd	78
+ˉ	ofbd	77
+ˇ	ofbd	76
+¨	ofbd	75
+々	ofbd	74
+～	ofbd	73
+‖	ofbd	72
+∶	ofbd	71
+＂	ofbd	70
+	ofbd	69
+｀	ofbd	68
+｜	ofbd	67
+成组点数u	ofd	100
+⒈	ofdu	100
+⒉	ofdu	99
+⒊	ofdu	98
+⒋	ofdu	97
+⒌	ofdu	96
+⒍	ofdu	95
+⒎	ofdu	94
+⒏	ofdu	93
+⒐	ofdu	92
+⒑	ofdu	91
+⒒	ofdu	90
+⒓	ofdu	89
+⒔	ofdu	88
+⒕	ofdu	87
+⒖	ofdu	86
+⒗	ofdu	85
+⒘	ofdu	84
+⒙	ofdu	83
+⒚	ofdu	82
+⒛	ofdu	81
+成组单位w	ofd	99
+㎎	ofdw	100
+㎏	ofdw	99
+㎜	ofdw	98
+㎝	ofdw	97
+㎞	ofdw	96
+㎡	ofdw	95
+nm	ofdw	94
+μm	ofdw	93
+μg	ofdw	92
+㏄	ofdw	91
+㏎	ofdw	90
+㏑	ofdw	89
+㏒	ofdw	88
+㏕	ofdw	87
+成组俄大d	ofe	100
+А	ofed	100
+Б	ofed	99
+В	ofed	98
+Г	ofed	97
+Д	ofed	96
+Е	ofed	95
+Ж	ofed	94
+З	ofed	93
+И	ofed	92
+Й	ofed	91
+К	ofed	90
+Л	ofed	89
+М	ofed	88
+Н	ofed	87
+О	ofed	86
+П	ofed	85
+Р	ofed	84
+С	ofed	83
+Т	ofed	82
+У	ofed	81
+Ф	ofed	80
+Х	ofed	79
+Ц	ofed	78
+Ч	ofed	77
+Ш	ofed	76
+Щ	ofed	75
+Ъ	ofed	74
+Ы	ofed	73
+Ь	ofed	72
+Э	ofed	71
+Ю	ofed	70
+Я	ofed	69
+Ё	ofed	68
+成组俄小x	ofe	99
+а	ofex	100
+б	ofex	99
+в	ofex	98
+г	ofex	97
+д	ofex	96
+е	ofex	95
+ж	ofex	94
+з	ofex	93
+и	ofex	92
+й	ofex	91
+к	ofex	90
+л	ofex	89
+м	ofex	88
+н	ofex	87
+о	ofex	86
+п	ofex	85
+р	ofex	84
+с	ofex	83
+т	ofex	82
+у	ofex	81
+ф	ofex	80
+х	ofex	79
+ц	ofex	78
+ч	ofex	77
+ш	ofex	76
+щ	ofex	75
+ъ	ofex	74
+ы	ofex	73
+ь	ofex	72
+э	ofex	71
+ю	ofex	70
+я	ofex	69
+ё	ofex	68
+成组括数	ofk
+⑴	ofku	100
+⑵	ofku	99
+⑶	ofku	98
+⑷	ofku	97
+⑸	ofku	96
+⑹	ofku	95
+⑺	ofku	94
+⑻	ofku	93
+⑼	ofku	92
+⑽	ofku	91
+⑾	ofku	90
+⑿	ofku	89
+⒀	ofku	88
+⒁	ofku	87
+⒂	ofku	86
+⒃	ofku	85
+⒄	ofku	84
+⒅	ofku	83
+⒆	ofku	82
+⒇	ofku	81
+成组货币b	ofh
+€	ofhb	100
+$	ofhb	99
+￠	ofhb	98
+£	ofhb	97
+￡	ofhb	96
+¥	ofhb	94
+￥	ofhb	93
+฿	ofhb	92
+═	ofht	100
+║	ofht	99
+╧	ofht	98
+╪	ofht	97
+╤	ofht	96
+╡	ofht	95
+╞	ofht	94
+▁	ofht	93
+╕	ofht	92
+╒	ofht	91
+╛	ofht	90
+╘	ofht	89
+成组日大d	ofr	100
+ァ	ofrd	100
+ア	ofrd	99
+ィ	ofrd	98
+イ	ofrd	97
+ゥ	ofrd	96
+ウ	ofrd	95
+ェ	ofrd	94
+エ	ofrd	93
+ォ	ofrd	92
+オ	ofrd	91
+カ	ofrd	90
+ガ	ofrd	89
+キ	ofrd	88
+ギ	ofrd	87
+ク	ofrd	86
+グ	ofrd	85
+ケ	ofrd	84
+ゲ	ofrd	83
+コ	ofrd	82
+ゴ	ofrd	81
+サ	ofrd	80
+ザ	ofrd	79
+シ	ofrd	78
+ジ	ofrd	77
+ス	ofrd	76
+ズ	ofrd	75
+セ	ofrd	74
+ゼ	ofrd	73
+ソ	ofrd	72
+ゾ	ofrd	71
+タ	ofrd	70
+ダ	ofrd	69
+チ	ofrd	68
+ヂ	ofrd	67
+ッ	ofrd	66
+ツ	ofrd	65
+ヅ	ofrd	64
+テ	ofrd	63
+デ	ofrd	62
+ト	ofrd	61
+ド	ofrd	60
+ナ	ofrd	59
+ニ	ofrd	58
+ヌ	ofrd	57
+ネ	ofrd	56
+ノ	ofrd	55
+ハ	ofrd	54
+バ	ofrd	53
+パ	ofrd	52
+ヒ	ofrd	51
+ビ	ofrd	50
+ピ	ofrd	49
+フ	ofrd	48
+ブ	ofrd	47
+プ	ofrd	46
+ヘ	ofrd	45
+ベ	ofrd	44
+ペ	ofrd	43
+ホ	ofrd	42
+ボ	ofrd	41
+ポ	ofrd	40
+マ	ofrd	39
+ミ	ofrd	38
+ム	ofrd	37
+メ	ofrd	36
+モ	ofrd	35
+ャ	ofrd	34
+ヤ	ofrd	33
+ュ	ofrd	32
+ユ	ofrd	31
+ョ	ofrd	30
+ヨ	ofrd	29
+ラ	ofrd	28
+リ	ofrd	27
+ル	ofrd	26
+レ	ofrd	25
+ロ	ofrd	24
+ヮ	ofrd	23
+ワ	ofrd	22
+ヰ	ofrd	21
+ヱ	ofrd	20
+ヲ	ofrd	19
+ン	ofrd	18
+ヴ	ofrd	17
+ヵ	ofrd	16
+ヶ	ofrd	15
+ー	ofrd	14
+ヽ	ofrd	13
+ヾ	ofrd	12
+成组箭头t	ofj
+←	ofjt	100
+→	ofjt	99
+↑	ofjt	98
+↓	ofjt	97
+↗	ofjt	96
+↙	ofjt	95
+↘	ofjt	94
+↖	ofjt	93
+↔	ofjt	92
+↕	ofjt	91
+成组日小x	ofr	99
+ぁ	ofrx	100
+あ	ofrx	99
+ぃ	ofrx	98
+い	ofrx	97
+ぅ	ofrx	96
+う	ofrx	95
+ぇ	ofrx	94
+え	ofrx	93
+ぉ	ofrx	92
+お	ofrx	91
+か	ofrx	90
+が	ofrx	89
+き	ofrx	88
+ぎ	ofrx	87
+ぱ	ofrx	86
+く	ofrx	85
+ぐ	ofrx	84
+け	ofrx	83
+げ	ofrx	82
+こ	ofrx	81
+ご	ofrx	80
+さ	ofrx	79
+ざ	ofrx	78
+し	ofrx	77
+じ	ofrx	76
+す	ofrx	75
+ず	ofrx	74
+せ	ofrx	73
+ぜ	ofrx	72
+そ	ofrx	71
+ぞ	ofrx	70
+た	ofrx	69
+だ	ofrx	68
+ち	ofrx	67
+ぢ	ofrx	66
+っ	ofrx	65
+つ	ofrx	64
+づ	ofrx	63
+て	ofrx	62
+で	ofrx	61
+と	ofrx	60
+ど	ofrx	59
+な	ofrx	58
+に	ofrx	57
+ぬ	ofrx	56
+ね	ofrx	55
+の	ofrx	54
+は	ofrx	53
+ば	ofrx	52
+ひ	ofrx	51
+び	ofrx	50
+ぴ	ofrx	49
+ふ	ofrx	48
+ぶ	ofrx	47
+ぷ	ofrx	46
+へ	ofrx	45
+べ	ofrx	44
+ぺ	ofrx	43
+ほ	ofrx	42
+ぼ	ofrx	41
+ぽ	ofrx	40
+ま	ofrx	39
+み	ofrx	38
+む	ofrx	37
+め	ofrx	36
+も	ofrx	35
+ゃ	ofrx	34
+や	ofrx	33
+ゅ	ofrx	32
+ゆ	ofrx	31
+ょ	ofrx	30
+よ	ofrx	29
+ら	ofrx	28
+り	ofrx	27
+る	ofrx	26
+れ	ofrx	25
+ろ	ofrx	24
+ゎ	ofrx	23
+わ	ofrx	22
+ゐ	ofrx	21
+ゑ	ofrx	20
+を	ofrx	19
+ん	ofrx	18
+゛	ofrx	17
+゜	ofrx	16
+ゝ	ofrx	15
+ゞ	ofrx	14
+成组偏旁p	ofp	100
+勹	ofpp	100
+灬	ofpp	99
+冫	ofpp	98
+艹	ofpp	97
+屮	ofpp	96
+辶	ofpp	95
+刂	ofpp	94
+匚	ofpp	93
+阝	ofpp	92
+廾	ofpp	91
+丨	ofpp	90
+虍	ofpp	89
+彐	ofpp	88
+卩	ofpp	87
+钅	ofpp	86
+冂	ofpp	85
+冖	ofpp	84
+宀	ofpp	83
+疒	ofpp	82
+肀	ofpp	81
+丿	ofpp	80
+攵	ofpp	79
+凵	ofpp	78
+犭	ofpp	77
+亻	ofpp	76
+彡	ofpp	75
+饣	ofpp	74
+礻	ofpp	73
+扌	ofpp	72
+氵	ofpp	71
+纟	ofpp	70
+亠	ofpp	69
+囗	ofpp	68
+忄	ofpp	67
+讠	ofpp	66
+衤	ofpp	65
+廴	ofpp	64
+尢	ofpp	63
+夂	ofpp	62
+丶	ofpp	61
+丬	ofpp	60
+成组拼音y	ofp	99
+ā	ofpy	100
+á	ofpy	99
+ǎ	ofpy	98
+à	ofpy	97
+ō	ofpy	96
+ó	ofpy	95
+ǒ	ofpy	94
+ò	ofpy	93
+ê	ofpy	92
+ē	ofpy	91
+é	ofpy	90
+ě	ofpy	89
+è	ofpy	88
+ī	ofpy	87
+í	ofpy	86
+ǐ	ofpy	85
+ì	ofpy	84
+ǖ	ofpy	83
+ǘ	ofpy	82
+ǚ	ofpy	81
+ǜ	ofpy	80
+ü	ofpy	79
+ū	ofpy	78
+ú	ofpy	77
+ǔ	ofpy	76
+ù	ofpy	75
+成组罗大d	ofl	100
+Ⅰ	ofld	100
+Ⅱ	ofld	99
+Ⅲ	ofld	98
+Ⅳ	ofld	97
+Ⅴ	ofld	96
+Ⅵ	ofld	95
+Ⅶ	ofld	94
+Ⅷ	ofld	93
+Ⅸ	ofld	92
+Ⅹ	ofld	91
+Ⅺ	ofld	90
+Ⅻ	ofld	89
+成组罗小x	ofl	99
+ⅰ	oflx	100
+ⅱ	oflx	99
+ⅲ	oflx	98
+ⅳ	oflx	97
+ⅴ	oflx	96
+ⅵ	oflx	95
+ⅶ	oflx	94
+ⅷ	oflx	93
+ⅸ	oflx	92
+ⅹ	oflx	91
+成组特殊u	oft
+℃	oftu	100
+°	oftu	99
+‰	oftu	98
+♂	oftu	97
+♀	oftu	96
+§	oftu	95
+№	oftu	94
+☆	oftu	93
+★	oftu	92
+○	oftu	91
+●	oftu	90
+◎	oftu	89
+◇	oftu	88
+◆	oftu	87
+□	oftu	86
+■	oftu	85
+△	oftu	84
+▲	oftu	83
+※	oftu	82
+〓	oftu	81
+＃	oftu	80
+＆	oftu	79
+＠	oftu	78
+＼	oftu	77
+＾	oftu	76
+＿	oftu	75
+￣	oftu	74
+成组数学x	ofu
+＋	ofux	100
+－	ofux	99
+＜	ofux	98
+＝	ofux	97
+＞	ofux	96
+±	ofux	95
+×	ofux	94
+÷	ofux	93
+∈	ofux	92
+∏	ofux	91
+∑	ofux	90
+∕	ofux	89
+√	ofux	88
+∝	ofux	87
+∞	ofux	86
+∟	ofux	85
+∠	ofux	84
+∣	ofux	83
+∥	ofux	82
+∧	ofux	81
+∨	ofux	80
+∩	ofux	79
+∪	ofux	78
+∫	ofux	77
+∮	ofux	76
+∴	ofux	75
+∵	ofux	74
+∶	ofux	73
+∷	ofux	72
+∽	ofux	71
+≈	ofux	70
+≌	ofux	69
+≒	ofux	68
+≠	ofux	67
+≡	ofux	66
+≤	ofux	65
+≥	ofux	64
+≦	ofux	63
+≧	ofux	62
+≮	ofux	61
+≯	ofux	60
+⊕	ofux	59
+⊙	ofux	58
+⊥	ofux	57
+⊿	ofux	56
+成组中数u	ofv	100
+㈠	ofvu	100
+㈡	ofvu	99
+㈢	ofvu	98
+㈣	ofvu	97
+㈤	ofvu	96
+㈥	ofvu	95
+㈦	ofvu	94
+㈧	ofvu	93
+㈨	ofvu	92
+㈩	ofvu	91
+成组注音y	ofv	99
+ㄅ	ofvy	100
+ㄆ	ofvy	99
+ㄇ	ofvy	98
+ㄈ	ofvy	97
+ㄉ	ofvy	96
+ㄊ	ofvy	95
+ㄋ	ofvy	94
+ㄌ	ofvy	93
+ㄍ	ofvy	92
+ㄎ	ofvy	91
+ㄏ	ofvy	90
+ㄐ	ofvy	89
+ㄑ	ofvy	88
+ㄒ	ofvy	87
+ㄓ	ofvy	86
+ㄔ	ofvy	85
+ㄕ	ofvy	84
+ㄖ	ofvy	83
+ㄗ	ofvy	82
+ㄘ	ofvy	81
+ㄙ	ofvy	80
+ㄧ	ofvy	79
+ㄨ	ofvy	78
+ㄩ	ofvy	77
+ㄚ	ofvy	76
+ㄛ	ofvy	75
+ㄜ	ofvy	74
+ㄝ	ofvy	73
+ㄞ	ofvy	72
+ㄟ	ofvy	71
+ㄠ	ofvy	70
+ㄡ	ofvy	69
+ㄢ	ofvy	68
+ㄣ	ofvy	67
+ㄤ	ofvy	66
+ㄥ	ofvy	65
+ㄦ	ofvy	64
+成组西大d	ofx	100
+Α	ofxd	100
+Β	ofxd	99
+Γ	ofxd	98
+Δ	ofxd	97
+Ε	ofxd	96
+Ζ	ofxd	95
+Η	ofxd	94
+Θ	ofxd	93
+Ι	ofxd	92
+Κ	ofxd	91
+Λ	ofxd	90
+Μ	ofxd	89
+Ν	ofxd	88
+Ξ	ofxd	87
+Ο	ofxd	86
+Π	ofxd	85
+Ρ	ofxd	84
+Σ	ofxd	83
+Τ	ofxd	82
+Υ	ofxd	81
+Φ	ofxd	80
+Χ	ofxd	79
+Ψ	ofxd	78
+Ω	ofxd	77
+成组西小x	ofx	99
+α	ofxx	100
+β	ofxx	99
+γ	ofxx	98
+δ	ofxx	97
+ε	ofxx	96
+ζ	ofxx	95
+η	ofxx	94
+θ	ofxx	93
+ι	ofxx	92
+κ	ofxx	91
+λ	ofxx	90
+μ	ofxx	89
+ν	ofxx	88
+ξ	ofxx	87
+ο	ofxx	86
+π	ofxx	85
+ρ	ofxx	84
+σ	ofxx	83
+τ	ofxx	82
+υ	ofxx	81
+φ	ofxx	80
+χ	ofxx	79
+ψ	ofxx	78
+ω	ofxx	77
+成组圆数u	ofy
+①	ofyu	100
+②	ofyu	99
+③	ofyu	98
+④	ofyu	97
+⑤	ofyu	96
+⑥	ofyu	95
+⑦	ofyu	94
+⑧	ofyu	93
+⑨	ofyu	92
+⑩	ofyu	91
+成组制表b	ofv	99
+┌	ofvb	100
+└	ofvb	99
+┐	ofvb	98
+┘	ofvb	97
+─	ofvb	96
+│	ofvb	95
+├	ofvb	94
+┤	ofvb	93
+┬	ofvb	92
+┴	ofvb	91
+┼	ofvb	90
+成组上标b	ofu	99
+¹	ofub	100
+²	ofub	99
+³	ofub	98
+⁴	ofub	97
+⁵	ofub	96
+⁶	ofub	95
+⁷	ofub	94
+⁸	ofub	93
+⁹	ofub	92
+⁰	ofub	91
+⁺	ofub	90
+⁻	ofub	89
+⁼	ofub	88
+⁽	ofub	87
+⁾	ofub	86
+ⁿ	ofub	85
+ˣ	ofub	84
+成组下标b	ofx	99
+₁	ofxb	100
+₂	ofxb	99
+₃	ofxb	98
+₄	ofxb	97
+₅	ofxb	96
+₆	ofxb	95
+₇	ofxb	94
+₈	ofxb	93
+₉	ofxb	92
+₀	ofxb	91
+₊	ofxb	90
+₋	ofxb	89
+₌	ofxb	88
+₍	ofxb	87
+₎	ofxb	86
+ₙ	ofxb	85
+ₓ	ofxb	84
+～	op
+：“	oq
+……	os
+＆	ota	100
+α	ota	99
+%	otb	100
+β	otb	99
+©	otb	98
+℃	otc
+°	otd	100
+＝	otd	99
+≠	otd	98
+≥	otd	97
+＞	otd	96
+の	ote	100
+ε	ote	99
+′	otf	100
+Φ	otf	99
+□	otf	98
+■	otf	97
+√	otg	100
+γ	otg	99
+℉	oth	100
+※	oth	99
+×	oti	100
+÷	oti	99
+＋	otj	100
+－	otj	99
+m³	otl	100
+″	otm	100
+μ	otm	99
+﹩	otm	98
+￠	otm	97
+♂	otn	100
+♀	otn	99
+№	otn	98
+€	oto	100
+Ω	oto	99
+㎡	otp	100
+π	otp	99
+‰	otq	100
+¥	otr	100
+￥	otr	99
+∴	ots	100
+∵	ots	99
+△	ots	98
+▲	ots	97
+฿	ott	100
+℡	ott	99
+™	otu	96
+®	otv	99
+㈱	otv	98
+∞	otw	100
+卍	otw	99
+卐	otw	98
+≤	otx	96
+＜	otx	95
+☆	otx	94
+★	otx	93
+£	oty	99
+≈	oty	98
+○	oty	97
+●	oty	96
+？	ow
+凹	oxa
+百	oxb	100
+白	oxb	99
+八	oxb	98
+卜	oxb	97
+匕	oxb	96
+卞	oxb	95
+不	oxb	94
+巴	oxb	93
+本	oxb	92
+必	oxb	91
+丙	oxb	90
+半	oxb	89
+办	oxb	88
+寸	oxc	100
+才	oxc	99
+匆	oxc	98
+册	oxc	97
+大	oxd	100
+丁	oxd	99
+刀	oxd	98
+歹	oxd	97
+刁	oxd	96
+东	oxd	95
+丹	oxd	94
+电	oxd	93
+氐	oxd	92
+二	oxe	100
+耳	oxe	99
+儿	oxe	98
+而	oxe	97
+非	oxf	100
+方	oxf	99
+飞	oxf	98
+夫	oxf	97
+凡	oxf	96
+甫	oxf	95
+弗	oxf	94
+乏	oxf	93
+丰	oxf	92
+广	oxg	100
+弓	oxg	99
+戈	oxg	98
+工	oxg	97
+瓜	oxg	96
+干	oxg	95
+个	oxg	94
+甘	oxg	93
+丐	oxg	92
+果	oxg	91
+更	oxg	90
+夬	oxg	88
+禾	oxh	100
+户	oxh	99
+互	oxh	98
+乎	oxh	97
+火	oxh	96
+川	oxi	100
+厂	oxi	99
+车	oxi	98
+长	oxi	97
+叉	oxi	96
+尺	oxi	95
+丑	oxi	94
+臣	oxi	93
+成	oxi	92
+垂	oxi	91
+斥	oxi	90
+串	oxi	89
+产	oxi	88
+出	oxi	87
+巾	oxj	100
+几	oxj	99
+九	oxj	98
+斤	oxj	97
+久	oxj	96
+巨	oxj	95
+己	oxj	94
+井	oxj	93
+及	oxj	92
+夹	oxj	91
+甲	oxj	90
+臼	oxj	89
+韭	oxj	88
+戋	oxj	87
+柬	oxj	86
+击	oxj	85
+口	oxk	100
+开	oxk	99
+亏	oxk	98
+了	oxl	100
+力	oxl	99
+乐	oxl	98
+来	oxl	97
+良	oxl	96
+两	oxl	95
+里	oxl	94
+吏	oxl	93
+耒	oxl	92
+卵	oxl	91
+丽	oxl	90
+木	oxm	100
+毛	oxm	99
+米	oxm	98
+门	oxm	97
+马	oxm	96
+皿	oxm	95
+末	oxm	94
+灭	oxm	93
+母	oxm	92
+民	oxm	91
+么	oxm	90
+面	oxm	89
+廿	oxn	100
+女	oxn	99
+牛	oxn	98
+鸟	oxn	97
+乃	oxn	96
+内	oxn	95
+农	oxn	94
+年	oxn	93
+片	oxp	100
+平	oxp	99
+爿	oxp	98
+七	oxq	100
+千	oxq	99
+犬	oxq	98
+且	oxq	97
+丘	oxq	96
+曲	oxq	95
+气	oxq	94
+乞	oxq	93
+人	oxr	100
+入	oxr	99
+冉	oxr	98
+壬	oxr	97
+刃	oxr	96
+三	oxs	100
+巳	oxs	99
+肃	oxs	98
+土	oxt	100
+天	oxt	99
+太	oxt	98
+屯	oxt	97
+十	oxu	100
+尸	oxu	99
+士	oxu	98
+手	oxu	97
+身	oxu	96
+水	oxu	95
+上	oxu	94
+少	oxu	93
+术	oxu	92
+失	oxu	91
+生	oxu	90
+世	oxu	89
+申	oxu	88
+史	oxu	87
+升	oxu	86
+事	oxu	85
+书	oxu	84
+束	oxu	83
+勺	oxu	82
+戍	oxu	81
+豕	oxu	80
+氏	oxu	79
+矢	oxu	78
+止	oxv	100
+爪	oxv	99
+主	oxv	98
+舟	oxv	97
+之	oxv	96
+正	oxv	95
+丈	oxv	94
+中	oxv	93
+专	oxv	92
+朱	oxv	91
+州	oxv	90
+重	oxv	89
+乍	oxv	88
+王	oxw	100
+瓦	oxw	99
+五	oxw	98
+无	oxw	97
+万	oxw	96
+午	oxw	95
+亡	oxw	93
+未	oxw	92
+乌	oxw	91
+韦	oxw	90
+勿	oxw	89
+为	oxw	88
+戊	oxw	87
+我	oxw	86
+丸	oxw	85
+兀	oxw	84
+小	oxx	100
+西	oxx	99
+心	oxx	98
+血	oxx	97
+下	oxx	96
+夕	oxx	95
+乡	oxx	94
+习	oxx	93
+戌	oxx	92
+又	oxy	100
+酉	oxy	99
+已	oxy	98
+于	oxy	97
+义	oxy	96
+与	oxy	95
+夭	oxy	94
+玉	oxy	93
+牙	oxy	92
+丫	oxy	91
+永	oxy	90
+尤	oxy	89
+也	oxy	88
+业	oxy	87
+由	oxy	86
+央	oxy	85
+亚	oxy	84
+严	oxy	83
+用	oxy	82
+幺	oxy	81
+禺	oxy	80
+臾	oxy	79
+尹	oxy	78
+禹	oxy	77
+夷	oxy	76
+弋	oxy	75
+聿	oxy	74
+雨	oxy	73
+再	oxz	100
+自	oxz	99
+子	oxz	98
+①	oyy	90
+②	oye	90
+③	oys	90
+④	oyd	90
+⑤	oyw	90
+⑥	oyl	90
+⑦	oyq	90
+⑧	oyb	90
+⑨	oyj	90
+⑩	oyu	90
+Ⅰ	oyy	30
+Ⅱ	oye	30
+Ⅲ	oys	30
+Ⅳ	oyd	30
+Ⅴ	oyw	30
+Ⅵ	oyl	30
+Ⅶ	oyq	30
+Ⅷ	oyb	30
+Ⅸ	oyj	30
+Ⅹ	oyu	30
+“	oz
+#临时生僻字
+嶅	aof/
+鲌	baa/
+皕	bib/
+芘	bic/
+苾	bic/
+萆	bic/
+沘	bid/
+馝	bih/
+咇	bik/
+襞	biu/
+舭	biv/
+跸	biz/
+攽	bjb/
+𨭉	bjw/
+𨚕	bms/
+笾	bmv/
+幖	bnj/
+骉	bnm/
+浡	bod/
+欂	bom/
+孛	bou/
+瓿	bul/
+埗	but/
+鞁	bwg/
+邶	bwl/
+棓	bwm/
+褙	bwp/
+鹎	bwp/
+孛	bwu/
+琲	bww/
+粢	cid/
+䅟	cjh/
+毳	cvm/
+𨱏	daj/
+鿎	dau/
+筜	dhv/
+杕	dim/
+禘	dip/
+玓	diw/
+羝	diy/
+澹	djd/
+箪	djv/
+汈	dnd/
+饳	dou/
+𬭊	duj/
+阇	dum/
+蹾	dyz/
+崿	eee/
+姶	een/
+𥔲	eeu/
+𣸣	ffd/
+偾	ffr/
+浲	fgd/
+蚄	fhi/
+氾	fjd/
+𫔍	fjj/
+𬸪	fjp/
+㕮	fuk/
+祓	fup/
+垺	fut/
+㽏	gjd/
+珖	glw/
+馃	gou/
+筦	grv/
+䢼	gsc/
+蓇	guc/
+觚	gud/
+蛄	gui/
+牿	gun/
+馉	guu/
+嘏	guu/
+榖	guu/
+廆	gvg/
+姽	gvn/
+雊	gzb/
+句	gzb/
+皞	hcb/
+嚆	hck/
+嗥	hck/
+咍	hdk/
+浛	hjd/
+扞	hjf/
+㿠	hlb/
+𨱑	hlj/
+锽	hlj/
+艎	hlv/
+瑝	hlw/
+漷	hod/
+镮	hrj/
+翃	hsu/
+冱	hud/
+烀	huh/
+觳	huu/
+縠	huu/
+浍	hvd/
+翙	hve/
+烠	hvh/
+翚	hvx/
+𬤝	hvy/
+𥻗	iam/
+煁	ifh/
+榇	ifm/
+棽	ifm/
+𬬮	ihj/
+氅	ihx/
+鸱	iid/
+漦	iiw/
+浐	ijd/
+刬	ijj/
+梴	ijm/
+襜	ijp/
+摏	isf/
+艟	isv/
+斶	iuj/
+樗	ium/
+楮	ium/
+雠	izr/
+浕	jbd/
+赆	jbk/
+瑨	jbw/
+琎	jbw/
+蒺	jic/	100
+芰	jic/	90
+殛	jid/
+剞	jid/
+瀱	jid/
+觭	jid/
+鹡	jid/
+㴔	jid/
+𬶨	jig/
+穄	jih/
+𫓹	jij/
+耤	jil/
+乩	jil/
+枅	jim/
+姞	jin/
+伋	jir/
+垍	jit/
+竫	jkl/
+璥	jkw/
+謇	jmb/
+楗	jmm/
+笕	jmv/
+篯	jmv/
+𬣡	jmy/
+敫	jnb/
+皦	jnb/
+滘	jnd/
+漖	jnd/
+燋	jnh/
+僬	jnr/
+璬	jnw/
+恔	jnx/
+岊	jpb/
+骱	jpg/
+蜐	jpi/
+褯	jpp/
+价	jpr/
+锩	jrj/
+颎	jsb/
+㵐	jtd/
+𫔎	jtj/
+𫘝	jtm/
+蒟	juc/
+澽	jud/
+枸	jum/
+椐	jum/
+瘕	jxb/
+泇	jxd/
+𬂩	jxm/
+闿	kdm/
+匼	kek/
+𫠆	kvu/
+𬭸	lbj/
+𬴊	lbm/
+翷	lbm/
+铼	ldj/
+桹	lhm/
+鲡	lia/
+蓠	lic/
+苈	lic/
+浰	lid/
+浬	lid/
+凓	lid/
+轹	lii/
+呖	lik/
+朸	lim/
+枥	lim/
+𬍛	liw/
+珕	liw/
+悝	lix/
+漤	ljd/
+澪	lkd/
+倞	llr/
+蠃	low/
+碌	lqu/
+昽	lso/
+𫘧	lum/
+簏	luv/
+舻	luv/
+梠	lvm/
+溇	lzd/
+鄚	mcc/
+蟊	mcs/
+蝥	mcs/
+鹲	mgc/
+醾	miy/
+瘼	mob/
+藦	moc/
+靺	mog/
+渼	mwd/
+郿	mwv/
+糵	npc/
+舥	pav/
+簰	pdv/
+嚭	piu/
+鼙	piu/
+冯	pkd/
+帡	pkj/
+蒱	puc/
+吣	qbk/
+洓	qid/
+汔	qid/
+欹	qid/
+綮	qih/
+𬨂	qii/
+桤	qim/
+槭	qim/
+祇	qip/
+俟	qir/
+埼	qit/
+庼	qkg/
+綮	qkh/
+褰	qmb/
+汧	qmd/
+鹐	qmd/
+墘	qmt/
+愀	qnx/
+慊	qpx/
+蝤	qqi/
+𨱇	qqj/
+碏	qtu/
+焌	quh/
+讱	rfy/
+颥	ruy/
+凘	sid/
+飔	sij/
+凇	ssd/
+𫗧	suu/
+穟	svh/
+尿	svu/
+溚	tad/
+溏	thd/
+鄌	thg/
+铴	thj/
+遆	tiz/
+烶	tkh/
+䗴	tki/
+哃	tsk/
+煺	tvh/
+忳	tyx/
+挲	uad/
+筲	ucv/
+畬	uer/
+𬳽	ufm/
+棽	ufm/
+甡	ufu/
+诜	ufy/
+眚	ugu/
+汤	uhd/
+埫	uht/
+埫	tht/
+䴓	uia/
+浉	uid/
+湜	uid/
+炻	uih/
+鼫	uij/
+襫	uip/
+祏	uip/
+芟	ujc/
+钐	ujj/
+鄯	ujy/
+数	uom/
+澍	uud/
+秫	uuh/
+𬬸	uuj/
+殳	uuj/
+鄃	uur/
+艏	uzv/
+咤	vak/
+柞	vam/
+霅	vay/
+浈	vfd/
+昣	vfo/
+禛	vfp/
+瑧	vfw/
+鄣	vhl/
+茋	vic/
+泜	vid/
+滍	vid/
+摭	vif/
+扺	vif/
+轾	vii/
+铚	vij/
+禔	vip/
+氏	vip/
+卮	vip/
+黹	viy/
+跱	viz/
+跖	viz/
+汋	vod/
+舯	vsv/
+潴	vud/
+蠋	vui/
+橥	vuq/
+邾	vuv/
+𬣞	vuy/
+赒	vzk/
+痦	wub/
+鋈	wud/
+洿	wud/
+浯	wud/
+靰	wug/
+铻	wuj/
+鼯	wuj/
+杌	wum/
+郚	wuw/
+珸	wuw/
+怃	wux/
+鳂	wwa/
+𫇭	wwc/
+洧	wwd/
+溦	wwd/
+𣲗	wwd/
+沩	wwd/
+隈	wwe/
+峗	wwe/
+煟	wwh/
+螱	wwu/
+琟	www/
+亹	www/
+镡	xbj/
+䜣	xby/
+穸	xib/
+菥	xic/
+葸	xic/
+酅	xie/
+熻	xih/
+螅	xii/
+舄	xij/
+𬭳	xij/
+粞	xim/
+睎	xio/
+肸	xio/
+禊	xip/
+谿	xip/
+俙	xir/
+歙	xir/
+豨	xiu/
+屃	xiu/
+憙	xiu/
+饻	xiu/
+恓	xix/
+钘	xkj/
+骍	xkm/
+婞	xkn/
+𫰛	xkn/
+瑆	xkw/
+瓖	xlw/
+崄	xme/
+𬀪	xmo/
+缐	xms/
+燹	xmu/
+筅	xmv/
+渫	xpd/
+澥	xpd/
+揳	xpf/
+榍	xpm/
+𬹼	xpv/
+𤫉	xpw/
+痃	xrb/
+烜	xrh/
+晅	xro/
+琄	xrw/
+谖	xry/
+诇	xsy/
+湑	xud/
+欻	xuh/
+冔	xuk/
+旴	xuo/
+醑	xuy/
+𬣙	xuy/
+翈	xxj/
+𬘓	xys/
+蟫	ybi/
+骃	ybm/
+堙	ybt/
+龂	ybv/
+𬤇	yby/
+㙘	yct/
+邪	yey/
+蛘	yhi/
+鹝	yia/
+鹢	yib/
+潩	yid/
+洢	yid/
+𫖮	yie/
+燚	yih/	30
+扅	yih/
+扆	yih/
+镱	yij/
+𬬩	yij/
+繄	yik/
+匜	yik/
+枍	yim/
+椸	yim/
+佁	yir/
+勚	yiu/
+裛	yiw/
+怿	yix/	90
+刈	yix/
+悒	yix/
+酏	yiy/
+劓	yiz/
+剡	yjh/
+扊	yjh/
+虤	yjh/
+烻	yjh/
+黡	yji/
+厣	yji/
+郾	yjk/
+阏	yjm/
+嬿	yjn/
+𫄧	yjs/
+谳	yjy/
+潆	ykd/
+锳	ykj/
+媖	ykn/
+涴	yrd/
+螈	yri/
+羱	yry/
+窬	yub/
+瘐	yub/
+潏	yud/
+㳚	xud/
+隩	yue/
+嵎	yue/
+髃	yug/
+燠	yuh/
+蝓	yui/
+棫	yum/
+畬	yur/
+悆	yur/
+伛	yur/
+矞	yus/
+纡	yus/
+熨	yuu/
+艅	yuv/
+瑀	yuw/	80
+敔	yuw/	60
+邘	yuy/
+鄅	yuy/
+涢	yyd/
+沄	yyd/
+馧	yyh/
+筼	yyv/
+浟	yzd/
+𬨎	yzi/
+蚰	yzi/
+羑	yzy/
+䎖	zgb/
+粢	zid/
+虸	zii/
+赀	ziv/
+
+
+# 随心所欲   自定编码规则
+距离	jlw
+食物	uwn
+及时	juo
+指示	vue
+直到	vda
+哲理	vlw
+音形	yxk
+截至	jva
+觉得	jdi
+简洁	jjd
+精力	jlv
+梳理	ulw
+事实	uub
+基于	jya
+置顶	vdd
+想想	xxm
+智	viud
+计	jiyd
+床前明月光，疑是地上霜。举头望明月，低头思故乡。	jysi
