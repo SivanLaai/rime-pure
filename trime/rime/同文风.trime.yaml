@@ -2133,7 +2133,7 @@ preset_keyboards:
       - {click: z, long_click: "`", swipe_up: "`", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
       - {click: x, long_click: "^",  swipe_up: cut, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: c, long_click: ":", swipe_up: copy, key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
-      - {click: v, long_click: "*", swipe_up: "*", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
+      - {click: v, long_click: "_", swipe_up: "_", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
       - {click: b, long_click: "/", swipe_up: "/", key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: n, long_click: "[]{Left}", swipe_up: "[]{Left}", swipe_left: "[", swipe_right: "]", key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
       - {click: m, long_click: "(){Left}", swipe_up: "(){Left}", swipe_left: "(", swipe_right: ")", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
@@ -2277,7 +2277,7 @@ preset_keyboards:
       - {click: "`", label: "‵", swipe_up: "`", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
       - {click: "^", label: "……", swipe_up: "^", key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: ":", label: "：", swipe_up: ":", key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
-      - {click: "*", label: "＊", swipe_up: "*", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
+      - {click: "_", label: "_", swipe_up: "_", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
       - {click: "/", label: "／", swipe_up: "/", key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: "[]{Left}", label: "［］", swipe_up: "［］{Left}", swipe_left: "[", swipe_right: "]", key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
       - {click: "(){Left}", label: "（）", swipe_up: "（）{Left}", swipe_left: "(", swipe_right: ")", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
@@ -2336,7 +2336,7 @@ preset_keyboards:
       - {click: z, long_click: "`", swipe_up: "`", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
       - {click: x, long_click: "^",  swipe_up: cut, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: c, long_click: ":", swipe_up: copy, key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
-      - {click: v, long_click: "*", swipe_up: "*", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
+      - {click: v, long_click: "_", swipe_up: "_", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
       - {click: b, long_click: "/", swipe_up: "/", key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: n, long_click: "[]{Left}", swipe_up: "[]{Left}", swipe_left: "[", swipe_right: "]", key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
       - {click: m, long_click: "(){Left}", swipe_up: "(){Left}", swipe_left: "(", swipe_right: ")", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
@@ -2484,7 +2484,7 @@ preset_keyboards:
       - {click: "`", label: "‵", swipe_up: "`", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
       - {click: "^", label: "……", swipe_up: "^", key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: ":", label: "：", swipe_up: ":", key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
-      - {click: "*", label: "＊", swipe_up: "*", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
+      - {click: "_", label: "——", swipe_up: "_", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
       - {click: "/", label: "／", swipe_up: "/", key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: "[]{Left}", label: "［］", swipe_up: "［］{Left}", swipe_left: "[", swipe_right: "]", key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
       - {click: "(){Left}", label: "（）", swipe_up: "（）{Left}", swipe_left: "(", swipe_right: ")", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
@@ -2543,7 +2543,7 @@ preset_keyboards:
       - {click: z, long_click: "`", swipe_up: "`", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
       - {click: x, long_click: "^",  swipe_up: cut, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: c, long_click: ":", swipe_up: copy, key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
-      - {click: v, long_click: "*", swipe_up: "*", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
+      - {click: v, long_click: "_", swipe_up: "_", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
       - {click: b, long_click: "/", swipe_up: "/", key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: n, long_click: "[]{Left}", swipe_up: "[]{Left}", swipe_left: "[", swipe_right: "]", key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
       - {click: m, long_click: "(){Left}", swipe_up: "(){Left}", swipe_left: "(", swipe_right: ")", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
@@ -2926,7 +2926,7 @@ preset_keyboards:
       - {click: K_symbols12x, width: 19}
       - {click: "{"}
       - {click: "}"}
-      - {click: "+"}
+      - {click: "_"}
       - {click: "@"}
       - {click: K_back, width: 19}
       - {click: K_symbols00, width: 12.5}

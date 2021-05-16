@@ -358,9 +358,9 @@ preset_keyboards:
       - {click: BackSpace, key_text_size: 25, key_text_offset_x: -2, key_text_offset_y: -3, key_back_color: hsb, key_text_color: hst, hilited_key_back_color: scj, width: 15}
       # ❹swipe_up: 
       - {click: "q_sz", key_text_size: 14, swipe_up: q_xd, has_menu: SSX, long_click: Mode_switch, key_back_color: sza, key_text_color: szt, key_symbol_color: szs, hilited_key_back_color: 123, width: 18}
-      - {click: ",", label: " ，", label: 逗號, composing: SX, key_text_size: 12, long_click: "!", swipe_up: "!", key_back_color: zbd, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: fxx, width: 13}
+      - {click: ",", label: " ，", composing: Page_Up, label: 逗號, composing: SX, key_text_size: 12, long_click: "!", swipe_up: "!", key_back_color: zbd, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: fxx, width: 13}
       - {click: space, swipe_up: , ascii: space1, key_text_size: 12, key_text_offset_x: 0, key_text_offset_y: 0, key_symbol_offset_x: 60, key_symbol_offset_y: 7, long_click: VOICE_ASSIST0, swipe_left: Left, swipe_right: Right, key_back_color: kgb, key_text_color: kgt, key_symbol_color: dds, hilited_key_back_color: kgbx, width: 38}
-      - {click: ".", label: " 。", label: 句號, composing: CX, key_text_size: 12, long_click: "?", swipe_up: "?", key_back_color: ybd, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: fxx, width: 13}
+      - {click: ".", label: " 。", composing: Page_Down, label: 句號, composing: CX, key_text_size: 12, long_click: "?", swipe_up: "?", key_back_color: ybd, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: fxx, width: 13}
       - {click: Return, key_text_size: 14, long_click: Color_settings1, swipe_up: Theme_settings, key_back_color: hcb, key_text_color: hct, key_symbol_color: hct, hilited_key_back_color: hcx, width: 18}
       - {height: 1, width: 100}     # 增高行
 
