@@ -31,10 +31,10 @@ switches:
     reset: 0
     states: [ 。，, ．， ]
   - name: symbol_support
-    reset: 1
+    reset: 0
     states: [ "无符", "符" ]
   - name: emoji_suggestion
-    reset: 1
+    reset: 0
     states: [ 😑️, 😁️ ]
   
   

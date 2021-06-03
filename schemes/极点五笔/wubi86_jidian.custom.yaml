@@ -10,7 +10,7 @@ patch:
     states: [ "无符", "符" ]
   switches/@next 1:
     name: emoji_suggestion
-    reset: 1
+    reset: 0
     states: [ 😑️, 😁️ ]
   
   #######配置engine
