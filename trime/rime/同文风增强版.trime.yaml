@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 config_version: "2020年10月20日"
-name: 讯飞皮肤 #方案名称
-author: 冷粼粼
+name: 同文风增强版 #方案名称
+author: SivanLaai
 
 # 键盘候选
 candidate_setting:
