@@ -19,7 +19,7 @@ switches:
     states: [ 中, 英 ]
   - name: full_shape
     states: [ 半, 全 ]
-  - name: simplification
+  - name: zh_simp_s2t 
     states: [ 简, 繁 ]
     reset: 0
   - name: ascii_punct
@@ -115,6 +115,10 @@ punctuator:
 
 key_binder:
   import_preset: default
+  
+simplifier:
+  option_name: zh_simp_s2t
+  opencc_config: s2t.json
 
 recognizer:
   import_preset: default
