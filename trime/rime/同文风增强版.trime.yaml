@@ -1873,7 +1873,7 @@ preset_color_schemes:
     cdB: 0xffB3D743
     cdC: 0xffE69A83
     cdt: 0xFF4AD1C3
-    comment_text_color: 0xFF4AD1C3
+    comment_text_color: *COLOR_DARK_SEA_BLUE
     fyt: 0xffd3d7da    
     bkss: 0xff919191
     bkst: 0xff333333 # backspace按键颜色
@@ -1888,8 +1888,8 @@ preset_color_schemes:
     hct: 0xff333333
     hilited_back_color: *COLOR_TRANSPARENT
     hilited_candidate_back_color: *COLOR_TRANSPARENT
-    hilited_candidate_text_color: 0xFF4AD1C3
-    hilited_comment_text_color: 0xff333333
+    hilited_candidate_text_color: *COLOR_DARK_RED #0xff1693d8 # 候选区高亮文本颜色
+    hilited_comment_text_color: *COLOR_ORANGE #0xff696969 # 候选区高亮编码文本颜色
     hilited_key_back_color: ABCkeyAH.png
     hilited_key_symbol_color: *COLOR_WHITE
     hilited_key_text_color: *COLOR_WHITE

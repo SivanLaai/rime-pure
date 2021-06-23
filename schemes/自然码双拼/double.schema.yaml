@@ -1,0 +1,136 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: double
+  name: 自然码双拼
+  version: "1.0"
+  author:
+    - Jaaiko <lyhhap@hotmail.com>
+  description: |
+    自然码双拼：
+    以🍀️四叶草简体拼音为基础所配置的一款双拼输入方案。
+  dependencies:
+    - emoji
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中, 英 ]
+  - name: full_shape
+    states: [ 半, 全 ]
+  - name: simplification
+    states: [ 简, 繁 ]
+    reset: 0
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - table_translator@custom_phrase
+    - reverse_lookup_translator
+    - script_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: 'zyxwvutsrqponmlkjihgfedcba1234567890'
+  delimiter: " '"
+  algebra:
+    - "erase/^xx$/"
+    - "derive/^([jqxy])u$/$1v/"
+    - "derive/^([aoe])([ioun])$/$1$1$2/"
+    - "xform/^([aoe])(ng)?$/$1$1$2/"
+    - "xform/iu$/Q/"
+    - "xform/[iu]a$/W/"
+    - "xform/[uv]an$/R/"
+    - "xform/[uv]e$/T/"
+    - "xform/ing$|uai$/Y/"
+    - "xform/^sh/U/"
+    - "xform/^ch/I/"
+    - "xform/^zh/V/"
+    - "xform/uo$/O/"
+    - "xform/[uv]n$/P/"
+    - "xform/i?ong$/S/"
+    - "xform/[iu]ang$/D/"
+    - "xform/(.)en$/$1F/"
+    - "xform/(.)eng$/$1G/"
+    - "xform/(.)ang$/$1H/"
+    - "xform/ian$/M/"
+    - "xform/(.)an$/$1J/"
+    - "xform/iao$/C/"
+    - "xform/(.)ao$/$1K/"
+    - "xform/(.)ai$/$1L/"
+    - "xform/(.)ei$/$1Z/"
+    - "xform/ie$/X/"
+    - "xform/ui$/V/"
+    - "xform/(.)ou$/$1B/"
+    - "xform/in$/N/"
+    - "xlit/QWRTYUIOPSDFGHMJCKLZXVBN/qwrtyuiopsdfghmjcklzxvbn/"
+
+translator:
+  dictionary: clover
+  prism: double
+  spelling_hints: 16 # ～字以內候選標註完整帶調拼音
+  enable_sentence: true               
+  enable_user_dict: true               
+  enable_encoder: true                 
+  encode_commit_history: true          
+  max_phrase_length: 10     
+  user_dict: user                                                      
+  db_class: tabledb                     
+  disable_user_dict_for_patterns:       
+    - "^z.*$"
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+    - xform/eh/ê/
+
+custom_phrase:
+  dictionary: ""
+  user_dict: custom_phrase
+  db_class: stabledb
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 1
+
+reverse_lookup:
+  dictionary: stroke
+  enable_completion: true
+  prefix: "`"
+  suffix: "'"
+  tips: 〔笔画〕
+  preedit_format:
+    - "xlit|v|ü|"
+    - xform/iü/iv/
+    - xform/uü/uv/
+
+punctuator:
+  import_preset: symbols
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    punct: "^/([0-9]0?|[a-z]+)$"
+    reverse_lookup: "`[a-z]*'?$"
