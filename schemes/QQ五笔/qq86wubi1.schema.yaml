@@ -1,4 +1,4 @@
-# Rime schema settings
+# Rime schema
 # encoding: utf-8
 
 schema:
@@ -11,14 +11,16 @@ schema:
   description: |
     五笔字形 86 QQ 86五笔版，方案由 SivanLaai 修改 - 2021年02月07日 17:55
   dependencies:
-#    - clover
+    - stroke
 
 switches:
   - name: ascii_mode
     reset: 0
-    states: [ 中, 英 ]
+    states: [ 中文, 西文 ]
   - name: full_shape
-    states: [ 半, 全 ]
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
 
@@ -40,15 +42,30 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
+    - table_translator@custom_phrase
     - reverse_lookup_translator
-    - table_translator
-    - lua_translator@date_translator # 自定义系统变量输出
+    - script_translator
   filters:
-    # - lua_filter@single_char_first_filter # 单字优先方法
+    - simplifier
+    - uniquifier
 
 speller:
-  max_code_length: 4                    # 四码上屏
-  auto_select: true                     # 自动上屏
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    - erase/^xx$/
+    - abbrev/^([a-z]).+$/$1/
+    - abbrev/^([zcs]h).+$/$1/
+    - derive/^([nl])ve$/$1ue/
+    - derive/^([jqxy])u/$1v/
+    - derive/un$/uen/
+    - derive/ui$/uei/
+    - derive/iu$/iou/
+    - derive/([aeiou])ng$/$1gn/
+    - derive/([dtngkhrzcs])o(u|ng)$/$1o/
+    - derive/ong$/on/
+    - derive/ao$/oa/
+    - derive/([iu])a(o|ng?)$/a$1$2/
 
 translator:
   dictionary: qq86wubi             # 翻译器将调取此字典文件
@@ -62,6 +79,13 @@ translator:
   comment_format:                       # 提示码自定义
 #    - xform/.+//                        # 配置：消除所有候选词后的提示码
 
+custom_phrase:
+  dictionary: ""
+  user_dict: custom_phrase
+  db_class: stabledb
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 1
 
 reverse_lookup:
   dictionary: clover
@@ -72,8 +96,9 @@ reverse_lookup:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
+
 punctuator:
-  import_preset: default
+  import_preset: symbols
 
 key_binder:
   import_preset: default
@@ -81,4 +106,5 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
-    reverse_lookup: "^z[a-z]*'?$"
+    punct: '^/([0-9]0?|[A-Za-z]+)$'
+    reverse_lookup: "`[a-z]*'?$"

@@ -19,9 +19,6 @@ switches:
     states: [ 中, 英 ]
   - name: full_shape
     states: [ 半, 全 ]
-  - name: simplification
-    states: [ 简, 繁 ]
-    reset: 0
   - name: ascii_punct
     states: [ 。，, ．， ]
 
@@ -47,7 +44,6 @@ engine:
     - reverse_lookup_translator
     - script_translator
   filters:
-    - simplifier
     - uniquifier
 
 speller:

@@ -3,16 +3,15 @@
 
 schema:
   schema_id: flypy
-  name: "小鹤音形"
+  name: "小鹤双拼" 
   version: "1.0"
   author:
     - flypy
     - SivanLaai
   description: |
-    本方案支持“`”拼音反查，例如输入“`shuru”支持反查拼音为“shuru”的所有词组和汉字，反查依赖clover字典。
-    方案由 SivanLaai 创建 - 2020年12月05日 12:06
+    小鹤双拼，方案文件由 SivanLaai 修改，字典文件来源是小鹤官网 - 2021年02月07日 17:55
   dependencies:
-    # - clover
+#    - clover
 
 switches:
   - name: ascii_mode
@@ -20,16 +19,12 @@ switches:
     states: [ 中, 英 ]
   - name: full_shape
     states: [ 半, 全 ]
-  - name: simplification
-    states: [ 简, 繁 ]
-    reset: 0
   - name: ascii_punct
     states: [ 。，, ．， ]
-    reset: 0
 
 engine:
   processors:
-    - ascii_composer
+    - ascii_compose
     - recognizer
     - key_binder
     - speller
@@ -55,9 +50,7 @@ engine:
 
 speller:
   max_code_length: 4                    # 四码上屏
-  auto_select: true   #全码唯一自动上屏，无则后码顶上屏
-  auto_select_pattern: ^;.$|^\w{4}$
-  auto_clear: max_length #manual|auto|max_length 空码按下一键确认清屏|空码自动清|达到最长码时后码顶上清屏
+  auto_select: true                     # 自动上屏
 
 translator:
   dictionary: flypy                     # 翻译器将调取此字典文件
@@ -73,15 +66,6 @@ translator:
   comment_format:                       # 提示码自定义
 #    - xform/.+//                        # 配置：消除所有候选词后的提示码
 
-# 输入的编码同时进行拼音反查，实现与拼音的混输
-abc_segmentor:
-  extra_tags:
-#    - reverse_lookup
-
-simplification:
-  opencc_config: s2tw.json
-  option_name: simplification
-  tips: all #简繁对照
 
 custom_phraseVD:
   dictionary: ""

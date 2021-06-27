@@ -1,0 +1,32 @@
+{
+  "name": "Simplified Chinese to Traditional Chinese (Taiwan standard, with phrases)",
+  "segmentation": {
+    "type": "mmseg",
+    "dict": {
+      "type": "text",
+      "file": "STPhrases.txt"
+    }
+  },
+  "conversion_chain": [{
+    "dict": {
+      "type": "group",
+      "dicts": [{
+        "type": "text",
+        "file": "STPhrases.txt"
+      }, {
+        "type": "text",
+        "file": "STCharacters.txt"
+      }]
+    }
+  }, {
+    "dict": {
+      "type": "text",
+      "file": "TWPhrases.txt"
+    }
+  }, {
+    "dict": {
+      "type": "text",
+      "file": "TWVariants.txt"
+    }
+  }]
+}

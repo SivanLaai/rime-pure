@@ -1,0 +1,16 @@
+{
+  "name": "Traditional Chinese to Traditional Chinese (Taiwan standard)",
+  "segmentation": {
+    "type": "mmseg",
+    "dict": {
+      "type": "text",
+      "file": "TWVariants.txt"
+    }
+  },
+  "conversion_chain": [{
+    "dict": {
+      "type": "text",
+      "file": "TWVariants.txt"
+    }
+  }]
+}
