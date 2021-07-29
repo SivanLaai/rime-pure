@@ -7,239 +7,101 @@
 
 - **目前在手机端配置了基于四叶草拼音的九宫格输入法，为了表示对原作者的劳动致敬，遂命名为四叶草九宫方案，感觉已经和之前使用的百度或者讯飞输入法感觉相当。**
 
-- **感谢@[lotem](https://github.com/lotem)**
-
-- **感谢trime作者@[osfans](https://github.com/osfans)**
-
-- **感谢四叶草拼音作者@[fkxxyz](https://github.com/fkxxyz)**
-
-- **感谢极品五笔作者@[KyleBing](https://github.com/KyleBing)**
-
-- **感谢opencc作者@[BYVoid](https://github.com/BYVoid)**
- 
-- **感谢@[小鹤双拼](https://www.flypy.com/) @[郑码](http://zmdisk.ys168.com/) @[徐码](https://www.xumax.top/)**
-
-- **没有以上资源和各位的辛苦付出，也就没有这个项目**
-
 - **enjoy it! 好用的话就点个赞。感谢你的使用，因为本人同时在安卓和windows端使用，所以会一直更新。**
-## 更新说明
 
-#### 2021-06-27
+## 实用功能：
+### 同文端
+- 隐藏输入法：全键盘状态下按键G向上滑，九宫格状态下按[JKL]向上滑
+- 编辑功能：全键盘状态下长按G，九宫格状态下按编辑键，可实现复制粘贴拷贝等功能
+- 清空文本：删除键向左滑会清,空当前编辑文本
+- 切换主题：空当前编辑文本长按带❖的按键切换主题
+- 切换输入法：长按带✎的按键切换输入方案
+- 更多设置：长按带设置符号⚙的按键，既可进入更多设置页面
 
-- 1.更新同文3.2.0支持
-- 2.修复小鹤双拼简繁转换问题
-- 3.自然码支持简繁转换问题
-
-**注：简繁转换属于opencc的内容，和同文没有关系，odc2文件是opencc的生成结果。**
-
-#### 2021-06-23
-
-- 1.增加自然码双拼，没有辅助码
-![Image text](/Res/double.png)
-
-#### 2021-06-03
-
-- 1.修正郑码字典显示错误https://github.com/SivanLaai/rime_pure/issues/25
-- 2.默认所有方案不显示字符和表情包
-
-#### 2021-02-07
-
-- 1.增加qq五笔
-- 2.增加笔画输入@[HarryWang29](https://github.com/HarryWang29)
-- 3.增加九宫格双拼
-
-#### 2020-12-17
-
-- 1.修正拼音自定义添加造词的功能
-
-#### 2020-12-5（更新，增加徐码、郑码，支持拼音和五笔反查，增加全键盘的符号键盘）
-- 1.优化小鹤双拼方案，双拼支持拼音“`”反查小鹤双拼编码
->
-![Image text](/Res/flypy_fancha.png)
-- 2.增加徐码
->
-![Image text](/Res/xuma.png)
-- 3.徐码支持五笔“`”反查编码
->
-![Image text](/Res/xuma_wubi.png)
-- 4.徐码支持拼音“`”反查编码
-> 
-![Image text](/Res/xuma_pinyin.png)
-- 5.增加郑码
->
-![Image text](/Res/zhengma.png)
-- 6.郑码支持拼音“`”反查编码
->
-![Image text](/Res/zhengma_fancha.png)
-- 7.手机同文，全键盘的符号键盘，调整回车键大小，调整符号键大小，更符合手机端操作
->
-![Image text](/Res/trime_symbol.jpg)
-
-#### 2020-10-31
-- 1.新增双拼输入方案支持-小鹤双拼
->
-![Image text](/Res/xiaohe.png)
-- 2.所有输入方案配置支持繁简转换、中英转换、字符输入、emoji表情、全半角转换
-- 3.调整键盘布局，超大空格，减少误触
-- 4.增加同文优化版皮肤
-
-
-#### 2020-10-27
-- 1.新增讯飞皮肤
-- 2.更新部分细节
-- 3.增加小鹤九宫双拼
-
-#### 2020-10-25
-- 1.去除了明月拼音，添加了以搜狗为基础的输入方案——🍀️四叶草简体拼音
-- 2.以🍀️四叶草简体拼音为基础，添加了四叶草九宫输入方案，方便在手机端可以使用
-- 3.同文手机端添加了两款机械键盘主题，cherry机械键盘/罗技
-- 4.四叶草拼音输入法在手机端支持简繁转有一些问题，原因是没有正确配置opencc，修改后手机端支持简繁转换
-- 5.极品五笔方案增加支持字符（输入`平方`可以选择`²`），emoji表情，繁简转换
-- 6.支持五笔反查
->
-![Image text](/Res/wubireverse.png)
-
-### 包含输入方案
- - 极点五笔：https://github.com/KyleBing/rime-wubi86-jidian 
- - 小鹤双拼：https://www.flypy.com/index.html 
- - 🍀️四叶草简体拼音：https://github.com/fkxxyz/rime-cloverpinyin
- - 大写数字
- - 徐码 https://www.xumax.top/
- - 郑码 http://zmdisk.ys168.com/
-
-## 输入法预览：
+## 界面预览：
 ### 小狼毫输入法（PC端）
 - 简约现代蓝[配色：XNOM]
 
-![Image text](/Res/preview_blue.png)
+![Image text](Res/img/preview_blue.png)
 - 绿野仙踪绿[配色：佛振]
 
-![Image text](/Res/preview_green.png)
+![Image text](Res/img/preview_green.png)
 - Aqua[配色：佛振]
 
-![Image text](/Res/preview_blue1.png)
+![Image text](Res/img/preview_blue1.png)
 - 安卓[配色：Patricivs]
 
-![Image text](/Res/preview_android.png)
+![Image text](Res/img/preview_android.png)
 - 暗堂[配色：佛振]
 
-![Image text](/Res/preview_dark.png)
+![Image text](Res/img/preview_dark.png)
 - 孤寺[配色佛振]
 
-![Image text](/Res/preview_temple.png)
+![Image text](Res/img/preview_temple.png)
 
 ### 同文输入法（安卓端）
 
 ##### 🍀️四叶草九宫输入方案
-![Image text](/Res/trime_preview_jiugong.jpg)
+![Image text](Res/img/trime_preview_jiugong.jpg)
 
 ##### 手机端支持简繁转换
 
-![Image text](/Res/trime_convert.jpg)
+![Image text](Res/img/trime_convert.jpg)
 
 
 #### 部分皮肤预览
 
 ##### 同文风优化版[配色：Jaaiko，键盘布局：Jaaiko]
 
-![Image text](/Res/trime_tongwen.png)
+![Image text](Res/img/trime_tongwen.png)
 
 ##### 讯飞默认皮肤[配色：Jaaiko，键盘布局：Jaaiko]
 
-![Image text](/Res/trime_xunfei.png)
+![Image text](Res/img/trime_xunfei.png)
 
 ##### cherry机械键盘【小先生】
 
-![Image text](/Res/trime_cherry.png)
+![Image text](Res/img/trime_cherry.png)
 
 
 ##### 极致简约[配色：Jaaiko，键盘布局：Jaaiko]
 
-![Image text](/Res/trime_preview.png)
+![Image text](Res/img/trime_preview.png)
 
 
 ##### 五笔字根【佚名】
 
-![Image text](/Res/trime_wubizigen.png)
+![Image text](Res/img/trime_wubizigen.png)
 
 
 ##### 炫彩[键盘布局：Jaaiko]
 
-![Image text](/Res/trime_xuancai.png)
-
+![Image text](Res/img/trime_xuancai.png)
 
 
 ## 安装方法
 
-### 不看下面的繁索的安装直接去发布页面下载已编译版本
-- 传送门 https://github.com/SivanLaai/rime_pure/releases/tag/1.0.0
-#### 小狼毫（PC端）
->0.备份小狼毫输入法安装目录的`data`文件夹，备份`~\AppData\Rime`文件夹，下载小狼毫安装包：https://rime.im/
->
->1.文件夹`weasel\data`内所有文件复制到小狼毫输入法`data`目录覆盖
->
->2.文件夹`weasel\Rime`内所有文件复制到`~\AppData\Rime`目录覆盖
->
->3.文件夹`schemes\基础文件`内所有文件复制到`~\AppData\Rime`目录覆盖
->
->4.方案安装（可选）
->>4.1 拼音方案安装
->>>文件夹`schemes\Clover四叶草拼音`内所有文件复制到`~\AppData\Rime`目录覆盖
->>
->>4.2 五笔方案安装（五笔反查依赖拼音词库，需先安装4.1拼音方案）
->>>文件夹`schemes\极点五笔`内所有文件复制到`~\AppData\Rime`目录覆盖
->>
->>4.3 双拼方案安装（双拼反查依赖拼音词库，需先安装4.1拼音方案）
->>>文件夹`schemes\小鹤双拼`内所有文件复制到`~\AppData\Rime`目录覆盖
->>
->>4.4 郑码方案安装（反查依赖拼音词库，需先安装4.1拼音方案）
->>>文件夹`schemes\郑码`内所有文件复制到`~\AppData\Rime`目录覆盖
->>
->>4.5 徐码方案安装（反查依赖拼音和五笔词库，需先安装4.1拼音方案和4.2五笔方案）
->>>文件夹`schemes\徐码`内所有文件复制到`~\AppData\Rime`目录覆盖
->>
->>4.6 QQ五笔方案安装（反查依赖拼音词库，需先安装4.1拼音方案）
->>>文件夹`schemes\QQ五笔`内所有文件复制到`~\AppData\Rime`目录覆盖
->>
->>4.7 自然码双拼方案安装（依赖拼音词库，需先安装3.1拼音方案）
->>>文件夹`schemes\自然码双拼`内所有文件复制到`~\AppData\Rime`目录覆盖
->>
->5.重新部署
+- [查看安装方法](https://sivanlaai.github.io/pages/7128fc/)
 
-#### 同文（安卓端）
->0.备份`sdcard\rime`文件夹，下载同文apk：https://github.com/osfans/trime/releases
->
->1.文件夹`trime\rime`内所有文件复制到`sdcard\rime`目录覆盖
->
->2.文件夹`schemes\基础文件`内所有文件复制到`sdcard\rime`目录覆盖
->
->3.方案安装（可选）
->>3.1 拼音方案安装
->>>文件夹`schemes\Clover四叶草拼音`内所有文件复制到`sdcard\rime`目录覆盖
->>
->>3.2 九宫拼音方案安装（依赖词库，必须先安装3.1，九宫不能显示，检查第一步是否正确安装）
->>>文件夹`schemes\Clover四叶草九宫拼音`内所有文件复制到`sdcard\rime`目录覆盖
->>
->>3.3 五笔方案安装（五笔反查依赖拼音词库，需先安装3.1拼音方案）
->>>文件夹`schemes\极点五笔`内所有文件复制到`sdcard\rime`目录覆盖
->>
->>3.4 双拼方案安装（双拼反查依赖拼音词库，需先安装3.1拼音方案）
->>>文件夹`schemes\小鹤双拼`内所有文件复制到`sdcard\rime`目录覆盖
->>
->>3.5 郑码方案安装（反查依赖拼音词库，需先安装3.1拼音方案）
->>>文件夹`schemes\郑码`内所有文件复制到`sdcard\rime`目录覆盖
->>
->>3.6 徐码方案安装（反查依赖拼音和五笔词库，需先安装3.1拼音方案和3.3五笔方案）
->>>文件夹`schemes\徐码`内所有文件复制到`sdcard\rime`目录覆盖
->>
->>3.7 QQ五笔方案安装（反查依赖拼音词库，需先安装3.1拼音方案）
->>>文件夹`schemes\QQ五笔`内所有文件复制到`sdcard\rime`目录覆盖
->>
->>3.8 自然码双拼方案安装（依赖拼音词库，需先安装3.1拼音方案）
->>>文件夹`schemes\自然码双拼`内所有文件复制到`sdcard\rime`目录覆盖
->>
->4.重新部署
+## 更新历史
 
+#### 2021-06-27
+
+ - 1.更新同文3.2.0支持
+ - 2.修复小鹤双拼简繁转换问题
+ - 3.自然码支持简繁转换问题
+
+#### [以往全部历史](https://sivanlaai.github.io/pages/841d8d/)
+
+## 包含输入方案
+ - 极点五笔：https://github.com/KyleBing/rime-wubi86-jidian 
+ - 小鹤双拼：https://www.flypy.com/index.html
+ - 🍀️四叶草简体拼音：https://github.com/fkxxyz/rime-cloverpinyin
+ - 大写数字
+ - 自然双拼
+ - QQ86五笔（提取自qq五笔输入法，词库较为合理，推荐使用也是本人在使用的方案）
+ - 徐码 https://www.xumax.top/
+ - 郑码 http://zmdisk.ys168.com/
 
 ## 相关资源
  - 小狼毫输入法：https://github.com/rime/weasel
@@ -247,8 +109,21 @@
  - 简繁转换opencc：https://github.com/BYVoid/OpenCC
  - 部分配色均整理自互联网，配色包含作者信息。
 
-##### 大家如果喜欢这个配置，可以自愿支持一下我的成果，同时也希望大家多多反馈问题。
+## 相关资源
+ - **感谢@[lotem](https://github.com/lotem)**
+ - **感谢trime作者@[osfans](https://github.com/osfans)**
+ - **感谢四叶草拼音作者@[fkxxyz](https://github.com/fkxxyz)**
+ - **感谢极品五笔作者@[KyleBing](https://github.com/KyleBing)**
+ - **感谢qq五笔@[qq五笔](http://qq.pinyin.cn/wubi/)**
+ - **感谢opencc作者@[BYVoid](https://github.com/BYVoid)**
+ - **感谢@[小鹤双拼](https://www.flypy.com/)**
+ - **感谢@[郑码](http://zmdisk.ys168.com/)**
+ - **感谢@[徐码](https://www.xumax.top/)**
+ - **没有以上资源和各位的辛苦付出，也就没有这个项目**
 
-###### 支付宝
 
-![Image text](/Res/a45c35cd5575760621be4b38e92f96a.jpg)
+### 大家如果喜欢这个配置，可以自愿支持一下我的成果，同时也希望大家多多反馈问题。
+
+##### 支付宝
+
+![Image text](Res/img/a45c35cd5575760621be4b38e92f96a.jpg)

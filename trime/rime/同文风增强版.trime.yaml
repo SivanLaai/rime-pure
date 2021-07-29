@@ -2110,7 +2110,7 @@ preset_keyboards:
       - {click: w, long_click: 2, swipe_up: 2, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: e, long_click: 3, swipe_up: 3, key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
       - {click: r, long_click: 4, swipe_up: 4, key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
-      - {click: t, long_click: 5, swipe_up: 5, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
+      - {click: t, long_click: 5, swipe_up: Hide, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: y, long_click: 6, swipe_up: 6, key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
       - {click: u, long_click: 7, swipe_up: 7, key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
       - {click: i, long_click: 8, swipe_up: 8, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
@@ -2133,7 +2133,7 @@ preset_keyboards:
       - {click: z, long_click: "`", swipe_up: "`", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
       - {click: x, long_click: "^",  swipe_up: cut, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: c, long_click: ":", swipe_up: copy, key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
-      - {click: v, long_click: "_", swipe_up: "_", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
+      - {click: v, long_click: "_", swipe_up: paste, key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
       - {click: b, long_click: "/", swipe_up: "/", key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: n, long_click: "[]{Left}", swipe_up: "[]{Left}", swipe_left: "[", swipe_right: "]", key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
       - {click: m, long_click: "(){Left}", swipe_up: "(){Left}", swipe_left: "(", swipe_right: ")", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
@@ -2178,7 +2178,7 @@ preset_keyboards:
 
       - {click: ".", label: " 。", width: *NUM_SYM_W, key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 20, long_click: "!", swipe_up: "!", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
       - {click: "n", label: "丶", key_back_color: szbdb, swipe_up: 4, key_text_size: 18}
-      - {click: "z", label: "𠃍", key_back_color: szbdb, swipe_up: 5, key_text_size: 18}
+      - {click: "z", label: "𠃍", key_back_color: szbdb, swipe_up: Hide, key_text_size: 18}
       - {click: "*", label: "通配", composing: "*", key_back_color: szbdb, swipe_up: 6, key_text_size: 18}
       - {click: K_bihuaNumber, composing: Escape, width: *NUM_SYM_W, label: "123", key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16}
 
@@ -2218,7 +2218,7 @@ preset_keyboards:
 
       - {click: ".", label: " 。", width: *NUM_SYM_W, key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 20, long_click: "!", swipe_up: "!", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
       - {click: 4, key_back_color: szbdb, swipe_up: 4, key_text_size: 20}
-      - {click: 5, key_back_color: szbdb, swipe_up: 5, key_text_size: 20}
+      - {click: 5, key_back_color: szbdb, swipe_up: Hide, key_text_size: 20}
       - {click: 6, key_back_color: szbdb, swipe_up: 6, key_text_size: 20}
       - {click: K_back, width: *NUM_SYM_W, swipe_up: Color_switch, key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16}
 
@@ -2254,7 +2254,7 @@ preset_keyboards:
       - {click: 2, label: "2", swipe_up: 2, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: 3, label: "3", swipe_up: 3, key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
       - {click: 4, label: "4", swipe_up: 4, key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
-      - {click: 5, label: "5", swipe_up: 5, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
+      - {click: 5, label: "5", swipe_up: Hide, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: 6, label: "6", swipe_up: 6, key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
       - {click: 7, label: "7", swipe_up: 7, key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
       - {click: 8, label: "8", swipe_up: 8, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
@@ -2313,7 +2313,7 @@ preset_keyboards:
       - {click: w, long_click: 2, swipe_up: 2, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: e, long_click: 3, swipe_up: 3, key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
       - {click: r, long_click: 4, swipe_up: 4, key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
-      - {click: t, long_click: 5, swipe_up: 5, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
+      - {click: t, long_click: 5, swipe_up: Hide, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: y, long_click: 6, swipe_up: 6, key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
       - {click: u, long_click: 7, swipe_up: 7, key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
       - {click: i, long_click: 8, swipe_up: 8, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
@@ -2336,7 +2336,7 @@ preset_keyboards:
       - {click: z, long_click: "`", swipe_up: "`", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
       - {click: x, long_click: "^",  swipe_up: cut, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: c, long_click: ":", swipe_up: copy, key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
-      - {click: v, long_click: "_", swipe_up: "_", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
+      - {click: v, long_click: "_", swipe_up: paste, key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
       - {click: b, long_click: "/", swipe_up: "/", key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: n, long_click: "[]{Left}", swipe_up: "[]{Left}", swipe_left: "[", swipe_right: "]", key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
       - {click: m, long_click: "(){Left}", swipe_up: "(){Left}", swipe_left: "(", swipe_right: ")", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
@@ -2385,7 +2385,7 @@ preset_keyboards:
 
       - {click: ".", label: " 。", width: *NUM_SYM_W, key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 20, long_click: "!", swipe_up: "!", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
       - {click: 4, label: GHI, key_back_color: szbdb, swipe_up: 4, key_text_size: 18}
-      - {click: 5, label: JKL, key_back_color: szbdb, swipe_up: 5, key_text_size: 18}
+      - {click: 5, label: JKL, key_back_color: szbdb, swipe_up: Hide, key_text_size: 18}
       - {click: 6, label: MNO, key_back_color: szbdb, swipe_up: 6, key_text_size: 18}
       - {click: K_jiugongNumber, composing: Escape, width: *NUM_SYM_W, label: "123", key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16}
 
@@ -2425,7 +2425,7 @@ preset_keyboards:
 
       - {click: ".", label: " 。", width: *NUM_SYM_W, key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 20, long_click: "!", swipe_up: "!", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
       - {click: 4, key_back_color: szbdb, swipe_up: 4, key_text_size: 20}
-      - {click: 5, key_back_color: szbdb, swipe_up: 5, key_text_size: 20}
+      - {click: 5, key_back_color: szbdb, swipe_up: Hide, key_text_size: 20}
       - {click: 6, key_back_color: szbdb, swipe_up: 6, key_text_size: 20}
       - {click: K_back, width: *NUM_SYM_W, swipe_up: Color_switch, key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16}
 
@@ -2461,7 +2461,7 @@ preset_keyboards:
       - {click: 2, label: "2", swipe_up: 2, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: 3, label: "3", swipe_up: 3, key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
       - {click: 4, label: "4", swipe_up: 4, key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
-      - {click: 5, label: "5", swipe_up: 5, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
+      - {click: 5, label: "5", swipe_up: Hide, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: 6, label: "6", swipe_up: 6, key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
       - {click: 7, label: "7", swipe_up: 7, key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
       - {click: 8, label: "8", swipe_up: 8, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
@@ -2520,7 +2520,7 @@ preset_keyboards:
       - {click: w, long_click: 2, swipe_up: 2, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: e, long_click: 3, swipe_up: 3, key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
       - {click: r, long_click: 4, swipe_up: 4, key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
-      - {click: t, long_click: 5, swipe_up: 5, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
+      - {click: t, long_click: 5, swipe_up: Hide, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: y, long_click: 6, swipe_up: 6, key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
       - {click: u, long_click: 7, swipe_up: 7, key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
       - {click: i, long_click: 8, swipe_up: 8, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
@@ -2543,7 +2543,7 @@ preset_keyboards:
       - {click: z, long_click: "`", swipe_up: "`", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
       - {click: x, long_click: "^",  swipe_up: cut, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: c, long_click: ":", swipe_up: copy, key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
-      - {click: v, long_click: "_", swipe_up: "_", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
+      - {click: v, long_click: "_", swipe_up: paste, key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
       - {click: b, long_click: "/", swipe_up: "/", key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: n, long_click: "[]{Left}", swipe_up: "[]{Left}", swipe_left: "[", swipe_right: "]", key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
       - {click: m, long_click: "(){Left}", swipe_up: "(){Left}", swipe_left: "(", swipe_right: ")", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
@@ -2727,7 +2727,7 @@ preset_keyboards:
 
       - {click: "?", width: *NUM_SYM_W, key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 20, long_click: "!", swipe_up: "!", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
       - {click: 4, key_back_color: szbdb, swipe_up: 4, key_text_size: 20}
-      - {click: 5, key_back_color: szbdb, swipe_up: 5, key_text_size: 20}
+      - {click: 5, key_back_color: szbdb, swipe_up: Hide, key_text_size: 20}
       - {click: 6, key_back_color: szbdb, swipe_up: 6, key_text_size: 20}
       - {click: K_back, width: *NUM_SYM_W, swipe_up: Color_switch, key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16}
 
