@@ -22,61 +22,61 @@
 ### 小狼毫输入法（PC端）
 - 简约现代蓝[配色：XNOM]
 
-![Image text](/Res/img/preview_blue.png)
+![Image text](/Res/preview_blue.png)
 - 绿野仙踪绿[配色：佛振]
 
-![Image text](/Res/img/preview_green.png)
+![Image text](/Res/preview_green.png)
 - Aqua[配色：佛振]
 
-![Image text](/Res/img/preview_blue1.png)
+![Image text](/Res/preview_blue1.png)
 - 安卓[配色：Patricivs]
 
-![Image text](/Res/img/preview_android.png)
+![Image text](/Res/preview_android.png)
 - 暗堂[配色：佛振]
 
-![Image text](/Res/img/preview_dark.png)
+![Image text](/Res/preview_dark.png)
 - 孤寺[配色佛振]
 
-![Image text](/Res/img/preview_temple.png)
+![Image text](/Res/preview_temple.png)
 
 ### 同文输入法（安卓端）
 
 ##### 🍀️四叶草九宫输入方案
-![Image text](/Res/img/trime_preview_jiugong.jpg)
+![Image text](/Res/trime_preview_jiugong.jpg)
 
 ##### 手机端支持简繁转换
 
-![Image text](/Res/img/trime_convert.jpg)
+![Image text](/Res/trime_convert.jpg)
 
 
 #### 部分皮肤预览
 
 ##### 同文风优化版[配色：Jaaiko，键盘布局：Jaaiko]
 
-![Image text](/Res/img/trime_tongwen.png)
+![Image text](/Res/trime_tongwen.png)
 
 ##### 讯飞默认皮肤[配色：Jaaiko，键盘布局：Jaaiko]
 
-![Image text](/Res/img/trime_xunfei.png)
+![Image text](/Res/trime_xunfei.png)
 
 ##### cherry机械键盘【小先生】
 
-![Image text](/Res/img/trime_cherry.png)
+![Image text](/Res/trime_cherry.png)
 
 
 ##### 极致简约[配色：Jaaiko，键盘布局：Jaaiko]
 
-![Image text](/Res/img/trime_preview.png)
+![Image text](/Res/trime_preview.png)
 
 
 ##### 五笔字根【佚名】
 
-![Image text](/Res/img/trime_wubizigen.png)
+![Image text](/Res/trime_wubizigen.png)
 
 
 ##### 炫彩[键盘布局：Jaaiko]
 
-![Image text](/Res/img/trime_xuancai.png)
+![Image text](/Res/trime_xuancai.png)
 
 
 ## 安装方法
@@ -126,4 +126,4 @@
 
 ##### 支付宝
 
-![Image text](/Res/img/a45c35cd5575760621be4b38e92f96a.jpg)
+![Image text](/Res/a45c35cd5575760621be4b38e92f96a.jpg)
