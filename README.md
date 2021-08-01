@@ -129,7 +129,7 @@
 
 谢谢！ :heart:
 
-| 微信 | 支付宝 |
+| 支付宝 | 支付宝 |
 | :---: | :---: |
 | <img src="https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/a45c35cd5575760621be4b38e92f96a.48oklhe4a6g0.jpg" alt="Wechat QRcode" width=150>| <img src="https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/a45c35cd5575760621be4b38e92f96a.48oklhe4a6g0.jpg" alt="Alipay QRcode" width=150> |
 
