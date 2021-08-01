@@ -22,61 +22,61 @@
 ### 小狼毫输入法（PC端）
 - 简约现代蓝[配色：XNOM]
 
-![Image text](/Res/preview_blue.png)
+![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/preview_blue.2lyjsr0q0cu0.png)
 - 绿野仙踪绿[配色：佛振]
 
-![Image text](/Res/preview_green.png)
+![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/preview_green.6b8wbkfogzc0.png)
 - Aqua[配色：佛振]
 
-![Image text](/Res/preview_blue1.png)
+![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/preview_blue1.1zkbreawyluo.png)
 - 安卓[配色：Patricivs]
 
-![Image text](/Res/preview_android.png)
+![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/preview_android.752cop13gfg0.png)
 - 暗堂[配色：佛振]
 
-![Image text](/Res/preview_dark.png)
+![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/preview_dark.fn4qmzlq1i8.png)
 - 孤寺[配色佛振]
 
-![Image text](/Res/preview_temple.png)
+![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/preview_temple.eba0ht77dio.png)
 
 ### 同文输入法（安卓端）
 
 ##### 🍀️四叶草九宫输入方案
-![Image text](/Res/trime_preview_jiugong.jpg)
+![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/trime_preview_jiugong.3vyf36hha4q0.jpg)
 
 ##### 手机端支持简繁转换
 
-![Image text](/Res/trime_convert.jpg)
+![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/trime_convert.5pjs6ljodh00.jpg)
 
 
 #### 部分皮肤预览
 
 ##### 同文风优化版[配色：Jaaiko，键盘布局：Jaaiko]
 
-![Image text](/Res/trime_tongwen.png)
+![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/trime_tongwen.3z9r9pmc5ko0.png)
 
 ##### 讯飞默认皮肤[配色：Jaaiko，键盘布局：Jaaiko]
 
-![Image text](/Res/trime_xunfei.png)
+![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/trime_xunfei.5tewulxml340.png)
 
 ##### cherry机械键盘【小先生】
 
-![Image text](/Res/trime_cherry.png)
+![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/trime_cherry.6ibtk68ohb80.png)
 
 
 ##### 极致简约[配色：Jaaiko，键盘布局：Jaaiko]
 
-![Image text](/Res/trime_preview.png)
+![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/trime_preview.5g84abqu3a00.png)
 
 
 ##### 五笔字根【佚名】
 
-![Image text](/Res/trime_wubizigen.png)
+![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/trime_wubizigen.58iqusedxr40.png)
 
 
 ##### 炫彩[键盘布局：Jaaiko]
 
-![Image text](/Res/trime_xuancai.png)
+![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/trime_xuancai.5k9xzrtj80o0.png)
 
 
 ## 安装方法
@@ -88,12 +88,20 @@
 #### 2021-08-01
 
  - 1.修复九宫拼音不支持简拼的情况，如输入xqw不显示结果。
+ - 2.四叶草拼音去除25258个重复的词组，只保留最高频次的词组
+ ```
+ ./Clover四叶草拼音/clover.phrase.dict.yaml:成事在人     cheng shi zai ren       22846
+ ./Clover四叶草拼音/THUOCL_chengyu.dict.yaml:成事在人    cheng shi zai ren       21
+ 如上所示，成事在人，在两个字典中都有频次，只保留clover.phrase.dict.yaml中22846频次的词组
+ ```
+ - 3.整合四叶草拼音拼音错误，例如反弹拼音为fandan，[来源](https://github.com/fkxxyz/rime-cloverpinyin/pull/85)，感谢@[spphinslove](https://github.com/SivanLaai/rime_pure/issues/32)的反馈
+ - 4.四叶草拼音-汉字帧-拼音错误，把帧错误拼音zheng相关的词组全部修改为帧zhen
+ - 整理不易，请大家多多支持。
 
 #### 2021-07-29
 
  - 1.添加九宫格支持隐藏
  - 2.添加常用功能说明
-
 #### 2021-06-27
 
  - 1.更新同文3.2.0支持
@@ -135,4 +143,4 @@
 
 ##### 支付宝
 
-![Image text](/Res/a45c35cd5575760621be4b38e92f96a.jpg)
+![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/a45c35cd5575760621be4b38e92f96a.48oklhe4a6g0.jpg)

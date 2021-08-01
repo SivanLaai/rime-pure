@@ -3,202 +3,74 @@ version: "1"
 sort: by_weight
 
 ...
-信鸽	xin ge	220963
-黄蜂	huang feng	118861
-水母	shui mu	78147
-野猫	ye mao	62065
-宠物狗	chong wu gou	56875
-母狗	mu gou	56087
-毛毛虫	mao mao chong	48631
-猎豹	lie bao	48451
-犀牛	xi niu	46120
-萨摩	sa mo	44748
-狼狗	lang gou	40979
-喜鹊	xi que	40321
-梅花鹿	mei hua lu	37159
-牡蛎	mu li	34448
-毛驴	mao lv	32969
-母牛	mu niu	31741
-野牛	ye niu	27896
-多宝鱼	duo bao yu	23907
-小蜜蜂	xiao mi feng	22680
-猿人	yuan ren	21112
-猎狗	lie gou	20562
-小尾寒羊	xiao wei han yang	18980
-金枪鱼	jin qiang yu	18892
-大黄蜂	da huang feng	18504
-墨鱼	mo yu	17270
-扇贝	shan bei	16676
 毛滴虫	mao di chong	16392
-鸰	ling	14603
 小雀	xiao que	13089
-苏眉	su mei	12152
-狼犬	lang quan	11704
-黄粉虫	huang fen chong	11209
-野菊花	ye ju hua	11043
-夜鹰	ye ying	10533
-导盲犬	dao mang quan	10113
-猫科动物	mao ke dong wu	9462
 利木赞牛	li mu zan niu	9371
-目鱼	mu yu	9329
-文金	wen jin	9087
 越前龙	yue qian long	8739
-野驴	ye lv	8582
-瓢虫	piao chong	8236
 九间	jiu jian	7969
-软体动物	ruan ti dong wu	7579
-鹡鸰	ji ling	7500
-蝇蛆	ying qu	6580
-家鸡	jia ji	6433
-河蚌	he bang	6090
-全蝎	quan xie	6068
-刺参	ci shen	5577
-灵长类动物	ling zhang lei dong wu	5575
-鹮	huan	5069
-囊虫	nang chong	4996
 杜泊绵羊	du po mian yang	4587
 小鲤	xiao li	4440
-毛蟹	mao xie	4343
-鹩哥	liao ge	4205
 喷毒眼镜蛇	pen du yan jing she	4150
-文蛤	wen ge	3950
-斗牛犬	dou niu quan	3940
-野牦牛	ye mao niu	3938
-鸮	xiao	3886
-寄居蟹	ji ju xie	3675
-鹦哥	ying ge	3500
-画眉鸟	hua mei niao	3483
-苏格兰牧羊犬	su ge lan mu yang quan	3261
 台鸽	tai ge	3222
-狮子狗	shi zi gou	3184
-抹香鲸	mo xiang jing	3138
-桃花水母	tao hua shui mu	3114
-小鸥	xiao ou	2963
-小野猪	xiao ye zhu	2901
-五步蛇	wu bu she	2888
 花寨	hua zhai	2819
-疟原虫	nve yuan chong	2736
-濒危野生动物	bin wei ye sheng dong wu	2726
 野生大熊猫	ye sheng da xiong mao	2660
-青波	qing bo	2656
 克隆牛	ke long niu	2647
-珠鸡	zhu ji	2641
-猫鱼	mao yu	2595
 木回	mu hui	2595
-鱼胆	yu dan	2549
-种公猪	zhong gong zhu	2508
-灰鹤	hui he	2354
-雄蜂	xiong feng	2307
-杜宾犬	du bin quan	2297
 纯种波尔山羊	chun zhong bo er shan yang	2223
 中白鹭	zhong bai lu	2210
 卷尾	juan wei	2152
-阴道毛滴虫	yin dao mao di chong	2134
-紫贝	zi bei	2005
 鮰鱼	hui yu	1976
-萨摩耶犬	sa mo ye quan	1970
 杜泊羊	du po yang	1859
-滩羊	tan yang	1794
 钱鼠	qian shu	1734
-浮游动物	fu you dong wu	1699
-轮虫	lun chong	1679
-元谋人	yuan mou ren	1673
-生牡蛎	sheng mu li	1631
-折耳猫	zhe er mao	1597
 南非波尔山羊	nan fei bo er shan yang	1430
 林雕	lin diao	1413
 角鲸	jiao jing	1386
-象拔蚌	xiang ba bang	1384
-魟	hong	1378
-犬科动物	quan ke dong wu	1334
 萨摩犬	sa mo quan	1314
 地鳖	de bie	1310
-犀鸟	xi niao	1303
-前翅	qian chi	1227
 斑点叉尾鮰	ban dian cha wei hui	1226
-鹰科	ying ke	1224
-亚纲	ya gang	1201
 嘉好	jia hao	1172
-玛瑙红	ma nao hong	1164
 朱文锦	zhu wen jin	1144
 白缘	bai yuan	1142
 乳宝	ru bao	1127
-德国小蠊	de guo xiao lian	1123
-人工鱼礁	ren gong yu jiao	1106
-中国鸟	zhong guo niao	1100
-韭菜子	jiu cai zi	1046
-药用动物	yao yong dong wu	1045
-牛头犬	niu tou quan	1044
 奇迹龙	qi ji long	1030
-牛目	niu mu	1018
 灰鹅	hui e	1014
 卤虫	lu chong	1005
 夏过	xia guo	986
 膜管	mo guan	954
-柯基犬	ke ji quan	952
-缬草	xie cao	946
 昆虫及	kun chong ji	923
 烂草黄	lan cao huang	917
 小鹿犬	xiao lu quan	916
-红蟹	hong xie	915
 皂角刺	zao jiao ci	915
-油葫芦	you hu lu	907
-志贺氏菌	zhi he shi jun	899
-鱼狗	yu gou	899
 点眼丛	dian yan cong	898
 黄蝶	huang die	891
-五指毛桃	wu zhi mao tao	889
 利木赞肉牛	li mu zan rou niu	884
 鹰身女妖	ying shen nv yao	879
-莴笋叶	wo sun ye	873
-蜡膜	la mo	872
 秦川牛	qin chuan niu	871
 虫媒传染	chong mei chuan ran	863
-灵长目动物	ling zhang mu dong wu	862
-蚿	xian	862
-黄占	huang zhan	850
-赤眼蜂	chi yan feng	839
-营养性疾病	ying yang xing ji bing	837
-鮀	tuo	836
 兀龙	wu long	834
-回声定位	hui sheng ding wei	833
 紫印	zi yin	826
 叫姑姑	jiao gu gu	825
 闭壳龟	bi ke gui	824
-中猴	zhong hou	818
-樱桃谷鸭	ying tao gu ya	816
 鱼浆	yu jiang	814
 迎燕	ying yan	812
-漏芦	lou lu	811
-星虫	xing chong	806
 泉龙	quan long	804
-毛霉	mao mei	803
 喜乐蒂牧羊犬	xi le di mu yang quan	798
 植龙	zhi long	797
 菌体蛋白	jun ti dan bai	796
-牵牛子	qian niu zi	792
 四值	si zhi	791
-灯蛾	deng e	787
 杂骨	za gu	781
 黑漂	hei piao	765
 朗德鹅	lang de e	761
-裂殖	lie zhi	757
 远程鸽	yuan cheng ge	747
 肉驴	rou lv	745
-台湾牛	tai wan niu	741
-长毛猫	chang mao mao	735
 角甲	jiao jia	733
 猎狐犬	lie hu quan	731
 硬鳞	ying lin	729
 狮子滚绣球	shi zi gun xiu qiu	727
 沙苑子	sha yuan zi	726
-鱼胶原蛋白	yu jiao yuan dan bai	725
-钱串子	qian chuan zi	725
 威尔士柯基	wei er shi ke ji	721
 动物克隆	dong wu ke long	706
 转节	zhuan jie	703
-外套膜	wai tao mo	702
-毛冠鹿	mao guan lu	701
 冠毛犬	guan mao quan	694
 印随	yin sui	693
 夜行性动物	ye xing xing dong wu	692
@@ -207,70 +79,43 @@ sort: by_weight
 珍菊降压片	zhen ju jiang ya pian	673
 新疆虎	xin jiang hu	668
 南猿	nan yuan	665
-恐龙足迹	kong long zu ji	659
-牡鹿	mu lu	659
 岩鸽	yan ge	656
 蒙古草原狼	meng gu cao yuan lang	653
 英国古代牧羊犬	ying guo gu dai mu yang quan	647
-灰鲸	hui jing	644
-苏格兰折耳猫	su ge lan zhe er mao	644
-玳玳花	dai dai hua	644
 莽牯朱蛤	mang gu zhu ha	641
 滑子蘑	hua zi mo	637
 空肠弯曲菌	kong chang wan qu jun	635
 小瓜虫	xiao gua chong	633
-杂食性动物	za shi xing dong wu	633
 鹿科动物	lu ke dong wu	629
 魔蜥	mo xi	628
-蚦	ran	628
 毛翅	mao chi	628
 椰心叶甲	ye xin ye jia	625
-黑犀牛	hei xi niu	623
 檞寄生	jie ji sheng	621
 喹乙醇	kui yi chun	616
-披毛犀	pi mao xi	615
 分蜂	fen feng	614
 根霉	gen mei	613
-两栖爬行动物	liang qi pa xing dong wu	609
-钓鱼岛列岛	diao yu dao lie dao	605
-食虫植物	shi chong zhi wu	592
 嗜盐菌	shi yan jun	590
 印支虎	yin zhi hu	580
 纽芬兰犬	niu fen lan quan	579
 亚单位疫苗	ya dan wei yi miao	577
-腔棘鱼	qiang ji yu	575
 台湾石	tai wan shi	567
 幽蝶	you die	565
-有袋类	you dai lei	565
 威尔士柯基犬	wei er shi ke ji quan	563
 几维	ji wei	559
 猫爪草	mao zhao cao	555
-铅丹	qian dan	554
 赤潮生物	chi chao sheng wu	553
-榛鸡	zhen ji	550
-恐龙脚印	kong long jiao yin	550
 水墨黑	shui mo hei	550
-恒温动物	heng wen dong wu	549
-媒介生物	mei jie sheng wu	545
-脑脊髓液	nao ji sui ye	541
 鮟鱇	an kang	541
-布偶猫	bu ou mao	539
-偶蹄类	ou ti lei	537
 车轮虫	che lun chong	531
-露脊鲸	lu ji jing	530
 石苇	shi wei	528
 施计谋	shi ji mou	526
-美利奴羊	mei li nu yang	520
 犬瘟热病毒	quan wen re bing du	518
-三叶虫化石	san ye chong hua shi	516
 胃毒作用	wei du zuo yong	506
-英国斗牛犬	ying guo dou niu quan	505
 雄蚕蛾	xiong can e	504
 海刺参	hai ci shen	503
 茺蔚子	chong wei zi	502
 俞君英	yu jun ying	499
 小杜鹃	xiao du juan	493
-山东省海洋与渔业厅	shan dong sheng hai yang yu yu ye ting	487
 喹烯酮	kui xi tong	483
 独角犀牛	du jiao xi niu	482
 野牛草	ye niu cao	479
@@ -281,48 +126,29 @@ sort: by_weight
 闲角	xian jiao	468
 新城疫病毒	xin cheng yi bing du	468
 冠鹤	guan he	464
-疟蚊	nve wen	464
 脚圈	jiao quan	456
 中国小鲵	zhong guo xiao ni	453
 枪猎犬	qiang lie quan	451
-自贡恐龙博物馆	zi gong kong long bo wu guan	449
 孢子虫病	bao zi chong bing	444
 商品鹅	shang pin e	442
 鹿衔草	lu xian cao	442
-眼虫	yan chong	440
-摇蚊	yao wen	439
 保洁净	bao jie jing	426
-闭壳肌	bi ke ji	419
-偶蹄目	ou ti mu	419
 窄谱	zhai pu	417
 晶体敌百虫	jing ti di bai chong	415
-牛蝇	niu ying	413
 潜叶蝇	qian ye ying	408
 岗梅	gang mei	408
 迷你杜宾	mi ni du bin	405
-防止虐待动物协会	fang zhi nve dai dong wu xie hui	404
-中国猫	zhong guo mao	403
-法国斗牛犬	fa guo dou niu quan	398
-苏格兰梗	su ge lan geng	398
 梅花鹿之乡	mei hua lu zhi xiang	398
 中华对角羚	zhong hua dui jiao ling	398
 长江水产研究所	chang jiang shui chan yan jiu suo	396
-贝希摩斯	bei xi mo si	396
-椰子蟹	ye zi xie	395
 盐酸金刚烷胺	yan suan jin gang wan an	394
-山地大猩猩	shan di da xing xing	393
 小尾寒羊养殖	xiao wei han yang yang zhi	393
 牦牛毛	mao niu mao	391
-贾第虫	jia di chong	387
 苏柏羊齿	su bai yang chi	384
 清江鱼	qing jiang yu	384
-山羌	shan qiang	380
-鮠	wei	379
 中国冠毛犬	zhong guo guan mao quan	374
 感觉管	gan jue guan	374
-牛鲨	niu sha	373
 灵枢经	ling shu jing	373
-鸻	heng	370
 全虾	quan xia	366
 高效氯氰菊酯	gao xiao lv qing ju zhi	365
 拳参	quan shen	364
@@ -331,64 +157,45 @@ sort: by_weight
 蠪侄	long zhi	357
 超远程鸽	chao yuan cheng ge	355
 养鱼经	yang yu jing	354
-陆生脊椎动物	lu sheng ji zhui dong wu	352
-蠵	xi	351
 指狗	zhi gou	350
 昆虫病毒	kun chong bing du	350
 全息胚	quan xi pei	349
-澳大利亚更	ao da li ya geng	347
 栉孔扇贝	zhi kong shan bei	345
 舟蛾	zhou e	342
 蓝喜鹊	lan xi que	337
 清远麻鸡	qing yuan ma ji	337
-窃蛋龙	qie dan long	333
 短尾猿	duan wei yuan	325
 迟发型变态反应	chi fa xing bian tai fan ying	323
 眼蝶	yan die	323
-转基因猪	zhuan ji yin zhu	322
 野木瓜	ye mu gua	322
 恐龙足迹化石	kong long zu ji hua shi	321
 洋杜鹃	yang du juan	319
 恐怖虫	kong bu chong	318
-世界动物日	shi jie dong wu ri	317
 前胸背板	qian xiong bei ban	315
 水稻病虫害防治	shui dao bing chong hai fang zhi	311
 牛科动物	niu ke dong wu	308
 瓣胃	ban wei	300
-蠵龟	xi gui	299
 高位奖	gao wei jiang	299
 白颊长臂猿	bai jia chang bi yuan	299
-孤雌生殖	gu ci sheng zhi	296
 新灰	xin hui	293
 鹰眼睛	ying yan jing	290
-国家重点保护野生动物名录	guo jia zhong dian bao hu ye sheng dong wu ming lu	290
 英国可卡犬	ying guo ke ka quan	289
-新加坡动物园	xin jia po dong wu yuan	287
 东北梅花鹿	dong bei mei hua lu	286
-生态效率	sheng tai xiao lv	285
-辐射对称	fu she dui chen	282
 三角帆蚌	san jiao fan bang	280
 吃猫鼠	chi mao shu	279
 黑白魔	hei bai mo	279
 红詹森	hong zhan sen	277
 复方磺胺甲噁唑	fu fang huang an jia e zuo	277
-涡虫	wo chong	275
 西部高地白梗	xi bu gao di bai geng	272
 彩虹精灵	cai hong jing ling	272
-蚁蚕	yi can	270
 食用鸽	shi yong ge	269
 独居动物	du ju dong wu	269
 宠物饰品	chong wu shi pin	268
 皇家极地海洋世界	huang jia ji di hai yang shi jie	267
-模式动物	mo shi dong wu	264
-直翅目	zhi chi mu	263
-中华蜜蜂	zhong hua mi feng	263
 腊玛古猿	la ma gu yuan	261
-鮋	you	261
 委陵菜	wei ling cai	261
 列文虎克	lie wen hu ke	259
 宠物健康护理员	chong wu jian kang hu li yuan	258
-溪蟹	xi xie	256
 苇莺	wei ying	256
 鸟类栖息地	niao lei qi xi de	254
 鲁西牛	lu xi niu	253
@@ -396,7 +203,6 @@ sort: by_weight
 鸊鷉	pi ti	250
 胫节	jing jie	249
 梅鱼	mei yu	248
-鹟	weng	246
 盆景猫	pen jing mao	242
 象鼻蚌	xiang bi bang	242
 石金钱	shi jin qian	239
@@ -407,27 +213,21 @@ sort: by_weight
 蒙古红	meng gu hong	235
 毒獴	du meng	234
 水陆两栖动物	shui lu liang qi dong wu	232
-蚖	yuan	231
-海绵动物	hai mian dong wu	231
 小瓜虫病	xiao gua chong bing	230
 九孔鲍	jiu kong bao	229
 黄缘盒龟	huang yuan he gui	229
 对转子	dui zhuan zi	229
 猫眼草	mao yan cao	228
-恶性疟原虫	e xing nve yuan chong	227
 蛙战	wa zhan	222
 硬珊瑚	ying shan hu	218
 约克夏梗	yue ke xia geng	218
-欧洲野牛	ou zhou ye niu	217
 豨莶草	xi xian cao	214
 旧院黑鸡	jiu yuan hei ji	214
-员工幸福	yuan gong xing fu	212
 药物耐受性	yao wu nai shou xing	211
 液体蛋氨酸	ye ti dan an suan	211
 芦淞市场	lu song shi chang	211
 白眉长臂猿	bai mei chang bi yuan	211
 狗摇尾巴	gou yao wei ba	210
-狸奴	li nu	209
 松鼠尾	song shu wei	209
 德保矮马	de bao ai ma	207
 转基因牛	zhuan ji yin niu	206
@@ -435,10 +235,7 @@ sort: by_weight
 海洋软体动物	hai yang ruan ti dong wu	205
 日本犬	ri ben quan	204
 有袋类动物	you dai lei dong wu	204
-聚维酮碘溶液	ju wei tong dian rong ye	204
 台乌药	tai wu yao	204
-旅鸽	lv ge	203
-宠物公墓	chong wu gong mu	203
 武安山羊	wu an shan yang	202
 禄丰龙	lu feng long	202
 黑胸大蠊	hei xiong da lian	202
@@ -459,20 +256,14 @@ sort: by_weight
 显著性影响	xian zhu xing ying xiang	190
 防御行为	fang yu xing wei	188
 凹甲陆龟	ao jia lu gui	187
-几维鸟	ji wei niao	187
-粉尘螨	fen chen man	186
 指示猎犬	zhi shi lie quan	186
-喜马拉雅猫	xi ma la ya mao	183
-科尔沁牛	ke er qin niu	179
 切叶蚁	qie ye yi	179
 森林古猿	sen lin gu yuan	179
 心要正	xin yao zheng	179
-螠	yi	177
 遗欧	yi ou	176
 地中海实蝇	di zhong hai shi ying	176
 车轮虫病	che lun chong bing	175
 借腹怀胎	jie fu huai tai	173
-潜鸟	qian niao	173
 特异性免疫应答	te yi xing mian yi ying da	173
 氯化烯	lv hua xi	173
 蓝舌病病毒	lan she bing bing du	172
@@ -481,15 +272,11 @@ sort: by_weight
 石金钱龟	shi jin qian gui	172
 塔里木马鹿	ta li mu ma lu	171
 缅陆	mian lu	171
-南露脊鲸	nan lu ji jing	170
 中华曙猿	zhong hua shu yuan	169
 乳酸环丙沙星	ru suan huan bing sha xing	169
 古杯	gu bei	169
-鮊	ba	168
-蝜蝂	fu ban	168
 硬壳虫	ying ke chong	167
 赤颈	chi jing	167
-古盗鸟	gu dao niao	166
 牡丹虾	mu dan xia	166
 尾芽	wei ya	166
 习鱼	xi yu	164
@@ -509,21 +296,16 @@ sort: by_weight
 蛋氨酸锌	dan an suan xin	157
 赴台大熊猫	fu tai da xiong mao	157
 香豆精类	xiang dou jing lei	157
-施一公	shi yi gong	156
 爪蛙	zhao wa	154
 鸭病毒性肝炎	ya bing du xing gan yan	153
 魔鬼蛙	mo gui wa	153
-鮣	yin	153
 蒙山全蝎	meng shan quan xie	152
-星鼻鼹	xing bi yan	152
 植物羊	zhi wu yang	151
-沙钱	sha qian	151
 漂浮植物	piao fu zhi wu	151
 鹿娃	lu wa	151
 锹甲	qiao jia	150
 巴厘虎	ba li hu	150
 萨摩狗	sa mo gou	149
-暖水虾	nuan shui xia	149
 漓江啤酒鱼	li jiang pi jiu yu	148
 印度星龟	yin du xing gui	148
 美国养犬俱乐部	mei guo yang quan ju le bu	147
@@ -541,9 +323,6 @@ sort: by_weight
 炔螨特	gui man te	141
 安达卢西亚马	an da lu xi ya ma	140
 迷你杜宾犬	mi ni du bin quan	140
-鹠	liu	140
-偶鳍	ou qi	140
-藏狐	cang hu	140
 郎德鹅	lang de e	139
 珠海龙	zhu hai long	139
 皇家狗粮	huang jia gou liang	139
@@ -567,18 +346,14 @@ sort: by_weight
 葎草	lv cao	128
 围栏养殖	wei lan yang zhi	128
 笑翠鸟	xiao cui niao	127
-鹦鹉科	ying wu ke	127
 品控员	pin kong yuan	127
 夏蜡梅	xia la mei	126
-豌豆蛋白粉	wan dou dan bai fen	126
 地邦	de bang	126
-加拿大无毛猫	jia na da wu mao mao	125
 农业昆虫学	nong ye kun chong xue	125
 药用昆虫	yao yong kun chong	124
 东坡墨鱼	dong po mo yu	123
 卷毛寻回犬	juan mao xun hui quan	123
 中国犀	zhong guo xi	123
-鸺鹠	xiu liu	122
 信蝶	xin die	122
 林龟	lin gui	121
 淇河鲫鱼	qi he ji yu	121
@@ -594,7 +369,6 @@ sort: by_weight
 蜜蜂科	mi feng ke	118
 蜂虎	feng hu	118
 伪狂犬病病毒	wei kuang quan bing bing du	118
-敌草隆	di cao long	117
 苏俄牧羊犬	su e mu yang quan	117
 反虐待动物法	fan nve dai dong wu fa	116
 沙漠鱼	sha mo yu	116
@@ -604,7 +378,6 @@ sort: by_weight
 有毒鱼类	you du yu lei	115
 圆鼻巨蜥	yuan bi ju xi	115
 印度牛	yin du niu	115
-蟹奴	xie nu	114
 克罗马农人	ke luo ma nong ren	113
 牛角蜂	niu jiao feng	111
 日本秋田犬	ri ben qiu tian quan	110
@@ -613,7 +386,6 @@ sort: by_weight
 袖珍狗	xiu zhen gou	110
 花媳妇	hua xi fu	110
 陨石喜乐蒂	yun shi xi le di	110
-蝳	du	110
 极显著性差异	ji xian zhu xing cha yi	109
 微体化石	wei ti hua shi	108
 蟅虫	zhe chong	108
@@ -624,7 +396,6 @@ sort: by_weight
 扁颅蝠	bian lu fu	106
 缘吊	yuan diao	105
 两侧对称动物	liang ce dui chen dong wu	105
-犬只饲养	quan zhi si yang	104
 鳃腔	sai qiang	104
 马冈鹅	ma gang e	104
 白尾鹿	bai wei lu	103
@@ -638,16 +409,12 @@ sort: by_weight
 泥丁	ni ding	101
 蝎目	xie mu	101
 美国爱斯基摩犬	mei guo ai si ji mo quan	101
-严重分割	yan zhong fen ge	101
 亚成体大熊猫	ya cheng ti da xiong mao	100
-打造绿色食品	da zao lv se shi pin	100
-三角恐龙	san jiao kong long	100
 日本柴犬	ri ben chai quan	99
 澳大利亚牧羊犬	ao da li ya mu yang quan	99
 动物乳腺生物反应器	dong wu ru xian sheng wu fan ying qi	99
 东部黑冠长臂猿	dong bu hei guan chang bi yuan	99
 云斑裸颊虾虎鱼	yun ban luo jia xia hu yu	99
-犀牛鸟	xi niu niao	97
 僧帽水母	seng mao shui mu	97
 钓鱼城之战	diao yu cheng zhi zhan	97
 植物害虫	zhi wu hai chong	97
@@ -655,14 +422,12 @@ sort: by_weight
 拳狮犬	quan shi quan	96
 七里海河蟹	qi li hai he xie	96
 斗牛獒犬	dou niu ao quan	96
-持久性有机物	chi jiu xing you ji wu	96
 南日鲍	nan ri bao	96
 驴头狼	lv tou lang	96
 炒黄柏	chao huang bai	96
 浮叶植物	fu ye zhi wu	96
 德国犬	de guo quan	95
 油炸蝎子	you zha xie zi	95
-北美野牛	bei mei ye niu	95
 戴笠鸽	dai li ge	95
 非纯种猫	fei chun zhong mao	94
 罗特韦尔犬	luo te wei er quan	94
@@ -671,7 +436,6 @@ sort: by_weight
 营养生殖	ying yang sheng zhi	94
 黄河刀鱼	huang he dao yu	94
 洮湖	tao hu	93
-尾羽龙	wei yu long	93
 纽虫	niu chong	93
 半必需氨基酸	ban bi xu an ji suan	93
 救必应	jiu bi ying	93
@@ -684,13 +448,10 @@ sort: by_weight
 谐鱼	xie yu	89
 收获蚁	shou huo yi	89
 西藏飞蝗	xi zang fei huang	88
-鮈	ju	88
 大河蚌	da he bang	88
-红尾蚺	hong wei ran	87
 凤头鹰	feng tou ying	87
 新疆褐牛	xin jiang he niu	87
 固城湖大闸蟹	gu cheng hu da zha xie	87
-牛带绦虫	niu dai tao chong	86
 蒙古百灵	meng gu bai ling	86
 导盲犬娇娜	dao mang quan jiao na	86
 盐黄柏	yan huang bai	86
@@ -704,7 +465,6 @@ sort: by_weight
 谢罗便臣	xie luo bian chen	85
 刚地弓形虫	gang de gong xing chong	85
 等翅目	deng chi mu	83
-锹形虫	qiao xing chong	83
 罗维纳犬	luo wei na quan	83
 蚊科	wen ke	83
 奥达猎犬	ao da lie quan	83
@@ -713,10 +473,7 @@ sort: by_weight
 二嗪农	er qin nong	82
 非必须氨基酸	fei bi xu an ji suan	82
 牡蛎科	mu li ke	81
-壹号土猪	yi hao tu zhu	81
-漂鸟	piao niao	80
 野生龙猫	ye sheng long mao	80
-萌宠	meng chong	79
 爪哇犀牛	zhao wa xi niu	79
 苍蝇农场	cang ying nong chang	79
 酒吧侍应生	jiu ba shi ying sheng	79
@@ -744,7 +501,6 @@ sort: by_weight
 卡托布莱帕斯	ka tuo bu lai pa si	76
 新加坡猫	xin jia po mao	76
 罗得西亚脊背犬	luo de xi ya ji bei quan	75
-杜高犬	du gao quan	75
 炸弹鱼	zha dan yu	75
 圆蛛	yuan zhu	75
 缨翅	ying chi	75
@@ -758,7 +514,6 @@ sort: by_weight
 结构色	jie gou se	74
 微笑鸟	wei xiao niao	74
 野兔毛	ye tu mao	74
-挪威森林猫	nuo wei sen lin mao	74
 渔业信息化	yu ye xin xi hua	74
 有袋目	you dai mu	74
 人工自动免疫	ren gong zi dong mian yi	73
@@ -768,7 +523,6 @@ sort: by_weight
 约克郡犬	yue ke jun quan	73
 金脚带	jin jiao dai	72
 扎硬寨	zha ying zhai	72
-霍加狓	huo jia pi	72
 响导蝗虫	xiang dao huang chong	72
 刺参科	ci shen ke	72
 瑇瑁	dai mao	72
@@ -781,8 +535,6 @@ sort: by_weight
 玫瑰鱼	mei gui yu	71
 苏门答腊犀牛	su men da la xi niu	70
 饶虫	rao chong	70
-两性动物	liang xing dong wu	69
-珍岛犬	zhen dao quan	69
 小灰蝶	xiao hui die	69
 咬鹃	yao juan	69
 新疆大头鱼	xin jiang da tou yu	69
@@ -796,15 +548,11 @@ sort: by_weight
 淮南虫	huai nan chong	67
 中国毛虾	zhong guo mao xia	67
 传染性法氏囊炎	chuan ran xing fa shi nang yan	67
-矛尾鱼	mao wei yu	67
 蛭纲	zhi gang	67
-叶鹿	ye lu	66
-鯥	lu	66
 新城鸡瘟	xin cheng ji wen	66
 后天性行为	hou tian xing xing wei	66
 武夷黑猪	wu yi hei zhu	66
 巨齿槌鲸	ju chi chui jing	66
-鰏	bi	66
 杜伯文犬	du bo wen quan	66
 绒毡层	rong zhan ceng	66
 中华地鳖	zhong hua de bie	66
@@ -815,12 +563,10 @@ sort: by_weight
 牛鼻黄貂鱼	niu bi huang diao yu	64
 袖狗	xiu gou	64
 骆驼黄	luo tuo huang	64
-外星婴儿	wai xing ying er	64
 葱蓟马	cong ji ma	63
 真海豚	zhen hai tun	63
 巧克力中毒	qiao ke li zhong du	63
 白底板病	bai di ban bing	63
-迷惑龙	mi huo long	63
 江苏大闸蟹	jiang su da zha xie	62
 大兀鹰	da wu ying	62
 蓝氏贾第鞭毛虫	lan shi jia di bian mao chong	62
@@ -835,7 +581,6 @@ sort: by_weight
 喜马拉雅旱獭	xi ma la ya han ta	60
 龟壳花蛇	gui ke hua she	60
 军山湖大闸蟹	jun shan hu da zha xie	59
-鸴	xue	59
 溶藻弧菌	rong zao hu jun	59
 西部低地大猩猩	xi bu di di da xing xing	59
 贝林登梗	bei lin deng geng	59
@@ -854,7 +599,6 @@ sort: by_weight
 排蜂	pai feng	57
 日本松雀鹰	ri ben song que ying	57
 猿叶虫	yuan ye chong	57
-魾	pi	566
 新荷兰鼠	xin he lan shu	56
 普通鵟	pu tong kuang	56
 古代长须牧羊犬	gu dai chang xu mu yang quan	56
@@ -899,7 +643,6 @@ sort: by_weight
 贫齿目	pin chi mu	51
 棕颈犀鸟	zong jing xi niao	51
 黄壳鱼	huang ke yu	51
-蟌	cong	51
 遗传工程小鼠	yi chuan gong cheng xiao shu	50
 战蚁	zhan yi	50
 失恋俱乐部	shi lian ju le bu	50
@@ -907,7 +650,6 @@ sort: by_weight
 中加马门溪龙	zhong jia ma men xi long	50
 亚克力鱼缸	ya ke li yu gang	50
 六角木	liu jiao mu	50
-台湾犬	tai wan quan	50
 英国马士提夫	ying guo ma shi ti fu	50
 口前叶	kou qian ye	50
 上海大自然野生昆虫馆	shang hai da zi ran ye sheng kun chong guan	49
@@ -954,9 +696,7 @@ sort: by_weight
 黑帽悬猴	hei mao xuan hou	45
 金钱鮸	jin qian mian	45
 中国点子鸽	zhong guo dian zi ge	45
-极地狐	ji di hu	45
 呈签	cheng qian	44
-拇指猴	mu zhi hou	44
 猫亚科	mao ya ke	44
 山楂红蜘蛛	shan zha hong zhi zhu	44
 醋香附	cu xiang fu	44
@@ -999,7 +739,6 @@ sort: by_weight
 小燕鸥	xiao yan ou	39
 中华真地鳖	zhong hua zhen de bie	39
 小隐孢子虫	xiao yin bao zi chong	39
-黇鹿	tian lu	38
 三角褐指藻	san jiao he zhi zao	38
 艾登堡鱼母	ai deng bao yu mu	38
 鹰鸮	ying xiao	38
@@ -1008,7 +747,6 @@ sort: by_weight
 鸥形目	ou xing mu	38
 越冬洄游	yue dong hui you	38
 炸凤尾鱼	zha feng wei yu	38
-鯮	zong	37
 阿根廷杜高犬	a gen ting du gao quan	37
 汾湖蟹	fen hu xie	37
 大斑啄木	da ban zhuo mu	37
@@ -1072,7 +810,6 @@ sort: by_weight
 新袋鼠	xin dai shu	33
 栉江珧	zhi jiang yao	33
 禄丰古猿	lu feng gu yuan	33
-鮄	fu	33
 查理王小猎犬	cha li wang xiao lie quan	33
 眼斑龟	yan ban gui	33
 白掌长臂猿	bai zhang chang bi yuan	33
@@ -1088,7 +825,6 @@ sort: by_weight
 古中华虎	gu zhong hua hu	32
 叶甲科	ye jia ke	31
 纹唇鱼	wen chun yu	31
-衣蛾	yi e	31
 松毛虫赤眼蜂	song mao chong chi yan feng	31
 蠄蟧	qin lao	31
 牟氏角毛藻	mou shi jiao mao zao	31
@@ -1102,7 +838,6 @@ sort: by_weight
 鸥属	ou shu	30
 禄丰恐龙博物馆	lu feng kong long bo wu guan	30
 鹬科	yu ke	30
-寒号虫	han hao chong	30
 海角蜜蜂	hai jiao mi feng	30
 住白细胞原虫病	zhu bai xi bao yuan chong bing	30
 德国黄牛	de guo huang niu	30
@@ -1151,7 +886,6 @@ sort: by_weight
 中华小长臂虾	zhong hua xiao chang bi xia	28
 贝加尔雅罗	bei jia er ya luo	28
 围蛹	wei yong	27
-澳华集团	ao hua ji tuan	27
 非洲野驴	fei zhou ye lv	27
 膜颅	mo lu	27
 俄罗斯陆龟	e luo si lu gui	27
@@ -1215,7 +949,6 @@ sort: by_weight
 猫猫兔	mao mao tu	25
 席虫	xi chong	25
 鱼害粘球菌	yu hai zhan qiu jun	25
-三觭龙	san ji long	25
 杭州桃花水母	hang zhou tao hua shui mu	25
 欧洲医蛭	ou zhou yi zhi	25
 断斑石鲈	duan ban shi lu	25
@@ -1316,7 +1049,6 @@ sort: by_weight
 欧洲野马	ou zhou ye ma	21
 不孝鸟	bu xiao niao	21
 镶嵌片	xiang qian pian	21
-鱵	zhen	21
 俄罗斯南部牧羊犬	e luo si nan bu mu yang quan	21
 印度支那虎	yin du zhi na hu	21
 盐补骨脂	yan bu gu zhi	21
@@ -1357,7 +1089,6 @@ sort: by_weight
 鱣鱼	zhan yu	19
 崇安地蜥	chong an de xi	19
 海诺龙	hai nuo long	19
-狗狗向前冲	gou gou xiang qian chong	19
 藓虫类动物	xian chong lei dong wu	19
 吐根堡山羊	tu gen bao shan yang	19
 里海鸥	li hai ou	19
@@ -1365,7 +1096,6 @@ sort: by_weight
 炒没药	chao mo yao	19
 中华分支睾吸虫	zhong hua fen zhi gao xi chong	19
 奶茶仓鼠	nai cha cang shu	19
-鸮鹦鹉	xiao ying wu	19
 斑尾林鸽	ban wei lin ge	19
 鹿亚科	lu ya ke	19
 中国野兔	zhong guo ye tu	19
@@ -1575,7 +1305,6 @@ sort: by_weight
 红管药	hong guan yao	14
 蜜蜂麻痹病	mi feng ma bi bing	14
 驼金龟	tuo jin gui	14
-螌蝥	ban mao	14
 红缘天牛	hong yuan tian niu	14
 侧颈龟亚目	ce jing gui ya mu	14
 虹鲍	hong bao	14
@@ -1673,7 +1402,6 @@ sort: by_weight
 古中华野牛	gu zhong hua ye niu	12
 阿文绶贝	a wen shou bei	12
 越南猫	yue nan mao	12
-鳤	guan	12
 横海鳞	heng hai lin	12
 比利牛斯獒犬	bi li niu si ao quan	12
 赛胃安	sai wei an	12
@@ -1769,7 +1497,6 @@ sort: by_weight
 维希拉猎犬	wei xi la lie quan	10
 梦幻旗	meng huan qi	10
 栉盲环毛蚓	zhi mang huan mao yin	10
-九耳犬	jiu er quan	10
 六点蓟马	liu dian ji ma	10
 天堂金花蛇	tian tang jin hua she	10
 牛囊尾蚴	niu nang wei you	10
@@ -1905,7 +1632,6 @@ sort: by_weight
 怒江裂腹鱼	nu jiang lie fu yu	8
 双线嗜粘液蛞蝓	shuang xian shi nian ye kuo yu	8
 日本枪乌贼	ri ben qiang wu zei	8
-蠮螉	ye weng	8
 清波鱼	qing bo yu	8
 行军蚁亚科	xing jun yi ya ke	8
 英国寻血猎犬	ying guo xun xue lie quan	8
@@ -1945,7 +1671,6 @@ sort: by_weight
 小红瓢虫	xiao hong piao chong	7
 赛里木湖水怪	sai li mu hu shui guai	7
 有爪类	you zhao lei	7
-缨尾目	ying wei mu	7
 翼形亚纲	yi xing ya gang	7
 茶长白蚧	cha chang bai jie	7
 犬羚	quan ling	7
@@ -2062,7 +1787,6 @@ sort: by_weight
 花曲柳窄吉丁	hua qu liu zhai ji ding	6
 大熊猫泉泉	da xiong mao quan quan	6
 青鱂	qing jiang	6
-鸻科	heng ke	6
 维那犬	wei na quan	6
 角蝉科	jiao chan ke	6
 西非冠鹤	xi fei guan he	6
@@ -2185,7 +1909,6 @@ sort: by_weight
 长毛蜘蛛鹰	chang mao zhi zhu ying	5
 熊猫异形	xiong mao yi xing	5
 陆良鲇鱼	lu liang nian yu	5
-卢犬	lu quan	5
 花小丑	hua xiao chou	5
 柞蚕饰腹寄蝇	zuo can shi fu ji ying	5
 小线角木蠹蛾	xiao xian jiao mu du e	5
@@ -2204,7 +1927,6 @@ sort: by_weight
 文昌猪	wen chang zhu	5
 亚达伯拉象龟	ya da bo la xiang gui	5
 假人字蝶	jia ren zi die	5
-恐角兽	kong jiao shou	5
 德国美利奴羊	de guo mei li nu yang	5
 南部锦龟	nan bu jin gui	5
 塔什库尔干大尾羊	ta shi ku er gan da wei yang	5
@@ -2227,7 +1949,6 @@ sort: by_weight
 双斜卷叶蛾	shuang xie juan ye e	5
 三间虎	san jian hu	5
 五花蝶尾	wu hua die wei	5
-女神蛤	nv shen ha	5
 蛁蟟	diao liao	5
 珍珠贝目	zhen zhu bei mu	5
 紫背苇	zi bei wei	5
@@ -2279,7 +2000,6 @@ sort: by_weight
 好随鱼舸此中间	hao sui yu ge ci zhong jian	4
 扁石蝎	bian shi xie	4
 小鷿鷈	xiao pi ti	4
-秘雕鱼	mi diao yu	4
 臭蚁亚科	chou yi ya ke	4
 丙酸锌	bing suan xin	4
 蜥虎属	xi hu shu	4
@@ -2305,7 +2025,6 @@ sort: by_weight
 乞丐虫	qi gai chong	4
 狗绦虫	gou tao chong	4
 红缘灯蛾	hong yuan deng e	4
-食蟹獴	shi xie meng	4
 浅蜊	qian li	4
 野生动物饲养业	ye sheng dong wu si yang ye	4
 美国卷毛猫	mei guo juan mao mao	4
@@ -2362,7 +2081,6 @@ sort: by_weight
 肖蛸	xiao shao	4
 其中淡水鱼约	qi zhong dan shui yu yue	4
 浙江天台盆地	zhe jiang tian tai pen di	4
-四国犬	si guo quan	4
 现代渔业信息	xian dai yu ye xin xi	4
 丝棉木金星尺蛾	si mian mu jin xing chi e	4
 广斧螳螂	guang fu tang lang	4
@@ -2388,7 +2106,6 @@ sort: by_weight
 大眼长尾鲨	da yan chang wei sha	4
 凹缘菱纹叶蝉	ao yuan ling wen ye chan	4
 襄樊楚天	xiang fan chu tian	4
-蟹獴	xie meng	4
 玫瑰茎蜂	mei gui jing feng	4
 米契尔少校凤头鹦鹉	mi qi er shao xiao feng tou ying wu	4
 咽磨	yan mo	4
@@ -2706,7 +2423,6 @@ sort: by_weight
 棘鮋	ji you	2
 黄缘萤	huang yuan ying	2
 糯米藤根	nuo mi teng gen	2
-曼赤肯猫	man chi ken mao	2
 重复进化	chong fu jin hua	2
 小黄粉蝶	xiao huang fen die	2
 瓜达鲁贝美洲大鹰	gua da lu bei mei zhou da ying	2
@@ -3488,7 +3204,6 @@ sort: by_weight
 瓶圆田螺	ping yuan tian luo	1
 陆地红蟹	lu di hong xie	1
 金陵麻鸡	jin ling ma ji	1
-台湾粉蝶	tai wan fen die	1
 灰腿白臀叶猴	hui tui bai tun ye hou	1
 喜山钝头蛇	xi shan dun tou she	1
 鮟鱇亚目	an kang ya mu	1
@@ -3539,7 +3254,6 @@ sort: by_weight
 柱体长小蠹	zhu ti chang xiao du	1
 射弓红	she gong hong	1
 宅泥鱼	zhai ni yu	1
-獴科	meng ke	1
 心颅跳鼠亚科	xin lu tiao shu ya ke	1
 瓢虫茧蜂	piao chong jian feng	1
 大英法黑白色犬	da ying fa hei bai se quan	1
@@ -5245,7 +4959,6 @@ sort: by_weight
 玻利维亚哑霸鹟	bo li wei ya ya ba weng	0
 有触手动物	you chu shou dong wu	0
 两叉千孔珊瑚	liang cha qian kong shan hu	0
-蛜威	yi wei	0
 双斑截腹寄蝇	shuang ban jie fu ji ying	0
 虫纹杜父鱼	chong wen du fu yu	0
 科茨海鲶	ke ci hai nian	0
@@ -5704,7 +5417,6 @@ sort: by_weight
 康氏侧带小公鱼	kang shi ce dai xiao gong yu	0
 紫色荧光蛙	zi se ying guang wa	0
 带绦虫属	dai tao chong shu	0
-赫伯斯翼龙	he bo si yi long	0
 棕背蛇鳝棕背海	zong bei she shan zong bei hai	0
 黄翅绢粉蝶	huang chi juan fen die	0
 扁瓣梦角鮟鱇	bian ban meng jiao an kang	0
@@ -5811,7 +5523,6 @@ sort: by_weight
 孙氏长鲈	sun shi chang lu	0
 铜褐角胸肖叶甲	tong he jiao xiong xiao ye jia	0
 新刀手招潮蟹	xin dao shou zhao chao xie	0
-皮弗娄牛	pi fu lou niu	0
 茅形岩瓷蟹	mao xing yan ci xie	0
 日本钝突花天牛	ri ben dun tu hua tian niu	0
 史氏红谐鱼	shi shi hong xie yu	0
@@ -7285,7 +6996,6 @@ sort: by_weight
 莫氏溪鳉	mo shi xi jiang	0
 多毛切梢小蠹	duo mao qie shao xiao du	0
 吐鲁茨龙	tu lu ci long	0
-嘉义小蛇目蝶	jia yi xiao she mu die	0
 禄丰始猫熊	lu feng shi mao xiong	0
 晶莹毛腹虫	jing ying mao fu chong	0
 叉龙占丽鱼	cha long zhan li yu	0
@@ -9846,7 +9556,6 @@ sort: by_weight
 香味鼠	xiang wei shu	0
 台湾截尾材小蠹	tai wan jie wei cai xiao du	0
 元谋盗龙	yuan mou dao long	0
-鸐雉	di zhi	0
 窄肢中溪蟹	zhai zhi zhong xi xie	0
 中华伪露齿螺	zhong hua wei lu chi luo	0
 中国紫蛤	zhong guo zi ha	0
@@ -9869,7 +9578,6 @@ sort: by_weight
 长尾异饰肛螽	chang wei yi shi gang zhong	0
 黑喉肉垂麦鸡	hei hou rou chui mai ji	0
 日本长脚蜂	ri ben chang jiao feng	0
-灰獴	hui meng	0
 汉克拟星根虫	han ke ni xing gen chong	0
 短手大海葵	duan shou da hai kui	0
 三线闭壳龟肉	san xian bi ke gui rou	0
@@ -13309,7 +13017,6 @@ sort: by_weight
 叉尾带龙占丽鱼	cha wei dai long zhan li yu	0
 印度夜鹰	yin du ye ying	0
 仲原氏七夕鱼	zhong yuan shi qi xi yu	0
-越南刺鳑鲏	yue nan ci pang pi	0
 荻蛀茎夜蛾羽角姬小蜂	di zhu jing ye e yu jiao ji xiao feng	0
 路氏圆鲀	lu shi yuan tun	0
 泽纳巴德古柏线虫	ze na ba de gu bai xian chong	0
@@ -15347,7 +15054,6 @@ sort: by_weight
 夹角尖粉蝶	jia jiao jian fen die	0
 细眉杜父鱼	xi mei du fu yu	0
 孔雀缨鳃蚕	kong que ying sai can	0
-蜙蝑	song xu	0
 蔷薇千手螺	qiang wei qian shou luo	0
 台湾扁锹形虫	tai wan bian qiao xing chong	0
 短吻红斑吻鰕虎鱼	duan wen hong ban wen xia hu yu	0
@@ -15817,7 +15523,6 @@ sort: by_weight
 横纹长鳍天竺鲷	heng wen chang qi tian zhu diao	0
 维斯特拉鸟翼裳凤蝶	wei si te la niao yi shang feng die	0
 扇尾贾丁氏鹦鹉	shan wei jia ding shi ying wu	0
-坎贝尔侏儒仓鼠	kan bei er zhu ru cang shu	0
 斜视虫亚目	xie shi chong ya mu	0
 夜蝠蝇	ye fu ying	0
 苏门答腊野兔	su men da la ye tu	0
@@ -16102,7 +15807,6 @@ sort: by_weight
 广东老板鯆	guang dong lao ban pu	0
 强壮仿四额齿蟹	qiang zhuang fang si e chi xie	0
 黄喉纹胁林莺	huang hou wen xie lin ying	0
-星鸡鱼	xing ji yu	0
 裸脸鹮	luo lian huan	0
 尾斑阿南鱼	wei ban a nan yu	0
 药用植物害虫马尾松毛虫	yao yong zhi wu hai chong ma yi song mao chong	0
