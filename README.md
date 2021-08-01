@@ -120,13 +120,30 @@
  - 徐码 https://www.xumax.top/
  - 郑码 http://zmdisk.ys168.com/
 
+## :sparkling_heart:支持这个项目
+
+如果你正在使用这个项目并感觉良好，或只是想要支持我继续开发，你可以通过如下*任意* 方式支持我：
+
+1. *Star* 并 分享这个项目 :rocket:
+2. 通过以下二维码 一次性捐款。 我多半会买一杯 ~~咖啡~~ 茶。:tea:
+
+谢谢！ :heart:
+
+| 微信 | 支付宝 |
+| :---: | :---: |
+| <img src="https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/a45c35cd5575760621be4b38e92f96a.48oklhe4a6g0.jpg" alt="Wechat QRcode" width=150>| <img src="https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/a45c35cd5575760621be4b38e92f96a.48oklhe4a6g0.jpg" alt="Alipay QRcode" width=150> |
+
+##### 支付宝
+
+![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/a45c35cd5575760621be4b38e92f96a.48oklhe4a6g0.jpg)
+
 ## 相关资源
  - 小狼毫输入法：https://github.com/rime/weasel
  - 同文输入法：https://github.com/osfans/trime
  - 简繁转换opencc：https://github.com/BYVoid/OpenCC
  - 部分配色均整理自互联网，配色包含作者信息。
 
-## 相关资源
+## 感谢
  - **感谢@[lotem](https://github.com/lotem)**
  - **感谢trime作者@[osfans](https://github.com/osfans)**
  - **感谢四叶草拼音作者@[fkxxyz](https://github.com/fkxxyz)**
@@ -138,9 +155,7 @@
  - **感谢@[徐码](https://www.xumax.top/)**
  - **没有以上资源和各位的辛苦付出，也就没有这个项目**
 
+## 许可证
+[MIT](https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE)
 
-### 大家如果喜欢这个配置，可以自愿支持一下我的成果，同时也希望大家多多反馈问题。
-
-##### 支付宝
-
-![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/a45c35cd5575760621be4b38e92f96a.48oklhe4a6g0.jpg)
+Copyright (c) 2019-present Evan Xu
