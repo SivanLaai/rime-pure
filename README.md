@@ -18,6 +18,17 @@
 - 切换输入法：长按带✎的按键切换输入方案
 - 更多设置：长按带设置符号⚙的按键，既可进入更多设置页面
 
+## 包含输入方案
+ - 极点五笔：https://github.com/KyleBing/rime-wubi86-jidian 
+ - 小鹤双拼：https://www.flypy.com/index.html
+ - 🍀️四叶草简体拼音：https://github.com/fkxxyz/rime-cloverpinyin
+ - 大写数字
+ - 自然双拼
+ - QQ86五笔（提取自qq五笔输入法，词库较为合理，推荐使用也是本人在使用的方案）
+ - 徐码 https://www.xumax.top/
+ - 郑码 http://zmdisk.ys168.com/
+
+
 ## 界面预览：
 ### 小狼毫输入法（PC端）
 - 简约现代蓝[配色：XNOM]
@@ -109,16 +120,6 @@
  - 3.自然码支持简繁转换问题
 
 #### [以往全部历史](https://sivanlaai.github.io/pages/841d8d/)
-
-## 包含输入方案
- - 极点五笔：https://github.com/KyleBing/rime-wubi86-jidian 
- - 小鹤双拼：https://www.flypy.com/index.html
- - 🍀️四叶草简体拼音：https://github.com/fkxxyz/rime-cloverpinyin
- - 大写数字
- - 自然双拼
- - QQ86五笔（提取自qq五笔输入法，词库较为合理，推荐使用也是本人在使用的方案）
- - 徐码 https://www.xumax.top/
- - 郑码 http://zmdisk.ys168.com/
 
 ## 相关资源
  - 小狼毫输入法：https://github.com/rime/weasel
