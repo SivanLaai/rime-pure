@@ -56,7 +56,10 @@ speller:
   algebra:
     - "xlit|12345|+_*^0|"
     - erase/^xx$/
+    # 基础
+    - abbrev/^([a-z]).+$/$1/
     - abbrev/^([zcs]h).+$/$1/
+
     - derive/^([nl])ve$/$1ue/
     - derive/^([jqxy])u/$1v/
     - derive/un$/uen/
