@@ -124,18 +124,14 @@
 
 如果你正在使用这个项目并感觉良好，或只是想要支持我继续开发，你可以通过如下*任意* 方式支持我：
 
-1. *Star* 并 分享这个项目 :rocket:
-2. 通过以下二维码 一次性捐款。 我多半会买一杯 ~~咖啡~~ 茶。:tea:
+1. **Star** 并 分享这个项目 :rocket:
+2. 通过以下二维码 一次性捐款。 一杯咖啡。:tea:
 
 谢谢！ :heart:
 
 | 微信 | 支付宝 |
 | :---: | :---: |
 | <img src="https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/a45c35cd5575760621be4b38e92f96a.48oklhe4a6g0.jpg" alt="Wechat QRcode" width=150>| <img src="https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/a45c35cd5575760621be4b38e92f96a.48oklhe4a6g0.jpg" alt="Alipay QRcode" width=150> |
-
-##### 支付宝
-
-![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/a45c35cd5575760621be4b38e92f96a.48oklhe4a6g0.jpg)
 
 ## 相关资源
  - 小狼毫输入法：https://github.com/rime/weasel
