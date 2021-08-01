@@ -94,9 +94,9 @@
  ./Clover四叶草拼音/THUOCL_chengyu.dict.yaml:成事在人    cheng shi zai ren       21
  如上所示，成事在人，在两个字典中都有频次，只保留clover.phrase.dict.yaml中22846频次的词组
  ```
- - 3.整合四叶草拼音拼音错误，例如反弹拼音为fandan，[来源](https://github.com/fkxxyz/rime-cloverpinyin/pull/85)，感谢@[spphinslove](https://github.com/SivanLaai/rime_pure/issues/32)的反馈
- - 4.四叶草拼音-汉字帧-拼音错误，把帧错误拼音zheng相关的词组全部修改为帧zhen
- - 整理不易，请大家多多支持。
+ - 3.更新四叶草拼音拼音错误，例如反弹拼音为fandan，[来源](https://github.com/fkxxyz/rime-cloverpinyin/pull/85)，感谢@[spphinslove](https://github.com/SivanLaai/rime_pure/issues/32)的反馈
+ - 4.四叶草拼音-汉字帧-拼音错误修改，把帧错误拼音zheng相关的词组全部修改为帧zhen
+ - 修改费时费力，不易，请大家多多支持，[点击支持](https://github.com/SivanLaai/rime_pure#%E5%A4%A7%E5%AE%B6%E5%A6%82%E6%9E%9C%E5%96%9C%E6%AC%A2%E8%BF%99%E4%B8%AA%E9%85%8D%E7%BD%AE%E5%8F%AF%E4%BB%A5%E8%87%AA%E6%84%BF%E6%94%AF%E6%8C%81%E4%B8%80%E4%B8%8B%E6%88%91%E7%9A%84%E6%88%90%E6%9E%9C%E5%90%8C%E6%97%B6%E4%B9%9F%E5%B8%8C%E6%9C%9B%E5%A4%A7%E5%AE%B6%E5%A4%9A%E5%A4%9A%E5%8F%8D%E9%A6%88%E9%97%AE%E9%A2%98)。
 
 #### 2021-07-29
 
