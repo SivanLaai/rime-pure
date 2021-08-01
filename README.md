@@ -96,7 +96,7 @@
  ```
  - 3.更新四叶草拼音拼音错误，例如反弹拼音为fandan，[来源](https://github.com/fkxxyz/rime-cloverpinyin/pull/85)，感谢@[spphinslove](https://github.com/SivanLaai/rime_pure/issues/32)的反馈
  - 4.四叶草拼音-汉字帧-拼音错误修改，把帧错误拼音zheng相关的词组全部修改为帧zhen
- - 修改费时费力，不易，请大家多多支持，[点击支持](http://127.0.0.1:8838/page/23#%E6%94%AF%E6%8C%81%E8%BF%99%E4%B8%AA%E9%A1%B9%E7%9B%AE)。
+ - 修改费时费力，不易，请大家多多支持，[点击支持](https://github.com/SivanLaai/rime_pure#sparkling_heart%E6%94%AF%E6%8C%81%E8%BF%99%E4%B8%AA%E9%A1%B9%E7%9B%AE)。
 
 #### 2021-07-29
 
