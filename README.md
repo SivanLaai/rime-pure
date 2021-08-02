@@ -8,7 +8,7 @@
 - **目前在手机端配置了基于四叶草拼音的九宫格输入法，为了表示对原作者的劳动致敬，遂命名为四叶草九宫方案，感觉已经和之前使用的百度或者讯飞输入法感觉相当。**
 
 - **enjoy it! 好用的话就点个赞。感谢你的使用，因为本人同时在安卓和windows端使用，所以会一直更新。**
-- 
+
 - ![visitors](https://visitor-badge.laobi.icu/badge?page_id=SivanLaai/rime-pure)
 
 ## 包含输入方案
