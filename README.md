@@ -1,4 +1,4 @@
-## 【rime 小狼毫\trime 同文】手机/PC一站式配置【简约皮肤\拼音搜狗词库\原创trime同文 四叶草 九宫格 拼音方案\四叶草拼音\小鹤双拼\极品五笔\QQ五笔\徐码\郑码】
+## 【rime 小狼毫\trime 同文】手机/PC一站式配置【简约皮肤\拼音搜狗词库\原创trime同文 四叶草九宫格拼音\四叶草拼音\小鹤双拼\极品五笔\QQ五笔\徐码\郑码】
 
 ## 说明
 - rime是一款支持多平台的开源输入法，开源所以不需要担心自己的输入数据被输入法所搜集。虽然优点这么多，但是要使得输入法好用起来门槛比较高了，主要是在词库配置优化，依赖的东西多而且复杂。**本项目的目的在于安卓手机端和Win pc端都可以从本项目一站配置好rime输入法，达到省心好用的程度**。鉴于PC端已经有很多大神有现成的设置，所以花的时间较少，主要是整理收集。
@@ -9,6 +9,18 @@
 
 - **enjoy it! 好用的话就点个赞。感谢你的使用，因为本人同时在安卓和windows端使用，所以会一直更新。**
 
+## 包含输入方案
+ - [四叶草拼音九宫格](https://github.com/SivanLaai/rime-pure) 
+ - [极点五笔](https://github.com/KyleBing/rime-wubi86-jidian) 
+ - [小鹤双拼](https://www.flypy.com/index.html)
+ - [🍀️四叶草简体拼音](https://github.com/fkxxyz/rime-cloverpinyin)
+ - 大写数字
+ - 自然双拼
+ - QQ86五笔（**提取自qq五笔输入法，词库较为合理，推荐使用也是本人在使用的方案**）
+ - [徐码](https://www.xumax.top/)
+ - [郑码](http://zmdisk.ys168.com/)
+
+
 ## 实用功能：
 ### 同文端
 - 隐藏输入法：全键盘状态下按键G向上滑，九宫格状态下按[JKL]向上滑
@@ -17,17 +29,6 @@
 - 切换主题：空当前编辑文本长按带❖的按键切换主题
 - 切换输入法：长按带✎的按键切换输入方案
 - 更多设置：长按带设置符号⚙的按键，既可进入更多设置页面
-
-## 包含输入方案
- - 极点五笔：https://github.com/KyleBing/rime-wubi86-jidian 
- - 小鹤双拼：https://www.flypy.com/index.html
- - 🍀️四叶草简体拼音：https://github.com/fkxxyz/rime-cloverpinyin
- - 大写数字
- - 自然双拼
- - QQ86五笔（提取自qq五笔输入法，词库较为合理，推荐使用也是本人在使用的方案）
- - 徐码 https://www.xumax.top/
- - 郑码 http://zmdisk.ys168.com/
-
 
 ## 界面预览：
 ### 小狼毫输入法（PC端）
@@ -105,7 +106,7 @@
  ./Clover四叶草拼音/THUOCL_chengyu.dict.yaml:成事在人    cheng shi zai ren       21
  如上所示，成事在人，在两个字典中都有频次，只保留clover.phrase.dict.yaml中22846频次的词组
  ```
- - 3.更新四叶草拼音拼音错误，例如反弹拼音为fandan，[来源](https://github.com/fkxxyz/rime-cloverpinyin/pull/85)，感谢@[spphinslove](https://github.com/SivanLaai/rime_pure/issues/32)的反馈
+ - 3.更新四叶草拼音拼音错误，例如反弹拼音为fandan，[错误修复来源@wisim](https://github.com/fkxxyz/rime-cloverpinyin/pull/85)，感谢@[spphinslove](https://github.com/SivanLaai/rime_pure/issues/32)的反馈
  - 4.四叶草拼音-汉字帧-拼音错误修改，把帧错误拼音zheng相关的词组全部修改为帧zhen
  - 修改费时费力，不易，请大家多多支持，[点击支持](https://github.com/SivanLaai/rime_pure#sparkling_heart%E6%94%AF%E6%8C%81%E8%BF%99%E4%B8%AA%E9%A1%B9%E7%9B%AE)。
 
@@ -113,6 +114,7 @@
 
  - 1.添加九宫格支持隐藏
  - 2.添加常用功能说明
+
 #### 2021-06-27
 
  - 1.更新同文3.2.0支持
@@ -153,6 +155,6 @@
 | <img src="https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/a45c35cd5575760621be4b38e92f96a.48oklhe4a6g0.jpg" alt="Wechat QRcode" width=200>| <img src="https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/a45c35cd5575760621be4b38e92f96a.48oklhe4a6g0.jpg" alt="Alipay QRcode" width=200> |
 
 ## 许可证
-[MIT](https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE)
+[MIT](https://github.com/SivanLaai/rime_pure/blob/master/LICENSE)
 
 Copyright (c) 2020-present SivanLaai
