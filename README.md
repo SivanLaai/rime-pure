@@ -1,5 +1,5 @@
 ## 【rime 小狼毫\trime 同文】手机/PC一站式配置【简约皮肤\拼音搜狗词库\原创trime同文 四叶草九宫格拼音\四叶草拼音\小鹤双拼\极品五笔\QQ五笔\徐码\郑码】
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=SivanLaai/rime-pure)
+
 ## 说明
 - rime是一款支持多平台的开源输入法，开源所以不需要担心自己的输入数据被输入法所搜集。虽然优点这么多，但是要使得输入法好用起来门槛比较高了，主要是在词库配置优化，依赖的东西多而且复杂。**本项目的目的在于安卓手机端和Win pc端都可以从本项目一站配置好rime输入法，达到省心好用的程度**。鉴于PC端已经有很多大神有现成的设置，所以花的时间较少，主要是整理收集。
 
@@ -19,6 +19,7 @@
  - QQ86五笔（**提取自qq五笔输入法，词库较为合理，推荐使用也是本人在使用的方案**）
  - [徐码](https://www.xumax.top/)
  - [郑码](http://zmdisk.ys168.com/)
+ - ![visitors](https://visitor-badge.laobi.icu/badge?page_id=SivanLaai/rime-pure)
 
 
 ## 实用功能：
