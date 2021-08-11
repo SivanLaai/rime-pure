@@ -7,6 +7,7 @@ schema:
   version: "1.0.0"
   author:
     - fkxxyz - https://www.fkxxyz.com
+    - SivanLaai - https://sivanlaai.github.io
   description: |
     由🍀️四叶草亲自定制，特点：
       1. 结合搜狗输入法的输入习惯
@@ -14,6 +15,9 @@ schema:
       3. 加上很多特殊符号的输入支持
       4. 繁简切换支持
       5. 许多智能纠错
+    SivanLaai优化：
+      1. 支持精准的多音字识别
+      2. 优化字典大小，去除重复词组
   dependencies:
     - emoji
 

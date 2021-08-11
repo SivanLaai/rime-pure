@@ -6,7 +6,7 @@ schema:
   name: 🍀️四叶草九宫格
   version: "0.19"
   author:
-    - Jaaiko <lyhhap@hotmail.com>
+    - SivanLaai - https://sivanlaai.github.io
   description: |
     🍀️四叶草九宫格：
     以🍀️四叶草简体拼音为基础所配置的一款适合在手机九宫格上输入的输入方案。
@@ -56,10 +56,8 @@ speller:
   algebra:
     - "xlit|12345|+_*^0|"
     - erase/^xx$/
-    # 基础
     - abbrev/^([a-z]).+$/$1/
     - abbrev/^([zcs]h).+$/$1/
-
     - derive/^([nl])ve$/$1ue/
     - derive/^([jqxy])u/$1v/
     - derive/un$/uen/

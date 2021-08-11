@@ -25,7 +25,7 @@
 
 ## 实用功能：
 ### 同文端
-- 隐藏输入法：全键盘状态下按键G向上滑，九宫格状态下按[JKL]向上滑
+- 隐藏输入法：全键盘状态下按键G向下滑，九宫格状态下按[分词键]向下滑
 - 编辑功能：全键盘状态下长按G，九宫格状态下按编辑键，可实现复制粘贴拷贝等功能
 - 清空文本：删除键向左滑会清,空当前编辑文本
 - 切换主题：空当前编辑文本长按带❖的按键切换主题
@@ -99,6 +99,14 @@
 
 ## 更新历史
 
+#### 2021-08-11
+
+ - 1.修复大字典中的的拼音错误。
+ - 2.基于[python-pinyin](https://github.com/mozillazg/python-pinyin)对所有四叶草字典进行多音字修复，同时单字也支持多音字输入
+ ```
+ 例如朝支持chao zhao zhu拼音输入
+ ```
+
 #### 2021-08-01
 
  - 1.修复九宫拼音不支持简拼的情况，如输入xqw不显示结果。
@@ -108,7 +116,7 @@
  ./Clover四叶草拼音/THUOCL_chengyu.dict.yaml:成事在人    cheng shi zai ren       21
  如上所示，成事在人，在两个字典中都有频次，只保留clover.phrase.dict.yaml中22846频次的词组
  ```
- - 3.更新四叶草拼音拼音错误，例如反弹拼音为fandan，[错误修复来源@wisim](https://github.com/fkxxyz/rime-cloverpinyin/pull/85)，感谢@[spphinslove](https://github.com/SivanLaai/rime_pure/issues/32)的反馈
+ - 3.更新四叶草拼音错误，例如反弹拼音为fandan，[错误修复来源@wisim](https://github.com/fkxxyz/rime-cloverpinyin/pull/85)，感谢@[spphinslove](https://github.com/SivanLaai/rime_pure/issues/32)的反馈
  - 4.四叶草拼音-汉字帧-拼音错误修改，把帧错误拼音zheng相关的词组全部修改为帧zhen
  - 修改费时费力，不易，请大家多多支持，[点击支持](https://github.com/SivanLaai/rime_pure#sparkling_heart%E6%94%AF%E6%8C%81%E8%BF%99%E4%B8%AA%E9%A1%B9%E7%9B%AE)。
 
