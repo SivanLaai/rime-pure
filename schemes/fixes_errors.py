@@ -107,13 +107,13 @@ def getBasicWordMap():
     path = './basic'
     for file_now in os.listdir(path):
         curr_path = os.path.join(path, file_now)
-        print(curr_path)
+        #print(curr_path)
         for line in open(curr_path, encoding='utf-8'):
             if '\t' in line:
                 keyword = line.split('\t')[0]
                 pinyin = line.split('\t')[1].strip()
                 wordMap[keyword] = pinyin
-    return wordMap, os.listdir(path)
+    return wordMap
 
 def getPinyin(keyword):
     if len(keyword) == 1:
@@ -140,6 +140,49 @@ def getPinyin(keyword):
         return pinyinFinalList
 
 
+BasicWordMap = getBasicWordMap()
+def getBasicPinyin(keyword):
+    if len(keyword) == 1:
+        pinyinStrList = list()
+        return pinyinStrList
+    else:
+        wordPinyin = BasicWordMap.get(keyword, None)
+        pinyinFinalList = list()
+        if wordPinyin is None:
+            return list()
+        else:
+            pinyinFinalList.append(wordPinyin)
+            return pinyinFinalList
+
+# 修复大字典的拼音错误
+def fixesBigDictErrorsWithBasic():
+    path = './Clover四叶草拼音'
+    new_path = './Clover四叶草拼音new'
+    
+    if not os.path.exists(new_path):
+        os.mkdir(f'{new_path}')
+    for file_now in os.listdir(path):
+        new_file_path = os.path.join(new_path, file_now)
+        curr_path = os.path.join(path, file_now)
+        new_file = open(new_file_path, 'w', encoding="utf-8")
+        for line in open(curr_path, encoding='utf-8'):
+            if "\t" in line:
+                keyword = line.split('\t')[0]
+                pinyin_old = line.split('\t')[1].strip()
+                count_str = line.split('\t')[-1].strip().replace(" ", '')
+                pinyin_list = getBasicPinyin(keyword)
+                if len(pinyin_list) == 0:
+                    new_file.write(line)
+                    new_file.flush()
+                else:
+                    for currPinyin in pinyin_list:
+                        newLine = line.replace(pinyin_old, currPinyin)
+                        new_file.write(newLine)
+                        new_file.flush()
+            else:
+                new_file.write(line)
+                new_file.flush()
+        new_file.close()
 
 # 修复大字典的拼音错误
 def fixesBigDictErrors():
@@ -185,8 +228,8 @@ def fixesBigDictErrors():
 
 #fixes_unique()
 if __name__ == "__main__":
-    #fixesBigDictErrors()
-    fixes_unique_with_same_pinyin()
+    fixesBigDictErrorsWithBasic()
+    #fixes_unique_with_same_pinyin()
     keyword = '朝'
     pinyinList = pinyin(keyword, style=Style.NORMAL, heteronym=True)
     print(pinyinList)
