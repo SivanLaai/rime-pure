@@ -1,5 +1,6 @@
 import os
 def fixes_spell():
+
     path = './Clover四叶草拼音'
     new_path = './Clover四叶草拼音new'
     if not os.path.exists(new_path):
@@ -70,4 +71,47 @@ def fixes_unique():
             for node in wordDict[key]:
                 f.write(f'[{node[0]}, {node[1]}] ')
             f.write(f'\n')
-fixes_unique()
+
+# 得到所有正确的汉字拼音标识
+def getBasicWordMap():
+    wordMap = dict()
+    path = './basic'
+    for file_now in os.listdir(path):
+        curr_path = os.path.join(path, file_now)
+        print(curr_path)
+        for line in open(curr_path, encoding='utf-8'):
+            if '\t' in line:
+                keyword = line.split('\t')[0]
+                pinyin = line.split('\t')[1].strip()
+                wordMap[keyword] = pinyin
+    return wordMap, os.listdir(path)
+
+# 修复大字典的拼音错误
+def fixesBigDictErrors():
+    wordMap, correctSpellFiles = getBasicWordMap()
+    path = './Clover四叶草拼音'
+    new_path = './Clover四叶草拼音new'
+    
+    if not os.path.exists(new_path):
+        os.mkdir(f'{new_path}')
+    for file_now in os.listdir(path):
+        if file_now in correctSpellFiles:
+            continue
+        new_file_path = os.path.join(new_path, file_now)
+        curr_path = os.path.join(path, file_now)
+        new_file = open(new_file_path, 'w', encoding="utf-8")
+        for line in open(curr_path, encoding='utf-8'):
+            if "\t" in line:
+                keyword = line.split('\t')[0]
+                if keyword in wordMap:
+                    pinyin = line.split('\t')[1].strip()
+                    new_file.write(line.replace(pinyin, wordMap[keyword]))
+                else:
+                    new_file.write(line)
+            else:
+                new_file.write(line)
+
+
+#fixes_unique()
+if __name__ == "__main__":
+    fixesBigDictErrors()
