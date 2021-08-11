@@ -104,7 +104,9 @@
  - 1.修复大字典中的的拼音错误。
  - 2.基于[python-pinyin](https://github.com/mozillazg/python-pinyin)对所有四叶草字典进行多音字修复，同时单字也支持多音字输入
  ```
- 例如朝支持chao zhao zhu拼音输入
+ 例如朝拼chao zhao zhu输入
+ 词频调整chao保留最高，依次递减10倍
+ 例如chao为123，zhao为12，zhu为1
  ```
 
 #### 2021-08-01
