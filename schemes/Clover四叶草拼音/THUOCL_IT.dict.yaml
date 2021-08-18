@@ -8,14 +8,14 @@ sort: by_weight
 全局变量	quan ju bian liang	62739
 构造方法	gou zao fang fa	58504
 局部变量	ju bu bian liang	56599
-函数调用	han shu diao yong	54803
-时间复杂度	shi jian fu za du	53317
+函数调用	han shu tiao yong	54803
+时间复杂度	shi jian fu duo du	53317
 实现类	shi xian lei	53222
 函数返回	han shu fan hui	50277
 主线程	zhu xian cheng	46091
 正则表达式	zheng ze biao da shi	44794
 抽象类	chou xiang lei	44620
-回调函数	hui diao han shu	44415
+回调函数	hui tiao han shu	44415
 静态方法	jing tai fang fa	44329
 返回结果	fan hui jie guo	44309
 变量名	bian liang ming	42442
@@ -28,7 +28,7 @@ sort: by_weight
 方法调用	fang fa diao yong	39921
 直接访问	zhi jie fang wen	39429
 成员函数	cheng yuan han shu	38459
-调用函数	diao yong han shu	37283
+调用函数	tiao yong han shu	37283
 代码块	dai ma kuai	37184
 方法名	fang fa ming	37057
 线程安全	xian cheng an quan	36705
@@ -68,7 +68,7 @@ sort: by_weight
 父节点	fu jie dian	21841
 子串	zi chuan	21665
 析构函数	xi gou han shu	21398
-内存泄露	nei cun xie lou	21342
+内存泄露	nei cun xie lu	21342
 主函数	zhu han shu	21315
 目标文件	mu biao wen jian	21239
 动画效果	dong hua xiao guo	21119
@@ -80,7 +80,7 @@ sort: by_weight
 相对路径	xiang dui lu jing	19903
 类定义	lei ding yi	19900
 引用类型	yin yong lei xing	19845
-唯一标识	wei yi biao zhi	19827
+唯一标识	wei yi biao shi	19827
 函数定义	han shu ding yi	19660
 派生类	pai sheng lei	19648
 继承关系	ji cheng guan xi	19628
@@ -94,7 +94,7 @@ sort: by_weight
 连接数据库	lian jie shu ju ku	18725
 编写代码	bian xie dai ma	18602
 创建数据库	chuang jian shu ju ku	18507
-函数体	han shu ti	18460
+函数体	han shu ben	18460
 出栈	chu zhan	18366
 实例变量	shi li bian liang	18327
 内存区域	nei cun qu yu	18250
@@ -120,7 +120,7 @@ sort: by_weight
 代码示例	dai ma shi li	17318
 写数据	xie shu ju	17244
 实际开发	shi ji kai fa	17232
-回调方法	hui diao fang fa	17042
+回调方法	hui tiao fang fa	17042
 代码片段	dai ma pian duan	16916
 函数实现	han shu shi xian	16829
 参数说明	can shu shuo ming	16812
@@ -142,7 +142,7 @@ sort: by_weight
 删除数据	shan chu shu ju	14959
 标准输入	biao zhun shu ru	14883
 文件操作	wen jian cao zuo	14827
-空间复杂度	kong jian fu za du	14805
+空间复杂度	kong jian fu duo du	14805
 创建线程	chuang jian xian cheng	14799
 字段名	zi duan ming	14788
 不同版本	bu tong ban ben	14767
@@ -159,7 +159,7 @@ sort: by_weight
 编译错误	bian yi cuo wu	14249
 启动服务	qi dong fu wu	14223
 一维数组	yi wei shu zu	14094
-数组长度	shu zu zhang du	14035
+数组长度	shu zu chang du	14035
 空指针	kong zhi zhen	13994
 字节数组	zi jie shu zu	13796
 递归调用	di gui diao yong	13748
@@ -179,7 +179,7 @@ sort: by_weight
 浮点型	fu dian xing	13137
 使用场景	shi yong chang jing	13060
 文件保存	wen jian bao cun	12970
-命令行参数	ming ling xing can shu	12934
+命令行参数	ming ling hang can shu	12934
 日志记录	ri zhi ji lu	12911
 配置环境变量	pei zhi huan jing bian liang	12904
 方法参数	fang fa can shu	12894
@@ -207,7 +207,7 @@ sort: by_weight
 依赖注入	yi lai zhu ru	12049
 本地缓存	ben di huan cun	12013
 动态生成	dong tai sheng cheng	11941
-转义字符	zhuan yi zi fu	11890
+转义字符	zhuan cha zi fu	11890
 初始化方法	chu shi hua fang fa	11875
 常用命令	chang yong ming ling	11870
 取模	qu mo	11691
@@ -234,7 +234,7 @@ sort: by_weight
 类成员	lei cheng yuan	10765
 算法实现	suan fa shi xian	10732
 原子操作	yuan zi cao zuo	10715
-调优	diao you	10687
+调优	tiao you	10687
 创建目录	chuang jian mu lu	10670
 编译安装	bian yi an zhuang	10552
 安装配置	an zhuang pei zhi	10517
@@ -254,7 +254,7 @@ sort: by_weight
 功能实现	gong neng shi xian	10164
 条件判断	tiao jian pan duan	10156
 创建用户	chuang jian yong hu	10115
-命令行工具	ming ling xing gong ju	10056
+命令行工具	ming ling hang gong ju	10056
 类型变量	lei xing bian liang	10031
 弱引用	ruo yin yong	10018
 文件读取	wen jian du qu	9961
@@ -350,7 +350,7 @@ sort: by_weight
 动态代理	dong tai dai li	8248
 默认构造函数	mo ren gou zao han shu	8206
 等待队列	deng dai dui lie	8186
-长连接	zhang lian jie	8170
+长连接	chang lian jie	8170
 数据交互	shu ju jiao hu	8122
 命令模式	ming ling mo shi	8115
 强引用	qiang yin yong	8104
@@ -389,7 +389,7 @@ sort: by_weight
 数据绑定	shu ju bang ding	7651
 反向代理	fan xiang dai li	7637
 方法区	fang fa qu	7630
-阻塞状态	zu se zhuang tai	7629
+阻塞状态	zu sai zhuang tai	7629
 代码结构	dai ma jie gou	7628
 自定义类	zi ding yi lei	7626
 系统版本	xi tong ban ben	7601
@@ -401,7 +401,7 @@ sort: by_weight
 文件结构	wen jian jie gou	7535
 内存缓存	nei cun huan cun	7518
 块设备	kuai she bei	7507
-多重继承	duo zhong ji cheng	7474
+多重继承	duo chong ji cheng	7474
 属性文件	shu xing wen jian	7465
 日志输出	ri zhi shu chu	7464
 数据读取	shu ju du qu	7441
@@ -413,7 +413,7 @@ sort: by_weight
 对象数组	dui xiang shu zu	7382
 跳出循环	tiao chu xun huan	7380
 逻辑运算符	luo ji yun suan fu	7374
-多对多	duo dui duo	7347
+多对多	duo dui	7347
 命名规范	ming ming gui fan	7347
 大小写敏感	da xiao xie min gan	7310
 线程创建	xian cheng chuang jian	7303
@@ -445,7 +445,7 @@ sort: by_weight
 浏览器兼容	liu lan qi jian rong	6978
 查找文件	cha zhao wen jian	6968
 静态资源	jing tai zi yuan	6958
-策略模式	ce lve mo shi	6950
+策略模式	ce lüe mo shi	6950
 类型安全	lei xing an quan	6943
 实例代码	shi li dai ma	6939
 可变参数	ke bian can shu	6915
@@ -453,7 +453,7 @@ sort: by_weight
 排序方法	pai xu fang fa	6886
 导入数据	dao ru shu ju	6861
 事件监听	shi jian jian ting	6859
-回调接口	hui diao jie kou	6840
+回调接口	hui tiao jie kou	6840
 异步任务	yi bu ren wu	6836
 软件安装	ruan jian an zhuang	6823
 文件句柄	wen jian ju bing	6799
@@ -474,7 +474,7 @@ sort: by_weight
 记录日志	ji lu ri zhi	6681
 子字符串	zi zi fu chuan	6675
 连接失败	lian jie shi bai	6665
-弹出对话框	dan chu dui hua kuang	6662
+弹出对话框	tan chu dui hua kuang	6662
 临界区	lin jie qu	6654
 多线程编程	duo xian cheng bian cheng	6641
 上下文切换	shang xia wen qie huan	6636
@@ -512,13 +512,13 @@ sort: by_weight
 消息循环	xiao xi xun huan	6299
 功能类	gong neng lei	6290
 静态类	jing tai lei	6280
-自动换行	zi dong huan xing	6275
+自动换行	zi dong huan hang	6275
 读写文件	du xie wen jian	6274
 自定义类型	zi ding yi lei xing	6266
 图片缓存	tu pian huan cun	6250
 分析工具	fen xi gong ju	6243
 字面量	zi mian liang	6236
-模板类	mu ban lei	6230
+模板类	mo ban lei	6230
 删除节点	shan chu jie dian	6217
 封装性	feng zhuang xing	6215
 引用传递	yin yong chuan di	6210
@@ -526,7 +526,7 @@ sort: by_weight
 描述文件	miao shu wen jian	6164
 锁机制	suo ji zhi	6155
 临时对象	lin shi dui xiang	6146
-弹出菜单	dan chu cai dan	6131
+弹出菜单	tan chu cai dan	6131
 离线存储	li xian cun chu	6098
 用户管理	yong hu guan li	6075
 屏幕宽度	ping mu kuan du	6060
@@ -562,7 +562,7 @@ sort: by_weight
 线程阻塞	xian cheng zu se	5729
 内核态	nei he tai	5728
 程序集	cheng xu ji	5721
-重载函数	zhong zai han shu	5717
+重载函数	chong zai han shu	5717
 异步处理	yi bu chu li	5707
 控制字符	kong zhi zi fu	5677
 递归函数	di gui han shu	5664
@@ -571,11 +571,11 @@ sort: by_weight
 数据导入	shu ju dao ru	5628
 类属性	lei shu xing	5627
 编辑框	bian ji kuang	5616
-函数重载	han shu zhong zai	5612
+函数重载	han shu chong zai	5612
 安装插件	an zhuang cha jian	5602
 程序结构	cheng xu jie gou	5593
 字符串比较	zi fu chuan bi jiao	5592
-开源代码	kai yuan dai ma	5582
+开源代码	jian yuan dai ma	5582
 反汇编	fan hui bian	5577
 权限问题	quan xian wen ti	5571
 文件读写	wen jian du xie	5565
@@ -628,7 +628,7 @@ sort: by_weight
 页面跳转	ye mian tiao zhuan	5210
 内部函数	nei bu han shu	5209
 运行时异常	yun xing shi yi chang	5197
-无符号整数	wu fu hao zheng shu	5193
+无符号整数	mo fu hao zheng shu	5193
 开发框架	kai fa kuang jia	5175
 容器类	rong qi lei	5172
 消息机制	xiao xi ji zhi	5168
@@ -654,7 +654,7 @@ sort: by_weight
 子窗口	zi chuang kou	5044
 散列表	san lie biao	5044
 绝对定位	jue dui ding wei	5041
-弹出框	dan chu kuang	5021
+弹出框	tan chu kuang	5021
 递归实现	di gui shi xian	5015
 多路复用	duo lu fu yong	5012
 外部调用	wai bu diao yong	5008
@@ -701,7 +701,7 @@ sort: by_weight
 自顶向下	zi ding xiang xia	4804
 类函数	lei han shu	4775
 事件传递	shi jian chuan di	4773
-缓存策略	huan cun ce lve	4772
+缓存策略	huan cun ce lüe	4772
 深拷贝	shen kao bei	4764
 居中显示	ju zhong xian shi	4763
 创建进程	chuang jian jin cheng	4758
@@ -719,7 +719,7 @@ sort: by_weight
 界面布局	jie mian bu ju	4665
 分治法	fen zhi fa	4652
 直接插入排序	zhi jie cha ru pai xu	4648
-回车换行	hui che huan xing	4641
+回车换行	hui che huan hang	4641
 浅拷贝	qian kao bei	4629
 访问修饰符	fang wen xiu shi fu	4628
 常用操作	chang yong cao zuo	4621
@@ -753,7 +753,7 @@ sort: by_weight
 编程习惯	bian cheng xi guan	4474
 函数式	han shu shi	4473
 自定义对象	zi ding yi dui xiang	4470
-方法重载	fang fa zhong zai	4467
+方法重载	fang fa chong zai	4467
 分布式存储	fen bu shi cun chu	4467
 对象锁	dui xiang suo	4463
 数据空间	shu ju kong jian	4462
@@ -779,7 +779,7 @@ sort: by_weight
 用户授权	yong hu shou quan	4345
 引用数据类型	yin yong shu ju lei xing	4342
 保存图片	bao cun tu pian	4325
-运算符重载	yun suan fu zhong zai	4320
+运算符重载	yun suan fu chong zai	4320
 播放视频	bo fang shi pin	4312
 面向过程	mian xiang guo cheng	4312
 匿名类	ni ming lei	4311
@@ -795,7 +795,7 @@ sort: by_weight
 组合模式	zu he mo shi	4256
 数据库配置	shu ju ku pei zhi	4244
 内边距	nei bian ju	4242
-模板题	mu ban ti	4233
+模板题	mo ban ti	4233
 装饰模式	zhuang shi mo shi	4231
 字节序	zi jie xu	4225
 表现层	biao xian ceng	4213
@@ -811,7 +811,7 @@ sort: by_weight
 线程并发	xian cheng bing fa	4164
 原语	yuan yu	4158
 只读属性	zhi du shu xing	4156
-性能调优	xing neng diao you	4146
+性能调优	xing neng tiao you	4146
 重复数据	chong fu shu ju	4140
 大型网站	da xing wang zhan	4135
 静态成员函数	jing tai cheng yuan han shu	4129
@@ -836,7 +836,7 @@ sort: by_weight
 请求超时	qing qiu chao shi	4052
 文件地址	wen jian di zhi	4050
 快速幂	kuai su mi	4045
-无响应	wu xiang ying	4045
+无响应	mo xiang ying	4045
 机器指令	ji qi zhi ling	4044
 通信机制	tong xin ji zhi	4040
 删除行	shan chu xing	4030
@@ -853,7 +853,7 @@ sort: by_weight
 数据类型转换	shu ju lei xing zhuan huan	3992
 创建工程	chuang jian gong cheng	3989
 加密解密	jia mi jie mi	3983
-算法复杂度	suan fa fu za du	3981
+算法复杂度	suan fa fu duo du	3981
 编译原理	bian yi yuan li	3976
 动态类型	dong tai lei xing	3970
 编码问题	bian ma wen ti	3970
@@ -881,7 +881,7 @@ sort: by_weight
 推送消息	tui song xiao xi	3893
 广播接收器	guang bo jie shou qi	3893
 参数文件	can shu wen jian	3889
-事件监听器	shi jian jian ting qi	3889
+事件监听器	shi jian jian yin qi	3889
 代码实例	dai ma shi li	3888
 返回按钮	fan hui an niu	3886
 外键约束	wai jian yue shu	3883
@@ -907,7 +907,7 @@ sort: by_weight
 正则匹配	zheng ze pi pei	3807
 系统目录	xi tong mu lu	3796
 聚合函数	ju he han shu	3792
-模板引擎	mu ban yin qing	3788
+模板引擎	mo ban yin qing	3788
 编码规范	bian ma gui fan	3788
 初始化列表	chu shi hua lie biao	3786
 带符号	dai fu hao	3785
@@ -919,7 +919,7 @@ sort: by_weight
 动态分配内存	dong tai fen pei nei cun	3764
 输入输出流	shu ru shu chu liu	3753
 定时执行	ding shi zhi xing	3750
-结构体指针	jie gou ti zhi zhen	3750
+结构体指针	jie gou ben zhi zhen	3750
 语法高亮	yu fa gao liang	3749
 上拉	shang la	3743
 并发控制	bing fa kong zhi	3743
@@ -948,7 +948,7 @@ sort: by_weight
 自定义异常	zi ding yi yi chang	3656
 最小堆	zui xiao dui	3654
 对象复制	dui xiang fu zhi	3653
-关键帧	guan jian zheng	3644
+关键帧	xiao jian zheng	3644
 绘制图形	hui zhi tu xing	3643
 打印日志	da yin ri zhi	3640
 查看源代码	cha kan yuan dai ma	3635
@@ -969,7 +969,7 @@ sort: by_weight
 程序调试	cheng xu tiao shi	3557
 分支合并	fen zhi he bing	3554
 调度程序	diao du cheng xu	3554
-被调用者	bei diao yong zhe	3553
+被调用者	bei tiao yong zhe	3553
 滑动窗口	hua dong chuang kou	3550
 单一职责原则	dan yi zhi ze yuan ze	3549
 进制转换	jin zhi zhuan huan	3548
@@ -1011,12 +1011,12 @@ sort: by_weight
 语言特性	yu yan te xing	3455
 享元模式	xiang yuan mo shi	3452
 单实例	dan shi li	3450
-二义性	er yi xing	3446
+二义性	er cha xing	3446
 编译参数	bian yi can shu	3443
 事务回滚	shi wu hui gun	3442
 名称空间	ming cheng kong jian	3442
 弱类型	ruo lei xing	3441
-模板方法模式	mu ban fang fa mo shi	3437
+模板方法模式	mo ban fang fa mo shi	3437
 子数组	zi shu zu	3436
 传递对象	chuan di dui xiang	3429
 代码规范	dai ma gui fan	3426
@@ -1072,14 +1072,14 @@ sort: by_weight
 编程能力	bian cheng neng li	3284
 解题报告	jie ti bao gao	3284
 二进制流	er jin zhi liu	3281
-模板方法	mu ban fang fa	3280
+模板方法	mo ban fang fa	3280
 灰度图	hui du tu	3278
 查询语言	cha xun yu yan	3276
 无法安装	wu fa an zhuang	3273
 计算表达式	ji suan biao da shi	3273
 系统库	xi tong ku	3266
 内连接	nei lian jie	3259
-方法重写	fang fa zhong xie	3256
+方法重写	fang fa chong xie	3256
 对象池	dui xiang chi	3254
 非对称加密	fei dui chen jia mi	3249
 类成员函数	lei cheng yuan han shu	3245
@@ -1098,7 +1098,7 @@ sort: by_weight
 字符指针	zi fu zhi zhen	3206
 搜索文件	sou suo wen jian	3206
 第三方框架	di san fang kuang jia	3205
-无符号数	wu fu hao shu	3202
+无符号数	mo fu hao shu	3202
 暴力枚举	bao li mei ju	3201
 外观模式	wai guan mo shi	3198
 插入节点	cha ru jie dian	3197
@@ -1129,7 +1129,7 @@ sort: by_weight
 可重入	ke zhong ru	3128
 连通图	lian tong tu	3119
 散列函数	san lie han shu	3116
-结构体数组	jie gou ti shu zu	3115
+结构体数组	jie gou ben shu zu	3115
 命令操作	ming ling cao zuo	3114
 表连接	biao lian jie	3109
 中文编码	zhong wen bian ma	3105
@@ -1150,7 +1150,7 @@ sort: by_weight
 造轮子	zao lun zi	3053
 类型转化	lei xing zhuan hua	3048
 匿名对象	ni ming dui xiang	3044
-模板函数	mu ban han shu	3042
+模板函数	mo ban han shu	3042
 自动挂载	zi dong gua zai	3039
 折半查找	zhe ban cha zhao	3034
 内存结构	nei cun jie gou	3031
@@ -1182,8 +1182,8 @@ sort: by_weight
 归档文件	gui dang wen jian	2944
 避免死锁	bi mian si suo	2942
 项目创建	xiang mu chuang jian	2942
-输出重定向	shu chu zhong ding xiang	2938
-无参构造函数	wu can gou zao han shu	2938
+输出重定向	shu chu chong ding xiang	2938
+无参构造函数	mo can gou zao han shu	2938
 原型对象	yuan xing dui xiang	2937
 线程间通信	xian cheng jian tong xin	2936
 转换方法	zhuan huan fang fa	2934
@@ -1195,7 +1195,7 @@ sort: by_weight
 坐标转换	zuo biao zhuan huan	2914
 非法字符	fei fa zi fu	2912
 编程经验	bian cheng jing yan	2911
-函数模板	han shu mu ban	2910
+函数模板	han shu mo ban	2910
 单进程	dan jin cheng	2909
 异步消息	yi bu xiao xi	2907
 视图解析器	shi tu jie xi qi	2906
@@ -1217,11 +1217,11 @@ sort: by_weight
 状态保存	zhuang tai bao cun	2849
 梯度下降法	ti du xia jiang fa	2845
 浅复制	qian fu zhi	2843
-回调机制	hui diao ji zhi	2840
+回调机制	hui tiao ji zhi	2840
 资源加载	zi yuan jia zai	2837
 后缀数组	hou zhui shu zu	2835
 声明式事务	sheng ming shi shi wu	2835
-广搜	guang sou	2832
+广搜	yan sou	2832
 完全背包	wan quan bei bao	2832
 文件传输协议	wen jian chuan shu xie yi	2832
 区间和	qu jian he	2830
@@ -1247,7 +1247,7 @@ sort: by_weight
 汇编程序	hui bian cheng xu	2781
 变量初始化	bian liang chu shi hua	2776
 屏幕密度	ping mu mi du	2775
-有向无环图	you xiang wu huan tu	2775
+有向无环图	you xiang mo huan tu	2775
 备忘录模式	bei wang lu mo shi	2774
 监督学习	jian du xue xi	2772
 不可变对象	bu ke bian dui xiang	2772
@@ -1261,7 +1261,7 @@ sort: by_weight
 开发测试	kai fa ce shi	2753
 初始化顺序	chu shi hua shun xu	2752
 常量指针	chang liang zhi zhen	2749
-多条语句	duo tiao yu ju	2747
+多条语句	duo di yu ju	2747
 二叉排序树	er cha pai xu shu	2744
 程序块	cheng xu kuai	2743
 批量删除	pi liang shan chu	2742
@@ -1383,7 +1383,7 @@ sort: by_weight
 函数返回值	han shu fan hui zhi	2510
 最小割	zui xiao ge	2509
 下标越界	xia biao yue jie	2509
-计算复杂度	ji suan fu za du	2509
+计算复杂度	ji suan fu duo du	2509
 连通分量	lian tong fen liang	2508
 角点	jiao dian	2505
 卷积神经网络	juan ji shen jing wang luo	2505
@@ -1399,9 +1399,9 @@ sort: by_weight
 图形库	tu xing ku	2484
 指针传递	zhi zhen chuan di	2484
 进程上下文	jin cheng shang xia wen	2482
-接口隔离原则	jie kou ge li yuan ze	2482
+接口隔离原则	jie kou ge chi yuan ze	2482
 二分搜索	er fen sou suo	2481
-长整数	zhang zheng shu	2478
+长整数	chang zheng shu	2478
 多线程安全	duo xian cheng an quan	2472
 文档流	wen dang liu	2470
 窗口标题	chuang kou biao ti	2469
@@ -1452,7 +1452,7 @@ sort: by_weight
 输入验证	shu ru yan zheng	2379
 屏幕坐标	ping mu zuo biao	2378
 编程环境	bian cheng huan jing	2378
-协同过滤	xie tong guo lv	2375
+协同过滤	xie tong guo lü	2375
 文件搜索	wen jian sou suo	2372
 版本兼容	ban ben jian rong	2371
 程序模块	cheng xu mo kuai	2371
@@ -1462,7 +1462,7 @@ sort: by_weight
 远程方法调用	yuan cheng fang fa diao yong	2364
 左外连接	zuo wai lian jie	2363
 控制变量	kong zhi bian liang	2361
-重载运算符	zhong zai yun suan fu	2361
+重载运算符	chong zai yun suan fu	2361
 测试驱动开发	ce shi qu dong kai fa	2360
 安装教程	an zhuang jiao cheng	2359
 自定义视图	zi ding yi shi tu	2359
@@ -1495,13 +1495,13 @@ sort: by_weight
 官方教程	guan fang jiao cheng	2306
 项目设置	xiang mu she zhi	2306
 中介者模式	zhong jie zhe mo shi	2304
-开发者账号	kai fa zhe zhang hao	2304
+开发者账号	jian fa zhe zhang hao	2304
 表关联	biao guan lian	2303
 挂起状态	gua qi zhuang tai	2300
 关于数据库	guan yu shu ju ku	2299
 虚基类	xu ji lei	2295
 函数表达式	han shu biao da shi	2295
-开发者工具	kai fa zhe gong ju	2292
+开发者工具	jian fa zhe gong ju	2292
 条件运算符	tiao jian yun suan fu	2291
 批量插入	pi liang cha ru	2290
 源代码分析	yuan dai ma fen xi	2290
@@ -1511,7 +1511,7 @@ sort: by_weight
 代码仓库	dai ma cang ku	2279
 内存对齐	nei cun dui qi	2279
 各种错误	ge zhong cuo wu	2270
-指针的指针	zhi zhen de zhi zhen	2268
+指针的指针	zhi zhen de	2268
 递归遍历	di gui bian li	2267
 隐藏域	yin cang yu	2265
 日志打印	ri zhi da yin	2264
@@ -1527,7 +1527,7 @@ sort: by_weight
 字符串类	zi fu chuan lei	2251
 通知中心	tong zhi zhong xin	2251
 框架设计	kuang jia she ji	2249
-括号匹配	kuo hao pi pei	2244
+括号匹配	gua hao pi pei	2244
 传递函数	chuan di han shu	2241
 批量更新	pi liang geng xin	2240
 粗粒度	cu li du	2239
@@ -1568,7 +1568,7 @@ sort: by_weight
 数据校验	shu ju jiao yan	2180
 数据组织	shu ju zu zhi	2177
 时间类型	shi jian lei xing	2177
-操作符重载	cao zuo fu zhong zai	2175
+操作符重载	cao zuo fu chong zai	2175
 值传递	zhi chuan di	2174
 表达式语言	biao da shi yu yan	2172
 交换排序	jiao huan pai xu	2169
@@ -1581,7 +1581,7 @@ sort: by_weight
 单调队列	dan diao dui lie	2164
 激活函数	ji huo han shu	2163
 强连通分量	qiang lian tong fen liang	2163
-命令行操作	ming ling xing cao zuo	2162
+命令行操作	ming ling hang cao zuo	2162
 使用教程	shi yong jiao cheng	2161
 使用例子	shi yong li zi	2160
 应用部署	ying yong bu shu	2160
@@ -1651,7 +1651,7 @@ sort: by_weight
 类型系统	lei xing xi tong	2079
 直接存取	zhi jie cun qu	2076
 线程中断	xian cheng zhong duan	2075
-标准模板库	biao zhun mu ban ku	2073
+标准模板库	biao zhun mo ban ku	2073
 匈牙利算法	xiong ya li suan fa	2072
 启动界面	qi dong jie mian	2069
 外键关联	wai jian guan lian	2067
@@ -1674,12 +1674,12 @@ sort: by_weight
 关联查询	guan lian cha xun	2044
 作用域链	zuo yong yu lian	2043
 稳定排序	wen ding pai xu	2042
-滑动条	hua dong tiao	2041
+滑动条	hua dong di	2041
 代码管理	dai ma guan li	2041
 初始序列	chu shi xu lie	2039
 异步加载图片	yi bu jia zai tu pian	2039
 反向传播	fan xiang chuan bo	2037
-无监督学习	wu jian du xue xi	2037
+无监督学习	mo jian du xue xi	2037
 参数估计	can shu gu ji	2036
 清除浮动	qing chu fu dong	2036
 延时加载	yan shi jia zai	2035
@@ -1698,7 +1698,7 @@ sort: by_weight
 热部署	re bu shu	2012
 代码托管	dai ma tuo guan	2012
 内联元素	nei lian yuan su	2011
-接口回调	jie kou hui diao	2011
+接口回调	jie kou hui tiao	2011
 精度问题	jing du wen ti	2011
 寻址方式	xun zhi fang shi	2010
 网络架构	wang luo jia gou	2008
@@ -1715,15 +1715,15 @@ sort: by_weight
 框架开发	kuang jia kai fa	1997
 布尔表达式	bu er biao da shi	1994
 随机数生成器	sui ji shu sheng cheng qi	1993
-重做日志	zhong zuo ri zhi	1989
+重做日志	chong zuo ri zhi	1989
 自动部署	zi dong bu shu	1984
 密码框	mi ma kuang	1983
 依赖倒置原则	yi lai dao zhi yuan ze	1983
 签名证书	qian ming zheng shu	1982
 移位操作	yi wei cao zuo	1981
-先验概率	xian yan gai lv	1979
+先验概率	xian yan gai lü	1979
 线程间的通信	xian cheng jian de tong xin	1976
-图形学	tu xing xue	1973
+图形学	tu xing xiao	1973
 程序运行时间	cheng xu yun xing shi jian	1970
 装饰器模式	zhuang shi qi mo shi	1968
 页面渲染	ye mian xuan ran	1967
@@ -1733,7 +1733,7 @@ sort: by_weight
 双缓冲	shuang huan chong	1961
 有序广播	you xu guang bo	1961
 版本冲突	ban ben chong tu	1961
-多重背包	duo zhong bei bao	1956
+多重背包	duo chong bei bao	1956
 映射函数	ying she han shu	1956
 同步函数	tong bu han shu	1955
 表达式计算	biao da shi ji suan	1955
@@ -1771,12 +1771,12 @@ sort: by_weight
 位域	wei yu	1906
 局部内部类	ju bu nei bu lei	1903
 控件属性	kong jian shu xing	1902
-代码重构	dai ma zhong gou	1901
+代码重构	dai ma chong gou	1901
 编程实践	bian cheng shi jian	1901
 网络框架	wang luo kuang jia	1901
 日期转换	ri qi zhuan huan	1900
 获取路径	huo qu lu jing	1898
-贪心策略	tan xin ce lve	1898
+贪心策略	tan xin ce lüe	1898
 代码行数	dai ma xing shu	1897
 自动构建	zi dong gou jian	1896
 自定义消息	zi ding yi xiao xi	1895
@@ -1809,7 +1809,7 @@ sort: by_weight
 数据库集群	shu ju ku ji qun	1864
 仿射变换	fang she bian huan	1859
 里氏替换原则	li shi ti huan yuan ze	1859
-用户标识	yong hu biao zhi	1857
+用户标识	yong hu biao shi	1857
 整型常量	zheng xing chang liang	1854
 线性渐变	xian xing jian bian	1850
 伪指令	wei zhi ling	1848
@@ -1882,7 +1882,7 @@ sort: by_weight
 反射技术	fan she ji shu	1760
 日期函数	ri qi han shu	1760
 帧布局	zheng bu ju	1757
-转义序列	zhuan yi xu lie	1757
+转义序列	zhuan cha xu lie	1757
 索引查找	suo yin cha zhao	1753
 字符处理	zi fu chu li	1752
 卷积核	juan ji he	1751
@@ -1943,7 +1943,7 @@ sort: by_weight
 二进制字符	er jin zhi zi fu	1691
 模块开发	mo kuai kai fa	1689
 静态绑定	jing tai bang ding	1689
-设备描述	she bei miao shu	1684
+设备描述	she yuan miao shu	1684
 内核驱动	nei he qu dong	1683
 字符串截取	zi fu chuan jie qu	1683
 传引用	chuan yin yong	1682
@@ -1953,7 +1953,7 @@ sort: by_weight
 注解配置	zhu jie pei zhi	1675
 栈和队列	zhan he dui lie	1672
 编程指南	bian cheng zhi nan	1672
-最长公共子串	zui zhang gong gong zi chuan	1672
+最长公共子串	zui chang gong gong zi chuan	1672
 零配置	ling pei zhi	1671
 高德地图	gao de di tu	1671
 无法更新	wu fa geng xin	1670
@@ -1979,7 +1979,7 @@ sort: by_weight
 领域模型	ling yu mo xing	1639
 双向队列	shuang xiang dui lie	1636
 页面刷新	ye mian shua xin	1636
-长按事件	zhang an shi jian	1634
+长按事件	chang an shi jian	1634
 网络协议栈	wang luo xie yi zhan	1634
 避免错误	bi mian cuo wu	1632
 文件浏览器	wen jian liu lan qi	1631
@@ -1988,7 +1988,7 @@ sort: by_weight
 异常机制	yi chang ji zhi	1623
 记录路径	ji lu lu jing	1623
 小端模式	xiao duan mo shi	1621
-生成策略	sheng cheng ce lve	1621
+生成策略	sheng cheng ce lüe	1621
 函数用法	han shu yong fa	1620
 端口转发	duan kou zhuan fa	1620
 概率密度函数	gai lv mi du han shu	1620
@@ -2032,7 +2032,7 @@ sort: by_weight
 访问类型	fang wen lei xing	1580
 双指针	shuang zhi zhen	1579
 固定宽度	gu ding kuan du	1579
-无刷新	wu shua xin	1578
+无刷新	mo shua xin	1578
 企业开发	qi ye kai fa	1578
 导航菜单	dao hang cai dan	1577
 时间格式	shi jian ge shi	1575
@@ -2049,7 +2049,7 @@ sort: by_weight
 跨域请求	kua yu qing qiu	1562
 日志工具	ri zhi gong ju	1561
 渐变动画	jian bian dong hua	1560
-顶点着色器	ding dian zhao se qi	1559
+顶点着色器	ding dian zhe se qi	1559
 编辑页面	bian ji ye mian	1558
 算法类	suan fa lei	1557
 静态域	jing tai yu	1556
@@ -2139,12 +2139,12 @@ sort: by_weight
 尾插法	wei cha fa	1472
 压缩存储	ya suo cun chu	1471
 阅读程序	yue du cheng xu	1471
-密钥长度	mi yao chang du	1470
+密钥长度	mi yue chang du	1470
 随机梯度下降	sui ji ti du xia jiang	1470
 滑动删除	hua dong shan chu	1469
 表视图	biao shi tu	1465
 标准输出流	biao zhun shu chu liu	1465
-同源策略	tong yuan ce lve	1463
+同源策略	tong yuan ce lüe	1463
 集合运算	ji he yun suan	1463
 更新索引	geng xin suo yin	1461
 各种排序	ge zhong pai xu	1459
@@ -2181,7 +2181,7 @@ sort: by_weight
 网站性能	wang zhan xing neng	1426
 父级元素	fu ji yuan su	1425
 控件类	kong jian lei	1423
-模板库	mu ban ku	1423
+模板库	mo ban ku	1423
 系统编程	xi tong bian cheng	1421
 八进制数字	ba jin zhi shu zi	1421
 分布式服务	fen bu shi fu wu	1421
@@ -2207,7 +2207,7 @@ sort: by_weight
 签名算法	qian ming suan fa	1409
 内存屏障	nei cun ping zhang	1405
 概率密度	gai lv mi du	1402
-定义数据类型	ding yi shu ju lei xing	1401
+定义数据类型	ding cha shu ju lei xing	1401
 极光推送	ji guang tui song	1400
 动态规划法	dong tai gui hua fa	1400
 分布式锁	fen bu shi suo	1399
@@ -2267,7 +2267,7 @@ sort: by_weight
 批量修改	pi liang xiu gai	1350
 日志框架	ri zhi kuang jia	1350
 流式布局	liu shi bu ju	1350
-最长路	zui zhang lu	1349
+最长路	zui chang lu	1349
 自动打包	zi dong da bao	1348
 单一职责	dan yi zhi ze	1347
 内存计算	nei cun ji suan	1345
@@ -2279,8 +2279,8 @@ sort: by_weight
 矩阵计算	ju zhen ji suan	1338
 内存共享	nei cun gong xiang	1336
 分享功能	fen xiang gong neng	1336
-汉字编码	han zi bian ma	1336
-函数回调	han shu hui diao	1334
+汉字编码	nv zi bian ma	1336
+函数回调	han shu hui tiao	1334
 有名管道	you ming guan dao	1334
 复杂数据类型	fu za shu ju lei xing	1334
 带外数据	dai wai shu ju	1333
@@ -2312,7 +2312,7 @@ sort: by_weight
 日期选择	ri qi xuan ze	1313
 有序链表	you xu lian biao	1311
 语法解析	yu fa jie xi	1308
-模板技术	mu ban ji shu	1307
+模板技术	mo ban ji shu	1307
 透视投影	tou shi tou ying	1307
 写时复制	xie shi fu zhi	1306
 图片裁剪	tu pian cai jian	1306
@@ -2322,9 +2322,9 @@ sort: by_weight
 黑马程序员	hei ma cheng xu yuan	1305
 触屏事件	chu ping shi jian	1304
 分组查询	fen zu cha xun	1303
-接口定义语言	jie kou ding yi yu yan	1301
+接口定义语言	jie kou ding cha yu yan	1301
 备份恢复	bei fen hui fu	1299
-忽略文件	hu lve wen jian	1299
+忽略文件	hu lüe wen jian	1299
 搭建开发环境	da jian kai fa huan jing	1299
 苹果官方文档	ping guo guan fang wen dang	1299
 软件结构	ruan jian jie gou	1298
@@ -2390,8 +2390,8 @@ sort: by_weight
 托管代码	tuo guan dai ma	1260
 事件拦截	shi jian lan jie	1258
 相对坐标	xiang dui zuo biao	1258
-关键帧动画	guan jian zheng dong hua	1258
-开发者社区	kai fa zhe she qu	1258
+关键帧动画	xiao jian zheng dong hua	1258
+开发者社区	jian fa zhe she qu	1258
 随机算法	sui ji suan fa	1257
 多文件上传	duo wen jian shang chuan	1257
 免密码	mian mi ma	1256
@@ -2409,7 +2409,7 @@ sort: by_weight
 抽象函数	chou xiang han shu	1242
 遍历二叉树	bian li er cha shu	1242
 过期数据	guo qi shu ju	1241
-数据过滤	shu ju guo lv	1240
+数据过滤	shu ju guo lü	1240
 递归计算	di gui ji suan	1240
 限制输入	xian zhi shu ru	1240
 移动应用开发	yi dong ying yong kai fa	1239
@@ -2443,7 +2443,7 @@ sort: by_weight
 简单排序	jian dan pai xu	1212
 哈夫曼编码	ha fu man bian ma	1212
 预处理程序	yu chu li cheng xu	1212
-无密码登录	wu mi ma deng lu	1211
+无密码登录	mo mi ma deng lu	1211
 向量化	xiang liang hua	1209
 运行循环	yun xing xun huan	1209
 遍历文件	bian li wen jian	1209
@@ -2522,10 +2522,10 @@ sort: by_weight
 原型继承	yuan xing ji cheng	1153
 算法研究	suan fa yan jiu	1152
 错误记录	cuo wu ji lu	1152
-最长公共前缀	zui zhang gong gong qian zhui	1152
+最长公共前缀	zui chang gong gong qian zhui	1152
 表示图	biao shi tu	1151
 安装文档	an zhuang wen dang	1151
-密钥交换	mi yao jiao huan	1151
+密钥交换	mi yue jiao huan	1151
 详细教程	xiang xi jiao cheng	1151
 交互图	jiao hu tu	1150
 回退栈	hui tui zhan	1150
@@ -2533,12 +2533,12 @@ sort: by_weight
 图像检索	tu xiang jian suo	1150
 多数据源	duo shu ju yuan	1150
 颜色选择器	yan se xuan ze qi	1150
-高斯滤波	gao si lv bo	1149
+高斯滤波	gao si lü bo	1149
 响应式设计	xiang ying shi she ji	1148
-最长回文子串	zui zhang hui wen zi chuan	1148
+最长回文子串	zui chang hui wen zi chuan	1148
 可选值	ke xuan zhi	1147
 旋转变换	xuan zhuan bian huan	1147
-系统调度	xi tong diao du	1147
+系统调度	xi tong tiao du	1147
 服务器部署	fu wu qi bu shu	1146
 富文本编辑器	fu wen ben bian ji qi	1146
 卡特兰数	ka te lan shu	1145
@@ -2557,7 +2557,7 @@ sort: by_weight
 交叉连接	jiao cha lian jie	1131
 多租户	duo zu hu	1130
 权限分配	quan xian fen pei	1130
-主键生成策略	zhu jian sheng cheng ce lve	1129
+主键生成策略	zhu jian sheng cheng ce lüe	1129
 内核栈	nei he zhan	1128
 常指针	chang zhi zhen	1127
 关联映射	guan lian ying she	1125
@@ -2585,7 +2585,7 @@ sort: by_weight
 预编译头文件	yu bian yi tou wen jian	1112
 编程框架	bian cheng kuang jia	1111
 完成端口	wan cheng duan kou	1110
-移动开发者	yi dong kai fa zhe	1110
+移动开发者	yi dong jian fa zhe	1110
 自连接	zi lian jie	1109
 矩阵操作	ju zhen cao zuo	1109
 函数分析	han shu fen xi	1107
@@ -2593,7 +2593,7 @@ sort: by_weight
 小波变换	xiao bo bian huan	1103
 数字识别	shu zi shi bie	1102
 使用帮助	shi yong bang zhu	1100
-代码模板	dai ma mu ban	1099
+代码模板	dai ma mo ban	1099
 编码表示	bian ma biao shi	1099
 分布式消息	fen bu shi xiao xi	1099
 区间修改	qu jian xiu gai	1098
@@ -2608,7 +2608,7 @@ sort: by_weight
 项目架构	xiang mu jia gou	1091
 硬件电路	ying jian dian lu	1090
 虚拟存储器	xu ni cun chu qi	1090
-内存分配策略	nei cun fen pei ce lve	1090
+内存分配策略	nei cun fen pei ce lüe	1090
 并行算法	bing xing suan fa	1088
 混淆代码	hun xiao dai ma	1088
 匿名方法	ni ming fang fa	1087
@@ -2656,7 +2656,7 @@ sort: by_weight
 技术难点	ji shu nan dian	1059
 权限系统	quan xian xi tong	1059
 构造类型	gou zao lei xing	1059
-弹出层	dan chu ceng	1058
+弹出层	tan chu ceng	1058
 素数表	su shu biao	1058
 极客学院	ji ke xue yuan	1058
 启动页	qi dong ye	1057
@@ -2665,14 +2665,14 @@ sort: by_weight
 消息路由	xiao xi lu you	1057
 原始套接字	yuan shi tao jie zi	1057
 外部排序	wai bu pai xu	1056
-命令行接口	ming ling xing jie kou	1056
+命令行接口	ming ling hang jie kou	1056
 串行通信	chuan xing tong xin	1055
 简单计算	jian dan ji suan	1055
 大数据平台	da shu ju ping tai	1055
 封装库	feng zhuang ku	1052
 启动图片	qi dong tu pian	1052
 层次模型	ceng ci mo xing	1052
-命令行编译	ming ling xing bian yi	1051
+命令行编译	ming ling hang bian yi	1051
 训练分类器	xun lian fen lei qi	1051
 无法登陆	wu fa deng lu	1050
 版本回退	ban ben hui tui	1048
@@ -2698,7 +2698,7 @@ sort: by_weight
 异步传输	yi bu chuan shu	1034
 内容协商	nei rong xie shang	1032
 泛化关系	fan hua guan xi	1032
-复杂度分析	fu za du fen xi	1032
+复杂度分析	fu duo du fen xi	1032
 时间服务器	shi jian fu wu qi	1032
 预编译头	yu bian yi tou	1031
 字典排序	zi dian pai xu	1030
@@ -2712,7 +2712,7 @@ sort: by_weight
 数学期望	shu xue qi wang	1024
 系数矩阵	xi shu ju zhen	1023
 最优路径	zui you lu jing	1021
-微信开放平台	wei xin kai fang ping tai	1021
+微信开放平台	wei xin jian fang ping tai	1021
 回归树	hui gui shu	1020
 图形编程	tu xing bian cheng	1018
 屏幕宽高	ping mu kuan gao	1018
@@ -2734,9 +2734,9 @@ sort: by_weight
 七牛	qi niu	1010
 动态联编	dong tai lian bian	1010
 自动化部署	zi dong hua bu shu	1008
-模板匹配	mu ban pi pei	1007
+模板匹配	mo ban pi pei	1007
 链接表	lian jie biao	1006
-开发者模式	kai fa zhe mo shi	1006
+开发者模式	jian fa zhe mo shi	1006
 颜色代码	yan se dai ma	1005
 核心动画	he xin dong hua	1003
 格式化字符串	ge shi hua zi fu chuan	1003
@@ -2751,7 +2751,7 @@ sort: by_weight
 显示转换	xian shi zhuan huan	995
 预处理命令	yu chu li ming ling	995
 词性标注	ci xing biao zhu	994
-数字标识	shu zi biao zhi	993
+数字标识	shu zi biao shi	993
 完整性检查	wan zheng xing jian cha	993
 反向传播算法	fan xiang chuan bo suan fa	993
 图片轮播	tu pian lun bo	992
@@ -2764,7 +2764,7 @@ sort: by_weight
 日期控件	ri qi kong jian	988
 模块安装	mo kuai an zhuang	988
 贝叶斯网络	bei ye si wang luo	988
-模板模式	mu ban mo shi	987
+模板模式	mo ban mo shi	987
 几何变换	ji he bian huan	985
 数据挖掘算法	shu ju wa jue suan fa	984
 多叉树	duo cha shu	983
@@ -2801,7 +2801,7 @@ sort: by_weight
 先来先服务	xian lai xian fu wu	963
 成员类	cheng yuan lei	961
 多媒体开发	duo mei ti kai fa	961
-包过滤	bao guo lv	959
+包过滤	bao guo lü	959
 组合问题	zu he wen ti	959
 懒汉模式	lan han mo shi	958
 模式分类	mo shi fen lei	957
@@ -2817,9 +2817,9 @@ sort: by_weight
 免密码登录	mian mi ma deng lu	953
 图片旋转	tu pian xuan zhuan	951
 接口开发	jie kou kai fa	951
-长轮询	zhang lun xun	950
+长轮询	chang lun xun	950
 公共子序列	gong gong zi xu lie	950
-搜索策略	sou suo ce lve	949
+搜索策略	sou suo ce lüe	949
 索引优化	suo yin you hua	948
 三大框架	san da kuang jia	947
 分布计算	fen bu ji suan	946
@@ -2883,9 +2883,9 @@ sort: by_weight
 系统部署	xi tong bu shu	916
 布局优化	bu ju you hua	915
 非递归遍历	fei di gui bian li	915
-酷壳	ku ke	914
+酷壳	ku que	914
 二路归并	er lu gui bing	913
-分治策略	fen zhi ce lve	913
+分治策略	fen zhi ce lüe	913
 三方库	san fang ku	912
 悬浮窗	xuan fu chuang	912
 查表法	cha biao fa	912
@@ -2918,9 +2918,9 @@ sort: by_weight
 回文字符串	hui wen zi fu chuan	902
 动效	dong xiao	901
 进程池	jin cheng chi	901
-变长参数	bian zhang can shu	901
+变长参数	bian chang can shu	901
 软件构建	ruan jian gou jian	901
-开发者证书	kai fa zhe zheng shu	901
+开发者证书	jian fa zhe zheng shu	901
 计算机性能	ji suan ji xing neng	901
 二分查找算法	er fen cha zhao suan fa	901
 并发模型	bing fa mo xing	900
@@ -2967,7 +2967,7 @@ sort: by_weight
 通信连接	tong xin lian jie	882
 跑马灯效果	pao ma deng xiao guo	882
 项目一	xiang mu yi	881
-最长子串	zui zhang zi chuan	881
+最长子串	zui chang zi chuan	881
 项目经历	xiang mu jing li	881
 异常问题	yi chang wen ti	880
 慢启动	man qi dong	879
@@ -2978,7 +2978,7 @@ sort: by_weight
 移位运算符	yi wei yun suan fu	878
 问题解决方法	wen ti jie jue fang fa	878
 情感分析	qing gan fen xi	874
-协同过滤算法	xie tong guo lv suan fa	874
+协同过滤算法	xie tong guo lü suan fa	874
 数字段	shu zi duan	873
 推送证书	tui song zheng shu	873
 存档文件	cun dang wen jian	872
@@ -3046,7 +3046,7 @@ sort: by_weight
 回溯算法	hui su suan fa	842
 开源工程	kai yuan gong cheng	842
 简单算法	jian dan suan fa	842
-斜率优化	xie lv you hua	841
+斜率优化	xie lü you hua	841
 错误分析	cuo wu fen xi	841
 博客系统	bo ke xi tong	840
 大端字节序	da duan zi jie xu	840
@@ -3142,7 +3142,7 @@ sort: by_weight
 决策函数	jue ce han shu	787
 多次点击	duo ci dian ji	787
 移动代码	yi dong dai ma	787
-预定义变量	yu ding yi bian liang	787
+预定义变量	yu ding cha bian liang	787
 多对象	duo dui xiang	786
 异常安全	yi chang an quan	785
 问题排查	wen ti pai cha	785
@@ -3196,7 +3196,7 @@ sort: by_weight
 系统架构设计	xi tong jia gou she ji	768
 响应者链	xiang ying zhe lian	767
 基础工具	ji chu gong ju	767
-机房重构	ji fang zhong gou	767
+机房重构	ji fang chong gou	767
 数据库环境	shu ju ku huan jing	767
 批量下载	pi liang xia zai	766
 批处理系统	pi chu li xi tong	766
@@ -3206,9 +3206,9 @@ sort: by_weight
 复数类	fu shu lei	763
 对象归档	dui xiang gui dang	763
 科学上网	ke xue shang wang	763
-弹出式菜单	dan chu shi cai dan	763
+弹出式菜单	tan chu shi cai dan	763
 主题模型	zhu ti mo xing	762
-粘贴板	zhan tie ban	761
+粘贴板	nian tie ban	761
 系统相册	xi tong xiang ce	760
 矩阵转置	ju zhen zhuan zhi	758
 研发过程	yan fa guo cheng	758
@@ -3229,9 +3229,9 @@ sort: by_weight
 熵编码	shang bian ma	749
 系统声音	xi tong sheng yin	749
 键盘隐藏	jian pan yin cang	749
-圆形进度条	yuan xing jin du tiao	749
+圆形进度条	yuan xing jin du di	749
 滑动冲突	hua dong chong tu	748
-重置密码	zhong zhi mi ma	747
+重置密码	chong zhi mi ma	747
 原型图	yuan xing tu	746
 代码风格	dai ma feng ge	746
 新控件	xin kong jian	745
@@ -3346,11 +3346,11 @@ sort: by_weight
 信号与槽	xin hao yu cao	701
 网络命令	wang luo ming ling	701
 安全套接层	an quan tao jie ceng	701
-位标识	wei biao zhi	700
+位标识	wei biao shi	700
 手势识别器	shou shi shi bie qi	700
 多网卡	duo wang ka	699
 合成模式	he cheng mo shi	699
-结构体排序	jie gou ti pai xu	699
+结构体排序	jie gou ben pai xu	699
 隐藏软键盘	yin cang ruan jian pan	699
 新建窗口	xin jian chuang kou	698
 结对编程	jie dui bian cheng	698
@@ -3359,8 +3359,8 @@ sort: by_weight
 模态视图	mo tai shi tu	696
 半监督学习	ban jian du xue xi	696
 列地址	lie di zhi	695
-括号序列	kuo hao xu lie	695
-汉明距离	han ming ju li	695
+括号序列	gua hao xu lie	695
+汉明距离	nv ming ju li	695
 甘特图	gan te tu	694
 跳跃表	tiao yue biao	694
 哈希冲突	ha xi chong tu	694
@@ -3371,7 +3371,7 @@ sort: by_weight
 内存越界	nei cun yue jie	692
 外部样式	wai bu yang shi	692
 数列排序	shu lie pai xu	692
-测试策略	ce shi ce lve	692
+测试策略	ce shi ce lüe	692
 指令寄存器	zhi ling ji cun qi	692
 值对象	zhi dui xiang	691
 刷新显示	shua xin xian shi	691
@@ -3396,7 +3396,7 @@ sort: by_weight
 乱码解决	luan ma jie jue	682
 高级技巧	gao ji ji qiao	682
 多条件查询	duo tiao jian cha xun	682
-最大团	zui da tuan	681
+最大团	zui da qiu	681
 日期计算	ri qi ji suan	681
 自动登陆	zi dong deng lu	681
 模拟点击	mo ni dian ji	680
@@ -3410,7 +3410,7 @@ sort: by_weight
 类型形参	lei xing xing can	678
 顺序存取	shun xu cun qu	677
 性能计数器	xing neng ji shu qi	677
-软件体系结构	ruan jian ti xi jie gou	677
+软件体系结构	ruan jian ben xi jie gou	677
 动归	dong gui	676
 参数空间	can shu kong jian	676
 进程通讯	jin cheng tong xun	676
@@ -3420,10 +3420,10 @@ sort: by_weight
 串口调试	chuan kou tiao shi	674
 稀疏编码	xi shu bian ma	674
 语言程序	yu yan cheng xu	674
-重写规则	zhong xie gui ze	674
+重写规则	chong xie gui ze	674
 源码管理	yuan ma guan li	673
 链表排序	lian biao pai xu	673
-通用模板	tong yong mu ban	672
+通用模板	tong yong mo ban	672
 自动化运维	zi dong hua yun wei	672
 计算复杂性	ji suan fu za xing	672
 质因数分解	zhi yin shu fen jie	672
@@ -3431,7 +3431,7 @@ sort: by_weight
 小应用程序	xiao ying yong cheng xu	670
 本地推送	ben di tui song	669
 图形用户接口	tu xing yong hu jie kou	669
-长链接	zhang lian jie	668
+长链接	chang lian jie	668
 数据路径	shu ju lu jing	668
 区块链	qu kuai lian	667
 函数传参	han shu chuan can	667
@@ -3478,7 +3478,7 @@ sort: by_weight
 三角剖分	san jiao pou fen	654
 单条语句	dan tiao yu ju	654
 稀疏表示	xi shu biao shi	654
-长按手势	zhang an shou shi	654
+长按手势	chang an shou shi	654
 加密结果	jia mi jie guo	653
 数据操纵	shu ju cao zong	653
 层次聚类	ceng ci ju lei	652
@@ -3512,7 +3512,7 @@ sort: by_weight
 系统构建	xi tong gou jian	643
 七层协议	qi ceng xie yi	642
 圆形菜单	yuan xing cai dan	642
-最长回文串	zui zhang hui wen chuan	642
+最长回文串	zui chang hui wen chuan	642
 结构化编程	jie gou hua bian cheng	642
 网站部署	wang zhan bu shu	641
 禁止输入	jin zhi shu ru	640
@@ -3564,7 +3564,7 @@ sort: by_weight
 分支预测	fen zhi yu ce	620
 前向声明	qian xiang sheng ming	620
 大数据存储	da shu ju cun chu	620
-重定向符号	zhong ding xiang fu hao	619
+重定向符号	chong ding xiang fu hao	619
 项目应用	xiang mu ying yong	618
 默认按钮	mo ren an niu	618
 对称密码	dui chen mi ma	617
@@ -3608,15 +3608,15 @@ sort: by_weight
 方向传感器	fang xiang chuan gan qi	605
 允许中断	yun xu zhong duan	604
 混合应用	hun he ying yong	604
-图像滤波	tu xiang lv bo	603
+图像滤波	tu xiang lü bo	603
 微信登录	wei xin deng lu	603
 泛型算法	fan xing suan fa	603
 第三方类	di san fang lei	603
 服务器测试	fu wu qi ce shi	602
 图的存储	tu de cun chu	601
 类簇	lei cu	600
-会话密钥	hui hua mi yao	600
-文档模板	wen dang mu ban	600
+会话密钥	hui hua mi yue	600
+文档模板	wen dang mo ban	600
 线程编程	xian cheng bian cheng	600
 标准错误流	biao zhun cuo wu liu	600
 非托管代码	fei tuo guan dai ma	600
@@ -3626,7 +3626,7 @@ sort: by_weight
 冒泡算法	mao pao suan fa	597
 开机动画	kai ji dong hua	597
 约数个数	yue shu ge shu	596
-独立开发者	du li kai fa zhe	596
+独立开发者	du li jian fa zhe	596
 行为树	xing wei shu	595
 设备定义	she bei ding yi	595
 最短路算法	zui duan lu suan fa	595
@@ -3651,7 +3651,7 @@ sort: by_weight
 文件空间	wen jian kong jian	587
 第三方接口	di san fang jie kou	587
 尚学堂	shang xue tang	586
-粒子滤波	li zi lv bo	586
+粒子滤波	li zi lü bo	586
 辗转相除	zhan zhuan xiang chu	586
 进程线程	jin cheng xian cheng	586
 自定义指令	zi ding yi zhi ling	585
@@ -3673,7 +3673,7 @@ sort: by_weight
 声卡驱动	sheng ka qu dong	579
 开发资料	kai fa zi liao	579
 判别分析	pan bie fen xi	578
-无参函数	wu can han shu	578
+无参函数	mo can han shu	578
 单调队列优化	dan diao dui lie you hua	578
 冷备份	leng bei fen	577
 划分树	hua fen shu	577
@@ -3713,7 +3713,7 @@ sort: by_weight
 旋转卡壳	xuan zhuan qia ke	568
 最优匹配	zui you pi pei	568
 数据库框架	shu ju ku kuang jia	568
-算术操作符	suan shu cao zuo fu	568
+算术操作符	suan zhu cao zuo fu	568
 接口描述语言	jie kou miao shu yu yan	568
 软件开发方法	ruan jian kai fa fang fa	568
 基于特征	ji yu te zheng	567
@@ -3733,7 +3733,7 @@ sort: by_weight
 模拟过程	mo ni guo cheng	564
 二进制大对象	er jin zhi da dui xiang	564
 尺取法	chi qu fa	563
-对象标识符	dui xiang biao zhi fu	563
+对象标识符	dui xiang biao shi fu	563
 文件上传下载	wen jian shang chuan xia zai	563
 列表解析	lie biao jie xi	562
 布局动画	bu ju dong hua	562
@@ -3759,7 +3759,7 @@ sort: by_weight
 插件库	cha jian ku	555
 动态代理模式	dong tai dai li mo shi	555
 类型约束	lei xing yue shu	554
-循环展开	xun huan zhan kai	553
+循环展开	xun huan zhan jian	553
 序列帧	xu lie zheng	551
 嵌套类型	qian tao lei xing	551
 苹果审核	ping guo shen he	551
@@ -3774,10 +3774,10 @@ sort: by_weight
 横屏竖屏	heng ping shu ping	549
 静态链表	jing tai lian biao	549
 时间选择器	shi jian xuan ze qi	548
-似然函数	shi ran han shu	547
-后台作业	hou tai zuo ye	546
+似然函数	si ran han shu	547
+后台作业	hou tai zuo qiu	546
 哈希查找	ha xi cha zhao	546
-文件拖拽	wen jian tuo zhuai	546
+文件拖拽	wen jian tuo ye	546
 起始目录	qi shi mu lu	546
 鼠标坐标	shu biao zuo biao	546
 分数规划	fen shu gui hua	545
@@ -3823,13 +3823,13 @@ sort: by_weight
 动态部署	dong tai bu shu	531
 表达式树	biao da shi shu	531
 批量插入数据	pi liang cha ru shu ju	531
-布隆过滤器	bu long guo lv qi	530
-条件逻辑	tiao jian luo ji	529
+布隆过滤器	bu long guo lü qi	530
+条件逻辑	di jian luo ji	529
 访问授权	fang wen shou quan	528
 交叉工具链	jiao cha gong ju lian	528
 最大子序列和	zui da zi xu lie he	528
 文本解析	wen ben jie xi	527
-注释模板	zhu shi mu ban	527
+注释模板	zhu shi mo ban	527
 系统调试	xi tong tiao shi	527
 随机噪声	sui ji zao sheng	527
 进程调度算法	jin cheng diao du suan fa	527
@@ -3843,7 +3843,7 @@ sort: by_weight
 最优二叉树	zui you er cha shu	523
 共享名	gong xiang ming	522
 下拉加载	xia la jia zai	522
-网络体系结构	wang luo ti xi jie gou	522
+网络体系结构	wang luo ben xi jie gou	522
 画图板	hua tu ban	521
 类型域	lei xing yu	521
 文档翻译	wen dang fan yi	521
@@ -3876,7 +3876,7 @@ sort: by_weight
 评价函数	ping jia han shu	513
 启发式方法	qi fa shi fang fa	513
 访问令牌	fang wen ling pai	512
-文件重定向	wen jian zhong ding xiang	512
+文件重定向	wen jian chong ding xiang	512
 选择排序法	xuan ze pai xu fa	512
 多元线性回归	duo yuan xian xing hui gui	512
 页帧	ye zheng	511
@@ -3918,7 +3918,7 @@ sort: by_weight
 线性判别分析	xian xing pan bie fen xi	502
 子方法	zi fang fa	501
 在线编程	zai xian bian cheng	501
-排序策略	pai xu ce lve	501
+排序策略	pai xu ce lüe	501
 算法理论	suan fa li lun	501
 按值传递	an zhi chuan di	500
 逻辑划分	luo ji hua fen	500
@@ -3928,7 +3928,7 @@ sort: by_weight
 切换标签	qie huan biao qian	499
 前端工具	qian duan gong ju	499
 多媒体处理	duo mei ti chu li	499
-最长链	zui zhang lian	498
+最长链	zui chang lian	498
 标准对象	biao zhun dui xiang	498
 蓝牙通信	lan ya tong xin	498
 加密解密算法	jia mi jie mi suan fa	498
@@ -3946,7 +3946,7 @@ sort: by_weight
 文档检索	wen dang jian suo	495
 协作对象	xie zuo dui xiang	494
 混合开发	hun he kai fa	494
-滤波算法	lv bo suan fa	493
+滤波算法	lü bo suan fa	493
 自动轮播	zi dong lun bo	493
 停止信号	ting zhi xin hao	492
 图片滚动	tu pian gun dong	492
@@ -3998,7 +3998,7 @@ sort: by_weight
 元数据库	yuan shu ju ku	481
 分组背包	fen zu bei bao	481
 项目流程	xiang mu liu cheng	481
-链剖	lian pou	480
+链剖	lian pao	480
 子网划分	zi wang hua fen	480
 高效编程	gao xiao bian cheng	480
 时间复杂性	shi jian fu za xing	480
@@ -4010,7 +4010,7 @@ sort: by_weight
 马尔科夫链	ma er ke fu lian	479
 插值器	cha zhi qi	478
 图片管理	tu pian guan li	478
-离屏渲染	li ping xuan ran	478
+离屏渲染	chi ping xuan ran	478
 自定义背景	zi ding yi bei jing	478
 三目运算	san mu yun suan	477
 引导页面	yin dao ye mian	477
@@ -4029,7 +4029,7 @@ sort: by_weight
 搜索表	sou suo biao	472
 完全问题	wan quan wen ti	472
 开机自启	kai ji zi qi	472
-线性滤波	xian xing lv bo	472
+线性滤波	xian xing lü bo	472
 编程新手	bian cheng xin shou	472
 采样周期	cai yang zhou qi	472
 低功耗蓝牙	di gong hao lan ya	472
@@ -4041,7 +4041,7 @@ sort: by_weight
 切面编程	qie mian bian cheng	471
 实践项目	shi jian xiang mu	471
 邮局协议	you ju xie yi	471
-模板元编程	mu ban yuan bian cheng	471
+模板元编程	mo ban yuan bian cheng	471
 点对点协议	dian dui dian xie yi	471
 代码评审	dai ma ping shen	470
 关闭句柄	guan bi ju bing	470
@@ -4052,7 +4052,7 @@ sort: by_weight
 平台搭建	ping tai da jian	469
 过程语言	guo cheng yu yan	469
 分布式技术	fen bu shi ji shu	469
-树剖	shu pou	468
+树剖	shu pao	468
 前缀树	qian zhui shu	468
 华清远见	hua qing yuan jian	468
 报文交换	bao wen jiao huan	468
@@ -4079,8 +4079,8 @@ sort: by_weight
 地址字段	di zhi zi duan	461
 框架应用	kuang jia ying yong	461
 图书管理系统	tu shu guan li xi tong	461
-回调模式	hui diao mo shi	460
-最长回文	zui zhang hui wen	460
+回调模式	hui tiao mo shi	460
+最长回文	zui chang hui wen	460
 相机标定	xiang ji biao ding	460
 自动建表	zi dong jian biao	460
 素因子分解	su yin zi fen jie	458
@@ -4125,11 +4125,11 @@ sort: by_weight
 分辨率适配	fen bian lv shi pei	448
 本地持久化	ben di chi jiu hua	448
 图像拼接	tu xiang pin jie	447
-网站模板	wang zhan mu ban	447
+网站模板	wang zhan mo ban	447
 极角排序	ji jiao pai xu	446
 背景建模	bei jing jian mo	446
 文件子系统	wen jian zi xi tong	446
-无线网络连接	wu xian wang luo lian jie	446
+无线网络连接	mo xian wang luo lian jie	446
 模版方法模式	mo ban fang fa mo shi	446
 内像素	nei xiang su	445
 搭建网站	da jian wang zhan	445
@@ -4185,7 +4185,7 @@ sort: by_weight
 动态优先级	dong tai you xian ji	434
 计算机书籍	ji suan ji shu ji	434
 四边形不等式	si bian xing bu deng shi	434
-主密钥	zhu mi yao	433
+主密钥	zhu mi yue	433
 深克隆	shen ke long	433
 启发式合并	qi fa shi he bing	433
 伴生对象	ban sheng dui xiang	432
@@ -4204,14 +4204,14 @@ sort: by_weight
 树形控件	shu xing kong jian	430
 订票系统	ding piao xi tong	430
 多道程序设计	duo dao cheng xu she ji	430
-数据泵	shu ju beng	429
+数据泵	shu ju bang	429
 纠错码	jiu cuo ma	429
 保留小数	bao liu xiao shu	429
 算法分类	suan fa fen lei	429
 系统移植	xi tong yi zhi	429
 系统签名	xi tong qian ming	429
 七牛云存储	qi niu yun cun chu	429
-可变长参数	ke bian zhang can shu	428
+可变长参数	ke bian chang can shu	428
 隐藏标题栏	yin cang biao ti lan	428
 八叉树	ba cha shu	427
 谱聚类	pu ju lei	427
@@ -4236,7 +4236,7 @@ sort: by_weight
 边缘像素	bian yuan xiang su	424
 白话经典算法	bai hua jing dian suan fa	424
 网络时间协议	wang luo shi jian xie yi	424
-双向广搜	shuang xiang guang sou	423
+双向广搜	shuang xiang yan sou	423
 工具配置	gong ju pei zhi	423
 强连通分支	qiang lian tong fen zhi	423
 简单计算器	jian dan ji suan qi	423
@@ -4253,7 +4253,7 @@ sort: by_weight
 存储媒体	cun chu mei ti	420
 二维线段树	er wei xian duan shu	420
 概念数据模型	gai nian shu ju mo xing	420
-系统体系结构	xi tong ti xi jie gou	420
+系统体系结构	xi tong ben xi jie gou	420
 最优化算法	zui you hua suan fa	419
 颜色直方图	yan se zhi fang tu	419
 反编码	fan bian ma	418
@@ -4277,7 +4277,7 @@ sort: by_weight
 委托事件	wei tuo shi jian	414
 子串匹配	zi chuan pi pei	414
 帧内编码	zheng nei bian ma	414
-环形进度条	huan xing jin du tiao	414
+环形进度条	huan xing jin du di	414
 快速开发平台	kuai su kai fa ping tai	414
 匿名类型	ni ming lei xing	413
 漏洞分析	lou dong fen xi	413
@@ -4303,7 +4303,7 @@ sort: by_weight
 物理对象	wu li dui xiang	409
 签名错误	qian ming cuo wu	409
 图片查看器	tu pian cha kan qi	409
-双边滤波	shuang bian lv bo	408
+双边滤波	shuang bian lü bo	408
 日期比较	ri qi bi jiao	408
 应用权限	ying yong quan xian	407
 码率控制	ma lv kong zhi	407
@@ -4314,7 +4314,7 @@ sort: by_weight
 过程模型	guo cheng mo xing	406
 百分比布局	bai fen bi bu ju	406
 第三方分享	di san fang fen xiang	406
-结构体对齐	jie gou ti dui qi	406
+结构体对齐	jie gou ben dui qi	406
 动态树	dong tai shu	405
 私有库	si you ku	405
 图像直方图	tu xiang zhi fang tu	405
@@ -4352,7 +4352,7 @@ sort: by_weight
 前端性能优化	qian duan xing neng you hua	399
 消息循环机制	xiao xi xun huan ji zhi	399
 指令码	zhi ling ma	398
-开发者服务	kai fa zhe fu wu	398
+开发者服务	jian fa zhe fu wu	398
 空间配置器	kong jian pei zhi qi	398
 自动分页	zi dong fen ye	397
 主从切换	zhu cong qie huan	396
@@ -4403,7 +4403,7 @@ sort: by_weight
 服务器问题	fu wu qi wen ti	386
 状态转移图	zhuang tai zhuan yi tu	386
 字符串格式化	zi fu chuan ge shi hua	386
-模板编程	mu ban bian cheng	385
+模板编程	mo ban bian cheng	385
 线性排序	xian xing pai xu	385
 八数码问题	ba shu ma wen ti	385
 倍增算法	bei zeng suan fa	384
@@ -4425,7 +4425,7 @@ sort: by_weight
 手势监听	shou shi jian ting	381
 网页特效	wang ye te xiao	381
 反地理编码	fan di li bian ma	381
-反调试	fan diao shi	380
+反调试	fan tiao shi	380
 画图形	hua tu xing	380
 内核移植	nei he yi zhi	380
 界面绘制	jie mian hui zhi	380
@@ -4452,7 +4452,7 @@ sort: by_weight
 行为模型	xing wei mo xing	377
 局部坐标系	ju bu zuo biao xi	377
 扫描线算法	sao miao xian suan fa	377
-最大似然估计	zui da shi ran gu ji	377
+最大似然估计	zui da si ran gu ji	377
 长度域	chang du yu	376
 单行函数	dan xing han shu	376
 站点地图	zhan dian di tu	376
@@ -4460,7 +4460,7 @@ sort: by_weight
 强联通分量	qiang lian tong fen liang	376
 百度云推送	bai du yun tui song	376
 外部总线	wai bu zong xian	375
-带权并查集	dai quan bing cha ji	375
+带权并查集	dai shu bing cha ji	375
 定义符	ding yi fu	374
 公共节点	gong gong jie dian	374
 区域填充	qu yu tian chong	374
@@ -4472,7 +4472,7 @@ sort: by_weight
 数据提供程序	shu ju ti gong cheng xu	374
 云数据库	yun shu ju ku	373
 操作系统功能	cao zuo xi tong gong neng	373
-策略设计模式	ce lve she ji mo shi	373
+策略设计模式	ce lüe she ji mo shi	373
 资源大全	zi yuan da quan	372
 结构化分析	jie gou hua fen xi	372
 分页类	fen ye lei	371
@@ -4517,7 +4517,7 @@ sort: by_weight
 焦点图	jiao dian tu	363
 前台开发	qian tai kai fa	363
 引用形参	yin yong xing can	363
-标识变量	biao zhi bian liang	363
+标识变量	biao shi bian liang	363
 算法提高	suan fa ti gao	363
 资源整理	zi yuan zheng li	363
 边界检测	bian jie jian ce	363
@@ -4533,17 +4533,17 @@ sort: by_weight
 逻辑驱动器	luo ji qu dong qi	362
 图像平滑	tu xiang ping hua	361
 地图开发	di tu kai fa	361
-最大似然	zui da shi ran	361
+最大似然	zui da si ran	361
 特殊算法	te shu suan fa	361
 文件名扩展	wen jian ming kuo zhan	361
 路径表达式	lu jing biao da shi	361
 对象请求代理	dui xiang qing qiu dai li	361
-中间设备	zhong jian she bei	360
-立体匹配	li ti pi pei	360
+中间设备	zhong jian she yuan	360
+立体匹配	li ben pi pei	360
 二叉树深度	er cha shu shen du	360
 应用内支付	ying yong nei zhi fu	360
 虚拟处理器	xu ni chu li qi	360
-极大似然估计	ji da shi ran gu ji	360
+极大似然估计	ji da si ran gu ji	360
 按键驱动	an jian qu dong	359
 版本检测	ban ben jian ce	359
 划分算法	hua fen suan fa	358
@@ -4551,7 +4551,7 @@ sort: by_weight
 欧拉通路	ou la tong lu	358
 随机查找	sui ji cha zhao	358
 计算机理论	ji suan ji li lun	358
-地统计	de tong ji	357
+地统计	di tong ji	357
 内部样式	nei bu yang shi	357
 系统监视	xi tong jian shi	357
 二进制运算	er jin zhi yun suan	357
@@ -4591,7 +4591,7 @@ sort: by_weight
 指令预取	zhi ling yu qu	348
 权限框架	quan xian kuang jia	348
 项目实例	xiang mu shi li	348
-事件过滤器	shi jian guo lv qi	348
+事件过滤器	shi jian guo lü qi	348
 维特比算法	wei te bi suan fa	348
 医学图像处理	yi xue tu xiang chu li	348
 传递函数依赖	chuan di han shu yi lai	347
@@ -4606,7 +4606,7 @@ sort: by_weight
 缺失值	que shi zhi	345
 形状特征	xing zhuang te zheng	345
 读入文本	du ru wen ben	345
-轻开平台	qing kai ping tai	345
+轻开平台	qing jian ping tai	345
 树型动态规划	shu xing dong tai gui hua	345
 常用库	chang yong ku	344
 实体框架	shi ti kuang jia	344
@@ -4628,7 +4628,7 @@ sort: by_weight
 有效请求	you xiao qing qiu	341
 棋盘问题	qi pan wen ti	341
 文件操作命令	wen jian cao zuo ming ling	341
-开窗口	kai chuang kou	340
+开窗口	jian chuang kou	340
 在线笔试	zai xian bi shi	340
 类型实参	lei xing shi can	340
 关系数据模型	guan xi shu ju mo xing	340
@@ -4654,7 +4654,7 @@ sort: by_weight
 链表删除	lian biao shan chu	336
 字符串切割	zi fu chuan qie ge	336
 报表设计器	bao biao she ji qi	336
-边覆盖	bian fu gai	335
+边覆盖	bian fu he	335
 操作系统知识	cao zuo xi tong zhi shi	335
 分类识别	fen lei shi bie	334
 在线开发	zai xian kai fa	334
@@ -4665,8 +4665,8 @@ sort: by_weight
 数据本地化	shu ju ben di hua	334
 鸟哥的私房菜	niao ge de si fang cai	334
 卡常数	ka chang shu	333
-存储体	cun chu ti	333
-巴什博弈	ba shi bo yi	333
+存储体	cun chu ben	333
+巴什博弈	ba shen bo yi	333
 键盘高度	jian pan gao du	333
 二进制优化	er jin zhi you hua	333
 基本输入输出	ji ben shu ru shu chu	333
@@ -4675,7 +4675,7 @@ sort: by_weight
 手机网页	shou ji wang ye	332
 单片机开发	dan pian ji kai fa	332
 多层感知机	duo ceng gan zhi ji	332
-关联矩阵	guan lian ju zhen	331
+关联矩阵	xiao lian ju zhen	331
 循环单链表	xun huan dan lian biao	331
 有限自动机	you xian zi dong ji	331
 光线跟踪	guang xian gen zong	330
@@ -4759,7 +4759,7 @@ sort: by_weight
 前向算法	qian xiang suan fa	315
 协议详解	xie yi xiang jie	315
 布局规则	bu ju gui ze	315
-开始符号	kai shi fu hao	315
+开始符号	jian shi fu hao	315
 最优归并树	zui you gui bing shu	315
 奇偶剪枝	ji ou jian zhi	314
 数组清零	shu zu qing ling	314
@@ -4818,19 +4818,19 @@ sort: by_weight
 依赖函数	yi lai han shu	304
 信息模型	xin xi mo xing	304
 原创博客	yuan chuang bo ke	304
-数据库调优	shu ju ku diao you	304
+数据库调优	shu ju ku tiao you	304
 新建文本	xin jian wen ben	303
 水晶报表	shui jing bao biao	303
 网际互连	wang ji hu lian	303
 普里姆算法	pu li mu suan fa	303
-前端开发工具	qian duan kai fa gong ju	303
+前端开发工具	qian duan jian fa gong ju	303
 图形图像处理	tu xing tu xiang chu li	303
 最小顶点覆盖	zui xiao ding dian fu gai	303
 形式语言	xing shi yu yan	302
 手游开发	shou you kai fa	302
 浏览器服务器	liu lan qi fu wu qi	302
 威佐夫博弈	wei zuo fu bo yi	301
-粘着位	zhan zhe wei	300
+粘着位	nian zhe wei	300
 传输延迟	chuan shu yan chi	300
 声学模型	sheng xue mo xing	300
 算术移位	suan shu yi wei	300
@@ -4840,13 +4840,13 @@ sort: by_weight
 并行数据库	bing xing shu ju ku	299
 第三方登陆	di san fang deng lu	299
 多进程多线程	duo jin cheng duo xian cheng	299
-最长重复子串	zui zhang chong fu zi chuan	299
+最长重复子串	zui chang chong fu zi chuan	299
 文本聚类	wen ben ju lei	298
 装箱问题	zhuang xiang wen ti	298
 大整数乘法	da zheng shu cheng fa	298
 直方图均衡	zhi fang tu jun heng	298
 数据文件存储	shu ju wen jian cun chu	298
-密码重置	mi ma zhong zhi	297
+密码重置	mi ma chong zhi	297
 控件功能	kong jian gong neng	297
 奇异值分解	qi yi zhi fen jie	297
 并发程序设计	bing fa cheng xu she ji	297
@@ -4903,7 +4903,7 @@ sort: by_weight
 列转行	lie zhuan hang	287
 请求分页	qing qiu fen ye	287
 属性驱动	shu xing qu dong	286
-无锁队列	wu suo dui lie	286
+无锁队列	mo suo dui lie	286
 灰度变换	hui du bian huan	286
 螺旋矩阵	luo xuan ju zhen	286
 运维工具	yun wei gong ju	286
@@ -4932,7 +4932,7 @@ sort: by_weight
 重签名	zhong qian ming	282
 图像裁剪	tu xiang cai jian	282
 地址格式	di zhi ge shi	282
-替换策略	ti huan ce lve	282
+替换策略	ti huan ce lüe	282
 网络流问题	wang luo liu wen ti	282
 百度地图开发	bai du di tu kai fa	282
 世界变换	shi jie bian huan	281
@@ -4961,7 +4961,7 @@ sort: by_weight
 千分位	qian fen wei	278
 删除自身	shan chu zi shen	278
 添加硬件	tian jia ying jian	278
-计算广告学	ji suan guang gao xue	278
+计算广告学	ji suan yan gao xiao	278
 防注入	fang zhu ru	277
 公共语言	gong gong yu yan	277
 前端资源	qian duan zi yuan	277
@@ -5036,7 +5036,7 @@ sort: by_weight
 阶跃函数	jie yue han shu	265
 基本运算符	ji ben yun suan fu	265
 字符串哈希	zi fu chuan ha xi	265
-最大权闭合图	zui da quan bi he tu	265
+最大权闭合图	zui da shu bi he tu	265
 架构类	jia gou lei	264
 表约束	biao yue shu	264
 程序员必读	cheng xu yuan bi du	264
@@ -5048,12 +5048,12 @@ sort: by_weight
 统计难题	tong ji nan ti	263
 自绘控件	zi hui kong jian	263
 个人代码	ge ren dai ma	262
-中值滤波	zhong zhi lv bo	262
+中值滤波	zhong zhi lü bo	262
 图像函数	tu xiang han shu	262
 工作使用	gong zuo shi yong	262
 弹性计算	tan xing ji suan	262
 机器学习理论	ji qi xue xi li lun	262
-广点通	guang dian tong	261
+广点通	yan dian tong	261
 素数环	su shu huan	261
 交叉存取	jiao cha cun qu	261
 初始计数	chu shi ji shu	261
@@ -5078,13 +5078,13 @@ sort: by_weight
 循环滑动	xun huan hua dong	257
 特征方程	te zheng fang cheng	257
 高效查找法	gao xiao cha zhao fa	257
-无分类	wu fen lei	256
+无分类	mo fen lei	256
 正规方程	zheng gui fang cheng	256
 视觉跟踪	shi jue gen zong	256
 隐含属性	yin han shu xing	256
 关于程序员	guan yu cheng xu yuan	256
 虚树	xu shu	255
-多重纹理	duo zhong wen li	255
+多重纹理	duo chong wen li	255
 文件预览	wen jian yu lan	255
 移动优先	yi dong you xian	255
 页面优化	ye mian you hua	255
@@ -5104,10 +5104,10 @@ sort: by_weight
 悬浮按钮	xuan fu an niu	252
 资料链接	zi liao lian jie	252
 分布式网站	fen bu shi wang zhan	252
-安卓开发工具	an zhuo kai fa gong ju	252
+安卓开发工具	an zhuo jian fa gong ju	252
 项目开发经验	xiang mu kai fa jing yan	252
 优先数	you xian shu	251
-点击设备	dian ji she bei	251
+点击设备	dian ji she yuan	251
 文件名乱码	wen jian ming luan ma	251
 算法正确性	suan fa zheng que xing	251
 信息格式	xin xi ge shi	250
@@ -5119,14 +5119,14 @@ sort: by_weight
 产品人	chan pin ren	249
 实用教程	shi yong jiao cheng	249
 平滑程度	ping hua cheng du	249
-秘密密钥	mi mi mi yao	249
+秘密密钥	mi mi mi yue	249
 系统死锁	xi tong si suo	249
 系统诊断	xi tong zhen duan	249
 复数运算	fu shu yun suan	248
 环形缓冲	huan xing huan chong	248
 联想记忆	lian xiang ji yi	248
 移动开发框架	yi dong kai fa kuang jia	248
-哈佛结构	ha fu jie gou	247
+哈佛结构	ha fo jie gou	247
 延迟任务	yan chi ren wu	247
 背景图层	bei jing tu ceng	247
 运维经验	yun wei jing yan	247
@@ -5140,7 +5140,7 @@ sort: by_weight
 速率控制	su lv kong zhi	246
 指令集架构	zhi ling ji jia gou	246
 音频编解码	yin pin bian jie ma	246
-自定义进度条	zi ding yi jin du tiao	246
+自定义进度条	zi ding yi jin du di	246
 有序映射	you xu ying she	245
 标记类型	biao ji lei xing	245
 浮点常量	fu dian chang liang	245
@@ -5151,7 +5151,7 @@ sort: by_weight
 查询子句	cha xun zi ju	244
 手机应用开发	shou ji ying yong kai fa	244
 折线分割平面	zhe xian fen ge ping mian	244
-作业处理	zuo ye chu li	243
+作业处理	zuo qiu chu li	243
 程序划分	cheng xu hua fen	243
 编程示例	bian cheng shi li	243
 边界像素	bian jie xiang su	243
@@ -5178,7 +5178,7 @@ sort: by_weight
 句柄类	ju bing lei	240
 存储栈	cun chu zhan	240
 多级菜单	duo ji cai dan	240
-忽略列表	hu lve lie biao	240
+忽略列表	hu lüe lie biao	240
 虚拟成员	xu ni cheng yuan	240
 视觉算法	shi jue suan fa	240
 采样速率	cai yang su lv	240
@@ -5189,7 +5189,7 @@ sort: by_weight
 指令生成	zhi ling sheng cheng	239
 直线检测	zhi xian jian ce	239
 矩阵链乘	ju zhen lian cheng	239
-算法模板	suan fa mu ban	239
+算法模板	suan fa mo ban	239
 静态博客	jing tai bo ke	239
 默认分类	mo ren fen lei	239
 信号完整性	xin hao wan zheng xing	239
@@ -5254,7 +5254,7 @@ sort: by_weight
 反转单链表	fan zhuan dan lian biao	230
 系统间通信	xi tong jian tong xin	230
 鸡尾酒排序	ji wei jiu pai xu	230
-嵌入式开发板	qian ru shi kai fa ban	230
+嵌入式开发板	qian ru shi jian fa ban	230
 报错解决	bao cuo jie jue	229
 模拟输出	mo ni shu chu	229
 哈弗曼编码	ha fu man bian ma	229
@@ -5269,7 +5269,7 @@ sort: by_weight
 贝叶斯推理	bei ye si tui li	228
 算术逻辑单元	suan shu luo ji dan yuan	228
 脚本编程语言	jiao ben bian cheng yu yan	228
-过滤特殊字符	guo lv te shu zi fu	228
+过滤特殊字符	guo lü te shu zi fu	228
 安全编程	an quan bian cheng	227
 服务队列	fu wu dui lie	227
 未登录词	wei deng lu ci	227
@@ -5317,10 +5317,10 @@ sort: by_weight
 线性基	xian xing ji	222
 实型常量	shi xing chang liang	222
 报表引擎	bao biao yin qing	222
-文本过滤	wen ben guo lv	222
+文本过滤	wen ben guo lü	222
 线程结构	xian cheng jie gou	222
 网络判断	wang luo pan duan	222
-阻塞非阻塞	zu se fei zu se	222
+阻塞非阻塞	zu sai fei	222
 百度地图定位	bai du di tu ding wei	222
 代码工具	dai ma gong ju	221
 协调程序	xie tiao cheng xu	221
@@ -5331,7 +5331,7 @@ sort: by_weight
 进程注入	jin cheng zhu ru	221
 逻辑系统	luo ji xi tong	221
 大数据工具	da shu ju gong ju	221
-无向网	wu xiang wang	220
+无向网	mo xiang wang	220
 文件遍历	wen jian bian li	220
 并行计算机	bing xing ji suan ji	220
 群组选择器	qun zu xuan ze qi	220
@@ -5374,12 +5374,12 @@ sort: by_weight
 隔行变色	ge hang bian se	215
 函数讲解	han shu jiang jie	214
 受控访问	shou kong fang wen	214
-大数模板	da shu mu ban	214
+大数模板	da shu mo ban	214
 字符边界	zi fu bian jie	214
 封装格式	feng zhuang ge shi	214
 约束函数	yue shu han shu	214
 帮助浏览器	bang zhu liu lan qi	214
-权值线段树	quan zhi xian duan shu	214
+权值线段树	shu zhi xian duan shu	214
 贝叶斯分析	bei ye si fen xi	214
 软件可靠性	ruan jian ke kao xing	214
 继续畅通工程	ji xu chang tong gong cheng	214
@@ -5388,7 +5388,7 @@ sort: by_weight
 广告轮播	guang gao lun bo	213
 推理规则	tui li gui ze	213
 项目优化	xiang mu you hua	213
-最小权匹配	zui xiao quan pi pei	213
+最小权匹配	zui xiao shu pi pei	213
 应用程序清单	ying yong cheng xu qing dan	213
 经典排序算法	jing dian pai xu suan fa	213
 共享段	gong xiang duan	212
@@ -5397,7 +5397,7 @@ sort: by_weight
 窗口组件	chuang kou zu jian	212
 双联通分量	shuang lian tong fen liang	212
 高收费电话	gao shou fei dian hua	212
-半导体存储器	ban dao ti cun chu qi	212
+半导体存储器	ban dao ben cun chu qi	212
 并行程序设计	bing xing cheng xu she ji	212
 边界网关协议	bian jie wang guan xie yi	212
 实用代码	shi yong dai ma	211
@@ -5408,7 +5408,7 @@ sort: by_weight
 计算机理解	ji suan ji li jie	211
 计算语言学	ji suan yu yan xue	211
 判断线段相交	pan duan xian duan xiang jiao	211
-多媒体数据库	duo mei ti shu ju ku	211
+多媒体数据库	duo mei ben shu ju ku	211
 硬件描述语言	ying jian miao shu yu yan	211
 用户自定	yong hu zi ding	210
 查找二叉树	cha zhao er cha shu	210
@@ -5416,7 +5416,7 @@ sort: by_weight
 乘方运算	cheng fang yun suan	209
 区间最值	qu jian zui zhi	209
 单列模式	dan lie mo shi	209
-后台模板	hou tai mu ban	209
+后台模板	hou tai mo ban	209
 手势解锁	shou shi jie suo	209
 搜索技巧	sou suo ji qiao	209
 数学题目	shu xue ti mu	209
@@ -5434,7 +5434,7 @@ sort: by_weight
 微网站	wei wang zhan	207
 图形算法	tu xing suan fa	207
 度量空间	du liang kong jian	207
-数学规律	shu xue gui lv	207
+数学规律	shu xue gui lü	207
 构造程序	gou zao cheng xu	207
 移动测试	yi dong ce shi	207
 算法讲解	suan fa jiang jie	207
@@ -5451,11 +5451,11 @@ sort: by_weight
 注解开发	zhu jie kai fa	205
 讯飞语音	xun fei yu yin	205
 轮廓提取	lun kuo ti qu	205
-应用开发工具	ying yong kai fa gong ju	205
+应用开发工具	ying yong jian fa gong ju	205
 机器学习基石	ji qi xue xi ji shi	205
 复用类	fu yong lei	204
 页模式	ye mo shi	204
-伽马校正	ga ma jiao zheng	204
+伽马校正	jia ma jiao zheng	204
 开源分享	kai yuan fen xiang	204
 按序执行	an xu zhi xing	204
 思维导图软件	si wei dao tu ruan jian	204
@@ -5524,7 +5524,7 @@ sort: by_weight
 系统内容	xi tong nei rong	196
 图像数据库	tu xiang shu ju ku	196
 服务访问点	fu wu fang wen dian	196
-开发工具使用	kai fa gong ju shi yong	196
+开发工具使用	jian fa gong ju shi yong	196
 性能诊断	xing neng zhen duan	195
 智能语音	zhi neng yu yin	195
 正难则反	zheng nan ze fan	195
@@ -5613,7 +5613,7 @@ sort: by_weight
 键盘处理	jian pan chu li	183
 鸿学金信	hong xue jin xin	183
 磁盘冗余阵列	ci pan rong yu zhen lie	183
-程序开发工具	cheng xu kai fa gong ju	183
+程序开发工具	cheng xu jian fa gong ju	183
 自顶向下设计	zi ding xiang xia she ji	183
 运动目标检测	yun dong mu biao jian ce	183
 光流场	guang liu chang	182
@@ -5626,7 +5626,7 @@ sort: by_weight
 矢量图层	shi liang tu ceng	182
 边缘增强	bian yuan zeng qiang	182
 电话拨号器	dian hua bo hao qi	182
-斯坦福公开课	si tan fu gong kai ke	182
+斯坦福公开课	si tan fu gong jian ke	182
 前缀数组	qian zhui shu zu	181
 普通编程	pu tong bian cheng	181
 联机调试	lian ji tiao shi	181
@@ -5714,7 +5714,7 @@ sort: by_weight
 证书状态	zheng shu zhuang tai	171
 默认皮肤	mo ren pi fu	171
 启发式规则	qi fa shi gui ze	171
-可变参数模板	ke bian can shu mu ban	171
+可变参数模板	ke bian can shu mo ban	171
 保存区	bao cun qu	170
 技术专题	ji shu zhuan ti	170
 矩阵加速	ju zhen jia su	170
@@ -5740,8 +5740,8 @@ sort: by_weight
 开源架构	kai yuan jia gou	168
 报错处理	bao cuo chu li	168
 期刊会议	qi kan hui yi	168
-权值矩阵	quan zhi ju zhen	168
-用户密钥	yong hu mi yao	168
+权值矩阵	shu zhi ju zhen	168
+用户密钥	yong hu mi yue	168
 电路分析	dian lu fen xi	168
 运动向量	yun dong xiang liang	168
 数据通信中	shu ju tong xin zhong	168
@@ -5775,7 +5775,7 @@ sort: by_weight
 回文树	hui wen shu	164
 前台框架	qian tai kuang jia	164
 探测工具	tan ce gong ju	164
-计算策略	ji suan ce lve	164
+计算策略	ji suan ce lüe	164
 大数类	da shu lei	163
 隔离级	ge li ji	163
 共生矩阵	gong sheng ju zhen	163
@@ -5805,14 +5805,14 @@ sort: by_weight
 工具插件	gong ju cha jian	161
 帧间压缩	zheng jian ya suo	161
 数列有序	shu lie you xu	161
-无锁编程	wu suo bian cheng	161
+无锁编程	mo suo bian cheng	161
 虚拟光盘	xu ni guang pan	161
 页面前端	ye mian qian duan	161
 页面特效	ye mian te xiao	161
 二分图染色	er fen tu ran se	161
 物联网开发	wu lian wang kai fa	161
 人体行为识别	ren ti xing wei shi bie	161
-移动开发技术	yi dong kai fa ji shu	161
+移动开发技术	yi dong jian fa ji zhu	161
 赋值构造函数	fu zhi gou zao han shu	161
 二层交换	er ceng jiao huan	160
 可串行性	ke chuan xing xing	160
@@ -5849,7 +5849,7 @@ sort: by_weight
 逻辑斯蒂回归	luo ji si di hui gui	158
 主语言	zhu yu yan	157
 语义网	yu yi wang	157
-均值滤波	jun zhi lv bo	157
+均值滤波	jun zhi lü bo	157
 基准程序	ji zhun cheng xu	157
 测试理论	ce shi li lun	157
 等价问题	deng jia wen ti	157
@@ -5866,7 +5866,7 @@ sort: by_weight
 分布式计算机	fen bu shi ji suan ji	156
 双击退出	shuang ji tui chu	155
 增量学习	zeng liang xue xi	155
-极大似然	ji da shi ran	155
+极大似然	ji da si ran	155
 蛇形填数	she xing tian shu	155
 软件作品	ruan jian zuo pin	155
 最大子列和	zui da zi lie he	155
@@ -5883,7 +5883,7 @@ sort: by_weight
 人脸对齐	ren lian dui qi	153
 图标类型	tu biao lei xing	153
 图灵完备	tu ling wan bei	153
-密钥证书	mi yao zheng shu	153
+密钥证书	mi yue zheng shu	153
 属性传值	shu xing chuan zhi	153
 用户加密	yong hu jia mi	153
 镜头光晕	jing tou guang yun	153
@@ -5894,7 +5894,7 @@ sort: by_weight
 作业名	zuo ye ming	152
 存取表	cun qu biao	152
 素数分解	su shu fen jie	152
-线性过滤	xian xing guo lv	152
+线性过滤	xian xing guo lü	152
 自描述性	zi miao shu xing	152
 领域无关	ling yu wu guan	152
 屏蔽双绞线	ping bi shuang jiao xian	152
@@ -5905,7 +5905,7 @@ sort: by_weight
 指令格式	zhi ling ge shi	151
 权限对象	quan xian dui xiang	151
 编程之道	bian cheng zhi dao	151
-频域滤波	pin yu lv bo	151
+频域滤波	pin yu lü bo	151
 第三方集成	di san fang ji cheng	151
 非线性编辑	fei xian xing bian ji	151
 上下界网络流	shang xia jie wang luo liu	151
@@ -5914,7 +5914,7 @@ sort: by_weight
 点九图	dian jiu tu	150
 结束块	jie shu kuai	150
 自然序	zi ran xu	150
-主键策略	zhu jian ce lve	150
+主键策略	zhu jian ce lüe	150
 图像复原	tu xiang fu yuan	150
 组合博弈	zu he bo yi	150
 维纳滤波	wei na lv bo	150
@@ -5933,7 +5933,7 @@ sort: by_weight
 分布电容	fen bu dian rong	149
 差分序列	cha fen xu lie	149
 数字加密	shu zi jia mi	149
-偏最小二乘	pian zui xiao er cheng	149
+偏最小二乘	pian zui xiao er sheng	149
 分支限界搜索	fen zhi xian jie sou suo	149
 词云	ci yun	148
 出错文件	chu cuo wen jian	148
@@ -5943,7 +5943,7 @@ sort: by_weight
 通用类库	tong yong lei ku	148
 遗传操作	yi chuan cao zuo	148
 支付宝集成	zhi fu bao ji cheng	148
-敏感词过滤	min gan ci guo lv	148
+敏感词过滤	min gan ci guo lü	148
 进销存系统	jin xiao cun xi tong	148
 即时通讯平台	ji shi tong xun ping tai	148
 粒子群	li zi qun	147
@@ -6012,7 +6012,7 @@ sort: by_weight
 微信登陆	wei xin deng lu	141
 文件分段	wen jian fen duan	141
 游戏业务	you xi ye wu	141
-最长回文字串	zui zhang hui wen zi chuan	141
+最长回文字串	zui chang hui wen zi chuan	141
 取代码	qu dai ma	140
 失效检测	shi xiao jian ce	140
 工业相机	gong ye xiang ji	140
@@ -6079,7 +6079,7 @@ sort: by_weight
 短信猫	duan xin mao	133
 串行调度	chuan xing diao du	133
 定点运算	ding dian yun suan	133
-模板消息	mu ban xiao xi	133
+模板消息	mo ban xiao xi	133
 病毒分析	bing du fen xi	133
 算法实验	suan fa shi yan	133
 编程之旅	bian cheng zhi lv	133
@@ -6100,7 +6100,7 @@ sort: by_weight
 搜索推荐	sou suo tui jian	131
 磁带归档	ci dai gui dang	131
 位置透明性	wei zhi tou ming xing	131
-密码术	mi ma shu	130
+密码术	mi ma zhu	130
 低秩矩阵	di zhi ju zhen	130
 文本查询	wen ben cha xun	130
 朱刘算法	zhu liu suan fa	130
@@ -6123,7 +6123,7 @@ sort: by_weight
 斐波那契查找	fei bo na qi cha zhao	129
 音频处理技术	yin pin chu li ji shu	129
 移位器	yi wei qi	128
-主机密钥	zhu ji mi yao	128
+主机密钥	zhu ji mi yue	128
 回文判断	hui wen pan duan	128
 射频模块	she pin mo kuai	128
 类集框架	lei ji kuang jia	128
@@ -6131,7 +6131,7 @@ sort: by_weight
 网络分割	wang luo fen ge	128
 项目解析	xiang mu jie xi	128
 团队协作工具	tuan dui xie zuo gong ju	128
-定时任务调度	ding shi ren wu diao du	128
+定时任务调度	ding shi ren wu tiao du	128
 简单数据结构	jian dan shu ju jie gou	128
 自定义滚动条	zi ding yi gun dong tiao	128
 浮动块	fu dong kuai	127
@@ -6190,19 +6190,19 @@ sort: by_weight
 用户定义消息	yong hu ding yi xiao xi	123
 出现序列	chu xian xu lie	122
 卫星菜单	wei xing cai dan	122
-康拓展开	kang tuo zhan kai	122
+康拓展开	kang tuo zhan jian	122
 强制下线	qiang zhi xia xian	122
 编程异常	bian cheng yi chang	122
 启发式技术	qi fa shi ji shu	122
 寻找最大数	xun zhao zui da shu	122
 帧封装	zheng feng zhuang	121
 侧拉菜单	ce la cai dan	121
-关系逻辑	guan xi luo ji	121
+关系逻辑	xiao xi luo ji	121
 编程挑战	bian cheng tiao zhan	121
 触摸机制	chu mo ji zhi	121
 计算视觉	ji suan shi jue	121
 开源项目研究	kai yuan xiang mu yan jiu	121
-项模板	xiang mu ban	120
+项模板	xiang mo ban	120
 中文排序	zhong wen pai xu	120
 代理传值	dai li chuan zhi	120
 代码备份	dai ma bei fen	120
@@ -6242,7 +6242,7 @@ sort: by_weight
 启动时打开	qi dong shi da kai	118
 层次分解	ceng ci fen jie	117
 抢先调度	qiang xian diao du	117
-织梦模板	zhi meng mu ban	117
+织梦模板	zhi meng mo ban	117
 结构算法	jie gou suan fa	117
 统计推理	tong ji tui li	117
 黑客攻防	hei ke gong fang	117
@@ -6290,8 +6290,8 @@ sort: by_weight
 数组最大值	shu zu zui da zhi	113
 依赖方	yi lai fang	112
 受查异常	shou cha yi chang	112
-多重处理	duo zhong chu li	112
-强度削弱	qiang du xue ruo	112
+多重处理	duo chong chu li	112
+强度削弱	qiang du xiao ruo	112
 插入项目	cha ru xiang mu	112
 欧拉道路	ou la dao lu	112
 监控告警	jian kong gao jing	112
@@ -6299,13 +6299,13 @@ sort: by_weight
 第三方库管理	di san fang ku guan li	112
 写后写	xie hou xie	111
 构件库	gou jian ku	111
-汉明码	han ming ma	111
+汉明码	nv ming ma	111
 安卓界面	an zhuo jie mian	111
 控制顶点	kong zhi ding dian	111
 服务原语	fu wu yuan yu	111
 状态队列	zhuang tai dui lie	111
 网站策划	wang zhan ce hua	111
-复杂度计算	fu za du ji suan	111
+复杂度计算	fu duo du ji suan	111
 服务器运维	fu wu qi yun wei	111
 网状数据库	wang zhuang shu ju ku	111
 多分辨率分析	duo fen bian lv fen xi	111
@@ -6323,7 +6323,7 @@ sort: by_weight
 操作控制器	cao zuo kong zhi qi	110
 相似性度量	xiang si xing du liang	110
 工业控制系统	gong ye kong zhi xi tong	110
-辅助开发工具	fu zhu kai fa gong ju	110
+辅助开发工具	fu zhu jian fa gong ju	110
 写周期	xie zhou qi	109
 图形语言	tu xing yu yan	109
 埃及分数	ai ji fen shu	109
@@ -6341,7 +6341,7 @@ sort: by_weight
 键值观察	jian zhi guan cha	109
 优先级调整	you xian ji tiao zheng	109
 前后端交互	qian hou duan jiao hu	109
-多对多联系	duo dui duo lian xi	109
+多对多联系	duo dui	109
 第四代语言	di si dai yu yan	109
 诺依曼结构	nuo yi man jie gou	109
 身份证识别	shen fen zheng shi bie	109
@@ -6350,7 +6350,7 @@ sort: by_weight
 认证链	ren zheng lian	108
 排序网络	pai xu wang luo	108
 枚举进程	mei ju jin cheng	108
-栅格数据	zha ge shu ju	108
+栅格数据	shan ge shu ju	108
 特征模型	te zheng mo xing	108
 转向语句	zhuan xiang yu ju	108
 输出脉冲	shu chu mai chong	108
@@ -6362,13 +6362,13 @@ sort: by_weight
 软件安全性	ruan jian an quan xing	108
 对象式	dui xiang shi	107
 已分享	yi fen xiang	107
-帧差法	zheng cha fa	107
+帧差法	zheng chai fa	107
 转接板	zhuan jie ban	107
 分析属性	fen xi shu xing	107
 单目视觉	dan mu shi jue	107
 工作文档	gong zuo wen dang	107
 控制回路	kong zhi hui lu	107
-程序综合	cheng xu zong he	107
+程序综合	cheng xu zeng he	107
 谓词逻辑	wei ci luo ji	107
 超级表格	chao ji biao ge	107
 逻辑部件	luo ji bu jian	107
@@ -6393,9 +6393,9 @@ sort: by_weight
 小服务程序	xiao fu wu cheng xu	106
 非比较排序	fei bi jiao pai xu	106
 宿主应用程序	su zhu ying yong cheng xu	106
-常用开发工具	chang yong kai fa gong ju	106
+常用开发工具	chang yong jian fa gong ju	106
 包加密	bao jia mi	105
-模板元	mu ban yuan	105
+模板元	mo ban yuan	105
 菊花链	ju hua lian	105
 前台设计	qian tai she ji	105
 多图上传	duo tu shang chuan	105
@@ -6407,7 +6407,7 @@ sort: by_weight
 量子恒道	liang zi heng dao	105
 下推自动机	xia tui zi dong ji	105
 优先权队列	you xian quan dui lie	105
-公开课视频	gong kai ke shi pin	105
+公开课视频	gong jian ke shi pin	105
 视频图像处理	shi pin tu xiang chu li	105
 极路由	ji lu you	104
 个体编码	ge ti bian ma	104
@@ -6418,7 +6418,7 @@ sort: by_weight
 软件教程	ruan jian jiao cheng	104
 实时多媒体	shi shi duo mei ti	104
 适应性维护	shi ying xing wei hu	104
-不重复随机数	bu zhong fu sui ji shu	104
+不重复随机数	bu chong fu sui ji shu	104
 程序启动原理	cheng xu qi dong yuan li	104
 设计模式原则	she ji mo shi yuan ze	104
 除法器	chu fa qi	103
@@ -6473,12 +6473,12 @@ sort: by_weight
 锁住数据库	suo zhu shu ju ku	99
 高度平衡树	gao du ping heng shu	99
 软件测试管理	ruan jian ce shi guan li	99
-存取权	cun qu quan	98
+存取权	cun qu shu	98
 微带线	wei dai xian	98
 预编码	yu bian ma	98
 单个地址	dan ge di zhi	98
 回收程序	hui shou cheng xu	98
-图像图像	tu xiang tu xiang	98
+图像图像	tu xiang	98
 奇偶检验	ji ou jian yan	98
 姿态识别	zi tai shi bie	98
 异步传送	yi bu chuan song	98
@@ -6486,14 +6486,14 @@ sort: by_weight
 教程推荐	jiao cheng tui jian	98
 数字反转	shu zi fan zhuan	98
 断开客户	duan kai ke hu	98
-栅格系统	zha ge xi tong	98
+栅格系统	shan ge xi tong	98
 树形背包	shu xing bei bao	98
 测试思想	ce shi si xiang	98
 视频插件	shi pin cha jian	98
 顺序调度	shun xu diao du	98
 最小支配集	zui xiao zhi pei ji	98
 计算机绘图	ji suan ji hui tu	98
-网络流最大流	wang luo liu zui da liu	98
+网络流最大流	wang luo liu zui da	98
 写通过	xie tong guo	97
 块密码	kuai mi ma	97
 大菲波数	da fei bo shu	97
@@ -6533,7 +6533,7 @@ sort: by_weight
 控制流程图	kong zhi liu cheng tu	95
 静态重定位	jing tai zhong ding wei	95
 员工管理系统	yuan gong guan li xi tong	95
-广语言	guang yu yan	94
+广语言	yan yu yan	94
 二分插入	er fen cha ru	94
 哈希加密	ha xi jia mi	94
 审核被拒	shen he bei ju	94
@@ -6541,7 +6541,7 @@ sort: by_weight
 禁止横屏	jin zhi heng ping	94
 置标语言	zhi biao yu yan	94
 进程保护	jin cheng bao hu	94
-重置文件	zhong zhi wen jian	94
+重置文件	chong zhi wen jian	94
 问题集合	wen ti ji he	94
 阶跃响应	jie yue xiang ying	94
 程序局部性	cheng xu ju bu xing	94
@@ -6595,7 +6595,7 @@ sort: by_weight
 全局存储器	quan ju cun chu qi	90
 多图片上传	duo tu pian shang chuan	90
 机器人开发	ji qi ren kai fa	90
-活动模板库	huo dong mu ban ku	90
+活动模板库	huo dong mo ban ku	90
 软件生产率	ruan jian sheng chan lv	90
 创建图片对象	chuang jian tu pian dui xiang	90
 大容量存储器	da rong liang cun chu qi	90
@@ -6604,8 +6604,8 @@ sort: by_weight
 小平面	xiao ping mian	89
 通用词	tong yong ci	89
 大数相减	da shu xiang jian	89
-常用模板	chang yong mu ban	89
-标识鉴别	biao zhi jian bie	89
+常用模板	chang yong mo ban	89
+标识鉴别	biao shi jian bie	89
 用户线路	yong hu xian lu	89
 知识概念	zhi shi gai nian	89
 肤色检测	fu se jian ce	89
@@ -6614,7 +6614,7 @@ sort: by_weight
 并发多线程	bing fa duo xian cheng	89
 设计自动化	she ji zi dong hua	89
 封装继承多态	feng zhuang ji cheng duo tai	89
-并行处理技术	bing xing chu li ji shu	89
+并行处理技术	bing xing chu li ji zhu	89
 性能测试方面	xing neng ce shi fang mian	89
 指令高速缓存	zhi ling gao su huan cun	89
 编程基础知识	bian cheng ji chu zhi shi	89
@@ -6641,8 +6641,8 @@ sort: by_weight
 大数据算法	da shu ju suan fa	87
 信息浏览服务	xin xi liu lan fu wu	87
 共享操作系统	gong xiang cao zuo xi tong	87
-本科毕业设计	ben ke bi ye she ji	87
-移动开发工具	yi dong kai fa gong ju	87
+本科毕业设计	ben ke bi qiu she ji	87
+移动开发工具	yi dong jian fa gong ju	87
 页面描述语言	ye mian miao shu yu yan	87
 取文本	qu wen ben	86
 带花树	dai hua shu	86
@@ -6657,18 +6657,18 @@ sort: by_weight
 回文自动机	hui wen zi dong ji	86
 平行语料库	ping xing yu liao ku	86
 异或方程组	yi huo fang cheng zu	86
-任务调度程序	ren wu diao du cheng xu	86
+任务调度程序	ren wu tiao du cheng xu	86
 海量数据挖掘	hai liang shu ju wa jue	86
 系统分析设计	xi tong fen xi she ji	86
 手势锁	shou shi suo	85
-权函数	quan han shu	85
+权函数	shu han shu	85
 树分块	shu fen kuai	85
 子集生成	zi ji sheng cheng	85
 局部应用	ju bu ying yong	85
 超立方体	chao li fang ti	85
 错误集合	cuo wu ji he	85
 顶点混合	ding dian hun he	85
-安全过滤器	an quan guo lv qi	85
+安全过滤器	an quan guo lü qi	85
 元语法	yuan yu fa	84
 线电阻	xian dian zu	84
 自相交	zi xiang jiao	84
@@ -6677,7 +6677,7 @@ sort: by_weight
 游戏算法	you xi suan fa	84
 符号语言	fu hao yu yan	84
 软件创业	ruan jian chuang ye	84
-配置标识	pei zhi biao zhi	84
+配置标识	pei zhi biao shi	84
 全双工传输	quan shuang gong chuan shu	84
 青蛙跳台阶	qing wa tiao tai jie	84
 代码隐藏文件	dai ma yin cang wen jian	84
@@ -6695,15 +6695,15 @@ sort: by_weight
 稳态误差	wen tai wu cha	83
 双飞翼布局	shuang fei yi bu ju	83
 可靠性分析	ke kao xing fen xi	83
-图形适配器	tu xing shi pei qi	83
+图形适配器	tu xing gua pei qi	83
 报文鉴别码	bao wen jian bie ma	83
 最大子矩形	zui da zi ju xing	83
 点到点协议	dian dao dian xie yi	83
 平均访问时间	ping jun fang wen shi jian	83
-程序体系结构	cheng xu ti xi jie gou	83
+程序体系结构	cheng xu ben xi jie gou	83
 菲波那切数列	fei bo na qie shu lie	83
 等待表	deng dai biao	82
-组合学	zu he xue	82
+组合学	zu he xiao	82
 人工模拟	ren gong mo ni	82
 令牌总线	ling pai zong xian	82
 平台对接	ping tai dui jie	82
@@ -6712,7 +6712,7 @@ sort: by_weight
 模式概念	mo shi gai nian	82
 符号执行	fu hao zhi xing	82
 项目规范	xiang mu gui fan	82
-安全标识符	an quan biao zhi fu	82
+安全标识符	an quan biao shi fu	82
 系统控制器	xi tong kong zhi qi	82
 操作系统应用	cao zuo xi tong ying yong	82
 串行任务	chuan xing ren wu	81
@@ -6768,7 +6768,7 @@ sort: by_weight
 系统攻击	xi tong gong ji	78
 结束打印	jie shu da yin	78
 子序列问题	zi xu lie wen ti	78
-微软企业库	wei ruan qi ye ku	78
+微软企业库	wei ruan qi qiu ku	78
 程序员健康	cheng xu yuan jian kang	78
 银行卡识别	yin hang ka shi bie	78
 齐次坐标系	qi ci zuo biao xi	78
@@ -6783,7 +6783,7 @@ sort: by_weight
 递推问题	di tui wen ti	77
 阿里笔试	a li bi shi	77
 马哥教育	ma ge jiao yu	77
-双线性过滤	shuang xian xing guo lv	77
+双线性过滤	shuang xian xing guo lü	77
 网络基本功	wang luo ji ben gong	77
 动态资源分配	dong tai zi yuan fen pei	77
 备份域控制器	bei fen yu kong zhi qi	77
@@ -6799,7 +6799,7 @@ sort: by_weight
 单片机技术	dan pian ji ji shu	76
 空操作指令	kong cao zuo zhi ling	76
 回朔法	hui shuo fa	75
-长商银	zhang shang yin	75
+长商银	chang shang yin	75
 可存取性	ke cun qu xing	75
 复位脉冲	fu wei mai chong	75
 大数取模	da shu qu mo	75
@@ -6854,13 +6854,13 @@ sort: by_weight
 栈机制	zhan ji zhi	73
 伯努利数	bo nu li shu	73
 受控对象	shou kong dui xiang	73
-可变字长	ke bian zi zhang	73
+可变字长	ke bian zi chang	73
 存储元件	cun chu yuan jian	73
 标签跳转	biao qian tiao zhuan	73
 测试技巧	ce shi ji qiao	73
 联机处理	lian ji chu li	73
 关键词布局	guan jian ci bu ju	73
-开发者大赛	kai fa zhe da sai	73
+开发者大赛	jian fa zhe da sai	73
 人工管理阶段	ren gong guan li jie duan	73
 服务数据单元	fu wu shu ju dan yuan	73
 外裁剪	wai cai jian	72
@@ -6880,7 +6880,7 @@ sort: by_weight
 大数据云计算	da shu ju yun ji suan	72
 线筛	xian shai	71
 三分查找	san fen cha zhao	71
-三维重构	san wei zhong gou	71
+三维重构	san wei chong gou	71
 正则语言	zheng ze yu yan	71
 线性检测	xian xing jian ce	71
 错误模型	cuo wu mo xing	71
@@ -6888,7 +6888,7 @@ sort: by_weight
 反编译程序	fan bian yi cheng xu	71
 周期性中断	zhou qi xing zhong duan	71
 基本优先级	ji ben you xian ji	71
-自适应控制	zi shi ying kong zhi	71
+自适应控制	zi gua ying kong zhi	71
 局域网交换机	ju yu wang jiao huan ji	71
 状态空间搜索	zhuang tai kong jian sou suo	71
 直方图规定化	zhi fang tu gui ding hua	71
@@ -6910,7 +6910,7 @@ sort: by_weight
 进制问题	jin zhi wen ti	70
 自动并行化	zi dong bing xing hua	70
 设备存储器	she bei cun chu qi	70
-多媒体计算机	duo mei ti ji suan ji	70
+多媒体计算机	duo mei ben ji suan ji	70
 中断队列	zhong duan dui lie	69
 前端插件	qian duan cha jian	69
 取景变换	qu jing bian huan	69
@@ -6957,7 +6957,7 @@ sort: by_weight
 通道接口	tong dao jie kou	67
 决策单调性	jue ce dan diao xing	67
 微软笔试题	wei ruan bi shi ti	67
-重构二叉树	zhong gou er cha shu	67
+重构二叉树	chong gou er cha shu	67
 数据传输指令	shu ju chuan shu zhi ling	67
 逻辑编程语言	luo ji bian cheng yu yan	67
 对齐线	dui qi xian	66
@@ -6983,7 +6983,7 @@ sort: by_weight
 数据挖据	shu ju wa ju	65
 时钟偏差	shi zhong pian cha	65
 时间插件	shi jian cha jian	65
-最长反链	zui zhang fan lian	65
+最长反链	zui chang fan lian	65
 框架理解	kuang jia li jie	65
 横向扫描	heng xiang sao miao	65
 清除请求	qing chu qing qiu	65
@@ -7013,10 +7013,10 @@ sort: by_weight
 启动子程序	qi dong zi cheng xu	64
 大数据方案	da shu ju fang an	64
 字符串旋转	zi fu chuan xuan zhuan	64
-无限极分类	wu xian ji fen lei	64
+无限极分类	mo xian ji fen lei	64
 网易视频云	wang yi shi pin yun	64
 计算机英语	ji suan ji ying yu	64
-逻辑设备名	luo ji she bei ming	64
+逻辑设备名	luo ji she yuan ming	64
 报表解决方案	bao biao jie jue fang an	64
 消息传递接口	xiao xi chuan di jie kou	64
 软件可维护性	ruan jian ke wei hu xing	64
@@ -7034,7 +7034,7 @@ sort: by_weight
 挂起时间	gua qi shi jian	63
 接口规约	jie kou gui yue	63
 操作语义	cao zuo yu yi	63
-离散卷积	li san juan ji	63
+离散卷积	chi san juan ji	63
 统计假设	tong ji jia she	63
 编程训练	bian cheng xun lian	63
 超流水线	chao liu shui xian	63
@@ -7092,7 +7092,7 @@ sort: by_weight
 职业路线	zhi ye lu xian	60
 边界表示	bian jie biao shi	60
 逻辑综合	luo ji zong he	60
-中值滤波器	zhong zhi lv bo qi	60
+中值滤波器	zhong zhi lü bo qi	60
 数据库作业	shu ju ku zuo ye	60
 测试有效性	ce shi you xiao xing	60
 非均匀有理	fei jun yun you li	60
@@ -7116,7 +7116,7 @@ sort: by_weight
 打开右键菜单	da kai you jian cai dan	59
 模拟电子技术	mo ni dian zi ji shu	59
 系统管理模式	xi tong guan li mo shi	59
-阿姆达尔定律	a mu da er ding lv	59
+阿姆达尔定律	a mu da er ding lü	59
 项目开发管理	xiang mu kai fa guan li	59
 元知识	yuan zhi shi	58
 多总线	duo zong xian	58
@@ -7125,7 +7125,7 @@ sort: by_weight
 简单网	jian dan wang	58
 个人建站	ge ren jian zhan	58
 图形打印	tu xing da yin	58
-外壳命令	wai ke ming ling	58
+外壳命令	wai que ming ling	58
 实体容器	shi ti rong qi	58
 折半枚举	zhe ban mei ju	58
 有效过程	you xiao guo cheng	58
@@ -7146,7 +7146,7 @@ sort: by_weight
 耦合系统	ou he xi tong	57
 二叉索引树	er cha suo yin shu	57
 传真服务器	chuan zhen fu wu qi	57
-开发工具类	kai fa gong ju lei	57
+开发工具类	jian fa gong ju lei	57
 电路交换网	dian lu jiao huan wang	57
 计算机数学	ji suan ji shu xue	57
 可计算性理论	ke ji suan xing li lun	57
@@ -7188,7 +7188,7 @@ sort: by_weight
 软件总线	ruan jian zong xian	55
 工作存储器	gong zuo cun chu qi	55
 快速矩阵幂	kuai su ju zhen mi	55
-超长指令字	chao zhang zhi ling zi	55
+超长指令字	chao chang zhi ling zi	55
 平面最近点对	ping mian zui jin dian dui	55
 显式接口实现	xian shi jie kou shi xian	55
 作业步	zuo ye bu	54
@@ -7216,7 +7216,7 @@ sort: by_weight
 前端效果	qian duan xiao guo	53
 开关噪声	kai guan zao sheng	53
 最小特权	zui xiao te quan	53
-条件同步	tiao jian tong bu	53
+条件同步	di jian tong bu	53
 测试评审	ce shi ping shen	53
 精品软件	jing pin ruan jian	53
 词类标注	ci lei biao zhu	53
@@ -7255,20 +7255,20 @@ sort: by_weight
 知识块	zhi shi kuai	51
 外壳进程	wai ke jin cheng	51
 工作资料	gong zuo zi liao	51
-拓补排序	ta bu pai xu	51
+拓补排序	tuo bu pai xu	51
 无损分解	wu sun fen jie	51
 滤镜操作	lv jing cao zuo	51
 电脑基础	dian nao ji chu	51
 离线大法	li xian da fa	51
 系统经验	xi tong jing yan	51
-信息无障碍	xin xi wu zhang ai	51
+信息无障碍	xin xi mo zhang ai	51
 初始透明度	chu shi tou ming du	51
 方向性光源	fang xiang xing guang yuan	51
 软件数据库	ruan jian shu ju ku	51
 定时调度任务	ding shi diao du ren wu	51
 输入输出队列	shu ru shu chu dui lie	51
 句法树	ju fa shu	50
-色度学	se du xue	50
+色度学	se du xiao	50
 间隔帧	jian ge zheng	50
 假设验证	jia she yan zheng	50
 全球地址	quan qiu di zhi	50
@@ -7291,11 +7291,11 @@ sort: by_weight
 空间自相关	kong jian zi xiang guan	50
 窗口程序集	chuang kou cheng xu ji	50
 金阳光测试	jin yang guang ce shi	50
-项目重命名	xiang mu zhong ming ming	50
+项目重命名	xiang mu chong ming ming	50
 人机界面设计	ren ji jie mian she ji	50
 代码优化技巧	dai ma you hua ji qiao	50
 提升进程权限	ti sheng jin cheng quan xian	50
-数据加密密钥	shu ju jia mi mi yao	50
+数据加密密钥	shu ju jia mi mi yue	50
 总线网	zong xian wang	49
 着色数	zhuo se shu	49
 作业描述	zuo ye miao shu	49
@@ -7307,13 +7307,13 @@ sort: by_weight
 扩展总线	kuo zhan zong xian	49
 故障模拟	gu zhang mo ni	49
 架构探索	jia gou tan suo	49
-模板算法	mu ban suan fa	49
+模板算法	mo ban suan fa	49
 皮克定理	pi ke ding li	49
 笔试题库	bi shi ti ku	49
 结构冲突	jie gou chong tu	49
 自动文摘	zi dong wen zhai	49
 三维扫描仪	san wei sao miao yi	49
-作业控制块	zuo ye kong zhi kuai	49
+作业控制块	zuo qiu kong zhi kuai	49
 说话人识别	shuo hua ren shi bie	49
 软件开发类	ruan jian kai fa lei	49
 可满足性问题	ke man zu xing wen ti	49
@@ -7329,11 +7329,11 @@ sort: by_weight
 页回收	ye hui shou	48
 保研机试	bao yan ji shi	48
 安卓打包	an zhuo da bao	48
-密钥恢复	mi yao hui fu	48
+密钥恢复	mi yue hui fu	48
 快速转到	kuai su zhuan dao	48
 排队模型	pai dui mo xing	48
 歧义消解	qi yi xiao jie	48
-求解策略	qiu jie ce lve	48
+求解策略	qiu jie ce lüe	48
 组织界面	zu zhi jie mian	48
 视频加密	shi pin jia mi	48
 过程同步	guo cheng tong bu	48
@@ -7346,7 +7346,7 @@ sort: by_weight
 浏览器项目	liu lan qi xiang mu	48
 签发者无效	qian fa zhe wu xiao	48
 二级高速缓存	er ji gao su huan cun	48
-作业控制语言	zuo ye kong zhi yu yan	48
+作业控制语言	zuo qiu kong zhi yu yan	48
 管理表单数据	guan li biao dan shu ju	48
 面光源	mian guang yuan	47
 事务故障	shi wu gu zhang	47
@@ -7359,7 +7359,7 @@ sort: by_weight
 技术代码	ji shu dai ma	47
 数值优化	shu zhi you hua	47
 渐变叠加	jian bian die jia	47
-版本策略	ban ben ce lve	47
+版本策略	ban ben ce lüe	47
 穷竭搜索	qiong jie sou suo	47
 轮廓跟踪	lun kuo gen zong	47
 软件思想	ruan jian si xiang	47
@@ -7369,7 +7369,7 @@ sort: by_weight
 一般图匹配	yi ban tu pi pei	47
 可靠性数据	ke kao xing shu ju	47
 合肥人才网	he fei ren cai wang	47
-密钥服务器	mi yao fu wu qi	47
+密钥服务器	mi yue fu wu qi	47
 数组邻接表	shu zu lin jie biao	47
 短信客户端	duan xin ke hu duan	47
 说明性语言	shuo ming xing yu yan	47
@@ -7381,7 +7381,7 @@ sort: by_weight
 最优矩阵链乘	zui you ju zhen lian cheng	47
 添物	tian wu	46
 知识源	zhi shi yuan	46
-交叉开关	jiao cha kai guan	46
+交叉开关	jiao cha jian xiao	46
 传值参数	chuan zhi can shu	46
 前端实践	qian duan shi jian	46
 开源资讯	kai yuan zi xun	46
@@ -7401,7 +7401,7 @@ sort: by_weight
 反病毒工程师	fan bing du gong cheng shi	46
 常见错误汇总	chang jian cuo wu hui zong	46
 数学基础知识	shu xue ji chu zhi shi	46
-最坏情况分析	zui huai qing kuang fen xi	46
+最坏情况分析	zui pei qing kuang fen xi	46
 三方类库	san fang lei ku	45
 上海传智	shang hai chuan zhi	45
 可视分析	ke shi fen xi	45
@@ -7441,7 +7441,7 @@ sort: by_weight
 组合行为	zu he xing wei	44
 置换密码	zhi huan mi ma	44
 自动开票	zi dong kai piao	44
-超长文本	chao zhang wen ben	44
+超长文本	chao chang wen ben	44
 部件连接	bu jian lian jie	44
 附加文档	fu jia wen dang	44
 中文语料库	zhong wen yu liao ku	44
@@ -7471,15 +7471,15 @@ sort: by_weight
 工具类集合	gong ju lei ji he	43
 源代码加密	yuan dai ma jia mi	43
 矩阵树定理	ju zhen shu ding li	43
-个人机房重构	ge ren ji fang zhong gou	43
-声音输出设备	sheng yin shu chu she bei	43
+个人机房重构	ge ren ji fang chong gou	43
+声音输出设备	sheng yin shu chu she yuan	43
 连通区域标记	lian tong qu yu biao ji	43
-似然比	shi ran bi	42
+似然比	si ran bi	42
 连接埠	lian jie bu	42
 三方插件	san fang cha jian	42
 区间动规	qu jian dong gui	42
 基于构件	ji yu gou jian	42
-外壳脚本	wai ke jiao ben	42
+外壳脚本	wai que jiao ben	42
 子带编码	zi dai bian ma	42
 建站技术	jian zhan ji shu	42
 数学几何	shu xue ji he	42
@@ -7492,9 +7492,9 @@ sort: by_weight
 全期望公式	quan qi wang gong shi	42
 刘汝佳白书	liu ru jia bai shu	42
 局域网网关	ju yu wang wang guan	42
-数据库重构	shu ju ku zhong gou	42
+数据库重构	shu ju ku chong gou	42
 可测试性设计	ke ce shi xing she ji	42
-寄存器重命名	ji cun qi zhong ming ming	42
+寄存器重命名	ji cun qi chong ming ming	42
 新建快捷方式	xin jian kuai jie fang shi	42
 软件可移植性	ruan jian ke yi zhi xing	42
 技巧类	ji qiao lei	41
@@ -7508,22 +7508,22 @@ sort: by_weight
 图文电视	tu wen dian shi	41
 安卓逆向	an zhuo ni xiang	41
 海量连接	hai liang lian jie	41
-深搜广搜	shen sou guang sou	41
+深搜广搜	shen sou yan sou	41
 电子硬件	dian zi ying jian	41
-系统密钥	xi tong mi yao	41
+系统密钥	xi tong mi yue	41
 语音辨识	yu yin bian shi	41
 趣味数学	qu wei shu xue	41
 边界跟踪	bian jie gen zong	41
 逻辑分页	luo ji fen ye	41
 驱动大师	qu dong da shi	41
 从头读历史	cong tou du li shi	41
-树上最长链	shu shang zui zhang lian	41
+树上最长链	shu shang zui chang lian	41
 特殊回文数	te shu hui wen shu	41
 闪速存储器	shan su cun chu qi	41
 以行为为中心	yi xing wei wei zhong xin	41
 层次数据模型	ceng ci shu ju mo xing	41
 反射库	fan she ku	40
-完备化	wan bei hua	40
+完备化	wan yuan hua	40
 将金令	jiang jin ling	40
 分时处理	fen shi chu li	40
 声波传输	sheng bo chuan shu	40
@@ -7549,7 +7549,7 @@ sort: by_weight
 汉语自动分词	han yu zi dong fen ci	40
 消息传送系统	xiao xi chuan song xi tong	40
 位通道	wei tong dao	39
-反射体	fan she ti	39
+反射体	fan she ben	39
 对策论	dui ce lun	39
 事务驱动	shi wu qu dong	39
 便捷使用	bian jie shi yong	39
@@ -7564,7 +7564,7 @@ sort: by_weight
 多点会议	duo dian hui yi	39
 好文分享	hao wen fen xiang	39
 密钥建立	mi yao jian li	39
-开关时间	kai guan shi jian	39
+开关时间	jian xiao shi jian	39
 开源飞控	kai yuan fei kong	39
 手工建库	shou gong jian ku	39
 有限点集	you xian dian ji	39
@@ -7583,7 +7583,7 @@ sort: by_weight
 知识库系统	zhi shi ku xi tong	39
 媒体控制接口	mei ti kong zhi jie kou	39
 实用代码片段	shi yong dai ma pian duan	39
-泛型类型定义	fan xing lei xing ding yi	39
+泛型类型定义	fan xing lei xing ding cha	39
 经典算法问题	jing dian suan fa wen ti	39
 视频质量评价	shi pin zhi liang ping jia	39
 取宽度	qu kuan du	38
@@ -7629,7 +7629,7 @@ sort: by_weight
 因果推理	yin guo tui li	37
 图层路径	tu ceng lu jing	37
 地图代码	di tu dai ma	37
-复合标识	fu he biao zhi	37
+复合标识	fu he biao shi	37
 大数模拟	da shu mo ni	37
 弱连通图	ruo lian tong tu	37
 搜索求解	sou suo qiu jie	37
@@ -7638,7 +7638,7 @@ sort: by_weight
 简单博弈	jian dan bo yi	37
 结果填空	jie guo tian kong	37
 视图开发	shi tu kai fa	37
-跨行合并	kua xing he bing	37
+跨行合并	kua hang he bing	37
 辅助副本	fu zhu fu ben	37
 采样分布	cai yang fen bu	37
 频域响应	pin yu xiang ying	37
@@ -7646,7 +7646,7 @@ sort: by_weight
 互联网编程	hu lian wang bian cheng	37
 产生式系统	chan sheng shi xi tong	37
 动态点分治	dong tai dian fen zhi	37
-最佳适配法	zui jia shi pei fa	37
+最佳适配法	zui jia gua pei fa	37
 条码阅读器	tiao ma yue du qi	37
 各类排序算法	ge lei pai xu suan fa	37
 平面文件系统	ping mian wen jian xi tong	37
@@ -7675,7 +7675,7 @@ sort: by_weight
 数据手套	shu ju shou tao	36
 曲面模型	qu mian mo xing	36
 最小割树	zui xiao ge shu	36
-模板节点	mu ban jie dian	36
+模板节点	mo ban jie dian	36
 测试提示	ce shi ti shi	36
 移动代理	yi dong dai li	36
 程序竞赛	cheng xu jing sai	36
@@ -7723,7 +7723,7 @@ sort: by_weight
 数据访问路径	shu ju fang wen lu jing	35
 用户文件目录	yong hu wen jian mu lu	35
 偶数场	ou shu chang	34
-弱密钥	ruo mi yao	34
+弱密钥	ruo mi yue	34
 盘片组	pan pian zu	34
 硬故障	ying gu zhang	34
 上机作业	shang ji zuo ye	34
@@ -7748,7 +7748,7 @@ sort: by_weight
 运行多态	yun xing duo tai	34
 高仿苹果	gao fang ping guo	34
 交互式电视	jiao hu shi dian shi	34
-企业级框架	qi ye ji kuang jia	34
+企业级框架	qi qiu ji kuang jia	34
 动态树分治	dong tai shu fen zhi	34
 可复用构件	ke fu yong gou jian	34
 硬件多线程	ying jian duo xian cheng	34
@@ -7756,7 +7756,7 @@ sort: by_weight
 蓝桥杯比赛	lan qiao bei bi sai	34
 行地址选通	xing di zhi xuan tong	34
 隐藏面消除	yin cang mian xiao chu	34
-密钥分配中心	mi yao fen pei zhong xin	34
+密钥分配中心	mi yue fen pei zhong xin	34
 工作组服务器	gong zuo zu fu wu qi	34
 当前默认目录	dang qian mo ren mu lu	34
 最大值最小化	zui da zhi zui xiao hua	34
@@ -7780,7 +7780,7 @@ sort: by_weight
 光子计算机	guang zi ji suan ji	33
 初始代码块	chu shi dai ma kuai	33
 取文件长度	qu wen jian chang du	33
-多媒体扩展	duo mei ti kuo zhan	33
+多媒体扩展	duo mei ben kuo zhan	33
 数据多样性	shu ju duo yang xing	33
 程序优先级	cheng xu you xian ji	33
 程序员升级	cheng xu yuan sheng ji	33
@@ -7799,11 +7799,11 @@ sort: by_weight
 安卓类	an zhuo lei	32
 有界性	you jie xing	32
 软件区	ruan jian qu	32
-专业词库	zhuan ye ci ku	32
-初始标识	chu shi biao zhi	32
+专业词库	zhuan qiu ci ku	32
+初始标识	chu shi biao shi	32
 功能规约	gong neng gui yue	32
 技术集锦	ji shu ji jin	32
-搜搜文档	sou sou wen dang	32
+搜搜文档	sou	32
 断点开关	duan dian kai guan	32
 省市级联	sheng shi ji lian	32
 瞬时故障	shun shi gu zhang	32
@@ -7815,7 +7815,7 @@ sort: by_weight
 静态域名	jing tai yu ming	32
 高层调度	gao ceng diao du	32
 人形机器人	ren xing ji qi ren	32
-图形学基础	tu xing xue ji chu	32
+图形学基础	tu xing xiao ji chu	32
 块结构语言	kuai jie gou yu yan	32
 多光谱图像	duo guang pu tu xiang	32
 私有程序集	si you cheng xu ji	32
@@ -7832,7 +7832,7 @@ sort: by_weight
 错误集	cuo wu ji	31
 关键程度	guan jian cheng du	31
 动态仿真	dong tai fang zhen	31
-动态重构	dong tai zhong gou	31
+动态重构	dong tai chong gou	31
 多优先级	duo you xian ji	31
 实体造型	shi ti zao xing	31
 工控安全	gong kong an quan	31
@@ -7873,13 +7873,13 @@ sort: by_weight
 因特网电话	yin te wang dian hua	30
 固定存储器	gu ding cun chu qi	30
 域名控制器	yu ming kong zhi qi	30
-文本相似度	wen ben xiang shi du	30
+文本相似度	wen ben xiang si du	30
 段提交协议	duan ti jiao xie yi	30
 计算机维护	ji suan ji wei hu	30
 计算机艺术	ji suan ji yi shu	30
 资源分配表	zi yuan fen pei biao	30
 共享高速缓存	gong xiang gao su huan cun	30
-医学影像处理	yi xue ying xiang chu li	30
+医学影像处理	yi xiao ying xiang chu li	30
 安卓开发经验	an zhuo kai fa jing yan	30
 第五代计算机	di wu dai ji suan ji	30
 自然语言生成	zi ran yu yan sheng cheng	30
@@ -7929,7 +7929,7 @@ sort: by_weight
 虚参数	xu can shu	28
 人工语言	ren gong yu yan	28
 动态标绘	dong tai biao hui	28
-匹配滤波	pi pei lv bo	28
+匹配滤波	pi pei lü bo	28
 多值依赖	duo zhi yi lai	28
 对偶原理	dui ou yuan li	28
 技术整理	ji shu zheng li	28
@@ -8021,14 +8021,14 @@ sort: by_weight
 图形输入板	tu xing shu ru ban	26
 数字字符集	shu zi zi fu ji	26
 数据交换机	shu ju jiao huan ji	26
-无连接模式	wu lian jie mo shi	26
+无连接模式	mo lian jie mo shi	26
 编程小技巧	bian cheng xiao ji qiao	26
 非递归优化	fei di gui you hua	26
 互操作程序集	hu cao zuo cheng xu ji	26
 分布式存储器	fen bu shi cun chu qi	26
 垂直扫描频率	chui zhi sao miao pin lv	26
-系统调度程序	xi tong diao du cheng xu	26
-模板集	mu ban ji	25
+系统调度程序	xi tong tiao du cheng xu	26
+模板集	mo ban ji	25
 辅助集	fu zhu ji	25
 主动视觉	zhu dong shi jue	25
 光栅显示	guang shan xian shi	25
@@ -8036,11 +8036,11 @@ sort: by_weight
 卸载图片	xie zai tu pian	25
 可扩缩性	ke kuo suo xing	25
 回扫时间	hui sao shi jian	25
-固定字长	gu ding zi zhang	25
+固定字长	gu ding zi chang	25
 复杂符号	fu za fu hao	25
 安全资讯	an quan zi xun	25
 实用网站	shi yong wang zhan	25
-密钥托管	mi yao tuo guan	25
+密钥托管	mi yue tuo guan	25
 工作体会	gong zuo ti hui	25
 建站经验	jian zhan jing yan	25
 智慧校园	zhi hui xiao yuan	25
@@ -8068,7 +8068,7 @@ sort: by_weight
 取年份	qu nian fen	24
 取数值	qu shu zhi	24
 域分解	yu fen jie	24
-次密钥	ci mi yao	24
+次密钥	ci mi yue	24
 物媒体	wu mei ti	24
 主动动词	zhu dong dong ci	24
 休眠队列	xiu mian dui lie	24
@@ -8088,7 +8088,7 @@ sort: by_weight
 进化程序	jin hua cheng xu	24
 原型图工具	yuan xing tu gong ju	24
 可路由协议	ke lu you xie yi	24
-吸血鬼数字	xi xue gui shu zi	24
+吸血鬼数字	xi xie gui shu zi	24
 多层印制板	duo ceng yin zhi ban	24
 测试驱动器	ce shi qu dong qi	24
 源代码教育	yuan dai ma jiao yu	24
@@ -8099,7 +8099,7 @@ sort: by_weight
 高速缓存块	gao su huan cun kuai	24
 傅里叶描述子	fu li ye miao shu zi	24
 关闭进程句柄	guan bi jin cheng ju bing	24
-安卓开发技术	an zhuo kai fa ji shu	24
+安卓开发技术	an zhuo jian fa ji zhu	24
 数据管理程序	shu ju guan li cheng xu	24
 深度优先搜寻	shen du you xian sou xun	24
 第一代计算机	di yi dai ji suan ji	24
@@ -8119,11 +8119,11 @@ sort: by_weight
 垂直刻度	chui zhi ke du	23
 处理机对	chu li ji dui	23
 多校训练	duo xiao xun lian	23
-多重关系	duo zhong guan xi	23
+多重关系	duo chong guan xi	23
 安卓推送	an zhuo tui song	23
 小小项目	xiao xiao xiang mu	23
 嵌入水印	qian ru shui yin	23
-开关电流	kai guan dian liu	23
+开关电流	jian xiao dian liu	23
 开发路上	kai fa lu shang	23
 扁平封装	bian ping feng zhuang	23
 手机工具	shou ji gong ju	23
@@ -8206,12 +8206,12 @@ sort: by_weight
 流水线停顿	liu shui xian ting dun	22
 用户状态表	yong hu zhuang tai biao	22
 走出象牙塔	zou chu xiang ya ta	22
-逻辑设备表	luo ji she bei biao	22
+逻辑设备表	luo ji she yuan biao	22
 关闭所有标签	guan bi suo you biao qian	22
 多级高速缓存	duo ji gao su huan cun	22
 常用网络命令	chang yong wang luo ming ling	22
 平凡函数依赖	ping fan han shu yi lai	22
-开发工具配置	kai fa gong ju pei zhi	22
+开发工具配置	jian fa gong ju pei zhi	22
 算法程序设计	suan fa cheng xu she ji	22
 结构查询语言	jie gou cha xun yu yan	22
 证书管理机构	zheng shu guan li ji gou	22
@@ -8223,11 +8223,11 @@ sort: by_weight
 浮点乘	fu dian cheng	21
 道密度	dao mi du	21
 三角测距	san jiao ce ju	21
-似然方程	shi ran fang cheng	21
+似然方程	si ran fang cheng	21
 作业目录	zuo ye mu lu	21
 双位编码	shuang wei bian ma	21
-句法关系	ju fa guan xi	21
-多重异常	duo zhong yi chang	21
+句法关系	ju fa xiao xi	21
+多重异常	duo chong yi chang	21
 导出规则	dao chu gui ze	21
 微软牛津	wei ruan niu jin	21
 故障查找	gu zhang cha zhao	21
@@ -8298,7 +8298,7 @@ sort: by_weight
 谢尔排序	xie er pai xu	20
 贪心专题	tan xin zhuan ti	20
 软件主体	ruan jian zhu ti	20
-进化策略	jin hua ce lve	20
+进化策略	jin hua ce lüe	20
 三消类游戏	san xiao lei you xi	20
 分布透明性	fen bu tou ming xing	20
 可信计算基	ke xin ji suan ji	20
@@ -8314,25 +8314,25 @@ sort: by_weight
 非线性量化	fei xian xing liang hua	20
 马赫带效应	ma he dai xiao ying	20
 多处理器调度	duo chu li qi diao du	20
-实时三维重建	shi shi san wei chong jian	20
+实时三维重建	shi shi san wei zhong jian	20
 已知明文攻击	yi zhi ming wen gong ji	20
 平面地址空间	ping mian di zhi kong jian	20
 异步时分复用	yi bu shi fen fu yong	20
-敏捷开发工具	min jie kai fa gong ju	20
+敏捷开发工具	min jie jian fa gong ju	20
 构造泛型类型	gou zao fan xing lei xing	20
 算法进化历程	suan fa jin hua li cheng	20
 英文资料翻译	ying wen zi liao fan yi	20
 软件环境配置	ruan jian huan jing pei zhi	20
 连接单元接口	lian jie dan yuan jie kou	20
 高效算法设计	gao xiao suan fa she ji	20
-语用学	yu yong xue	19
+语用学	yu yong xiao	19
 三位编码	san wei bian ma	19
 专业词典	zhuan ye ci dian	19
-信号重构	xin hao zhong gou	19
+信号重构	xin hao chong gou	19
 冲突消解	chong tu xiao jie	19
-取命令行	qu ming ling xing	19
+取命令行	qu ming ling hang	19
 增量转储	zeng liang zhuan chu	19
-安装攻略	an zhuang gong lve	19
+安装攻略	an zhuang gong lüe	19
 循环进位	xun huan jin wei	19
 拉东变换	la dong bian huan	19
 易修改性	yi xiu gai xing	19
@@ -8357,7 +8357,7 @@ sort: by_weight
 嵌入式实验	qian ru shi shi yan	19
 开发代码库	kai fa dai ma ku	19
 标量处理器	biao liang chu li qi	19
-汉字输入码	han zi shu ru ma	19
+汉字输入码	nv zi shu ru ma	19
 矩阵切换器	ju zhen qie huan qi	19
 磁场感应器	ci chang gan ying qi	19
 第三章习题	di san zhang xi ti	19
@@ -8421,11 +8421,11 @@ sort: by_weight
 判断循环首	pan duan xun huan shou	18
 双击标签栏	shuang ji biao qian lan	18
 取文本长度	qu wen ben chang du	18
-叠片过滤器	die pian guo lv qi	18
+叠片过滤器	die pian guo lü qi	18
 多处理环境	duo chu li huan jing	18
 层次遍历法	ceng ci bian li fa	18
 工作存储区	gong zuo cun chu qu	18
-无连接业务	wu lian jie ye wu	18
+无连接业务	mo lian jie ye wu	18
 玩转树莓派	wan zhuan shu mei pai	18
 系统急救箱	xi tong ji jiu xiang	18
 置文件属性	zhi wen jian shu xing	18
@@ -8496,7 +8496,7 @@ sort: by_weight
 数据流计算机	shu ju liu ji suan ji	17
 程式设计语言	cheng shi she ji yu yan	17
 静止图像压缩	jing zhi tu xiang ya suo	17
-盖写	gai xie	16
+盖写	he xie	16
 掩模图	yan mo tu	16
 模型论	mo xing lun	16
 虚通道	xu tong dao	16
@@ -8609,7 +8609,7 @@ sort: by_weight
 网络通讯编程	wang luo tong xun bian cheng	15
 软件水平考试	ruan jian shui ping kao shi	15
 远程作业输入	yuan cheng zuo ye shu ru	15
-逐行分析代码	zhu xing fen xi dai ma	15
+逐行分析代码	zhu hang fen xi dai ma	15
 香农采样定理	xiang nong cai yang ding li	15
 高级开发技巧	gao ji kai fa ji qiao	15
 位驱动	wei qu dong	14
@@ -8632,7 +8632,7 @@ sort: by_weight
 并发模拟	bing fa mo ni	14
 数据库机	shu ju ku ji	14
 数据采掘	shu ju cai jue	14
-整体失效	zheng ti shi xiao	14
+整体失效	zheng ben shi xiao	14
 文语转换	wen yu zhuan huan	14
 模态逻辑	mo tai luo ji	14
 渗透学习	shen tou xue xi	14
@@ -8665,12 +8665,12 @@ sort: by_weight
 工作区坐标	gong zuo qu zuo biao	14
 故障树分析	gu zhang shu fen xi	14
 数据库重组	shu ju ku chong zu	14
-模板化控件	mu ban hua kong jian	14
+模板化控件	mo ban hua kong jian	14
 海水淡化膜	hai shui dan hua mo	14
 消息传递库	xiao xi chuan di ku	14
 点数据分析	dian shu ju fen xi	14
 瑞星防火墙	rui xing fang huo qiang	14
-用户标识码	yong hu biao zhi ma	14
+用户标识码	yong hu biao shi ma	14
 相似性测度	xiang si xing ce duo	14
 程序集缓存	cheng xu ji huan cun	14
 第五代语言	di wu dai yu yan	14
@@ -8721,9 +8721,9 @@ sort: by_weight
 面向构件	mian xiang gou jian	13
 公告板系统	gong gao ban xi tong	13
 大数据培训	da shu ju pei xun	13
-小白学算法	xiao bai xue suan fa	13
+小白学算法	xiao bai xiao suan fa	13
 知识复杂性	zhi shi fu za xing	13
-端对端传送	duan dui duan chuan song	13
+端对端传送	duan dui	13
 系统目录表	xi tong mu lu biao	13
 网狐经典版	wang hu jing dian ban	13
 虚拟图书馆	xu ni tu shu guan	13
@@ -8756,7 +8756,7 @@ sort: by_weight
 在线杀毒	zai xian sha du	12
 外部页表	wai bu ye biao	12
 奇数扫描	ji shu sao miao	12
-子集覆盖	zi ji fu gai	12
+子集覆盖	zi ji fu he	12
 开源轮子	kai yuan lun zi	12
 推理模型	tui li mo xing	12
 撤销还原	che xiao huan yuan	12
@@ -8779,7 +8779,7 @@ sort: by_weight
 黑板协调	hei ban xie tiao	12
 二进制单元	er jin zhi dan yuan	12
 代码工具类	dai ma gong ju lei	12
-依存关系树	yi cun guan xi shu	12
+依存关系树	yi cun xiao xi shu	12
 可查询类型	ke cha xun lei xing	12
 因特网协会	yin te wang xie hui	12
 多通道传输	duo tong dao chuan shu	12
@@ -8796,7 +8796,7 @@ sort: by_weight
 后台管理框架	hou tai guan li kuang jia	12
 安卓屏幕适配	an zhuo ping mu shi pei	12
 密码分析攻击	mi ma fen xi gong ji	12
-密钥加密密钥	mi yao jia mi mi yao	12
+密钥加密密钥	mi yao jia mi	12
 手机视频开发	shou ji shi pin kai fa	12
 最大化平均值	zui da hua ping jun zhi	12
 松散耦合系统	song san ou he xi tong	12
@@ -8806,7 +8806,7 @@ sort: by_weight
 结构模式识别	jie gou mo shi shi bie	12
 联机分析挖掘	lian ji fen xi wa jue	12
 面向机器语言	mian xiang ji qi yu yan	12
-并査集	bing zha ji	11
+并査集	bing cha ji	11
 模冗余	mo rong yu	11
 比例带	bi li dai	11
 精定位	jing ding wei	11
@@ -8819,17 +8819,17 @@ sort: by_weight
 克林闭包	ke lin bi bao	11
 写注册项	xie zhu ce xiang	11
 单片系统	dan pian xi tong	11
-命令重试	ming ling zhong shi	11
+命令重试	ming ling chong shi	11
 图形保真	tu xing bao zhen	11
 多址访问	duo zhi fang wen	11
 实时约束	shi shi yue shu	11
 宿主控件	su zhu kong jian	11
 工控图表	gong kong tu biao	11
 工控板卡	gong kong ban ka	11
-感知策略	gan zhi ce lve	11
+感知策略	gan zhi ce lüe	11
 报警显示	bao jing xian shi	11
 接口开销	jie kou kai xiao	11
-推理策略	tui li ce lve	11
+推理策略	tui li ce lüe	11
 推理网络	tui li wang luo	11
 数据逆向	shu ju ni xiang	11
 概率系统	gai lv xi tong	11
@@ -8872,9 +8872,9 @@ sort: by_weight
 同步时分复用	tong bu shi fen fu yong	11
 图书馆客户端	tu shu guan ke hu duan	11
 基于角色授权	ji yu jue se shou quan	11
-存储管理策略	cun chu guan li ce lve	11
+存储管理策略	cun chu guan li ce lüe	11
 存储管理部件	cun chu guan li bu jian	11
-汉字信息处理	han zi xin xi chu li	11
+汉字信息处理	nv zi xin xi chu li	11
 空间拓扑关系	kong jian tuo pu guan xi	11
 自反传递闭包	zi fan chuan di bi bao	11
 软件开发手册	ruan jian kai fa shou ce	11
@@ -8902,14 +8902,14 @@ sort: by_weight
 存取冲突	cun qu chong tu	10
 安卓定制	an zhuo ding zhi	10
 实际页数	shi ji ye shu	10
-密钥短语	mi yao duan yu	10
+密钥短语	mi yue duan yu	10
 形状因子	xing zhuang yin zi	10
 形状曲线	xing zhuang qu xian	10
 成组传送	cheng zu chuan song	10
 撤消原语	che xiao yuan yu	10
 斜坡函数	xie po han shu	10
 概率测试	gai lv ce shi	10
-模板整理	mu ban zheng li	10
+模板整理	mo ban zheng li	10
 正则形式	zheng ze xing shi	10
 清除切片	qing chu qie pian	10
 特征交互	te zheng jiao hu	10
@@ -8922,7 +8922,7 @@ sort: by_weight
 虚拟制造	xu ni zhi zao	10
 读出电路	du chu dian lu	10
 读数据线	du shu ju xian	10
-运行剖面	yun xing pou mian	10
+运行剖面	yun xing pao mian	10
 集肤效应	ji fu xiao ying	10
 驱动安全	qu dong an quan	10
 专用程序集	zhuan yong cheng xu ji	10
@@ -8932,7 +8932,7 @@ sort: by_weight
 包围盒测试	bao wei he ce shi	10
 单系统映像	dan xi tong ying xiang	10
 友元程序集	you yuan cheng xu ji	10
-图形学原理	tu xing xue yuan li	10
+图形学原理	tu xing xiao yuan li	10
 多路分配器	duo lu fen pei qi	10
 实用程序包	shi yong cheng xu bao	10
 平衡语料库	ping heng yu liao ku	10
@@ -8941,7 +8941,7 @@ sort: by_weight
 正文编辑器	zheng wen bian ji qi	10
 活动驱动器	huo dong qu dong qi	10
 百度工具栏	bai du gong ju lan	10
-绿色浏览器	lv se liu lan qi	10
+绿色浏览器	lü se liu lan qi	10
 软件开发库	ruan jian kai fa ku	10
 软件训练营	ruan jian xun lian ying	10
 运行可行性	yun xing ke xing xing	10
@@ -8952,12 +8952,12 @@ sort: by_weight
 句法模式识别	ju fa mo shi shi bie	10
 图像编解码器	tu xiang bian jie ma qi	10
 并行排序算法	bing xing pai xu suan fa	10
-战略数据规划	zhan lve shu ju gui hua	10
+战略数据规划	zhan lüe shu ju gui hua	10
 手机软件测试	shou ji ruan jian ce shi	10
 管理程序调用	guan li cheng xu diao yong	10
 自然语言语法	zi ran yu yan yu fa	10
 表面安装技术	biao mian an zhuang ji shu	10
 读写控制电路	du xie kong zhi dian lu	10
 超流水线结构	chao liu shui xian jie gou	10
-页面替换策略	ye mian ti huan ce lve	10
+页面替换策略	ye mian ti huan ce lüe	10
 

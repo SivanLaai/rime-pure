@@ -18,11 +18,11 @@ sort: by_weight
 统计系	tong ji xi	98
 划断	hua duan	95
 新锦江	xin jin jiang	91
-领购簿	ling gou bu	84
+领购簿	ling gou bo	84
 快公司	kuai gong si	77
 拒批	ju pi	70
 上市规则	shang shi gui ze	65
-挂价	gua jia	64
+挂价	gua jie	64
 投资协议	tou zi xie yi	64
 用卡	yong ka	60
 联益	lian yi	59
@@ -49,7 +49,7 @@ sort: by_weight
 运通卡	yun tong ka	28
 总房价	zong fang jia	28
 上破	shang po	25
-征用权	zheng yong quan	25
+征用权	zheng yong shu	25
 远东经济评论	yuan dong jing ji ping lun	24
 股市动态分析	gu shi dong tai fen xi	24
 全球商业经典	quan qiu shang ye jing dian	22
@@ -72,7 +72,7 @@ sort: by_weight
 中原信托	zhong yuan xin tuo	16
 高斯达	gao si da	16
 贵绳	gui sheng	16
-富士银行	fu shi yin hang	16
+富士银行	fu shi yin xing	16
 天鸿宝业	tian hong bao ye	16
 国泰金龙	guo tai jin long	15
 虚涨	xu zhang	15
@@ -85,9 +85,9 @@ sort: by_weight
 银承	yin cheng	14
 银债	yin zhai	14
 华安宝利	hua an bao li	13
-供给区	gong ji qu	13
+供给区	gong gei qu	13
 深原野	shen yuan ye	12
-圣雪绒	sheng xue rong	12
+圣雪绒	ku xue rong	12
 扩仓	kuo cang	12
 深宝安	shen bao an	12
 国泰进取	guo tai jin qu	11
@@ -120,7 +120,7 @@ sort: by_weight
 丽悦酒店	li yue jiu dian	8
 兰铝	lan lv	8
 朗伯德街	lang bo de jie	8
-发票领购簿	fa piao ling gou bu	8
+发票领购簿	fa piao ling gou bo	8
 苏物	su wu	8
 雅虎财经	ya hu cai jing	8
 研究简报	yan jiu jian bao	8
@@ -128,7 +128,7 @@ sort: by_weight
 收官日	shou guan ri	8
 万顺昌	wan shun chang	7
 美联银行	mei lian yin hang	7
-还款计划	hai kuan ji hua	7
+还款计划	huan kuan ji hua	7
 豫能	yu neng	7
 金普卡	jin pu ka	7
 国泰金鼎	guo tai jin ding	7
@@ -164,7 +164,7 @@ sort: by_weight
 管理有限公司	guan li you xian gong si	5
 征管处	zheng guan chu	5
 海外投资法	hai wai tou zi fa	5
-常胜网	chang sheng wang	5
+常胜网	chang qing wang	5
 短仓	duan cang	5
 炒汇者	chao hui zhe	5
 南油物业	nan you wu ye	5
@@ -191,7 +191,7 @@ sort: by_weight
 通达卡	tong da ka	4
 新威国际	xin wei guo ji	4
 咨询报告	zi xun bao gao	4
-金业公司	jin ye gong si	4
+金业公司	jin qiu gong si	4
 天桥百货	tian qiao bai huo	4
 财富时报	cai fu shi bao	4
 哈飞航空	ha fei hang kong	4
@@ -246,7 +246,7 @@ sort: by_weight
 赛格三星	sai ge san xing	2
 鹰美	ying mei	2
 股城网	gu cheng wang	2
-价内权证	jia nei quan zheng	2
+价内权证	jie nei quan zheng	2
 金海股份	jin hai gu fen	2
 代领人	dai ling ren	2
 钱袋网	qian dai wang	2
@@ -258,15 +258,15 @@ sort: by_weight
 深圳海王星辰	shen zhen hai wang xing chen	2
 温商网	wen shang wang	2
 泛海酒店	fan hai jiu dian	2
-金源米业	jin yuan mi ye	2
+金源米业	jin yuan mi qiu	2
 天目药	tian mu yao	2
-瑞士银行公司	rui shi yin hang gong si	2
+瑞士银行公司	rui shi yin xing gong si	2
 投资收藏	tou zi shou cang	2
 税收缴款书	shui shou jiao kuan shu	2
 重庆华亚	chong qing hua ya	2
 反馈单	fan kui dan	2
 斯伦贝榭	si lun bei xie	2
-宏业集团	hong ye ji tuan	2
+宏业集团	hong qiu ji tuan	2
 公营化	gong ying hua	2
 深值	shen zhi	2
 产权导刊	chan quan dao kan	2
@@ -303,7 +303,7 @@ sort: by_weight
 微利股	wei li gu	1
 渝钛白	yu tai bai	1
 广东科德	guang dong ke de	1
-哈特佛	ha te fu	1
+哈特佛	ha te fo	1
 高特利	gao te li	1
 市场供求	shi chang gong qiu	1
 厦门路桥	xia men lu qiao	1
@@ -316,7 +316,7 @@ sort: by_weight
 鲁置业	lu zhi ye	1
 越秀投资	yue xiu tou zi	1
 证券资讯	zheng quan zi xun	1
-中国水业集团	zhong guo shui ye ji tuan	1
+中国水业集团	zhong guo shui qiu ji tuan	1
 普天债	pu tian zhai	1
 收结汇	shou jie hui	1
 罚款率	fa kuan lv	1
@@ -327,7 +327,7 @@ sort: by_weight
 海南省信托投资公司	hai nan sheng xin tuo tou zi gong si	1
 入股协议	ru gu xie yi	1
 折子钱	zhe zi qian	1
-欣龙无纺	xin long wu fang	1
+欣龙无纺	xin long mo fang	1
 美菱股份	mei ling gu fen	1
 持仓不动	chi cang bu dong	1
 黔凯涤	qian kai di	1
@@ -344,9 +344,9 @@ sort: by_weight
 广州冷机股份有限公司	guang zhou leng ji gu fen you xian gong si	1
 黄金网	huang jin wang	1
 软通货	ruan tong huo	1
-电广实业	dian guang shi ye	1
+电广实业	dian yan shi ye	1
 看涨者	kan zhang zhe	1
-大通曼哈顿银行	da tong man ha dun yin hang	1
+大通曼哈顿银行	da tong man ha dun yin xing	1
 益民红利	yi min hong li	1
 科诺威德	ke nuo wei de	1
 税收完税证	shui shou wan shui zheng	1
@@ -402,14 +402,14 @@ sort: by_weight
 知名银行	zhi ming yin hang	1
 贷款难	dai kuan nan	1
 观音币	guan yin bi	1
-广发华福	guang fa hua fu	1
-策略研究	ce lve yan jiu	1
+广发华福	yan fa hua fu	1
+策略研究	ce lüe yan jiu	1
 华夏通	hua xia tong	1
-古汉集团	gu han ji tuan	1
+古汉集团	gu nv ji tuan	1
 陇达	long da	1
 财华网	cai hua wang	1
 阿比银行	a bi yin hang	1
-宁天龙	ning tian long	1
+宁天龙	zhu tian long	1
 荷兰万贝银行	he lan wan bei yin hang	1
 中国民营经济周刊	zhong guo min ying jing ji zhou kan	1
 

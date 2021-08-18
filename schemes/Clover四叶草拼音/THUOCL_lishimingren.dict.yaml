@@ -29,14 +29,14 @@ sort: by_weight
 刘素萍	liu su ping	216
 车令	che ling	213
 陈永棋	chen yong qi	208
-裴钰	pei yu	208
+裴钰	fei yu	208
 夏明翰	xia ming han	206
 张治安	zhang zhi an	202
 邓恩铭	deng en ming	202
 陆骏	lu jun	202
 江珠	jiang zhu	201
 张昀	zhang yun	194
-雷洁琼	lei jie qiong	194
+雷洁琼	lei ji qiong	194
 李秀明	li xiu ming	188
 郭徽	guo hui	183
 石斌	shi bin	180
@@ -95,7 +95,7 @@ sort: by_weight
 阿忆	a yi	102
 松野	song ye	102
 李烈钧	li lie jun	99
-张学冬	zhang xue dong	99
+张学冬	zhang xiao dong	99
 陈立伟	chen li wei	96
 杨东明	yang dong ming	96
 何洋	he yang	96
@@ -133,7 +133,7 @@ sort: by_weight
 马少华	ma shao hua	77
 从一品	cong yi pin	77
 朱易	zhu yi	76
-关宁	guan ning	76
+关宁	xiao zhu	76
 叶舟	ye zhou	76
 熊晖	xiong hui	75
 苏昊	su hao	74
@@ -141,7 +141,7 @@ sort: by_weight
 高润霖	gao run lin	74
 刘旻	liu min	74
 马烽	ma feng	74
-洁尘	jie chen	73
+洁尘	ji chen	73
 竹斋	zhu zhai	72
 张洪伟	zhang hong wei	71
 陆治	lu zhi	71
@@ -153,9 +153,9 @@ sort: by_weight
 童第周	tong di zhou	69
 孙滨	sun bin	69
 吴宝书	wu bao shu	69
-曾玲	zeng ling	67
+曾玲	ceng ling	67
 钱基博	qian ji bo	67
-郑若曾	zheng ruo zeng	67
+郑若曾	zheng ruo ceng	67
 李阳春	li yang chun	67
 黄国书	huang guo shu	67
 杨沫	yang mo	67
@@ -170,10 +170,10 @@ sort: by_weight
 司空图	si kong tu	65
 吴国桢	wu guo zhen	64
 傅以渐	fu yi jian	64
-张莘	zhang shen	64
+张莘	zhang xin	64
 蒋进	jiang jin	64
 欧麦尔	ou mai er	64
-傅佩荣	fu pei rong	64
+傅佩荣	fu pei ce	64
 陈宽	chen kuan	63
 吴贻弓	wu yi gong	63
 马俪文	ma li wen	63
@@ -185,7 +185,7 @@ sort: by_weight
 胡智锋	hu zhi feng	62
 朱文泉	zhu wen quan	61
 王鹰	wang ying	61
-盖叫天	gai jiao tian	61
+盖叫天	he jiao tian	61
 刘光大	liu guang da	61
 姚涛	yao tao	61
 吴有训	wu you xun	60
@@ -200,7 +200,7 @@ sort: by_weight
 任海波	ren hai bo	59
 王徽	wang hui	58
 李慎之	li shen zhi	58
-陈宝箴	chen bao zhen	58
+陈宝箴	chen bao han	58
 周玉衡	zhou yu heng	58
 卢嘉锡	lu jia xi	58
 陈先奎	chen xian kui	57
@@ -214,10 +214,10 @@ sort: by_weight
 建炎	jian yan	56
 张钫	zhang fang	56
 陈伯华	chen bo hua	56
-桑地诺	sang de nuo	56
+桑地诺	sang di nuo	56
 李长庚	li chang geng	56
 朱芬	zhu fen	56
-史圣	shi sheng	55
+史圣	shi ku	55
 陈璋	chen zhang	55
 沈鸿烈	shen hong lie	55
 傅增湘	fu zeng xiang	55
@@ -280,7 +280,7 @@ sort: by_weight
 黎锦晖	li jin hui	49
 马蒙	ma meng	49
 岳雷	yue lei	49
-许德珩	xu de hang	49
+许德珩	xu de heng	49
 阙道华	que dao hua	49
 刘绍棠	liu shao tang	49
 贾作光	jia zuo guang	48
@@ -317,7 +317,7 @@ sort: by_weight
 日章	ri zhang	45
 陆原	lu yuan	45
 郑宝清	zheng bao qing	45
-王维宁	wang wei ning	45
+王维宁	wang wei zhu	45
 哈德良	ha de liang	45
 文若	wen ruo	45
 陈勋	chen xun	45
@@ -348,7 +348,7 @@ sort: by_weight
 刘宠	liu chong	43
 张天成	zhang tian cheng	43
 别林斯基	bie lin si ji	42
-赵曾	zhao zeng	42
+赵曾	zhao ceng	42
 马世俊	ma shi jun	42
 崔子范	cui zi fan	42
 丁然	ding ran	42
@@ -357,8 +357,8 @@ sort: by_weight
 马格南	ma ge nan	42
 马超俊	ma chao jun	42
 段婷	duan ting	42
-王学浩	wang xue hao	42
-钟朋荣	zhong peng rong	42
+王学浩	wang xiao hao	42
+钟朋荣	zhong peng ce	42
 梁瑛	liang ying	42
 张君劢	zhang jun mai	42
 陆费逵	lu fei kui	42
@@ -366,7 +366,7 @@ sort: by_weight
 张谨	zhang jin	42
 龙蕾	long lei	41
 吕思勉	lv si mian	41
-钱曾	qian zeng	41
+钱曾	qian ceng	41
 栗原小卷	li yuan xiao juan	41
 李子亮	li zi liang	41
 严涛	yan tao	41
@@ -398,7 +398,7 @@ sort: by_weight
 梅文鼎	mei wen ding	39
 赵玉芬	zhao yu fen	39
 刘敦桢	liu dun zhen	39
-刘义隆	liu yi long	39
+刘义隆	liu cha long	39
 钱思亮	qian si liang	39
 戴浩	dai hao	39
 洪建平	hong jian ping	39
@@ -427,7 +427,7 @@ sort: by_weight
 张阳德	zhang yang de	37
 贾卧龙	jia wo long	37
 鲁哀公	lu ai gong	37
-吕宁思	lv ning si	37
+吕宁思	lv zhu si	37
 卢仝	lu tong	37
 陈乔年	chen qiao nian	37
 陈璘	chen lin	37
@@ -435,20 +435,20 @@ sort: by_weight
 罗典	luo dian	37
 敖幼祥	ao you xiang	37
 周庆云	zhou qing yun	37
-曾昭抡	zeng zhao lun	37
-朱学范	zhu xue fan	37
+曾昭抡	ceng zhao lun	37
+朱学范	zhu xiao fan	37
 梁士诒	liang shi yi	36
 赵秉钧	zhao bing jun	36
 李球	li qiu	36
 朗费罗	lang fei luo	36
 埃德尔曼	ai de er man	36
-裴远颖	pei yuan ying	36
+裴远颖	fei yuan ying	36
 崔奕	cui yi	36
-黄权	huang quan	36
+黄权	huang shu	36
 郝立新	hao li xin	36
 杜鹏程	du peng cheng	36
 黄利华	huang li hua	36
-李怀民	li huai min	36
+李怀民	li fu min	36
 张光年	zhang guang nian	36
 严文井	yan wen jing	36
 谷村新司	gu cun xin si	35
@@ -467,7 +467,7 @@ sort: by_weight
 陆文夫	lu wen fu	35
 奥勒留	ao le liu	35
 赵万里	zhao wan li	35
-梅洁	mei jie	35
+梅洁	mei ji	35
 潘琳	pan lin	35
 杨再兴	yang zai xing	35
 苏震	su zhen	35
@@ -481,7 +481,7 @@ sort: by_weight
 哈谢克	ha xie ke	34
 黄乃裳	huang nai shang	34
 朱谌之	zhu chen zhi	34
-林岫	lin xiu	34
+林岫	lin di	34
 罗香林	luo xiang lin	34
 特伟	te wei	34
 顾随	gu sui	34
@@ -498,14 +498,14 @@ sort: by_weight
 张廉	zhang lian	33
 徐必达	xu bi da	33
 戴谦	dai qian	33
-周胜考	zhou sheng kao	33
+周胜考	zhou qing kao	33
 高凤翰	gao feng han	33
 萧楚女	xiao chu nv	33
-阮长耿	ruan zhang geng	33
+阮长耿	ruan chang geng	33
 王光祈	wang guang qi	33
 高娜	gao na	33
 王统照	wang tong zhao	33
-高耀洁	gao yao jie	33
+高耀洁	gao yao ji	33
 藤川优里	teng chuan you li	33
 楚威王	chu wei wang	33
 赫尔岑	he er cen	33
@@ -518,7 +518,7 @@ sort: by_weight
 杜审言	du shen yan	32
 彭家珍	peng jia zhen	32
 拉德布鲁赫	la de bu lu he	32
-裴文中	pei wen zhong	32
+裴文中	fei wen zhong	32
 谢小双	xie xiao shuang	32
 伏契克	fu qi ke	32
 蓝瑛	lan ying	32
@@ -540,11 +540,11 @@ sort: by_weight
 于伶	yu ling	31
 赵凤仪	zhao feng yi	31
 王愫	wang su	31
-曾建徽	zeng jian hui	31
+曾建徽	ceng jian hui	31
 陈明远	chen ming yuan	31
 周荃	zhou quan	31
 程瑞声	cheng rui sheng	31
-李广田	li guang tian	31
+李广田	li yan tian	31
 高士其	gao shi qi	31
 牛田洋	niu tian yang	31
 丰云	feng yun	31
@@ -564,7 +564,7 @@ sort: by_weight
 诸葛瞻	zhu ge zhan	30
 侯德榜	hou de bang	30
 王人美	wang ren mei	30
-程胜	cheng sheng	30
+程胜	cheng qing	30
 邓散木	deng san mu	30
 张德成	zhang de cheng	30
 方润华	fang run hua	30
@@ -572,7 +572,7 @@ sort: by_weight
 王飞雪	wang fei xue	30
 徐溶	xu rong	30
 俞和	yu he	29
-乐宁	le ning	29
+乐宁	le zhu	29
 顾瑛	gu ying	29
 陈染	chen ran	29
 彭楚藩	peng chu fan	29
@@ -584,7 +584,7 @@ sort: by_weight
 娄雷	lou lei	29
 张燮	zhang xie	29
 郭文涛	guo wen tao	29
-童宁	tong ning	29
+童宁	tong zhu	29
 张穆	zhang mu	28
 韩石山	han shi shan	28
 周矩	zhou ju	28
@@ -606,14 +606,14 @@ sort: by_weight
 刘玉章	liu yu zhang	28
 文丁	wen ding	28
 陈蒨	chen qian	28
-维尔塔宁	wei er ta ning	28
+维尔塔宁	wei er ta zhu	28
 刘准	liu zhun	28
 张符	zhang fu	28
 吴组缃	wu zu xiang	28
 弗勒尔	fu le er	28
 陆润庠	lu run xiang	28
 刘侗	liu dong	28
-王懿荣	wang yi rong	28
+王懿荣	wang yi ce	28
 许克祥	xu ke xiang	28
 高希舜	gao xi shun	28
 张文豪	zhang wen hao	28
@@ -621,13 +621,13 @@ sort: by_weight
 许晓静	xu xiao jing	27
 徐友渔	xu you yu	27
 刘道一	liu dao yi	27
-朗缪尔	lang mou er	27
+朗缪尔	lang miao er	27
 骆秉章	luo bing zhang	27
 班克罗夫特	ban ke luo fu te	27
 钱薇	qian wei	27
-拓跋珪	ta ba gui	27
+拓跋珪	tuo ba gui	27
 刘丽敏	liu li min	27
-李光地	li guang de	27
+李光地	li guang di	27
 黄节	huang jie	27
 张昆弟	zhang kun di	27
 刘乾	liu qian	27
@@ -655,9 +655,9 @@ sort: by_weight
 章武	zhang wu	26
 王颀	wang qi	26
 韩琼	han qiong	26
-陈亚宁	chen ya ning	26
+陈亚宁	chen ya zhu	26
 王世雄	wang shi xiong	26
-杨继业	yang ji ye	26
+杨继业	yang ji qiu	26
 尹珍	yin zhen	26
 丁芸	ding yun	25
 钱维城	qian wei cheng	25
@@ -670,7 +670,7 @@ sort: by_weight
 顾贞观	gu zhen guan	25
 时大彬	shi da bin	25
 陈祖武	chen zu wu	25
-陈敬学	chen jing xue	25
+陈敬学	chen jing xiao	25
 李鸿藻	li hong zao	25
 杨海鹰	yang hai ying	25
 吴麟	wu lin	25
@@ -684,8 +684,8 @@ sort: by_weight
 刘熙载	liu xi zai	25
 郭云鹏	guo yun peng	25
 索贝尔	suo bei er	25
-娄义华	lou yi hua	25
-李长之	li zhang zhi	25
+娄义华	lou cha hua	25
+李长之	li chang zhi	25
 中大夫	zhong da fu	25
 证停	zheng ting	25
 王兆祥	wang zhao xiang	25
@@ -700,7 +700,7 @@ sort: by_weight
 何炳棣	he bing di	25
 刘文敏	liu wen min	24
 贺钧	he jun	24
-王锡荣	wang xi rong	24
+王锡荣	wang xi ce	24
 麻理惠	ma li hui	24
 唐富春	tang fu chun	24
 小林诚	xiao lin cheng	24
@@ -710,7 +710,7 @@ sort: by_weight
 李流芳	li liu fang	24
 曹寇	cao kou	24
 陈叔宝	chen shu bao	24
-叶初春	ye chu chun	24
+叶初春	xie chu chun	24
 于志勇	yu zhi yong	24
 厉王	li wang	24
 慕容垂	mu rong chui	24
@@ -730,7 +730,7 @@ sort: by_weight
 梁璐	liang lu	24
 金仲华	jin zhong hua	24
 舒新城	shu xin cheng	24
-宋宁宗	song ning zong	24
+宋宁宗	song zhu zong	24
 李正伦	li zheng lun	24
 五听	wu ting	24
 宋一平	song yi ping	24
@@ -747,7 +747,7 @@ sort: by_weight
 顾起元	gu qi yuan	23
 罗泽南	luo ze nan	23
 山阴道	shan yin dao	23
-奚冈	xi gang	23
+奚冈	xi wang	23
 陈文瑞	chen wen rui	23
 高濂	gao lian	23
 吴夫人	wu fu ren	23
@@ -823,16 +823,16 @@ sort: by_weight
 徐桐	xu tong	21
 盐渎	yan du	21
 杨武之	yang wu zhi	21
-劳权	lao quan	21
+劳权	lao shu	21
 祖江	zu jiang	21
 简文帝	jian wen di	21
 张长城	zhang chang cheng	21
-叶焕荣	ye huan rong	21
+叶焕荣	xie huan ce	21
 盛熙	sheng xi	21
-裴怀亮	pei huai liang	21
+裴怀亮	fei fu liang	21
 孙玺	sun xi	21
 赖佳微	lai jia wei	21
-汉章帝	han zhang di	21
+汉章帝	nv zhang di	21
 王玉娥	wang yu e	21
 彭士量	peng shi liang	21
 陈雅琳	chen ya lin	21
@@ -848,7 +848,7 @@ sort: by_weight
 钟理和	zhong li he	21
 丁尼生	ding ni sheng	21
 庞会	pang hui	21
-单父	dan fu	21
+单父	shan fu	21
 梁章钜	liang zhang ju	21
 景元	jing yuan	21
 方以智	fang yi zhi	21
@@ -865,10 +865,10 @@ sort: by_weight
 张四维	zhang si wei	20
 汤尔和	tang er he	20
 侯炜	hou wei	20
-广见	guang jian	20
+广见	yan jian	20
 胡先骕	hu xian su	20
 秦文公	qin wen gong	20
-子义	zi yi	20
+子义	zi cha	20
 李绍珍	li shao zhen	20
 李天任	li tian ren	20
 陆韬	lu tao	20
@@ -942,7 +942,7 @@ sort: by_weight
 张位	zhang wei	19
 张苍	zhang cang	19
 元太祖成吉思汗	yuan tai zu cheng ji si han	19
-药圣	yao sheng	19
+药圣	yao ku	19
 楚文王	chu wen wang	19
 晋明帝	jin ming di	19
 杨琛	yang chen	19
@@ -980,7 +980,7 @@ sort: by_weight
 张金枝	zhang jin zhi	18
 谢振定	xie zhen ding	18
 梅益	mei yi	18
-鲁庄公	lu zhuang gong	18
+鲁庄公	lu peng gong	18
 王佳一	wang jia yi	18
 觉堂	jue tang	18
 刘永治	liu yong zhi	18
@@ -1019,7 +1019,7 @@ sort: by_weight
 黎磊石	li lei shi	18
 沈铨	shen quan	18
 孔从洲	kong cong zhou	18
-姜汉忠	jiang han zhong	18
+姜汉忠	jiang nv zhong	18
 赵文哲	zhao wen zhe	18
 汪康年	wang kang nian	18
 王青芳	wang qing fang	18
@@ -1073,7 +1073,7 @@ sort: by_weight
 曹髦	cao mao	17
 靳鑫	jin xin	17
 屠隆	tu long	17
-吴若权	wu ruo quan	17
+吴若权	wu ruo shu	17
 陆宣	lu xuan	17
 邱蔚六	qiu wei liu	17
 欧阳钦	ou yang qin	17
@@ -1094,7 +1094,7 @@ sort: by_weight
 虞洋	yu yang	17
 王士雯	wang shi wen	17
 陈以诚	chen yi cheng	17
-王又曾	wang you zeng	17
+王又曾	wang you ceng	17
 钭江明	tou jiang ming	17
 王继贤	wang ji xian	16
 尤利塞斯	you li sai si	16
@@ -1104,7 +1104,7 @@ sort: by_weight
 谢雄	xie xiong	16
 李玉琳	li yu lin	16
 孝明帝	xiao ming di	16
-曹曾	cao zeng	16
+曹曾	cao ceng	16
 高珊珊	gao shan shan	16
 马殷	ma yin	16
 黄士陵	huang shi ling	16
@@ -1138,14 +1138,14 @@ sort: by_weight
 姬旦	ji dan	16
 杨兆麟	yang zhao lin	16
 王谋	wang mou	16
-熊佛西	xiong fu xi	16
+熊佛西	xiong fo xi	16
 仲山	zhong shan	16
 成昌	cheng chang	16
-叶钧	ye jun	16
+叶钧	xie jun	16
 昴星	mao xing	16
 陈克非	chen ke fei	16
-辽圣宗	liao sheng zong	16
-张德荣	zhang de rong	16
+辽圣宗	liao ku zong	16
+张德荣	zhang de ce	16
 韩琪	han qi	16
 黄远生	huang yuan sheng	16
 高国栋	gao guo dong	16
@@ -1163,7 +1163,7 @@ sort: by_weight
 恽逸群	yun yi qun	15
 刘武周	liu wu zhou	15
 佟韦	tong wei	15
-阳翟	yang di	15
+阳翟	yang zhai	15
 倪田	ni tian	15
 庞人铨	pang ren quan	15
 嵇文甫	ji wen fu	15
@@ -1181,31 +1181,31 @@ sort: by_weight
 顾闻	gu wen	15
 陈国东	chen guo dong	15
 元文宗	yuan wen zong	15
-刘长佑	liu zhang you	15
+刘长佑	liu chang you	15
 东方闻樱	dong fang wen ying	15
 李玄	li xuan	15
 杨颐	yang yi	15
 周驰	zhou chi	15
 杨致和	yang zhi he	15
 谢国文	xie guo wen	15
-张广天	zhang guang tian	15
+张广天	zhang yan tian	15
 张弥	zhang mi	15
 朱云卿	zhu yun qing	15
 张剑荆	zhang jian jing	15
-汉平帝	han ping di	15
+汉平帝	nv ping di	15
 于皓	yu hao	15
-曾宝荪	zeng bao sun	15
-王长喜	wang zhang xi	15
+曾宝荪	ceng bao sun	15
+王长喜	wang chang xi	15
 肖利华	xiao li hua	15
 李新芳	li xin fang	15
 张之江	zhang zhi jiang	15
-张寿荣	zhang shou rong	15
+张寿荣	zhang shou ce	15
 任汝芬	ren ru fen	15
 郭大顺	guo da shun	15
 陈邦彦	chen bang yan	15
 吴芳吉	wu fang ji	15
 吕王	lv wang	15
-田中义一	tian zhong yi yi	15
+田中义一	tian zhong cha yi	15
 谌容	chen rong	15
 楚昭王	chu zhao wang	15
 朱少屏	zhu shao ping	15
@@ -1216,7 +1216,7 @@ sort: by_weight
 田昭武	tian zhao wu	15
 徐鼎	xu ding	15
 谭雄	tan xiong	15
-曾璜	zeng huang	15
+曾璜	ceng huang	15
 董昭	dong zhao	15
 张潜	zhang qian	15
 揆一	kui yi	14
@@ -1224,7 +1224,7 @@ sort: by_weight
 束星北	shu xing bei	14
 郭策	guo ce	14
 蔡琼	cai qiong	14
-叶长春	ye chang chun	14
+叶长春	xie chang chun	14
 胡珏	hu jue	14
 文沛然	wen pei ran	14
 范咸	fan xian	14
@@ -1259,7 +1259,7 @@ sort: by_weight
 程璧光	cheng bi guang	14
 杜春生	du chun sheng	14
 赵浩生	zhao hao sheng	14
-吴镜汀	wu jing ting	14
+吴镜汀	wu jing ding	14
 横川	heng chuan	14
 褚民谊	chu min yi	14
 喀什噶里	ka shi ga li	14
@@ -1273,7 +1273,7 @@ sort: by_weight
 王桂元	wang gui yuan	14
 临晋	lin jin	14
 陈瑞球	chen rui qiu	14
-庄宗	zhuang zong	14
+庄宗	peng zong	14
 陆容	lu rong	14
 周灵王	zhou ling wang	14
 坐山雕	zuo shan diao	14
@@ -1287,11 +1287,11 @@ sort: by_weight
 钱崇澍	qian chong shu	14
 王子英	wang zi ying	14
 高梦旦	gao meng dan	14
-萧长华	xiao zhang hua	14
+萧长华	xiao chang hua	14
 韩国钧	han guo jun	14
-庄蕴宽	zhuang yun kuan	14
+庄蕴宽	peng yun kuan	14
 王瞳	wang tong	14
-宋权	song quan	14
+宋权	song shu	14
 晋侯	jin hou	14
 周冕	zhou mian	14
 孙志宏	sun zhi hong	14
@@ -1302,7 +1302,7 @@ sort: by_weight
 洪应明	hong ying ming	14
 许建阳	xu jian yang	14
 王祖光	wang zu guang	14
-杨宏胜	yang hong sheng	14
+杨宏胜	yang hong qing	14
 林直勉	lin zhi mian	14
 姚文俊	yao wen jun	14
 别尔嘉耶夫	bie er jia ye fu	14
@@ -1341,7 +1341,7 @@ sort: by_weight
 高鉴	gao jian	13
 王持	wang chi	13
 韩起祥	han qi xiang	13
-严律南	yan lv nan	13
+严律南	yan lü nan	13
 周瑞生	zhou rui sheng	13
 言菊朋	yan ju peng	13
 何腾蛟	he teng jiao	13
@@ -1361,7 +1361,7 @@ sort: by_weight
 格拉斯曼	ge la si man	13
 戴叔伦	dai shu lun	13
 孙士毅	sun shi yi	13
-叶洮	ye tao	13
+叶洮	xie tao	13
 张秋人	zhang qiu ren	13
 宫崎寅藏	gong qi yin cang	13
 赵藩	zhao fan	13
@@ -1406,7 +1406,7 @@ sort: by_weight
 爱梨	ai li	13
 李国江	li guo jiang	13
 末帝	mo di	13
-曾约农	zeng yue nong	13
+曾约农	ceng yue nong	13
 卢循	lu xun	13
 陶柯	tao ke	13
 李傻傻	li sha sha	13
@@ -1427,7 +1427,7 @@ sort: by_weight
 修华	xiu hua	12
 黄桂秋	huang gui qiu	12
 吕纪	lv ji	12
-李开先	li kai xian	12
+李开先	li jian xian	12
 孙嘉淦	sun jia gan	12
 汪辉祖	wang hui zu	12
 殷悦	yin yue	12
@@ -1438,7 +1438,7 @@ sort: by_weight
 孟京涛	meng jing tao	12
 徐中约	xu zhong yue	12
 章陵	zhang ling	12
-汉顺帝	han shun di	12
+汉顺帝	nv shun di	12
 胡正言	hu zheng yan	12
 尹继善	yin ji shan	12
 布勒东	bu le dong	12
@@ -1448,10 +1448,10 @@ sort: by_weight
 王禹九	wang yu jiu	12
 宫少朋	gong shao peng	12
 王仁堪	wang ren kan	12
-阚维雍	han wei yong	12
+阚维雍	kan wei yong	12
 杜义	du yi	12
 严辰	yan chen	12
-夏曾佑	xia zeng you	12
+夏曾佑	xia ceng you	12
 景初	jing chu	12
 鲍俊	bao jun	12
 汤慧	tang hui	12
@@ -1462,10 +1462,10 @@ sort: by_weight
 蒋维乔	jiang wei qiao	12
 顾祖禹	gu zu yu	12
 纪伊	ji yi	12
-吕旃蒙	lv zhan meng	12
+吕旃蒙	lv dan meng	12
 陈兆龙	chen zhao long	12
 张锦芳	zhang jin fang	12
-庄有恭	zhuang you gong	12
+庄有恭	peng you gong	12
 余怀	yu huai	12
 齐世英	qi shi ying	12
 郝萌	hao meng	12
@@ -1480,13 +1480,13 @@ sort: by_weight
 石原裕次郎	shi yuan yu ci lang	12
 刘鋹	liu chang	12
 熊心	xiong xin	12
-顾广圻	gu guang qi	12
+顾广圻	gu yan qi	12
 马尔顿	ma er dun	12
-泫氏	xuan shi	12
+泫氏	xian shi	12
 朱勋	zhu xun	12
 吴淑英	wu shu ying	12
 周亮工	zhou liang gong	12
-张颖洁	zhang ying jie	12
+张颖洁	zhang ying ji	12
 崔美善	cui mei shan	12
 王维珍	wang wei zhen	12
 刘景山	liu jing shan	12
@@ -1506,7 +1506,7 @@ sort: by_weight
 刘桂霞	liu gui xia	12
 石贺	shi he	12
 薛文强	xue wen qiang	12
-王文洁	wang wen jie	12
+王文洁	wang wen ji	12
 符廷贵	fu ting gui	12
 鲍方	bao fang	12
 大松博文	da song bo wen	12
@@ -1548,12 +1548,12 @@ sort: by_weight
 胡钧	hu jun	11
 黄瀚	huang han	11
 童芷苓	tong zhi ling	11
-长享	zhang xiang	11
+长享	chang xiang	11
 司马德文	si ma de wen	11
 凌霞	ling xia	11
 腓特烈大帝	fei te lie da di	11
 黄培芳	huang pei fang	11
-曾庆祝	zeng qing zhu	11
+曾庆祝	ceng qing zhu	11
 范紫东	fan zi dong	11
 汪栋	wang dong	11
 延光	yan guang	11
@@ -1570,8 +1570,8 @@ sort: by_weight
 杜亚泉	du ya quan	11
 刘仪	liu yi	11
 张明先	zhang ming xian	11
-丁义	ding yi	11
-贺长龄	he zhang ling	11
+丁义	ding cha	11
+贺长龄	he chang ling	11
 舒庆春	shu qing chun	11
 吴克仁	wu ke ren	11
 赵景深	zhao jing shen	11
@@ -1601,17 +1601,17 @@ sort: by_weight
 刘枚	liu mei	11
 王诩	wang xu	11
 槐里	huai li	11
-黄世荣	huang shi rong	11
+黄世荣	huang shi ce	11
 王嘉良	wang jia liang	11
 唐大年	tang da nian	11
-下邳国	xia pi guo	11
+下邳国	xia pei guo	11
 宗泰	zong tai	11
 张煌言	zhang huang yan	11
 陈农	chen nong	11
-齐学启	qi xue qi	11
-赵怀玉	zhao huai yu	11
+齐学启	qi xiao qi	11
+赵怀玉	zhao fu yu	11
 王绩	wang ji	11
-徐继畲	xu ji she	11
+徐继畲	xu ji yu	11
 平襄	ping xiang	11
 徐乃昌	xu nai chang	11
 陆采	lu cai	11
@@ -1632,7 +1632,7 @@ sort: by_weight
 戴鹏飞	dai peng fei	11
 戴熙	dai xi	11
 姬周	ji zhou	11
-陈希曾	chen xi zeng	11
+陈希曾	chen xi ceng	11
 李振清	li zhen qing	11
 王恕	wang shu	11
 王籍	wang ji	11
@@ -1641,13 +1641,13 @@ sort: by_weight
 陆灏	lu hao	10
 潘伯鹰	pan bo ying	10
 傅泾波	fu jing bo	10
-叶自成	ye zi cheng	10
+叶自成	xie zi cheng	10
 杨静仁	yang jing ren	10
 吴俊卿	wu jun qing	10
 钟阿城	zhong a cheng	10
 徐懋庸	xu mao yong	10
 蒋彪	jiang biao	10
-汪荣宝	wang rong bao	10
+汪荣宝	wang ce bao	10
 董祀	dong si	10
 毛良	mao liang	10
 张元芳	zhang yuan fang	10
@@ -1658,7 +1658,7 @@ sort: by_weight
 刘岱	liu dai	10
 刘岑	liu cen	10
 杨振鸿	yang zhen hong	10
-刘义恭	liu yi gong	10
+刘义恭	liu cha gong	10
 方叔洪	fang shu hong	10
 马臻	ma zhen	10
 张森楷	zhang sen kai	10
@@ -1703,7 +1703,7 @@ sort: by_weight
 石西民	shi xi min	10
 郑岳	zheng yue	10
 李中立	li zhong li	10
-曾铸	zeng zhu	10
+曾铸	ceng zhu	10
 费俊	fei jun	10
 张玉书	zhang yu shu	10
 张嘉谟	zhang jia mo	10
@@ -1744,7 +1744,7 @@ sort: by_weight
 宋光宗	song guang zong	10
 杨溥	yang pu	10
 印建坤	yin jian kun	10
-李汉仪	li han yi	10
+李汉仪	li nv yi	10
 周颢	zhou hao	10
 马一龙	ma yi long	10
 魏文通	wei wen tong	10
@@ -1763,7 +1763,7 @@ sort: by_weight
 阿曼尼莎汗	a man ni sha han	10
 蒙藏院	meng cang yuan	10
 邹绍孟	zou shao meng	10
-黄义明	huang yi ming	10
+黄义明	huang cha ming	10
 曹端	cao duan	10
 陈尚志	chen shang zhi	10
 饶毓泰	rao yu tai	10
@@ -1771,12 +1771,12 @@ sort: by_weight
 穆彰阿	mu zhang a	10
 图伯特	tu bo te	10
 杨联升	yang lian sheng	10
-拓跋嗣	ta ba si	10
+拓跋嗣	tuo ba si	10
 曹谨	cao jin	10
 龚鼎孳	gong ding zi	10
 小出惠介	xiao chu hui jie	10
 谭元春	tan yuan chun	10
-曾春华	zeng chun hua	10
+曾春华	ceng chun hua	10
 徐宝璜	xu bao huang	10
 曹叔	cao shu	10
 王佳宇	wang jia yu	10
@@ -1794,7 +1794,7 @@ sort: by_weight
 张本渝	zhang ben yu	10
 维格纳	wei ge na	10
 吕厚山	lv hou shan	10
-刘义符	liu yi fu	10
+刘义符	liu cha fu	10
 邹一桂	zou yi gui	10
 冯煦	feng xu	10
 王辅臣	wang fu chen	10
@@ -1813,8 +1813,8 @@ sort: by_weight
 连阔如	lian kuo ru	9
 罗永娟	luo yong juan	9
 陈秉钧	chen bing jun	9
-党宁	dang ning	9
-关友声	guan you sheng	9
+党宁	dang zhu	9
+关友声	xiao you sheng	9
 刘子扬	liu zi yang	9
 陈介祺	chen jie qi	9
 黄维仁	huang wei ren	9
@@ -1823,7 +1823,7 @@ sort: by_weight
 许承尧	xu cheng yao	9
 刘恂	liu xun	9
 吴火狮	wu huo shi	9
-孙开华	sun kai hua	9
+孙开华	sun jian hua	9
 江泽熙	jiang ze xi	9
 刘天和	liu tian he	9
 关肃霜	guan su shuang	9
@@ -1858,7 +1858,7 @@ sort: by_weight
 胡旦	hu dan	9
 林美惠	lin mei hui	9
 寿里	shou li	9
-曾士峨	zeng shi e	9
+曾士峨	ceng shi e	9
 丁申	ding shen	9
 王宗炎	wang zong yan	9
 赵又新	zhao you xin	9
@@ -1883,15 +1883,15 @@ sort: by_weight
 王太岳	wang tai yue	9
 阮琳	ruan lin	9
 石璞	shi pu	9
-陈嘉荣	chen jia rong	9
+陈嘉荣	chen jia ce	9
 陈江波	chen jiang bo	9
 周长发	zhou chang fa	9
 宋伯仁	song bo ren	9
 巫县	wu xian	9
-王宜胜	wang yi sheng	9
+王宜胜	wang yi qing	9
 郑梁	zheng liang	9
 熊赐履	xiong ci lv	9
-谢向荣	xie xiang rong	9
+谢向荣	xie xiang ce	9
 何桂清	he gui qing	9
 俞力工	yu li gong	9
 刘运生	liu yun sheng	9
@@ -1916,7 +1916,7 @@ sort: by_weight
 林进春	lin jin chun	9
 文幼章	wen you zhang	9
 秦裕伯	qin yu bo	9
-马长海	ma zhang hai	9
+马长海	ma chang hai	9
 付光明	fu guang ming	9
 王凤岗	wang feng gang	9
 姜椿芳	jiang chun fang	9
@@ -1945,12 +1945,12 @@ sort: by_weight
 晋林波	jin lin bo	9
 王锡元	wang xi yuan	9
 刘瞻	liu zhan	9
-张鹏翮	zhang peng he	9
+张鹏翮	zhang peng ge	9
 张鹏翼	zhang peng yi	9
 颢然	hao ran	9
 姬林	ji lin	9
-杨兴权	yang xing quan	9
-吕纯阳	lv chun yang	9
+杨兴权	yang xing shu	9
+吕纯阳	lü chun yang	9
 姚琮	yao cong	9
 柯平	ke ping	9
 赵基	zhao ji	9
@@ -1975,19 +1975,19 @@ sort: by_weight
 杨村彬	yang cun bin	8
 曹阿瞒	cao a man	8
 章宗	zhang zong	8
-周镐	zhou gao	8
+周镐	zhou hao	8
 阿骨打	a gu da	8
-杜叶锡恩	du ye xi en	8
+杜叶锡恩	du xie xi en	8
 苻健	fu jian	8
 黄元御	huang yuan yu	8
 朱士勤	zhu shi qin	8
-张嶷	zhang yi	8
+张嶷	zhang ni	8
 薛侃	xue kan	8
 金璇	jin xuan	8
 胡永年	hu yong nian	8
 萧燕	xiao yan	8
 朱聿键	zhu yu jian	8
-叶昌炽	ye chang chi	8
+叶昌炽	xie chang chi	8
 吴可读	wu ke du	8
 维多利诺	wei duo li nuo	8
 李士彬	li shi bin	8
@@ -2017,15 +2017,15 @@ sort: by_weight
 张澜澜	zhang lan lan	8
 内山完造	nei shan wan zao	8
 吴芹	wu qin	8
-齐庄公	qi zhuang gong	8
+齐庄公	qi peng gong	8
 马祖光	ma zu guang	8
 张乃燕	zhang nai yan	8
-陈云裳	chen yun shang	8
+陈云裳	chen yun chang	8
 张廷济	zhang ting ji	8
 范任	fan ren	8
 李钟秀	li zhong xiu	8
 陈波儿	chen bo er	8
-符曾	fu zeng	8
+符曾	fu ceng	8
 元恪	yuan ke	8
 朱琏	zhu lian	8
 耶律洪基	ye lv hong ji	8
@@ -2042,12 +2042,12 @@ sort: by_weight
 大涵	da han	8
 铃木亚美	ling mu ya mei	8
 加藤清正	jia teng qing zheng	8
-朱祐樘	zhu you tang	8
+朱祐樘	zhu you cheng	8
 王维德	wang wei de	8
 罗历戎	luo li rong	8
 司马邺	si ma ye	8
 周志群	zhou zhi qun	8
-旻宁	min ning	8
+旻宁	min zhu	8
 王任叔	wang ren shu	8
 徐焕升	xu huan sheng	8
 刘范	liu fan	8
@@ -2059,7 +2059,7 @@ sort: by_weight
 彭端淑	peng duan shu	8
 蒋月泉	jiang yue quan	8
 仲康	zhong kang	8
-吴琠	wu tian	8
+吴琠	wu dian	8
 蒙文通	meng wen tong	8
 秦九韶	qin jiu shao	8
 蓝廷珍	lan ting zhen	8
@@ -2079,7 +2079,7 @@ sort: by_weight
 道武帝	dao wu di	8
 寿富	shou fu	8
 方悦	fang yue	8
-卢广伟	lu guang wei	8
+卢广伟	lu yan wei	8
 宗王	zong wang	8
 慕容暐	mu rong wei	8
 景宗	jing zong	8
@@ -2105,7 +2105,7 @@ sort: by_weight
 洪行	hong xing	8
 王复元	wang fu yuan	8
 雪舟	xue zhou	8
-吴荣生	wu rong sheng	8
+吴荣生	wu ce sheng	8
 拉西德	la xi de	8
 王鸿绪	wang hong xu	8
 谢兰生	xie lan sheng	7
@@ -2159,12 +2159,12 @@ sort: by_weight
 吴庆云	wu qing yun	7
 杨向奎	yang xiang kui	7
 田中健	tian zhong jian	7
-汉安帝	han an di	7
+汉安帝	nv an di	7
 平氏	ping shi	7
 王一鹏	wang yi peng	7
 罗继祖	luo ji zu	7
 段嵘	duan rong	7
-赵匡义	zhao kuang yi	7
+赵匡义	zhao kuang cha	7
 刘丞	liu cheng	7
 沈鲤	shen li	7
 杨恺	yang kai	7
@@ -2210,24 +2210,24 @@ sort: by_weight
 俞明震	yu ming zhen	7
 陈国顺	chen guo shun	7
 元武宗	yuan wu zong	7
-李开芳	li kai fang	7
+李开芳	li jian fang	7
 洪仁	hong ren	7
 顾承	gu cheng	7
-徐枢	xu shu	7
+徐枢	xu qu	7
 陆卫明	lu wei ming	7
 王铨	wang quan	7
 松平健	song ping jian	7
-曾勉	zeng mian	7
-钱缪	qian mou	7
-朱之蕃	zhu zhi fan	7
+曾勉	ceng mian	7
+钱缪	qian miao	7
+朱之蕃	zhu zhi bo	7
 李昇	li sheng	7
 温世霖	wen shi lin	7
 孔璋	kong zhang	7
 张德纯	zhang de chun	7
 吴格	wu ge	7
 吴先声	wu xian sheng	7
-王一宁	wang yi ning	7
-什伐赤	shi fa chi	7
+王一宁	wang yi zhu	7
+什伐赤	shen fa chi	7
 郭沔	guo mian	7
 吴璘	wu lin	7
 晋悼公	jin dao gong	7
@@ -2256,11 +2256,11 @@ sort: by_weight
 周武帝	zhou wu di	7
 杨虎山	yang hu shan	7
 周定王	zhou ding wang	7
-曾少宗	zeng shao zong	7
+曾少宗	ceng shao zong	7
 吴文炳	wu wen bing	7
 钱捷	qian jie	7
 林之夏	lin zhi xia	7
-朴趾源	pu zhi yuan	7
+朴趾源	piao zhi yuan	7
 徐令	xu ling	7
 牛鉴	niu jian	7
 马聪玲	ma cong ling	7
@@ -2269,7 +2269,7 @@ sort: by_weight
 张颐	zhang yi	7
 隋恭帝	sui gong di	7
 晋成公	jin cheng gong	7
-福开森	fu kai sen	7
+福开森	fu jian sen	7
 太田雄贵	tai tian xiong gui	7
 梅达沃	mei da wo	7
 黄金富	huang jin fu	7
@@ -2280,7 +2280,7 @@ sort: by_weight
 刘鹏云	liu peng yun	7
 丘岳	qiu yue	7
 罗伯斯比尔	luo bo si bi er	7
-罗广文	luo guang wen	7
+罗广文	luo yan wen	7
 李来群	li lai qun	7
 范振绪	fan zhen xu	7
 王方正	wang fang zheng	7
@@ -2314,7 +2314,7 @@ sort: by_weight
 张笃庆	zhang du qing	7
 马公愚	ma gong yu	7
 吴大帝孙权	wu da di sun quan	7
-曾瀞漪	zeng jing yi	7
+曾瀞漪	ceng jing yi	7
 高原彩	gao yuan cai	7
 书佐	shu zuo	7
 王岷	wang min	7
@@ -2348,7 +2348,7 @@ sort: by_weight
 李璧	li bi	7
 赵岐	zhao qi	6
 陆心源	lu xin yuan	6
-汤汉	tang han	6
+汤汉	tang nv	6
 沈前	shen qian	6
 刘声木	liu sheng mu	6
 赵苍璧	zhao cang bi	6
@@ -2358,7 +2358,7 @@ sort: by_weight
 蒋芸	jiang yun	6
 松坂庆子	song ban qing zi	6
 郭衣洞	guo yi dong	6
-汝阴	ru yin	6
+汝阴	ru an	6
 吕惠生	lv hui sheng	6
 通容	tong rong	6
 彭家煌	peng jia huang	6
@@ -2369,7 +2369,7 @@ sort: by_weight
 廖政国	liao zheng guo	6
 苻生	fu sheng	6
 万古蟾	wan gu chan	6
-姚珩	yao hang	6
+姚珩	yao heng	6
 五轮书	wu lun shu	6
 黄希文	huang xi wen	6
 杨庚	yang geng	6
@@ -2384,7 +2384,7 @@ sort: by_weight
 沈恒	shen heng	6
 袁昶	yuan chang	6
 胡照	hu zhao	6
-赵汝适	zhao ru shi	6
+赵汝适	zhao ru gua	6
 胡家凤	hu jia feng	6
 高殷	gao yin	6
 陆艺	lu yi	6
@@ -2392,18 +2392,18 @@ sort: by_weight
 林维源	lin wei yuan	6
 米仓千寻	mi cang qian xun	6
 林文卿	lin wen qing	6
-叶启勋	ye qi xun	6
+叶启勋	xie qi xun	6
 很北	hen bei	6
 秦良	qin liang	6
 周天球	zhou tian qiu	6
-李长熙	li zhang xi	6
+李长熙	li chang xi	6
 陈千秋	chen qian qiu	6
 慕容宝	mu rong bao	6
 梁甫	liang fu	6
 李国勋	li guo xun	6
 灰原哀	hui yuan ai	6
 李重华	li zhong hua	6
-张学曾	zhang xue zeng	6
+张学曾	zhang xiao ceng	6
 雍县	yong xian	6
 陆丹林	lu dan lin	6
 崔烈	cui lie	6
@@ -2418,8 +2418,8 @@ sort: by_weight
 杨桓	yang huan	6
 张家驹	zhang jia ju	6
 徐商	xu shang	6
-刘体智	liu ti zhi	6
-归庄	gui zhuang	6
+刘体智	liu ben zhi	6
+归庄	gui peng	6
 浮克	fu ke	6
 鹿传霖	lu chuan lin	6
 安藤政信	an teng zheng xin	6
@@ -2442,7 +2442,7 @@ sort: by_weight
 安沂华	an yi hua	6
 郑武公	zheng wu gong	6
 蔡智堪	cai zhi kan	6
-李必蕃	li bi fan	6
+李必蕃	li bi bo	6
 董辰生	dong chen sheng	6
 图帖睦尔	tu tie mu er	6
 彭珑	peng long	6
@@ -2451,7 +2451,7 @@ sort: by_weight
 明光宗	ming guang zong	6
 张士俊	zhang shi jun	6
 李康华	li kang hua	6
-裴景福	pei jing fu	6
+裴景福	fei jing fu	6
 李仲扬	li zhong yang	6
 宋果	song guo	6
 黄洛峰	huang luo feng	6
@@ -2478,13 +2478,13 @@ sort: by_weight
 王元亮	wang yuan liang	6
 张永立	zhang yong li	6
 朱石麟	zhu shi lin	6
-高汀	gao ting	6
+高汀	gao ding	6
 潘龄皋	pan ling gao	6
 黄良玉	huang liang yu	6
 莫洛亚	mo luo ya	6
 吴子良	wu zi liang	6
-蒯祥	kuai xiang	6
-陈仅	chen jin	6
+蒯祥	jing xiang	6
+陈仅	chen fu	6
 匡斌	kuang bin	6
 江欣荣	jiang xin rong	6
 王晓鲁	wang xiao lu	6
@@ -2495,7 +2495,7 @@ sort: by_weight
 王清任	wang qing ren	6
 郑簠	zheng fu	6
 钟树	zhong shu	6
-北条司	bei tiao si	6
+北条司	bei di si	6
 应云卫	ying yun wei	6
 改琦	gai qi	6
 威阿	wei a	6
@@ -2528,7 +2528,7 @@ sort: by_weight
 张如芝	zhang ru zhi	6
 郑道光	zheng dao guang	6
 高海博	gao hai bo	6
-裴应章	pei ying zhang	6
+裴应章	fei ying zhang	6
 永琴	yong qin	6
 辽景宗	liao jing zong	6
 王得臣	wang de chen	6
@@ -2545,7 +2545,7 @@ sort: by_weight
 陈箓	chen lu	6
 郎绍安	lang shao an	6
 晋穆帝	jin mu di	6
-拓跋弘	ta ba hong	6
+拓跋弘	tuo ba hong	6
 黄吉安	huang ji an	6
 沈比利	shen bi li	6
 深作欣二	shen zuo xin er	6
@@ -2553,13 +2553,13 @@ sort: by_weight
 樊能	fan neng	6
 孙浪	sun lang	6
 吴光浩	wu guang hao	6
-林虑	lin lv	6
-唐树义	tang shu yi	6
+林虑	lin bi	6
+唐树义	tang shu cha	6
 萧云从	xiao yun cong	6
 宋霖	song lin	6
 屠寄	tu ji	6
 孔秀	kong xiu	6
-阙汉骞	que han qian	6
+阙汉骞	que nv qian	6
 凌纯声	ling chun sheng	6
 图哈切夫斯基	tu ha qie fu si ji	6
 李鸿嘉	li hong jia	6
@@ -2577,7 +2577,7 @@ sort: by_weight
 刘丽川	liu li chuan	6
 于树德	yu shu de	6
 邹忠	zou zhong	6
-缪荃孙	mou quan sun	6
+缪荃孙	miu quan sun	6
 邓实	deng shi	6
 张蔚华	zhang wei hua	6
 吴廷康	wu ting kang	6
@@ -2586,7 +2586,7 @@ sort: by_weight
 毕涵	bi han	6
 孙綝	sun chen	6
 潘秉衡	pan bing heng	6
-叶树林	ye shu lin	6
+叶树林	xie shu lin	6
 林春山	lin chun shan	6
 德川庆喜	de chuan qing xi	6
 吴绍周	wu shao zhou	6
@@ -2607,7 +2607,7 @@ sort: by_weight
 黄家驷	huang jia si	6
 高钧	gao jun	6
 黄玺庆	huang xi qing	6
-托马斯杰佛逊	tuo ma si jie fu xun	6
+托马斯杰佛逊	tuo ma si jie fo xun	6
 宰执	zai zhi	6
 孔媛媛	kong yuan yuan	6
 司马攸	si ma you	6
@@ -2616,12 +2616,12 @@ sort: by_weight
 谭献	tan xian	6
 李成梁	li cheng liang	6
 成岭	cheng ling	6
-圣彼德	sheng bi de	6
+圣彼德	ku bi de	6
 柯劭忞	ke shao min	6
 张振勋	zhang zhen xun	6
 董国兴	dong guo xing	6
 高士华	gao shi hua	6
-叶梦龙	ye meng long	5
+叶梦龙	xie meng long	5
 王元启	wang yuan qi	5
 杨铨	yang quan	5
 张邈	zhang miao	5
@@ -2649,7 +2649,7 @@ sort: by_weight
 红音	hong yin	5
 林柏生	lin bai sheng	5
 陈焯	chen chao	5
-叶长盛	ye zhang sheng	5
+叶长盛	xie chang sheng	5
 徐景达	xu jing da	5
 白凤鸣	bai feng ming	5
 蒋汝藻	jiang ru zao	5
@@ -2703,7 +2703,7 @@ sort: by_weight
 区大相	qu da xiang	5
 胡达源	hu da yuan	5
 葛震	ge zhen	5
-陶汉章	tao han zhang	5
+陶汉章	tao nv zhang	5
 朱昂	zhu ang	5
 汪沁	wang qin	5
 孝昭帝	xiao zhao di	5
@@ -2723,7 +2723,7 @@ sort: by_weight
 滕胤	teng yin	5
 樱桃子	ying tao zi	5
 钱芬	qian fen	5
-崔陟	cui zhi	5
+崔陟	cui bu	5
 梁鹤年	liang he nian	5
 鲁僖公	lu xi gong	5
 山口智子	shan kou zhi zi	5
@@ -2737,11 +2737,11 @@ sort: by_weight
 丁文祥	ding wen xiang	5
 王兴家	wang xing jia	5
 宋骏业	song jun ye	5
-卢怀慎	lu huai shen	5
+卢怀慎	lu fu shen	5
 沈炎	shen yan	5
 宋广平	song guang ping	5
 司马聃	si ma dan	5
-马绍荣	ma shao rong	5
+马绍荣	ma shao ce	5
 斯琴塔日哈	si qin ta ri ha	5
 罗蛟	luo jiao	5
 顾玉龙	gu yu long	5
@@ -2761,7 +2761,7 @@ sort: by_weight
 吕海寰	lv hai huan	5
 胡志仁	hu zhi ren	5
 真琴翼	zhen qin yi	5
-叶文心	ye wen xin	5
+叶文心	xie wen xin	5
 陈士铎	chen shi duo	5
 李大昌	li da chang	5
 陈绍芳	chen shao fang	5
@@ -2782,9 +2782,9 @@ sort: by_weight
 姜丹书	jiang dan shu	5
 吉黄	ji huang	5
 周钟岳	zhou zhong yue	5
-司马丕	si ma pi	5
+司马丕	si ma pei	5
 赵昚	zhao shen	5
-黄省曾	huang xing zeng	5
+黄省曾	huang sheng ceng	5
 久保带人	jiu bao dai ren	5
 晁衡	chao heng	5
 石苞	shi bao	5
@@ -2797,7 +2797,7 @@ sort: by_weight
 林魁	lin kui	5
 朱国盛	zhu guo sheng	5
 蔡欢	cai huan	5
-温汝适	wen ru shi	5
+温汝适	wen ru gua	5
 步阐	bu chan	5
 谭迁	tan qian	5
 曹湘	cao xiang	5
@@ -2811,7 +2811,7 @@ sort: by_weight
 雷晓丽	lei xiao li	5
 姚仁安	yao ren an	5
 贺熙龄	he xi ling	5
-王禔	wang zhi	5
+王禔	wang ti	5
 周孝王	zhou xiao wang	5
 孙国柱	sun guo zhu	5
 韦康	wei kang	5
@@ -2821,10 +2821,10 @@ sort: by_weight
 何振岱	he zhen dai	5
 王世发	wang shi fa	5
 慕容超	mu rong chao	5
-宋宪	song xian	5
+宋宪	song xiong	5
 王延政	wang yan zheng	5
 茅阳	mao yang	5
-胜海舟	sheng hai zhou	5
+胜海舟	qing hai zhou	5
 郑石桥	zheng shi qiao	5
 朱云辉	zhu yun hui	5
 陈达元	chen da yuan	5
@@ -2832,14 +2832,14 @@ sort: by_weight
 交河城	jiao he cheng	5
 刘玢	liu bin	5
 李正先	li zheng xian	5
-韩珩	han hang	5
+韩珩	han heng	5
 周锡年	zhou xi nian	5
 许之衡	xu zhi heng	5
 常明芳	chang ming fang	5
 赵范	zhao fan	5
 董白	dong bai	5
 张惠言	zhang hui yan	5
-杨综	yang zong	5
+杨综	yang zeng	5
 刘琬	liu wan	5
 吴煦	wu xu	5
 朱一新	zhu yi xin	5
@@ -2874,7 +2874,7 @@ sort: by_weight
 陈楚良	chen chu liang	5
 高沛	gao pei	5
 萧方智	xiao fang zhi	5
-冈本真夜	gang ben zhen ye	5
+冈本真夜	wang ben zhen ye	5
 郭瑞霞	guo rui xia	5
 王友亮	wang you liang	5
 黄婉伶	huang wan ling	5
@@ -2890,7 +2890,7 @@ sort: by_weight
 小林优美	xiao lin you mei	5
 汪琬	wang wan	5
 周循	zhou xun	5
-萧昭业	xiao zhao ye	5
+萧昭业	xiao zhao qiu	5
 赵沨	zhao feng	5
 蒋泽中	jiang ze zhong	5
 丁惟汾	ding wei fen	5
@@ -2912,7 +2912,7 @@ sort: by_weight
 沈右	shen you	5
 黄文达	huang wen da	5
 顾德林	gu de lin	5
-李柷	li chu	5
+李柷	li zhu	5
 苏莱曼大帝	su lai man da di	5
 刘铨	liu quan	5
 孝建	xiao jian	5
@@ -2922,7 +2922,7 @@ sort: by_weight
 蒋显	jiang xian	5
 郭昂	guo ang	5
 沈性	shen xing	5
-裴绪	pei xu	5
+裴绪	fei xu	5
 高其倬	gao qi zhuo	5
 樊钟秀	fan zhong xiu	5
 李秉德	li bing de	5
@@ -2934,7 +2934,7 @@ sort: by_weight
 森田芳光	sen tian fang guang	5
 吴成基	wu cheng ji	5
 谢迁	xie qian	5
-魏象枢	wei xiang shu	5
+魏象枢	wei xiang qu	5
 白悦	bai yue	5
 姬强	ji qiang	5
 刘天民	liu tian min	5
@@ -2952,8 +2952,8 @@ sort: by_weight
 吴振民	wu zhen min	4
 杨时乔	yang shi qiao	4
 方士庶	fang shi shu	4
-蔡绦	cai tao	4
-李屾	li shen	4
+蔡绦	cai di	4
+李屾	li shan	4
 邹谦	zou qian	4
 万永福	wan yong fu	4
 舒县	shu xian	4
@@ -2968,7 +2968,7 @@ sort: by_weight
 田章	tian zhang	4
 樊志松	fan zhi song	4
 李觏	li gou	4
-缪希雍	mou xi yong	4
+缪希雍	miao xi yong	4
 申梅	shen mei	4
 小林爱	xiao lin ai	4
 王弥	wang mi	4
@@ -2985,10 +2985,10 @@ sort: by_weight
 简经纶	jian jing lun	4
 周楫	zhou ji	4
 燕惠王	yan hui wang	4
-吉田洁	ji tian jie	4
+吉田洁	ji tian ji	4
 更始帝	geng shi di	4
 张一奇	zhang yi qi	4
-巫继学	wu ji xue	4
+巫继学	wu ji xiao	4
 戈尔德施密特	ge er de shi mi te	4
 张祚	zhang zuo	4
 马希范	ma xi fan	4
@@ -3010,7 +3010,7 @@ sort: by_weight
 王姮	wang heng	4
 吴应箕	wu ying ji	4
 雍丘	yong qiu	4
-辽圣宗耶律隆绪	liao sheng zong ye lv long xu	4
+辽圣宗耶律隆绪	liao ku zong ye lv long xu	4
 刘粲	liu can	4
 李先芳	li xian fang	4
 周号	zhou hao	4
@@ -3031,9 +3031,9 @@ sort: by_weight
 丁晏	ding yan	4
 王宝仁	wang bao ren	4
 翠黄	cui huang	4
-马宗汉	ma zong han	4
+马宗汉	ma zong nv	4
 武乙	wu yi	4
-刘蜕	liu tui	4
+刘蜕	liu shui	4
 丁志成	ding zhi cheng	4
 风音	feng yin	4
 刘度	liu du	4
@@ -3046,7 +3046,7 @@ sort: by_weight
 王泰吉	wang tai ji	4
 诸葛均	zhu ge jun	4
 周拔	zhou ba	4
-承圣	cheng sheng	4
+承圣	cheng ku	4
 宋顺帝	song shun di	4
 崔纪	cui ji	4
 钱宇平	qian yu ping	4
@@ -3066,8 +3066,8 @@ sort: by_weight
 吴佳龙	wu jia long	4
 王泮	wang pan	4
 贺齐	he qi	4
-张以宁	zhang yi ning	4
-荣松	rong song	4
+张以宁	zhang yi zhu	4
+荣松	ce song	4
 陈霆锐	chen ting rui	4
 边贡	bian gong	4
 金日焕	jin ri huan	4
@@ -3081,9 +3081,9 @@ sort: by_weight
 高简	gao jian	4
 巴斯腾	ba si teng	4
 李塨	li gong	4
-冒广生	mao guang sheng	4
+冒广生	mao yan sheng	4
 丰臣秀次	feng chen xiu ci	4
-甘渭汉	gan wei han	4
+甘渭汉	gan wei nv	4
 路振飞	lu zhen fei	4
 李文瀚	li wen han	4
 袁树	yuan shu	4
@@ -3109,15 +3109,15 @@ sort: by_weight
 蔡仲	cai zhong	4
 郝海	hao hai	4
 周建烈	zhou jian lie	4
-冯焌光	feng jun guang	4
+冯焌光	feng zun guang	4
 陈安保	chen an bao	4
 陆楷	lu kai	4
 厉志	li zhi	4
 李期	li qi	4
 史康	shi kang	4
 高凤阁	gao feng ge	4
-金宏义	jin hong yi	4
-宋冰洁	song bing jie	4
+金宏义	jin hong cha	4
+宋冰洁	song bing ji	4
 汪森	wang sen	4
 惠宗	hui zong	4
 费伯雄	fei bo xiong	4
@@ -3136,14 +3136,14 @@ sort: by_weight
 冯跋	feng ba	4
 孟起	meng qi	4
 于德基	yu de ji	4
-曾万钟	zeng wan zhong	4
+曾万钟	ceng wan zhong	4
 晋废帝	jin fei di	4
 莫罗阿	mo luo a	4
 袁燮	yuan xie	4
 森光子	sen guang zi	4
-李义庭	li yi ting	4
+李义庭	li cha ting	4
 詹景凤	zhan jing feng	4
-陈宓	chen mi	4
+陈宓	chen fu	4
 黄彦平	huang yan ping	4
 王燮	wang xie	4
 吴廷栋	wu ting dong	4
@@ -3160,7 +3160,7 @@ sort: by_weight
 加濑亮	jia lai liang	4
 吴子兰	wu zi lan	4
 易君左	yi jun zuo	4
-居维叶	ju wei ye	4
+居维叶	ju wei xie	4
 允若	yun ruo	4
 崔夫人	cui fu ren	4
 苗泽	miao ze	4
@@ -3182,7 +3182,7 @@ sort: by_weight
 魏道明	wei dao ming	4
 莫德尔	mo de er	4
 中村雅俊	zhong cun ya jun	4
-陈荣瑞	chen rong rui	4
+陈荣瑞	chen ce rui	4
 中村中	zhong cun zhong	4
 郭澄	guo cheng	4
 宜妃	yi fei	4
@@ -3192,9 +3192,9 @@ sort: by_weight
 郑梅梅	zheng mei mei	4
 邓龙光	deng long guang	4
 张渥	zhang wo	4
-杨传广	yang chuan guang	4
+杨传广	yang chuan yan	4
 青山真治	qing shan zhen zhi	4
-郭怀一	guo huai yi	4
+郭怀一	guo fu yi	4
 王承烈	wang cheng lie	4
 顾复初	gu fu chu	4
 古畑任三郎	gu tian ren san lang	4
@@ -3213,7 +3213,7 @@ sort: by_weight
 金兆梓	jin zhao zi	4
 哈密王	ha mi wang	4
 乌雅氏	wu ya shi	4
-牂牁郡	zang ke jun	4
+牂牁郡	zang ge jun	4
 陈其采	chen qi cai	4
 徐舫	xu fang	4
 朱洗	zhu xi	4
@@ -3229,16 +3229,16 @@ sort: by_weight
 祝绍周	zhu shao zhou	4
 赵启霖	zhao qi lin	4
 陆友	lu you	4
-邵学	shao xue	4
+邵学	shao xiao	4
 何乔远	he qiao yuan	4
 袁希涛	yuan xi tao	4
 丁轶	ding yi	4
 张瓒	zhang zan	4
 周祯	zhou zhen	4
-孝庄帝	xiao zhuang di	4
+孝庄帝	xiao peng di	4
 陈孙	chen sun	4
 高健平	gao jian ping	4
-缪丹	mou dan	4
+缪丹	miao dan	4
 杨宗稷	yang zong ji	4
 泽尻绘里香	ze kao hui li xiang	4
 曹辅	cao fu	4
@@ -3252,11 +3252,11 @@ sort: by_weight
 陶樽	tao zun	4
 钱临	qian lin	4
 马兆麟	ma zhao lin	4
-关槐	guan huai	4
+关槐	xiao huai	4
 今井绘理子	jin jing hui li zi	4
 姬康	ji kang	4
 许观	xu guan	4
-片冈鹤太郎	pian gang he tai lang	4
+片冈鹤太郎	pian wang he tai lang	4
 龚秋声	gong qiu sheng	4
 马中立	ma zhong li	4
 张璧	zhang bi	4
@@ -3269,7 +3269,7 @@ sort: by_weight
 金之俊	jin zhi jun	4
 完颜雍	wan yan yong	4
 李劲然	li jin ran	4
-叶廖缅科	ye liao mian ke	4
+叶廖缅科	xie liao mian ke	4
 石勤	shi qin	4
 佐藤宽子	zuo teng kuan zi	4
 申甫	shen fu	4
@@ -3294,9 +3294,9 @@ sort: by_weight
 孟节	meng jie	4
 李从珂	li cong ke	4
 段坚	duan jian	4
-菊川怜	ju chuan lian	4
+菊川怜	ju chuan ling	4
 赖先	lai xian	4
-特勒骠	te le biao	4
+特勒骠	te le piao	4
 胡前	hu qian	4
 木增	mu zeng	4
 张现伟	zhang xian wei	4
@@ -3311,7 +3311,7 @@ sort: by_weight
 沈真	shen zhen	4
 刘元举	liu yuan ju	4
 杨秀川	yang xiu chuan	4
-梁枢	liang shu	4
+梁枢	liang qu	4
 徐世刚	xu shi gang	4
 田喆	tian zhe	4
 熙宗	xi zong	4
@@ -3331,19 +3331,19 @@ sort: by_weight
 吴宗麟	wu zong lin	4
 陈度	chen du	4
 陆珍	lu zhen	4
-卢见曾	lu jian zeng	4
+卢见曾	lu jian ceng	4
 赵舒翘	zhao shu qiao	4
 咸熙	xian xi	4
 韩福德	han fu de	4
 朱燮元	zhu xie yuan	4
 宋晋	song jin	4
-生濑胜久	sheng lai sheng jiu	4
+生濑胜久	sheng lai qing jiu	4
 李德纯	li de chun	4
 季振宜	ji zhen yi	4
 赫连昌	he lian chang	4
 李宗昉	li zong fang	4
 岑永康	cen yong kang	4
-邓义	deng yi	4
+邓义	deng cha	4
 桃井薰	tao jing xun	4
 李翠菊	li cui ju	4
 任可澄	ren ke cheng	4
@@ -3383,7 +3383,7 @@ sort: by_weight
 刘黑闼	liu hei ta	4
 明元帝	ming yuan di	4
 孙楷	sun kai	4
-施士洁	shi shi jie	4
+施士洁	shi shi ji	4
 华燧	hua sui	4
 张洽	zhang qia	3
 谷原章介	gu yuan zhang jie	3
@@ -3418,16 +3418,16 @@ sort: by_weight
 邓惠芳	deng hui fang	3
 夕鹤	xi he	3
 孙琮	sun cong	3
-沙羡	sha xian	3
+沙羡	sha yi	3
 洪天贵福	hong tian gui fu	3
-元宪宗	yuan xian zong	3
+元宪宗	yuan xiong zong	3
 普里戈金	pu li ge jin	3
 胡峻	hu jun	3
 马拉多拉	ma la duo la	3
 虞梅	yu mei	3
 唐世美	tang shi mei	3
 何梦瑶	he meng yao	3
-宋无	song wu	3
+宋无	song mo	3
 张佳胤	zhang jia yin	3
 孙衣言	sun yi yan	3
 梁廷楠	liang ting nan	3
@@ -3449,8 +3449,8 @@ sort: by_weight
 田云龙	tian yun long	3
 李鼎峰	li ding feng	3
 邹守益	zou shou yi	3
-孙秉枢	sun bing shu	3
-川井宪次	chuan jing xian ci	3
+孙秉枢	sun bing qu	3
+川井宪次	chuan jing xiong ci	3
 完颜宗弼	wan yan zong bi	3
 姚永概	yao yong gai	3
 士燮	shi xie	3
@@ -3473,20 +3473,20 @@ sort: by_weight
 武安国	wu an guo	3
 关口里美	guan kou li mei	3
 方殿元	fang dian yuan	3
-海怀	hai huai	3
-邓文宪	deng wen xian	3
+海怀	hai fu	3
+邓文宪	deng wen xiong	3
 钱澄之	qian cheng zhi	3
 胡中玉	hu zhong yu	3
 司马岳	si ma yue	3
 蒋钦	jiang qin	3
-曾宪锋	zeng xian feng	3
+曾宪锋	ceng xiong feng	3
 陆峥嵘	lu zheng rong	3
-卫庄公	wei zhuang gong	3
-翟灏	di hao	3
+卫庄公	wei peng gong	3
+翟灏	zhai hao	3
 成宫宽贵	cheng gong kuan gui	3
 王梦兰	wang meng lan	3
 蔡叔度	cai shu du	3
-莲佛美沙子	lian fu mei sha zi	3
+莲佛美沙子	lian fo mei sha zi	3
 谭处端	tan chu duan	3
 司徒眉生	si tu mei sheng	3
 陈大齐	chen da qi	3
@@ -3496,11 +3496,11 @@ sort: by_weight
 晋文侯	jin wen hou	3
 陈仙梅	chen xian mei	3
 金琮	jin cong	3
-朱术桂	zhu shu gui	3
+朱术桂	zhu zhu gui	3
 车太铉	che tai xuan	3
 沈慧芬	shen hui fen	3
 李再华	li zai hua	3
-项圣谟	xiang sheng mo	3
+项圣谟	xiang ku mo	3
 王象晋	wang xiang jin	3
 沈恩孚	shen en fu	3
 宇喜多秀家	yu xi duo xiu jia	3
@@ -3524,7 +3524,7 @@ sort: by_weight
 汪光华	wang guang hua	3
 永井豪	yong jing hao	3
 帝乙	di yi	3
-蔡国权	cai guo quan	3
+蔡国权	cai guo shu	3
 沈瑞清	shen rui qing	3
 熊大木	xiong da mu	3
 罗会祥	luo hui xiang	3
@@ -3540,10 +3540,10 @@ sort: by_weight
 陆元琪	lu yuan qi	3
 头曼	tou man	3
 陈奉兹	chen feng zi	3
-小西行长	xiao xi xing zhang	3
-昆体良	kun ti liang	3
+小西行长	xiao xi xing chang	3
+昆体良	kun ben liang	3
 豫章王	yu zhang wang	3
-荣柱	rong zhu	3
+荣柱	ce zhu	3
 沈硕	shen shuo	3
 芹洋子	qin yang zi	3
 奉高	feng gao	3
@@ -3569,7 +3569,7 @@ sort: by_weight
 潘西凤	pan xi feng	3
 谢堂	xie tang	3
 励宗万	li zong wan	3
-张悌	zhang ti	3
+张悌	zhang di	3
 前田爱	qian tian ai	3
 胡世昌	hu shi chang	3
 李宗瀚	li zong han	3
@@ -3579,8 +3579,8 @@ sort: by_weight
 王纶	wang lun	3
 车万育	che wan yu	3
 昭媛	zhao yuan	3
-王祜	wang hu	3
-拓跋濬	ta ba jun	3
+王祜	wang gu	3
+拓跋濬	tuo ba jun	3
 冯嫽	feng liao	3
 商辂	shang lu	3
 祝望	zhu wang	3
@@ -3609,7 +3609,7 @@ sort: by_weight
 新息	xin xi	3
 阎文清	yan wen qing	3
 福禄培尔	fu lu pei er	3
-钱旃	qian zhan	3
+钱旃	qian dan	3
 顾樵	gu qiao	3
 宗珊	zong shan	3
 内村光良	nei cun guang liang	3
@@ -3626,7 +3626,7 @@ sort: by_weight
 五轮真弓	wu lun zhen gong	3
 王心一	wang xin yi	3
 龙元任	long yuan ren	3
-刘体仁	liu ti ren	3
+刘体仁	liu ben ren	3
 符馨尹	fu xin yin	3
 卑弥呼	bei mi hu	3
 夏木麻里	xia mu ma li	3
@@ -3638,18 +3638,18 @@ sort: by_weight
 宋恭帝	song gong di	3
 济北国	ji bei guo	3
 黄玉莹	huang yu ying	3
-郭长顺	guo zhang shun	3
+郭长顺	guo chang shun	3
 堺利彦	jie li yan	3
 张祖翼	zhang zu yi	3
 古宇	gu yu	3
 朱钟	zhu zhong	3
-景学义	jing xue yi	3
+景学义	jing xiao cha	3
 魏秀仁	wei xiu ren	3
 李朔	li shuo	3
 张东凯	zhang dong kai	3
 杨小乐	yang xiao le	3
 胡庆阳	hu qing yang	3
-申时行	shen shi hang	3
+申时行	shen shi xing	3
 晋襄公	jin xiang gong	3
 郑廉	zheng lian	3
 江春霖	jiang chun lin	3
@@ -3671,8 +3671,8 @@ sort: by_weight
 苻洪	fu hong	3
 高桥一生	gao qiao yi sheng	3
 横山由依	heng shan you yi	3
-汪近圣	wang jin sheng	3
-裴斯泰洛齐	pei si tai luo qi	3
+汪近圣	wang jin ku	3
+裴斯泰洛齐	fei si tai luo qi	3
 李鸿裔	li hong yi	3
 郭传林	guo chuan lin	3
 郭麟	guo lin	3
@@ -3694,9 +3694,9 @@ sort: by_weight
 韩胄	han zhou	3
 岩下志麻	yan xia zhi ma	3
 胡大文	hu da wen	3
-陈虬	chen qiu	3
+陈虬	chen jiu	3
 森本龙太郎	sen ben long tai lang	3
-李仕学	li shi xue	3
+李仕学	li shi xiao	3
 熊霜	xiong shuang	3
 张云鹤	zhang yun he	3
 影山浩宣	ying shan hao xuan	3
@@ -3704,7 +3704,7 @@ sort: by_weight
 赵昉	zhao fang	3
 徐采	xu cai	3
 刘虞	liu yu	3
-萧庄	xiao zhuang	3
+萧庄	xiao peng	3
 石原良纯	shi yuan liang chun	3
 沈璇	shen xuan	3
 杨雍建	yang yong jian	3
@@ -3719,16 +3719,16 @@ sort: by_weight
 刘婴	liu ying	3
 马康年	ma kang nian	3
 沃丁	wo ding	3
-岛津义弘	dao jin yi hong	3
+岛津义弘	dao jin cha hong	3
 魏湘	wei xiang	3
 张云锦	zhang yun jin	3
 秋田雨雀	qiu tian yu que	3
 高淮	gao huai	3
 郭柏苍	guo bai cang	3
-济阴	ji yin	3
+济阴	ji an	3
 阿部力	a bu li	3
 慕容德	mu rong de	3
-温体仁	wen ti ren	3
+温体仁	wen ben ren	3
 悼公	dao gong	3
 刘健群	liu jian qun	3
 魏裔介	wei yi jie	3
@@ -3749,7 +3749,7 @@ sort: by_weight
 细川忠兴	xi chuan zhong xing	3
 眉佳	mei jia	3
 李亦雯	li yi wen	3
-熊仁荣	xiong ren rong	3
+熊仁荣	xiong ren ce	3
 贾妮妮	jia ni ni	3
 高部爱	gao bu ai	3
 陆婉珍	lu wan zhen	3
@@ -3757,7 +3757,7 @@ sort: by_weight
 潘仪君	pan yi jun	3
 莫德惠	mo de hui	3
 郑振瑶	zheng zhen yao	3
-彼什科夫	bi shi ke fu	3
+彼什科夫	bi shen ke fu	3
 赵以文	zhao yi wen	3
 段兴智	duan xing zhi	3
 孔齐	kong qi	3
@@ -3782,7 +3782,7 @@ sort: by_weight
 格里森姆	ge li sen mu	3
 张瑜平	zhang yu ping	3
 华之鸿	hua zhi hong	3
-曾廉	zeng lian	3
+曾廉	ceng lian	3
 李淑卿	li shu qing	3
 卢鸿杰	lu hong jie	3
 太祖努尔哈赤	tai zu nu er ha chi	3
@@ -3797,14 +3797,14 @@ sort: by_weight
 刘万芳	liu wan fang	3
 王葆心	wang bao xin	3
 邢澍	xing shu	3
-董学群	dong xue qun	3
+董学群	dong xiao qun	3
 丽奈	li nai	3
 蒋骥	jiang ji	3
 北原里英	bei yuan li ying	3
 林圭	lin gui	3
 黄珍吾	huang zhen wu	3
 张时彻	zhang shi che	3
-陈汉第	chen han di	3
+陈汉第	chen nv di	3
 戴员	dai yuan	3
 萧岿	xiao kui	3
 李倩妮	li qian ni	3
@@ -3818,7 +3818,7 @@ sort: by_weight
 傅亨	fu heng	3
 来敏	lai min	3
 刘崇远	liu chong yuan	3
-卜万苍	bo wan cang	3
+卜万苍	bu wan cang	3
 谷利	gu li	3
 达贝妮	da bei ni	3
 铃木杏	ling mu xing	3
@@ -3830,13 +3830,13 @@ sort: by_weight
 敖陶孙	ao tao sun	3
 郭思演	guo si yan	3
 朝审	chao shen	3
-曾灿灯	zeng can deng	3
+曾灿灯	ceng can ding	3
 岳美中	yue mei zhong	3
 朱谋	zhu mou	3
 胡嘉言	hu jia yan	3
 夏伯和	xia bo he	3
 王初桐	wang chu tong	3
-鲜于枢	xian yu shu	3
+鲜于枢	xian yu qu	3
 山下达郎	shan xia da lang	3
 孙克弘	sun ke hong	3
 张云仙	zhang yun xian	3
@@ -3864,7 +3864,7 @@ sort: by_weight
 柯罗连科	ke luo lian ke	3
 晋康帝	jin kang di	3
 岩本薰	yan ben xun	3
-长谷川京子	zhang gu chuan jing zi	3
+长谷川京子	chang gu chuan jing zi	3
 肖革联	xiao ge lian	3
 朱志尧	zhu zhi yao	3
 梁国治	liang guo zhi	3
@@ -3873,15 +3873,15 @@ sort: by_weight
 渥美清	wo mei qing	3
 程福生	cheng fu sheng	3
 王藻	wang zao	3
-汉少帝	han shao di	3
+汉少帝	nv shao di	3
 白亨利	bai heng li	3
-黎民怀	li min huai	3
+黎民怀	li min fu	3
 范光阳	fan guang yang	3
 李因笃	li yin du	3
 王仲元	wang zhong yuan	3
 罗晓莹	luo xiao ying	3
 陈逵	chen kui	3
-鲍宁	bao ning	3
+鲍宁	bao zhu	3
 韦悫	wei que	3
 刘锡玲	liu xi ling	3
 郎遂	lang sui	3
@@ -3890,7 +3890,7 @@ sort: by_weight
 图特摩斯三世	tu te mo si san shi	3
 方东树	fang dong shu	3
 瞿应绍	qu ying shao	3
-张玄靓	zhang xuan jing	3
+张玄靓	zhang xuan liang	3
 敬帝	jing di	3
 郑沅	zheng yuan	3
 孙尔准	sun er zhun	3
@@ -3923,31 +3923,31 @@ sort: by_weight
 梁淑贞	liang shu zhen	3
 戴严	dai yan	3
 傅云龙	fu yun long	3
-朱裳	zhu shang	3
+朱裳	zhu chang	3
 狄尔泰	di er tai	3
 刘纶	liu lun	3
 何栋	he dong	3
-叶向高	ye xiang gao	3
+叶向高	xie xiang gao	3
 庄长恭	zhuang zhang gong	3
-明怀	ming huai	3
+明怀	ming fu	3
 王祖庆	wang zu qing	3
-叶启彬	ye qi bin	3
+叶启彬	xie qi bin	3
 董旭彬	dong xu bin	3
 沈容	shen rong	3
 郭琇	guo xiu	3
 谭一平	tan yi ping	3
 周淑禧	zhou shu xi	3
 刘辰翁	liu chen weng	3
-胡奋	hu fen	3
+胡奋	hu gang	3
 李亚春	li ya chun	3
 舒荣	shu rong	3
 龙舒	long shu	3
 多部未华子	duo bu wei hua zi	3
 吕尚春	lv shang chun	3
-广禄	guang lu	3
+广禄	yan lu	3
 易王	yi wang	3
 孙皎	sun jiao	3
-曾钊	zeng zhao	3
+曾钊	ceng zhao	3
 翁森	weng sen	3
 孙本文	sun ben wen	3
 石韫玉	shi yun yu	3
@@ -3995,7 +3995,7 @@ sort: by_weight
 藤泽周平	teng ze zhou ping	3
 刘静钰	liu jing yu	3
 文伯仁	wen bo ren	3
-汉哀帝	han ai di	3
+汉哀帝	nv ai di	3
 袁瑞良	yuan rui liang	3
 何祎	he yi	3
 孙承恩	sun cheng en	3
@@ -4010,8 +4010,8 @@ sort: by_weight
 慕容部	mu rong bu	3
 金梓	jin zi	3
 陈子和	chen zi he	3
-叶伯英	ye bo ying	3
-曾习经	zeng xi jing	3
+叶伯英	xie bo ying	3
+曾习经	ceng xi jing	3
 谢六逸	xie liu yi	3
 汪鸣銮	wang ming luan	3
 张寿镛	zhang shou yong	3
@@ -4027,25 +4027,25 @@ sort: by_weight
 诸樊	zhu fan	2
 周顺昌	zhou shun chang	2
 马国瀚	ma guo han	2
-段业	duan ye	2
+段业	duan qiu	2
 美内铃惠	mei nei ling hui	2
 何绍周	he shao zhou	2
 李宜芳	li yi fang	2
 张应奎	zhang ying kui	2
 徐上瀛	xu shang ying	2
 加藤嘉明	jia teng jia ming	2
-孙光宪	sun guang xian	2
+孙光宪	sun guang xiong	2
 汪答应	wang da ying	2
-郗虑	xi lv	2
+郗虑	chi bi	2
 彭杰如	peng jie ru	2
-叶燮	ye xie	2
+叶燮	xie xie	2
 袁守侗	yuan shou dong	2
-翟泉	di quan	2
-袁兆庄	yuan zhao zhuang	2
+翟泉	zhai quan	2
+袁兆庄	yuan zhao peng	2
 平步青	ping bu qing	2
 寇遐	kou xia	2
 坂本冬美	ban ben dong mei	2
-北地郡	bei de jun	2
+北地郡	bei di jun	2
 邹益	zou yi	2
 毕锐	bi rui	2
 佐藤春夫	zuo teng chun fu	2
@@ -4075,8 +4075,8 @@ sort: by_weight
 徐士林	xu shi lin	2
 汤贻汾	tang yi fen	2
 鲁惠公	lu hui gong	2
-吴省钦	wu xing qin	2
-拉罗什福科	la luo shi fu ke	2
+吴省钦	wu sheng qin	2
+拉罗什福科	la luo shen fu ke	2
 邾隐公	zhu yin gong	2
 冯礼	feng li	2
 厉晓秋	li xiao qiu	2
@@ -4086,7 +4086,7 @@ sort: by_weight
 伊藤千晃	yi teng qian huang	2
 赵龙文	zhao long wen	2
 阿里不哥	a li bu ge	2
-蔡道宪	cai dao xian	2
+蔡道宪	cai dao xiong	2
 麟趾宫	lin zhi gong	2
 吕贤基	lv xian ji	2
 刘廷玑	liu ting ji	2
@@ -4096,8 +4096,8 @@ sort: by_weight
 方成培	fang cheng pei	2
 田中哲司	tian zhong zhe si	2
 王思任	wang si ren	2
-叶鼎	ye ding	2
-曾凤仪	zeng feng yi	2
+叶鼎	xie ding	2
+曾凤仪	ceng feng yi	2
 李是男	li shi nan	2
 八代亚纪	ba dai ya ji	2
 周如砥	zhou ru di	2
@@ -4117,11 +4117,11 @@ sort: by_weight
 方钧	fang jun	2
 蹋顿	ta dun	2
 刘尧诲	liu yao hui	2
-朱学增	zhu xue zeng	2
-周义成	zhou yi cheng	2
+朱学增	zhu xiao zeng	2
+周义成	zhou cha cheng	2
 戴均元	dai jun yuan	2
 秦惠公	qin hui gong	2
-陈其学	chen qi xue	2
+陈其学	chen qi xiao	2
 姬虞	ji yu	2
 吴铨	wu quan	2
 孙光大	sun guang da	2
@@ -4129,7 +4129,7 @@ sort: by_weight
 江恂	jiang xun	2
 胡唐	hu tang	2
 齐顷公	qi qing gong	2
-叶暗	ye an	2
+叶暗	xie an	2
 袁胤	yuan yin	2
 元善见	yuan shan jian	2
 许梿	xu lian	2
@@ -4147,7 +4147,7 @@ sort: by_weight
 林蒲封	lin pu feng	2
 赫施巴赫	he shi ba he	2
 童炎生	tong yan sheng	2
-耶律阮	ye lv ruan	2
+耶律阮	ye lü ruan	2
 漠璇	mo xuan	2
 曹秀先	cao xiu xian	2
 周镜	zhou jing	2
@@ -4175,13 +4175,13 @@ sort: by_weight
 奉常	feng chang	2
 王汝璧	wang ru bi	2
 钱熙	qian xi	2
-翟元	di yuan	2
+翟元	zhai yuan	2
 汪舸	wang ge	2
 尤乘	you cheng	2
 丁元公	ding yuan gong	2
 荻野真	di ye zhen	2
 顾光旭	gu guang xu	2
-蒋希曾	jiang xi zeng	2
+蒋希曾	jiang xi ceng	2
 王鸿寿	wang hong shou	2
 渡濑悠宇	du lai you yu	2
 曹日晖	cao ri hui	2
@@ -4190,9 +4190,9 @@ sort: by_weight
 吴复	wu fu	2
 姬秋	ji qiu	2
 丁子江	ding zi jiang	2
-远藤宪一	yuan teng xian yi	2
+远藤宪一	yuan teng xiong yi	2
 信世昌	xin shi chang	2
-叶其蓁	ye qi zhen	2
+叶其蓁	xie qi qin	2
 方薰	fang xun	2
 胡宗仁	hu zong ren	2
 于陵	yu ling	2
@@ -4218,7 +4218,7 @@ sort: by_weight
 计楠	ji nan	2
 忽雷驳	hu lei bo	2
 大岛由加利	da dao you jia li	2
-小松拓也	xiao song ta ye	2
+小松拓也	xiao song tuo ye	2
 杨克煌	yang ke huang	2
 巩志	gong zhi	2
 郑灵公	zheng ling gong	2
@@ -4235,7 +4235,7 @@ sort: by_weight
 胡澍	hu shu	2
 谢济世	xie ji shi	2
 张尔岐	zhang er qi	2
-王冈	wang gang	2
+王冈	wang wang	2
 蔡廷兰	cai ting lan	2
 两津勘吉	liang jin kan ji	2
 阳群	yang qun	2
@@ -4250,7 +4250,7 @@ sort: by_weight
 胜地凉	sheng di liang	2
 奥井雅美	ao jing ya mei	2
 姚仔	yao zai	2
-郑广文	zheng guang wen	2
+郑广文	zheng yan wen	2
 梁紫	liang zi	2
 王凡夫	wang fan fu	2
 郑纪	zheng ji	2
@@ -4279,7 +4279,7 @@ sort: by_weight
 陈元安	chen yuan an	2
 黄仕豪	huang shi hao	2
 张南庄	zhang nan zhuang	2
-伍长华	wu zhang hua	2
+伍长华	wu chang hua	2
 陆天尧	lu tian yao	2
 吴榕	wu rong	2
 曹训	cao xun	2
@@ -4296,10 +4296,10 @@ sort: by_weight
 鲁文公	lu wen gong	2
 沈宗骞	shen zong qian	2
 戴钧衡	dai jun heng	2
-片冈聪	pian gang cong	2
+片冈聪	pian wang cong	2
 李汝华	li ru hua	2
 方天丰	fang tian feng	2
-姚怀祥	yao huai xiang	2
+姚怀祥	yao fu xiang	2
 邱琦雯	qiu qi wen	2
 高奴	gao nu	2
 阿笛	a di	2
@@ -4314,7 +4314,7 @@ sort: by_weight
 应慈	ying ci	2
 大杉涟	da shan lian	2
 鲁顷公	lu qing gong	2
-学蕴	xue yun	2
+学蕴	xiao yun	2
 郭智博	guo zhi bo	2
 鲁得之	lu de zhi	2
 龙为霖	long wei lin	2
@@ -4324,7 +4324,7 @@ sort: by_weight
 明叔亮	ming shu liang	2
 徐隆	xu long	2
 查礼	cha li	2
-曾兰芳	zeng lan fang	2
+曾兰芳	ceng lan fang	2
 陈豫钟	chen yu zhong	2
 董石才	dong shi cai	2
 纽兰兹	niu lan zi	2
@@ -4334,7 +4334,7 @@ sort: by_weight
 赵庆阁	zhao qing ge	2
 苗朝阳	miao zhao yang	2
 泷廉太郎	long lian tai lang	2
-罗汝怀	luo ru huai	2
+罗汝怀	luo ru fu	2
 宫东风	gong dong feng	2
 刘缵	liu zuan	2
 绫辻行人	ling shi xing ren	2
@@ -4364,20 +4364,20 @@ sort: by_weight
 萧栋	xiao dong	2
 陈景藻	chen jing zao	2
 徐仁铸	xu ren zhu	2
-孔广陶	kong guang tao	2
+孔广陶	kong yan tao	2
 钱北秋	qian bei qiu	2
 吴锦城	wu jin cheng	2
 谢冠生	xie guan sheng	2
 邹缉	zou ji	2
 张慎言	zhang shen yan	2
-陈学松	chen xue song	2
+陈学松	chen xiao song	2
 贾洪林	jia hong lin	2
 高道士	gao dao shi	2
 潘铎	pan duo	2
 祖庚	zu geng	2
-曾铣	zeng xi	2
+曾铣	ceng xi	2
 陈大悲	chen da bei	2
-曾懿	zeng yi	2
+曾懿	ceng yi	2
 郭任远	guo ren yuan	2
 陆玑	lu ji	2
 文震孟	wen zhen meng	2
@@ -4393,7 +4393,7 @@ sort: by_weight
 张元举	zhang yuan ju	2
 张恺帆	zhang kai fan	2
 乔塞佩	qiao sai pei	2
-叶衍兰	ye yan lan	2
+叶衍兰	xie yan lan	2
 罗惇衍	luo dun yan	2
 柏谦	bai qian	2
 吕常	lv chang	2
@@ -4414,7 +4414,7 @@ sort: by_weight
 耿武	geng wu	2
 那彦成	na yan cheng	2
 臧启芳	zang qi fang	2
-休徵	xiu zheng	2
+休徵	xiu zhi	2
 吴藻	wu zao	2
 齐闵王	qi min wang	2
 徐嘉瑞	xu jia rui	2
@@ -4434,7 +4434,7 @@ sort: by_weight
 任道镕	ren dao rong	2
 曹熊	cao xiong	2
 李之芳	li zhi fang	2
-叶春及	ye chun ji	2
+叶春及	xie chun ji	2
 丁泰	ding tai	2
 王畴	wang chou	2
 松重丰	song zhong feng	2
@@ -4443,7 +4443,7 @@ sort: by_weight
 主父偃	zhu fu yan	2
 渡边美奈	du bian mei nai	2
 沈彩	shen cai	2
-吕怀	lv huai	2
+吕怀	lv fu	2
 陈维博	chen wei bo	2
 慕容熙	mu rong xi	2
 蔡哀侯	cai ai hou	2
@@ -4455,15 +4455,15 @@ sort: by_weight
 年王臣	nian wang chen	2
 尹卫红	yin wei hong	2
 王凯泰	wang kai tai	2
-张昭汉	zhang zhao han	2
+张昭汉	zhang zhao nv	2
 陈周全	chen zhou quan	2
 阮晔	ruan ye	2
 潘燕辉	pan yan hui	2
 施北衡	shi bei heng	2
 王伉	wang kang	2
 张鸣珂	zhang ming ke	2
-胡世荣	hu shi rong	2
-庄昶	zhuang chang	2
+胡世荣	hu shi ce	2
+庄昶	peng chang	2
 龙勒	long le	2
 满岛光	man dao guang	2
 鬲国	ge guo	2
@@ -4486,10 +4486,10 @@ sort: by_weight
 王秉钧	wang bing jun	2
 郑仲夔	zheng zhong kui	2
 冯晓曦	feng xiao xi	2
-盖丽丽	gai li li	2
+盖丽丽	he li li	2
 马遵	ma zun	2
 徐鉴	xu jian	2
-关纯	guan chun	2
+关纯	xiao chun	2
 陈鸿远	chen hong yuan	2
 杨钫涵	yang fang han	2
 郑世豪	zheng shi hao	2
@@ -4499,7 +4499,7 @@ sort: by_weight
 刘瓒	liu zan	2
 吕震	lv zhen	2
 慕容永	mu rong yong	2
-刘于义	liu yu yi	2
+刘于义	liu yu cha	2
 仲壬	zhong ren	2
 姬云	ji yun	2
 潘濬	pan jun	2
@@ -4518,7 +4518,7 @@ sort: by_weight
 毛岱钧	mao dai jun	2
 郑重光	zheng zhong guang	2
 刘启光	liu qi guang	2
-孔宪培	kong xian pei	2
+孔宪培	kong xiong pei	2
 昆泽	kun ze	2
 富歇	fu xie	2
 马奇诺	ma qi nuo	2
@@ -4536,7 +4536,7 @@ sort: by_weight
 西贝斯	xi bei si	2
 明日花	ming ri hua	2
 宣恒	xuan heng	2
-陈裴之	chen pei zhi	2
+陈裴之	chen fei zhi	2
 议功	yi gong	2
 徐念慈	xu nian ci	2
 唐国章	tang guo zhang	2
@@ -4544,7 +4544,7 @@ sort: by_weight
 姬晋	ji jin	2
 博县	bo xian	2
 周慕莲	zhou mu lian	2
-叶焕	ye huan	2
+叶焕	xie huan	2
 泽田研二	ze tian yan er	2
 顾蕙	gu hui	2
 赵梦朱	zhao meng zhu	2
@@ -4564,13 +4564,13 @@ sort: by_weight
 郭汝龙	guo ru long	2
 郑侨	zheng qiao	2
 黄现璠	huang xian fan	2
-杨惟义	yang wei yi	2
+杨惟义	yang wei cha	2
 金士高	jin shi gao	2
 张五典	zhang wu dian	2
 周太祖	zhou tai zu	2
 孙光祀	sun guang si	2
 静嫔	jing pin	2
-秦宪公	qin xian gong	2
+秦宪公	qin xiong gong	2
 温王	wen wang	2
 刘治中	liu zhi zhong	2
 李文藻	li wen zao	2
@@ -4597,7 +4597,7 @@ sort: by_weight
 刘仕伟	liu shi wei	2
 许乃钊	xu nai zhao	2
 潘永贵	pan yong gui	2
-长岛一茂	zhang dao yi mao	2
+长岛一茂	chang dao yi mao	2
 马励武	ma li wu	2
 华察	hua cha	2
 俞云	yu yun	2
@@ -4606,7 +4606,7 @@ sort: by_weight
 吴国发	wu guo fa	2
 郑献甫	zheng xian fu	2
 邓牧	deng mu	2
-刘世珩	liu shi hang	2
+刘世珩	liu shi heng	2
 宋桓公	song huan gong	2
 汪文溥	wang wen pu	2
 顾明道	gu ming dao	2
@@ -4644,7 +4644,7 @@ sort: by_weight
 薛澍	xue shu	2
 黄廉	huang lian	2
 陈登龙	chen deng long	2
-刘学洵	liu xue xun	2
+刘学洵	liu xiao xun	2
 顿喜	dun xi	2
 周稚舜	zhou zhi shun	2
 陈其元	chen qi yuan	2
@@ -4685,11 +4685,11 @@ sort: by_weight
 薛乔	xue qiao	2
 梅田彩佳	mei tian cai jia	2
 齐襄王	qi xiang wang	2
-黄体芳	huang ti fang	2
+黄体芳	huang ben fang	2
 夏汝弼	xia ru bi	2
 赵惇	zhao dun	2
 沈不负	shen bu fu	2
-罗烜	luo xuan	2
+罗烜	luo huan	2
 曹枫	cao feng	2
 太丁	tai ding	2
 姬重耳	ji zhong er	2
@@ -4698,7 +4698,7 @@ sort: by_weight
 齐胡公	qi hu gong	2
 梵隆	fan long	2
 余贵美子	yu gui mei zi	2
-诸葛靓	zhu ge jing	2
+诸葛靓	zhu ge liang	2
 大贯妙子	da guan miao zi	2
 尼耳斯	ni er si	2
 朱沆	zhu hang	2
@@ -4727,7 +4727,7 @@ sort: by_weight
 王锜	wang qi	2
 王沈	wang shen	2
 范涞	fan lai	2
-曹盛洁	cao sheng jie	2
+曹盛洁	cao sheng ji	2
 郑穆公	zheng mu gong	2
 真夜	zhen ye	2
 王伯臣	wang bo chen	2
@@ -4755,7 +4755,7 @@ sort: by_weight
 七原秋也	qi yuan qiu ye	2
 钱枚	qian mei	2
 倪洪章	ni hong zhang	2
-童叶庚	tong ye geng	2
+童叶庚	tong xie geng	2
 黄爵滋	huang jue zi	2
 羽原大介	yu yuan da jie	2
 孔毓圻	kong yu qi	2
@@ -4774,7 +4774,7 @@ sort: by_weight
 李百军	li bai jun	2
 张宗恒	zhang zong heng	2
 黄彰	huang zhang	2
-曾祥金	zeng xiang jin	2
+曾祥金	ceng xiang jin	2
 吾粲	wu can	2
 萧昭文	xiao zhao wen	2
 藤北彩香	teng bei cai xiang	2
@@ -4785,14 +4785,14 @@ sort: by_weight
 蛯原友里	lao yuan you li	2
 公孙恭	gong sun gong	2
 延初	yan chu	2
-吕佛庭	lv fu ting	2
+吕佛庭	lv fo ting	2
 吴暻	wu jing	2
 严澄	yan cheng	2
 李德钢	li de gang	2
 钱肃乐	qian su le	2
 阮孝绪	ruan xiao xu	2
 曹锡宝	cao xi bao	2
-蜷川幸雄	quan chuan xing xiong	2
+蜷川幸雄	juan chuan xing xiong	2
 周达武	zhou da wu	2
 池胁千鹤	chi xie qian he	2
 辰巳奈都子	chen si nai dou zi	2
@@ -4810,7 +4810,7 @@ sort: by_weight
 半野喜弘	ban ye xi hong	2
 许初	xu chu	2
 志贺直哉	zhi he zhi zai	2
-叶丽美	ye li mei	2
+叶丽美	xie li mei	2
 祁彪佳	qi biao jia	2
 孙廷铨	sun ting quan	2
 张民表	zhang min biao	2
@@ -4838,7 +4838,7 @@ sort: by_weight
 冯尔康	feng er kang	2
 沮渠蒙逊	ju qu meng xun	2
 李德孝	li de xiao	2
-孔广林	kong guang lin	2
+孔广林	kong yan lin	2
 伍郎	wu lang	2
 邓传密	deng chuan mi	2
 龚景	gong jing	2
@@ -4856,7 +4856,7 @@ sort: by_weight
 许贡	xu gong	2
 朱龄	zhu ling	2
 乌氏	wu shi	2
-孙超曾	sun chao zeng	2
+孙超曾	sun chao ceng	2
 傅国栋	fu guo dong	2
 西蒙玻利瓦尔	xi meng bo li wa er	2
 俞弁	yu bian	2
@@ -4886,10 +4886,10 @@ sort: by_weight
 钱元	qian yuan	2
 李青川	li qing chuan	2
 王轶琼	wang yi qiong	2
-苻丕	fu pi	2
+苻丕	fu pei	2
 顾印愚	gu yin yu	2
 韩金英	han jin ying	2
-贾宪	jia xian	2
+贾宪	jia xiong	2
 冉觐祖	ran jin zu	2
 龙启瑞	long qi rui	2
 陈士元	chen shi yuan	2
@@ -4913,9 +4913,9 @@ sort: by_weight
 沈文婷	shen wen ting	2
 成无己	cheng wu ji	2
 张德能	zhang de neng	2
-李蕃	li fan	2
+李蕃	li bo	2
 朱士林	zhu shi lin	2
-丁佛言	ding fu yan	2
+丁佛言	ding fo yan	2
 元英宗	yuan ying zong	2
 王有龄	wang you ling	2
 谢应芳	xie ying fang	2
@@ -4927,7 +4927,7 @@ sort: by_weight
 杨讷	yang ne	2
 加藤登纪子	jia teng deng ji zi	2
 张诩	zhang xu	2
-邓怀农	deng huai nong	2
+邓怀农	deng fu nong	2
 张鹏翀	zhang peng chong	2
 蒋一葵	jiang yi kui	2
 山口晶	shan kou jing	2
@@ -4938,11 +4938,11 @@ sort: by_weight
 周才鸿	zhou cai hong	2
 福田沙纪	fu tian sha ji	2
 漆侠	qi xia	2
-叶绍袁	ye shao yuan	2
+叶绍袁	xie shao yuan	2
 邵沛	shao pei	2
 冯培元	feng pei yuan	2
 刘嗣绾	liu si wan	2
-李盖凡	li gai fan	2
+李盖凡	li he fan	2
 王处一	wang chu yi	2
 熊伯龙	xiong bo long	2
 彭定求	peng ding qiu	2
@@ -4953,7 +4953,7 @@ sort: by_weight
 朱之瑜	zhu zhi yu	2
 齐良琨	qi liang kun	2
 不韦	bu wei	2
-金光悌	jin guang ti	2
+金光悌	jin guang di	2
 水野美纪	shui ye mei ji	2
 卓秉恬	zhuo bing tian	2
 剔成	ti cheng	2
@@ -4961,7 +4961,7 @@ sort: by_weight
 安西奇	an xi qi	2
 晏安澜	yan an lan	2
 鲍忠	bao zhong	2
-刘权之	liu quan zhi	2
+刘权之	liu shu zhi	2
 吴自新	wu zi xin	2
 前田刚	qian tian gang	1
 黄暐	huang wei	1
@@ -4973,7 +4973,7 @@ sort: by_weight
 陶正祥	tao zheng xiang	1
 陶季	tao ji	1
 刘攽	liu ban	1
-叶铿	ye keng	1
+叶铿	xie keng	1
 陈名夏	chen ming xia	1
 赵秉冲	zhao bing chong	1
 佟大中	tong da zhong	1
@@ -5000,7 +5000,7 @@ sort: by_weight
 朱珪	zhu gui	1
 陈焘	chen dao	1
 刘鸿恩	liu hong en	1
-王芑孙	wang qi sun	1
+王芑孙	wang ji sun	1
 郁琼	yu qiong	1
 潘隐	pan yin	1
 浦起龙	pu qi long	1
@@ -5012,7 +5012,7 @@ sort: by_weight
 古谷实	gu gu shi	1
 汤宾	tang bin	1
 魏祖清	wei zu qing	1
-宗义智	zong yi zhi	1
+宗义智	zong cha zhi	1
 王玖	wang jiu	1
 薛承基	xue cheng ji	1
 胡汝嘉	hu ru jia	1
@@ -5044,14 +5044,14 @@ sort: by_weight
 晋哀侯	jin ai hou	1
 蔡国珍	cai guo zhen	1
 吴振棫	wu zhen yu	1
-秦庄公	qin zhuang gong	1
-杨枢	yang shu	1
+秦庄公	qin peng gong	1
+杨枢	yang qu	1
 尤珍	you zhen	1
 维利莫维斯基	wei li mo wei si ji	1
 任淇	ren qi	1
 陈安齐	chen an qi	1
 南佳也	nan jia ye	1
-占西女王	zhan xi nv wang	1
+占西女王	zhan xi nü wang	1
 潘德舆	pan de yu	1
 程嘉燧	cheng jia sui	1
 孙珑	sun long	1
@@ -5063,7 +5063,7 @@ sort: by_weight
 萧培元	xiao pei yuan	1
 脂习	zhi xi	1
 章寿麟	zhang shou lin	1
-徐无	xu wu	1
+徐无	xu mo	1
 野村万斋	ye cun wan zhai	1
 佐藤多佳子	zuo teng duo jia zi	1
 华岱	hua dai	1
@@ -5071,7 +5071,7 @@ sort: by_weight
 城田优	cheng tian you	1
 菊池智子	ju chi zhi zi	1
 封谞	feng xu	1
-宁调元	ning diao yuan	1
+宁调元	zhu tiao yuan	1
 王肇基	wang zhao ji	1
 山内铃兰	shan nei ling lan	1
 常晓阳	chang xiao yang	1
@@ -5094,7 +5094,7 @@ sort: by_weight
 卢水胡	lu shui hu	1
 田兰芳	tian lan fang	1
 泉谷茂	quan gu mao	1
-徐师曾	xu shi zeng	1
+徐师曾	xu shi ceng	1
 温汝遂	wen ru sui	1
 张雨森	zhang yu sen	1
 赵铨	zhao quan	1
@@ -5105,21 +5105,21 @@ sort: by_weight
 卢潮	lu chao	1
 达洪阿	da hong a	1
 陈樵	chen qiao	1
-金泽荣	jin ze rong	1
+金泽荣	jin ze ce	1
 蒋延	jiang yan	1
-贯地谷诗穗梨	guan de gu shi sui li	1
+贯地谷诗穗梨	guan di gu shi sui li	1
 陈柏祥	chen bai xiang	1
 石桥凌	shi qiao ling	1
 曹珏	cao jue	1
 陈暹	chen xian	1
 虞松	yu song	1
-叶襄	ye xiang	1
+叶襄	xie xiang	1
 史震林	shi zhen lin	1
-梁耀汉	liang yao han	1
+梁耀汉	liang yao nv	1
 潘慈康	pan ci kang	1
 查升	cha sheng	1
 裕谦	yu qian	1
-靳荣藩	jin rong fan	1
+靳荣藩	jin ce fan	1
 庞舒	pang shu	1
 米泽瑠美	mi ze liu mei	1
 贾培之	jia pei zhi	1
@@ -5129,10 +5129,10 @@ sort: by_weight
 田原俊彦	tian yuan jun yan	1
 中岛裕翔	zhong dao yu xiang	1
 唐皋	tang gao	1
-袁隗	yuan kui	1
+袁隗	yuan wei	1
 侯振宇	hou zhen yu	1
 杜袭	du xi	1
-赵廞	zhao xin	1
+赵廞	zhao qin	1
 莫塞莱	mo sai lai	1
 吕继周	lv ji zhou	1
 朝仓音梦	chao cang yin meng	1
@@ -5176,7 +5176,7 @@ sort: by_weight
 余一元	yu yi yuan	1
 伊莎贝拉一世	yi sha bei la yi shi	1
 乌尔班二世	wu er ban er shi	1
-拓跋余	ta ba yu	1
+拓跋余	tuo ba yu	1
 梅启照	mei qi zhao	1
 刘榛	liu zhen	1
 许慈	xu ci	1
@@ -5199,15 +5199,15 @@ sort: by_weight
 褚爽	chu shuang	1
 酒井美纪	jiu jing mei ji	1
 沈增植	shen zeng zhi	1
-王莆中	wang pu zhong	1
+王莆中	wang fu zhong	1
 原千寻	yuan qian xun	1
 戈汕	ge shan	1
-曾世荣	zeng shi rong	1
+曾世荣	ceng shi ce	1
 孙里	sun li	1
 山田美穗	shan tian mei sui	1
 山口理惠	shan kou li hui	1
 凌必正	ling bi zheng	1
-沈业富	shen ye fu	1
+沈业富	shen qiu fu	1
 苏答应	su da ying	1
 汪廷讷	wang ting ne	1
 傅佥	fu qian	1
@@ -5243,7 +5243,7 @@ sort: by_weight
 吕天成	lv tian cheng	1
 蔡海山	cai hai shan	1
 白茵	bai yin	1
-盖吕萨克	gai lv sa ke	1
+盖吕萨克	he lv sa ke	1
 杉本有美	shan ben you mei	1
 白音格力	bai yin ge li	1
 邹鸣鹤	zou ming he	1
@@ -5264,11 +5264,11 @@ sort: by_weight
 淑惠妃	shu hui fei	1
 风间杜夫	feng jian du fu	1
 薛季宣	xue ji xuan	1
-叶容	ye rong	1
+叶容	xie rong	1
 巴甫洛维奇	ba fu luo wei qi	1
 黄安涛	huang an tao	1
 龟井绘里	gui jing hui li	1
-袁褧	yuan jiong	1
+袁褧	yuan geng	1
 高峰秀子	gao feng xiu zi	1
 青之炎	qing zhi yan	1
 王尊三	wang zun san	1
@@ -5283,7 +5283,7 @@ sort: by_weight
 龚明之	gong ming zhi	1
 井之原快彦	jing zhi yuan kuai yan	1
 谢卓森	xie zhuo sen	1
-石广元	shi guang yuan	1
+石广元	shi yan yuan	1
 周承德	zhou cheng de	1
 晋定公	jin ding gong	1
 张楫如	zhang ji ru	1
@@ -5291,18 +5291,18 @@ sort: by_weight
 邹铉	zou xuan	1
 沮渠无讳	ju qu wu hui	1
 楚考烈王	chu kao lie wang	1
-乔世宁	qiao shi ning	1
+乔世宁	qiao shi zhu	1
 屈修	qu xiu	1
 章鋆	zhang yun	1
 翁照	weng zhao	1
 张景严	zhang jing yan	1
-杨义臣	yang yi chen	1
+杨义臣	yang cha chen	1
 刘履	liu lv	1
 藤木直人	teng mu zhi ren	1
 段大章	duan da zhang	1
 金德舆	jin de yu	1
 耿渊	geng yuan	1
-翟勤	di qin	1
+翟勤	zhai qin	1
 雷铜	lei tong	1
 王嗣奭	wang si shi	1
 张大复	zhang da fu	1
@@ -5316,12 +5316,12 @@ sort: by_weight
 殷士儋	yin shi dan	1
 毛承基	mao cheng ji	1
 藤田咲	teng tian xiao	1
-沈荣庆	shen rong qing	1
+沈荣庆	shen ce qing	1
 毛利辉元	mao li hui yuan	1
 爱野美奈子	ai ye mei nai zi	1
 范昶	fan chang	1
 根岸季衣	gen an ji yi	1
-内野圣阳	nei ye sheng yang	1
+内野圣阳	nei ye ku yang	1
 浦远	pu yuan	1
 手岛优	shou dao you	1
 钱楷	qian kai	1
@@ -5330,11 +5330,11 @@ sort: by_weight
 张天复	zhang tian fu	1
 罗玘	luo qi	1
 石田晴香	shi tian qing xiang	1
-丘志广	qiu zhi guang	1
-细川智荣子	xi chuan zhi rong zi	1
-吉田拓郎	ji tian ta lang	1
+丘志广	qiu zhi yan	1
+细川智荣子	xi chuan zhi ce zi	1
+吉田拓郎	ji tian tuo lang	1
 江尊	jiang zun	1
-辛毗	xin pi	1
+辛毗	xin bi	1
 岳岱	yue dai	1
 刘彘	liu zhi	1
 张志熙	zhang zhi xi	1
@@ -5342,7 +5342,7 @@ sort: by_weight
 汪文柏	wang wen bai	1
 卫康叔	wei kang shu	1
 刘仲仁	liu zhong ren	1
-王广心	wang guang xin	1
+王广心	wang yan xin	1
 许元溥	xu yuan pu	1
 入江纱绫	ru jiang sha ling	1
 周佐	zhou zuo	1
@@ -5388,7 +5388,7 @@ sort: by_weight
 刘苌	liu chang	1
 徐元文	xu yuan wen	1
 顾文渊	gu wen yuan	1
-蔡长沄	cai zhang yun	1
+蔡长沄	cai chang yun	1
 荀恽	xun yun	1
 齐藤庆子	qi teng qing zi	1
 鲁闵公	lu min gong	1
@@ -5426,7 +5426,7 @@ sort: by_weight
 博尔忽	bo er hu	1
 曹锡璜	cao xi huang	1
 秦炳文	qin bing wen	1
-汉质帝	han zhi di	1
+汉质帝	nv zhi di	1
 忽必来	hu bi lai	1
 许昭	xu zhao	1
 张行简	zhang xing jian	1
@@ -5442,7 +5442,7 @@ sort: by_weight
 朱汝华	zhu ru hua	1
 冯一萌	feng yi meng	1
 陆廷灿	lu ting can	1
-酒井忠胜	jiu jing zhong sheng	1
+酒井忠胜	jiu jing zhong qing	1
 林彦峰	lin yan feng	1
 丸山隆平	wan shan long ping	1
 杨应奎	yang ying kui	1
@@ -5475,7 +5475,7 @@ sort: by_weight
 顾汝修	gu ru xiu	1
 项维仁	xiang wei ren	1
 张龙德	zhang long de	1
-李睍	li xian	1
+李睍	li jian	1
 金蓉镜	jin rong jing	1
 赵南哲	zhao nan zhe	1
 小岛南	xiao dao nan	1
@@ -5488,7 +5488,7 @@ sort: by_weight
 齐召南	qi zhao nan	1
 周健君	zhou jian jun	1
 伍骥	wu ji	1
-荣霖	rong lin	1
+荣霖	ce lin	1
 张锡兰	zhang xi lan	1
 窦光鼐	dou guang nai	1
 钱陆灿	qian lu can	1
@@ -5498,7 +5498,7 @@ sort: by_weight
 丁管	ding guan	1
 王鎏	wang liu	1
 汤世澍	tang shi shu	1
-赵备	zhao bei	1
+赵备	zhao yuan	1
 梁玉绳	liang yu sheng	1
 殷兆镛	yin zhao yong	1
 保巴	bao ba	1
@@ -5509,7 +5509,7 @@ sort: by_weight
 汪端	wang duan	1
 姚洪业	yao hong ye	1
 阎兴邦	yan xing bang	1
-庄臻凤	zhuang zhen feng	1
+庄臻凤	peng zhen feng	1
 许汜	xu si	1
 吕得	lv de	1
 杜思敬	du si jing	1
@@ -5550,20 +5550,20 @@ sort: by_weight
 杨赓笙	yang geng sheng	1
 巴多里奥	ba duo li ao	1
 戴之奇	dai zhi qi	1
-缪昌期	mou chang qi	1
+缪昌期	miao chang qi	1
 张天英	zhang tian ying	1
 殷奎	yin kui	1
-大内义隆	da nei yi long	1
+大内义隆	da nei cha long	1
 唐大烈	tang da lie	1
 刁包	diao bao	1
 诸葛尚	zhu ge shang	1
 坂本昌行	ban ben chang xing	1
 布劳岱尔	bu lao dai er	1
 朱友珪	zhu you gui	1
-何旃理	he zhan li	1
+何旃理	he dan li	1
 徐霈	xu pei	1
 游本嘉	you ben jia	1
-关松房	guan song fang	1
+关松房	xiao song fang	1
 郭利君	guo li jun	1
 栗原惠	li yuan hui	1
 汪喜孙	wang xi sun	1
@@ -5573,19 +5573,19 @@ sort: by_weight
 卢周来	lu zhou lai	1
 渡哲也	du zhe ye	1
 陈际泰	chen ji tai	1
-嵇曾筠	ji zeng yun	1
+嵇曾筠	ji ceng yun	1
 姚明恭	yao ming gong	1
 立花慎之介	li hua shen zhi jie	1
 章穆	zhang mu	1
 龟井兹矩	gui jing zi ju	1
 王友石	wang you shi	1
-周体仁	zhou ti ren	1
+周体仁	zhou ben ren	1
 董讷	dong ne	1
 邵谊	shao yi	1
 钟复	zhong fu	1
 冈本圭人	gang ben gui ren	1
 吴一舟	wu yi zhou	1
-胡世宁	hu shi ning	1
+胡世宁	hu shi zhu	1
 李敬思	li jing si	1
 钱廉	qian lian	1
 雷以诚	lei yi cheng	1
@@ -5602,7 +5602,7 @@ sort: by_weight
 艾县	ai xian	1
 郝浴	hao yu	1
 胡方平	hu fang ping	1
-辛宪英	xin xian ying	1
+辛宪英	xin xiong ying	1
 王贞仪	wang zhen yi	1
 生天目仁美	sheng tian mu ren mei	1
 鲍刚	bao gang	1
@@ -5625,7 +5625,7 @@ sort: by_weight
 沈瓒	shen zan	1
 荀爽	xun shuang	1
 樗里疾	chu li ji	1
-宁妃	ning fei	1
+宁妃	zhu fei	1
 前川清	qian chuan qing	1
 后阳成天皇	hou yang cheng tian huang	1
 钱敬忠	qian jing zhong	1
@@ -5635,12 +5635,12 @@ sort: by_weight
 汪大钧	wang da jun	1
 鲍信	bao xin	1
 良娣	liang di	1
-李时行	li shi hang	1
+李时行	li shi xing	1
 小早川秀秋	xiao zao chuan xiu qiu	1
 及川奈央	ji chuan nai yang	1
 彭昱尧	peng yu yao	1
 张轨	zhang gui	1
-管学军	guan xue jun	1
+管学军	guan xiao jun	1
 陈废帝	chen fei di	1
 江昱	jiang yu	1
 王季烈	wang ji lie	1
@@ -5668,7 +5668,7 @@ sort: by_weight
 汪元亨	wang yuan heng	1
 冯诺伊曼	feng nuo yi man	1
 黄天菊	huang tian ju	1
-汉光武帝刘秀	han guang wu di liu xiu	1
+汉光武帝刘秀	nv guang wu di liu xiu	1
 管亥	guan hai	1
 田炯锦	tian jiong jin	1
 沟端淳平	gou duan chun ping	1
@@ -5681,10 +5681,10 @@ sort: by_weight
 鬼束千寻	gui shu qian xun	1
 村上爱	cun shang ai	1
 何太后	he tai hou	1
-长广王	zhang guang wang	1
+长广王	chang yan wang	1
 汪溶	wang rong	1
 杨紫云	yang zi yun	1
-许缵曾	xu zuan zeng	1
+许缵曾	xu zuan ceng	1
 荒川弘	huang chuan hong	1
 黄汝成	huang ru cheng	1
 周笠	zhou li	1
@@ -5698,7 +5698,7 @@ sort: by_weight
 邓钟岳	deng zhong yue	1
 孙异	sun yi	1
 梁周翰	liang zhou han	1
-刘祜	liu hu	1
+刘祜	liu gu	1
 陶浚	tao jun	1
 李海观	li hai guan	1
 林君桦	lin jun hua	1
@@ -5711,7 +5711,7 @@ sort: by_weight
 萧龙友	xiao long you	1
 后藤麻衣	hou teng ma yi	1
 余继登	yu ji deng	1
-椎名桔平	chui ming ju ping	1
+椎名桔平	zhui ming ju ping	1
 周简王	zhou jian wang	1
 陈红峰	chen hong feng	1
 小川悦司	xiao chuan yue si	1
@@ -5720,10 +5720,10 @@ sort: by_weight
 张珪	zhang gui	1
 临戎	lin rong	1
 张泽钧	zhang ze jun	1
-睿略	rui lve	1
+睿略	rui lüe	1
 潘锡恩	pan xi en	1
 读鞫	du ju	1
-潘昌猷	pan chang you	1
+潘昌猷	pan chang qiu	1
 邵伟刚	shao wei gang	1
 王会汾	wang hui fen	1
 秦瀛	qin ying	1
@@ -5732,7 +5732,7 @@ sort: by_weight
 岛谷瞳	dao gu tong	1
 爱田由	ai tian you	1
 郑简公	zheng jian gong	1
-曹本荣	cao ben rong	1
+曹本荣	cao ben ce	1
 林育容	lin yu rong	1
 徐自明	xu zi ming	1
 波爱修斯	bo ai xiu si	1
@@ -5749,7 +5749,7 @@ sort: by_weight
 恽道生	yun dao sheng	1
 安平国	an ping guo	1
 石春霞	shi chun xia	1
-叶美香	ye mei xiang	1
+叶美香	xie mei xiang	1
 马特西亚斯	ma te xi ya si	1
 戚海燕	qi hai yan	1
 西川贵教	xi chuan gui jiao	1
@@ -5783,7 +5783,7 @@ sort: by_weight
 龚翔麟	gong xiang lin	1
 孔庚	kong geng	1
 林原惠美	lin yuan hui mei	1
-罗学赞	luo xue zan	1
+罗学赞	luo xiao zan	1
 霍守义	huo shou yi	1
 毕星海	bi xing hai	1
 介卿	jie qing	1
@@ -5807,7 +5807,7 @@ sort: by_weight
 姬完	ji wan	1
 马元驭	ma yuan yu	1
 凌云上	ling yun shang	1
-伍宪子	wu xian zi	1
+伍宪子	wu xiong zi	1
 徐质	xu zhi	1
 韩山童	han shan tong	1
 赵士祯	zhao shi zhen	1
@@ -5818,7 +5818,7 @@ sort: by_weight
 李坛	li tan	1
 晋静公	jin jing gong	1
 鲁悼公	lu dao gong	1
-丰臣秀长	feng chen xiu zhang	1
+丰臣秀长	feng chen xiu chang	1
 恽毓鼎	yun yu ding	1
 周兴岱	zhou xing dai	1
 家弓家正	jia gong jia zheng	1
@@ -5830,7 +5830,7 @@ sort: by_weight
 柚木提娜	you mu ti na	1
 毕慧	bi hui	1
 恩锡	en xi	1
-郑鄤	zheng man	1
+郑鄤	zheng fan	1
 玮哥	wei ge	1
 张邵刚	zhang shao gang	1
 雷大升	lei da sheng	1
@@ -5843,7 +5843,7 @@ sort: by_weight
 董燧	dong sui	1
 陈嘉锐	chen jia rui	1
 富豪刑事	fu hao xing shi	1
-叶满林	ye man lin	1
+叶满林	xie man lin	1
 吕及	lv ji	1
 彭道儒	peng dao ru	1
 司马彪	si ma biao	1
@@ -5857,7 +5857,7 @@ sort: by_weight
 李楚瀛	li chu ying	1
 伊东美咲	yi dong mei xiao	1
 姜易	jiang yi	1
-有冈大贵	you gang da gui	1
+有冈大贵	you wang da gui	1
 弗尔迈伊	fu er mai yi	1
 任道逊	ren dao xun	1
 荒木由美子	huang mu you mei zi	1
@@ -5873,7 +5873,7 @@ sort: by_weight
 张厉生	zhang li sheng	1
 高常在	gao chang zai	1
 普雷格尔	pu lei ge er	1
-雪庄	xue zhuang	1
+雪庄	xue peng	1
 郭小溪	guo xiao xi	1
 蒋宝龄	jiang bao ling	1
 细川藤孝	xi chuan teng xiao	1
@@ -5894,12 +5894,12 @@ sort: by_weight
 王亚欧	wang ya ou	1
 楚肃王	chu su wang	1
 王累	wang lei	1
-李圣天	li sheng tian	1
+李圣天	li ku tian	1
 胡康民	hu kang min	1
 朱昆田	zhu kun tian	1
 韩菼	han tan	1
 曹据	cao ju	1
-鹿地亘	lu de gen	1
+鹿地亘	lu di gen	1
 邹澍	zou shu	1
 宇文阐	yu wen chan	1
 孙树成	sun shu cheng	1
@@ -5925,12 +5925,12 @@ sort: by_weight
 余萧客	yu xiao ke	1
 木口亚矢	mu kou ya shi	1
 萧观音	xiao guan yin	1
-李学川	li xue chuan	1
-叶天赐	ye tian ci	1
+李学川	li xiao chuan	1
+叶天赐	xie tian ci	1
 武内英树	wu nei ying shu	1
 阿速吉八	a su ji ba	1
 石森章太郎	shi sen zhang tai lang	1
-庄恒	zhuang heng	1
+庄恒	peng heng	1
 黄中理	huang zhong li	1
 黄以周	huang yi zhou	1
 摩索拉斯	mo suo la si	1
@@ -5966,7 +5966,7 @@ sort: by_weight
 蒋仪	jiang yi	1
 张弧	zhang hu	1
 小林香菜	xiao lin xiang cai	1
-上地雄辅	shang de xiong fu	1
+上地雄辅	shang di xiong fu	1
 王士禄	wang shi lu	1
 张际鹏	zhang ji peng	1
 彭城国	peng cheng guo	1
@@ -5986,7 +5986,7 @@ sort: by_weight
 梁序昭	liang xu zhao	1
 吴匡	wu kuang	1
 郑大海	zheng da hai	1
-王毓曾	wang yu zeng	1
+王毓曾	wang yu ceng	1
 佐藤裕美	zuo teng yu mei	1
 冯惟敏	feng wei min	1
 吕宫	lv gong	1
@@ -6009,20 +6009,20 @@ sort: by_weight
 朱彭	zhu peng	1
 胡濙	hu ying	1
 方功惠	fang gong hui	1
-冈村孝子	gang cun xiao zi	1
+冈村孝子	wang cun xiao zi	1
 唐宇昭	tang yu zhao	1
 杨凤苞	yang feng bao	1
-圜土	huan tu	1
+圜土	yuan tu	1
 樱井幸子	ying jing xing zi	1
 周愈	zhou yu	1
 李遵顼	li zun xu	1
 金晓辛	jin xiao xin	1
 东昏侯	dong hun hou	1
 孙少先	sun shao xian	1
-蒯越	kuai yue	1
+蒯越	jing yue	1
 冯光裕	feng guang yu	1
 楠桂	nan gui	1
-长谷川等伯	zhang gu chuan deng bo	1
+长谷川等伯	chang gu chuan deng bo	1
 梁希贤	liang xi xian	1
 蔡惠如	cai hui ru	1
 名取裕子	ming qu yu zi	1
@@ -6040,7 +6040,7 @@ sort: by_weight
 唐昭宣帝	tang zhao xuan di	1
 沃甲	wo jia	1
 珍嫔	zhen pin	1
-陈君长	chen jun zhang	1
+陈君长	chen jun chang	1
 丁德隆	ding de long	1
 严观	yan guan	1
 橘未稀	ju wei xi	1
@@ -6048,9 +6048,9 @@ sort: by_weight
 白石裕	bai shi yu	1
 姚绶	yao shou	1
 朱勇均	zhu yong jun	1
-小岛圣	xiao dao sheng	1
+小岛圣	xiao dao ku	1
 安文钦	an wen qin	1
-中尾隆圣	zhong wei long sheng	1
+中尾隆圣	zhong wei long ku	1
 熊均	xiong jun	1
 杜煦	du xu	1
 劳干	lao gan	1
@@ -6059,8 +6059,8 @@ sort: by_weight
 公孙度	gong sun du	1
 温子升	wen zi sheng	1
 童衡	tong heng	1
-叶道芬	ye dao fen	1
-朱芾	zhu fei	1
+叶道芬	xie dao fen	1
+朱芾	zhu fu	1
 宗预	zong yu	1
 钟缙	zhong jin	1
 徐宗浩	xu zong hao	1
@@ -6070,7 +6070,7 @@ sort: by_weight
 徐鼒	xu zi	1
 林宏敏	lin hong min	1
 祖辛	zu xin	1
-凌广	ling guang	1
+凌广	ling yan	1
 安田成美	an tian cheng mei	1
 朱诚泳	zhu cheng yong	1
 鱼翼	yu yi	1
@@ -6097,7 +6097,7 @@ sort: by_weight
 井上阳水	jing shang yang shui	1
 汪士龙	wang shi long	1
 许孚远	xu fu yuan	1
-来护儿	lai hu er	1
+来护儿	lai hu ren	1
 铃木亮	ling mu liang	1
 陈东湖	chen dong hu	1
 朝比奈	chao bi nai	1
@@ -6116,7 +6116,7 @@ sort: by_weight
 霍峻	huo jun	1
 潘漠子	pan mo zi	1
 孟超然	meng chao ran	1
-姬蒯聩	ji kuai kui	1
+姬蒯聩	ji jing kui	1
 长崎莉奈	chang qi li nai	1
 伍瑞隆	wu rui long	1
 陈荐夫	chen jian fu	1
@@ -6142,7 +6142,7 @@ sort: by_weight
 程嘉美	cheng jia mei	1
 白洲次郎	bai zhou ci lang	1
 陈素卿	chen su qing	1
-唐枢	tang shu	1
+唐枢	tang qu	1
 金铨	jin quan	1
 黑田如水	hei tian ru shui	1
 陆晶清	lu jing qing	1
@@ -6150,7 +6150,7 @@ sort: by_weight
 姬度	ji du	1
 朱载育	zhu zai yu	1
 菲洛尔	fei luo er	1
-李宪乔	li xian qiao	1
+李宪乔	li xiong qiao	1
 续桐溪	xu tong xi	1
 徐天利	xu tian li	1
 普尔塔	pu er ta	1
@@ -6181,7 +6181,7 @@ sort: by_weight
 孔昱	kong yu	1
 翁良毓	weng liang yu	1
 戴晓微	dai xiao wei	1
-斋藤义龙	zhai teng yi long	1
+斋藤义龙	zhai teng cha long	1
 石作衡	shi zuo heng	1
 杨晋华	yang jin hua	1
 何如宠	he ru chong	1
@@ -6205,7 +6205,7 @@ sort: by_weight
 姬起	ji qi	1
 崔元星	cui yuan xing	1
 李中师	li zhong shi	1
-全汉升	quan han sheng	1
+全汉升	quan nv sheng	1
 马琬	ma wan	1
 贝特洛	bei te luo	1
 楚幽王	chu you wang	1
@@ -6213,7 +6213,7 @@ sort: by_weight
 中村苍	zhong cun cang	1
 薛绍徽	xue shao hui	1
 李世倬	li shi zhuo	1
-殷海洁	yin hai jie	1
+殷海洁	yin hai ji	1
 堤幸彦	di xing yan	1
 林佶	lin ji	1
 子伯	zi bo	1
@@ -6243,13 +6243,13 @@ sort: by_weight
 晋武侯	jin wu hou	1
 王希廉	wang xi lian	1
 江守彻	jiang shou che	1
-叶为铭	ye wei ming	1
-潘奕隽	pan yi juan	1
+叶为铭	xie wei ming	1
+潘奕隽	pan yi jun	1
 松本梨香	song ben li xiang	1
 皮埃尔居里	pi ai er ju li	1
-美川宪一	mei chuan xian yi	1
+美川宪一	mei chuan xiong yi	1
 褚德彝	chu de yi	1
-大仓忠义	da cang zhong yi	1
+大仓忠义	tai cang zhong yi	1
 陈黻宸	chen fu chen	1
 李绂	li fu	1
 齐万年	qi wan nian	1
@@ -6264,7 +6264,7 @@ sort: by_weight
 张迪哲	zhang di zhe	1
 王诏	wang zhao	1
 掌书	zhang shu	1
-黑田长政	hei tian zhang zheng	1
+黑田长政	hei tian chang zheng	1
 蔡潮	cai chao	1
 刘宏君	liu hong jun	1
 卢伦	lu lun	1
@@ -6278,11 +6278,11 @@ sort: by_weight
 武伯英	wu bo ying	1
 姚觐元	yao jin yuan	1
 周宝英	zhou bao ying	1
-怀贤	huai xian	1
+怀贤	fu xian	1
 何植	he zhi	1
 史大成	shi da cheng	1
 张镜心	zhang jing xin	1
-薛怀	xue huai	1
+薛怀	xue fu	1
 王谔	wang e	1
 张世仁	zhang shi ren	1
 王绅	wang shen	1
@@ -6291,7 +6291,7 @@ sort: by_weight
 泽村一树	ze cun yi shu	1
 倪一膺	ni yi ying	1
 堵胤锡	du yin xi	1
-种拂	zhong fu	1
+种拂	chong fu	1
 铃木砂羽	ling mu sha yu	1
 秃发乌孤	tu fa wu gu	1
 孙资	sun zi	1
@@ -6301,7 +6301,7 @@ sort: by_weight
 顾翰	gu han	1
 朱为弼	zhu wei bi	1
 王凤娴	wang feng xian	1
-汉冲帝	han chong di	1
+汉冲帝	nv chong di	1
 山本勘助	shan ben kan zhu	1
 柏原收史	bai yuan shou shi	1
 张之象	zhang zhi xiang	1
@@ -6314,27 +6314,27 @@ sort: by_weight
 屠娇娇	tu jiao jiao	1
 胡玉琦	hu yu qi	1
 冯裕	feng yu	1
-魏学濂	wei xue lian	1
+魏学濂	wei xiao lian	1
 敖英	ao ying	1
 酒井彩名	jiu jing cai ming	1
 冯梦祯	feng meng zhen	1
 何连生	he lian sheng	1
 朱肱	zhu gong	1
 崔圭丙	cui gui bing	1
-堀川亮	ku chuan liang	1
+堀川亮	jue chuan liang	1
 张德馨	zhang de xin	1
-魏学曾	wei xue zeng	1
+魏学曾	wei xiao ceng	1
 范少卿	fan shao qing	1
 酒井忠次	jiu jing zhong ci	1
 程国仁	cheng guo ren	1
-周巽	zhou xun	1
+周巽	zhou sun	1
 谭善	tan shan	1
 岩佐真悠子	yan zuo zhen you zi	1
 林云铭	lin yun ming	1
 安德王	an de wang	1
 张江裁	zhang jiang cai	1
 陈锡嘏	chen xi gu	1
-长宗我部元亲	zhang zong wo bu yuan qin	1
+长宗我部元亲	chang zong wo bu yuan zhen	1
 喻昌	yu chang	1
 何璋	he zhang	1
 金崇印	jin chong yin	1
@@ -6354,7 +6354,7 @@ sort: by_weight
 陈梦飞	chen meng fei	1
 李劫	li jie	1
 苏钲	su zheng	1
-秦溱	qin qin	1
+秦溱	qin zhen	1
 虞堪	yu kan	1
 吴其浚	wu qi jun	1
 陈虞之	chen yu zhi	1
@@ -6362,15 +6362,15 @@ sort: by_weight
 萧德藻	xiao de zao	1
 京本政树	jing ben zheng shu	1
 郎简	lang jian	1
-姚以价	yao yi jia	1
+姚以价	yao yi jie	1
 陈维邦	chen wei bang	1
-丁炳权	ding bing quan	1
+丁炳权	ding bing shu	1
 罗石冰	luo shi bing	1
 宋景诗	song jing shi	1
 袁佑	yuan you	1
 朱宝善	zhu bao shan	1
 刘日新	liu ri xin	1
-程文荣	cheng wen rong	1
+程文荣	cheng wen ce	1
 陈潢	chen huang	1
 张若澄	zhang ruo cheng	1
 陶馥	tao fu	1
@@ -6391,14 +6391,14 @@ sort: by_weight
 赵士麟	zhao shi lin	1
 完颜守绪	wan yan shou xu	1
 秦哀公	qin ai gong	1
-倪蜕	ni tui	1
+倪蜕	ni shui	1
 七海奈奈	qi hai nai nai	1
 姚希孟	yao xi meng	1
 翁子瑜	weng zi yu	1
 施瑞伯	shi rui bo	1
 马荣祖	ma rong zu	1
 曹大章	cao da zhang	1
-朱仁荣	zhu ren rong	1
+朱仁荣	zhu ren ce	1
 许珏	xu jue	1
 张鼐	zhang nai	1
 佐藤隆太	zuo teng long tai	1
@@ -6409,7 +6409,7 @@ sort: by_weight
 傅眉	fu mei	1
 晋烈公	jin lie gong	1
 丁宝臣	ding bao chen	1
-陈文灯	chen wen deng	1
+陈文灯	chen wen ding	1
 毛依罕	mao yi han	1
 南明奈	nan ming nai	1
 李廷相	li ting xiang	1
@@ -6423,11 +6423,11 @@ sort: by_weight
 岑威	cen wei	1
 张纶	zhang lun	1
 顾应祥	gu ying xiang	1
-江珩	jiang hang	1
+江珩	jiang heng	1
 陈瑚	chen hu	1
 诸葛绪	zhu ge xu	1
 王翘	wang qiao	1
-庄绶甲	zhuang shou jia	1
+庄绶甲	peng shou jia	1
 董太后	dong tai hou	1
 余栋臣	yu dong chen	1
 林湘萍	lin xiang ping	1
@@ -6435,10 +6435,10 @@ sort: by_weight
 王宏祚	wang hong zuo	1
 黄宗会	huang zong hui	1
 海西公	hai xi gong	1
-史善长	shi shan zhang	1
+史善长	shi shan chang	1
 晋顷公	jin qing gong	1
 元猫	yuan mao	1
-郭开森	guo kai sen	1
+郭开森	guo jian sen	1
 汪机	wang ji	1
 藤田真	teng tian zhen	1
 索乌萨	suo wu sa	1
@@ -6448,7 +6448,7 @@ sort: by_weight
 徐国麟	xu guo lin	1
 汪鸿志	wang hong zhi	1
 姚范	yao fan	1
-稻叶浩志	dao ye hao zhi	1
+稻叶浩志	dao xie hao zhi	1
 田中丽奈	tian zhong li nai	1
 牧野杉菜	mu ye shan cai	1
 马愈	ma yu	1
@@ -6457,7 +6457,7 @@ sort: by_weight
 罗允缵	luo yun zuan	1
 张乐行	zhang le xing	1
 栾璞	luan pu	1
-徐秉义	xu bing yi	1
+徐秉义	xu bing cha	1
 亚纱美	ya sha mei	1
 和久井映见	he jiu jing ying jian	1
 丁耀亢	ding yao kang	1
@@ -6472,9 +6472,9 @@ sort: by_weight
 行人司	xing ren si	1
 葛维蒲	ge wei pu	1
 八乙女光	ba yi nv guang	1
-贾汉复	jia han fu	1
+贾汉复	jia nv fu	1
 高桥美纪	gao qiao mei ji	1
-姬开	ji kai	1
+姬开	ji jian	1
 潘眉	pan mei	1
 侯克中	hou ke zhong	1
 陆培	lu pei	1
@@ -6506,7 +6506,7 @@ sort: by_weight
 浅野温子	qian ye wen zi	1
 李瓒	li zan	1
 重野秀一	zhong ye xiu yi	1
-胡有猷	hu you you	1
+胡有猷	hu you qiu	1
 林有麟	lin you lin	1
 王树谷	wang shu gu	1
 雷贞倜	lei zhen ti	1
@@ -6521,9 +6521,9 @@ sort: by_weight
 周履靖	zhou lv jing	1
 卫武公	wei wu gong	1
 刘循	liu xun	1
-周开成	zhou kai cheng	1
+周开成	zhou jian cheng	1
 黄世成	huang shi cheng	1
-覃彪喜	tan biao xi	1
+覃彪喜	qin biao xi	1
 汪继培	wang ji pei	1
 沈史	shen shi	1
 金贵人	jin gui ren	1
@@ -6542,9 +6542,9 @@ sort: by_weight
 小阪由佳	xiao ban you jia	1
 王守恂	wang shou xun	1
 余轩朗	yu xuan lang	1
-杨思圣	yang si sheng	1
+杨思圣	yang si ku	1
 汪若海	wang ruo hai	1
-琶杰	pa jie	1
+琶杰	ba jie	1
 二之宫知子	er zhi gong zhi zi	1
 朱观	zhu guan	1
 佐佐木麻绪	zuo zuo mu ma xu	1
@@ -6558,7 +6558,7 @@ sort: by_weight
 余阙	yu que	1
 李惟淼	li wei miao	1
 武兹	wu zi	1
-林广发	lin guang fa	1
+林广发	lin yan fa	1
 大江千里	da jiang qian li	1
 蒋光煦	jiang guang xu	1
 汪昉	wang fang	1
@@ -6566,7 +6566,7 @@ sort: by_weight
 韩暹	han xian	1
 钱纳水	qian na shui	1
 浦大邦	pu da bang	1
-影木荣贵	ying mu rong gui	1
+影木荣贵	ying mu ce gui	1
 折笠富美子	zhe li fu mei zi	1
 朱谨	zhu jin	1
 钮福保	niu fu bao	1
@@ -6581,7 +6581,7 @@ sort: by_weight
 勃劳希契	bo lao xi qi	1
 蔡林蒸	cai lin zheng	1
 姬申	ji shen	1
-林奴儿	lin nu er	1
+林奴儿	lin nu ren	1
 章溢	zhang yi	1
 刘雨卿	liu yu qing	1
 白石美帆	bai shi mei fan	1
@@ -6595,7 +6595,7 @@ sort: by_weight
 陈栎	chen li	1
 范永祺	fan yong qi	1
 吴麟征	wu lin zheng	1
-王辟之	wang pi zhi	1
+王辟之	wang bi zhi	1
 卢洪春	lu hong chun	1
 绫乃	ling nai	1
 顾仲彝	gu zhong yi	1
@@ -6604,7 +6604,7 @@ sort: by_weight
 顾皋	gu gao	1
 羽根泰正	yu gen tai zheng	1
 前田有纪	qian tian you ji	1
-曾衍东	zeng yan dong	1
+曾衍东	ceng yan dong	1
 城旦舂	cheng dan chong	1
 潘恭寿	pan gong shou	1
 中岛健藏	zhong dao jian cang	1
@@ -6621,23 +6621,23 @@ sort: by_weight
 方夔	fang kui	1
 池田理代子	chi tian li dai zi	1
 桐原亮司	tong yuan liang si	1
-朱芾煌	zhu fei huang	1
+朱芾煌	zhu fu huang	1
 毛际可	mao ji ke	1
 程钜夫	cheng ju fu	1
 伊织	yi zhi	1
 刘式训	liu shi xun	1
-扩廓帖木儿	kuo kuo tie mu er	1
+扩廓帖木儿	kuo kuo tie mu ren	1
 邢端	xing duan	1
 方登峄	fang deng yi	1
 樊春晖	fan chun hui	1
 陈天锡	chen tian xi	1
 沈肇年	shen zhao nian	1
 胡以晃	hu yi huang	1
-广田亮平	guang tian liang ping	1
+广田亮平	yan tian liang ping	1
 李凯年	li kai nian	1
 夏树芳	xia shu fang	1
 王世芬	wang shi fen	1
-裴昌会	pei chang hui	1
+裴昌会	fei chang hui	1
 严如熤	yan ru yi	1
 仙石秀久	xian shi xiu jiu	1
 王铭新	wang ming xin	1
@@ -6647,7 +6647,7 @@ sort: by_weight
 胡百昌	hu bai chang	1
 牛运震	niu yun zhen	1
 王敏川	wang min chuan	1
-宁随	ning sui	1
+宁随	zhu sui	1
 徐颢菲	xu hao fei	1
 李吉寿	li ji shou	1
 张晃	zhang huang	1

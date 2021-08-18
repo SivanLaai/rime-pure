@@ -6,14 +6,14 @@ sort: by_weight
 内查外调	nei cha wai diao	206
 定国安邦	ding guo an bang	192
 铸剑为犁	zhu jian wei li	187
-半丝半缕	ban si ban lv	180
+半丝半缕	ban si ban lü	180
 百年大业	bai nian da ye	166
 打入另册	da ru ling ce	152
 若烹小鲜	ruo peng xiao xian	149
 公正廉明	gong zheng lian ming	144
 泽被后世	ze bei hou shi	142
 道德文章	dao de wen zhang	137
-步履矫健	bu lv jiao jian	133
+步履矫健	bu lü jiao jian	133
 知我罪我	zhi wo zui wo	121
 英姿勃勃	ying zi bo bo	113
 七弯八拐	qi wan ba guai	112
@@ -87,12 +87,12 @@ sort: by_weight
 天知地知你知我知	tian zhi di zhi ni zhi wo zhi	57
 离乡别井	li xiang bie jing	57
 不幸而言中	bu xing er yan zhong	57
-青枝绿叶	qing zhi lv ye	57
+青枝绿叶	qing zhi lü ye	57
 说千道万	shuo qian dao wan	57
 财不露白	cai bu lu bai	57
 畸重畸轻	ji zhong ji qing	56
 吹面不寒杨柳风	chui mian bu han yang liu feng	56
-人多眼杂	ren duo yan za	56
+人多眼杂	ren duo yan duo	56
 贵在知心	gui zai zhi xin	55
 以古为镜	yi gu wei jing	55
 救民于水火	jiu min yu shui huo	55
@@ -123,7 +123,7 @@ sort: by_weight
 闭门读书	bi men du shu	47
 霞光万道	xia guang wan dao	47
 亦复如是	yi fu ru shi	47
-万事胜意	wan shi sheng yi	47
+万事胜意	wan shi qing yi	47
 血泪斑斑	xue lei ban ban	47
 议论纷纭	yi lun fen yun	46
 日思夜盼	ri si ye pan	46
@@ -174,12 +174,12 @@ sort: by_weight
 屏声静气	ping sheng jing qi	38
 深山幽谷	shen shan you gu	38
 国家兴亡匹夫有责	guo jia xing wang pi fu you ze	38
-非学无以广才	fei xue wu yi guang cai	37
+非学无以广才	fei xiao wu yi yan cai	37
 君子固穷	jun zi gu qiong	37
 八万四千	ba wan si qian	37
 天下兴亡匹夫有责	tian xia xing wang pi fu you ze	37
 大题小做	da ti xiao zuo	37
-白刀子进红刀子出	bai dao zi jin hong dao zi chu	37
+白刀子进红刀子出	bai dao zi jin hong	37
 牢骚太盛防肠断	lao sao tai sheng fang chang duan	37
 如椽之笔	ru chuan zhi bi	37
 千难万苦	qian nan wan ku	37
@@ -189,18 +189,18 @@ sort: by_weight
 克己慎行	ke ji shen xing	37
 知止不殆	zhi zhi bu dai	37
 多言多语	duo yan duo yu	36
-卖文为生	mai wen wei shen	36
+卖文为生	mai wen wei sheng	36
 耳朵起茧	er duo qi jian	36
 迟疑不定	chi yi bu ding	36
 二者不可得兼	er zhe bu ke de jian	36
 以古喻今	yi gu yu jin	36
 嫁鸡随鸡嫁狗随狗	jia ji sui ji jia gou sui gou	35
 立业成家	li ye cheng jia	35
-肆虐横行	si nve heng xing	35
+肆虐横行	si nüe heng xing	35
 舍身成仁	she shen cheng ren	35
 取精用宏	qu jing yong hong	35
 中外合璧	zhong wai he bi	35
-卑之无甚高论	bei zhi wu shen gao lun	35
+卑之无甚高论	bei zhi mo shen gao lun	35
 选贤举能	xuan xian ju neng	35
 事出无奈	shi chu wu nai	35
 未为不可	wei wei bu ke	34
@@ -224,7 +224,7 @@ sort: by_weight
 百折不屈	bai zhe bu qu	32
 千峰万壑	qian feng wan he	32
 忧谗畏讥	you chan wei ji	32
-信口胡诌	xin kou hu zhou	32
+信口胡诌	xin kou hu zou	32
 河海不择细流	he hai bu ze xi liu	32
 存亡续绝	cun wang xu jue	32
 三千里江山	san qian li jiang shan	32
@@ -240,7 +240,7 @@ sort: by_weight
 慷慨激扬	kang kai ji yang	31
 装潢门面	zhuang huang men mian	31
 薄技在身	bo ji zai shen	31
-上不着天	shang bu zhe tian	31
+上不着天	shang bu zhao tian	31
 关心民瘼	guan xin min mo	31
 经纬万端	jing wei wan duan	31
 其奈我何	qi nai wo he	30
@@ -264,7 +264,7 @@ sort: by_weight
 声气相通	sheng qi xiang tong	29
 追风逐日	zhui feng zhu ri	29
 言有尽而意无穷	yan you jin er yi wu qiong	29
-有贼心没贼胆	you zei xin mei zei dan	29
+有贼心没贼胆	you zei xin mei zei da	29
 耿耿忠心	geng geng zhong xin	29
 天不假年	tian bu jia nian	29
 整旧如新	zheng jiu ru xin	29
@@ -278,7 +278,7 @@ sort: by_weight
 憎爱分明	zeng ai fen ming	28
 以勤补拙	yi qin bu zhuo	28
 话里带刺	hua li dai ci	28
-洪钟大吕	hong zhong da lv	28
+洪钟大吕	hong zhong da lü	28
 不贪为宝	bu tan wei bao	28
 一命归西	yi ming gui xi	28
 博采众议	bo cai zhong yi	28
@@ -319,7 +319,7 @@ sort: by_weight
 桃花流水	tao hua liu shui	25
 诗酒风流	shi jiu feng liu	25
 前人种树后人乘凉	qian ren zhong shu hou ren cheng liang	25
-步履艰辛	bu lv jian xin	25
+步履艰辛	bu lü jian xin	25
 万古长存	wan gu chang cun	25
 气壮如牛	qi zhuang ru niu	24
 十年生聚	shi nian sheng ju	24
@@ -343,7 +343,7 @@ sort: by_weight
 无事生事	wu shi sheng shi	23
 顺水顺风	shun shui shun feng	23
 一字千钧	yi zi qian jun	23
-非志无以成学	fei zhi wu yi cheng xue	23
+非志无以成学	fei zhi wu yi cheng xiao	23
 取义成仁	qu yi cheng ren	23
 你唱我和	ni chang wo he	23
 七尺之躯	qi chi zhi qu	22
@@ -368,13 +368,13 @@ sort: by_weight
 咸与维新	xian yu wei xin	22
 青云之志	qing yun zhi zhi	21
 白首偕老	bai shou xie lao	21
-轮流做庄	lun liu zuo zhuang	21
+轮流做庄	lun liu zuo peng	21
 八府巡按	ba fu xun an	21
-一文钱难倒英雄汉	yi wen qian nan dao ying xiong han	21
+一文钱难倒英雄汉	yi wen qian nan dao ying xiong nv	21
 不知其详	bu zhi qi xiang	21
 不古不今	bu gu bu jin	21
 心病还须心药医	xin bing hai xu xin yao yi	21
 一画开天	yi hua kai tian	21
 吴带当风	wu dai dang feng	21
-桃李不言下自成蹊	tao li bu yan xia zi cheng qi	21
+桃李不言下自成蹊	tao li bu yan xia zi cheng xi	21
 连日连夜	lian ri lian ye	21
