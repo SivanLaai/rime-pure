@@ -101,7 +101,7 @@
 
 #### 2021-08-18
 
- - 1.写爬虫抓取[百度汉语](https://hanyu.baidu.com/)字典35W个组词数据用来精准匹配clover拼音数据。
+ - 1.写[爬虫exact-pinyin-mark](https://github.com/SivanLaai/exact-pinyin-mark)抓取[百度汉语](https://hanyu.baidu.com/)字典35W个组词数据用来精准匹配clover拼音数据。
  - 2.使用[luna拼音](https://github.com/rime/rime-luna-pinyin)修复clover拼音数据。
  - 3.使用[phrase-pinyin-data](https://github.com/mozillazg/phrase-pinyin-data)修复clover拼音数据。
  - 4.具有更高的基础词库，对于常见的拼音数据具有更高的识别率
@@ -146,6 +146,7 @@
  - 小狼毫输入法：https://github.com/rime/weasel
  - 同文输入法：https://github.com/osfans/trime
  - 简繁转换opencc：https://github.com/BYVoid/OpenCC
+ - 拼音爬虫exact-pinyin-mark：https://github.com/SivanLaai/exact-pinyin-mark
  - 部分配色均整理自互联网，配色包含作者信息。
 
 ## 感谢
