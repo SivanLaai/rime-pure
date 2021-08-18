@@ -99,6 +99,13 @@
 
 ## 更新历史
 
+#### 2021-08-18
+
+ - 1.写爬虫抓取[百度汉语](https://hanyu.baidu.com/)字典35W个组词数据用来精准匹配clover拼音数据。
+ - 2.使用[luna拼音](https://github.com/rime/rime-luna-pinyin)修复clover拼音数据。
+ - 3.使用[phrase-pinyin-data](https://github.com/mozillazg/phrase-pinyin-data)修复clover拼音数据。
+ - 4.具有更高的基础词库，对于常见的拼音数据具有更高的识别率
+
 #### 2021-08-11
 
  - 1.修复大字典中的的拼音错误。
