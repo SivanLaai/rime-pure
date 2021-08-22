@@ -3,7 +3,7 @@ import sys
 sys.path.append("./exact-pinyin-mark")
 from opencc import OpenCC
 from PinyinDataBuild import PinyinDataBuild
-pdb = PinyinDataBuild(loadJieba=False)
+pdb = PinyinDataBuild(loadJieba=True)
 
 def simplify(to_convert):
     if '\t' in to_convert:
@@ -259,6 +259,7 @@ def generatePinyins(keyword):
     pinyins = list()
     try:
         pinyinList = getPinyin(keyword)
+        print(pinyinList)
         currPinyin = list()
         firstPinyin = 1
         for curr_index in range(len(pinyinList[0])):
@@ -347,5 +348,5 @@ def fixesBigDictErrors():
 
 if __name__ == "__main__":
     #generateNewBaseDict()
-    #generatePinyins("马鞍珠点弹")
+    pinyins = generatePinyins("弹出去")
     fixesBigDictErrors()
