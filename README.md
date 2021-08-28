@@ -99,6 +99,12 @@
 
 ## 更新历史
 
+#### 2021-08-28
+
+ - 1.四叶草支持多音字，最大程序的避免拼音错误，同时是以词组来分词的所以，不至于对所有的词组进行挨个多音字支持，而是优先词组。
+ 
+ 例如```弹出```分词后还是弹出，所以只有tan chu的拼音，如果分词为弹\出的话，则拼音会有dan chu 和 dan chu
+
 #### 2021-08-18
 
  - 1.写[爬虫exact-pinyin-mark](https://github.com/SivanLaai/exact-pinyin-mark)抓取[百度汉语](https://hanyu.baidu.com/)字典35W个组词数据用来精准匹配clover拼音数据。
