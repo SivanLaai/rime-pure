@@ -8,7 +8,7 @@ pdb = PinyinDataBuild(loadJieba=True)
 def simplify(to_convert):
     if '\t' in to_convert:
         keyword = to_convert.split('\t')[0]
-        remain = "\t".join(to_convert.split('\t')[1:])
+        remain = "\t".join(to_convert.split('\t')[0:])
     else:
         return to_convert
     cc = OpenCC('t2s')  # convert from Simplified Chinese to Traditional Chinese
@@ -190,9 +190,9 @@ def getBasicWordMap():
                 wordMap[keyword] = pinyin
     return wordMap
 
-def getPinyin(keyword):
+def getPinyin(keyword, homograph):
     #print(keyword)
-    pinyins = pdb.getPinyin(keyword)
+    pinyins = pdb.getPinyin(keyword, homograph=homograph)
     #print(pinyins)
     return pinyins
 
@@ -254,11 +254,11 @@ def helpPinyin(pinyinList, pinyins, currPinyin, step, index, firstPinyin):
         helpPinyin(pinyinList, pinyins, currPinyin, step + 1, curr_index, firstPinyin)
         currPinyin.pop()
 
-def generatePinyins(keyword):
+def generatePinyins(keyword, homograph=True):
     #pinyinList = pinyin(keyword, style=Style.NORMAL, heteronym=True)
     pinyins = list()
     try:
-        pinyinList = getPinyin(keyword)
+        pinyinList = pdb.getPinyin(keyword, homograph=homograph)
         #print(pinyinList)
         currPinyin = list()
         firstPinyin = 1
@@ -329,7 +329,7 @@ def fixesBigDictErrors():
             elif "\t" in line:
                 keyword = line.split('\t')[0]
                 pinyin_old = line.split('\t')[1].strip()
-                print([pinyin_old])
+                #print([pinyin_old])
                 pinyin_list = generatePinyins(keyword)
                 #print(pinyin_list)
                 if len(pinyin_list) == 0:
@@ -341,10 +341,13 @@ def fixesBigDictErrors():
                         newLine = line.replace(pinyin_old, currPinyin)
                         #if currPinyin == pinyin_old:
                         if newLine == line:
-                            print([currPinyin])
-                            print()
-                        new_file.write(newLine)
-                        new_file.flush()
+                            #print([currPinyin])
+                            #print()
+                            new_file.write(line)
+                            new_file.flush()
+                        else:
+                            new_file.write(newLine)
+                            new_file.flush()
             else:
                 new_file.write(line)
                 new_file.flush()
@@ -356,4 +359,4 @@ if __name__ == "__main__":
     #generateNewBaseDict()
     pinyins = generatePinyins("的话")
     print(pinyins)
-    #fixesBigDictErrors()
+    fixesBigDictErrors()
