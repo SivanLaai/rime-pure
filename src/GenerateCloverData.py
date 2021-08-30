@@ -3,6 +3,8 @@ import sys
 sys.path.append("./exact-pinyin-mark")
 from opencc import OpenCC
 from PinyinDataBuild import PinyinDataBuild
+import PinyinStyle
+import math
 pdb = PinyinDataBuild(loadJieba=True)
 
 def simplify(to_convert):
@@ -254,11 +256,11 @@ def helpPinyin(pinyinList, pinyins, currPinyin, step, index, firstPinyin):
         helpPinyin(pinyinList, pinyins, currPinyin, step + 1, curr_index, firstPinyin)
         currPinyin.pop()
 
-def generatePinyins(keyword, homograph=True):
+def generatePinyins(keyword, pinyinStyle=PinyinStyle.PLAIN_POLYPHONE_WITH_PHRASE):
     #pinyinList = pinyin(keyword, style=Style.NORMAL, heteronym=True)
     pinyins = list()
     try:
-        pinyinList = pdb.getPinyin(keyword, homograph=homograph)
+        pinyinList = pdb.getPinyin(keyword, pinyinStyle)
         #print(pinyinList)
         currPinyin = list()
         firstPinyin = 1
@@ -309,6 +311,7 @@ def fixesBigDictErrorsWithMultiplePinyin():
                 new_file.flush()
         new_file.close()
 
+
 # 修复大字典的拼音错误
 def fixesBigDictErrors():
     path = './Clover四叶草拼音'
@@ -329,34 +332,64 @@ def fixesBigDictErrors():
             elif "\t" in line:
                 keyword = line.split('\t')[0]
                 pinyin_old = line.split('\t')[1].strip()
+                count_str = line.split('\t')[-1].strip().replace(" ", '').replace("?", '')
+                keyPinyinDict = dict()
+                for key in keyword:
+                    keyPinyinDict[key] = dict()
+                    if key not in pdb.homographWeightDict:
+                        continue
+                    plainPinyins = pdb.homographWeightDict[key]['plainPinyins']
+                    weights = pdb.homographWeightDict[key]['weight']
+                    for i in range(len(plainPinyins)):
+                        keyPinyinDict[key][plainPinyins[i]] = weights[i]
                 #print([pinyin_old])
                 pinyin_list = generatePinyins(keyword)
                 #print(pinyin_list)
                 if len(pinyin_list) == 0:
                     new_file.write(line)
                     new_file.flush()
+                elif len(pinyin_list) == 1:
+                    pinyin = pinyin_list[0]
+                    currPinyin = " ".join(pinyin)
+                    newLine = line.replace(pinyin_old, currPinyin)
+                    new_file.write(newLine)
+                    new_file.flush()
                 else:
+                    #print(pinyin_list)
+                    maxSumRatio = 0.0
+                    maxPinyin = ''
                     for pinyin in pinyin_list:
+                        count = int(count_str)
+                        ratio = []
+                        pinyin = " ".join(pinyin).split(" ")
                         currPinyin = " ".join(pinyin)
-                        newLine = line.replace(pinyin_old, currPinyin)
-                        #if currPinyin == pinyin_old:
-                        if newLine == line:
-                            #print([currPinyin])
-                            #print()
-                            new_file.write(line)
-                            new_file.flush()
-                        else:
-                            new_file.write(newLine)
-                            new_file.flush()
+                        for i in range(len(pinyin)):
+                            if keyword[i] not in pdb.homographWeightDict:
+                                pass
+                            else:
+                                currSinglePinyinDict = keyPinyinDict[keyword[i]]
+                                #print(currSinglePinyinDict)
+                                singlePinyinCountSum = sum([int(e) for e in currSinglePinyinDict.values()])
+                                if singlePinyinCountSum == 0:
+                                    singlePinyinCountSum = 1
+                                currSingleCount = currSinglePinyinDict.get(pinyin[i], 1)
+                                ratio.append(float(currSingleCount) / singlePinyinCountSum)
+                        sumRatio = 1
+                        for curr in ratio:
+                            sumRatio *= curr
+                        if sumRatio > maxSumRatio:
+                            maxSumRatio = sumRatio
+                            maxPinyin = currPinyin
+                    newLine = line.replace(pinyin_old, maxPinyin)
+                    new_file.write(newLine)
+                    new_file.flush()
             else:
                 new_file.write(line)
                 new_file.flush()
         new_file.close()
 
-
-
 if __name__ == "__main__":
     #generateNewBaseDict()
-    pinyins = generatePinyins("的话")
+    pinyins = generatePinyins("这么厉害", pinyinStyle=PinyinStyle.PLAIN_POLYPHONE_WITH_PHRASE)
     print(pinyins)
     fixesBigDictErrors()
