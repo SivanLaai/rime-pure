@@ -1,0 +1,215 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: clover
+  name: 🍀️四叶草简体拼音
+  version: "1.0.0"
+  author:
+    - fkxxyz - https://www.fkxxyz.com
+  description: |
+    由🍀️四叶草亲自定制，特点：
+      1. 结合搜狗输入法的输入习惯
+      2. 默认开启 emoji 表情支持
+      3. 加上很多特殊符号的输入支持
+      4. 繁简切换支持
+      5. 许多智能纠错
+  dependencies:
+    - emoji
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中, 英 ]
+  - name: full_shape
+    reset: 0
+    states: [ 半, 全 ]
+  - name: zh_simp_s2t
+    reset: 0
+    states: [ 简, 繁 ]
+  - name: ascii_punct
+    reset: 0
+    states: [ 。，, ．， ]
+  - name: symbol_support
+    reset: 1
+    states: [ "无符", "符" ]
+  - name: emoji_suggestion
+    reset: 1
+    states: [ 😑️, 😁️ ]
+  
+  
+
+engine:
+  processors:
+    - ascii_composer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+  filters:
+    - simplifier@emoji_suggestion
+    - simplifier@symbol_support
+    - simplifier
+    - uniquifier
+
+simplifier:
+  option_name: zh_simp_s2t
+  opencc_config: s2t.json
+
+emoji_suggestion:
+  opencc_config: emoji.json
+  option_name: emoji_suggestion
+  tips: all
+
+symbol_support:
+  opencc_config: symbol.json
+  option_name: symbol_support
+  tips: all
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    # 基础
+    - abbrev/^([a-z]).+$/$1/
+    - abbrev/^([zcs]h).+$/$1/
+    
+    # 补全
+    - derive/([dtngkhrzcs])o(u|ng)$/$1o/   # o = ou; o = ong
+    - derive/ong$/on/      # on = ong
+    - derive/^ding$/din/     # din = ding
+    
+    # 处理 v 和 u
+    - derive/^([nl])ue$/$1ve/   # nve = nue; lve = lue
+    - derive/^([jqxy])u/$1v/    # v = u; v = u
+    
+    # 智能纠错
+    - derive/ao$/oa/       # oa = ao
+    - derive/([iu])a(o|ng?)$/a$1$2/   # aio = iao; aing = iang; aung = uang
+    - derive/([aeiou])ng$/$1gn/   # gn = ng
+    - derive/un$/uen/    # uen = un
+    - derive/ui$/uei/    # uei = ui
+    - derive/iu$/iou/    # iou = ui
+    - derive/tie$/tei/    # tei = tie
+    - derive/i$/ii/      # ii = i  # i 不小心按两下
+    - derive/u$/uu/      # ui = u  # u 不小心按两下
+
+translator:
+  dictionary: clover
+  enable_sentence: true               
+  enable_user_dict: true               
+  enable_encoder: true                 
+  encode_commit_history: true          
+  user_dict: user 
+  max_phrase_length: 10                                     
+  db_class: tabledb                     
+  disable_user_dict_for_patterns:       
+    - "^z.*$"
+  
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+punctuator:
+  import_preset: symbols
+  full_shape:
+    "`": "｀"
+    "~": "～"
+    "!": "！"
+    "@": "＠"
+    "#": "＃"
+    "$": "￥"
+    "%": "％"
+    "^": "……"
+    "&": "＆"
+    "*": "×"
+    "(": "（"
+    ")": "）"
+    "_": "——"
+    "+": "＋"
+    "-": "－"
+    "=": "＝"
+    "[": "【"
+    "]": "】"
+    "{": "｛"
+    "}": "｝"
+    "|": "｜"
+    "\\": "、"
+    "/": "、"
+    ";": "；"
+    "'": "‘"
+    ",": "，"
+    ".": "。"
+    "<": "《"
+    ">": "》"
+    "?": "？"
+  half_shape:
+    "`": "·"
+    "~": "～"
+    "!": "！"
+    "@": "@"
+    "#": "#"
+    "$": "￥"
+    "%": "%"
+    "^": "……"
+    "&": "&"
+    "*": "×"
+    "(": "（"
+    ")": "）"
+    "_": "——"
+    "+": "+"
+    "-": "-"
+    "=": "="
+    "[": "【"
+    "]": "】"
+    "{": "｛"
+    "}": "｝"
+    "|": "｜"
+    "\\": "、"
+    "/": "、"
+    ";": "；"
+    "'": "’"
+    ",": "，"
+    ".": "。"
+    "<": "《"
+    ">": "》"
+    "?": "？"
+
+
+key_binder:
+  import_preset: default
+  bindings:
+    __patch:
+      - key_bindings:/emacs_editing  # emacs 习惯
+      - key_bindings:/move_by_word_with_tab  # tab 在单词间切换
+      - key_bindings:/paging_with_minus_equal  # 减号等号翻页
+      - key_bindings:/paging_with_comma_period   # 逗号句号翻页
+      - key_bindings:/paging_with_brackets   # 中括号翻页
+      - clover.key_bindings:/numbered_mode_switch   # Ctrl+Shift+数字 切换开关
+      - clover.key_bindings:/windows_compatible_mode_switch   # Windows 兼容
+      - clover.key_bindings:/kp_enter_is_return   # 小键盘回车设为普通回车
+
+ascii_composer:
+  import_preset: default
+  good_old_caps_lock: true
+  switch_key:
+    Shift_L: commit_code   # 左 Shift 切换直接上屏字母
+    Shift_R: commit_code   # 右 Shift 切换直接上屏字母
+    Control_L: noop
+    Control_R: noop
+    Caps_Lock: noop
+    Eisu_toggle: clear
+
+

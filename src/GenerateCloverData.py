@@ -217,7 +217,6 @@ def getBasicPinyin(keyword):
 def fixesBigDictErrorsWithBasic():
     path = './Clover四叶草拼音'
     new_path = './Clover四叶草拼音new'
-    
     if not os.path.exists(new_path):
         os.mkdir(f'{new_path}')
     for file_now in os.listdir(path):
@@ -256,12 +255,21 @@ def helpPinyin(pinyinList, pinyins, currPinyin, step, index, firstPinyin):
         helpPinyin(pinyinList, pinyins, currPinyin, step + 1, curr_index, firstPinyin)
         currPinyin.pop()
 
-def generatePinyins(keyword, pinyinStyle=PinyinStyle.PLAIN_POLYPHONE_WITH_PHRASE):
+def getSinglePinyins(keyword, pinyinList):
+    homoDict = pdb.homographWeightDict
+    pinyinList = list()
+    for key in keyword:
+        if key in homoDict:
+            pinyinList.append(homoDict[key]["pinyins"])
+    return pinyinList
+
+def generatePinyins(keyword, pinyinStyle=PinyinStyle.TONE_POLYPHONE_WITH_PHRASE):
     #pinyinList = pinyin(keyword, style=Style.NORMAL, heteronym=True)
     pinyins = list()
     try:
         pinyinList = pdb.getPinyin(keyword, pinyinStyle)
         #print(pinyinList)
+        pinyinList = getSinglePinyins(keyword, pinyinList)
         currPinyin = list()
         firstPinyin = 1
         for curr_index in range(len(pinyinList[0])):
@@ -269,8 +277,7 @@ def generatePinyins(keyword, pinyinStyle=PinyinStyle.PLAIN_POLYPHONE_WITH_PHRASE
             helpPinyin(pinyinList, pinyins, currPinyin, 1, curr_index, firstPinyin)
             currPinyin.pop()
     except Exception as e:
-        print(keyword)
-        print(e)
+        print(f"error generatePinyins: {e}, keyword = {keyword}")
     return pinyins
 # 对所有的词组进行多音字拆分，然后重组
 # 首先如果所有的都是命中第一个多音字的话那就是保持最高的频率，然后以10的倍数依次下降
@@ -313,7 +320,7 @@ def fixesBigDictErrorsWithMultiplePinyin():
 
 
 # 修复大字典的拼音错误
-def fixesBigDictErrors():
+def generateCloverPinyins():
     path = './Clover四叶草拼音'
     new_path = './Clover四叶草拼音new'
     
@@ -343,7 +350,7 @@ def fixesBigDictErrors():
                     for i in range(len(plainPinyins)):
                         keyPinyinDict[key][plainPinyins[i]] = weights[i]
                 #print([pinyin_old])
-                pinyin_list = generatePinyins(keyword)
+                pinyin_list = generatePinyins(keyword, pinyinStyle=PinyinStyle.PLAIN_POLYPHONE_WITH_PHRASE)
                 #print(pinyin_list)
                 if len(pinyin_list) == 0:
                     new_file.write(line)
@@ -388,8 +395,57 @@ def fixesBigDictErrors():
                 new_file.flush()
         new_file.close()
 
+# 生成地球拼音风格拼音标注
+def generateTerraPinyins():
+    path = './Clover四叶草拼音'
+    new_path = './Clover四叶草拼音Terra版'
+    if not os.path.exists(new_path):
+        os.mkdir(f'{new_path}')
+    for file_now in os.listdir(path):
+        new_file_path = os.path.join(new_path, file_now)
+        curr_path = os.path.join(path, file_now)
+        new_file = open(new_file_path, 'w', encoding="utf-8")
+        for line in open(curr_path, 'r', encoding='utf-8'):
+            #new_file.write(line)
+            #new_file.flush()
+            if "base" in curr_path:
+                new_file.write(line)
+                new_file.flush()
+            elif "\t" in line:
+                keyword = line.split('\t')[0]
+                pinyin_old = line.split('\t')[1].strip()
+                count_str = line.split('\t')[-1].strip().replace(" ", '').replace("?", '')
+                keyPinyinDict = dict()
+                for key in keyword:
+                    keyPinyinDict[key] = dict()
+                    if key not in pdb.homographWeightDict:
+                        continue
+                    plainPinyins = pdb.homographWeightDict[key]['plainPinyins']
+                    weights = pdb.homographWeightDict[key]['weight']
+                    for i in range(len(plainPinyins)):
+                        keyPinyinDict[key][plainPinyins[i]] = weights[i]
+                #print([pinyin_old])
+                pinyin_list = generatePinyins(keyword)
+                #print(pinyin_list)
+                if len(pinyin_list) == 0:
+                    new_file.write(line)
+                    new_file.flush()
+                else:
+                    currPinyin = " ".join(pinyin_list[0])
+                    currPinyin = pdb.formatMarkPinyin(currPinyin)
+                    newLine = line.replace(pinyin_old, currPinyin)
+                    new_file.write(newLine)
+                    new_file.flush()
+            else:
+                new_file.write(line)
+                new_file.flush()
+        new_file.close()
 if __name__ == "__main__":
     #generateNewBaseDict()
-    pinyins = generatePinyins("这么厉害", pinyinStyle=PinyinStyle.PLAIN_POLYPHONE_WITH_PHRASE)
+    pinyins = generatePinyins("小君")
     print(pinyins)
-    fixesBigDictErrors()
+    currPinyin = " ".join(pinyins[0])
+    pinyin = pdb.formatMarkPinyin(currPinyin)
+    print(pinyin)
+    generateTerraPinyins()
+    #generateCloverPinyins()
