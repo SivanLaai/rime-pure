@@ -395,6 +395,37 @@ def generateCloverPinyins():
                 new_file.flush()
         new_file.close()
 
+# 生成地球拼音基礎字典风格拼音标注
+def generateTerraBasePinyins():
+    path = './Clover四叶草拼音'
+    new_path = './Clover四叶草拼音Terra版'
+    if not os.path.exists(new_path):
+        os.mkdir(f'{new_path}')
+    for file_now in os.listdir(path):
+        new_file_path = os.path.join(new_path, file_now)
+        curr_path = os.path.join(path, file_now)
+        new_file = open(new_file_path, 'w', encoding="utf-8")
+        for line in open(curr_path, 'r', encoding='utf-8'):
+            #new_file.write(line)
+            #new_file.flush()
+            if "base" in curr_path:
+                if '\t' in line:
+                    keyword = line.split('\t')[0]
+                    pinyin_old = line.split('\t')[1].strip()
+                    count_str = line.split('\t')[-1].strip().replace(" ", '').replace("?", '')
+                    pinyins = pdb.homographWeightDict[keyword]['pinyins']
+                    currPinyin = ''
+                    for pinyin in pinyins:
+                        currPinyin = pdb.formatMarkPinyin(pinyin)
+                        if pinyin_old == currPinyin[:-1]:
+                            newLine = line.replace(pinyin_old, currPinyin)
+                            new_file.write(newLine)
+                            new_file.flush()
+                            break
+                else:
+                    new_file.write(line)
+                    new_file.flush()
+        new_file.close()
 # 生成地球拼音风格拼音标注
 def generateTerraPinyins():
     path = './Clover四叶草拼音'
@@ -447,5 +478,5 @@ if __name__ == "__main__":
     currPinyin = " ".join(pinyins[0])
     pinyin = pdb.formatMarkPinyin(currPinyin)
     print(pinyin)
-    generateTerraPinyins()
+    generateTerraBasePinyins()
     #generateCloverPinyins()

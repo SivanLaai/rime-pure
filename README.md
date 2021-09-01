@@ -13,6 +13,7 @@
 
 ## 包含输入方案
  - [四叶草拼音九宫格](https://github.com/SivanLaai/rime-pure) 
+ - [四叶草地球拼音](https://github.com/SivanLaai/rime-pure/tree/master/schemes/Clover%E5%9B%9B%E5%8F%B6%E8%8D%89%E5%9C%B0%E7%90%83%E6%8B%BC%E9%9F%B3) 
  - [极点五笔](https://github.com/KyleBing/rime-wubi86-jidian) 
  - [小鹤双拼](https://www.flypy.com/index.html)
  - [🍀️四叶草简体拼音](https://github.com/fkxxyz/rime-cloverpinyin)
@@ -98,6 +99,12 @@
 - [查看安装方法](https://sivanlaai.github.io/pages/7128fc/)
 
 ## 更新历史
+
+#### 2021-09-01
+
+ - 1.前前后后、零零碎碎一共花了十来天地时间完成基于四叶草词库的地球拼音输入方案。
+
+![Image text](https://user-images.githubusercontent.com/33414148/131670446-5d9b6245-70cc-4ed0-8b6e-0667a56f06e7.png)
 
 #### 2021-08-30
 

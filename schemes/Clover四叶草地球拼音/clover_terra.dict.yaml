@@ -1,0 +1,21 @@
+
+name: clover_terra
+version: "1"
+sort: by_weight
+
+import_tables:
+  - clover_terra.base
+  - clover_terra.phrase
+  - THUOCL_animal_terra
+  - THUOCL_caijing_terra
+  - THUOCL_car_terra
+  - THUOCL_chengyu_terra
+  - THUOCL_diming_terra
+  - THUOCL_food_terra
+  - THUOCL_IT_terra
+  - THUOCL_law_terra
+  - THUOCL_lishimingren_terra
+  - THUOCL_medical_terra
+  - THUOCL_poem_terra
+  - sogou_new_words_terra
+
