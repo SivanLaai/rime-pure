@@ -1,0 +1,1757 @@
+name: THUOCL_car_terra
+version: "1"
+sort: by_weight
+
+...
+轿车	jiao4 che1	1424796
+二手车	er4 shou3 che1	1112665
+新车	xin1 che1	824358
+摩托车	mo2 tuo1 che1	635529
+用车	yong4 che1	574181
+熊猫	xiong2 mao1	547034
+车展	che1 zhan3	520508
+模具	mo2 ju4	501372
+仪表	yi2 biao3	434898
+一汽	yi1 qi4	396127
+遥控	yao2 kong4	363210
+零部件	ling2 bu4 jian4	360012
+全保	quan2 bao3	346211
+奥迪	ao4 di2	326960
+制动	zhi4 dong4	322143
+星光	xing1 guang1	283843
+马自达	ma3 zi4 da2	268085
+牵引	qian1 yin3	267810
+扭矩	niu3 ju3	266823
+霸道	ba4 dao4	256877
+加油站	jia1 you2 zhan4	231838
+雅阁	ya3 ge2	186698
+多普达	duo1 pu3 da2	180147
+指挥官	zhi3 hui1 guan1	161861
+试驾	shi4 jia4	153699
+驾校	jia4 xiao4	151105
+比亚迪	bi3 ya4 di2	147538
+铃木	ling2 mu4	144083
+雷诺	lei2 nuo4	137332
+无畏	wu2 wei4	134195
+幻影	huan4 ying3	130315
+磨合	mo2 he2	129255
+越野车	yue4 ye3 che1	126663
+风华	feng1 hua2	125223
+跃进	yue4 jin4	107550
+林肯	lin2 ken3	100281
+北京现代	bei3 jing1 xian4 dai4	99890
+新车型	xin1 che1 xing2	99322
+乐风	le4 feng1	99164
+展馆	zhan3 guan3	94800
+油品	you2 pin3	89877
+电瓶	dian4 ping2	85500
+东风日产	dong1 feng1 ri4 chan3	83309
+多宝	duo1 bao3	83061
+金鹰	jin1 ying1	81091
+飞碟	fei1 die2	80370
+汽车零部件	qi4 che1 ling2 bu4 jian4	77561
+推车	tui1 che1	75208
+中国二手车城	zhong1 guo2 er4 shou3 che1 cheng2	75033
+蒙迪欧	meng2 di2 ou1	74946
+熄火	xi1 huo3	67504
+前保	qian2 bao3	66741
+排放标准	pai2 fang4 biao1 zhun3	65601
+野马	ye3 ma3	64462
+斯柯达	si1 ke1 da2	64091
+如虎	ru2 hu3	63744
+尾灯	wei3 deng1	60438
+诺亚	nuo4 ya4	59479
+排放量	pai2 fang4 liang4	841
+乐骋	le4 cheng3	52194
+斯巴鲁	si1 ba1 lu3	51137
+新凯	xin1 kai3	51033
+金牛座	jin1 niu2 zuo4	50659
+猎豹	lie4 bao4	48451
+中高级车	zhong1 gao1 ji2 che1	48325
+自动挡	zi4 dong4 dang3	47398
+自动变速箱	zi4 dong4 bian4 su4 xiang1	46909
+犀牛	xi1 niu2	46120
+新凯越	xin1 kai3 yue4	45766
+拖车	tuo1 che1	45621
+欧陆	ou1 lu4	45327
+计程车	ji4 cheng2 che1	44724
+汽车价格	qi4 che1 jia4 ge2	41505
+挡风玻璃	dang3 feng1 bo1 li2	40925
+奥克斯	ao4 ke4 si1	39557
+讴歌	ou1 ge1	36576
+奥德赛	ao4 de2 sai4	36172
+碳纤维	tan4 xian1 wei2	35428
+东风悦达	dong1 feng1 yue4 da2	35007
+东风本田	dong1 feng1 ben3 tian2	34937
+战斧	zhan4 fu3	34924
+东风悦达起亚	dong1 feng1 yue4 da2 qi3 ya4	34385
+挑战者	tiao1 zhan4 zhe3	33958
+品牌汽车	pin3 pai2 qi4 che1	33587
+奥丁	ao4 ding1	33267
+嘉华	jia1 hua2	33136
+标枪	biao1 qiang1	30930
+高档轿车	gao1 dang4 jiao4 che1	29726
+天津一汽	tian1 jin1 yi1 qi4	29372
+千斤顶	qian1 jin1 ding3	28702
+梅赛德斯	mei2 sai4 de2 si1	27788
+强音	qiang2 yin1	27744
+手动变速箱	shou3 dong4 bian4 su4 xiang1	26975
+真空泵	zhen1 kong1 beng4	25805
+欧宝	ou1 bao3	25253
+凌志	ling2 zhi4	25166
+颐达	yi2 da2	25093
+小灯	xiao3 deng1	25058
+戴姆勒	dai4 mu3 lei1	23939
+汽车销售服务	qi4 che1 xiao1 shou4 fu2 wu4	23802
+汽车贸易	qi4 che1 mao4 yi4	23490
+一汽马自达	yi1 qi4 ma3 zi4 da2	23136
+休闲车	xiu1 xian2 che1	22990
+被动安全	bei4 dong4 an1 quan2	22646
+盖板	gai4 ban3	22062
+逍客	xiao1 ke4	21788
+一汽轿车	yi1 qi4 jiao4 che1	21157
+仪表台	yi2 biao3 tai2	20818
+小排量汽车	xiao3 pai2 liang4 qi4 che1	19699
+酷路泽	ku4 lu4 ze2	19653
+老爷车	lao3 ye2 che1	19421
+汽车俱乐部	qi4 che1 ju4 le4 bu4	19392
+腿部空间	tui3 bu4 kong1 jian1	19347
+肖子	xiao4 zi5	19346
+源动力	yuan2 dong4 li4	19133
+热板	re4 ban3	18744
+玩车	wan2 che1	18304
+进气格栅	jin4 qi4 ge2 zha4	18203
+铆钉	mao3 ding1	18008
+工位	gong1 wei4	17230
+发动机转速	fa1 dong4 ji1 zhuan3 su4	17139
+甩尾	shuai3 wei3	16852
+英菲尼迪	ying1 fei1 ni2 di2	16639
+鼓风机	gu3 feng1 ji1	16427
+汽车销售服务有限公司	qi4 che1 xiao1 shou4 fu2 wu4 you3 xian4 gong1 si1	16274
+部分车型	bu4 fen1 che1 xing2	16272
+改款车	gai3 kuan3 che1	16102
+公路客运	gong1 lu4 ke4 yun4	15999
+大众中国	da4 zhong4 zhong1 guo2	15448
+头部空间	tou2 bu4 kong1 jian1	15076
+砂纸	sha1 zhi3	14927
+德尔福	de2 er3 fu2	14915
+新爱丽舍	xin1 ai4 li4 she3	14810
+全球定位系统	quan2 qiu2 ding4 wei4 xi4 tong3	14702
+汽车营销	qi4 che1 ying2 xiao1	14509
+年度车	nian2 du4 che1	14391
+颂歌	song4 ge1	14343
+远舰	yuan3 jian4	14324
+山地车	shan1 di4 che1	14312
+华夏二手车	hua2 xia4 er4 shou3 che1	14222
+利欧	li4 ou1	13981
+镀锌板	du4 xin1 ban3	13640
+安源	an1 yuan2	13406
+防爆膜	fang2 bao4 mo2	12890
+托架	tuo1 jia4	12572
+维修厂	wei2 xiu1 chang3	12558
+领航员	ling3 hang2 yuan2	12279
+大包围	da4 bao1 wei2	12200
+乙炔	yi3 gui4	12181
+前围	qian2 wei2	12085
+练习曲	lian4 xi2 qu1	11858
+驾校一点通	jia4 xiao4 yi1 dian3 tong1	11613
+逃遁	tao2 dun4	11428
+制动液	zhi4 dong4 ye4	11134
+止回阀	zhi3 hui2 fa2	11090
+车展期间	che1 zhan3 qi1 jian1	11041
+倒模	dao4 mo2	11026
+风挡玻璃	feng1 dang3 bo1 li2	10934
+伽马	ga1 ma3	10738
+轮定位	lun2 ding4 wei4	10717
+电解液	dian4 jie3 ye4	10604
+动力转向	dong4 li4 zhuan3 xiang4	10555
+轮距	lun2 ju4	10467
+真空管	zhen1 kong1 guan3	10394
+陆地巡洋舰	lu4 di4 xun2 yang2 jian4	10139
+志翔	zhi4 xiang2	10130
+别克凯越	bie2 ke4 kai3 yue4	10125
+前挡风玻璃	qian2 dang3 feng1 bo1 li2	10058
+恒温空调	heng2 wen1 kong1 diao4	9948
+支持环	zhi1 chi2 huan2	9888
+膜片	mo2 pian4	9805
+汽车贸易有限公司	qi4 che1 mao4 yi4 you3 xian4 gong1 si1	9803
+应急灯	ying1 ji2 deng1	9616
+业界动态	ye4 jie4 dong4 tai4	9486
+浙江汽车网	zhe4 jiang1 qi4 che1 wang3	9258
+新能源车	xin1 neng2 yuan2 che1	8812
+测试机	ce4 shi4 ji1	8696
+手动豪华	shou3 dong4 hao2 hua2	8689
+布加迪	bu4 jia1 di2	8649
+牵引力控制系统	qian1 yin3 li4 kong4 zhi4 xi4 tong3	8647
+长安马自达	zhang3 an1 ma3 zi4 da2	8572
+昌河铃木	chang1 he2 ling2 mu4	8526
+违章查询	wei2 zhang1 cha2 xun2	8502
+中华骏捷	zhong1 hua2 jun4 jie2	8482
+前风挡	qian2 feng1 dang3	8441
+下护	xia4 hu4	8420
+高位刹车	gao1 wei4 sha1 che1	8211
+四轮定位	si4 lun2 ding4 wei4	8160
+高位刹车灯	gao1 wei4 sha1 che1 deng1	8067
+连接管	lian2 jie1 guan3	8003
+达路	da2 lu4	7841
+温度传感器	wen1 du4 chuan2 gan3 qi4	7837
+车载电话	che1 zai4 dian4 hua4	7791
+贾新光	jia3 xin1 guang1	7728
+上海大众斯柯达	shang4 hai3 da4 zhong4 si1 ke1 da2	7687
+自动豪华	zi4 dong4 hao2 hua2	7383
+大切诺基	da4 qie4 nuo4 ji1	7353
+摩托车配件	mo2 tuo1 che1 pei4 jian4	7233
+指南者	zhi3 nan2 zhe3	7227
+通用别克	tong1 yong4 bie2 ke4	7039
+北汽控股	bei3 qi4 kong4 gu3	6850
+接地线	jie1 di4 xian4	6788
+冷媒	leng3 mei2	6771
+远光灯	yuan3 guang1 deng1	6730
+无钥匙	wu2 yao4 shi5	6702
+前格栅	qian2 ge2 zha4	6657
+直列四缸	zhi2 lie4 si4 gang1	6652
+卤素灯	lu3 su4 deng1	6621
+纸巾盒	zhi3 jin1 he2	6577
+轿车化	jiao4 che1 hua4	6510
+遥控钥匙	yao2 kong4 yao4 shi5	6486
+西耶那	xi1 ye2 na4	6340
+中国汽车技术研究中心	zhong1 guo2 qi4 che1 ji4 shu4 yan2 jiu1 zhong1 xin1	6275
+四缸发动机	si4 gang1 fa1 dong4 ji1	6274
+轮眉	lun2 mei2	6164
+没有现车	mei2 you3 xian4 che1	6071
+中国汽车网	zhong1 guo2 qi4 che1 wang3	6063
+空气清新剂	kong1 qi4 qing1 xin1 ji4	6018
+液位计	ye4 wei4 ji4	5992
+装饰灯	zhuang1 shi4 deng1	5954
+锁芯	suo3 xin1	5901
+前后保险杠	qian2 hou4 bao3 xian3 gang1	5883
+内后视镜	nei4 hou4 shi4 jing4	5812
+侧围	ce4 wei2	5805
+路况下	lu4 kuang4 xia4	5799
+中低音	zhong1 di1 yin1	5793
+蒙迪欧致胜	meng2 di2 ou1 zhi4 sheng4	5759
+危险货物运输	wei1 xian3 huo4 wu4 yun4 shu1	5751
+奇骏	qi2 jun4	5745
+螺帽	luo2 mao4	5743
+陆风汽车	lu4 feng1 qi4 che1	5715
+新佳乐	xin1 jia1 le4	5706
+防眩目	fang2 xuan4 mu4	5662
+前照灯	qian2 zhao4 deng1	5654
+被动安全性	bei4 dong4 an1 quan2 xing4	5448
+转弯半径	zhuan3 wan1 ban4 jing4	5429
+品牌二手车	pin3 pai2 er4 shou3 che1	5368
+高速过弯	gao1 su4 guo4 wan1	5274
+巴黎车展	ba1 li2 che1 zhan3	5264
+驾驶员座椅	jia4 shi3 yuan2 zuo4 yi3	5251
+随动转向	sui2 dong4 zhuan3 xiang4	5236
+周末风	zhou1 mo4 feng1	5102
+梅甘娜	mei2 gan1 na4	5048
+电喷发动机	dian4 pen1 fa1 dong4 ji1	5044
+生产工艺技术	sheng1 chan3 gong1 yi4 ji4 shu4	5008
+派喜	pai4 xi3	4914
+乱穿马路	luan4 chuan1 ma3 lu4	4901
+车载冰箱	che1 zai4 bing1 xiang1	4897
+电子制动力分配系统	dian4 zi5 zhi4 dong4 li4 fen1 pei4 xi4 tong3	4756
+普利茅斯	pu3 li4 mao2 si1	4655
+隔热材料	ge2 re4 cai2 liao4	4629
+座椅靠背	zuo4 yi3 kao4 bei4	4617
+伊兰特悦动	yi1 lan2 te4 yue4 dong4	4609
+后风挡	hou4 feng1 dang3	4602
+上海通用别克	shang4 hai3 tong1 yong4 bie2 ke4	4576
+缺陷产品	que1 xian4 chan3 pin3	4575
+点火线圈	dian3 huo3 xian4 quan1	4476
+仿桃木	fang3 tao2 mu4	4470
+清障车	qing1 zhang4 che1	4449
+牛腿	niu2 tui3	4389
+手动空调	shou3 dong4 kong1 diao4	4304
+四轮碟刹	si4 lun2 die2 sha1	4288
+中盖	zhong1 gai4	4256
+铅块	qian1 kuai4	4255
+最小离地间隙	zui4 xiao3 li2 di4 jian1 xi4	4239
+一汽奥迪	yi1 qi4 ao4 di2	4212
+风骏	feng1 jun4	4207
+全球鹰	quan2 qiu2 ying1	4149
+圆镜	yuan2 jing4	4123
+小排量轿车	xiao3 pai2 liang4 jiao4 che1	4086
+燃烧过程	ran2 shao1 guo4 cheng2	3923
+亚星客车	ya4 xing1 ke4 che1	3870
+江南奥拓	jiang1 nan2 ao4 tuo4	3843
+长丰猎豹	zhang3 feng1 lie4 bao4	3792
+车载电脑	che1 zai4 dian4 nao3	3782
+保险杆	bao3 xian3 gan1	3732
+中国汽车工程学会	zhong1 guo2 qi4 che1 gong1 cheng2 xue2 hui4	3711
+缸内直喷	gang1 nei4 zhi2 pen1	3706
+紧凑车型	jin3 cou4 che1 xing2	3611
+标志灯具	biao1 zhi4 deng1 ju4	3578
+直接驱动	zhi2 jie1 qu1 dong4	3566
+长城哈弗	zhang3 cheng2 ha1 fu2	3536
+赛拉图欧风	sai4 la1 tu2 ou1 feng1	3528
+旅行轿车	lv3 xing2 jiao4 che1	3517
+座椅加热	zuo4 yi3 jia1 re4	3517
+第一汽车集团公司	di4 yi1 qi4 che1 ji2 tuan2 gong1 si1	3515
+前风挡玻璃	qian2 feng1 dang3 bo1 li2	3488
+两前	liang3 qian2	3478
+新嘉年华	xin1 jia1 nian2 hua2	3452
+陆风风华	lu4 feng1 feng1 hua2	3288
+三角带	san1 jiao3 dai4	3273
+转子发动机	zhuan3 zi5 fa1 dong4 ji1	3248
+新奥德赛	xin1 ao4 de2 sai4	3231
+汽车消费信贷	qi4 che1 xiao1 fei4 xin4 dai4	3222
+电焊条	dian4 han4 tiao2	3212
+经营处	jing1 ying2 chu4	3206
+复仇女神	fu4 chou2 nv3 shen2	3190
+手拉葫芦	shou3 la1 hu2 lu2	3162
+欧菲莱斯	ou1 fei1 lai2 si1	3120
+行业法规	xing2 ye4 fa3 gui1	3103
+制动灯	zhi4 dong4 deng1	3092
+北京国际汽车展览会	bei3 jing1 guo2 ji4 qi4 che1 zhan3 lan3 hui4	3086
+后挡风玻璃	hou4 dang3 feng1 bo1 li2	3080
+陆霸	lu4 ba4	3059
+排挡杆	pai2 dang3 gan1	3044
+汽车影音	qi4 che1 ying3 yin1	2951
+组合表	zu3 he2 biao3	2908
+双面胶带	shuang1 mian4 jiao1 dai4	2828
+新大地	xin1 da4 di4	2815
+汽车零部件有限公司	qi4 che1 ling2 bu4 jian4 you3 xian4 gong1 si1	2765
+预紧式安全带	yu4 jin3 shi4 an1 quan2 dai4	2734
+车门把手	che1 men2 ba3 shou3	2665
+风阀	feng1 fa2	2662
+英格尔	ying1 ge2 er3	2637
+隔热板	ge2 re4 ban3	2612
+分动箱	fen1 dong4 xiang1	2586
+水温表	shui3 wen1 biao3	2578
+试驾后	shi4 jia4 hou4	2566
+兰德酷路泽	lan2 de2 ku4 lu4 ze2	2524
+恒温控制	heng2 wen1 kong4 zhi4	2517
+低扭	di1 niu3	2485
+检查发动机	jian3 cha2 fa1 dong4 ji1	2479
+行星齿轮	xing2 xing1 chi3 lun2	2478
+合叶	he2 ye4	2475
+华晨中华	hua2 chen2 zhong1 hua2	2466
+特黑	te4 hei1	2420
+路帝	lu4 di4	2384
+轿车发动机	jiao4 che1 fa1 dong4 ji1	2376
+印度斯坦	yin4 du4 si1 tan3	2366
+车体结构	che1 ti3 jie2 gou4	2361
+汽车维修技术	qi4 che1 wei2 xiu1 ji4 shu4	2344
+离去角	li2 qu4 jiao3	2254
+蓝牌车	lan2 pai2 che1	2203
+老车主	lao3 che1 zhu3	2168
+轮间	lun2 jian1	2143
+珠海国际赛车场	zhu1 hai3 guo2 ji4 sai4 che1 chang3	2137
+中大汽车	zhong1 da4 qi4 che1	2067
+驾驶员侧	jia4 shi3 yuan2 ce4	2061
+圆锥滚子轴承	yuan2 zhui1 gun3 zi5 zhou2 cheng2	2060
+电动玻璃	dian4 dong4 bo1 li2	2059
+车载电台	che1 zai4 dian4 tai2	2008
+空调滤芯	kong1 diao4 lv4 xin1	1992
+东风康明斯	dong1 feng1 kang1 ming2 si1	1968
+翱龙	ao2 long2	1963
+江铃陆风	jiang1 ling2 lu4 feng1	1943
+车载导航系统	che1 zai4 dao3 hang2 xi4 tong3	1924
+整车及零部件	zheng3 che1 ji2 ling2 bu4 jian4	1913
+马来西亚大奖赛	ma3 lai2 xi1 ya4 da4 jiang3 sai4	1902
+前翼子板	qian2 yi4 zi5 ban3	1895
+超级维特拉	chao1 ji2 wei2 te4 la1	1890
+阿斯顿马丁	a1 si1 dun4 ma3 ding1	1890
+东风小康	dong1 feng1 xiao3 kang1	1882
+试乘试驾车	shi4 cheng2 shi4 jia4 che1	1847
+制动钳	zhi4 dong4 qian2	1838
+车门玻璃	che1 men2 bo1 li2	1832
+猎豹飞腾	lie4 bao4 fei1 teng2	1817
+雷诺方程式	lei2 nuo4 fang1 cheng2 shi4	1814
+大型车展	da4 xing2 che1 zhan3	1809
+叶子板	ye4 zi5 ban3	1792
+内饰材料	nei4 shi4 cai2 liao4	1787
+合成机油	he2 cheng2 ji1 you2	1783
+后风窗	hou4 feng1 chuang1	1751
+标的车	biao1 de5 che1	1747
+飞行家	fei1 xing2 jia1	1725
+纽博格林	niu3 bo2 ge2 lin2	1693
+锋范	feng1 fan4	1690
+侧转向灯	ce4 zhuan3 xiang4 deng1	1685
+功能关闭	gong1 neng2 guan1 bi4	1684
+非承载式车身	fei1 cheng2 zai4 shi4 che1 shen1	1683
+该车主	gai1 che1 zhu3	1682
+防眩目后视镜	fang2 xuan4 mu4 hou4 shi4 jing4	1678
+戴姆勒克莱斯勒	dai4 mu3 lei1 ke4 lai2 si1 lei1	1672
+易熄火	yi4 xi1 huo3	1658
+道奇凯领	dao4 qi2 kai3 ling3	1655
+丰田陆地巡洋舰	feng1 tian2 lu4 di4 xun2 yang2 jian4	1629
+汽车挡风玻璃	qi4 che1 dang3 feng1 bo1 li2	1627
+凸缘	tu1 yuan2	1609
+霍根海姆赛道	huo4 gen1 hai3 mu3 sai4 dao4	1608
+四轮定位仪	si4 lun2 ding4 wei4 yi2	1607
+幸福使者	xing4 fu2 shi3 zhe3	1597
+抗磨剂	kang4 mo2 ji4	1595
+长城轿车	zhang3 cheng2 jiao4 che1	1587
+车内后视镜	che1 nei4 hou4 shi4 jing4	1586
+电源转换器	dian4 yuan2 zhuan3 huan4 qi4	1580
+汽车遥控	qi4 che1 yao2 kong4	1567
+后制动	hou4 zhi4 dong4	1560
+叶片泵	ye4 pian4 beng4	1559
+下护板	xia4 hu4 ban3	1545
+克莱斯勒大捷龙	ke4 lai2 si1 lei1 da4 jie2 long2	1541
+汽车覆盖件	qi4 che1 fu4 gai4 jian4	1530
+江铃集团	jiang1 ling2 ji2 tuan2	1528
+汽车抛锚	qi4 che1 pao1 mao2	1496
+水砂纸	shui3 sha1 zhi3	1494
+日产逍客	ri4 chan3 xiao1 ke4	1492
+前置发动机	qian2 zhi4 fa1 dong4 ji1	1491
+无钥匙启动	wu2 yao4 shi5 qi3 dong4	1489
+后风挡玻璃	hou4 feng1 dang3 bo1 li2	1483
+随车工具	sui2 che1 gong1 ju4	1462
+危险报警闪光灯	wei1 xian3 bao4 jing3 shan3 guang1 deng1	1447
+上海大众斯柯达明锐	shang4 hai3 da4 zhong4 si1 ke1 da2 ming2 rui4	1434
+前制动	qian2 zhi4 dong4	1420
+前排侧气囊	qian2 pai2 ce4 qi4 nang2	1419
+必比登	bi4 bi3 deng1	1395
+乔丹车队	qiao2 dan1 che1 dui4	1393
+保温隔热材料	bao3 wen1 ge2 re4 cai2 liao4	1368
+上止点	shang4 zhi3 dian3	1366
+点火钥匙	dian3 huo3 yao4 shi5	1356
+拖曳臂式	tuo1 ye4 bi4 shi4	1351
+不锈钢阀	bu4 xiu4 gang1 fa2	1339
+舍弗勒集团	she3 fu2 lei1 ji2 tuan2	1335
+挡圈	dang3 quan1	1312
+郑州日产帕拉丁	zheng4 zhou1 ri4 chan3 pa4 la1 ding1	1308
+福特福克斯两厢	fu2 te4 fu2 ke4 si1 liang3 xiang1	1305
+电路短路	dian4 lu4 duan3 lu4	1304
+收放机	shou1 fang4 ji1	1304
+摇窗	yao2 chuang1	1297
+表面缺陷	biao3 mian4 que1 xian4	1293
+林肯领航员	lin2 ken3 ling3 hang2 yuan2	1284
+影音网	ying3 yin1 wang3	1283
+固铂	gu4 bo2	1278
+分频点	fen1 pin2 dian3	1277
+双离合变速器	shuang1 li2 he2 bian4 su4 qi4	1274
+钢背	gang1 bei4	1268
+奥克斯汽车	ao4 ke4 si1 qi4 che1	1259
+清洁能源汽车	qing1 jie2 neng2 yuan2 qi4 che1	1257
+吉利熊猫	ji2 li4 xiong2 mao1	1246
+羊毛球	yang2 mao2 qiu2	1241
+四川丰田	si4 chuan1 feng1 tian2	1240
+汽车电子电器	qi4 che1 dian4 zi5 dian4 qi4	1234
+行车灯	xing2 che1 deng1	1228
+巴林大奖赛	ba1 lin2 da4 jiang3 sai4	1207
+来展厅	lai2 zhan3 ting1	1205
+阿尔法罗密欧	a1 er3 fa3 luo2 mi4 ou1	1203
+高位制动灯	gao1 wei4 zhi4 dong4 deng1	1191
+驰野	chi2 ye3	1188
+温控开关	wen1 kong4 kai1 guan1	1165
+水温传感器	shui3 wen1 chuan2 gan3 qi4	1148
+导购专题	dao3 gou4 zhuan1 ti2	1147
+阿尔伯特公园赛道	a1 er3 bo2 te4 gong1 yuan2 sai4 dao4	1143
+嵌条	qian4 tiao2	1140
+青专	qing1 zhuan1	1137
+浙江吉利控股集团	zhe4 jiang1 ji2 li4 kong4 gu3 ji2 tuan2	1135
+仪表灯	yi2 biao3 deng1	1131
+长安福特福克斯	zhang3 an1 fu2 te4 fu2 ke4 si1	1130
+电器仪表	dian4 qi4 yi2 biao3	1113
+首次保养	shou3 ci4 bao3 yang3	1107
+桥厂	qiao2 chang3	1099
+林肯轿车	lin2 ken3 jiao4 che1	1095
+空腔注蜡	kong1 qiang1 zhu4 la4	1091
+室盖	shi4 gai4	1085
+改进剂	gai3 jin4 ji4	1074
+铃鹿赛道	ling2 lu4 sai4 dao4	1063
+发动机控制单元	fa1 dong4 ji1 kong4 zhi4 dan1 yuan2	1063
+桑塔纳志俊	sang1 ta3 na4 zhi4 jun4	1054
+汽车排放标准	qi4 che1 pai2 fang4 biao1 zhun3	1044
+宾利欧陆	bin1 li4 ou1 lu4	1033
+湖北汽车工业学院	hu2 bei3 qi4 che1 gong1 ye4 xue2 yuan4	1026
+木炭汽车	mu4 tan4 qi4 che1	1019
+米其林集团	mi3 qi2 lin2 ji2 tuan2	1009
+换防冻液	huan4 fang2 dong4 ye4	1007
+骨架油封	gu3 jia4 you2 feng1	1003
+饰框	shi4 kuang1	994
+长安志翔	zhang3 an1 zhi4 xiang2	993
+饰盖	shi4 gai4	989
+电动助力转向系统	dian4 dong4 zhu4 li4 zhuan3 xiang4 xi4 tong3	987
+纵臂扭转	zong4 bi4 niu3 zhuan3	977
+汽配公司	qi4 pei4 gong1 si1	977
+陡坡缓降	dou3 po1 huan3 jiang4	975
+五菱荣光	wu3 ling2 rong2 guang1	955
+牌照板	pai2 zhao4 ban3	947
+前轮定位	qian2 lun2 ding4 wei4	943
+长城嘉誉	zhang3 cheng2 jia1 yu4	942
+摩雷	mo2 lei2	932
+安全开关	an1 quan2 kai1 guan1	928
+旅行房车	lv3 xing2 fang2 che1	927
+牌照框	pai2 zhao4 kuang1	918
+小型乘用车	xiao3 xing2 cheng2 yong4 che1	913
+侧窗玻璃	ce4 chuang1 bo1 li2	909
+优卡二手车网	you1 ka3 er4 shou3 che1 wang3	905
+铃木北斗星	ling2 mu4 bei3 dou4 xing1	903
+无钥匙启动系统	wu2 yao4 shi5 qi3 dong4 xi4 tong3	903
+转速传感器	zhuan3 su4 chuan2 gan3 qi4	901
+纽博格林赛道	niu3 bo2 ge2 lin2 sai4 dao4	901
+全时数字轿车	quan2 shi2 shu4 zi4 jiao4 che1	901
+自卸货车	zi4 xie4 huo4 che1	887
+转向液	zhuan3 xiang4 ye4	873
+从动轮	cong2 dong4 lun2	872
+露营车	lu4 ying2 che1	868
+强制通风	qiang2 zhi4 tong1 feng1	867
+下格栅	xia4 ge2 zha4	867
+雷诺梅甘娜	lei2 nuo4 mei2 gan1 na4	866
+储液罐	chu3 ye4 guan4	864
+甲壳虫汽车	jia3 ke2 chong2 qi4 che1	854
+下摆臂	xia4 bai3 bi4	852
+四冲程发动机	si4 chong1 cheng2 fa1 dong4 ji1	849
+非法改装车	fei1 fa3 gai3 zhuang1 che1	848
+我试驾	wo3 shi4 jia4	846
+自攻螺钉	zi4 gong1 luo2 ding1	825
+芯片钥匙	xin1 pian4 yao4 shi5	820
+汽油直喷技术	qi4 you2 zhi2 pen1 ji4 shu4	813
+安全带提醒装置	an1 quan2 dai4 ti2 xing3 zhuang1 zhi4	811
+新福特嘉年华	xin1 fu2 te4 jia1 nian2 hua2	806
+英国汽车工业	ying1 guo2 qi4 che1 gong1 ye4	804
+混合动力电动汽车	hun4 he2 dong4 li4 dian4 dong4 qi4 che1	803
+庞蒂亚克	pang2 di4 ya4 ke4	801
+车辆稳定性控制系统	che1 liang4 wen3 ding4 xing4 kong4 zhi4 xi4 tong3	798
+前保险杆	qian2 bao3 xian3 gan1	797
+电磁换向阀	dian4 ci2 huan4 xiang4 fa2	796
+重庆国际车展	zhong4 qing4 guo2 ji4 che1 zhan3	793
+未报案	wei4 bao4 an4	790
+汽车维修设备	qi4 che1 wei2 xiu1 she4 bei4	790
+北汽控股公司	bei3 qi4 kong4 gu3 gong1 si1	788
+农用汽车	nong2 yong4 qi4 che1	783
+车迷频道	che1 mi2 pin2 dao4	782
+后置发动机	hou4 zhi4 fa1 dong4 ji1	778
+普瑞维亚	pu3 rui4 wei2 ya4	771
+变扭器	bian4 niu3 qi4	769
+一汽威志	yi1 qi4 wei1 zhi4	765
+烟灰盒	yan1 hui1 he2	753
+格兰披治大赛	ge2 lan2 pi1 zhi4 da4 sai4	751
+雅科仕	ya3 ke1 shi4	748
+凯立德地图	kai3 li4 de2 di4 tu2	744
+冷冻剂	leng3 dong4 ji4	742
+电子电控	dian4 zi5 dian4 kong4	739
+智能钥匙系统	zhi4 neng2 yao4 shi5 xi4 tong3	738
+抗磨液压油	kang4 mo2 ye4 ya1 you2	737
+曲轴位置	qu1 zhou2 wei4 zhi4	735
+西苑小区	xi1 yuan4 xiao3 qu1	735
+专项作业车	zhuan1 xiang4 zuo4 ye4 che1	734
+车门扶手	che1 men2 fu2 shou3	730
+林肯城市	lin2 ken3 cheng2 shi4	730
+天马英雄	tian1 ma3 ying1 xiong2	729
+空调泵	kong1 diao4 beng4	728
+日产奇骏	ri4 chan3 qi2 jun4	724
+飞碟汽车	fei1 die2 qi4 che1	711
+多楔带	duo1 xie1 dai4	708
+陈光祖	chen2 guang1 zu3	706
+别克凯越旅行车	bie2 ke4 kai3 yue4 lv3 xing2 che1	706
+米纳尔迪车队	mi3 na4 er3 di2 che1 dui4	700
+前挡膜	qian2 dang3 mo2	698
+日产尼桑	ri4 chan3 ni2 sang1	695
+无盖加油系统	wu2 gai4 jia1 you2 xi4 tong3	695
+东风渝安	dong1 feng1 yu2 an1	690
+吉利优利欧	ji2 li4 you1 li4 ou1	684
+电动玻璃升降器	dian4 dong4 bo1 li2 sheng1 jiang4 qi4	677
+全车隔音	quan2 che1 ge2 yin1	672
+大陆汽车俱乐部	da4 lu4 qi4 che1 ju4 le4 bu4	667
+空调管路	kong1 diao4 guan3 lu4	666
+后翼子板	hou4 yi4 zi5 ban3	666
+前阅读灯	qian2 yue4 du2 deng1	664
+道奇公羊	dao4 qi2 gong1 yang2	662
+高品质音响	gao1 pin3 zhi4 yin1 xiang3	654
+行车制动	xing2 che1 zhi4 dong4	653
+横滑	heng2 hua2	648
+机滤芯	ji1 lv4 xin1	648
+变速器结构原理	bian4 su4 qi4 jie2 gou4 yuan2 li3	645
+英特拉格斯赛道	ying1 te4 la1 ge2 si1 sai4 dao4	644
+后保险杆	hou4 bao3 xian3 gan1	643
+汽车空调压缩机	qi4 che1 kong1 diao4 ya1 suo1 ji1	640
+车门框	che1 men2 kuang1	634
+自动变速箱油	zi4 dong4 bian4 su4 xiang1 you2	632
+直列发动机	zhi2 lie4 fa1 dong4 ji1	631
+华翔富奇	hua2 xiang2 fu4 qi2	629
+日常维护费	ri4 chang2 wei2 hu4 fei4	626
+奥迪汽车公司	ao4 di2 qi4 che1 gong1 si1	625
+制动管路	zhi4 dong4 guan3 lu4	625
+扭力杆	niu3 li4 gan1	624
+发动机下护板	fa1 dong4 ji1 xia4 hu4 ban3	621
+前风窗	qian2 feng1 chuang1	619
+激转	ji1 zhuan3	618
+金港国际赛车场	jin1 gang3 guo2 ji4 sai4 che1 chang3	616
+维伦纽夫赛道	wei2 lun2 niu3 fu1 sai4 dao4	615
+遥控手柄	yao2 kong4 shou3 bing3	604
+德国大众汽车集团	de2 guo2 da4 zhong4 qi4 che1 ji2 tuan2	599
+电源锁	dian4 yuan2 suo3	587
+层焦	ceng2 jiao1	582
+千分表	qian1 fen1 biao3	581
+空气清净机	kong1 qi4 qing1 jing4 ji1	578
+发动机防盗锁止系统	fa1 dong4 ji1 fang2 dao4 suo3 zhi3 xi4 tong3	575
+自动排挡	zi4 dong4 pai2 dang3	573
+起亚霸锐	qi3 ya4 ba4 rui4	571
+大灯高度可调	da4 deng1 gao1 du4 ke3 diao4	571
+东风悦达起亚狮跑	dong1 feng1 yue4 da2 qi3 ya4 shi1 pao3	567
+火烧车	huo3 shao1 che1	560
+曲轴位置传感器	qu1 zhou2 wei4 zhi4 chuan2 gan3 qi4	560
+轮胎换位	lun2 tai1 huan4 wei4	560
+交通安全产品	jiao1 tong1 an1 quan2 chan3 pin3	555
+分电机	fen1 dian4 ji1	554
+风焊	feng1 han4	554
+菜瓜布	cai4 gua1 bu4	551
+汽车挂件	qi4 che1 gua4 jian4	551
+第一箱油	di4 yi1 xiang1 you2	551
+汽车技术服务与营销	qi4 che1 ji4 shu4 fu2 wu4 yu3 ying2 xiao1	551
+日全蚀	ri4 quan2 shi2	550
+气门弹簧	qi4 men2 dan4 huang2	548
+吉普大切诺基	ji2 pu3 da4 qie4 nuo4 ji1	547
+内部短路	nei4 bu4 duan3 lu4	544
+手排挡	shou3 pai2 dang3	543
+非常城市	fei1 chang2 cheng2 shi4	541
+玻璃清洗液	bo1 li2 qing1 xi3 ye4	539
+比亚迪集团	bi3 ya4 di2 ji2 tuan2	538
+最大爬坡度	zui4 da4 pa2 po1 du4	533
+电源总开关	dian4 yuan2 zong3 kai1 guan1	529
+盖垫	gai4 dian4	528
+汽车制动液	qi4 che1 zhi4 dong4 ye4	528
+汽车残值	qi4 che1 can2 zhi2	525
+双龙主席	shuang1 long2 zhu3 xi2	519
+大贸手续	da4 mao4 shou3 xu4	519
+保温炉	bao3 wen1 lu2	515
+定损人员	ding4 sun3 ren2 yuan2	511
+魏红杰	wei4 hong2 jie2	511
+涨紧轮	zhang3 jin3 lun2	509
+考维特	kao3 wei2 te4	508
+车载自动诊断系统	che1 zai4 zi4 dong4 zhen3 duan4 xi4 tong3	507
+结构完整性	jie2 gou4 wan2 zheng3 xing4	507
+厦门金龙汽车	sha4 men2 jin1 long2 qi4 che1	500
+制动分泵	zhi4 dong4 fen1 beng4	499
+电磁开关	dian4 ci2 kai1 guan1	498
+三元催化转换器	san1 yuan2 cui1 hua4 zhuan3 huan4 qi4	498
+安全带固定	an1 quan2 dai4 gu4 ding4	498
+二手车鉴定评估师	er4 shou3 che1 jian4 ding4 ping2 gu1 shi1	495
+电动转向	dian4 dong4 zhuan3 xiang4	494
+磨砂黑	mo2 sha1 hei1	483
+猫扑汽车	mao1 pu1 qi4 che1	481
+名车志	ming2 che1 zhi4	479
+德国喜力士	de2 guo2 xi3 li4 shi4	478
+斯柯达欧雅	si1 ke1 da2 ou1 ya3	475
+盲点信息系统	mang2 dian3 xin4 xi1 xi4 tong3	475
+弹簧垫圈	dan4 huang2 dian4 quan1	474
+奔驰车队	ben1 chi2 che1 dui4	472
+一汽丰越	yi1 qi4 feng1 yue4	472
+儿童乘车安全	er2 tong2 cheng2 che1 an1 quan2	471
+南京跃进	nan2 jing1 yue4 jin4	468
+制动摩擦片	zhi4 dong4 mo2 ca1 pian4	465
+城市精灵	cheng2 shi4 jing1 ling2	465
+车内中控锁	che1 nei4 zhong1 kong4 suo3	461
+发动机漏油	fa1 dong4 ji1 lou4 you2	460
+现代王	xian4 dai4 wang2	458
+丰田喜一郎	feng1 tian2 xi3 yi1 lang2	455
+铃木吉姆尼	ling2 mu4 ji2 mu3 ni2	453
+雨刮电机	yu3 gua1 dian4 ji1	450
+随动转向大灯	sui2 dong4 zhuan3 xiang4 da4 deng1	450
+电子风扇	dian4 zi5 feng1 shan4	443
+上海通用凯迪拉克	shang4 hai3 tong1 yong4 kai3 di2 la1 ke4	441
+现代悦动	xian4 dai4 yue4 dong4	441
+菲亚特西耶那	fei1 ya4 te4 xi1 ye2 na4	441
+硬派越野车	ying4 pai4 yue4 ye3 che1	436
+后轮随动转向技术	hou4 lun2 sui2 dong4 zhuan3 xiang4 ji4 shu4	434
+沙漠越野车	sha1 mo4 yue4 ye3 che1	426
+副仪表	fu4 yi2 biao3	423
+广汽日野	guang3 qi4 ri4 ye3	420
+压缩行程	ya1 suo1 xing2 cheng2	419
+四窗	si4 chuang1	419
+异形钢管	yi4 xing2 gang1 guan3	417
+后轮眉	hou4 lun2 mei2	416
+汽车芯片	qi4 che1 xin1 pian4	415
+国际驾驶执照	guo2 ji4 jia4 shi3 zhi2 zhao4	413
+水晶香水瓶	shui3 jing1 xiang1 shui3 ping2	413
+旁蒂克	pang2 di4 ke4	412
+菲亚特熊猫	fei1 ya4 te4 xiong2 mao1	411
+暖胎圈	nuan3 tai1 quan1	408
+日内瓦国际汽车展	ri4 nei4 wa3 guo2 ji4 qi4 che1 zhan3	402
+马自达普力马	ma3 zi4 da2 pu3 li4 ma3	400
+四缸机	si4 gang1 ji1	397
+车载对讲机	che1 zai4 dui4 jiang3 ji1	397
+分电器盖	fen1 dian4 qi4 gai4	396
+飞轮壳	fei1 lun2 ke2	393
+两前轮	liang3 qian2 lun2	390
+派力奥周末风	pai4 li4 ao4 zhou1 mo4 feng1	387
+现代维拉克斯	xian4 dai4 wei2 la1 ke4 si1	385
+前围板	qian2 wei2 ban3	385
+沙漠之虎	sha1 mo4 zhi1 hu3	384
+拖拽臂	tuo1 zhuai1 bi4	384
+电工胶带	dian4 gong1 jiao1 dai4	379
+现代新胜达	xian4 dai4 xin1 sheng4 da2	378
+扭矩扳手	niu3 ju3 ban1 shou3	377
+福特蒙迪欧致胜	fu2 te4 meng2 di2 ou1 zhi4 sheng4	377
+钥匙开关	yao4 shi5 kai1 guan1	375
+赵公口长途汽车站	zhao4 gong1 kou3 zhang3 tu2 qi4 che1 zhan4	373
+福建戴姆勒	fu2 jian4 dai4 mu3 lei1	372
+感载比例阀	gan3 zai4 bi3 li4 fa2	372
+自卸翻斗车	zi4 xie4 fan1 dou4 che1	371
+直拉杆	zhi2 la1 gan1	371
+前座中央扶手	qian2 zuo4 zhong1 yang1 fu2 shou3	370
+主动式安全头枕	zhu3 dong4 shi4 an1 quan2 tou2 zhen3	368
+位置灯	wei4 zhi4 deng1	367
+澳门格兰披治大赛车	ao4 men2 ge2 lan2 pi1 zhi4 da4 sai4 che1	365
+昌河铃木利亚纳	chang1 he2 ling2 mu4 li4 ya4 na4	364
+油封漏油	you2 feng1 lou4 you2	361
+法雷奥集团	fa3 lei2 ao4 ji2 tuan2	357
+斯巴鲁中国拉力车队	si1 ba1 lu3 zhong1 guo2 la1 li4 che1 dui4	357
+北极星发动机	bei3 ji2 xing1 fa1 dong4 ji1	356
+吉普指挥官	ji2 pu3 zhi3 hui1 guan1	356
+一汽解放汽车有限公司	yi1 qi4 jie3 fang4 qi4 che1 you3 xian4 gong1 si1	354
+前叶子板	qian2 ye4 zi5 ban3	353
+分火头	fen1 huo3 tou2	353
+摇臂轴	yao2 bi4 zhou2	350
+小批量产品	xiao3 pi1 liang4 chan3 pin3	349
+点火模块	dian3 huo3 mo2 kuai4	345
+漏防冻液	lou4 fang2 dong4 ye4	345
+金旅客车	jin1 lv3 ke4 che1	341
+拖曳臂式悬架	tuo1 ye4 bi4 shi4 xuan2 jia4	341
+短圆柱滚子轴承	duan3 yuan2 zhu4 gun3 zi5 zhou2 cheng2	339
+不回位	bu4 hui2 wei4	338
+右扶手	you4 fu2 shou3	338
+防滑地板	fang2 hua2 di4 ban3	336
+汽车产业研究	qi4 che1 chan3 ye4 yan2 jiu1	336
+全承载车身	quan2 cheng2 zai4 che1 shen1	332
+后轮鼓	hou4 lun2 gu3	332
+唯雅诺	wei2 ya3 nuo4	329
+桃木饰件	tao2 mu4 shi4 jian4	326
+通风阀	tong1 feng1 fa2	325
+平治房车	ping2 zhi4 fang2 che1	324
+都市彩虹	dou1 shi4 cai3 hong2	324
+东风汗马	dong1 feng1 han4 ma3	322
+东风越野	dong1 feng1 yue4 ye3	320
+沃克斯豪尔	wo4 ke4 si1 hao2 er3	319
+前轮眉	qian2 lun2 mei2	318
+齿轮齿条式转向	chi3 lun2 chi3 tiao2 shi4 zhuan3 xiang4	316
+邓禄普轮胎	deng4 lu4 pu3 lun2 tai1	315
+刮臂	gua1 bi4	313
+勒芒耐力赛	lei1 mang2 nai4 li4 sai4	312
+电子驻车制动系统	dian4 zi5 zhu4 che1 zhi4 dong4 xi4 tong3	311
+大灯开关	da4 deng1 kai1 guan1	310
+前门玻璃	qian2 men2 bo1 li2	309
+脚瞪	jiao3 deng4	309
+离合器摩擦片	li2 he2 qi4 mo2 ca1 pian4	305
+曲轴磨床	qu1 zhou2 mo2 chuang2	303
+沙漠车	sha1 mo4 che1	300
+红色蔷薇	hong2 se4 qiang2 wei1	299
+全频喇叭	quan2 pin2 la3 ba1	297
+矿用自卸车	kuang4 yong4 zi4 xie4 che1	295
+茶杯架	cha2 bei1 jia4	295
+美鹿	mei3 lu4	294
+国际窗膜协会	guo2 ji4 chuang1 mo2 xie2 hui4	292
+前转向灯	qian2 zhuan3 xiang4 deng1	292
+汽车牵引	qi4 che1 qian1 yin3	284
+气囊灯	qi4 nang2 deng1	284
+缓冲胶	huan3 chong1 jiao1	282
+智慧贷款	zhi4 hui4 dai4 kuan3	282
+事故维修	shi4 gu4 wei2 xiu1	281
+圆柱销	yuan2 zhu4 xiao1	280
+冷车起动	leng3 che1 qi3 dong4	278
+新乐风	xin1 le4 feng1	277
+空调滤网	kong1 diao4 lv4 wang3	274
+尾气分析仪	wei3 qi4 fen1 xi1 yi2	272
+北京奔驰戴克	bei3 jing1 ben1 chi2 dai4 ke4	267
+更换电瓶	geng4 huan4 dian4 ping2	262
+雨刮臂	yu3 gua1 bi4	260
+翘板开关	qiao4 ban3 kai1 guan1	257
+进口斯柯达	jin4 kou3 si1 ke1 da2	256
+底盘隔音	di3 pan2 ge2 yin1	255
+别克高尔夫挑战赛	bie2 ke4 gao1 er3 fu1 tiao1 zhan4 sai4	255
+钢管车	gang1 guan3 che1	254
+沃尔沃客车	wo4 er3 wo4 ke4 che1	253
+动力转向泵	dong4 li4 zhuan3 xiang4 beng4	253
+从动盘总成	cong2 dong4 pan2 zong3 cheng2	253
+上摆臂	shang4 bai3 bi4	251
+全面安全防护	quan2 mian4 an1 quan2 fang2 hu4	248
+油箱开关	you2 xiang1 kai1 guan1	248
+刹车钳	sha1 che1 qian2	248
+粉末冶金产品	fen3 mo4 ye3 jin1 chan3 pin3	248
+发动机烧机油	fa1 dong4 ji1 shao1 ji1 you2	248
+蓄电池盖	xu4 dian4 chi2 gai4	247
+右大灯	you4 da4 deng1	246
+汽车四轮定位	qi4 che1 si4 lun2 ding4 wei4	242
+长安沃尔沃	zhang3 an1 wo4 er3 wo4	242
+陡坡缓降控制	dou3 po1 huan3 jiang4 kong4 zhi4	242
+东风朝柴	dong1 feng1 chao2 chai2	241
+交通强制险	jiao1 tong1 qiang2 zhi4 xian3	240
+轮缸	lun2 gang1	240
+育空河	yu4 kong1 he2	240
+东风日产北京	dong1 feng1 ri4 chan3 bei3 jing1	240
+泡沫清洗剂	pao4 mo4 qing1 xi3 ji4	240
+起亚欧菲莱斯	qi3 ya4 ou1 fei1 lai2 si1	239
+补炉	bu3 lu2	238
+前盖板	qian2 gai4 ban3	237
+美国汽车协会	mei3 guo2 qi4 che1 xie2 hui4	236
+液罐车	ye4 guan4 che1	236
+右后部	you4 hou4 bu4	236
+雪佛兰乐驰	xue3 fu2 lan2 le4 chi2	236
+尾灯罩	wei3 deng1 zhao4	235
+工具与设备	gong1 ju4 yu3 she4 bei4	234
+液化石油气汽车	ye4 hua4 shi2 you2 qi4 qi4 che1	233
+柯尼希塞尔	ke1 ni2 xi1 sai1 er3	232
+漆面保护膜	qi1 mian4 bao3 hu4 mo2	231
+加注口	jia1 zhu4 kou3	231
+汽车信用卡	qi4 che1 xin4 yong4 ka3	230
+永源飞碟	yong3 yuan2 fei1 die2	228
+车门饰板	che1 men2 shi4 ban3	227
+前保险杠下部	qian2 bao3 xian3 gang1 xia4 bu4	227
+空间容积	kong1 jian1 rong2 ji1	226
+中控方向盘	zhong1 kong4 fang1 xiang4 pan2	226
+门泵	men2 beng4	225
+水泵叶轮	shui3 beng4 ye4 lun2	222
+后叶子板	hou4 ye4 zi5 ban3	222
+机械变速箱	ji1 xie4 bian4 su4 xiang1	222
+右后车门	you4 hou4 che1 men2	222
+勒芒赛道	lei1 mang2 sai4 dao4	222
+阻车钉	zu3 che1 ding1	220
+角齿	jiao3 chi3	219
+车门铰链	che1 men2 jiao3 lian4	219
+电子阀	dian4 zi5 fa2	219
+转速仪	zhuan3 su4 yi2	218
+最小转弯直径	zui4 xiao3 zhuan3 wan1 zhi2 jing4	218
+三角玻璃	san1 jiao3 bo1 li2	215
+暖风管	nuan3 feng1 guan3	212
+后牌照板	hou4 pai2 zhao4 ban3	210
+牵引钩	qian1 yin3 gou1	208
+后牌照灯	hou4 pai2 zhao4 deng1	207
+牵引汽车	qian1 yin3 qi4 che1	207
+江铃福特	jiang1 ling2 fu2 te4	206
+试过车	shi4 guo4 che1	204
+右反光镜	you4 fan3 guang1 jing4	201
+实习司机	shi2 xi2 si1 ji1	201
+十字槽	shi2 zi4 cao2	200
+缺缸	que1 gang1	200
+河北荣华	he2 bei3 rong2 hua2	199
+四川现代	si4 chuan1 xian4 dai4	199
+内骨架	nei4 gu3 jia4	199
+全铝车身框架结构	quan2 lv3 che1 shen1 kuang1 jia4 jie2 gou4	198
+蜗牛喇叭	wo1 niu2 la3 ba1	197
+奥斯莫比	ao4 si1 mo4 bi3	196
+风景爱尔法	feng1 jing3 ai4 er3 fa3	195
+永诚保险	yong3 cheng2 bao3 xian3	195
+飞轮齿圈	fei1 lun2 chi3 quan1	194
+感应塞	gan3 ying1 sai1	193
+膜片弹簧离合器	mo2 pian4 dan4 huang2 li2 he2 qi4	193
+制动灯开关	zhi4 dong4 deng1 kai1 guan1	193
+风景冲浪	feng1 jing3 chong1 lang4	192
+冷媒管	leng3 mei2 guan3	192
+大尾翼	da4 wei3 yi4	192
+前风窗玻璃	qian2 feng1 chuang1 bo1 li2	190
+下坡辅助系统	xia4 po1 fu3 zhu4 xi4 tong3	189
+右后叶	you4 hou4 ye4	188
+气囊电脑	qi4 nang2 dian4 nao3	187
+下横臂	xia4 heng2 bi4	187
+少林客车	shao3 lin2 ke4 che1	184
+汽车网络营销	qi4 che1 wang3 luo4 ying2 xiao1	184
+汽车风洞	qi4 che1 feng1 dong4	184
+汽车保姆	qi4 che1 bao3 mu3	184
+防抱制动系统	fang2 bao4 zhi4 dong4 xi4 tong3	183
+尺寸不合格	chi3 cun4 bu4 he2 ge2	183
+一二档	yi1 er4 dang4	182
+叶轮泵	ye4 lun2 beng4	181
+汽车行业动态	qi4 che1 xing2 ye4 dong4 tai4	181
+右前叶	you4 qian2 ye4	181
+摩托车维修工	mo2 tuo1 che1 wei2 xiu1 gong1	181
+轮边减速器	lun2 bian1 jian3 su4 qi4	178
+全车膜	quan2 che1 mo2	177
+惯性漂移	guan4 xing4 piao1 yi2	175
+下门槛	xia4 men2 kan3	175
+多气门发动机	duo1 qi4 men2 fa1 dong4 ji1	174
+大灯灯泡	da4 deng1 deng1 pao4	173
+大骨棒	da4 gu3 bang4	173
+都市骏马	dou1 shi4 jun4 ma3	172
+奥迪勒芒	ao4 di2 lei1 mang2	172
+驻车灯	zhu4 che1 deng1	172
+半自动变速器	ban4 zi4 dong4 bian4 su4 qi4	172
+丰田普瑞维亚	feng1 tian2 pu3 rui4 wei2 ya4	171
+负值轮毂	fu4 zhi2 lun2 gu3	171
+中国三菱拉力艺车队	zhong1 guo2 san1 ling2 la1 li4 yi4 che1 dui4	169
+保养券	bao3 yang3 quan4	169
+斯巴鲁傲虎	si1 ba1 lu3 ao4 hu3	169
+美的客车	mei3 de5 ke4 che1	168
+档位杆	dang4 wei4 gan1	165
+汽车用柴油	qi4 che1 yong4 chai2 you2	164
+脚胶	jiao3 jiao1	160
+自动感应大灯	zi4 dong4 gan3 ying1 da4 deng1	158
+南京菲亚特西耶那	nan2 jing1 fei1 ya4 te4 xi1 ye2 na4	157
+维多利亚皇冠	wei2 duo1 li4 ya4 huang2 guan1	156
+长安汽车工程研究院	zhang3 an1 qi4 che1 gong1 cheng2 yan2 jiu1 yuan4	156
+排气制动	pai2 qi4 zhi4 dong4	155
+汽车台	qi4 che1 tai2	153
+封闭货车	feng1 bi4 huo4 che1	148
+后钢板弹簧	hou4 gang1 ban3 dan4 huang2	146
+分缸线	fen1 gang1 xian4	146
+地板压条	di4 ban3 ya1 tiao2	144
+前部受损	qian2 bu4 shou4 sun3	144
+前半轴	qian2 ban4 zhou2	142
+凯雷德混合动力	kai3 lei2 de2 hun4 he2 dong4 li4	141
+小旅行车	xiao3 lv3 xing2 che1	141
+斜拉杆	xie2 la1 gan1	138
+二手车寄卖	er4 shou3 che1 ji4 mai4	137
+中间板	zhong1 jian1 ban3	136
+大小瓦	da4 xiao3 wa3	135
+广角后视镜	guang3 jiao3 hou4 shi4 jing4	134
+离合分泵	li2 he2 fen1 beng4	133
+转向灯开关	zhuan3 xiang4 deng1 kai1 guan1	131
+车门隔音	che1 men2 ge2 yin1	131
+右侧围	you4 ce4 wei2	131
+电子感应制动系统	dian4 zi5 gan3 ying1 zhi4 dong4 xi4 tong3	131
+车险计算	che1 xian3 ji4 suan4	130
+铃木集团	ling2 mu4 ji2 tuan2	128
+车内阅读灯	che1 nei4 yue4 du2 deng1	127
+保时捷新卡宴	bao3 shi2 jie2 xin1 ka3 yan4	127
+气囊控制单元	qi4 nang2 kong4 zhi4 dan1 yuan2	126
+叉车用	cha1 che1 yong4	126
+鹰潭火车站	ying1 tan2 huo3 che1 zhan4	125
+止推垫	zhi3 tui1 dian4	124
+曙光挑战者	shu3 guang1 tiao1 zhan4 zhe3	124
+暖风开关	nuan3 feng1 kai1 guan1	123
+四轮换位	si4 lun2 huan4 wei4	123
+阿尔宾娜	a1 er3 bin1 na4	122
+暖风电机	nuan3 feng1 dian4 ji1	122
+保险阀	bao3 xian3 fa2	122
+补强板	bu3 qiang2 ban3	122
+前大灯总成	qian2 da4 deng1 zong3 cheng2	121
+丰田兰德酷路泽	feng1 tian2 lan2 de2 ku4 lu4 ze2	121
+三四档	san1 si4 dang4	121
+右半轴	you4 ban4 zhou2	119
+川崎车队	chuan1 qi2 che1 dui4	119
+油品类	you2 pin3 lei4	117
+万宇汽车运动俱乐部	wan4 yu3 qi4 che1 yun4 dong4 ju4 le4 bu4	117
+罩垫	zhao4 dian4	117
+侧围板	ce4 wei2 ban3	116
+中国汽车工业信息网	zhong1 guo2 qi4 che1 gong1 ye4 xin4 xi1 wang3	114
+十字节	shi2 zi4 jie2	114
+四轮动平衡	si4 lun2 dong4 ping2 heng2	113
+汽车遥控钥匙	qi4 che1 yao2 kong4 yao4 shi5	113
+前钢板	qian2 gang1 ban3	113
+自动空调控制系统	zi4 dong4 kong1 diao4 kong4 zhi4 xi4 tong3	113
+电动升降器	dian4 dong4 sheng1 jiang4 qi4	113
+触媒转换器	chu4 mei2 zhuan3 huan4 qi4	111
+隔音产品	ge2 yin1 chan3 pin3	111
+冷补胶	leng3 bu3 jiao1	111
+仪表指示灯	yi2 biao3 zhi3 shi4 deng1	111
+嘉实多磁护	jia1 shi2 duo1 ci2 hu4	110
+路宝节油	lu4 bao3 jie2 you2	110
+菲德拉	fei1 de2 la1	109
+气囊传感器	qi4 nang2 chuan2 gan3 qi4	109
+冈谷钢机	gang1 gu3 gang1 ji1	108
+曲轴前	qu1 zhou2 qian2	107
+掀背式尾门	xian1 bei4 shi4 wei3 men2	107
+越野客车	yue4 ye3 ke4 che1	106
+水陆两栖汽车	shui3 lu4 liang3 qi1 qi4 che1	106
+科鲁兹	ke1 lu3 zi1	106
+陆风新饰界	lu4 feng1 xin1 shi4 jie4	106
+防护薄膜	fang2 hu4 bao2 mo2	105
+弹性挡圈	dan4 xing4 dang3 quan1	104
+吉利中国龙	ji2 li4 zhong1 guo2 long2	104
+慕尚	mu4 shang4	104
+氢动力燃料电池车	qing1 dong4 li4 ran2 liao4 dian4 chi2 che1	103
+残留应力	can2 liu2 ying1 li4	100
+瑞典沃尔沃汽车公司	rui4 dian3 wo4 er3 wo4 qi4 che1 gong1 si1	100
+浙江汽车工程学院	zhe4 jiang1 qi4 che1 gong1 cheng2 xue2 yuan4	100
+干燥瓶	gan4 zao4 ping2	99
+后刹车分泵	hou4 sha1 che1 fen1 beng4	99
+纸漏斗	zhi3 lou4 dou4	99
+自补液	zi4 bu3 ye4	98
+湾岸午夜俱乐部	wan1 an4 wu3 ye4 ju4 le4 bu4	98
+手控阀	shou3 kong4 fa2	97
+机爪	ji1 zhao3	97
+水泵出水管	shui3 beng4 chu1 shui3 guan3	95
+锐骐多功能商用车	rui4 qi2 duo1 gong1 neng2 shang1 yong4 che1	95
+直接档	zhi2 jie1 dang4	95
+调漆设备	diao4 qi1 she4 bei4	95
+半圆键	ban4 yuan2 jian4	94
+克莱斯勒交叉火力	ke4 lai2 si1 lei1 jiao1 cha1 huo3 li4	93
+汽车品牌营销	qi4 che1 pin3 pai2 ying2 xiao1	92
+火炮牵引车	huo3 pao4 qian1 yin3 che1	91
+挂不上档	gua4 bu4 shang4 dang4	91
+硬连接牵引	ying4 lian2 jie1 qian1 yin3	90
+古德伍德赛车节	gu3 de2 wu3 de2 sai4 che1 jie2	89
+左右大灯	zuo3 you4 da4 deng1	89
+郑州威佳专营店	zheng4 zhou1 wei1 jia1 zhuan1 ying2 dian4	88
+红喜力	hong2 xi3 li4	88
+胎侧胶	tai1 ce4 jiao1	88
+负极接地	fu4 ji2 jie1 di4	88
+浇注速度	jiao1 zhu4 su4 du4	87
+软连接牵引	ruan3 lian2 jie1 qian1 yin3	87
+置换补贴	zhi4 huan4 bu3 tie1	87
+真空电磁阀	zhen1 kong1 dian4 ci2 fa2	87
+小贸手续	xiao3 mao4 shou3 xu4	85
+新能源客车	xin1 neng2 yuan2 ke4 che1	85
+内温度传感器	nei4 wen1 du4 chuan2 gan3 qi4	85
+中后桥	zhong1 hou4 qiao2	83
+多宁顿公园赛道	duo1 ning2 dun4 gong1 yuan2 sai4 dao4	83
+欧宝欧捷利	ou1 bao3 ou1 jie2 li4	83
+斯科达明锐	si1 ke1 da2 ming2 rui4	82
+车体保养	che1 ti3 bao3 yang3	82
+颜光明	yan2 guang1 ming2	82
+烟灰缸盖	yan1 hui1 gang1 gai4	81
+皮带涨紧	pi2 dai4 zhang3 jin3	81
+秦川福莱尔	qin2 chuan1 fu2 lai2 er3	81
+汽车的变速器	qi4 che1 de5 bian4 su4 qi4	80
+中国汽车工业产销快讯	zhong1 guo2 qi4 che1 gong1 ye4 chan3 xiao1 kuai4 xun4	80
+口奇骏	kou3 qi2 jun4	78
+防空灯	fang2 kong1 deng1	78
+现代雅科仕	xian4 dai4 ya3 ke1 shi4	77
+浙江汽车职业技术学院	zhe4 jiang1 qi4 che1 zhi2 ye4 ji4 shu4 xue2 yuan4	77
+纽伯林赛道	niu3 bo2 lin2 sai4 dao4	76
+高精度直喷系统	gao1 jing1 du4 zhi2 pen1 xi4 tong3	75
+第四缸	di4 si4 gang1	74
+铃木维特拉	ling2 mu4 wei2 te4 la1	74
+非独立悬挂系统	fei1 du2 li4 xuan2 gua4 xi4 tong3	74
+一档齿轮	yi1 dang4 chi3 lun2	73
+立式珩磨机	li4 shi4 hang2 mo2 ji1	73
+间歇雨刮	jian1 xie1 yu3 gua1	73
+玻璃托架	bo1 li2 tuo1 jia4	73
+吉林汽车制动器厂	ji2 lin2 qi4 che1 zhi4 dong4 qi4 chang3	73
+国际汽车制造商协会	guo2 ji4 qi4 che1 zhi4 zao4 shang1 xie2 hui4	73
+奥斯莫比尔	ao4 si1 mo4 bi3 er3	72
+别克新君威	bie2 ke4 xin1 jun1 wei1	72
+汽车车载导航	qi4 che1 che1 zai4 dao3 hang2	72
+真空吊具	zhen1 kong1 diao4 ju4	72
+电压变换器	dian4 ya1 bian4 huan4 qi4	71
+前小灯	qian2 xiao3 deng1	71
+圈状弹簧	quan1 zhuang4 dan4 huang2	71
+卤素头灯	lu3 su4 tou2 deng1	70
+鹿导	lu4 dao3	70
+新锋锐	xin1 feng1 rui4	69
+山东省汽车行业协会	shan1 dong1 sheng3 qi4 che1 xing2 ye4 xie2 hui4	69
+牡丹客车	mu3 dan1 ke4 che1	68
+盆角齿	pen2 jiao3 chi3	68
+格兰披治大奖赛	ge2 lan2 pi1 zhi4 da4 jiang3 sai4	67
+真空吸污车	zhen1 kong1 xi1 wu1 che1	67
+暖风芯子	nuan3 feng1 xin1 zi5	67
+小贸车	xiao3 mao4 che1	66
+吉姆希	ji2 mu3 xi1	66
+机油温度表	ji1 you2 wen1 du4 biao3	66
+靠电子传感器探	kao4 dian4 zi5 chuan2 gan3 qi4 tan4	66
+长城精灵汽车	zhang3 cheng2 jing1 ling2 qi4 che1	66
+威利斯吉普车	wei1 li4 si1 ji2 pu3 che1	65
+速度感应式转向系统	su4 du4 gan3 ying1 shi4 zhuan3 xiang4 xi4 tong3	65
+纳智捷	na4 zhi4 jie2	64
+气门室垫	qi4 men2 shi4 dian4	64
+右侧杂物盒	you4 ce4 za2 wu4 he2	63
+伏尔加车	fu2 er3 jia1 che1	63
+经典全顺	jing1 dian3 quan2 shun4	62
+普纳德	pu3 na4 de2	61
+制动检验台	zhi4 dong4 jian3 yan4 tai2	61
+汽车喷漆工艺	qi4 che1 pen1 qi1 gong1 yi4	61
+世界窗膜协会	shi4 jie4 chuang1 mo2 xie2 hui4	61
+油田专用车	you2 tian2 zhuan1 yong4 che1	61
+小型冷藏车	xiao3 xing2 leng3 cang2 che1	60
+汽车整形技术	qi4 che1 zheng3 xing2 ji4 shu4	60
+后分泵	hou4 fen1 beng4	60
+福克斯小改款	fu2 ke4 si1 xiao3 gai3 kuan3	60
+宏基汽车客运站	hong2 ji1 qi4 che1 ke4 yun4 zhan4	60
+主从动	zhu3 cong2 dong4	59
+弹性胶质材料	dan4 xing4 jiao1 zhi4 cai2 liao4	59
+油路漏油	you2 lu4 lou4 you2	59
+验车费用	yan4 che1 fei4 yong4	58
+中国电动车协会	zhong1 guo2 dian4 dong4 che1 xie2 hui4	57
+室盖垫	shi4 gai4 dian4	57
+英特格	ying1 te4 ge2	57
+布加迪威航	bu4 jia1 di2 wei1 hang2	56
+铰接客车	jiao3 jie1 ke4 che1	56
+无敌改装网	wu2 di2 gai3 zhuang1 wang3	56
+团购看车	tuan2 gou4 kan4 che1	56
+气门室盖垫	qi4 men2 shi4 gai4 dian4	56
+倒车灯开关	dao4 che1 deng1 kai1 guan1	56
+涨闸	zhang3 zha2	56
+水温指示灯	shui3 wen1 zhi3 shi4 deng1	56
+储液瓶	chu3 ye4 ping2	55
+齿轮室盖	chi3 lun2 shi4 gai4	55
+欧洲新车安全评鉴协会	ou1 zhou1 xin1 che1 an1 quan2 ping2 jian4 xie2 hui4	55
+驾驶员警示控制	jia4 shi3 yuan2 jing3 shi4 kong4 zhi4	55
+右前翼子板	you4 qian2 yi4 zi5 ban3	55
+门灯开关	men2 deng1 kai1 guan1	55
+铃鹿赛车场	ling2 lu4 sai4 che1 chang3	55
+地板皮	di4 ban3 pi2	54
+中国汽车工业年鉴	zhong1 guo2 qi4 che1 gong1 ye4 nian2 jian4	54
+东风奥丁	dong1 feng1 ao4 ding1	54
+水温感应塞	shui3 wen1 gan3 ying1 sai1	54
+行星齿轮变速器	xing2 xing1 chi3 lun2 bian4 su4 qi4	54
+菲亚特多宝	fei1 ya4 te4 duo1 bao3	53
+水温灯	shui3 wen1 deng1	53
+手自一体汽车	shou3 zi4 yi1 ti3 qi4 che1	52
+卡特汉姆	ka3 te4 han4 mu3	52
+右前门玻璃	you4 qian2 men2 bo1 li2	52
+东风景逸	dong1 feng1 jing3 yi4	52
+机油乳化	ji1 you2 ru3 hua4	52
+分电盘盖	fen1 dian4 pan2 gai4	52
+轮眉后	lun2 mei2 hou4	51
+悬挂衬套	xuan2 gua4 chen4 tao4	51
+视维视频会议系统	shi4 wei2 shi4 pin2 hui4 yi4 xi4 tong3	51
+拼装台	pin1 zhuang1 tai2	51
+道奇拓远者	dao4 qi2 tuo4 yuan3 zhe3	51
+电瓶盖	dian4 ping2 gai4	50
+欧迪玛	ou1 di2 ma3	50
+东风牌小轿车	dong1 feng1 pai2 xiao3 jiao4 che1	50
+摇臂总成	yao2 bi4 zong3 cheng2	50
+注油管	zhu4 you2 guan3	49
+巴林国际赛道	ba1 lin2 guo2 ji4 sai4 dao4	49
+汽车工程手册	qi4 che1 gong1 cheng2 shou3 ce4	49
+手动变速箱油	shou3 dong4 bian4 su4 xiang1 you2	49
+螺母垫片	luo2 mu3 dian4 pian4	48
+优科豪马轮胎	you1 ke1 hao2 ma3 lun2 tai1	48
+北汽角斗士	bei3 qi4 jiao3 dou4 shi4	48
+保险杠格栅	bao3 xian3 gang1 ge2 zha4	48
+全车垫	quan2 che1 dian4	48
+下边梁	xia4 bian1 liang2	48
+接车单	jie1 che1 dan1	48
+汽车化工用品	qi4 che1 hua4 gong1 yong4 pin3	48
+德国音响	de2 guo2 yin1 xiang3	48
+液氮加速	ye4 dan4 jia1 su4	47
+防追尾系统	fang2 zhui1 wei3 xi4 tong3	47
+保温冒口	bao3 wen1 mao4 kou3	47
+钢板套	gang1 ban3 tao4	47
+制动调整臂	zhi4 dong4 diao4 zheng3 bi4	47
+体检回执	ti3 jian3 hui2 zhi2	46
+汽车加气站操作工	qi4 che1 jia1 qi4 zhan4 cao1 zuo4 gong1	46
+淘淘二手车	tao2 tao2 er4 shou3 che1	46
+止推垫片	zhi3 tui1 dian4 pian4	46
+座椅及附件	zuo4 yi3 ji2 fu4 jian4	46
+汽车电器设备与维修	qi4 che1 dian4 qi4 she4 bei4 yu3 wei2 xiu1	46
+保险杠支架	bao3 xian3 gang1 zhi1 jia4	45
+机脚胶	ji1 jiao3 jiao1	45
+防盗控制单元	fang2 dao4 kong4 zhi4 dan1 yuan2	45
+前钢板弹簧	qian2 gang1 ban3 dan4 huang2	45
+扣残	kou4 can2	45
+右前叶子板	you4 qian2 ye4 zi5 ban3	45
+引擎盖隔音	yin3 qing2 gai4 ge2 yin1	44
+汽车主动安全性	qi4 che1 zhu3 dong4 an1 quan2 xing4	44
+离去角度	li2 qu4 jiao3 du4	44
+奥杰汽车网	ao4 jie2 qi4 che1 wang3	44
+右保险杠	you4 bao3 xian3 gang1	44
+车贴文化	che1 tie1 wen2 hua4	43
+德国曼集团	de2 guo2 man4 ji2 tuan2	43
+保险夹	bao3 xian3 jia1	43
+浙江永源汽车有限公司	zhe4 jiang1 yong3 yuan2 qi4 che1 you3 xian4 gong1 si1	43
+出炉口	chu1 lu2 kou3	43
+节气门控制单元	jie2 qi4 men2 kong4 zhi4 dan1 yuan2	42
+最大爬坡角	zui4 da4 pa2 po1 jiao3	42
+发动机缺缸	fa1 dong4 ji1 que1 gang1	42
+京城海狮	jing1 cheng2 hai3 shi1	42
+转弯指示灯	zhuan3 wan1 zhi3 shi4 deng1	42
+活性炭罐电磁阀	huo2 xing4 tan4 guan4 dian4 ci2 fa2	42
+六角法兰面	liu4 jiao3 fa3 lan2 mian4	42
+直喷式燃烧室	zhi2 pen1 shi4 ran2 shao1 shi4	41
+制动底板	zhi4 dong4 di3 ban3	41
+脉冲传感器	mai4 chong1 chuan2 gan3 qi4	40
+机爪垫	ji1 zhao3 dian4	40
+挡风玻璃雨刮器	dang3 feng1 bo1 li2 yu3 gua1 qi4	40
+四轮保养	si4 lun2 bao3 yang3	40
+苏州二手车网	su1 zhou1 er4 shou3 che1 wang3	40
+立式精镗床	li4 shi4 jing1 tang1 chuang2	40
+济南液压泵	ji4 nan2 ye4 ya1 beng4	40
+圣马力诺伊莫拉赛道	sheng4 ma3 li4 nuo4 yi1 mo4 la1 sai4 dao4	40
+侧滑试验台	ce4 hua2 shi4 yan4 tai2	39
+仪表灯泡	yi2 biao3 deng1 pao4	39
+氢动四号	qing1 dong4 si4 hao4	39
+自动补胎液	zi4 dong4 bu3 tai1 ye4	39
+车轮饰盖	che1 lun2 shi4 gai4	38
+马自达劲翔	ma3 zi4 da2 jin4 xiang2	38
+全车锁芯	quan2 che1 suo3 xin1	38
+换挡电磁阀	huan4 dang3 dian4 ci2 fa2	38
+李斯特公司	li3 si1 te4 gong1 si1	38
+气门盖	qi4 men2 gai4	38
+右后尾灯	you4 hou4 wei3 deng1	38
+电池盒手柄	dian4 chi2 he2 shou3 bing3	37
+门胶条	men2 jiao1 tiao2	37
+雨刮精	yu3 gua1 jing1	37
+中客华北	zhong1 ke4 hua2 bei3	37
+空调压缩机皮带	kong1 diao4 ya1 suo1 ji1 pi2 dai4	37
+转向横拉杆球头	zhuan3 xiang4 heng2 la1 gan1 qiu2 tou2	37
+出炉温度	chu1 lu2 wen1 du4	36
+神农驾	shen2 nong2 jia4	36
+侦探犬	zhen1 tan4 quan3	36
+发动机专用机油	fa1 dong4 ji1 zhuan1 yong4 ji1 you2	35
+天河汽车站	tian1 he2 qi4 che1 zhan4	35
+下导流板	xia4 dao3 liu2 ban3	35
+发动机托架	fa1 dong4 ji1 tuo1 jia4	34
+右脚踏板	you4 jiao3 ta4 ban3	34
+澳门大赛车博物馆	ao4 men2 da4 sai4 che1 bo2 wu4 guan3	34
+彼得比尔特公司	bi3 de2 bi3 er3 te4 gong1 si1	34
+中诚海华	zhong1 cheng2 hai3 hua2	34
+机动车移动证	ji1 dong4 che1 yi2 dong4 zheng4	34
+机油感应塞	ji1 you2 gan3 ying1 sai1	34
+车载影碟机	che1 zai4 ying3 die2 ji1	34
+新车谍报	xin1 che1 die2 bao4	34
+空调高压管	kong1 diao4 gao1 ya1 guan3	33
+北京奔驰铂锐	bei3 jing1 ben1 chi2 bo2 rui4	33
+气门室罩盖	qi4 men2 shi4 zhao4 gai4	33
+全国汽车运动管理规定	quan2 guo2 qi4 che1 yun4 dong4 guan3 li3 gui1 ding4	33
+螺丝铆钉	luo2 si1 mao3 ding1	32
+黄油加注机	huang2 you2 jia1 zhu4 ji1	32
+左后轮眉	zuo3 hou4 lun2 mei2	32
+电动摇机	dian4 dong4 yao2 ji1	32
+后台板	hou4 tai2 ban3	31
+新加坡赛道	xin1 jia1 po1 sai4 dao4	31
+前保险杠下护板	qian2 bao3 xian3 gang1 xia4 hu4 ban3	31
+转向直拉杆	zhuan3 xiang4 zhi2 la1 gan1	31
+孔用弹性挡圈	kong3 yong4 dan4 xing4 dang3 quan1	31
+水泵进水管	shui3 beng4 jin4 shui3 guan3	31
+依维柯宝迪	yi1 wei2 ke1 bao3 di2	30
+冲焊桥	chong1 han4 qiao2	30
+右后门玻璃	you4 hou4 men2 bo1 li2	30
+汽车盘式制动器	qi4 che1 pan2 shi4 zhi4 dong4 qi4	30
+齐鲁客车	qi2 lu3 ke4 che1	30
+挂档机构	gua4 dang4 ji1 gou4	29
+皇冠锐志	huang2 guan1 rui4 zhi4	29
+随动闸	sui2 dong4 zha2	29
+助力转向调节	zhu4 li4 zhuan3 xiang4 diao4 jie2	29
+阶背式轿车	jie1 bei4 shi4 jiao4 che1	29
+日产公爵王	ri4 chan3 gong1 jue2 wang2	29
+远光指示灯	yuan3 guang1 zhi3 shi4 deng1	28
+长丰猎豹黑金刚	zhang3 feng1 lie4 bao4 hei1 jin1 gang1	28
+左后门玻璃	zuo3 hou4 men2 bo1 li2	28
+后饰板	hou4 shi4 ban3	28
+弓子板	gong1 zi5 ban3	28
+残留强度	can2 liu2 qiang2 du4	28
+前烟灰缸	qian2 yan1 hui1 gang1	27
+半轴突缘	ban4 zhou2 tu1 yuan2	27
+金刚二代	jin1 gang1 er4 dai4	27
+车身主动控制系统	che1 shen1 zhu3 dong4 kong4 zhi4 xi4 tong3	27
+有倒车镜	you3 dao4 che1 jing4	27
+加强底板	jia1 qiang2 di3 ban3	27
+新福达汽车	xin1 fu2 da2 qi4 che1	27
+仪表台总成	yi2 biao3 tai2 zong3 cheng2	27
+洗涤泵	xi3 di2 beng4	26
+一汽客车有限公司	yi1 qi4 ke4 che1 you3 xian4 gong1 si1	26
+新一代普力马	xin1 yi1 dai4 pu3 li4 ma3	26
+非全尺寸备胎	fei1 quan2 chi3 cun4 bei4 tai1	25
+粘性联轴节	zhan1 xing4 lian2 zhou2 jie2	25
+车内温度传感器	che1 nei4 wen1 du4 chuan2 gan3 qi4	25
+四行程引擎	si4 xing2 cheng2 yin3 qing2	25
+活塞肖	huo2 sai1 xiao4	25
+气门摇臂轴	qi4 men2 yao2 bi4 zhou2	25
+车轮动平衡机	che1 lun2 dong4 ping2 heng2 ji1	25
+车身校正设备	che1 shen1 xiao4 zheng4 she4 bei4	25
+德米欧	de2 mi3 ou1	25
+公铁两用车	gong1 tie3 liang3 yong4 che1	25
+卡通摩托	ka3 tong1 mo2 tuo1	25
+变速箱一轴	bian4 su4 xiang1 yi1 zhou2	25
+迪族车网	di2 zu2 che1 wang3	25
+日产平台	ri4 chan3 ping2 tai2	24
+奥克兰汽车公司	ao4 ke4 lan2 qi4 che1 gong1 si1	24
+汽车传感器的检测	qi4 che1 chuan2 gan3 qi4 de5 jian3 ce4	24
+进口大切诺基	jin4 kou3 da4 qie4 nuo4 ji1	24
+熄火器	xi1 huo3 qi4	24
+自动制动差速器	zi4 dong4 zhi4 dong4 cha4 su4 qi4	24
+前信号灯	qian2 xin4 hao4 deng1	24
+电子差速制动	dian4 zi5 cha4 su4 zhi4 dong4	24
+手工样品	shou3 gong1 yang4 pin3	24
+汽车模拟驾驶系统	qi4 che1 mo2 ni3 jia4 shi3 xi4 tong3	23
+电磁减震器	dian4 ci2 jian3 zhen4 qi4	23
+暖风机总成	nuan3 feng1 ji1 zong3 cheng2	23
+换气门导管	huan4 qi4 men2 dao3 guan3	23
+保险盒盖	bao3 xian3 he2 gai4	23
+吉普爱国者	ji2 pu3 ai4 guo2 zhe3	22
+东风日产奇骏	dong1 feng1 ri4 chan3 qi2 jun4	22
+福田风景冲浪	fu2 tian2 feng1 jing3 chong1 lang4	22
+回油滤芯	hui2 you2 lv4 xin1	22
+前门框	qian2 men2 kuang1	22
+曲轴止推片	qu1 zhou2 zhi3 tui1 pian4	22
+自动操纵式变速器	zi4 dong4 cao1 zong4 shi4 bian4 su4 qi4	21
+钢管弯头	gang1 guan3 wan1 tou2	21
+热控制阀	re4 kong4 zhi4 fa2	21
+有效热效率	you3 xiao4 re4 xiao4 lv4	21
+燃油蒸发排放控制	ran2 you2 zheng1 fa1 pai2 fang4 kong4 zhi4	21
+油底壳垫	you2 di3 ke2 dian4	21
+印地车赛	yin4 di4 che1 sai4	21
+右后叶子板	you4 hou4 ye4 zi5 ban3	20
+乙酸丁酸纤维素	yi3 suan1 ding1 suan1 xian1 wei2 su4	20
+前分泵	qian2 fen1 beng4	20
+防拖车系统	fang2 tuo1 che1 xi4 tong3	20
+抹尘布	mo3 chen2 bu4	20
+门防撞条	men2 fang2 zhuang4 tiao2	20
+茂木赛道	mao4 mu4 sai4 dao4	20
+门边饰条	men2 bian1 shi4 tiao2	20
+制动踏板总成	zhi4 dong4 ta4 ban3 zong3 cheng2	20
+连杆轴承盖	lian2 gan1 zhou2 cheng2 gai4	20
+防火墙隔音	fang2 huo3 qiang2 ge2 yin1	20
+主动分频	zhu3 dong4 fen1 pin2	20
+汽车品牌与商标	qi4 che1 pin3 pai2 yu3 shang1 biao1	20
+汽车服务俱乐部	qi4 che1 fu2 wu4 ju4 le4 bu4	20
+喇叭按钮开关	la3 ba1 an4 niu3 kai1 guan1	20
+风档刮水器	feng1 dang4 gua1 shui3 qi4	20
+熄火电磁阀	xi1 huo3 dian4 ci2 fa2	20
+右护板	you4 hu4 ban3	19
+一汽吉林森雅	yi1 qi4 ji2 lin2 sen1 ya3	19
+全车盗抢损失险	quan2 che1 dao4 qiang3 sun3 shi1 xian3	19
+进气压力温度传感器	jin4 qi4 ya1 li4 wen1 du4 chuan2 gan3 qi4	19
+汽车实用查询	qi4 che1 shi2 yong4 cha2 xun2	19
+得中国者得天下	de2 zhong1 guo2 zhe3 de2 tian1 xia4	19
+安全凸面镜	an1 quan2 tu1 mian4 jing4	19
+后桥短轴	hou4 qiao2 duan3 zhou2	19
+副驾驶位气囊	fu4 jia4 shi3 wei4 qi4 nang2	19
+超重型汽车列车	chao1 zhong4 xing2 qi4 che1 lie4 che1	19
+粘性偶合器	zhan1 xing4 ou3 he2 qi4	19
+中国汽摩频道	zhong1 guo2 qi4 mo2 pin2 dao4	19
+打磨抛光设备	da3 mo2 pao1 guang1 she4 bei4	18
+左侧窗玻璃	zuo3 ce4 chuang1 bo1 li2	18
+诊断插头	zhen3 duan4 cha1 tou2	18
+横摆力偶矩	heng2 bai3 li4 ou3 ju3	18
+行星齿轮装置	xing2 xing1 chi3 lun2 zhuang1 zhi4	18
+前轮鼓	qian2 lun2 gu3	18
+自动车位锁	zi4 dong4 che1 wei4 suo3	18
+翻转轴	fan1 zhuan3 zhou2	18
+六角法兰面螺栓	liu4 jiao3 fa3 lan2 mian4 luo2 shuan1	17
+新能源电动汽车	xin1 neng2 yuan2 dian4 dong4 qi4 che1	17
+气缸盖垫片	qi4 gang1 gai4 dian4 pian4	17
+车速表检验台	che1 su4 biao3 jian3 yan4 tai2	17
+轴承衬套	zhou2 cheng2 chen4 tao4	17
+气门弹簧座	qi4 men2 dan4 huang2 zuo4	17
+油耗传感器	you2 hao4 chuan2 gan3 qi4	16
+消声器尾	xiao1 sheng1 qi4 wei3	16
+玛瑙灰	ma3 nao3 hui1	16
+差速器行星齿轮	cha4 su4 qi4 xing2 xing1 chi3 lun2	16
+排气制动阀	pai2 qi4 zhi4 dong4 fa2	16
+汽车饰品套	qi4 che1 shi4 pin3 tao4	16
+汽车增值税	qi4 che1 zeng1 zhi2 shui4	16
+左后叶	zuo3 hou4 ye4	15
+信号喇叭	xin4 hao4 la3 ba1	15
+挡位指示器	dang3 wei4 zhi3 shi4 qi4	15
+远光灯泡	yuan3 guang1 deng1 pao4	15
+车管学院	che1 guan3 xue2 yuan4	15
+挂车阀	gua4 che1 fa2	15
+机械增压与涡轮增压	ji1 xie4 zeng1 ya1 yu3 wo1 lun2 zeng1 ya1	15
+右边条	you4 bian1 tiao2	15
+气囊电脑板	qi4 nang2 dian4 nao3 ban3	15
+比亚迪秦	bi3 ya4 di2 qin2	15
+乐车网	le4 che1 wang3	15
+帕诺兹	pa4 nuo4 zi1	15
+挂档杆	gua4 dang4 gan1	15
+前刹车分泵	qian2 sha1 che1 fen1 beng4	15
+延边二手车网	yan2 bian1 er4 shou3 che1 wang3	15
+进气接管	jin4 qi4 jie1 guan3	15
+六角厚螺母	liu4 jiao3 hou4 luo2 mu3	15
+左后翼子板	zuo3 hou4 yi4 zi5 ban3	15
+电瓶连接线	dian4 ping2 lian2 jie1 xian4	15
+大灯保险杠	da4 deng1 bao3 xian3 gang1	14
+应急灯开关	ying1 ji2 deng1 kai1 guan1	14
+奥布维	ao4 bu4 wei2	14
+螺纹板	luo2 wen2 ban3	14
+点火线圈总成	dian3 huo3 xian4 quan1 zong3 cheng2	14
+左后叶子板	zuo3 hou4 ye4 zi5 ban3	14
+帕杰罗召回事件	pa4 jie2 luo2 zhao4 hui2 shi4 jian4	14
+六角锁紧螺母	liu4 jiao3 suo3 jin3 luo2 mu3	14
+驾驶疲劳预警系统	jia4 shi3 pi2 lao2 yu4 jing3 xi4 tong3	14
+张家港汽车网	zhang1 jia1 gang3 qi4 che1 wang3	14
+后制动摩擦片	hou4 zhi4 dong4 mo2 ca1 pian4	14
+右前转向灯	you4 qian2 zhuan3 xiang4 deng1	14
+轮罩护板	lun2 zhao4 hu4 ban3	14
+中间传动轴	zhong1 jian1 chuan2 dong4 zhou2	14
+样版车	yang4 ban3 che1	14
+中国国际汽车展览会	zhong1 guo2 guo2 ji4 qi4 che1 zhan3 lan3 hui4	14
+一级方程序赛车	yi1 ji2 fang1 cheng2 xu4 sai4 che1	14
+气路控制阀	qi4 lu4 kong4 zhi4 fa2	13
+右前轮眉	you4 qian2 lun2 mei2	13
+爱墨绿	ai4 mo4 lv4	13
+公路客运售票	gong1 lu4 ke4 yun4 shou4 piao4	13
+机盖撑杆	ji1 gai4 cheng1 gan1	13
+正时皮带涨紧轮	zheng4 shi2 pi2 dai4 zhang3 jin3 lun2	13
+右后翼子板	you4 hou4 yi4 zi5 ban3	13
+四档齿	si4 dang4 chi3	13
+前牌照架	qian2 pai2 zhao4 jia4	13
+诊断报警系统	zhen3 duan4 bao4 jing3 xi4 tong3	13
+前制动钳	qian2 zhi4 dong4 qian2	13
+依卡露斯	yi1 ka3 lu4 si1	13
+雅阁旅行版概念车	ya3 ge2 lv3 xing2 ban3 gai4 nian4 che1	13
+止动板	zhi3 dong4 ban3	13
+丙酸纤维素	bing3 suan1 xian1 wei2 su4	13
+方向盘盖	fang1 xiang4 pan2 gai4	13
+一汽华利幸福使者	yi1 qi4 hua2 li4 xing4 fu2 shi3 zhe3	13
+机油加注口盖	ji1 you2 jia1 zhu4 kou3 gai4	13
+复合衬套	fu4 he2 chen4 tao4	12
+白心可锻铸铁	bai2 xin1 ke3 duan4 zhu4 tie3	12
+左前门内饰板	zuo3 qian2 men2 nei4 shi4 ban3	12
+大灯框	da4 deng1 kuang1	12
+稀薄燃烧发动机	xi1 bao2 ran2 shao1 fa1 dong4 ji1	12
+转向齿轮泵	zhuan3 xiang4 chi3 lun2 beng4	11
+空调涨紧轮	kong1 diao4 zhang3 jin3 lun2	11
+左右壳	zuo3 you4 ke2	11
+福田迷迪	fu2 tian2 mi2 di2	11
+暖风胶管	nuan3 feng1 jiao1 guan3	11
+引擎宝	yin3 qing2 bao3	11
+右下边梁	you4 xia4 bian1 liang2	11
+人车合影	ren2 che1 he2 ying3	11
+冒险鸭	mao4 xian3 ya1	11
+前保险杠面板	qian2 bao3 xian3 gang1 mian4 ban3	11
+杭州嘉诺展览有限公司	hang2 zhou1 jia1 nuo4 zhan3 lan3 you3 xian4 gong1 si1	11
+前制动摩擦片	qian2 zhi4 dong4 mo2 ca1 pian4	11
+曲轴前油封	qu1 zhou2 qian2 you2 feng1	11
+驱动小齿轮	qu1 dong4 xiao3 chi3 lun2	11
+右侧窗玻璃	you4 ce4 chuang1 bo1 li2	11
+氢气转子发动机	qing1 qi4 zhuan3 zi5 fa1 dong4 ji1	11
+电瓶卡子	dian4 ping2 ka3 zi5	10
+帕克沃德	pa4 ke4 wo4 de2	10
+二行程循环引擎	er4 xing2 cheng2 xun2 huan2 yin3 qing2	10
+好词库	hao3 ci2 ku4	10
+膨涨阀	peng2 zhang3 fa2	10
+后尾灯罩	hou4 wei3 deng1 zhao4	10
+改装技术人员	gai3 zhuang1 ji4 shu4 ren2 yuan2	10
+串联式制动总泵	chuan4 lian2 shi4 zhi4 dong4 zong3 beng4	10
+新旧件	xin1 jiu4 jian4	10
+汽车装饰服务中心	qi4 che1 zhuang1 shi4 fu2 wu4 zhong1 xin1	10
+太空户	tai4 kong1 hu4	10
+潜水跑车	qian2 shui3 pao3 che1	10
+轮胎螺母拆装机	lun2 tai1 luo2 mu3 chai1 zhuang1 ji1	10
+两厢半式轿车	liang3 xiang1 ban4 shi4 jiao4 che1	10
+制动硬管	zhi4 dong4 ying4 guan3	9
+翼子板隔音	yi4 zi5 ban3 ge2 yin1	9
+付钢板	fu4 gang1 ban3	9
+每缸气门数	mei3 gang1 qi4 men2 shu4	9
+电动车专用配件	dian4 dong4 che1 zhuan1 yong4 pei4 jian4	9
+面板装饰件	mian4 ban3 zhuang1 shi4 jian4	9
+试车评测	shi4 che1 ping2 ce4	9
+哈飞路尊小霸王	ha1 fei1 lu4 zun1 xiao3 ba4 wang2	9
+消声器接管	xiao1 sheng1 qi4 jie1 guan3	9
+汽车车体结构	qi4 che1 che1 ti3 jie2 gou4	9
+四冲程循环	si4 chong1 cheng2 xun2 huan2	9
+隔音品牌	ge2 yin1 pin3 pai2	9
+档拔叉	dang4 ba2 cha1	9
+水泵部件	shui3 beng4 bu4 jian4	9
+转矩变换器	zhuan3 ju3 bian4 huan4 qi4	9
+雨刮间歇继电器	yu3 gua1 jian1 xie1 ji4 dian4 qi4	9
+游动齿轮	you2 dong4 chi3 lun2	9
+铃木红	ling2 mu4 hong2	9
+车辆外迁	che1 liang4 wai4 qian1	9
+后保险杠面板	hou4 bao3 xian3 gang1 mian4 ban3	9
+橡胶保护帽	xiang4 jiao1 bao3 hu4 mao4	9
+水位感应器	shui3 wei4 gan3 ying1 qi4	9
+车门开度限位器	che1 men2 kai1 du4 xian4 wei4 qi4	9
+转向灯灯泡	zhuan3 xiang4 deng1 deng1 pao4	9
+路环小型赛车场	lu4 huan2 xiao3 xing2 sai4 che1 chang3	8
+连杆校正器	lian2 gan1 xiao4 zheng4 qi4	8
+汽车零部件整合	qi4 che1 ling2 bu4 jian4 zheng3 he2	8
+叶子板内衬	ye4 zi5 ban3 nei4 chen4	8
+电子真空泵	dian4 zi5 zhen1 kong1 beng4	8
+烟灰缸前	yan1 hui1 gang1 qian2	8
+定远试车场	ding4 yuan3 shi4 che1 chang3	8
+有效燃油消耗率	you3 xiao4 ran2 you2 xiao1 hao4 lv4	8
+带束斜交轮胎	dai4 shu4 xie2 jiao1 lun2 tai1	8
+重型汽车联营公司	zhong4 xing2 qi4 che1 lian2 ying2 gong1 si1	8
+进气凸轮轴前	jin4 qi4 tu1 lun2 zhou2 qian2	8
+转向节前	zhuan3 xiang4 jie2 qian2	8
+贝氏体球墨铸铁	bei4 shi4 ti3 qiu2 mo4 zhu4 tie3	8
+轮胎翻新材料	lun2 tai1 fan1 xin1 cai2 liao4	7
+行星齿轮变速机构	xing2 xing1 chi3 lun2 bian4 su4 ji1 gou4	7
+半自动操纵式变速器	ban4 zi4 dong4 cao1 zong4 shi4 bian4 su4 qi4	7
+改舵车	gai3 duo4 che1	7
+中国四大汽车集团	zhong1 guo2 si4 da4 qi4 che1 ji2 tuan2	7
+右后轮眉	you4 hou4 lun2 mei2	7
+后围侧板	hou4 wei2 ce4 ban3	7
+左前门玻璃升降器	zuo3 qian2 men2 bo1 li2 sheng1 jiang4 qi4	7
+便携油箱	bian4 xie2 you2 xiang1	7
+汽车制动效能	qi4 che1 zhi4 dong4 xiao4 neng2	7
+柯尼希斯埃格	ke1 ni2 xi1 si1 ai1 ge2	7
+废气回收管	fei4 qi4 hui2 shou1 guan3	7
+隔音材料厂	ge2 yin1 cai2 liao4 chang3	7
+行星齿轮托架	xing2 xing1 chi3 lun2 tuo1 jia4	7
+黄海汽车工程学院	huang2 hai3 qi4 che1 gong1 cheng2 xue2 yuan4	7
+汽车智能钥匙	qi4 che1 zhi4 neng2 yao4 shi5	7
+稳定牵引控制系统	wen3 ding4 qian1 yin3 kong4 zhi4 xi4 tong3	7
+玻璃摇把	bo1 li2 yao2 ba3	7
+分隔式燃烧室	fen1 ge2 shi4 ran2 shao1 shi4	7
+手扣防划膜	shou3 kou4 fang2 hua4 mo2	7
+减磨垫片	jian3 mo2 dian4 pian4	7
+风扇偶合器	feng1 shan4 ou3 he2 qi4	6
+门提钮	men2 ti2 niu3	6
+前保险杠骨架	qian2 bao3 xian3 gang1 gu3 jia4	6
+双摇臂悬架	shuang1 yao2 bi4 xuan2 jia4	6
+梅格纳斯特耶	mei2 ge2 na4 si1 te4 ye2	6
+钢板胶套	gang1 ban3 jiao1 tao4	6
+变速箱开关	bian4 su4 xiang1 kai1 guan1	6
+液压式离合器系统	ye4 ya1 shi4 li2 he2 qi4 xi4 tong3	6
+汽车启动电源	qi4 che1 qi3 dong4 dian4 yuan2	6
+变速箱第一轴	bian4 su4 xiang1 di4 yi1 zhou2	6
+汽车最小离地间隙	qi4 che1 zui4 xiao3 li2 di4 jian1 xi4	6
+六角法兰面螺母	liu4 jiao3 fa3 lan2 mian4 luo2 mu3	6
+从动圆柱齿	cong2 dong4 yuan2 zhu4 chi3	6
+换挡锁止电磁阀	huan4 dang3 suo3 zhi3 dian4 ci2 fa2	6
+转向管柱总成	zhuan3 xiang4 guan3 zhu4 zong3 cheng2	6
+新嘉年华两厢	xin1 jia1 nian2 hua2 liang3 xiang1	6
+凸缘叉	tu1 yuan2 cha1	6
+中国专用汽车网	zhong1 guo2 zhuan1 yong4 qi4 che1 wang3	6
+从动圆柱齿轮	cong2 dong4 yuan2 zhu4 chi3 lun2	6
+引擎盖覆膜	yin3 qing2 gai4 fu4 mo2	6
+下脚垫	xia4 jiao3 dian4	6
+轮胎侧偏刚度	lun2 tai1 ce4 pian1 gang1 du4	6
+中国汽贸网	zhong1 guo2 qi4 mao4 wang3	6
+飞行吉普	fei1 xing2 ji2 pu3	6
+数字式万用电表	shu4 zi4 shi4 wan4 yong4 dian4 biao3	6
+前门脚踏	qian2 men2 jiao3 ta4	6
+机油冷却器芯	ji1 you2 leng3 que4 qi4 xin1	6
+后排风出口	hou4 pai2 feng1 chu1 kou3	6
+丰田智慧	feng1 tian2 zhi4 hui4	6
+乘员头颈保护系统	cheng2 yuan2 tou2 jing3 bao3 hu4 xi4 tong3	6
+传动轴凸缘	chuan2 dong4 zhou2 tu1 yuan2	5
+向心滚珠轴承	xiang4 xin1 gun3 zhu1 zhou2 cheng2	5
+福特全顺快运	fu2 te4 quan2 shun4 kuai4 yun4	5
+防撞加强板	fang2 zhuang4 jia1 qiang2 ban3	5
+冈比亚红	gang1 bi3 ya4 hong2	5
+护风圈	hu4 feng1 quan1	5
+轮边减速器总成	lun2 bian1 jian3 su4 qi4 zong3 cheng2	5
+亚尔帕	ya4 er3 pa4	5
+金牛座汽车	jin1 niu2 zuo4 qi4 che1	5
+液力转向泵	ye4 li4 zhuan3 xiang4 beng4	5
+右后挡泥板	you4 hou4 dang3 ni2 ban3	5
+中大金陵客车	zhong1 da4 jin1 ling2 ke4 che1	5
+排气门大	pai2 qi4 men2 da4	5
+右前车门玻璃	you4 qian2 che1 men2 bo1 li2	5
+前罩壳	qian2 zhao4 ke2	5
+斜背式轿车	xie2 bei4 shi4 jiao4 che1	5
+湛江汽车网	zhan4 jiang1 qi4 che1 wang3	5
+梅塞得斯奔驰	mei2 sai1 de2 si1 ben1 chi2	5
+普利茅斯汽车公司	pu3 li4 mao2 si1 qi4 che1 gong1 si1	5
+助力泵开关	zhu4 li4 beng4 kai1 guan1	5
+格雷那达	ge2 lei2 na4 da2	5
+盒盖左	he2 gai4 zuo3	5
+安全气囊线束	an1 quan2 qi4 nang2 xian4 shu4	5
+脉冲式电磁阀	mai4 chong1 shi4 dian4 ci2 fa2	5
+楔形销	xie1 xing2 xiao1	4
+水箱胶垫	shui3 xiang1 jiao1 dian4	4
+水箱副水壶	shui3 xiang1 fu4 shui3 hu2	4
+制动灯开关总成	zhi4 dong4 deng1 kai1 guan1 zong3 cheng2	4
+三效催化器	san1 xiao4 cui1 hua4 qi4	4
+全天候空调系统	quan2 tian1 hou4 kong1 diao4 xi4 tong3	4
+谐振箱	xie2 zhen4 xiang1	4
+全息座舱	quan2 xi1 zuo4 cang1	4
+油泵单向阀	you2 beng4 dan1 xiang4 fa2	4
+水泵垫	shui3 beng4 dian4	4
+中间托架	zhong1 jian1 tuo1 jia4	4
+前围线束	qian2 wei2 xian4 shu4	4
+挂车指示灯	gua4 che1 zhi3 shi4 deng1	4
+胎圈芯	tai1 quan1 xin1	4
+菲利普岛赛道	fei1 li4 pu3 dao3 sai4 dao4	4
+滤芯总成	lv4 xin1 zong3 cheng2	4
+蒸发器芯子	zheng1 fa1 qi4 xin1 zi5	4
+卡亚克	ka3 ya4 ke4	4
+路安汽车俱乐部	lu4 an1 qi4 che1 ju4 le4 bu4	4
+格雷姆林	ge2 lei2 mu3 lin2	4
+机盖铰链	ji1 gai4 jiao3 lian4	4
+座椅调整器	zuo4 yi3 diao4 zheng3 qi4	4
+汽车机电技术	qi4 che1 ji1 dian4 ji4 shu4	4
+墨绿珍珠	mo4 lv4 zhen1 zhu1	4
+圆锥主动齿轮轴承	yuan2 zhui1 zhu3 dong4 chi3 lun2 zhou2 cheng2	4
+转向轮定位仪	zhuan3 xiang4 lun2 ding4 wei4 yi2	4
+喷油泵齿轮	pen1 you2 beng4 chi3 lun2	4
+现代汽车检测诊断技术	xian4 dai4 qi4 che1 jian3 ce4 zhen3 duan4 ji4 shu4	4
+川汽野马	chuan1 qi4 ye3 ma3	4
+脚垫黑色	jiao3 dian4 hei1 se4	4
+欧亚车业	ou1 ya4 che1 ye4	4
+右角灯	you4 jiao3 deng1	4
+下悬挂胶套	xia4 xuan2 gua4 jiao1 tao4	4
+克莱斯勒指挥官	ke4 lai2 si1 lei1 zhi3 hui1 guan1	4
+温度传感器线束	wen1 du4 chuan2 gan3 qi4 xian4 shu4	3
+汽车平顺性随机输入行驶试验	qi4 che1 ping2 shun4 xing4 sui2 ji1 shu1 ru4 xing2 shi3 shi4 yan4	3
+印地方程式赛	yin4 di4 fang1 cheng2 shi4 sai4	3
+油中宝	you2 zhong1 bao3	3
+汽车轮距	qi4 che1 lun2 ju4	3
+汽车梦工场	qi4 che1 meng4 gong1 chang3	3
+汽车牵引力控制系统	qi4 che1 qian1 yin3 li4 kong4 zhi4 xi4 tong3	3
+哈飞汽车路宝	ha1 fei1 qi4 che1 lu4 bao3	3
+节气门垫	jie2 qi4 men2 dian4	3
+紧急控制阀	jin3 ji2 kong4 zhi4 fa2	3
+汽车电脑维修教程	qi4 che1 dian4 nao3 wei2 xiu1 jiao4 cheng2	3
+博世蜗牛喇叭	bo2 shi4 wo1 niu2 la3 ba1	3
+曼胡默尔集团	man4 hu2 mo4 er3 ji2 tuan2	3
+最新汽车正时校对手册	zui4 xin1 qi4 che1 zheng4 shi2 xiao4 dui4 shou3 ce4	3
+后轮罩护板	hou4 lun2 zhao4 hu4 ban3	3
+长安福特新福克斯	zhang3 an1 fu2 te4 xin1 fu2 ke4 si1	3
+左后门玻璃升降器	zuo3 hou4 men2 bo1 li2 sheng1 jiang4 qi4	3
+离合器盖及压盘总成	li2 he2 qi4 gai4 ji2 ya1 pan2 zong3 cheng2	3
+右前小灯	you4 qian2 xiao3 deng1	3
+左前分泵	zuo3 qian2 fen1 beng4	3
+扭力支架	niu3 li4 zhi1 jia4	3
+发射极耦合逻辑电路	fa1 she4 ji2 ou3 he2 luo2 ji2 dian4 lu4	3
+北美之鹰号	bei3 mei3 zhi1 ying1 hao4	3
+汽油液位传感器	qi4 you2 ye4 wei4 chuan2 gan3 qi4	3
+约斯帝	yue1 si1 di4	3
+中间传动齿轮	zhong1 jian1 chuan2 dong4 chi3 lun2	3
+引擎波司	yin3 qing2 bo1 si1	3
+郑州北环汽配车饰广场	zheng4 zhou1 bei3 huan2 qi4 pei4 che1 shi4 guang3 chang3	3
+江苏女神汽车集团公司	jiang1 su1 nv3 shen2 qi4 che1 ji2 tuan2 gong1 si1	3
+北美之鹰	bei3 mei3 zhi1 ying1	3
+车辆稳定性操控系统	che1 liang4 wen3 ding4 xing4 cao1 kong4 xi4 tong3	3
+排气管隔热板	pai2 qi4 guan3 ge2 re4 ban3	3
+汽车音响解码大全	qi4 che1 yin1 xiang3 jie3 ma3 da4 quan2	3
+永磁减速起动机	yong3 ci2 jian3 su4 qi3 dong4 ji1	3
+品车网	pin3 che1 wang3	3
+前杠骨架	qian2 gang1 gu3 jia4	3
+进气门摇臂	jin4 qi4 men2 yao2 bi4	3
+中间轴常啮合齿轮	zhong1 jian1 zhou2 chang2 nie4 he2 chi3 lun2	3
+轮边总成	lun2 bian1 zong3 cheng2	3
+中空充钠气门	zhong1 kong1 chong1 na4 qi4 men2	3
+气门调整螺丝	qi4 men2 diao4 zheng3 luo2 si1	3
+空调皮带张紧轮	kong1 diao4 pi2 dai4 zhang1 jin3 lun2	3
+初生石墨	chu1 sheng1 shi2 mo4	3
+驻车制动指示灯	zhu4 che1 zhi4 dong4 zhi3 shi4 deng1	3
+长丰猎豹骐菱	zhang3 feng1 lie4 bao4 qi2 ling2	3
+保险继电器	bao3 xian3 ji4 dian4 qi4	3
+汽车扭矩	qi4 che1 niu3 ju3	3
+汽车平顺性单脉冲输入行驶试验	qi4 che1 ping2 shun4 xing4 dan1 mai4 chong1 shu1 ru4 xing2 shi3 shi4 yan4	3
+液压油压力表	ye4 ya1 you2 ya1 li4 biao3	3
+印第安纳赛道	yin4 di4 an1 na4 sai4 dao4	3
+嘉华起亚	jia1 hua2 qi3 ya4	3
+钢圈清洗剂	gang1 quan1 qing1 xi3 ji4	3
+曲轴位置感应器	qu1 zhou2 wei4 zhi4 gan3 ying1 qi4	3
+叶子板灯	ye4 zi5 ban3 deng1	3
+设计硬点	she4 ji4 ying4 dian3	3
+左后侧围	zuo3 hou4 ce4 wei2	3
+动力转向油罐总成	dong4 li4 zhuan3 xiang4 you2 guan4 zong3 cheng2	2
+牌照灯护板	pai2 zhao4 deng1 hu4 ban3	2
+珠海汽车网	zhu1 hai3 qi4 che1 wang3	2
+罩盖垫	zhao4 gai4 dian4	2
+差速器小齿轮	cha4 su4 qi4 xiao3 chi3 lun2	2
+伯诺赛道	bo2 nuo4 sai4 dao4	2
+雨刮盖板	yu3 gua1 gai4 ban3	2
+汽车安全驾驶技术	qi4 che1 an1 quan2 jia4 shi3 ji4 shu4	2
+前钢板后支架	qian2 gang1 ban3 hou4 zhi1 jia4	2
+真空管硬	zhen1 kong1 guan3 ying4	2
+通用件与标准件	tong1 yong4 jian4 yu3 biao1 zhun3 jian4	2
+越野车论坛	yue4 ye3 che1 lun4 tan2	2
+换气门座圈	huan4 qi4 men2 zuo4 quan1	2
+鼓风机壳	gu3 feng1 ji1 ke2	2
+摩托车防晒垫	mo2 tuo1 che1 fang2 shai4 dian4	2
+空调暖风开关	kong1 diao4 nuan3 feng1 kai1 guan1	2
+半轴齿轮垫	ban4 zhou2 chi3 lun2 dian4	2
+残缺类缺陷	can2 que1 lei4 que1 xian4	2
+驾驶室减震器	jia4 shi3 shi4 jian3 zhen4 qi4	2
+供油提前器	gong1 you2 ti2 qian2 qi4	2
+粉末冶金衬套	fen3 mo4 ye3 jin1 chen4 tao4	2
+山西宇星客车有限公司	shan1 xi1 yu3 xing1 ke4 che1 you3 xian4 gong1 si1	2
+前刹车分泵支架	qian2 sha1 che1 fen1 beng4 zhi1 jia4	2
+汽车品牌与文化	qi4 che1 pin3 pai2 yu3 wen2 hua4	2
+曲前油封	qu1 qian2 you2 feng1	2
+荣茂隔音	rong2 mao4 ge2 yin1	2
+左右侧盖	zuo3 you4 ce4 gai4	2
+全方位车体吸撞结构	quan2 fang1 wei4 che1 ti3 xi1 zhuang4 jie2 gou4	2
+法拉利越野车	fa3 la1 li4 yue4 ye3 che1	2
+汽车动力指标	qi4 che1 dong4 li4 zhi3 biao1	2
+前制动分室	qian2 zhi4 dong4 fen1 shi4	2
+前钢板前支架	qian2 gang1 ban3 qian2 zhi1 jia4	2
+轮边壳	lun2 bian1 ke2	2
+毛线法拉利	mao2 xian4 fa3 la1 li4	2
+进气道转换阀	jin4 qi4 dao4 zhuan3 huan4 fa2	2
+高浓度固化剂	gao1 nong2 du4 gu4 hua4 ji4	2
+油路总成测试机	you2 lu4 zong3 cheng2 ce4 shi4 ji1	2
+凯越前挡玻璃	kai3 yue4 qian2 dang3 bo1 li2	2
+周申一	zhou1 shen1 yi1	2
+曲轴位置感知器	qu1 zhou2 wei4 zhi4 gan3 zhi1 qi4	2
+鼓风机电阻	gu3 feng1 ji1 dian4 zu3	2
+玛希拉蒂	ma3 xi1 la1 di4	2
+膜片式制动气室	mo2 pian4 shi4 zhi4 dong4 qi4 shi4	2
+梦迪博朗	meng4 di2 bo2 lang3	2
+欧洲纽博格林赛道	ou1 zhou1 niu3 bo2 ge2 lin2 sai4 dao4	2
+轮芯盖	lun2 xin1 gai4	2
+变速箱一轴油封	bian4 su4 xiang1 yi1 zhou2 you2 feng1	2
+钢圈铝	gang1 quan1 lv3	2
+前止点	qian2 zhi3 dian3	2
+钢板垫块	gang1 ban3 dian4 kuai4	2
+变扭器切割设备	bian4 niu3 qi4 qie4 ge1 she4 bei4	2
+野马福特	ye3 ma3 fu2 te4	2
+标准型弹簧垫圈	biao1 zhun3 xing2 dan4 huang2 dian4 quan1	2
+直拉杆接头总成	zhi2 la1 gan1 jie1 tou2 zong3 cheng2	2
+制动鼓后	zhi4 dong4 gu3 hou4	2
+充电卡子	chong1 dian4 ka3 zi5	2
+格栅保险杠	ge2 zha4 bao3 xian3 gang1	2
+浙江瑞立集团公司	zhe4 jiang1 rui4 li4 ji2 tuan2 gong1 si1	2
+摩纳罗	mo2 na4 luo2	2
+尾灯支架	wei3 deng1 zhi1 jia4	2
+油箱浮筒	you2 xiang1 fu2 tong3	2
+汽车智能安全气囊	qi4 che1 zhi4 neng2 an1 quan2 qi4 nang2	2
+汽车最大爬坡度	qi4 che1 zui4 da4 pa2 po1 du4	2
+万向液压	wan4 xiang4 ye4 ya1	2
+宿迁客运总站	su4 qian1 ke4 yun4 zong3 zhan4	2
+右后侧围	you4 hou4 ce4 wei2	2
+名车背后的故事	ming2 che1 bei4 hou4 de5 gu4 shi4	2
+圆柱齿轮壳	yuan2 zhu4 chi3 lun2 ke2	1
+汽车用品与附件	qi4 che1 yong4 pin3 yu3 fu4 jian4	1
+汽车自动变速器挡位	qi4 che1 zi4 dong4 bian4 su4 qi4 dang3 wei4	1
+防碎安全玻璃	fang2 sui4 an1 quan2 bo1 li2	1
+马自达八	ma3 zi4 da2 ba1	1
+风华一号	feng1 hua2 yi1 hao4	1
+后备箱盖隔音	hou4 bei4 xiang1 gai4 ge2 yin1	1
+轮眉卡扣	lun2 mei2 ka3 kou4	1
+马力车重比	ma3 li4 che1 zhong4 bi3	1
+变速箱前油封	bian4 su4 xiang1 qian2 you2 feng1	1
+精品组件	jing1 pin3 zu3 jian4	1
+锥形堵塞	zhui1 xing2 du3 sai1	1
+美式校车	mei3 shi4 xiao4 che1	1
+嘉川汽车	jia1 chuan1 qi4 che1	1
+地盘测功机	di4 pan2 ce4 gong1 ji1	1
+四档同步器	si4 dang4 tong2 bu4 qi4	1
+两分频喇叭	liang3 fen1 pin2 la3 ba1	1
+右前叶子板内衬	you4 qian2 ye4 zi5 ban3 nei4 chen4	1
+熄火拉线	xi1 huo3 la1 xian4	1
+凸轮轴位置感知器	tu1 lun2 zhou2 wei4 zhi4 gan3 zhi1 qi4	1
+烟台国际车展	yan1 tai2 guo2 ji4 che1 zhan3	1
+前制动臂	qian2 zhi4 dong4 bi4	1
+有效摩擦面积	you3 xiao4 mo2 ca1 mian4 ji1	1
+汽车汽配专业服务	qi4 che1 qi4 pei4 zhuan1 ye4 fu2 wu4	1
+中段消声器	zhong1 duan4 xiao1 sheng1 qi4	1
+精灵奔驰	jing1 ling2 ben1 chi2	1
+发动机下挡板	fa1 dong4 ji1 xia4 dang3 ban3	1
+前制动蹄支销	qian2 zhi4 dong4 ti2 zhi1 xiao1	1
+汽车高位制动灯	qi4 che1 gao1 wei4 zhi4 dong4 deng1	1
+中兴汽车驰野	zhong1 xing1 qi4 che1 chi2 ye3	1
+制动器制动力分配系数	zhi4 dong4 qi4 zhi4 dong4 li4 fen1 pei4 xi4 shu4	1
+多路传输控制单元	duo1 lu4 chuan2 shu1 kong4 zhi4 dan1 yuan2	1
+插入螺母	cha1 ru4 luo2 mu3	1
+后钢板销	hou4 gang1 ban3 xiao1	1
+常见汽车品牌	chang2 jian4 qi4 che1 pin3 pai2	1
+分离轴承卡簧	fen1 li2 zhou2 cheng2 ka3 huang2	1
+消声器前进气管总成	xiao1 sheng1 qi4 qian2 jin4 qi4 guan3 zong3 cheng2	1
+汽车的零公里	qi4 che1 de5 ling2 gong1 li3	1
+野猫赛	ye3 mao1 sai4	1
+中桥园柱齿轮壳	zhong1 qiao2 yuan2 zhu4 chi3 lun2 ke2	1
+曼牡丹	man4 mu3 dan1	1
+丰田锡耶纳	feng1 tian2 xi1 ye2 na4	1
+二手汽车按揭贷款	er4 shou3 qi4 che1 an4 jie1 dai4 kuan3	1
+奥迪风洞中心	ao4 di2 feng1 dong4 zhong1 xin1	1
+前下导向臂	qian2 xia4 dao3 xiang4 bi4	1
+变扭器维修设备	bian4 niu3 qi4 wei2 xiu1 she4 bei4	1
+后雾灯开关总成	hou4 wu4 deng1 kai1 guan1 zong3 cheng2	1
+中兴汽车标志	zhong1 xing1 qi4 che1 biao1 zhi4	1
+牙嵌式自锁差速器	ya2 qian4 shi4 zi4 suo3 cha4 su4 qi4	1
+车辆外摆值	che1 liang4 wai4 bai3 zhi2	1
+车载后座娱乐系统	che1 zai4 hou4 zuo4 yu2 le4 xi4 tong3	1
+福特爱虎	fu2 te4 ai4 hu3	1
+强制式曲轴箱通风	qiang2 zhi4 shi4 qu1 zhou2 xiang1 tong1 feng1	1
+中间传动轴总成	zhong1 jian1 chuan2 dong4 zhou2 zong3 cheng2	1
+汽车防追尾装置	qi4 che1 fang2 zhui1 wei3 zhuang1 zhi4	1
+电瓶盖板	dian4 ping2 gai4 ban3	1
+缩微图纸	suo1 wei1 tu2 zhi3	1
+复合行星齿轮	fu4 he2 xing2 xing1 chi3 lun2	1
+右后车门玻璃	you4 hou4 che1 men2 bo1 li2	1
+一汽大众汽车俱乐部	yi1 qi4 da4 zhong4 qi4 che1 ju4 le4 bu4	1
+夏茅汽车客运站	xia4 mao2 qi4 che1 ke4 yun4 zhan4	1
+暖风机出风口	nuan3 feng1 ji1 chu1 feng1 kou3	1
+汽车机械制图	qi4 che1 ji1 xie4 zhi4 tu2	1
+轮罩	lun2 zhao4	1
+英国劳斯莱斯集团	ying1 guo2 lao2 si1 lai2 si1 ji2 tuan2	1
+倒车视频影像	dao4 che1 shi4 pin2 ying3 xiang4	1
+佛轮尔	fu2 lun2 er3	1
+车坛百分百	che1 tan2 bai3 fen1 bai3	1
+旋转分流阀	xuan2 zhuan3 fen1 liu2 fa2	1
+时规涨紧轮	shi2 gui1 zhang3 jin3 lun2	1
+总成吊装设备	zong3 cheng2 diao4 zhuang1 she4 bei4	1
+机油压力感应器	ji1 you2 ya1 li4 gan3 ying1 qi4	1
+内室镜	nei4 shi4 jing4	1
+高音倒模	gao1 yin1 dao4 mo2	1
+后尾灯支架	hou4 wei3 deng1 zhi1 jia4	1
+无线遥控防盗锁	wu2 xian4 yao2 kong4 fang2 dao4 suo3	1
+空气滤芯总成	kong1 qi4 lv4 xin1 zong3 cheng2	1
+吉里耶塔	ji2 li3 ye2 ta3	1
+车身清洗设备	che1 shen1 qing1 xi3 she4 bei4	1
+浙江车网	zhe4 jiang1 che1 wang3	1
+车门折页	che1 men2 zhe2 ye4	1
+自动排档变速箱	zi4 dong4 pai2 dang4 bian4 su4 xiang1	1
+植草喷播车	zhi2 cao3 pen1 bo1 che1	1
+转子传感器	zhuan3 zi5 chuan2 gan3 qi4	1
+汽车运行作业计划	qi4 che1 yun4 xing2 zuo4 ye4 ji4 hua4	1
+汽车挡位数	qi4 che1 dang3 wei4 shu4	1
+手继动阀	shou3 ji4 dong4 fa2	1
+骆驼电瓶	luo4 tuo2 dian4 ping2	1
+偏心轴位置传感器	pian1 xin1 zhou2 wei4 zhi4 chuan2 gan3 qi4	1
