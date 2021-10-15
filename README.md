@@ -12,14 +12,9 @@
 - ![visitors](https://visitor-badge.laobi.icu/badge?page_id=SivanLaai/rime-pure)
 
 ## 包含输入方案
-<<<<<<< HEAD
  - [🍀️四叶草拼音九宫格](https://github.com/SivanLaai/rime-pure)（**同文最新版本因为修改了选择栏的逻辑，所以导致不能正常的选字，要使用这个方案建议使用同文3.2.0，[点击查看问题原因](https://github.com/osfans/trime/issues/524)**）
- - [极点五笔](https://github.com/KyleBing/rime-wubi86-jidian)
-=======
- - [四叶草拼音九宫格](https://github.com/SivanLaai/rime-pure) 
  - [四叶草地球拼音](https://github.com/SivanLaai/rime-pure/tree/master/schemes/Clover%E5%9B%9B%E5%8F%B6%E8%8D%89%E5%9C%B0%E7%90%83%E6%8B%BC%E9%9F%B3) 
- - [极点五笔](https://github.com/KyleBing/rime-wubi86-jidian) 
->>>>>>> 6b0f6ce91106b15c493322beb0bd93014502c988
+ - [极点五笔](https://github.com/KyleBing/rime-wubi86-jidian)
  - [小鹤双拼](https://www.flypy.com/index.html)
  - [🍀️四叶草简体拼音](https://github.com/fkxxyz/rime-cloverpinyin)
  - 大写数字
@@ -118,11 +113,10 @@
 
 ## 更新历史
 
-<<<<<<< HEAD
 #### 2021-10-14
 
  - 1.同步更新同文官方支持的剪切板功能，可以查看剪切板和最近表情包历史，使用更为灵活的符号菜单。
-=======
+
 #### 2021-09-01
 
  - 1.前前后后、零零碎碎一共花了十来天地时间完成基于四叶草词库的地球拼音输入方案。

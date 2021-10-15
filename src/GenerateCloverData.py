@@ -32,7 +32,7 @@ def fixes_spell():
     new_path = './Clover四叶草拼音new'
     if not os.path.exists(new_path):
         os.mkdir(f'{new_path}')
-    
+
     exists_file = list()
     for file_now in os.listdir(path):
         curr_path = os.path.join(path, file_now)
@@ -267,14 +267,9 @@ def generatePinyins(keyword, pinyinStyle=PinyinStyle.TONE_POLYPHONE_WITH_PHRASE)
     #pinyinList = pinyin(keyword, style=Style.NORMAL, heteronym=True)
     pinyins = list()
     try:
-<<<<<<< HEAD
-        pinyinList = getPinyin(keyword)
-        #print(pinyinList)
-=======
         pinyinList = pdb.getPinyin(keyword, pinyinStyle)
         #print(pinyinList)
         pinyinList = getSinglePinyins(keyword, pinyinList)
->>>>>>> 6b0f6ce91106b15c493322beb0bd93014502c988
         currPinyin = list()
         firstPinyin = 1
         for curr_index in range(len(pinyinList[0])):
@@ -289,7 +284,7 @@ def generatePinyins(keyword, pinyinStyle=PinyinStyle.TONE_POLYPHONE_WITH_PHRASE)
 def fixesBigDictErrorsWithMultiplePinyin():
     path = './Clover四叶草拼音'
     new_path = './Clover四叶草拼音new'
-    
+
     if not os.path.exists(new_path):
         os.mkdir(f'{new_path}')
     for file_now in os.listdir(path):
@@ -328,7 +323,7 @@ def fixesBigDictErrorsWithMultiplePinyin():
 def generateCloverPinyins():
     path = './Clover四叶草拼音'
     new_path = './Clover四叶草拼音new'
-    
+
     if not os.path.exists(new_path):
         os.mkdir(f'{new_path}')
     for file_now in os.listdir(path):
@@ -344,10 +339,6 @@ def generateCloverPinyins():
             elif "\t" in line:
                 keyword = line.split('\t')[0]
                 pinyin_old = line.split('\t')[1].strip()
-<<<<<<< HEAD
-                print([pinyin_old])
-                pinyin_list = generatePinyins(keyword)
-=======
                 count_str = line.split('\t')[-1].strip().replace(" ", '').replace("?", '')
                 keyPinyinDict = dict()
                 for key in keyword:
@@ -360,7 +351,6 @@ def generateCloverPinyins():
                         keyPinyinDict[key][plainPinyins[i]] = weights[i]
                 #print([pinyin_old])
                 pinyin_list = generatePinyins(keyword, pinyinStyle=PinyinStyle.PLAIN_POLYPHONE_WITH_PHRASE)
->>>>>>> 6b0f6ce91106b15c493322beb0bd93014502c988
                 #print(pinyin_list)
                 if len(pinyin_list) == 0:
                     new_file.write(line)
@@ -380,15 +370,6 @@ def generateCloverPinyins():
                         ratio = []
                         pinyin = " ".join(pinyin).split(" ")
                         currPinyin = " ".join(pinyin)
-<<<<<<< HEAD
-                        newLine = line.replace(pinyin_old, currPinyin)
-                        #if currPinyin == pinyin_old:
-                        if newLine == line:
-                            print([currPinyin])
-                            print()
-                        new_file.write(newLine)
-                        new_file.flush()
-=======
                         for i in range(len(pinyin)):
                             if keyword[i] not in pdb.homographWeightDict:
                                 pass
@@ -409,7 +390,6 @@ def generateCloverPinyins():
                     newLine = line.replace(pinyin_old, maxPinyin)
                     new_file.write(newLine)
                     new_file.flush()
->>>>>>> 6b0f6ce91106b15c493322beb0bd93014502c988
             else:
                 new_file.write(line)
                 new_file.flush()
@@ -493,11 +473,6 @@ def generateTerraPinyins():
         new_file.close()
 if __name__ == "__main__":
     #generateNewBaseDict()
-<<<<<<< HEAD
-    pinyins = generatePinyins("的话")
-    print(pinyins)
-    #fixesBigDictErrors()
-=======
     pinyins = generatePinyins("小君")
     print(pinyins)
     currPinyin = " ".join(pinyins[0])
@@ -505,4 +480,3 @@ if __name__ == "__main__":
     print(pinyin)
     generateTerraBasePinyins()
     #generateCloverPinyins()
->>>>>>> 6b0f6ce91106b15c493322beb0bd93014502c988
