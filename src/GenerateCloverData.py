@@ -259,7 +259,7 @@ def generatePinyins(keyword):
     pinyins = list()
     try:
         pinyinList = getPinyin(keyword)
-        print(pinyinList)
+        #print(pinyinList)
         currPinyin = list()
         firstPinyin = 1
         for curr_index in range(len(pinyinList[0])):
@@ -320,14 +320,16 @@ def fixesBigDictErrors():
         new_file_path = os.path.join(new_path, file_now)
         curr_path = os.path.join(path, file_now)
         new_file = open(new_file_path, 'w', encoding="utf-8")
-        for line in open(curr_path, encoding='utf-8'):
+        for line in open(curr_path, 'r', encoding='utf-8'):
+            #new_file.write(line)
+            #new_file.flush()
             if "base" in curr_path:
                 new_file.write(line)
                 new_file.flush()
             elif "\t" in line:
                 keyword = line.split('\t')[0]
                 pinyin_old = line.split('\t')[1].strip()
-                count_str = line.split('\t')[-1].strip().replace(" ", '')
+                print([pinyin_old])
                 pinyin_list = generatePinyins(keyword)
                 #print(pinyin_list)
                 if len(pinyin_list) == 0:
@@ -337,6 +339,10 @@ def fixesBigDictErrors():
                     for pinyin in pinyin_list:
                         currPinyin = " ".join(pinyin)
                         newLine = line.replace(pinyin_old, currPinyin)
+                        #if currPinyin == pinyin_old:
+                        if newLine == line:
+                            print([currPinyin])
+                            print()
                         new_file.write(newLine)
                         new_file.flush()
             else:
@@ -348,5 +354,6 @@ def fixesBigDictErrors():
 
 if __name__ == "__main__":
     #generateNewBaseDict()
-    pinyins = generatePinyins("弹出去")
-    fixesBigDictErrors()
+    pinyins = generatePinyins("的话")
+    print(pinyins)
+    #fixesBigDictErrors()

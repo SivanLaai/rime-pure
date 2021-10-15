@@ -19,7 +19,7 @@ switches:
     states: [ 中, 英 ]
   - name: full_shape
     states: [ 半, 全 ]
-  - name: zh_simp_s2t 
+  - name: zh_simp_s2t
     states: [ 简, 繁 ]
     reset: 0
   - name: ascii_punct
@@ -77,14 +77,14 @@ translator:
   dictionary: clover
   prism: clover_jiugong
   spelling_hints: 16 # ～字以內候選標註完整帶調拼音
-  enable_sentence: true               
-  enable_user_dict: true               
-  enable_encoder: true                 
-  encode_commit_history: true          
-  max_phrase_length: 10     
-  user_dict: user                                                      
-  db_class: tabledb                     
-  disable_user_dict_for_patterns:       
+  enable_sentence: true
+  enable_user_dict: true
+  enable_encoder: true
+  encode_commit_history: true
+  max_phrase_length: 10
+  user_dict: user
+  db_class: tabledb
+  disable_user_dict_for_patterns:
     - "^z.*$"
   preedit_format:
     - xform/([nl])v/$1ü/
@@ -116,7 +116,7 @@ punctuator:
 
 key_binder:
   import_preset: default
-  
+
 simplifier:
   option_name: zh_simp_s2t
   opencc_config: s2t.json

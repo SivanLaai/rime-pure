@@ -12,8 +12,8 @@
 - ![visitors](https://visitor-badge.laobi.icu/badge?page_id=SivanLaai/rime-pure)
 
 ## 包含输入方案
- - [四叶草拼音九宫格](https://github.com/SivanLaai/rime-pure) 
- - [极点五笔](https://github.com/KyleBing/rime-wubi86-jidian) 
+ - [🍀️四叶草拼音九宫格](https://github.com/SivanLaai/rime-pure)（**同文最新版本因为修改了选择栏的逻辑，所以导致不能正常的选字，要使用这个方案建议使用同文3.2.0，[点击查看问题原因](https://github.com/osfans/trime/issues/524)**）
+ - [极点五笔](https://github.com/KyleBing/rime-wubi86-jidian)
  - [小鹤双拼](https://www.flypy.com/index.html)
  - [🍀️四叶草简体拼音](https://github.com/fkxxyz/rime-cloverpinyin)
  - 大写数字
@@ -25,35 +25,29 @@
 
 ## 实用功能：
 ### 同文端
-- 隐藏输入法：全键盘状态下按键G向下滑，九宫格状态下按[分词键]向下滑
-- 编辑功能：全键盘状态下长按G，九宫格状态下按编辑键，可实现复制粘贴拷贝等功能
-- 清空文本：删除键向左滑会清,空当前编辑文本
+- 隐藏输入法：全键盘状态下按键```G```向下滑，九宫格状态下按```分词键```向下滑
+- 编辑功能：全键盘状态下长按```G```，九宫格状态下按```编辑```键，可实现复制粘贴拷贝等功能
+- 清空文本：删除键向左滑会清空当前编辑文本
 - 切换主题：空当前编辑文本长按带❖的按键切换主题
 - 切换输入法：长按带✎的按键切换输入方案
 - 更多设置：长按带设置符号⚙的按键，既可进入更多设置页面
+- 表情\剪切板\符号功能板：全键盘状态下按```?123```->```更多```键，九宫格状态下按```符```键
 
-## 界面预览：
-### 小狼毫输入法（PC端）
-- 简约现代蓝[配色：XNOM]
-
-![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/preview_blue.2lyjsr0q0cu0.png)
-- 绿野仙踪绿[配色：佛振]
-
-![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/preview_green.6b8wbkfogzc0.png)
-- Aqua[配色：佛振]
-
-![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/preview_blue1.1zkbreawyluo.png)
-- 安卓[配色：Patricivs]
-
-![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/preview_android.752cop13gfg0.png)
-- 暗堂[配色：佛振]
-
-![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/preview_dark.fn4qmzlq1i8.png)
-- 孤寺[配色佛振]
-
-![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/preview_temple.eba0ht77dio.png)
-
+## 预览：
 ### 同文输入法（安卓端）
+
+##### 表情\剪切板\符号功能板
+历史记录栏
+
+<img src="https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/clipboard2.3tyjgfvf6x40.jpg" width=400>
+
+剪切板
+
+<img src="https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/clipboard.466h70ifs0i0.jpg" width=400>
+
+表情包
+
+<img src="https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/clipboard1.7kten0vv8uo0.jpg" width=400>
 
 ##### 🍀️四叶草九宫输入方案
 ![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/trime_preview_jiugong.3vyf36hha4q0.jpg)
@@ -91,6 +85,25 @@
 ##### 炫彩[键盘布局：Jaaiko]
 
 ![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/trime_xuancai.5k9xzrtj80o0.png)
+### 小狼毫输入法（PC端）
+- 简约现代蓝[配色：XNOM]
+
+![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/preview_blue.2lyjsr0q0cu0.png)
+- 绿野仙踪绿[配色：佛振]
+
+![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/preview_green.6b8wbkfogzc0.png)
+- Aqua[配色：佛振]
+
+![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/preview_blue1.1zkbreawyluo.png)
+- 安卓[配色：Patricivs]
+
+![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/preview_android.752cop13gfg0.png)
+- 暗堂[配色：佛振]
+
+![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/preview_dark.fn4qmzlq1i8.png)
+- 孤寺[配色佛振]
+
+![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/preview_temple.eba0ht77dio.png)
 
 
 ## 安装方法
@@ -98,6 +111,10 @@
 - [查看安装方法](https://sivanlaai.github.io/pages/7128fc/)
 
 ## 更新历史
+
+#### 2021-10-14
+
+ - 1.同步更新同文官方支持的剪切板功能，可以查看剪切板和最近表情包历史，使用更为灵活的符号菜单。
 
 #### 2021-08-18
 
@@ -170,9 +187,9 @@
 
 谢谢！ :heart:
 
-| 支付宝 | 支付宝 |
+| 微信 | 支付宝 |
 | :---: | :---: |
-| <img src="https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/a45c35cd5575760621be4b38e92f96a.48oklhe4a6g0.jpg" alt="Wechat QRcode" width=200>| <img src="https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/a45c35cd5575760621be4b38e92f96a.48oklhe4a6g0.jpg" alt="Alipay QRcode" width=200> |
+| <img src="https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/wechatpay.633o70e2s680.png" alt="Wechat QRcode" width=200>| <img src="https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/alipay.71u9hcw5res0.jpg" alt="Alipay QRcode" width=200> |
 
 ## 许可证
 [MIT](https://github.com/SivanLaai/rime_pure/blob/master/LICENSE)
