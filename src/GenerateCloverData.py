@@ -32,7 +32,7 @@ def fixes_spell():
     new_path = './Clover四叶草拼音new'
     if not os.path.exists(new_path):
         os.mkdir(f'{new_path}')
-
+    
     exists_file = list()
     for file_now in os.listdir(path):
         curr_path = os.path.join(path, file_now)
@@ -263,13 +263,13 @@ def getSinglePinyins(keyword, pinyinList):
             pinyinList.append(homoDict[key]["pinyins"])
     return pinyinList
 
-def generatePinyins(keyword, pinyinStyle=PinyinStyle.TONE_POLYPHONE_WITH_PHRASE):
+def generatePinyins(keyword, pinyinStyle=PinyinStyle.PLAIN_POLYPHONE_WITH_PHRASE):
     #pinyinList = pinyin(keyword, style=Style.NORMAL, heteronym=True)
     pinyins = list()
     try:
         pinyinList = pdb.getPinyin(keyword, pinyinStyle)
         #print(pinyinList)
-        pinyinList = getSinglePinyins(keyword, pinyinList)
+        #pinyinList = getSinglePinyins(keyword, pinyinList)
         currPinyin = list()
         firstPinyin = 1
         for curr_index in range(len(pinyinList[0])):
@@ -284,7 +284,7 @@ def generatePinyins(keyword, pinyinStyle=PinyinStyle.TONE_POLYPHONE_WITH_PHRASE)
 def fixesBigDictErrorsWithMultiplePinyin():
     path = './Clover四叶草拼音'
     new_path = './Clover四叶草拼音new'
-
+    
     if not os.path.exists(new_path):
         os.mkdir(f'{new_path}')
     for file_now in os.listdir(path):
@@ -323,7 +323,7 @@ def fixesBigDictErrorsWithMultiplePinyin():
 def generateCloverPinyins():
     path = './Clover四叶草拼音'
     new_path = './Clover四叶草拼音new'
-
+    
     if not os.path.exists(new_path):
         os.mkdir(f'{new_path}')
     for file_now in os.listdir(path):
@@ -387,9 +387,9 @@ def generateCloverPinyins():
                         if sumRatio > maxSumRatio:
                             maxSumRatio = sumRatio
                             maxPinyin = currPinyin
-                    newLine = line.replace(pinyin_old, maxPinyin)
-                    new_file.write(newLine)
-                    new_file.flush()
+                        newLine = line.replace(pinyin_old, currPinyin)
+                        new_file.write(newLine)
+                        new_file.flush()
             else:
                 new_file.write(line)
                 new_file.flush()
@@ -473,10 +473,7 @@ def generateTerraPinyins():
         new_file.close()
 if __name__ == "__main__":
     #generateNewBaseDict()
-    pinyins = generatePinyins("小君")
+    pinyins = generatePinyins("这么厉害反弹")
     print(pinyins)
-    currPinyin = " ".join(pinyins[0])
-    pinyin = pdb.formatMarkPinyin(currPinyin)
-    print(pinyin)
-    generateTerraBasePinyins()
-    #generateCloverPinyins()
+    #generateTerraBasePinyins()
+    generateCloverPinyins()

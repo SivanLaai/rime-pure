@@ -13,7 +13,7 @@
 
 ## 包含输入方案
  - [🍀️四叶草拼音九宫格](https://github.com/SivanLaai/rime-pure)（**同文最新版本因为修改了选择栏的逻辑，所以导致九宫格不能正常的选字，要使用这个方案建议使用同文3.2.0，[点击查看问题原因](https://github.com/osfans/trime/issues/524)**）
- - [四叶草地球拼音](https://github.com/SivanLaai/rime-pure/tree/master/schemes/Clover%E5%9B%9B%E5%8F%B6%E8%8D%89%E5%9C%B0%E7%90%83%E6%8B%BC%E9%9F%B3) 
+ - [四叶草地球拼音](https://github.com/SivanLaai/rime-pure/tree/master/schemes/Clover%E5%9B%9B%E5%8F%B6%E8%8D%89%E5%9C%B0%E7%90%83%E6%8B%BC%E9%9F%B3)
  - [极点五笔](https://github.com/KyleBing/rime-wubi86-jidian)
  - [小鹤双拼](https://www.flypy.com/index.html)
  - [🍀️四叶草简体拼音](https://github.com/fkxxyz/rime-cloverpinyin)
@@ -113,6 +113,9 @@
 
 ## 更新历史
 
+#### 2021-10-20
+ - 1.四叶草拼音的权重调整为最大概率保留，同时是以词组进行切割的，例如弹出如果是分词的话就是tanchu，不会再出现danchu的拼音，如果弹出不是一个完整的分词那拼音可能是按单个字保留拼音的最大概率。主要改动在[src/GenerateCloverData.py](./src/GenerateCloverData.py)。
+
 #### 2021-10-17
  - 1.修复同文端繁简转换opencc资源文件为最新的ocd2，小狼毫端暂时不支持ocd2。
 
@@ -129,7 +132,7 @@
 #### 2021-08-30
 
  - 1.四叶草支持多音字，最大程序的避免拼音错误，同时是以词组来分词的所以，不至于对所有的词组进行挨个多音字支持，而是优先词组。
- 
+
  例如```弹出```分词后还是```弹出```，所以只有tan chu的拼音，如果分词为```弹\出```的话，则拼音会有tan chu 和 dan chu
  - 2.四叶草保留最大概率拼音词组，例如```是不```其中```不```为多音字，```不```的拼音有```bu```和```fou```，基于四叶草统计概率，```bu```的拼音概率更高，如果不是在词组的情况下，单字以```bu```为优先。
 

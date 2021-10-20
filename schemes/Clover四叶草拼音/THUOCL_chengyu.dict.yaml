@@ -62,7 +62,6 @@ sort: by_weight
 应运而生	ying yun er sheng	14881
 与众不同	yu zhong bu tong	14801
 触目惊心	chu mu jing xin	14766
-屡见不鲜	lü jian bu xian	14553
 屡见不鲜	lv jian bu xian	14553
 无独有偶	wu du you ou	14457
 行之有效	xing zhi you xiao	14353
@@ -110,7 +109,6 @@ sort: by_weight
 理所当然	li suo dang ran	11591
 耳熟能详	er shu neng xiang	11453
 由来已久	you lai yi jiu	11434
-一模一样	yi mu yi yang	11401
 一模一样	yi mo yi yang	11401
 厉行节约	li xing jie yue	11378
 恶性循环	e xing xun huan	11335
@@ -201,7 +199,6 @@ sort: by_weight
 与日俱增	yu ri ju zeng	8529
 衣食住行	yi shi zhu xing	8510
 精心设计	jing xin she ji	8470
-精心设计	qing xin she ji	8470
 急功近利	ji gong jin li	8454
 鲜为人知	xian wei ren zhi	8450
 根深蒂固	gen shen di gu	8431
@@ -264,18 +261,15 @@ sort: by_weight
 深入浅出	shen ru qian chu	7338
 自始至终	zi shi zhi zhong	7337
 捉襟见肘	zhuo jin jian zhou	7337
-捉襟见肘	zhuo jin xian zhou	7337
 拒之门外	ju zhi men wai	7328
 望而却步	wang er que bu	7322
 默默无闻	mo mo wu wen	7300
 顺理成章	shun li cheng zhang	7282
 难能可贵	nan neng ke gui	7237
 来龙去脉	lai long qu mai	7236
-来龙去脉	lai long qu mo	7236
 不谋而合	bu mou er he	7221
 清清楚楚	qing qing chu chu	7218
 如出一辙	ru chu yi zhe	7209
-如出一辙	ru chu yi che	7209
 提心吊胆	ti xin diao dan	7205
 徇私舞弊	xun si wu bi	7194
 一无所知	yi wu suo zhi	7151
@@ -358,29 +352,11 @@ sort: by_weight
 聚精会神	ju jing hui shen	6100
 承前启后	cheng qian qi hou	6092
 杯水车薪	bei shui che xin	6092
-杯水车薪	bei shui ju xin	6092
 一网打尽	yi wang da jin	6088
 开花结果	kai hua jie guo	6073
 慷慨解囊	kang kai jie nang	6053
 素不相识	su bu xiang shi	6050
 重建家园	zhong jian jia yuan	6048
-重建家园	zhong jian jia wan	6048
-重建家园	zhong jian jie yuan	6048
-重建家园	zhong jian jie wan	6048
-重建家园	zhong jian gu yuan	6048
-重建家园	zhong jian gu wan	6048
-重建家园	chong jian jia yuan	6048
-重建家园	chong jian jia wan	6048
-重建家园	chong jian jie yuan	6048
-重建家园	chong jian jie wan	6048
-重建家园	chong jian gu yuan	6048
-重建家园	chong jian gu wan	6048
-重建家园	tong jian jia yuan	6048
-重建家园	tong jian jia wan	6048
-重建家园	tong jian jie yuan	6048
-重建家园	tong jian jie wan	6048
-重建家园	tong jian gu yuan	6048
-重建家园	tong jian gu wan	6048
 长此以往	chang ci yi wang	6047
 无可争辩	wu ke zheng bian	6047
 格格不入	ge ge bu ru	6005
@@ -416,7 +392,6 @@ sort: by_weight
 置之不理	zhi zhi bu li	5655
 轻而易举	qing er yi ju	5631
 人来人往	ren lai ren wang	5626
-青山绿水	qing shan lü shui	5619
 青山绿水	qing shan lv shui	5619
 齐头并进	qi tou bing jin	5613
 一筹莫展	yi chou mo zhan	5585
@@ -472,7 +447,6 @@ sort: by_weight
 壮士断腕	zhuang shi duan wan	5158
 雄心勃勃	xiong xin bo bo	5152
 崭露头角	zhan lu tou jiao	5152
-崭露头角	zhan lu tou jue	5152
 以点带面	yi dian dai mian	5145
 学以致用	xue yi zhi yong	5143
 心中有数	xin zhong you shu	5132
@@ -481,7 +455,6 @@ sort: by_weight
 不择手段	bu ze shou duan	5114
 大起大落	da qi da luo	5082
 不厌其烦	bu yan qi fan	5081
-一针见血	yi zhen jian xie	5076
 一针见血	yi zhen jian xue	5076
 四通八达	si tong ba da	5075
 不可开交	bu ke kai jiao	5061
@@ -501,7 +474,6 @@ sort: by_weight
 风云变幻	feng yun bian huan	4958
 公正廉洁	gong zheng lian jie	4946
 茁壮成长	zhuo zhuang cheng zhang	4945
-千丝万缕	qian si wan lü	4944
 千丝万缕	qian si wan lv	4944
 一步一个脚印	yi bu yi ge jiao yin	4943
 奋不顾身	fen bu gu shen	4939
@@ -668,7 +640,6 @@ sort: by_weight
 恼羞成怒	nao xiu cheng nu	4018
 天壤之别	tian rang zhi bie	4017
 咄咄逼人	duo duo bi ren	4016
-千篇一律	qian pian yi lü	4011
 千篇一律	qian pian yi lv	4011
 寸步难行	cun bu nan xing	4007
 嘘寒问暖	xu han wen nuan	4004
@@ -680,11 +651,9 @@ sort: by_weight
 瞠目结舌	cheng mu jie she	3969
 长途跋涉	chang tu ba she	3962
 有说有笑	you shuo you xiao	3956
-严于律己	yan yu lü ji	3955
 严于律己	yan yu lv ji	3955
 群策群力	qun ce qun li	3953
 前车之鉴	qian che zhi jian	3952
-前车之鉴	qian ju zhi jian	3952
 一拥而上	yi yong er shang	3951
 毋庸讳言	wu yong hui yan	3950
 违法乱纪	wei fa luan ji	3949
@@ -740,7 +709,6 @@ sort: by_weight
 言传身教	yan chuan shen jiao	3721
 浴血奋战	yu xue fen zhan	3716
 充满生机	chong man sheng ji	3716
-充满生机	chong man sheng wei	3716
 大惊小怪	da jing xiao guai	3700
 转危为安	zhuan wei wei an	3695
 见缝插针	jian feng cha zhen	3691
@@ -861,7 +829,6 @@ sort: by_weight
 走投无路	zou tou wu lu	3171
 令行禁止	ling xing jin zhi	3170
 重蹈覆辙	chong dao fu zhe	3170
-重蹈覆辙	chong dao fu che	3170
 无时无刻	wu shi wu ke	3168
 成家立业	cheng jia li ye	3167
 炎黄子孙	yan huang zi sun	3167
@@ -884,13 +851,6 @@ sort: by_weight
 壮烈牺牲	zhuang lie xi sheng	3123
 大有裨益	da you bi yi	3122
 铺平道路	pu ping dao lu	3120
-铺平道路	pu ping dao luo	3120
-铺平道路	pu pian dao lu	3120
-铺平道路	pu pian dao luo	3120
-铺平道路	pu bing dao lu	3120
-铺平道路	pu bing dao luo	3120
-铺平道路	pu beng dao lu	3120
-铺平道路	pu beng dao luo	3120
 防微杜渐	fang wei du jian	3119
 无影无踪	wu ying wu zong	3118
 举手之劳	ju shou zhi lao	3116
@@ -910,7 +870,6 @@ sort: by_weight
 热血沸腾	re xue fei teng	3068
 左右为难	zuo you wei nan	3067
 风平浪静	feng ping lang jing	3063
-如履薄冰	ru lü bo bing	3061
 如履薄冰	ru lv bo bing	3061
 先天不足	xian tian bu zu	3056
 招摇撞骗	zhao yao zhuang pian	3056
@@ -943,7 +902,6 @@ sort: by_weight
 大显身手	da xian shen shou	2968
 兴旺发达	xing wang fa da	2968
 头破血流	tou po xue liu	2963
-头破血流	tou po xie liu	2963
 浑水摸鱼	hun shui mo yu	2957
 不容置疑	bu rong zhi yi	2944
 孜孜不倦	zi zi bu juan	2943
@@ -963,7 +921,6 @@ sort: by_weight
 步调一致	bu diao yi zhi	2909
 憨态可掬	han tai ke ju	2907
 蒙在鼓里	meng zai gu li	2905
-屡教不改	lü jiao bu gai	2902
 屡教不改	lv jiao bu gai	2902
 歪风邪气	wai feng xie qi	2901
 失之交臂	shi zhi jiao bi	2899
@@ -971,8 +928,6 @@ sort: by_weight
 平心而论	ping xin er lun	2894
 不在话下	bu zai hua xia	2893
 还本付息	hai ben fu xi	2890
-还本付息	huan ben fu xi	2890
-还本付息	fu ben fu xi	2890
 担惊受怕	dan jing shou pa	2890
 约定俗成	yue ding su cheng	2888
 廉洁奉公	lian jie feng gong	2883
@@ -1093,9 +1048,6 @@ sort: by_weight
 东山再起	dong shan zai qi	2584
 锒铛入狱	lang dang ru yu	2584
 轻车简从	qing che jian cong	2584
-轻车简从	qing che jian zong	2584
-轻车简从	qing ju jian cong	2584
-轻车简从	qing ju jian zong	2584
 通力合作	tong li he zuo	2580
 石沉大海	shi chen da hai	2575
 隐姓埋名	yin xing mai ming	2573
@@ -1105,7 +1057,6 @@ sort: by_weight
 千头万绪	qian tou wan xu	2565
 冰天雪地	bing tian xue di	2559
 奋发向上	fen fa xiang shang	2556
-奋发向上	kang fa xiang shang	2556
 后起之秀	hou qi zhi xiu	2546
 谨言慎行	jin yan shen xing	2546
 时过境迁	shi guo jing qian	2541
@@ -1130,7 +1081,6 @@ sort: by_weight
 今非昔比	jin fei xi bi	2499
 拉帮结派	la bang jie pai	2494
 摸不着头脑	mo bu zhao tou nao	2492
-无忧无虑	wu you wu lü	2490
 无忧无虑	wu you wu lv	2490
 手舞足蹈	shou wu zu dao	2486
 千呼万唤	qian hu wan huan	2483
@@ -1208,7 +1158,6 @@ sort: by_weight
 酣畅淋漓	han chang lin li	2329
 带头作用	dai tou zuo yong	2325
 南辕北辙	nan yuan bei zhe	2324
-南辕北辙	nan yuan bei che	2324
 自由自在	zi you zi zai	2324
 风风火火	feng feng huo huo	2319
 冒名顶替	mao ming ding ti	2314
@@ -1301,7 +1250,6 @@ sort: by_weight
 通宵达旦	tong xiao da dan	2164
 一掷千金	yi zhi qian jin	2163
 言之凿凿	yan zhi zao zao	2161
-言之凿凿	yan zhi zuo zuo	2161
 挥汗如雨	hui han ru yu	2156
 天衣无缝	tian yi wu feng	2155
 不知何故	bu zhi he gu	2155
@@ -1354,7 +1302,6 @@ sort: by_weight
 穿针引线	chuan zhen yin xian	2077
 过关斩将	guo guan zhan jiang	2073
 闭门造车	bi men zao che	2072
-闭门造车	bi men zao ju	2072
 迎头赶上	ying tou gan shang	2071
 入乡随俗	ru xiang sui su	2071
 不堪一击	bu kan yi ji	2070
@@ -1396,12 +1343,10 @@ sort: by_weight
 恰如其分	qia ru qi fen	2026
 经久不息	jing jiu bu xi	2025
 千姿百态	qian zi bai tai	2023
-步履蹒跚	bu lü pan shan	2023
 步履蹒跚	bu lv pan shan	2023
 休养生息	xiu yang sheng xi	2022
 风靡一时	feng mi yi shi	2022
 不明不白	bu ming bu bai	2019
-重男轻女	zhong nan qing nü	2019
 重男轻女	zhong nan qing nv	2019
 唇枪舌剑	chun qiang she jian	2019
 家破人亡	jia po ren wang	2019
@@ -1413,7 +1358,6 @@ sort: by_weight
 百感交集	bai gan jiao ji	2003
 互通有无	hu tong you wu	2002
 国泰民安	guo tai min an	1997
-西装革履	xi zhuang ge lü	1997
 西装革履	xi zhuang ge lv	1997
 百年不遇	bai nian bu yu	1996
 扶危济困	fu wei ji kun	1996
@@ -1421,7 +1365,6 @@ sort: by_weight
 纹丝不动	wen si bu dong	1995
 人才辈出	ren cai bei chu	1991
 艰难困苦	jian nan kun ku	1991
-步履维艰	bu lü wei jian	1991
 步履维艰	bu lv wei jian	1991
 付之一炬	fu zhi yi ju	1990
 众望所归	zhong wang suo gui	1989
@@ -1470,14 +1413,12 @@ sort: by_weight
 湖光山色	hu guang shan se	1921
 问心无愧	wen xin wu kui	1920
 长年累月	chang nian lei yue	1920
-乍暖还寒	zha nuan huan han	1917
 乍暖还寒	zha nuan hai han	1917
 多管闲事	duo guan xian shi	1917
 后继有人	hou ji you ren	1916
 踌躇满志	chou chu man zhi	1914
 背水一战	bei shui yi zhan	1913
 天南海北	tian nan hai bei	1911
-花花绿绿	hua hua lü lü	1909
 花花绿绿	hua hua lv lv	1909
 一语道破	yi yu dao po	1909
 拨乱反正	bo luan fan zheng	1908
@@ -1510,8 +1451,6 @@ sort: by_weight
 一锤定音	yi chui ding yin	1865
 操之过急	cao zhi guo ji	1864
 严重错误	yan zhong cuo wu	1864
-严重错误	yan chong cuo wu	1864
-严重错误	yan tong cuo wu	1864
 填海造地	tian hai zao di	1863
 心潮澎湃	xin chao peng pai	1863
 翻来覆去	fan lai fu qu	1863
@@ -1523,9 +1462,6 @@ sort: by_weight
 大声疾呼	da sheng ji hu	1854
 杂乱无章	za luan wu zhang	1853
 长足进展	zhang zu jin zhan	1851
-长足进展	zhang ju jin zhan	1851
-长足进展	chang zu jin zhan	1851
-长足进展	chang ju jin zhan	1851
 临危不惧	lin wei bu ju	1850
 奋起直追	fen qi zhi zhui	1849
 顶天立地	ding tian li di	1848
@@ -1591,7 +1527,6 @@ sort: by_weight
 左顾右盼	zuo gu you pan	1779
 欢天喜地	huan tian xi di	1776
 前所未见	qian suo wei jian	1776
-像模像样	xiang mu xiang yang	1776
 像模像样	xiang mo xiang yang	1776
 海阔天空	hai kuo tian kong	1775
 受制于人	shou zhi yu ren	1775
@@ -1611,7 +1546,6 @@ sort: by_weight
 物尽其用	wu jin qi yong	1763
 一语中的	yi yu zhong di	1762
 大快人心	da kuai ren xin	1761
-屡试不爽	lü shi bu shuang	1757
 屡试不爽	lv shi bu shuang	1757
 面红耳赤	mian hong er chi	1757
 迥然不同	jiong ran bu tong	1756
@@ -1636,7 +1570,6 @@ sort: by_weight
 天时地利人和	tian shi di li ren he	1732
 干净利落	gan jing li luo	1730
 独断专行	du duan zhuan xing	1728
-处心积虑	chu xin ji lü	1728
 处心积虑	chu xin ji lv	1728
 切中要害	qie zhong yao hai	1727
 朴实无华	pu shi wu hua	1725
@@ -1653,7 +1586,6 @@ sort: by_weight
 虎头蛇尾	hu tou she wei	1702
 蜻蜓点水	qing ting dian shui	1701
 抽丝剥茧	chou si bo jian	1701
-抽丝剥茧	chou si bao jian	1701
 分崩离析	fen beng li xi	1701
 心有余而力不足	xin you yu er li bu zu	1700
 千山万水	qian shan wan shui	1699
@@ -1694,13 +1626,6 @@ sort: by_weight
 一穷二白	yi qiong er bai	1658
 无所畏惧	wu suo wei ju	1658
 捏了一把汗	nie le yi ba han	1657
-捏了一把汗	nie le yi ba gan	1657
-捏了一把汗	nie le yi pa han	1657
-捏了一把汗	nie le yi pa gan	1657
-捏了一把汗	nie liao yi ba han	1657
-捏了一把汗	nie liao yi ba gan	1657
-捏了一把汗	nie liao yi pa han	1657
-捏了一把汗	nie liao yi pa gan	1657
 出人头地	chu ren tou di	1655
 无所顾忌	wu suo gu ji	1652
 切肤之痛	qie fu zhi tong	1652
@@ -1728,7 +1653,6 @@ sort: by_weight
 既成事实	ji cheng shi shi	1625
 为国捐躯	wei guo juan qu	1623
 平起平坐	ping qi ping zuo	1623
-称心如意	chen xin ru yi	1621
 称心如意	cheng xin ru yi	1621
 各有千秋	ge you qian qiu	1621
 叱咤风云	chi zha feng yun	1620
@@ -1764,7 +1688,6 @@ sort: by_weight
 波光粼粼	bo guang lin lin	1590
 旁若无人	pang ruo wu ren	1589
 轻车熟路	qing che shu lu	1587
-轻车熟路	qing ju shu lu	1587
 节衣缩食	jie yi suo shi	1585
 默不作声	mo bu zuo sheng	1584
 肝胆相照	gan dan xiang zhao	1579
@@ -1776,11 +1699,6 @@ sort: by_weight
 延年益寿	yan nian yi shou	1569
 夸大其词	kua da qi ci	1568
 雷声大雨点小	lei sheng da yu dian xiao	1566
-雷声大雨点小	lei sheng dai yu dian xiao	1566
-雷声大雨点小	lei sheng tai yu dian xiao	1566
-雷声大雨点小	lei qing da yu dian xiao	1566
-雷声大雨点小	lei qing dai yu dian xiao	1566
-雷声大雨点小	lei qing tai yu dian xiao	1566
 伤筋动骨	shang jin dong gu	1564
 跋山涉水	ba shan she shui	1564
 前仆后继	qian pu hou ji	1563
@@ -1866,7 +1784,6 @@ sort: by_weight
 慌不择路	huang bu ze lu	1474
 发号施令	fa hao shi ling	1473
 投其所好	tou qi suo hao	1472
-故伎重演	gu ji chong yan	1470
 故伎重演	gu ji zhong yan	1470
 照本宣科	zhao ben xuan ke	1467
 绕道而行	rao dao er xing	1466
@@ -1955,7 +1872,6 @@ sort: by_weight
 藏污纳垢	cang wu na gou	1385
 上行下效	shang xing xia xiao	1384
 口干舌燥	kou gan she zao	1384
-灯红酒绿	deng hong jiu lü	1383
 灯红酒绿	deng hong jiu lv	1383
 不分青红皂白	bu fen qing hong zao bai	1382
 天有不测风云	tian you bu ce feng yun	1377
@@ -1983,7 +1899,6 @@ sort: by_weight
 胡作非为	hu zuo fei wei	1352
 街谈巷议	jie tan xiang yi	1351
 年逾古稀	nian yu gu xi	1350
-筚路蓝缕	bi lu lan lü	1350
 筚路蓝缕	bi lu lan lv	1350
 自作主张	zi zuo zhu zhang	1350
 过街老鼠	guo jie lao shu	1347
@@ -2028,7 +1943,6 @@ sort: by_weight
 欲言又止	yu yan you zhi	1321
 事不关己	shi bu guan ji	1321
 精美绝伦	jing mei jue lun	1320
-衣衫褴褛	yi shan lan lü	1318
 衣衫褴褛	yi shan lan lv	1318
 一扫而空	yi sao er kong	1318
 排山倒海	pai shan dao hai	1317
@@ -2071,9 +1985,6 @@ sort: by_weight
 蜂拥而上	feng yong er shang	1282
 狮子大开口	shi zi da kai kou	1281
 获益匪浅	huo yi fei qian	1280
-获益匪浅	huo yi fei jian	1280
-获益匪浅	huo yi fen qian	1280
-获益匪浅	huo yi fen jian	1280
 摇旗呐喊	yao qi na han	1279
 各有所长	ge you suo chang	1278
 人情世故	ren qing shi gu	1278
@@ -2140,13 +2051,6 @@ sort: by_weight
 顶礼膜拜	ding li mo bai	1224
 一丝不挂	yi si bu gua	1224
 冰冻三尺非一日之寒	bing dong san chi fei yi ri zhi han	1224
-冰冻三尺非一日之寒	bing dong san chi fei yi ri zhu han	1224
-冰冻三尺非一日之寒	bing dong san che fei yi ri zhi han	1224
-冰冻三尺非一日之寒	bing dong san che fei yi ri zhu han	1224
-冰冻三尺非一日之寒	ning dong san chi fei yi ri zhi han	1224
-冰冻三尺非一日之寒	ning dong san chi fei yi ri zhu han	1224
-冰冻三尺非一日之寒	ning dong san che fei yi ri zhi han	1224
-冰冻三尺非一日之寒	ning dong san che fei yi ri zhu han	1224
 头疼脑热	tou teng nao re	1220
 天下为公	tian xia wei gong	1219
 里应外合	li ying wai he	1219
@@ -2163,7 +2067,6 @@ sort: by_weight
 神采飞扬	shen cai fei yang	1207
 衣食父母	yi shi fu mu	1206
 舍我其谁	she wo qi shui	1206
-舍我其谁	she wo qi shei	1206
 言过其实	yan guo qi shi	1204
 低级趣味	di ji qu wei	1202
 烂熟于心	lan shu yu xin	1201
@@ -2230,23 +2133,6 @@ sort: by_weight
 一面之词	yi mian zhi ci	1154
 滴水不漏	di shui bu lou	1154
 暴涨暴跌	bao zhang bao die	1153
-暴涨暴跌	bao zhang bao tu	1153
-暴涨暴跌	bao zhang pu die	1153
-暴涨暴跌	bao zhang pu tu	1153
-暴涨暴跌	bao zhang bo die	1153
-暴涨暴跌	bao zhang bo tu	1153
-暴涨暴跌	pu zhang bao die	1153
-暴涨暴跌	pu zhang bao tu	1153
-暴涨暴跌	pu zhang pu die	1153
-暴涨暴跌	pu zhang pu tu	1153
-暴涨暴跌	pu zhang bo die	1153
-暴涨暴跌	pu zhang bo tu	1153
-暴涨暴跌	bo zhang bao die	1153
-暴涨暴跌	bo zhang bao tu	1153
-暴涨暴跌	bo zhang pu die	1153
-暴涨暴跌	bo zhang pu tu	1153
-暴涨暴跌	bo zhang bo die	1153
-暴涨暴跌	bo zhang bo tu	1153
 非此即彼	fei ci ji bi	1151
 万人空巷	wan ren kong xiang	1150
 一棍子打死	yi gun zi da si	1149
@@ -2262,7 +2148,6 @@ sort: by_weight
 平分秋色	ping fen qiu se	1141
 一诺千金	yi nuo qian jin	1140
 自行其是	zi xing qi shi	1139
-顾虑重重	gu lü chong chong	1139
 顾虑重重	gu lv chong chong	1139
 窗明几净	chuang ming ji jing	1137
 开源节流	kai yuan jie liu	1137
@@ -2296,7 +2181,6 @@ sort: by_weight
 广开言路	guang kai yan lu	1116
 威风凛凛	wei feng lin lin	1115
 露出马脚	lu chu ma jiao	1113
-露出马脚	lou chu ma jiao	1113
 百年之后	bai nian zhi hou	1112
 四脚朝天	si jiao chao tian	1111
 见利忘义	jian li wang yi	1110
@@ -2326,17 +2210,6 @@ sort: by_weight
 大红大紫	da hong da zi	1090
 历久弥坚	li jiu mi jian	1090
 有苦难言	you ku nan yan	1090
-有苦难言	you ku nan yin	1090
-有苦难言	you gu nan yan	1090
-有苦难言	you gu nan yin	1090
-有苦难言	you hu nan yan	1090
-有苦难言	you hu nan yin	1090
-有苦难言	wei ku nan yan	1090
-有苦难言	wei ku nan yin	1090
-有苦难言	wei gu nan yan	1090
-有苦难言	wei gu nan yin	1090
-有苦难言	wei hu nan yan	1090
-有苦难言	wei hu nan yin	1090
 望眼欲穿	wang yan yu chuan	1089
 捷足先登	jie zu xian deng	1089
 出于无奈	chu yu wu nai	1088
@@ -2403,9 +2276,6 @@ sort: by_weight
 言听计从	yan ting ji cong	1045
 难以挽回	nan yi wan hui	1045
 非比寻常	fei bi xun chang	1045
-非比寻常	fei bi xin chang	1045
-非比寻常	fei pi xun chang	1045
-非比寻常	fei pi xin chang	1045
 不声不响	bu sheng bu xiang	1044
 春光明媚	chun guang ming mei	1043
 自私自利	zi si zi li	1042
@@ -2447,10 +2317,8 @@ sort: by_weight
 众人拾柴火焰高	zhong ren shi chai huo yan gao	1019
 扫地出门	sao di chu men	1017
 一而再再而三	yi er zai zai er san	1016
-老调重弹	lao diao chong tan	1015
 老调重弹	lao diao zhong dan	1015
 授业解惑	shou ye jie huo	1014
-一股脑儿	yi gu naor	1014
 一股脑儿	yi gu nao er	1014
 多事之秋	duo shi zhi qiu	1013
 短小精悍	duan xiao jing han	1013
@@ -2530,16 +2398,8 @@ sort: by_weight
 厚此薄彼	hou ci bo bi	974
 内外交困	nei wai jiao kun	974
 以邻为壑	yi lin wei he	972
-以邻为壑	yi lin wei huo	972
 郑重其事	zheng zhong qi shi	972
 可怜天下父母心	ke lian tian xia fu mu xin	969
-可怜天下父母心	ke lian tian xia fu wu xin	969
-可怜天下父母心	ke ling tian xia fu mu xin	969
-可怜天下父母心	ke ling tian xia fu wu xin	969
-可怜天下父母心	ge lian tian xia fu mu xin	969
-可怜天下父母心	ge lian tian xia fu wu xin	969
-可怜天下父母心	ge ling tian xia fu mu xin	969
-可怜天下父母心	ge ling tian xia fu wu xin	969
 生存技能	sheng cun ji neng	969
 光怪陆离	guang guai lu li	968
 恶意中伤	e yi zhong shang	967
@@ -2556,7 +2416,6 @@ sort: by_weight
 病从口入	bing cong kou ru	961
 懵懵懂懂	meng meng dong dong	961
 旧病复发	jiu bing fu fa	958
-深谋远虑	shen mou yuan lü	958
 深谋远虑	shen mou yuan lv	958
 花好月圆	hua hao yue yuan	957
 不知所云	bu zhi suo yun	957
@@ -2630,14 +2489,12 @@ sort: by_weight
 一碗水端平	yi wan shui duan ping	911
 璀璨夺目	cui can duo mu	911
 暴风骤雨	bao feng zhou yu	911
-暴风骤雨	bao feng zou yu	911
 说来说去	shuo lai shuo qu	910
 感激不尽	gan ji bu jin	910
 血雨腥风	xue yu xing feng	909
 始作俑者	shi zuo yong zhe	909
 醉翁之意不在酒	zui weng zhi yi bu zai jiu	907
 张牙舞爪	zhang ya wu zhao	906
-张牙舞爪	zhang ya wu zhua	906
 丧尽天良	sang jin tian liang	906
 望闻问切	wang wen wen qie	906
 夏日炎炎	xia ri yan yan	905
@@ -2649,9 +2506,6 @@ sort: by_weight
 心神不宁	xin shen bu ning	900
 不冷不热	bu leng bu re	900
 先天下之忧而忧	xian tian xia zhi you er you	900
-先天下之忧而忧	xian tian xia zhi you neng you	900
-先天下之忧而忧	xian tian xia zhu you er you	900
-先天下之忧而忧	xian tian xia zhu you neng you	900
 勉为其难	mian wei qi nan	899
 日夜兼程	ri ye jian cheng	899
 白发人送黑发人	bai fa ren song hei fa ren	897
@@ -2702,7 +2556,6 @@ sort: by_weight
 高朋满座	gao peng man zuo	873
 老无所依	lao wu suo yi	873
 身怀六甲	shen huai liu jia	873
-身怀六甲	shen huai lu jia	873
 三百六十行	san bai liu shi hang	873
 损人不利己	sun ren bu li ji	872
 知足常乐	zhi zu chang le	872
@@ -2710,7 +2563,6 @@ sort: by_weight
 古为今用	gu wei jin yong	872
 鼻青脸肿	bi qing lian zhong	872
 言行不一	yan xing bu yi	870
-绿草如茵	lü cao ru yin	870
 绿草如茵	lv cao ru yin	870
 摇头晃脑	yao tou huang nao	869
 崎岖不平	qi qu bu ping	869
@@ -2769,7 +2621,6 @@ sort: by_weight
 对答如流	dui da ru liu	840
 勤学苦练	qin xue ku lian	840
 来去自由	lai qu zi you	840
-来去自由	lai qu zi yao	840
 难于上青天	nan yu shang qing tian	839
 雕梁画栋	diao liang hua dong	839
 妇孺皆知	fu ru jie zhi	838
@@ -2848,21 +2699,6 @@ sort: by_weight
 为非作恶	wei fei zuo e	792
 唯我独尊	wei wo du zun	790
 后天下之乐而乐	hou tian xia zhi le er le	790
-后天下之乐而乐	hou tian xia zhi le er yue	790
-后天下之乐而乐	hou tian xia zhi le neng le	790
-后天下之乐而乐	hou tian xia zhi le neng yue	790
-后天下之乐而乐	hou tian xia zhi yue er le	790
-后天下之乐而乐	hou tian xia zhi yue er yue	790
-后天下之乐而乐	hou tian xia zhi yue neng le	790
-后天下之乐而乐	hou tian xia zhi yue neng yue	790
-后天下之乐而乐	hou tian xia zhu le er le	790
-后天下之乐而乐	hou tian xia zhu le er yue	790
-后天下之乐而乐	hou tian xia zhu le neng le	790
-后天下之乐而乐	hou tian xia zhu le neng yue	790
-后天下之乐而乐	hou tian xia zhu yue er le	790
-后天下之乐而乐	hou tian xia zhu yue er yue	790
-后天下之乐而乐	hou tian xia zhu yue neng le	790
-后天下之乐而乐	hou tian xia zhu yue neng yue	790
 反躬自省	fan gong zi xing	789
 评头论足	ping tou lun zu	789
 重整旗鼓	chong zheng qi gu	788
@@ -2916,8 +2752,6 @@ sort: by_weight
 包打天下	bao da tian xia	765
 和风细雨	he feng xi yu	765
 拔出萝卜带出泥	ba chu luo bo dai chu ni	765
-拔出萝卜带出泥	ba chu luo bo dai chu nie	765
-拔出萝卜带出泥	ba chu luo bo dai chu ning	765
 以防不测	yi fang bu ce	765
 年近古稀	nian jin gu xi	765
 夺门而出	duo men er chu	764
@@ -2926,7 +2760,6 @@ sort: by_weight
 兼济天下	jian ji tian xia	763
 出乎预料	chu hu yu liao	761
 满面笑容	man mian xiao rong	761
-满面笑容	man mian xiao yong	761
 炯炯有神	jiong jiong you shen	761
 虚位以待	xu wei yi dai	760
 养尊处优	yang zun chu you	759
@@ -2972,7 +2805,6 @@ sort: by_weight
 曲高和寡	qu gao he gua	744
 传经送宝	chuan jing song bao	744
 改弦易辙	gai xian yi zhe	743
-改弦易辙	gai xian yi che	743
 牵强附会	qian qiang fu hui	742
 振兴中华	zhen xing zhong hua	742
 从轻发落	cong qing fa luo	741
@@ -2987,7 +2819,6 @@ sort: by_weight
 展翅高飞	zhan chi gao fei	738
 马首是瞻	ma shou shi zhan	738
 强国富民	qiang guo fu min	738
-强国富民	jiang guo fu min	738
 连绵不绝	lian mian bu jue	737
 惨淡经营	can dan jing ying	737
 连绵起伏	lian mian qi fu	737
@@ -2998,13 +2829,6 @@ sort: by_weight
 咬文嚼字	yao wen jiao zi	733
 触景生情	chu jing sheng qing	733
 勿以善小而不为	wu yi shan xiao er bu wei	732
-勿以善小而不为	wu yi shan xiao neng bu wei	732
-勿以善小而不为	wu si shan xiao er bu wei	732
-勿以善小而不为	wu si shan xiao neng bu wei	732
-勿以善小而不为	mo yi shan xiao er bu wei	732
-勿以善小而不为	mo yi shan xiao neng bu wei	732
-勿以善小而不为	mo si shan xiao er bu wei	732
-勿以善小而不为	mo si shan xiao neng bu wei	732
 初生牛犊不怕虎	chu sheng niu du bu pa hu	731
 抱残守缺	bao can shou que	731
 十年树木	shi nian shu mu	731
@@ -3123,7 +2947,6 @@ sort: by_weight
 七上八下	qi shang ba xia	684
 投鼠忌器	tou shu ji qi	684
 安分守己	an fen shou ji	684
-男女老少	nan nü lao shao	683
 男女老少	nan nv lao shao	683
 首善之区	shou shan zhi qu	683
 民怨沸腾	min yuan fei teng	683
@@ -3136,7 +2959,6 @@ sort: by_weight
 风云际会	feng yun ji hui	682
 矢志不移	shi zhi bu yi	682
 满城风雨	man cheng feng yu	681
-助纣为虐	zhu zhou wei nüe	681
 助纣为虐	zhu zhou wei nve	681
 不敢苟同	bu gan gou tong	681
 昂首阔步	ang shou kuo bu	681
@@ -3226,7 +3048,6 @@ sort: by_weight
 趾高气扬	zhi gao qi yang	646
 得而复失	de er fu shi	645
 随遇而安	sui yu er an	645
-旧事重提	jiu shi chong ti	644
 旧事重提	jiu shi zhong ti	644
 无用武之地	wu yong wu zhi di	644
 形单影只	xing dan ying zhi	644
@@ -3240,7 +3061,6 @@ sort: by_weight
 烟波浩渺	yan bo hao miao	641
 弹尽粮绝	dan jin liang jue	640
 人间正道是沧桑	ren jian zheng dao shi cang sang	639
-人间正道是沧桑	ren jian zheng dao ti cang sang	639
 投笔从戎	tou bi cong rong	639
 快刀斩乱麻	kuai dao zhan luan ma	639
 斗转星移	dou zhuan xing yi	639
@@ -3273,7 +3093,6 @@ sort: by_weight
 高抬贵手	gao tai gui shou	627
 苦思冥想	ku si ming xiang	626
 心心念念	xin xin nian nian	626
-条分缕析	tiao fen lü xi	626
 条分缕析	tiao fen lv xi	626
 与世无争	yu shi wu zheng	626
 伺机而动	si ji er dong	625
@@ -3294,41 +3113,6 @@ sort: by_weight
 无坚不摧	wu jian bu cui	618
 眉开眼笑	mei kai yan xiao	617
 语不惊人死不休	yu bu jing ren si bu xiu	617
-语不惊人死不休	yu bu jing ren si bu xu	617
-语不惊人死不休	yu bu jing ren si fou xiu	617
-语不惊人死不休	yu bu jing ren si fou xu	617
-语不惊人死不休	yu bu jing ren si fu xiu	617
-语不惊人死不休	yu bu jing ren si fu xu	617
-语不惊人死不休	yu bu liang ren si bu xiu	617
-语不惊人死不休	yu bu liang ren si bu xu	617
-语不惊人死不休	yu bu liang ren si fou xiu	617
-语不惊人死不休	yu bu liang ren si fou xu	617
-语不惊人死不休	yu bu liang ren si fu xiu	617
-语不惊人死不休	yu bu liang ren si fu xu	617
-语不惊人死不休	yu fou jing ren si bu xiu	617
-语不惊人死不休	yu fou jing ren si bu xu	617
-语不惊人死不休	yu fou jing ren si fou xiu	617
-语不惊人死不休	yu fou jing ren si fou xu	617
-语不惊人死不休	yu fou jing ren si fu xiu	617
-语不惊人死不休	yu fou jing ren si fu xu	617
-语不惊人死不休	yu fou liang ren si bu xiu	617
-语不惊人死不休	yu fou liang ren si bu xu	617
-语不惊人死不休	yu fou liang ren si fou xiu	617
-语不惊人死不休	yu fou liang ren si fou xu	617
-语不惊人死不休	yu fou liang ren si fu xiu	617
-语不惊人死不休	yu fou liang ren si fu xu	617
-语不惊人死不休	yu fu jing ren si bu xiu	617
-语不惊人死不休	yu fu jing ren si bu xu	617
-语不惊人死不休	yu fu jing ren si fou xiu	617
-语不惊人死不休	yu fu jing ren si fou xu	617
-语不惊人死不休	yu fu jing ren si fu xiu	617
-语不惊人死不休	yu fu jing ren si fu xu	617
-语不惊人死不休	yu fu liang ren si bu xiu	617
-语不惊人死不休	yu fu liang ren si bu xu	617
-语不惊人死不休	yu fu liang ren si fou xiu	617
-语不惊人死不休	yu fu liang ren si fou xu	617
-语不惊人死不休	yu fu liang ren si fu xiu	617
-语不惊人死不休	yu fu liang ren si fu xu	617
 火树银花	huo shu yin hua	617
 一手包办	yi shou bao ban	616
 四书五经	si shu wu jing	616
@@ -3392,7 +3176,6 @@ sort: by_weight
 陈规陋习	chen gui lou xi	598
 惨无人道	can wu ren dao	598
 无为而治	wu wei er zhi	597
-浮光掠影	fu guang lüe ying	597
 浮光掠影	fu guang lve ying	597
 一潭死水	yi tan si shui	597
 一泻千里	yi xie qian li	597
@@ -3417,37 +3200,6 @@ sort: by_weight
 返老还童	fan lao huan tong	591
 反唇相讥	fan chun xiang ji	591
 勿以恶小而为之	wu yi e xiao er wei zhi	591
-勿以恶小而为之	wu yi e xiao er wei zhu	591
-勿以恶小而为之	wu yi e xiao neng wei zhi	591
-勿以恶小而为之	wu yi e xiao neng wei zhu	591
-勿以恶小而为之	wu yi wu xiao er wei zhi	591
-勿以恶小而为之	wu yi wu xiao er wei zhu	591
-勿以恶小而为之	wu yi wu xiao neng wei zhi	591
-勿以恶小而为之	wu yi wu xiao neng wei zhu	591
-勿以恶小而为之	wu si e xiao er wei zhi	591
-勿以恶小而为之	wu si e xiao er wei zhu	591
-勿以恶小而为之	wu si e xiao neng wei zhi	591
-勿以恶小而为之	wu si e xiao neng wei zhu	591
-勿以恶小而为之	wu si wu xiao er wei zhi	591
-勿以恶小而为之	wu si wu xiao er wei zhu	591
-勿以恶小而为之	wu si wu xiao neng wei zhi	591
-勿以恶小而为之	wu si wu xiao neng wei zhu	591
-勿以恶小而为之	mo yi e xiao er wei zhi	591
-勿以恶小而为之	mo yi e xiao er wei zhu	591
-勿以恶小而为之	mo yi e xiao neng wei zhi	591
-勿以恶小而为之	mo yi e xiao neng wei zhu	591
-勿以恶小而为之	mo yi wu xiao er wei zhi	591
-勿以恶小而为之	mo yi wu xiao er wei zhu	591
-勿以恶小而为之	mo yi wu xiao neng wei zhi	591
-勿以恶小而为之	mo yi wu xiao neng wei zhu	591
-勿以恶小而为之	mo si e xiao er wei zhi	591
-勿以恶小而为之	mo si e xiao er wei zhu	591
-勿以恶小而为之	mo si e xiao neng wei zhi	591
-勿以恶小而为之	mo si e xiao neng wei zhu	591
-勿以恶小而为之	mo si wu xiao er wei zhi	591
-勿以恶小而为之	mo si wu xiao er wei zhu	591
-勿以恶小而为之	mo si wu xiao neng wei zhi	591
-勿以恶小而为之	mo si wu xiao neng wei zhu	591
 一花独放	yi hua du fang	589
 哀鸿遍野	ai hong bian ye	589
 造谣中伤	zao yao zhong shang	589
@@ -3463,7 +3215,6 @@ sort: by_weight
 自顾不暇	zi gu bu xia	584
 因祸得福	yin huo de fu	584
 兹事体大	zi shi ti da	583
-略胜一筹	lüe sheng yi chou	583
 略胜一筹	lve sheng yi chou	583
 鼎鼎大名	ding ding da ming	582
 老当益壮	lao dang yi zhuang	581
@@ -3561,11 +3312,9 @@ sort: by_weight
 挑肥拣瘦	tiao fei jian shou	548
 认祖归宗	ren zu gui zong	548
 腥风血雨	xing feng xue yu	548
-腥风血雨	xing feng xie yu	548
 贯彻始终	guan che shi zhong	548
 兴趣盎然	xing qu ang ran	548
 开怀畅饮	kai huai chang yin	547
-开怀畅饮	kai huan chang yin	547
 人仰马翻	ren yang ma fan	547
 不徇私情	bu xun si qing	546
 涂脂抹粉	tu zhi mo fen	546
@@ -3596,7 +3345,6 @@ sort: by_weight
 鳏寡孤独	guan gua gu du	538
 造谣惑众	zao yao huo zhong	538
 蜂拥而入	feng yong er ru	537
-蜂拥而入	feng yong neng ru	537
 轻手轻脚	qing shou qing jiao	537
 引吭高歌	yin hang gao ge	537
 层峦叠嶂	ceng luan die zhang	536
@@ -3606,7 +3354,6 @@ sort: by_weight
 眉清目秀	mei qing mu xiu	535
 树大招风	shu da zhao feng	535
 英雄辈出	ying xiong bei chu	535
-英雄辈出	ying xong bei chu	535
 道高一尺	dao gao yi chi	533
 身家性命	shen jia xing ming	533
 奉公守法	feng gong shou fa	533
@@ -3617,14 +3364,10 @@ sort: by_weight
 火急火燎	huo ji huo liao	532
 百发百中	bai fa bai zhong	531
 猴年马月	hou nian ma yue	531
-略知一二	lüe zhi yi er	531
 略知一二	lve zhi yi er	531
 临阵脱逃	lin zhen tuo tao	531
 喜形于色	xi xing yu se	530
 吃一堑长一智	chi yi qian zhang yi zhi	529
-吃一堑长一智	chi yi qian chang yi zhi	529
-吃一堑长一智	qi yi qian zhang yi zhi	529
-吃一堑长一智	qi yi qian chang yi zhi	529
 从中作梗	cong zhong zuo geng	529
 玩世不恭	wan shi bu gong	528
 作茧自缚	zuo jian zi fu	528
@@ -3690,7 +3433,6 @@ sort: by_weight
 不白之冤	bu bai zhi yuan	510
 胆小怕事	dan xiao pa shi	509
 吐故纳新	tu gu na xin	509
-金童玉女	jin tong yu nü	509
 金童玉女	jin tong yu nv	509
 渔翁得利	yu weng de li	509
 招贤纳士	zhao xian na shi	508
@@ -3713,7 +3455,6 @@ sort: by_weight
 固执己见	gu zhi ji jian	504
 吃不了兜着走	chi bu liao dou zhe zou	504
 一刀两断	yi dao liang duan	504
-鹿死谁手	lu si shei shou	504
 鹿死谁手	lu si shui shou	504
 无可救药	wu ke jiu yao	504
 一官半职	yi guan ban zhi	504
@@ -3770,13 +3511,11 @@ sort: by_weight
 公事公办	gong shi gong ban	488
 别有风味	bie you feng wei	488
 义正辞严	yi zheng ci yan	487
-金科玉律	jin ke yu lü	487
 金科玉律	jin ke yu lv	487
 貌合神离	mao he shen li	487
 狗急跳墙	gou ji tiao qiang	486
 借酒浇愁	jie jiu jiao chou	486
 隔行如隔山	ge hang ru ge shan	486
-男尊女卑	nan zun nü bei	486
 男尊女卑	nan zun nv bei	486
 花里胡哨	hua li hu shao	486
 装腔作势	zhuang qiang zuo shi	486
@@ -3894,46 +3633,11 @@ sort: by_weight
 无迹可寻	wu ji ke xun	452
 骁勇善战	xiao yong shan zhan	452
 能言善辩	neng yan shan bian	452
-善男信女	shan nan xin nü	452
 善男信女	shan nan xin nv	452
 常备不懈	chang bei bu xie	451
-家有儿女	jia you er nü	451
 家有儿女	jia you er nv	451
-家有儿女	jia wei er nü	451
-家有儿女	jia wei er nv	451
-家有儿女	jie you er nü	451
-家有儿女	jie you er nv	451
-家有儿女	jie wei er nü	451
-家有儿女	jie wei er nv	451
-家有儿女	gu you er nü	451
-家有儿女	gu you er nv	451
-家有儿女	gu wei er nü	451
-家有儿女	gu wei er nv	451
 心存芥蒂	xin cun jie di	451
 不能忘怀	bu neng wang huai	451
-不能忘怀	bu neng wang fu	451
-不能忘怀	bu tai wang huai	451
-不能忘怀	bu tai wang fu	451
-不能忘怀	bu nai wang huai	451
-不能忘怀	bu nai wang fu	451
-不能忘怀	bu xiong wang huai	451
-不能忘怀	bu xiong wang fu	451
-不能忘怀	fou neng wang huai	451
-不能忘怀	fou neng wang fu	451
-不能忘怀	fou tai wang huai	451
-不能忘怀	fou tai wang fu	451
-不能忘怀	fou nai wang huai	451
-不能忘怀	fou nai wang fu	451
-不能忘怀	fou xiong wang huai	451
-不能忘怀	fou xiong wang fu	451
-不能忘怀	fu neng wang huai	451
-不能忘怀	fu neng wang fu	451
-不能忘怀	fu tai wang huai	451
-不能忘怀	fu tai wang fu	451
-不能忘怀	fu nai wang huai	451
-不能忘怀	fu nai wang fu	451
-不能忘怀	fu xiong wang huai	451
-不能忘怀	fu xiong wang fu	451
 无出其右	wu chu qi you	450
 拂袖而去	fu xiu er qu	450
 敲山震虎	qiao shan zhen hu	450
@@ -3943,20 +3647,6 @@ sort: by_weight
 战战兢兢	zhan zhan jing jing	449
 童叟无欺	tong sou wu qi	449
 说时迟那时快	shuo shi chi na shi kuai	449
-说时迟那时快	shuo shi chi nei shi kuai	449
-说时迟那时快	shuo shi chi nuo shi kuai	449
-说时迟那时快	shuo shi chi ne shi kuai	449
-说时迟那时快	shuo shi chi nai shi kuai	449
-说时迟那时快	yue shi chi na shi kuai	449
-说时迟那时快	yue shi chi nei shi kuai	449
-说时迟那时快	yue shi chi nuo shi kuai	449
-说时迟那时快	yue shi chi ne shi kuai	449
-说时迟那时快	yue shi chi nai shi kuai	449
-说时迟那时快	shui shi chi na shi kuai	449
-说时迟那时快	shui shi chi nei shi kuai	449
-说时迟那时快	shui shi chi nuo shi kuai	449
-说时迟那时快	shui shi chi ne shi kuai	449
-说时迟那时快	shui shi chi nai shi kuai	449
 垂死挣扎	chui si zheng zha	449
 比翼双飞	bi yi shuang fei	449
 八面玲珑	ba mian ling long	449
@@ -3978,11 +3668,9 @@ sort: by_weight
 一元复始	yi yuan fu shi	443
 啧有烦言	ze you fan yan	443
 哑然失笑	ya ran shi xiao	443
-哑然失笑	e ran shi xiao	443
 礼义廉耻	li yi lian chi	443
 老态龙钟	lao tai long zhong	442
 漫无边际	man wu bian ji	442
-男女有别	nan nü you bie	442
 男女有别	nan nv you bie	442
 坐收渔利	zuo shou yu li	441
 感激涕零	gan ji ti ling	441
@@ -4021,59 +3709,6 @@ sort: by_weight
 古道热肠	gu dao re chang	432
 鸡犬升天	ji quan sheng tian	431
 丈二和尚摸不着头脑	zhang er he shang mo bu zhe tou nao	431
-丈二和尚摸不着头脑	zhang er he shang mo bu zhao tou nao	431
-丈二和尚摸不着头脑	zhang er he shang mo bu zhuo tou nao	431
-丈二和尚摸不着头脑	zhang er he shang mo fou zhe tou nao	431
-丈二和尚摸不着头脑	zhang er he shang mo fou zhao tou nao	431
-丈二和尚摸不着头脑	zhang er he shang mo fou zhuo tou nao	431
-丈二和尚摸不着头脑	zhang er he shang mo fu zhe tou nao	431
-丈二和尚摸不着头脑	zhang er he shang mo fu zhao tou nao	431
-丈二和尚摸不着头脑	zhang er he shang mo fu zhuo tou nao	431
-丈二和尚摸不着头脑	zhang er he chang mo bu zhe tou nao	431
-丈二和尚摸不着头脑	zhang er he chang mo bu zhao tou nao	431
-丈二和尚摸不着头脑	zhang er he chang mo bu zhuo tou nao	431
-丈二和尚摸不着头脑	zhang er he chang mo fou zhe tou nao	431
-丈二和尚摸不着头脑	zhang er he chang mo fou zhao tou nao	431
-丈二和尚摸不着头脑	zhang er he chang mo fou zhuo tou nao	431
-丈二和尚摸不着头脑	zhang er he chang mo fu zhe tou nao	431
-丈二和尚摸不着头脑	zhang er he chang mo fu zhao tou nao	431
-丈二和尚摸不着头脑	zhang er he chang mo fu zhuo tou nao	431
-丈二和尚摸不着头脑	zhang er huo shang mo bu zhe tou nao	431
-丈二和尚摸不着头脑	zhang er huo shang mo bu zhao tou nao	431
-丈二和尚摸不着头脑	zhang er huo shang mo bu zhuo tou nao	431
-丈二和尚摸不着头脑	zhang er huo shang mo fou zhe tou nao	431
-丈二和尚摸不着头脑	zhang er huo shang mo fou zhao tou nao	431
-丈二和尚摸不着头脑	zhang er huo shang mo fou zhuo tou nao	431
-丈二和尚摸不着头脑	zhang er huo shang mo fu zhe tou nao	431
-丈二和尚摸不着头脑	zhang er huo shang mo fu zhao tou nao	431
-丈二和尚摸不着头脑	zhang er huo shang mo fu zhuo tou nao	431
-丈二和尚摸不着头脑	zhang er huo chang mo bu zhe tou nao	431
-丈二和尚摸不着头脑	zhang er huo chang mo bu zhao tou nao	431
-丈二和尚摸不着头脑	zhang er huo chang mo bu zhuo tou nao	431
-丈二和尚摸不着头脑	zhang er huo chang mo fou zhe tou nao	431
-丈二和尚摸不着头脑	zhang er huo chang mo fou zhao tou nao	431
-丈二和尚摸不着头脑	zhang er huo chang mo fou zhuo tou nao	431
-丈二和尚摸不着头脑	zhang er huo chang mo fu zhe tou nao	431
-丈二和尚摸不着头脑	zhang er huo chang mo fu zhao tou nao	431
-丈二和尚摸不着头脑	zhang er huo chang mo fu zhuo tou nao	431
-丈二和尚摸不着头脑	zhang er hu shang mo bu zhe tou nao	431
-丈二和尚摸不着头脑	zhang er hu shang mo bu zhao tou nao	431
-丈二和尚摸不着头脑	zhang er hu shang mo bu zhuo tou nao	431
-丈二和尚摸不着头脑	zhang er hu shang mo fou zhe tou nao	431
-丈二和尚摸不着头脑	zhang er hu shang mo fou zhao tou nao	431
-丈二和尚摸不着头脑	zhang er hu shang mo fou zhuo tou nao	431
-丈二和尚摸不着头脑	zhang er hu shang mo fu zhe tou nao	431
-丈二和尚摸不着头脑	zhang er hu shang mo fu zhao tou nao	431
-丈二和尚摸不着头脑	zhang er hu shang mo fu zhuo tou nao	431
-丈二和尚摸不着头脑	zhang er hu chang mo bu zhe tou nao	431
-丈二和尚摸不着头脑	zhang er hu chang mo bu zhao tou nao	431
-丈二和尚摸不着头脑	zhang er hu chang mo bu zhuo tou nao	431
-丈二和尚摸不着头脑	zhang er hu chang mo fou zhe tou nao	431
-丈二和尚摸不着头脑	zhang er hu chang mo fou zhao tou nao	431
-丈二和尚摸不着头脑	zhang er hu chang mo fou zhuo tou nao	431
-丈二和尚摸不着头脑	zhang er hu chang mo fu zhe tou nao	431
-丈二和尚摸不着头脑	zhang er hu chang mo fu zhao tou nao	431
-丈二和尚摸不着头脑	zhang er hu chang mo fu zhuo tou nao	431
 故态复萌	gu tai fu meng	430
 手到擒来	shou dao qin lai	430
 怀才不遇	huai cai bu yu	430
@@ -4081,7 +3716,6 @@ sort: by_weight
 触类旁通	chu lei pang tong	429
 余音绕梁	yu yin rao liang	429
 千里之堤	qian li zhi di	429
-千里之堤	qian li zhi ti	429
 数典忘祖	shu dian wang zu	428
 师出有名	shi chu you ming	428
 滚瓜烂熟	gun gua lan shu	428
@@ -4102,7 +3736,6 @@ sort: by_weight
 魔高一尺	mo gao yi chi	424
 分外妖娆	fen wai yao rao	424
 不露声色	bu lu sheng se	424
-不露声色	bu lou sheng se	424
 转眼之间	zhuan yan zhi jian	423
 打入冷宫	da ru leng gong	423
 如胶似漆	ru jiao si qi	422
@@ -4143,7 +3776,6 @@ sort: by_weight
 不三不四	bu san bu si	417
 妖魔鬼怪	yao mo gui guai	417
 拱手相让	gong shou xiang rang	417
-削足适履	xue zu shi lü	416
 削足适履	xue zu shi lv	416
 形势逼人	xing shi bi ren	416
 五雷轰顶	wu lei hong ding	415
@@ -4166,11 +3798,9 @@ sort: by_weight
 若有若无	ruo you ruo wu	412
 一语双关	yi yu shuang guan	412
 飞禽走兽	fei qin zou shou	411
-牛郎织女	niu lang zhi nü	411
 牛郎织女	niu lang zhi nv	411
 莺歌燕舞	ying ge yan wu	411
 集腋成裘	ji ye cheng qiu	411
-集腋成裘	ji yi cheng qiu	411
 半生不熟	ban sheng bu shu	411
 百战百胜	bai zhan bai sheng	411
 财迷心窍	cai mi xin qiao	411
@@ -4198,7 +3828,6 @@ sort: by_weight
 情非得已	qing fei de yi	404
 望穿秋水	wang chuan qiu shui	404
 风姿绰约	feng zi chuo yue	403
-黔驴技穷	qian lü ji qiong	403
 黔驴技穷	qian lv ji qiong	403
 叠床架屋	die chuang jia wu	403
 百般刁难	bai ban diao nan	402
@@ -4220,11 +3849,6 @@ sort: by_weight
 上情下达	shang qing xia da	398
 开山鼻祖	kai shan bi zu	398
 野火烧不尽	ye huo shao bu jin	398
-野火烧不尽	ye huo shao fou jin	398
-野火烧不尽	ye huo shao fu jin	398
-野火烧不尽	shu huo shao bu jin	398
-野火烧不尽	shu huo shao fou jin	398
-野火烧不尽	shu huo shao fu jin	398
 皮开肉绽	pi kai rou zhan	397
 嬉皮笑脸	xi pi xiao lian	397
 大器晚成	da qi wan cheng	397
@@ -4244,7 +3868,6 @@ sort: by_weight
 果然如此	guo ran ru ci	394
 故土难离	gu tu nan li	394
 甘拜下风	gan bai xia feng	394
-如履平地	ru lü ping di	393
 如履平地	ru lv ping di	393
 冷言冷语	leng yan leng yu	393
 花前月下	hua qian yue xia	392
@@ -4258,7 +3881,6 @@ sort: by_weight
 挂一漏万	gua yi lou wan	391
 鸠占鹊巢	jiu zhan que chao	390
 满脸堆笑	man lian dui xiao	390
-满脸堆笑	man lian zui xiao	390
 人定胜天	ren ding sheng tian	390
 顷刻之间	qing ke zhi jian	389
 天作之合	tian zuo zhi he	389
@@ -4268,7 +3890,6 @@ sort: by_weight
 吃喝玩乐	chi he wan le	389
 作奸犯科	zuo jian fan ke	389
 满腔热血	man qiang re xue	389
-满腔热血	man qiang re xie	389
 流芳百世	liu fang bai shi	388
 矫揉造作	jiao rou zao zuo	388
 从一而终	cong yi er zhong	388
@@ -4285,7 +3906,6 @@ sort: by_weight
 睁一眼闭一眼	zheng yi yan bi yi yan	384
 封官许愿	feng guan xu yuan	384
 叶公好龙	ye gong hao long	384
-叶公好龙	she gong hao long	384
 动辄得咎	dong zhe de jiu	384
 名扬四海	ming yang si hai	384
 九霄云外	jiu xiao yun wai	384
@@ -4363,7 +3983,6 @@ sort: by_weight
 放荡不羁	fang dang bu ji	369
 迎头痛击	ying tou tong ji	369
 活到老学到老	huo dao lao xue dao lao	369
-活到老学到老	guo dao lao xue dao lao	369
 借尸还魂	jie shi huan hun	369
 光阴荏苒	guang yin ren ran	369
 穷则思变	qiong ze si bian	369
@@ -4412,7 +4031,6 @@ sort: by_weight
 精诚所至	jing cheng suo zhi	362
 时来运转	shi lai yun zhuan	362
 初露锋芒	chu lu feng mang	362
-初露锋芒	chu lou feng mang	362
 血迹斑斑	xue ji ban ban	362
 家财万贯	jia cai wan guan	361
 民脂民膏	min zhi min gao	361
@@ -4454,21 +4072,6 @@ sort: by_weight
 两厢情愿	liang xiang qing yuan	352
 大开大合	da kai da he	351
 刺刀见红	ci dao jian hong	351
-刺刀见红	ci dao jian gong	351
-刺刀见红	ci dao xian hong	351
-刺刀见红	ci dao xian gong	351
-刺刀见红	ci diao jian hong	351
-刺刀见红	ci diao jian gong	351
-刺刀见红	ci diao xian hong	351
-刺刀见红	ci diao xian gong	351
-刺刀见红	qi dao jian hong	351
-刺刀见红	qi dao jian gong	351
-刺刀见红	qi dao xian hong	351
-刺刀见红	qi dao xian gong	351
-刺刀见红	qi diao jian hong	351
-刺刀见红	qi diao jian gong	351
-刺刀见红	qi diao xian hong	351
-刺刀见红	qi diao xian gong	351
 忠言逆耳	zhong yan ni er	351
 金石为开	jin shi wei kai	351
 临阵磨枪	lin zhen mo qiang	351
@@ -4483,11 +4086,9 @@ sort: by_weight
 屏气凝神	bing qi ning shen	349
 字字珠玑	zi zi zhu ji	349
 千恩万谢	qian en wan xie	349
-花红柳绿	hua hong liu lü	349
 花红柳绿	hua hong liu lv	349
 天高皇帝远	tian gao huang di yuan	348
 鞭辟入里	bian pi ru li	348
-鞭辟入里	bian bi ru li	348
 繁荣兴旺	fan rong xing wang	348
 疾恶如仇	ji e ru chou	348
 披麻戴孝	pi ma dai xiao	347
@@ -4498,7 +4099,6 @@ sort: by_weight
 风行一时	feng xing yi shi	346
 奇珍异宝	qi zhen yi bao	346
 欲壑难填	yu he nan tian	346
-欲壑难填	yu huo nan tian	346
 远水解不了近渴	yuan shui jie bu liao jin ke	346
 狡兔三窟	jiao tu san ku	346
 木已成舟	mu yi cheng zhou	345
@@ -4509,7 +4109,6 @@ sort: by_weight
 招财进宝	zhao cai jin bao	344
 孤军作战	gu jun zuo zhan	343
 卓有成就	zhuo you cheng jiu	343
-卓有成就	zhuo wei cheng jiu	343
 虚虚实实	xu xu shi shi	343
 害人不浅	hai ren bu qian	343
 足智多谋	zu zhi duo mou	343
@@ -4526,7 +4125,6 @@ sort: by_weight
 庸人自扰	yong ren zi rao	340
 小家碧玉	xiao jia bi yu	340
 十里洋场	shi li yang chang	340
-不知怎的	bu zhi zen di	340
 不知怎的	bu zhi zen de	340
 赤胆忠心	chi dan zhong xin	340
 官运亨通	guan yun heng tong	340
@@ -4555,14 +4153,12 @@ sort: by_weight
 玲珑剔透	ling long ti tou	336
 神魂颠倒	shen hun dian dao	336
 名闻遐迩	ming wen xia er	335
-女扮男装	nü ban nan zhuang	335
 女扮男装	nv ban nan zhuang	335
 得道多助	de dao duo zhu	335
 甘之如饴	gan zhi ru yi	334
 相视而笑	xiang shi er xiao	334
 滑天下之大稽	hua tian xia zhi da ji	334
 臭味相投	chou wei xiang tou	334
-臭味相投	xiu wei xiang tou	334
 鼓乐齐鸣	gu yue qi ming	334
 狂妄自大	kuang wang zi da	334
 高出一筹	gao chu yi chou	334
@@ -4649,17 +4245,9 @@ sort: by_weight
 秀色可餐	xiu se ke can	319
 先礼后兵	xian li hou bing	319
 没有不透风的墙	mei you bu tou feng de qiang	319
-没有不透风的墙	mei you bu tou feng di qiang	319
-没有不透风的墙	mei you fou tou feng de qiang	319
-没有不透风的墙	mei you fou tou feng di qiang	319
-没有不透风的墙	mei you fu tou feng de qiang	319
-没有不透风的墙	mei you fu tou feng di qiang	319
 信马由缰	xin ma you jiang	318
 万箭穿心	wan jian chuan xin	318
 威武不能屈	wei wu bu neng qu	318
-威武不能屈	wei wu bu neng jue	318
-威武不能屈	wei wu bu neng que	318
-威武不能屈	wei wu bu neng ju	318
 浩气长存	hao qi chang cun	317
 桃李不言	tao li bu yan	317
 精妙绝伦	jing miao jue lun	317
@@ -4710,15 +4298,12 @@ sort: by_weight
 温良恭俭让	wen liang gong jian rang	309
 反咬一口	fan yao yi kou	309
 笨手笨脚	ben shou ben jiao	309
-窈窕淑女	yao tiao shu nü	309
 窈窕淑女	yao tiao shu nv	309
 稍逊一筹	shao xun yi chou	309
 金鸡独立	jin ji du li	309
 身在曹营心在汉	shen zai cao ying xin zai han	309
 能文能武	neng wen neng wu	309
 狭路相逢勇者胜	xia lu xiang feng yong zhe sheng	308
-狭路相逢勇者胜	xia lu xiang feng yong zhe xing	308
-狭路相逢勇者胜	xia lu xiang feng yong zhe qing	308
 客死他乡	ke si ta xiang	308
 八仙过海各显神通	ba xian guo hai ge xian shen tong	308
 天崩地裂	tian beng di lie	307
@@ -4726,13 +4311,6 @@ sort: by_weight
 吊儿郎当	diao er lang dang	306
 善有善报	shan you shan bao	306
 身正不怕影子斜	shen zheng bu pa ying zi xie	306
-身正不怕影子斜	shen zheng bu pa ying zi xia	306
-身正不怕影子斜	shen zheng bu pa ying zi cha	306
-身正不怕影子斜	shen zheng bu pa ying zi ye	306
-身正不怕影子斜	juan zheng bu pa ying zi xie	306
-身正不怕影子斜	juan zheng bu pa ying zi xia	306
-身正不怕影子斜	juan zheng bu pa ying zi cha	306
-身正不怕影子斜	juan zheng bu pa ying zi ye	306
 刚愎自用	gang bi zi yong	306
 南腔北调	nan qiang bei diao	306
 人以群分	ren yi qun fen	306
@@ -4773,14 +4351,12 @@ sort: by_weight
 魂不守舍	hun bu shou she	300
 媒妁之言	mei shuo zhi yan	300
 功德圆满	gong de yuan man	300
-略逊一筹	lüe xun yi chou	299
 略逊一筹	lve xun yi chou	299
 乘其不备	cheng qi bu bei	299
 良辰美景	liang chen mei jing	299
 以眼还眼	yi yan huan yan	299
 不乏先例	bu fa xian li	298
 生米煮成熟饭	sheng mi zhu cheng shu fan	298
-生米煮成熟饭	sheng mi zhu cheng shou fan	298
 紫气东来	zi qi dong lai	298
 宽宏大量	kuan hong da liang	298
 风华绝代	feng hua jue dai	298
@@ -4799,9 +4375,6 @@ sort: by_weight
 目空一切	mu kong yi qie	295
 项庄舞剑	xiang zhuang wu jian	294
 倩女幽魂	qian nv you hun	294
-倩女幽魂	qian ru you hun	294
-倩女幽魂	qing nv you hun	294
-倩女幽魂	qing ru you hun	294
 泥牛入海	ni niu ru hai	294
 心高气傲	xin gao qi ao	294
 降格以求	jiang ge yi qiu	294
@@ -4830,7 +4403,6 @@ sort: by_weight
 穷奢极欲	qiong she ji yu	289
 有色眼镜	you se yan jing	288
 少不更事	shao bu geng shi	288
-少不更事	shao bu jing shi	288
 外强中干	wai qiang zhong gan	288
 身首异处	shen shou yi chu	288
 冷若冰霜	leng ruo bing shuang	288
@@ -4865,8 +4437,6 @@ sort: by_weight
 水能载舟	shui neng zai zhou	282
 解甲归田	jie jia gui tian	282
 达则兼济天下	da ze jian ji tian xia	281
-达则兼济天下	ti ze jian ji tian xia	281
-达则兼济天下	ta ze jian ji tian xia	281
 覆水难收	fu shui nan shou	281
 富贵不能淫	fu gui bu neng yin	281
 七拼八凑	qi pin ba cou	281
@@ -4907,9 +4477,6 @@ sort: by_weight
 路遥知马力	lu yao zhi ma li	274
 过眼烟云	guo yan yan yun	274
 功夫之王	gong fu zhi wang	274
-功夫之王	gong fu zhi yu	274
-功夫之王	gong fu zhu wang	274
-功夫之王	gong fu zhu yu	274
 手足之情	shou zu zhi qing	274
 满腹狐疑	man fu hu yi	274
 本乡本土	ben xiang ben tu	273
@@ -4925,14 +4492,6 @@ sort: by_weight
 正人君子	zheng ren jun zi	272
 人神共愤	ren shen gong fen	272
 不知下落	bu zhi xia luo	271
-不知下落	bu zhi xia la	271
-不知下落	bu zhi xia lao	271
-不知下落	fou zhi xia luo	271
-不知下落	fou zhi xia la	271
-不知下落	fou zhi xia lao	271
-不知下落	fu zhi xia luo	271
-不知下落	fu zhi xia la	271
-不知下落	fu zhi xia lao	271
 惠风和畅	hui feng he chang	271
 暮气沉沉	mu qi chen chen	271
 化敌为友	hua di wei you	271
@@ -4977,21 +4536,9 @@ sort: by_weight
 兵来将挡	bing lai jiang dang	265
 五大三粗	wu da san cu	264
 闭关自守	bi guan zi shou	264
-清规戒律	qing gui jie lü	264
 清规戒律	qing gui jie lv	264
 俭以养德	jian yi yang de	264
 横平竖直	heng ping shu zhi	264
-横平竖直	heng pian shu zhi	264
-横平竖直	heng bing shu zhi	264
-横平竖直	heng beng shu zhi	264
-横平竖直	guang ping shu zhi	264
-横平竖直	guang pian shu zhi	264
-横平竖直	guang bing shu zhi	264
-横平竖直	guang beng shu zhi	264
-横平竖直	huang ping shu zhi	264
-横平竖直	huang pian shu zhi	264
-横平竖直	huang bing shu zhi	264
-横平竖直	huang beng shu zhi	264
 时移世易	shi yi shi yi	264
 仗势欺人	zhang shi qi ren	264
 有言在先	you yan zai xian	263
@@ -5005,12 +4552,8 @@ sort: by_weight
 以礼相待	yi li xiang dai	262
 掐头去尾	qia tou qu wei	261
 纸上得来终觉浅	zhi shang de lai zhong jue qian	261
-纸上得来终觉浅	zhi shang de lai zhong jue jian	261
-纸上得来终觉浅	zhi shang de lai zhong jiao qian	261
-纸上得来终觉浅	zhi shang de lai zhong jiao jian	261
 至死不渝	zhi si bu yu	261
 难登大雅之堂	nan deng da ya zhi tang	261
-难登大雅之堂	nan de da ya zhi tang	261
 无所不有	wu suo bu you	261
 与虎谋皮	yu hu mou pi	261
 国家栋梁	guo jia dong liang	261
@@ -5033,7 +4576,6 @@ sort: by_weight
 过江之鲫	guo jiang zhi ji	258
 膘肥体壮	biao fei ti zhuang	258
 默默无语	mo mo wu yu	258
-默默无语	mo mo mo yu	258
 收回成命	shou hui cheng ming	257
 有棱有角	you leng you jiao	257
 回光返照	hui guang fan zhao	257
@@ -5057,8 +4599,6 @@ sort: by_weight
 不可捉摸	bu ke zhuo mo	254
 没精打采	mei jing da cai	254
 关门闭户	guan men bi hu	254
-关门闭户	guen men bi hu	254
-三男两女	san nan liang nü	254
 三男两女	san nan liang nv	254
 冤冤相报	yuan yuan xiang bao	254
 决胜千里	jue sheng qian li	254
@@ -5085,41 +4625,6 @@ sort: by_weight
 除旧布新	chu jiu bu xin	249
 怜香惜玉	lian xiang xi yu	249
 一发而不可收拾	yi fa er bu ke shou shi	249
-一发而不可收拾	yi fa er bu ke shou she	249
-一发而不可收拾	yi fa er bu ke shou jie	249
-一发而不可收拾	yi fa er bu ge shou shi	249
-一发而不可收拾	yi fa er bu ge shou she	249
-一发而不可收拾	yi fa er bu ge shou jie	249
-一发而不可收拾	yi fa er fou ke shou shi	249
-一发而不可收拾	yi fa er fou ke shou she	249
-一发而不可收拾	yi fa er fou ke shou jie	249
-一发而不可收拾	yi fa er fou ge shou shi	249
-一发而不可收拾	yi fa er fou ge shou she	249
-一发而不可收拾	yi fa er fou ge shou jie	249
-一发而不可收拾	yi fa er fu ke shou shi	249
-一发而不可收拾	yi fa er fu ke shou she	249
-一发而不可收拾	yi fa er fu ke shou jie	249
-一发而不可收拾	yi fa er fu ge shou shi	249
-一发而不可收拾	yi fa er fu ge shou she	249
-一发而不可收拾	yi fa er fu ge shou jie	249
-一发而不可收拾	yi fa neng bu ke shou shi	249
-一发而不可收拾	yi fa neng bu ke shou she	249
-一发而不可收拾	yi fa neng bu ke shou jie	249
-一发而不可收拾	yi fa neng bu ge shou shi	249
-一发而不可收拾	yi fa neng bu ge shou she	249
-一发而不可收拾	yi fa neng bu ge shou jie	249
-一发而不可收拾	yi fa neng fou ke shou shi	249
-一发而不可收拾	yi fa neng fou ke shou she	249
-一发而不可收拾	yi fa neng fou ke shou jie	249
-一发而不可收拾	yi fa neng fou ge shou shi	249
-一发而不可收拾	yi fa neng fou ge shou she	249
-一发而不可收拾	yi fa neng fou ge shou jie	249
-一发而不可收拾	yi fa neng fu ke shou shi	249
-一发而不可收拾	yi fa neng fu ke shou she	249
-一发而不可收拾	yi fa neng fu ke shou jie	249
-一发而不可收拾	yi fa neng fu ge shou shi	249
-一发而不可收拾	yi fa neng fu ge shou she	249
-一发而不可收拾	yi fa neng fu ge shou jie	249
 三人成虎	san ren cheng hu	249
 振振有辞	zhen zhen you ci	249
 鹬蚌相争	yu bang xiang zheng	249
@@ -5129,17 +4634,9 @@ sort: by_weight
 不共戴天	bu gong dai tian	248
 目光炯炯	mu guang jiong jiong	248
 大事化小小事化了	da shi hua xiao xiao shi hua le	248
-大事化小小事化了	da shi hua xiao xiao shi hua liao	248
-大事化小小事化了	da shi hua xiao xiao shi huo le	248
-大事化小小事化了	da shi hua xiao xiao shi huo liao	248
-大事化小小事化了	da shi hua xiao xiao zi hua le	248
-大事化小小事化了	da shi hua xiao xiao zi hua liao	248
-大事化小小事化了	da shi hua xiao xiao zi huo le	248
-大事化小小事化了	da shi hua xiao xiao zi huo liao	248
 洁白无瑕	jie bai wu xia	248
 言为心声	yan wei xin sheng	248
 鸣锣开道	ming luo kai dao	248
-雄才大略	xiong cai da lüe	248
 雄才大略	xiong cai da lve	248
 不干不净	bu gan bu jing	247
 旧话重提	jiu hua chong ti	246
@@ -5148,7 +4645,6 @@ sort: by_weight
 时不再来	shi bu zai lai	246
 倾国倾城	qing guo qing cheng	246
 如花似玉	ru hua si yu	246
-小脚女人	xiao jiao nü ren	246
 小脚女人	xiao jiao nv ren	246
 爱惜羽毛	ai xi yu mao	246
 茂林修竹	mao lin xiu zhu	246
@@ -5188,7 +4684,6 @@ sort: by_weight
 能工巧匠	neng gong qiao jiang	240
 无可估量	wu ke gu liang	240
 轻装前进	qing zhuang qian jin	239
-轻装前进	qing zhuang jian jin	239
 四海为家	si hai wei jia	239
 相生相克	xiang sheng xiang ke	239
 居功自傲	ju gong zi ao	239
@@ -5207,7 +4702,6 @@ sort: by_weight
 心神不定	xin shen bu ding	237
 水火无情	shui huo wu qing	237
 似水流年	si shui liu nian	237
-男耕女织	nan geng nü zhi	237
 男耕女织	nan geng nv zhi	237
 鸡犬之声相闻	ji quan zhi sheng xiang wen	237
 望梅止渴	wang mei zhi ke	236
@@ -5229,7 +4723,6 @@ sort: by_weight
 百折不回	bai zhe bu hui	234
 傲然挺立	ao ran ting li	234
 学富五车	xue fu wu che	234
-学富五车	xue fu wu ju	234
 俗不可耐	su bu ke nai	234
 流水不腐	liu shui bu fu	234
 取之不尽用之不竭	qu zhi bu jin yong zhi bu jie	233
@@ -5265,13 +4758,11 @@ sort: by_weight
 五花大绑	wu hua da bang	229
 针头线脑	zhen tou xian nao	229
 一张一弛	yi zhang yi chi	229
-一张一弛	yi zhang yi shi	229
 至善至美	zhi shan zhi mei	229
 绵里藏针	mian li cang zhen	229
 不越雷池	bu yue lei chi	228
 手眼通天	shou yan tong tian	228
 愁云惨雾	chou yun can wu	228
-不绝如缕	bu jue ru lü	227
 不绝如缕	bu jue ru lv	227
 一钱不值	yi qian bu zhi	227
 心慌意乱	xin huang yi luan	227
@@ -5283,7 +4774,6 @@ sort: by_weight
 点头哈腰	dian tou ha yao	225
 鉴往知来	jian wang zhi lai	224
 狰狞面目	zheng ning mian mu	224
-女娲补天	nü wa bu tian	224
 女娲补天	nv wa bu tian	224
 春去秋来	chun qu qiu lai	224
 少见多怪	shao jian duo guai	224
@@ -5306,7 +4796,6 @@ sort: by_weight
 自视甚高	zi shi shen gao	222
 是非分明	shi fei fen ming	222
 破除迷信	po chu mi xin	222
-山重水复	shan chong shui fu	222
 山重水复	shan zhong shui fu	222
 择善而从	ze shan er cong	221
 州官放火	zhou guan fang huo	221
@@ -5325,16 +4814,12 @@ sort: by_weight
 浪子回头金不换	lang zi hui tou jin bu huan	219
 不可胜数	bu ke sheng shu	219
 无心插柳柳成荫	wu xin cha liu liu cheng yin	219
-无心插柳柳成荫	wu xin zha liu liu cheng yin	219
-无心插柳柳成荫	mo xin cha liu liu cheng yin	219
-无心插柳柳成荫	mo xin zha liu liu cheng yin	219
 局促不安	ju cu bu an	219
 仪表堂堂	yi biao tang tang	219
 欺软怕硬	qi ruan pa ying	219
 打开天窗说亮话	da kai tian chuang shuo liang hua	218
 趋炎附势	qu yan fu shi	218
 狗血淋头	gou xue lin tou	218
-狗血淋头	gou xie lin tou	218
 与时偕行	yu shi xie xing	218
 飘飘欲仙	piao piao yu xian	218
 偷偷摸摸	tou tou mo mo	218
@@ -5382,7 +4867,6 @@ sort: by_weight
 耍嘴皮子	shua zui pi zi	212
 缘木求鱼	yuan mu qiu yu	212
 仁者乐山	ren zhe le shan	212
-仁者乐山	ren zhe yao shan	212
 手不释卷	shou bu shi juan	212
 格杀勿论	ge sha wu lun	212
 莫逆之交	mo ni zhi jiao	212
@@ -5399,7 +4883,6 @@ sort: by_weight
 大呼小叫	da hu xiao jiao	210
 人同此心	ren tong ci xin	210
 河东狮吼	he dong shi hou	210
-大模大样	da mu da yang	210
 大模大样	da mo da yang	210
 专横跋扈	zhuan heng ba hu	210
 淡泊明志	dan bo ming zhi	210
@@ -5411,37 +4894,6 @@ sort: by_weight
 嫁祸于人	jia huo yu ren	209
 对牛弹琴	dui niu tan qin	209
 择其善者而从之	ze qi shan zhe er cong zhi	209
-择其善者而从之	ze qi shan zhe er cong zhu	209
-择其善者而从之	ze qi shan zhe er zong zhi	209
-择其善者而从之	ze qi shan zhe er zong zhu	209
-择其善者而从之	ze qi shan zhe neng cong zhi	209
-择其善者而从之	ze qi shan zhe neng cong zhu	209
-择其善者而从之	ze qi shan zhe neng zong zhi	209
-择其善者而从之	ze qi shan zhe neng zong zhu	209
-择其善者而从之	ze ji shan zhe er cong zhi	209
-择其善者而从之	ze ji shan zhe er cong zhu	209
-择其善者而从之	ze ji shan zhe er zong zhi	209
-择其善者而从之	ze ji shan zhe er zong zhu	209
-择其善者而从之	ze ji shan zhe neng cong zhi	209
-择其善者而从之	ze ji shan zhe neng cong zhu	209
-择其善者而从之	ze ji shan zhe neng zong zhi	209
-择其善者而从之	ze ji shan zhe neng zong zhu	209
-择其善者而从之	zhai qi shan zhe er cong zhi	209
-择其善者而从之	zhai qi shan zhe er cong zhu	209
-择其善者而从之	zhai qi shan zhe er zong zhi	209
-择其善者而从之	zhai qi shan zhe er zong zhu	209
-择其善者而从之	zhai qi shan zhe neng cong zhi	209
-择其善者而从之	zhai qi shan zhe neng cong zhu	209
-择其善者而从之	zhai qi shan zhe neng zong zhi	209
-择其善者而从之	zhai qi shan zhe neng zong zhu	209
-择其善者而从之	zhai ji shan zhe er cong zhi	209
-择其善者而从之	zhai ji shan zhe er cong zhu	209
-择其善者而从之	zhai ji shan zhe er zong zhi	209
-择其善者而从之	zhai ji shan zhe er zong zhu	209
-择其善者而从之	zhai ji shan zhe neng cong zhi	209
-择其善者而从之	zhai ji shan zhe neng cong zhu	209
-择其善者而从之	zhai ji shan zhe neng zong zhi	209
-择其善者而从之	zhai ji shan zhe neng zong zhu	209
 寻死觅活	xun si mi huo	209
 难分难解	nan fen nan jie	209
 地老天荒	di lao tian huang	209
@@ -5453,7 +4905,6 @@ sort: by_weight
 横眉冷对	heng mei leng dui	208
 一时一刻	yi shi yi ke	208
 积土成山	ji tu cheng shan	208
-积土成山	ji shui wei shan	208
 泰山压顶	tai shan ya ding	208
 塞翁失马	sai weng shi ma	208
 惊恐万状	jing kong wan zhuang	207
@@ -5468,7 +4919,6 @@ sort: by_weight
 吃穿用度	chi chuan yong du	207
 分进合击	fen jin he ji	207
 高山峻岭	gao shan jun ling	206
-味同嚼蜡	wei tong jiao la	206
 味同嚼蜡	wei tong jue la	206
 五洲四海	wu zhou si hai	206
 内查外调	nei cha wai diao	206
@@ -5476,12 +4926,10 @@ sort: by_weight
 人而无信	ren er wu xin	205
 老气横秋	lao qi heng qiu	205
 文弱书生	wen ruo shu sheng	205
-女中豪杰	nü zhong hao jie	205
 女中豪杰	nv zhong hao jie	205
 不容分说	bu rong fen shuo	205
 变幻无常	bian huan wu chang	205
 炮火连天	pao huo lian tian	205
-人无远虑	ren wu yuan lü	205
 人无远虑	ren wu yuan lv	205
 遇人不淑	yu ren bu shu	204
 破铜烂铁	po tong lan tie	204
@@ -5544,7 +4992,6 @@ sort: by_weight
 逆耳之言	ni er zhi yan	196
 病来如山倒	bing lai ru shan dao	196
 壁立千仞	bi li qian ren	196
-郎才女貌	lang cai nü mao	196
 郎才女貌	lang cai nv mao	196
 风韵犹存	feng yun you cun	196
 单刀赴会	dan dao fu hui	196
@@ -5552,9 +4999,6 @@ sort: by_weight
 出人意表	chu ren yi biao	195
 诛心之论	zhu xin zhi lun	195
 成由勤俭败由奢	cheng you qin jian bai you she	195
-成由勤俭败由奢	cheng you qin jian bai yao she	195
-成由勤俭败由奢	cheng yao qin jian bai you she	195
-成由勤俭败由奢	cheng yao qin jian bai yao she	195
 流年不利	liu nian bu li	195
 三省吾身	san xing wu shen	195
 天无绝人之路	tian wu jue ren zhi lu	195
@@ -5570,11 +5014,6 @@ sort: by_weight
 至亲好友	zhi qin hao you	194
 排斥异己	pai chi yi ji	193
 暴露目标	bao lu mu biao	193
-暴露目标	bao lou mu biao	193
-暴露目标	pu lu mu biao	193
-暴露目标	pu lou mu biao	193
-暴露目标	bo lu mu biao	193
-暴露目标	bo lou mu biao	193
 分文未取	fen wen wei qu	192
 一日夫妻百日恩	yi ri fu qi bai ri en	192
 杀人不眨眼	sha ren bu zha yan	192
@@ -5612,7 +5051,6 @@ sort: by_weight
 手到病除	shou dao bing chu	189
 鹰击长空	ying ji chang kong	188
 长江七号	chang jiang qi hao	188
-长江七号	chang jiang qi xiao	188
 民为邦本	min wei bang ben	188
 同声同气	tong sheng tong qi	188
 红袖添香	hong xiu tian xiang	188
@@ -5649,19 +5087,12 @@ sort: by_weight
 修齐治平	xiu qi zhi ping	184
 怒目而视	nu mu er shi	184
 大有所为	da you suo wei	184
-大有所为	da wei suo wei	184
-大有所为	dai you suo wei	184
-大有所为	dai wei suo wei	184
-大有所为	tai you suo wei	184
-大有所为	tai wei suo wei	184
 图财害命	tu cai hai ming	184
-女大当嫁	nü da dang jia	184
 女大当嫁	nv da dang jia	184
 池鱼之殃	chi yu zhi yang	184
 壮心不已	zhuang xin bu yi	183
 轻歌曼舞	qing ge man wu	183
 没头没脑	mei tou mei nao	183
-没头没脑	mo tou mo nao	183
 不知深浅	bu zhi shen qian	183
 全心全力	quan xin quan li	183
 难如登天	nan ru deng tian	183
@@ -5677,14 +5108,10 @@ sort: by_weight
 博古通今	bo gu tong jin	182
 从善如登	cong shan ru deng	182
 瘦死的骆驼比马大	shou si de luo tuo bi ma da	182
-瘦死的骆驼比马大	shou si de luo tuo pi ma da	182
-瘦死的骆驼比马大	shou si di luo tuo bi ma da	182
-瘦死的骆驼比马大	shou si di luo tuo pi ma da	182
 心怀忐忑	xin huai tan te	181
 看破红尘	kan po hong chen	181
 梨花带雨	li hua dai yu	181
 千里之行始于足下	qian li zhi xing shi yu zu xia	181
-男欢女爱	nan huan nü ai	181
 男欢女爱	nan huan nv ai	181
 闯荡江湖	chuang dang jiang hu	181
 以攻为守	yi gong wei shou	181
@@ -5694,7 +5121,6 @@ sort: by_weight
 苛捐杂税	ke juan za shui	180
 心乱如麻	xin luan ru ma	180
 喷薄欲出	pen bo yu chu	180
-半丝半缕	ban si ban lü	180
 半丝半缕	ban si ban lv	180
 变幻无穷	bian huan wu qiong	180
 积沙成塔	ji sha cheng ta	180
@@ -5712,7 +5138,6 @@ sort: by_weight
 土豪劣绅	tu hao lie shen	177
 跳梁小丑	tiao liang xiao chou	177
 人生自古谁无死	ren sheng zi gu shei wu si	177
-略见一斑	lüe jian yi ban	177
 略见一斑	lve jian yi ban	177
 相貌堂堂	xiang mao tang tang	177
 蔚成风气	wei cheng feng qi	176
@@ -5880,7 +5305,6 @@ sort: by_weight
 长话短说	chang hua duan shuo	159
 吆五喝六	yao wu he liu	159
 学非所用	xue fei suo yong	159
-红男绿女	hong nan lü nü	159
 红男绿女	hong nan lv nv	159
 同气相求	tong qi xiang qiu	159
 众口铄金	zhong kou shuo jin	159
@@ -5894,7 +5318,6 @@ sort: by_weight
 兄弟阋于墙	xiong di xi yu qiang	158
 言多必失	yan duo bi shi	158
 湮没无闻	yan mo wu wen	158
-湮没无闻	yin mo wu wen	158
 螳臂当车	tang bi dang che	158
 见猎心喜	jian lie xin xi	158
 千刀万剐	qian dao wan gua	158
@@ -5947,7 +5370,6 @@ sort: by_weight
 三朝元老	san chao yuan lao	154
 心急吃不了热豆腐	xin ji chi bu liao re dou fu	153
 茹毛饮血	ru mao yin xue	153
-茹毛饮血	ru mao yin xie	153
 疾风知劲草	ji feng zhi jing cao	153
 慷慨悲歌	kang kai bei ge	153
 耳顺之年	er shun zhi nian	153
@@ -6004,7 +5426,6 @@ sort: by_weight
 相对无言	xiang dui wu yan	149
 寸有所长	cun you suo chang	149
 嗟来之食	jie lai zhi shi	149
-不足为虑	bu zu wei lü	149
 不足为虑	bu zu wei lv	149
 急公好义	ji gong hao yi	149
 新仇旧恨	xin chou jiu hen	149
@@ -6039,11 +5460,9 @@ sort: by_weight
 争名夺利	zheng ming duo li	147
 言者无罪	yan zhe wu zui	147
 放浪形骸	fang lang xing hai	147
-选贤与能	xuan xian ju neng	146
 选贤与能	xuan xian yu neng	146
 六畜兴旺	liu chu xing wang	146
 金玉良缘	jin yu liang yuan	146
-戴绿帽子	dai lü mao zi	146
 戴绿帽子	dai lv mao zi	146
 作如是观	zuo ru shi guan	146
 孔武有力	kong wu you li	146
@@ -6060,7 +5479,7 @@ sort: by_weight
 南柯一梦	nan ke yi meng	145
 江洋大盗	jiang yang da dao	145
 山明水秀	shan ming shui xiu	145
-风尘女子	feng chen nü zi	145
+风尘女子	feng chen nv zi	145
 身在福中不知福	shen zai fu zhong bu zhi fu	145
 面有难色	mian you nan se	145
 身教重于言教	shen jiao zhong yu yan jiao	145
@@ -6091,13 +5510,11 @@ sort: by_weight
 生生世世	sheng sheng shi shi	142
 比肩接踵	bi jian jie zhong	142
 狗血喷头	gou xue pen tou	142
-狗血喷头	gou xie pen tou	142
 纸里包不住火	zhi li bao bu zhu huo	142
 坐卧不宁	zuo wo bu ning	142
 人小鬼大	ren xiao gui da	142
 冷眼相待	leng yan xiang dai	142
 甜酸苦辣	tian suan ku la	142
-泽被后世	ze pi hou shi	142
 泽被后世	ze bei hou shi	142
 自我治疗	zi wo zhi liao	142
 水至清则无鱼	shui zhi qing ze wu yu	142
@@ -6114,7 +5531,6 @@ sort: by_weight
 九九归一	jiu jiu gui yi	140
 户枢不蠹	hu shu bu du	140
 上兵伐谋	shang bing fa mou	140
-黄钟大吕	huang zhong da lü	140
 黄钟大吕	huang zhong da lv	140
 驰名世界	chi ming shi jie	140
 今朝有酒今朝醉	jin zhao you jiu jin zhao zui	140
@@ -6157,7 +5573,6 @@ sort: by_weight
 虚有其表	xu you qi biao	137
 道德文章	dao de wen zhang	137
 意气相投	yi qi xiang tou	137
-文韬武略	wen tao wu lüe	137
 文韬武略	wen tao wu lve	137
 万物之灵	wan wu zhi ling	137
 鼾声如雷	han sheng ru lei	137
@@ -6169,11 +5584,6 @@ sort: by_weight
 千娇百媚	qian jiao bai mei	136
 同生共死	tong sheng gong si	135
 担当不起	dan dang bu qi	135
-担当不起	dan dang fou qi	135
-担当不起	dan dang fu qi	135
-担当不起	jie dang bu qi	135
-担当不起	jie dang fou qi	135
-担当不起	jie dang fu qi	135
 心明眼亮	xin ming yan liang	135
 驷马难追	si ma nan zhui	135
 大梦初醒	da meng chu xing	135
@@ -6204,7 +5614,7 @@ sort: by_weight
 明枪暗箭	ming qiang an jian	133
 怡情养性	yi qing yang xing	133
 泪眼汪汪	lei yan wang wang	133
-步履矫健	bu lü jiao jian	133
+步履矫健	bu lv jiao jian	133
 斑驳陆离	ban bo lu li	132
 宾朋满座	bin peng man zuo	132
 富国强民	fu guo qiang min	132
@@ -6213,7 +5623,6 @@ sort: by_weight
 从容就义	cong rong jiu yi	132
 救急不救穷	jiu ji bu jiu qiong	132
 出头露面	chu tou lu mian	132
-出头露面	chu tou lou mian	132
 荒谬绝伦	huang miu jue lun	132
 后人乘凉	hou ren cheng liang	132
 排除万难	pai chu wan nan	132
@@ -6236,7 +5645,6 @@ sort: by_weight
 远水不解近渴	yuan shui bu jie jin ke	130
 归去来兮	gui qu lai xi	130
 一着不慎	yi zhao bu shen	130
-一着不慎	yi zhuo bu shen	130
 有过之无不及	you guo zhi wu bu ji	130
 妙语如珠	miao yu ru zhu	130
 学而不厌	xue er bu yan	130
@@ -6264,16 +5672,8 @@ sort: by_weight
 只可意会	zhi ke yi hui	128
 如切如磋	ru qie ru cuo	128
 近乡情怯	jin xiang qing qie	128
-近乡情怯	jin xiang qing que	128
 如人饮水	ru ren yin shui	128
 死而无憾	si er wu han	128
-死而无憾	si er wu dan	128
-死而无憾	si er mo han	128
-死而无憾	si er mo dan	128
-死而无憾	si neng wu han	128
-死而无憾	si neng wu dan	128
-死而无憾	si neng mo han	128
-死而无憾	si neng mo dan	128
 海枯石烂	hai ku shi lan	128
 萧规曹随	xiao gui cao sui	128
 秦晋之好	qin jin zhi hao	128
@@ -6319,11 +5719,9 @@ sort: by_weight
 不分胜负	bu fen sheng fu	125
 重赏之下必有勇夫	zhong shang zhi xia bi you yong fu	124
 以德报德	yi de bao de	124
-以德报德	yi de bao yu	124
 十室九空	shi shi jiu kong	124
 溜须拍马	liu xu pai ma	124
 初露头角	chu lu tou jiao	124
-初露头角	chu lou tou jiao	124
 聚少成多	ju shao cheng duo	124
 打落水狗	da luo shui gou	124
 以绝后患	yi jue hou huan	124
@@ -6369,7 +5767,6 @@ sort: by_weight
 知我罪我	zhi wo zui wo	121
 一脉相通	yi mai xiang tong	121
 千里之堤毁于蚁穴	qian li zhi di hui yu yi xue	121
-千里之堤毁于蚁穴	qian li zhi ti hui yu yi xue	121
 春风满面	chun feng man mian	121
 父债子还	fu zhai zi huan	121
 吉星高照	ji xing gao zhao	121
@@ -6398,21 +5795,12 @@ sort: by_weight
 低眉顺眼	di mei shun yan	119
 失败是成功之母	shi bai shi cheng gong zhi mu	119
 余波荡漾	yu bo dang yang	119
-余波荡漾	yu bei dang yang	119
-余波荡漾	yu bi dang yang	119
-余波荡漾	tu bo dang yang	119
-余波荡漾	tu bei dang yang	119
-余波荡漾	tu bi dang yang	119
-余波荡漾	xu bo dang yang	119
-余波荡漾	xu bei dang yang	119
-余波荡漾	xu bi dang yang	119
 有口难言	you kou nan yan	119
 徇情枉法	xun qing wang fa	119
 斩尽杀绝	zhan jin sha jue	119
 之乎者也	zhi hu zhe ye	118
 天塌地陷	tian ta di xian	118
 鲜克有终	xian ke you zhong	118
-痴男怨女	chi nan yuan nü	118
 痴男怨女	chi nan yuan nv	118
 非淡泊无以明志	fei dan bo wu yi ming zhi	118
 血海深仇	xue hai shen chou	118
@@ -6496,7 +5884,6 @@ sort: by_weight
 无所不及	wu suo bu ji	114
 靡不有初	mi bu you chu	114
 疾言厉色	ji yan li se	114
-防微虑远	fang wei lü yuan	114
 防微虑远	fang wei lv yuan	114
 娓娓而谈	wei wei er tan	114
 毁于蚁穴	hui yu yi xue	113
@@ -6552,7 +5939,6 @@ sort: by_weight
 三人行必有我师	san ren xing bi you wo shi	110
 开山祖师	kai shan zu shi	110
 恶语伤人	e yu shang ren	110
-男婚女嫁	nan hun nü jia	110
 男婚女嫁	nan hun nv jia	110
 螳臂挡车	tang bi dang che	109
 不可名状	bu ke ming zhuang	109
@@ -6577,7 +5963,6 @@ sort: by_weight
 恃才傲物	shi cai ao wu	108
 知彼知己	zhi bi zhi ji	108
 大厦将倾	da sha jiang qing	108
-大厦将倾	da xia jiang qing	108
 不肖子孙	bu xiao zi sun	108
 声誉鹊起	sheng yu que qi	108
 玄之又玄	xuan zhi you xuan	108
@@ -6588,7 +5973,6 @@ sort: by_weight
 秉笔直书	bing bi zhi shu	108
 遗老遗少	yi lao yi shao	108
 敬业乐群	jing ye le qun	107
-敬业乐群	jing ye yao qun	107
 人面桃花	ren mian tao hua	107
 心比天高	xin bi tian gao	107
 洋洋大观	yang yang da guan	107
@@ -6640,7 +6024,6 @@ sort: by_weight
 一无所成	yi wu suo cheng	105
 积非成是	ji fei cheng shi	105
 一点半点	yi dian ban dian	105
-饮食男女	yin shi nan nü	104
 饮食男女	yin shi nan nv	104
 能者多劳	neng zhe duo lao	104
 翻手为云	fan shou wei yun	104
@@ -6661,29 +6044,6 @@ sort: by_weight
 此伏彼起	ci fu bi qi	104
 喜怒不形于色	xi nu bu xing yu se	104
 儿行千里母担忧	er xing qian li mu dan you	103
-儿行千里母担忧	er xing qian li mu jie you	103
-儿行千里母担忧	er xing qian li wu dan you	103
-儿行千里母担忧	er xing qian li wu jie you	103
-儿行千里母担忧	er hang qian li mu dan you	103
-儿行千里母担忧	er hang qian li mu jie you	103
-儿行千里母担忧	er hang qian li wu dan you	103
-儿行千里母担忧	er hang qian li wu jie you	103
-儿行千里母担忧	er heng qian li mu dan you	103
-儿行千里母担忧	er heng qian li mu jie you	103
-儿行千里母担忧	er heng qian li wu dan you	103
-儿行千里母担忧	er heng qian li wu jie you	103
-儿行千里母担忧	ren xing qian li mu dan you	103
-儿行千里母担忧	ren xing qian li mu jie you	103
-儿行千里母担忧	ren xing qian li wu dan you	103
-儿行千里母担忧	ren xing qian li wu jie you	103
-儿行千里母担忧	ren hang qian li mu dan you	103
-儿行千里母担忧	ren hang qian li mu jie you	103
-儿行千里母担忧	ren hang qian li wu dan you	103
-儿行千里母担忧	ren hang qian li wu jie you	103
-儿行千里母担忧	ren heng qian li mu dan you	103
-儿行千里母担忧	ren heng qian li mu jie you	103
-儿行千里母担忧	ren heng qian li wu dan you	103
-儿行千里母担忧	ren heng qian li wu jie you	103
 直捣黄龙	zhi dao huang long	103
 若要人不知	ruo yao ren bu zhi	103
 绿林好汉	lu lin hao han	103
@@ -6722,10 +6082,8 @@ sort: by_weight
 人为刀俎	ren wei dao zu	101
 晨光熹微	chen guang xi wei	101
 圣殿骑士	sheng dian qi shi	101
-圣殿骑士	sheng dian ji shi	101
 令人喷饭	ling ren pen fan	101
 棋高一着	qi gao yi zhao	101
-棋高一着	qi gao yi zhuo	101
 文武之道	wen wu zhi dao	101
 文治武功	wen zhi wu gong	101
 气数已尽	qi shu yi jin	101
@@ -6752,7 +6110,6 @@ sort: by_weight
 船坚炮利	chuan jian pao li	99
 嘉言懿行	jia yan yi xing	99
 轻徭薄赋	qing yao bao fu	99
-轻徭薄赋	qing yao bo fu	99
 明眸皓齿	ming mou hao chi	99
 兴味索然	xing wei suo ran	99
 喷云吐雾	pen yun tu wu	99
@@ -6760,16 +6117,13 @@ sort: by_weight
 人不可貌相	ren bu ke mao xiang	99
 山水相连	shan shui xiang lian	99
 一鳞半爪	yi lin ban zhao	99
-一鳞半爪	yi lin ban zhua	99
 道不同不相为谋	dao bu tong bu xiang wei mou	99
-儿女亲家	er nü qing jia	99
 儿女亲家	er nv qing jia	99
 抱头大哭	bao tou da ku	99
 不教而诛	bu jiao er zhu	98
 干柴烈火	gan chai lie huo	98
 天高地厚	tian gao di hou	98
 千里之堤溃于蚁穴	qian li zhi di kui yu yi xue	98
-千里之堤溃于蚁穴	qian li zhi ti kui yu yi xue	98
 鲍鱼之肆	bao yu zhi si	98
 悬梁刺股	xuan liang ci gu	98
 齐齐整整	qi qi zheng zheng	98
@@ -6803,7 +6157,6 @@ sort: by_weight
 风流才子	feng liu cai zi	96
 无所用心	wu suo yong xin	96
 亲者痛仇者快	qin zhe tong chou zhe kuai	96
-亲者痛仇者快	qing zhe tong chou zhe kuai	96
 百无一用	bai wu yi yong	96
 百花争妍	bai hua zheng yan	96
 前怕狼后怕虎	qian pa lang hou pa hu	96
@@ -6813,7 +6166,6 @@ sort: by_weight
 击楫中流	ji ji zhong liu	95
 老有所终	lao you suo zhong	95
 不怕一万就怕万一	bu pa yi wan jiu pa wan yi	95
-不怕一万就怕万一	bu pa yi wan jiu bo wan yi	95
 五福临门	wu fu lin men	95
 知恩报恩	zhi en bao en	95
 盲人骑瞎马	mang ren qi xia ma	95
@@ -6838,7 +6190,6 @@ sort: by_weight
 月明星稀	yue ming xing xi	94
 多谋善断	duo mou shan duan	94
 杀人不见血	sha ren bu jian xue	94
-杀人不见血	sha ren bu jian xie	94
 儿孙自有儿孙福	er sun zi you er sun fu	94
 刨根究底	pao gen jiu di	94
 一望而知	yi wang er zhi	94
@@ -6927,14 +6278,11 @@ sort: by_weight
 刀枪剑戟	dao qiang jian ji	88
 大头小尾	da tou xiao wei	88
 绝口不谈	jue kou bu tan	88
-绝口不谈	jue kou fou tan	88
-绝口不谈	jue kou fu tan	88
 在此一举	zai ci yi ju	88
 当断不断	dang duan bu duan	88
 成事不足	cheng shi bu zu	88
 忠肝义胆	zhong gan yi dan	88
 静若处子	jing ruo chu zi	88
-身无长物	shen wu chang wu	88
 身无长物	shen wu zhang wu	88
 成败在此一举	cheng bai zai ci yi ju	88
 胜读十年书	sheng du shi nian shu	88
@@ -6946,12 +6294,7 @@ sort: by_weight
 杳无踪影	yao wu zong ying	88
 目不忍睹	mu bu ren du	88
 泰山压顶不弯腰	tai shan ya ding bu wan yao	87
-泰山压顶不弯腰	tai shan ya ding fou wan yao	87
-泰山压顶不弯腰	tai shan ya ding fu wan yao	87
 得意之笔	de yi zhi bi	87
-得意之笔	de yi zhu bi	87
-得意之笔	dei yi zhi bi	87
-得意之笔	dei yi zhu bi	87
 吹胡子瞪眼	chui hu zi deng yan	87
 始于足下	shi yu zu xia	87
 海角天涯	hai jiao tian ya	87
@@ -7033,14 +6376,6 @@ sort: by_weight
 行有余力	xing you yu li	83
 东跑西颠	dong pao xi dian	83
 面不改色心不跳	mian bu gai se xin bu tiao	83
-面不改色心不跳	mian bu gai se xin bu diao	83
-面不改色心不跳	mian bu gai se xin bu tao	83
-面不改色心不跳	mian bu gai se xin fou tiao	83
-面不改色心不跳	mian bu gai se xin fou diao	83
-面不改色心不跳	mian bu gai se xin fou tao	83
-面不改色心不跳	mian bu gai se xin fu tiao	83
-面不改色心不跳	mian bu gai se xin fu diao	83
-面不改色心不跳	mian bu gai se xin fu tao	83
 包罗万有	bao luo wan you	83
 海阔天高	hai kuo tian gao	83
 胡服骑射	hu fu qi she	83
@@ -7065,7 +6400,6 @@ sort: by_weight
 不知死活	bu zhi si huo	81
 月下老人	yue xia lao ren	81
 绣花枕头	xiu hua zhen tou	81
-男盗女娼	nan dao nü chang	81
 男盗女娼	nan dao nv chang	81
 敬谢不敏	jing xie bu min	81
 视如珍宝	shi ru zhen bao	81
@@ -7095,17 +6429,6 @@ sort: by_weight
 移山填海	yi shan tian hai	80
 争前恐后	zheng qian kong hou	79
 前堵后追	qian du hou zhui	79
-前堵后追	qian du hou dui	79
-前堵后追	qian du hou tui	79
-前堵后追	qian zhe hou zhui	79
-前堵后追	qian zhe hou dui	79
-前堵后追	qian zhe hou tui	79
-前堵后追	jian du hou zhui	79
-前堵后追	jian du hou dui	79
-前堵后追	jian du hou tui	79
-前堵后追	jian zhe hou zhui	79
-前堵后追	jian zhe hou dui	79
-前堵后追	jian zhe hou tui	79
 拆东补西	chai dong bu xi	79
 空谷幽兰	kong gu you lan	79
 彻底澄清	che di cheng qing	79
@@ -7134,10 +6457,7 @@ sort: by_weight
 奉天承运	feng tian cheng yun	78
 定于一尊	ding yu yi zun	78
 无容身之地	wu rong shen zhi di	78
-老子英雄儿好汉	Lao zi ying xiong er hao han	78
-老子英雄儿好汉	Lao zi ying xiong ren hao han	78
 老子英雄儿好汉	lao zi ying xiong er hao han	78
-老子英雄儿好汉	lao zi ying xiong ren hao han	78
 看菜吃饭	kan cai chi fan	78
 不矜细行	bu jin xi xing	78
 花香鸟语	hua xiang niao yu	78
@@ -7155,14 +6475,11 @@ sort: by_weight
 明媒正娶	ming mei zheng qu	77
 前倨后恭	qian ju hou gong	77
 春风浩荡	chun feng hao dang	77
-宏图大略	hong tu da lüe	77
 宏图大略	hong tu da lve	77
 令人齿冷	ling ren chi leng	77
 低声细语	di sheng xi yu	77
-所见略同	suo jian lüe tong	77
 所见略同	suo jian lve tong	77
 千山万壑	qian shan wan he	77
-千山万壑	qian shan wan huo	77
 自以为得计	zi yi wei de ji	77
 一朝天子一朝臣	yi chao tian zi yi chao chen	77
 感慨系之	gan kai xi zhi	77
@@ -7196,35 +6513,17 @@ sort: by_weight
 天若有情天亦老	tian ruo you qing tian yi lao	75
 狼奔豕突	lang ben shi tu	75
 不吝赐教	bu lin ci jiao	75
-不吝赐教	bu lin si jiao	75
 琼楼玉宇	qiong lou yu yu	75
 长风破浪	chang feng po lang	75
 俯首听命	fu shou ting ming	75
 当众出丑	dang zhong chu chou	75
-当众出丑	dang yin chu chou	75
 求才若渴	qiu cai ruo ke	75
-求才若渴	qiu cai ruo jie	75
-求才若渴	qiu cai ruo kai	75
-求才若渴	qiu cai ruo he	75
-求才若渴	qiu cai re ke	75
-求才若渴	qiu cai re jie	75
-求才若渴	qiu cai re kai	75
-求才若渴	qiu cai re he	75
-求才若渴	qiu zai ruo ke	75
-求才若渴	qiu zai ruo jie	75
-求才若渴	qiu zai ruo kai	75
-求才若渴	qiu zai ruo he	75
-求才若渴	qiu zai re ke	75
-求才若渴	qiu zai re jie	75
-求才若渴	qiu zai re kai	75
-求才若渴	qiu zai re he	75
 皮笑肉不笑	pi xiao rou bu xiao	75
 粥少僧多	zhou shao seng duo	75
 双宿双飞	shuang su shuang fei	75
 鲜衣怒马	xian yi nu ma	75
 福寿双全	fu shou shuang quan	74
 死乞白赖	si qi bai lai	74
-非驴非马	fei lü fei ma	74
 非驴非马	fei lv fei ma	74
 额手称庆	e shou cheng qing	74
 生米做成熟饭	sheng mi zuo cheng shu fan	74
@@ -7243,31 +6542,11 @@ sort: by_weight
 年老色衰	nian lao se shuai	74
 祛病延年	qu bing yan nian	74
 青出于蓝胜于蓝	qing chu yu lan sheng yu lan	74
-青出于蓝胜于蓝	qing chu yu lan sheng yu la	74
-青出于蓝胜于蓝	qing chu yu lan sheng wei lan	74
-青出于蓝胜于蓝	qing chu yu lan sheng wei la	74
-青出于蓝胜于蓝	qing chu yu lan sheng xu lan	74
-青出于蓝胜于蓝	qing chu yu lan sheng xu la	74
-青出于蓝胜于蓝	qing chu yu lan xing yu lan	74
-青出于蓝胜于蓝	qing chu yu lan xing yu la	74
-青出于蓝胜于蓝	qing chu yu lan xing wei lan	74
-青出于蓝胜于蓝	qing chu yu lan xing wei la	74
-青出于蓝胜于蓝	qing chu yu lan xing xu lan	74
-青出于蓝胜于蓝	qing chu yu lan xing xu la	74
-青出于蓝胜于蓝	qing chu yu lan qing yu lan	74
-青出于蓝胜于蓝	qing chu yu lan qing yu la	74
-青出于蓝胜于蓝	qing chu yu lan qing wei lan	74
-青出于蓝胜于蓝	qing chu yu lan qing wei la	74
-青出于蓝胜于蓝	qing chu yu lan qing xu lan	74
-青出于蓝胜于蓝	qing chu yu lan qing xu la	74
 碧血丹心	bi xue dan xin	73
-碧血丹心	bi xie dan xin	73
 万头攒动	wan tou cuan dong	73
 认贼作父	ren zei zuo fu	73
 惟我独尊	wei wo du zun	73
 人穷志不短	ren qiong zhi bu duan	73
-人穷志不短	ren qiong zhi fou duan	73
-人穷志不短	ren qiong zhi fu duan	73
 其实难副	qi shi nan fu	73
 走为上策	zou wei shang ce	73
 一碧万顷	yi bi wan qing	73
@@ -7288,11 +6567,6 @@ sort: by_weight
 锦绣江山	jin xiu jiang shan	72
 感恩图报	gan en tu bao	72
 敢怒不敢言	gan nu bu gan yan	72
-敢怒不敢言	gan nu bu gan yin	72
-敢怒不敢言	gan nu fou gan yan	72
-敢怒不敢言	gan nu fou gan yin	72
-敢怒不敢言	gan nu fu gan yan	72
-敢怒不敢言	gan nu fu gan yin	72
 孤魂野鬼	gu hun ye gui	72
 千里姻缘一线牵	qian li yin yuan yi xian qian	72
 山摇地动	shan yao di dong	72
@@ -7385,14 +6659,12 @@ sort: by_weight
 以战养战	yi zhan yang zhan	67
 愣头愣脑	leng tou leng nao	67
 岁寒三友	sui han san you	67
-岁寒三友	sui han sa you	67
 一言为定	yi yan wei ding	67
 四海升平	si hai sheng ping	67
 难乎其难	nan hu qi nan	67
 环肥燕瘦	huan fei yan shou	67
 传为笑谈	chuan wei xiao tan	67
 山长水远	shan chang shui yuan	67
-怪模怪样	guai mu guai yang	67
 怪模怪样	guai mo guai yang	67
 立功赎罪	li gong shu zui	67
 能掐会算	neng qia hui suan	67
@@ -7450,7 +6722,6 @@ sort: by_weight
 狗仗人势	gou zhang ren shi	65
 慎重其事	shen zhong qi shi	65
 军容风纪	jun rong feng ji	65
-军容风纪	jun yong feng ji	65
 默默无声	mo mo wu sheng	65
 不过尔尔	bu guo er er	65
 浑身是胆	hun shen shi dan	65
@@ -7467,41 +6738,16 @@ sort: by_weight
 区区小事	qu qu xiao shi	64
 大巧若拙	da qiao ruo zhuo	64
 立于不败	li yu bu bai	64
-立于不败	li yu fou bai	64
-立于不败	li yu fu bai	64
-立于不败	li wei bu bai	64
-立于不败	li wei fou bai	64
-立于不败	li wei fu bai	64
-立于不败	li xu bu bai	64
-立于不败	li xu fou bai	64
-立于不败	li xu fu bai	64
-立于不败	wei yu bu bai	64
-立于不败	wei yu fou bai	64
-立于不败	wei yu fu bai	64
-立于不败	wei wei bu bai	64
-立于不败	wei wei fou bai	64
-立于不败	wei wei fu bai	64
-立于不败	wei xu bu bai	64
-立于不败	wei xu fou bai	64
-立于不败	wei xu fu bai	64
 羽扇纶巾	yu shan guan jin	64
 敢怒敢言	gan nu gan yan	64
 慢声细语	man sheng xi yu	64
 时移势易	shi yi shi yi	64
 柔肠寸断	rou chang cun duan	64
 其不善者而改之	qi bu shan zhe er gai zhi	64
-其不善者而改之	qi bu shan zhe er gai zhu	64
-其不善者而改之	qi bu shan zhe neng gai zhi	64
-其不善者而改之	qi bu shan zhe neng gai zhu	64
-其不善者而改之	ji bu shan zhe er gai zhi	64
-其不善者而改之	ji bu shan zhe er gai zhu	64
-其不善者而改之	ji bu shan zhe neng gai zhi	64
-其不善者而改之	ji bu shan zhe neng gai zhu	64
 一无所长	yi wu suo chang	64
 举止言谈	ju zhi yan tan	64
 尺寸之功	chi cun zhi gong	64
 见龙卸甲	jian long xie jia	64
-见龙卸甲	xian long xie jia	64
 罪该万死	zui gai wan si	64
 沾花惹草	zhan hua re cao	64
 文武全才	wen wu quan cai	64
@@ -7540,13 +6786,11 @@ sort: by_weight
 话不投机半句多	hua bu tou ji ban ju duo	62
 名缰利锁	ming jiang li suo	62
 前车可鉴	qian che ke jian	62
-前车可鉴	qian ju ke jian	62
 五方杂处	wu fang za chu	62
 十字街口	shi zi jie kou	62
 混混沌沌	hun hun dun dun	62
 泛泛之交	fan fan zhi jiao	62
 多不胜数	duo bu sheng shu	62
-多不胜数	duo bu sheng shuo	62
 交口赞誉	jiao kou zan yu	62
 顾盼生辉	gu pan sheng hui	62
 鱼肉乡里	yu rou xiang li	62
@@ -7558,22 +6802,10 @@ sort: by_weight
 鸡鸣狗吠	ji ming gou fei	62
 才疏学浅	cai shu xue qian	62
 西出阳关无故人	xi chu yang guan wu gu ren	62
-西出阳关无故人	xi chu yang guan mo gu ren	62
 防民之口	fang min zhi kou	62
 人世沧桑	ren shi cang sang	61
 别来无恙	bie lai wu yang	61
 波平浪静	bo ping lang jing	61
-波平浪静	bo pian lang jing	61
-波平浪静	bo bing lang jing	61
-波平浪静	bo beng lang jing	61
-波平浪静	bei ping lang jing	61
-波平浪静	bei pian lang jing	61
-波平浪静	bei bing lang jing	61
-波平浪静	bei beng lang jing	61
-波平浪静	bi ping lang jing	61
-波平浪静	bi pian lang jing	61
-波平浪静	bi bing lang jing	61
-波平浪静	bi beng lang jing	61
 钟鸣鼎食	zhong ming ding shi	61
 金玉其外败絮其中	jin yu qi wai bai xu qi zhong	61
 来处不易	lai chu bu yi	61
@@ -7581,7 +6813,6 @@ sort: by_weight
 逼人太甚	bi ren tai shen	61
 瓜分豆剖	gua fen dou pou	61
 赤身露体	chi shen lu ti	61
-赤身露体	chi shen lou ti	61
 卖国求荣	mai guo qiu rong	61
 狂涛巨浪	kuang tao ju lang	61
 安家乐业	an jia le ye	61
@@ -7596,7 +6827,6 @@ sort: by_weight
 山乡巨变	shan xiang ju bian	61
 有凤来仪	you feng lai yi	61
 心无挂碍	xin wu gua ai	61
-心无挂碍	xin wu guai ai	61
 谈笑自若	tan xiao zi ruo	60
 寓意深长	yu yi shen chang	60
 嫉贤妒能	ji xian du neng	60
@@ -7608,7 +6838,6 @@ sort: by_weight
 满目青山	man mu qing shan	60
 诗中有画	shi zhong you hua	60
 债多不愁	zhai duo bu chou	60
-一男半女	yi nan ban nü	60
 一男半女	yi nan ban nv	60
 为善最乐	wei shan zui le	60
 人不知鬼不觉	ren bu zhi gui bu jue	60
@@ -7656,7 +6885,6 @@ sort: by_weight
 姜是老的辣	jiang shi lao de la	58
 翩若惊鸿	pian ruo jing hong	58
 兄友弟恭	xiong you di gong	58
-男大当婚女大当嫁	nan da dang hun nü da dang jia	58
 男大当婚女大当嫁	nan da dang hun nv da dang jia	58
 如丧考妣	ru sang kao bi	58
 玉不琢不成器	yu bu zhuo bu cheng qi	58
@@ -7665,7 +6893,6 @@ sort: by_weight
 敲骨吸髓	qiao gu xi sui	58
 横行天下	heng xing tian xia	58
 人活一张脸	ren huo yi zhang lian	58
-人活一张脸	ren guo yi zhang lian	58
 寻根问底	xun gen wen di	58
 罪恶深重	zui e shen zhong	58
 有口无心	you kou wu xin	58
@@ -7704,7 +6931,6 @@ sort: by_weight
 人寿年丰	ren shou nian feng	57
 略高一筹	lve gao yi chou	57
 水光山色	shui guang shan se	56
-奸淫掳掠	jian yin lu lüe	56
 奸淫掳掠	jian yin lu lve	56
 六道轮回	liu dao lun hui	56
 柳绿花红	liu lv hua hong	56
@@ -7716,46 +6942,9 @@ sort: by_weight
 畸重畸轻	ji zhong ji qing	56
 足不出门	zu bu chu men	56
 吹面不寒杨柳风	chui mian bu han yang liu feng	56
-吹面不寒杨柳风	chui mian fou han yang liu feng	56
-吹面不寒杨柳风	chui mian fu han yang liu feng	56
 以子之矛攻子之盾	yi zi zhi mao gong zi zhi dun	56
 不知其可	bu zhi qi ke	56
 不见棺材不掉泪	bu jian guan cai bu diao lei	56
-不见棺材不掉泪	bu jian guan cai bu nuo lei	56
-不见棺材不掉泪	bu jian guan cai fou diao lei	56
-不见棺材不掉泪	bu jian guan cai fou nuo lei	56
-不见棺材不掉泪	bu jian guan cai fu diao lei	56
-不见棺材不掉泪	bu jian guan cai fu nuo lei	56
-不见棺材不掉泪	bu xian guan cai bu diao lei	56
-不见棺材不掉泪	bu xian guan cai bu nuo lei	56
-不见棺材不掉泪	bu xian guan cai fou diao lei	56
-不见棺材不掉泪	bu xian guan cai fou nuo lei	56
-不见棺材不掉泪	bu xian guan cai fu diao lei	56
-不见棺材不掉泪	bu xian guan cai fu nuo lei	56
-不见棺材不掉泪	fou jian guan cai bu diao lei	56
-不见棺材不掉泪	fou jian guan cai bu nuo lei	56
-不见棺材不掉泪	fou jian guan cai fou diao lei	56
-不见棺材不掉泪	fou jian guan cai fou nuo lei	56
-不见棺材不掉泪	fou jian guan cai fu diao lei	56
-不见棺材不掉泪	fou jian guan cai fu nuo lei	56
-不见棺材不掉泪	fou xian guan cai bu diao lei	56
-不见棺材不掉泪	fou xian guan cai bu nuo lei	56
-不见棺材不掉泪	fou xian guan cai fou diao lei	56
-不见棺材不掉泪	fou xian guan cai fou nuo lei	56
-不见棺材不掉泪	fou xian guan cai fu diao lei	56
-不见棺材不掉泪	fou xian guan cai fu nuo lei	56
-不见棺材不掉泪	fu jian guan cai bu diao lei	56
-不见棺材不掉泪	fu jian guan cai bu nuo lei	56
-不见棺材不掉泪	fu jian guan cai fou diao lei	56
-不见棺材不掉泪	fu jian guan cai fou nuo lei	56
-不见棺材不掉泪	fu jian guan cai fu diao lei	56
-不见棺材不掉泪	fu jian guan cai fu nuo lei	56
-不见棺材不掉泪	fu xian guan cai bu diao lei	56
-不见棺材不掉泪	fu xian guan cai bu nuo lei	56
-不见棺材不掉泪	fu xian guan cai fou diao lei	56
-不见棺材不掉泪	fu xian guan cai fou nuo lei	56
-不见棺材不掉泪	fu xian guan cai fu diao lei	56
-不见棺材不掉泪	fu xian guan cai fu nuo lei	56
 天下本无事	tian xia ben wu shi	56
 摇尾乞怜	yao wei qi lian	56
 一片冰心	yi pian bing xin	56
@@ -7763,15 +6952,11 @@ sort: by_weight
 平地一声雷	ping di yi sheng lei	56
 死不足惜	si bu zu xi	56
 人多眼杂	ren duo yan za	56
-人多眼杂	ren duo yan duo	56
-人多眼杂	ren duo wen za	56
-人多眼杂	ren duo wen duo	56
 弄巧反拙	nong qiao fan zhuo	56
 初试锋芒	chu shi feng mang	56
 大仁大义	da ren da yi	55
 无可无不可	wu ke wu bu ke	55
 短小精干	duan xiao jing gan	55
-绿肥红瘦	lü fei hong shou	55
 绿肥红瘦	lv fei hong shou	55
 夫子自道	fu zi zi dao	55
 人非圣贤孰能无过	ren fei sheng xian shu neng wu guo	55
@@ -7799,7 +6984,6 @@ sort: by_weight
 引以为耻	yin yi wei chi	55
 八字没一撇	ba zi mei yi pie	54
 鼎足之势	ding zu zhi shi	54
-称心满意	chen xin man yi	54
 称心满意	cheng xin man yi	54
 有其父必有其子	you qi fu bi you qi zi	54
 饱暖思淫欲	bao nuan si yin yu	54
@@ -7810,9 +6994,7 @@ sort: by_weight
 危急存亡	wei ji cun wang	54
 私心杂念	si xin za nian	54
 百读不厌	bai du bu yan	54
-借坡下驴	jie po xia lü	54
 借坡下驴	jie po xia lv	54
-儿女情长	er nü qing chang	54
 儿女情长	er nv qing chang	54
 篡党夺权	cuan dang duo quan	54
 草草收兵	cao cao shou bing	54
@@ -7830,8 +7012,6 @@ sort: by_weight
 洞察秋毫	dong cha qiu hao	53
 两虎相争	liang hu xiang zheng	53
 本小利薄	ben xiao li bao	53
-本小利薄	ben xiao li bo	53
-本小利薄	ben xiao li bu	53
 弥天大祸	mi tian da huo	53
 稍胜一筹	shao sheng yi chou	53
 喃喃细语	nan nan xi yu	53
@@ -7840,7 +7020,6 @@ sort: by_weight
 大吹大擂	da chui da lei	53
 风云变色	feng yun bian se	53
 只知其一	zhi zhi qi yi	53
-只知其一	zhi zhi qi shan	53
 头悬梁锥刺股	tou xuan liang zhui ci gu	53
 毫不利己专门利人	hao bu li ji zhuan men li ren	53
 送旧迎新	song jiu ying xin	53
@@ -7890,8 +7069,6 @@ sort: by_weight
 森严壁垒	sen yan bi lei	51
 不足为据	bu zu wei ju	51
 百病丛生	bai bing cong sheng	51
-百病丛生	bo bing cong sheng	51
-百病丛生	mo bing cong sheng	51
 坦然自若	tan ran zi ruo	51
 酒囊饭袋	jiu nang fan dai	51
 相反相成	xiang fan xiang cheng	51
@@ -7917,15 +7094,12 @@ sort: by_weight
 杀鸡骇猴	sha ji hai hou	50
 首善之地	shou shan zhi di	50
 饱经忧患	bao jing you huan	50
-人无远虑必有近忧	ren wu yuan lü bi you jin you	49
 人无远虑必有近忧	ren wu yuan lv bi you jin you	49
 脸红耳赤	lian hong er chi	49
 法不阿贵	fa bu e gui	49
 期期艾艾	qi qi ai ai	49
 缩衣节食	suo yi jie shi	49
-缩衣节食	su yi jie shi	49
 轻装简从	qing zhuang jian cong	49
-轻装简从	qing zhuang jian zong	49
 所费不赀	suo fei bu zi	49
 积毁销骨	ji hui xiao gu	49
 唾面自干	tuo mian zi gan	49
@@ -7946,7 +7120,6 @@ sort: by_weight
 单丝不成线	dan si bu cheng xian	49
 逢山开道	feng shan kai dao	49
 将熊熊一窝	jiang xiong xiong yi wo	49
-将熊熊一窝	qiang xiong xiong yi wo	49
 意在言外	yi zai yan wai	49
 宝马香车	bao ma xiang che	49
 追根求源	zhui gen qiu yuan	48
@@ -7961,9 +7134,6 @@ sort: by_weight
 只知其一不知其二	zhi zhi qi yi bu zhi qi er	48
 尔俸尔禄	er feng er lu	48
 卖儿卖女	mai er mai nv	48
-卖儿卖女	mai er mai ru	48
-卖儿卖女	mai ren mai nv	48
-卖儿卖女	mai ren mai ru	48
 千金不换	qian jin bu huan	48
 三宫六院	san gong liu yuan	48
 士可杀不可辱	shi ke sha bu ke ru	48
@@ -8018,19 +7188,13 @@ sort: by_weight
 稀世之宝	xi shi zhi bao	46
 议论纷纭	yi lun fen yun	46
 日思夜盼	ri si ye pan	46
-日思夜盼	ri si ye fen	46
-日思夜盼	ri sai ye pan	46
-日思夜盼	ri sai ye fen	46
 进道若退	jin dao ruo tui	46
 迁怒于人	qian nu yu ren	46
 广征博引	guang zheng bo yin	46
-广征博引	an zheng bo yin	46
-广征博引	yan zheng bo yin	46
 豺狼虎豹	chai lang hu bao	46
 百废俱兴	bai fei ju xing	46
 半文半白	ban wen ban bai	46
 掎角之势	ji jiao zhi shi	46
-掎角之势	ji jue zhi shi	46
 别有天地	bie you tian di	46
 惊慌失色	jing huang shi se	46
 大有可观	da you ke guan	46
@@ -8048,9 +7212,6 @@ sort: by_weight
 狗屁不通	gou pi bu tong	46
 桃李遍天下	tao li bian tian xia	46
 打铁先得自身硬	da tie xian de zi shen ying	46
-打铁先得自身硬	da tie xian de zi shen geng	46
-打铁先得自身硬	da tie xian dei zi shen ying	46
-打铁先得自身硬	da tie xian dei zi shen geng	46
 弃旧图新	qi jiu tu xin	46
 杀父之仇	sha fu zhi chou	46
 令出必行	ling chu bi xing	46
@@ -8079,7 +7240,6 @@ sort: by_weight
 位极人臣	wei ji ren chen	45
 荒唐无稽	huang tang wu ji	45
 雪泥鸿爪	xue ni hong zhao	45
-雪泥鸿爪	xue ni hong zhua	45
 存而不论	cun er bu lun	45
 临渴掘井	lin ke jue jing	45
 生死不渝	sheng si bu yu	45
@@ -8105,14 +7265,12 @@ sort: by_weight
 瞒上欺下	man shang qi xia	44
 愧不敢当	kui bu gan dang	44
 清闲自在	qing xian zi zai	44
-剑及履及	jian ji lü ji	44
 剑及履及	jian ji lv ji	44
 金马碧鸡	jin ma bi ji	44
 甚于防川	shen yu fang chuan	44
 豪放不羁	hao fang bu ji	44
 人情世态	ren qing shi tai	44
 冷血动物	leng xue dong wu	44
-冷血动物	leng xie dong wu	44
 囊萤映雪	nang ying ying xue	44
 秀才不出门	xiu cai bu chu men	44
 大得人心	da de ren xin	44
@@ -8190,7 +7348,6 @@ sort: by_weight
 骨肉离散	gu rou li san	42
 出门在外	chu men zai wai	42
 顿足捶胸	dun zu chui xiong	42
-言必信行必果	yan bi xin yan bi xin	42
 言必信行必果	yan bi xin xing bi guo	42
 必有一失	bi you yi shi	42
 虱多不痒	shi duo bu yang	42
@@ -8205,7 +7362,6 @@ sort: by_weight
 自我陶醉	zi wo tao zui	41
 炼石补天	lian shi bu tian	41
 安步当车	an bu dang che	41
-安步当车	an bu dang ju	41
 昼伏夜行	zhou fu ye xing	41
 骨肉相残	gu rou xiang can	41
 对症之药	dui zheng zhi yao	41
@@ -8231,20 +7387,15 @@ sort: by_weight
 周公吐哺	zhou gong tu bu	40
 名重一时	ming zhong yi shi	40
 拣了芝麻丢了西瓜	jian le zhi ma diu le xi gua	40
-拣了芝麻丢了西瓜	jian liao zhi ma diu le xi gua	40
 载沉载浮	zai chen zai fu	40
 无人之地	wu ren zhi di	40
 蓬生麻中	peng sheng ma zhong	40
-富商大贾	fu shang da gu	40
 富商大贾	fu shang da jia	40
 竖子成名	shu zi cheng ming	40
 一笔抹杀	yi bi mo sha	40
 膏腴之地	gao yu zhi di	40
 道路以目	dao lu yi mu	40
 独排众议	du pai zhong yi	40
-独排众议	du pai yin yi	40
-独排众议	du bai zhong yi	40
-独排众议	du bai yin yi	40
 推三推四	tui san tui si	40
 胸无点墨	xiong wu dian mo	40
 误入歧途	wu ru qi tu	40
@@ -8332,11 +7483,6 @@ sort: by_weight
 深山幽谷	shen shan you gu	38
 焚琴煮鹤	fen qin zhu he	38
 国家兴亡匹夫有责	guo jia xing wang pi fu you ze	38
-国家兴亡匹夫有责	guo jia xing wu pi fu you ze	38
-国家兴亡匹夫有责	guo jie xing wang pi fu you ze	38
-国家兴亡匹夫有责	guo jie xing wu pi fu you ze	38
-国家兴亡匹夫有责	guo gu xing wang pi fu you ze	38
-国家兴亡匹夫有责	guo gu xing wu pi fu you ze	38
 稗官野史	bai guan ye shi	38
 断断续续	duan duan xu xu	38
 花花世界	hua hua shi jie	38
@@ -8365,11 +7511,6 @@ sort: by_weight
 血盆大口	xue pen da kou	37
 串亲访友	chuan qin fang you	37
 非学无以广才	fei xue wu yi guang cai	37
-非学无以广才	fei xue wu yi guang zai	37
-非学无以广才	fei xue wu yi an cai	37
-非学无以广才	fei xue wu yi an zai	37
-非学无以广才	fei xue wu yi yan cai	37
-非学无以广才	fei xue wu yi yan zai	37
 囊中取物	nang zhong qu wu	37
 耸入云霄	song ru yun xiao	37
 进德修业	jin de xiu ye	37
@@ -8389,9 +7530,6 @@ sort: by_weight
 白刀子进红刀子出	bai dao zi jin hong dao zi chu	37
 敬若神明	jing ruo shen ming	37
 牢骚太盛防肠断	lao sao tai sheng fang chang duan	37
-牢骚太盛防肠断	lao sao tai cheng fang chang duan	37
-牢骚太盛防肠断	lao sao ta sheng fang chang duan	37
-牢骚太盛防肠断	lao sao ta cheng fang chang duan	37
 如椽之笔	ru chuan zhi bi	37
 人不犯我我不犯人	ren bu fan wo wo bu fan ren	37
 罪魁祸首	zui kui huo shou	37
@@ -8423,7 +7561,6 @@ sort: by_weight
 民生在勤	min sheng zai qin	36
 没轻没重	mei qing mei zhong	36
 舍命陪君子	she ming pei jun zi	36
-舍命陪君子	shi ming pei jun zi	36
 持盈保泰	chi ying bao tai	36
 一人之下万人之上	yi ren zhi xia wan ren zhi shang	36
 清风两袖	qing feng liang xiu	36
@@ -8453,7 +7590,6 @@ sort: by_weight
 治丝益棼	zhi si yi fen	36
 知命之年	zhi ming zhi nian	36
 居功厥伟	ju gong jue wei	36
-居功厥伟	ji gong jue wei	36
 指腹为婚	zhi fu wei hun	36
 由衷之言	you zhong zhi yan	36
 绝路逢生	jue lu feng sheng	36
@@ -8466,8 +7602,6 @@ sort: by_weight
 行成于思	xing cheng yu si	35
 鸾凤和鸣	luan feng he ming	35
 大嚷大叫	da rang da jiao	35
-大嚷大叫	dai rang da jiao	35
-大嚷大叫	tai rang da jiao	35
 口出不逊	kou chu bu xun	35
 一蹴可几	yi cu ke ji	35
 惊疑不定	jing yi bu ding	35
@@ -8480,12 +7614,10 @@ sort: by_weight
 连战皆捷	lian zhan jie jie	35
 吉人天相	ji ren tian xiang	35
 偷鸡不着蚀把米	tou ji bu zhe shi ba mi	35
-偷鸡不着蚀把米	tou ji bu zhao shi ba mi	35
 嫁鸡随鸡嫁狗随狗	jia ji sui ji jia gou sui gou	35
 犁庭扫穴	li ting sao xue	35
 安邦治国	an bang zhi guo	35
 立业成家	li ye cheng jia	35
-穿红着绿	chuan hong zhuo lü	35
 穿红着绿	chuan hong zhuo lv	35
 肆虐横行	si nve heng xing	35
 激昂慷慨	ji ang kang kai	35
@@ -8497,9 +7629,6 @@ sort: by_weight
 慷慨赴义	kang kai fu yi	35
 中外合璧	zhong wai he bi	35
 知足者常乐	zhi zu zhe chang le	35
-知足者常乐	zhi zu zhe chang yue	35
-知足者常乐	zhi ju zhe chang le	35
-知足者常乐	zhi ju zhe chang yue	35
 目无尊长	mu wu zun zhang	35
 假仁假义	jia ren jia yi	35
 规行矩步	gui xing ju bu	35
@@ -8523,7 +7652,6 @@ sort: by_weight
 小时了了	xiao shi liao liao	35
 星星点点	xing xing dian dian	34
 半斤对八两	ban jin dui ba liang	34
-半斤对八两	pan jin dui ba liang	34
 骨鲠在喉	gu geng zai hou	34
 和气致祥	he qi zhi xiang	34
 尽信书不如无书	jin xin shu bu ru wu shu	34
@@ -8550,7 +7678,6 @@ sort: by_weight
 不徐不疾	bu xu bu ji	34
 羽毛丰满	yu mao feng man	34
 黄口小儿	huang kou xiao er	34
-临深履薄	lin shen lü bo	34
 临深履薄	lin shen lv bo	34
 急急如律令	ji ji ru lv ling	34
 行不更名	xing bu geng ming	34
@@ -8565,7 +7692,6 @@ sort: by_weight
 臧否人物	zang pi ren wu	34
 仓皇失措	cang huang shi cuo	34
 牛之一毛	niu zhi yi mao	34
-履险如夷	lü xian ru yi	34
 履险如夷	lv xian ru yi	34
 食言而肥	shi yan er fei	34
 成千成万	cheng qian cheng wan	34
@@ -8598,26 +7724,12 @@ sort: by_weight
 观者如堵	guan zhe ru du	33
 五马分尸	wu ma fen shi	33
 釜底之鱼	fu di zhi yu	33
-釜底之鱼	fu di zhu yu	33
-釜底之鱼	fu de zhi yu	33
-釜底之鱼	fu de zhu yu	33
 旦夕之间	dan xi zhi jian	33
 好学深思	hao xue shen si	33
 欺人之谈	qi ren zhi tan	33
 进身之阶	jin shen zhi jie	33
 五短身材	wu duan shen cai	33
 积善之家必有余庆	ji shan zhi jia bi you yu qing	33
-积善之家必有余庆	ji shan zhi jia bi wei yu qing	33
-积善之家必有余庆	ji shan zhi jie bi you yu qing	33
-积善之家必有余庆	ji shan zhi jie bi wei yu qing	33
-积善之家必有余庆	ji shan zhi gu bi you yu qing	33
-积善之家必有余庆	ji shan zhi gu bi wei yu qing	33
-积善之家必有余庆	ji shan zhu jia bi you yu qing	33
-积善之家必有余庆	ji shan zhu jia bi wei yu qing	33
-积善之家必有余庆	ji shan zhu jie bi you yu qing	33
-积善之家必有余庆	ji shan zhu jie bi wei yu qing	33
-积善之家必有余庆	ji shan zhu gu bi you yu qing	33
-积善之家必有余庆	ji shan zhu gu bi wei yu qing	33
 扬清抑浊	yang qing yi zhuo	33
 汉贼不两立	han zei bu liang li	33
 刀光血影	dao guang xue ying	33
@@ -8655,7 +7767,6 @@ sort: by_weight
 百折不屈	bai zhe bu qu	32
 千峰万壑	qian feng wan he	32
 三申五令	san shen wu ling	32
-三申五令	san shen wu lian	32
 忧谗畏讥	you chan wei ji	32
 落花有意	luo hua you yi	32
 信口胡诌	xin kou hu zhou	32
@@ -8667,7 +7778,6 @@ sort: by_weight
 存亡续绝	cun wang xu jue	32
 三千里江山	san qian li jiang shan	32
 它山之石可以攻玉	ta shan zhi shi ke yi gong yu	32
-它山之石可以攻玉	tuo shan zhi shi ke yi gong yu	32
 一瓣心香	yi ban xin xiang	32
 恭敬不如从命	gong jing bu ru cong ming	32
 踌躇不决	chou chu bu jue	32
@@ -8695,7 +7805,6 @@ sort: by_weight
 宠辱皆忘	chong ru jie wang	32
 兴国安邦	xing guo an bang	32
 含血喷人	han xue pen ren	32
-含血喷人	han xie pen ren	32
 牛头马面	niu tou ma mian	32
 龙生龙凤生凤	long sheng long feng sheng feng	32
 马前泼水	ma qian po shui	31
@@ -8711,7 +7820,6 @@ sort: by_weight
 万贯家财	wan guan jia cai	31
 恩威并重	en wei bing zhong	31
 玉液琼浆	yu ye qiong jiang	31
-玉液琼浆	yu yi qiong jiang	31
 迟疑观望	chi yi guan wang	31
 夙夜匪懈	su ye fei xie	31
 画栋雕梁	hua dong diao liang	31
@@ -8751,8 +7859,6 @@ sort: by_weight
 草率从事	cao shuai cong shi	30
 其奈我何	qi nai wo he	30
 逢山开路遇水搭桥	feng shan kai lu yu shui da qiao	30
-逢山开路遇水搭桥	feng shan kai lu yong shui da qiao	30
-逢山开路遇水搭桥	feng shan kai lu ou shui da qiao	30
 酒绿灯红	jiu lv deng hong	30
 月圆花好	yue yuan hua hao	30
 知遇之恩	zhi yu zhi en	30
@@ -8764,7 +7870,6 @@ sort: by_weight
 三心两意	san xin liang yi	30
 九死不悔	jiu si bu hui	30
 飞珠溅玉	fei zhu jian yu	30
-出乖露丑	chu guai lou chou	30
 出乖露丑	chu guai lu chou	30
 怀忧丧志	huai you sang zhi	30
 天王老子	tian wang lao zi	30
@@ -8782,7 +7887,7 @@ sort: by_weight
 解民倒悬	jie min dao xuan	30
 不知肉味	bu zhi rou wei	30
 仇人相见分外眼红	chou ren xiang jian fen wai yan hong	30
-女流之辈	nü liu zhi bei	30
+女流之辈	nv liu zhi bei	30
 报仇雪耻	bao chou xue chi	30
 羊肠小径	yang chang xiao jing	30
 鸟尽弓藏	niao jin gong cang	30
@@ -8800,7 +7905,6 @@ sort: by_weight
 东扯西拉	dong che xi la	30
 曲意迎合	qu yi ying he	30
 不平之鸣	bu ping zhi ming	30
-不平之鸣	bu ping zhu ming	30
 三寸之舌	san cun zhi she	30
 铁马金戈	tie ma jin ge	30
 洒扫应对	sa sao ying dui	30
@@ -8809,7 +7913,6 @@ sort: by_weight
 以其昏昏使人昭昭	yi qi hun hun shi ren zhao zhao	30
 不知老之将至	bu zhi lao zhi jiang zhi	29
 百无一用是书生	bai wu yi yong shi shu sheng	29
-百无一用是书生	bai wu yi yong ti shu sheng	29
 肉食者鄙	rou shi zhe bi	29
 识途老马	shi tu lao ma	29
 日久弥新	ri jiu mi xin	29
@@ -8818,7 +7921,6 @@ sort: by_weight
 漫天叫价	man tian jiao jia	29
 铁画银钩	tie hua yin gou	29
 一着不慎满盘皆输	yi zhao bu shen man pan jie shu	29
-一着不慎满盘皆输	yi zhuo bu shen man pan jie shu	29
 啼饥号寒	ti ji hao han	29
 鲁难未已	lu nan wei yi	29
 涕泗横流	ti si heng liu	29
@@ -8831,8 +7933,6 @@ sort: by_weight
 付诸一笑	fu zhu yi xiao	29
 光辉夺目	guang hui duo mu	29
 生于忧患死于安乐	sheng yu you huan si yu an le	29
-生于忧患死于安乐	sheng wei you huan si yu an le	29
-生于忧患死于安乐	sheng xu you huan si yu an le	29
 十八般武艺	shi ba ban wu yi	29
 声气相通	sheng qi xiang tong	29
 听其言而观其行	ting qi yan er guan qi xing	29
@@ -8855,23 +7955,6 @@ sort: by_weight
 言有尽而意无穷	yan you jin er yi wu qiong	29
 杯觥交错	bei gong jiao cuo	29
 有贼心没贼胆	you zei xin mei zei dan	29
-有贼心没贼胆	you zei xin mei zei tan	29
-有贼心没贼胆	you zei xin mei zei da	29
-有贼心没贼胆	you zei xin mo zei dan	29
-有贼心没贼胆	you zei xin mo zei tan	29
-有贼心没贼胆	you zei xin mo zei da	29
-有贼心没贼胆	you zei xin me zei dan	29
-有贼心没贼胆	you zei xin me zei tan	29
-有贼心没贼胆	you zei xin me zei da	29
-有贼心没贼胆	wei zei xin mei zei dan	29
-有贼心没贼胆	wei zei xin mei zei tan	29
-有贼心没贼胆	wei zei xin mei zei da	29
-有贼心没贼胆	wei zei xin mo zei dan	29
-有贼心没贼胆	wei zei xin mo zei tan	29
-有贼心没贼胆	wei zei xin mo zei da	29
-有贼心没贼胆	wei zei xin me zei dan	29
-有贼心没贼胆	wei zei xin me zei tan	29
-有贼心没贼胆	wei zei xin me zei da	29
 耿耿忠心	geng geng zhong xin	29
 天不假年	tian bu jia nian	29
 整旧如新	zheng jiu ru xin	29
@@ -8879,7 +7962,6 @@ sort: by_weight
 眼中钉肉中刺	yan zhong ding rou zhong ci	29
 开合自如	kai he zi ru	29
 不得其详	bu de qi xiang	29
-不得其详	bu de ji xiang	29
 风刀霜剑	feng dao shuang jian	29
 胶柱鼓瑟	jiao zhu gu se	29
 龙精虎猛	long jing hu meng	29
@@ -8892,11 +7974,6 @@ sort: by_weight
 民膏民脂	min gao min zhi	28
 脸红耳热	lian hong er re	28
 业精于勤荒于嬉	ye jing yu qin huang yu xi	28
-业精于勤荒于嬉	ye jing yu qin huang wei xi	28
-业精于勤荒于嬉	ye jing yu qin huang xu xi	28
-业精于勤荒于嬉	ye jing yu qin kang yu xi	28
-业精于勤荒于嬉	ye jing yu qin kang wei xi	28
-业精于勤荒于嬉	ye jing yu qin kang xu xi	28
 宁为玉碎不为瓦全	ning wei yu sui bu wei wa quan	28
 鬼话连篇	gui hua lian pian	28
 惟精惟一	wei jing wei yi	28
@@ -8911,7 +7988,6 @@ sort: by_weight
 鼻青眼肿	bi qing yan zhong	28
 你言我语	ni yan wo yu	28
 一丘一壑	yi qiu yi he	28
-一丘一壑	yi qiu yi huo	28
 老僧入定	lao seng ru ding	28
 官官相卫	guan guan xiang wei	28
 勇冠三军	yong guan san jun	28
@@ -8921,7 +7997,6 @@ sort: by_weight
 桂子飘香	gui zi piao xiang	28
 以勤补拙	yi qin bu zhuo	28
 跑了和尚跑不了庙	pao le he shang pao bu le miao	28
-跑了和尚跑不了庙	pao le he shang pao bu liao miao	28
 强中自有强中手	qiang zhong zi you qiang zhong shou	28
 离情别绪	li qing bie xu	28
 七零八散	qi ling ba san	28
@@ -8929,7 +8004,6 @@ sort: by_weight
 悠悠荡荡	you you dang dang	28
 量才录用	liang cai lu yong	28
 不露锋芒	bu lu feng mang	28
-不露锋芒	bu lou feng mang	28
 宦海浮沉	huan hai fu chen	28
 清新俊逸	qing xin jun yi	28
 英姿焕发	ying zi huan fa	28
@@ -8942,7 +8016,7 @@ sort: by_weight
 举措失当	ju cuo shi dang	28
 民不畏死	min bu wei si	28
 残汤剩饭	can tang sheng fan	28
-洪钟大吕	hong zhong da lü	28
+洪钟大吕	hong zhong da lv	28
 好生之德	hao sheng zhi de	28
 不贪为宝	bu tan wei bao	28
 喘息未定	chuan xi wei ding	28
@@ -8967,7 +8041,6 @@ sort: by_weight
 文情并茂	wen qing bing mao	27
 偶一为之	ou yi wei zhi	27
 心旌摇曳	xin jing yao ye	27
-心旌摇曳	xin jing yao yi	27
 引以为憾	yin yi wei han	27
 将功折罪	jiang gong zhe zui	27
 片瓦不留	pian wa bu liu	27
@@ -8995,11 +8068,6 @@ sort: by_weight
 一路货色	yi lu huo se	27
 精诚所至金石为开	jing cheng suo zhi jin shi wei kai	27
 食洋不化	shi yang bu hua	27
-食洋不化	shi xiang bu hua	27
-食洋不化	si yang bu hua	27
-食洋不化	si xiang bu hua	27
-食洋不化	yi yang bu hua	27
-食洋不化	yi xiang bu hua	27
 乐以忘忧	le yi wang you	27
 因循苟且	yin xun gou qie	27
 金鼓齐鸣	jin gu qi ming	27
@@ -9024,8 +8092,7 @@ sort: by_weight
 乱世英雄	luan shi ying xiong	27
 有财有势	you cai you shi	27
 齐驱并进	qi qu bing jin	27
-严于律已	yan yu lü yi	27
-严于律已	yan yu lv ji	27
+严于律已	yan yu lv yi	27
 福地洞天	fu di dong tian	27
 寻幽探胜	xun you tan sheng	27
 烽火四起	feng huo si qi	27
@@ -9036,7 +8103,6 @@ sort: by_weight
 千古罪人	qian gu zui ren	26
 昂头挺胸	ang tou ting xiong	26
 榆木疙瘩	yu mu ge da	26
-儿女之情	er nü zhi qing	26
 儿女之情	er nv zhi qing	26
 孟母择邻	meng mu ze lin	26
 餐风饮露	can feng yin lu	26
@@ -9052,15 +8118,11 @@ sort: by_weight
 以心传心	yi xin chuan xin	26
 千年万载	qian nian wan zai	26
 大有其人	da you qi ren	26
-大有其人	da you ji ren	26
 摧眉折腰	cui mei zhe yao	26
 单人匹马	dan ren pi ma	26
 身在江湖	shen zai jiang hu	26
 治国安民	zhi guo an min	26
 又见一帘幽梦	you jian yi lian you meng	26
-又见一帘幽梦	you jian yi chen you meng	26
-又见一帘幽梦	you xian yi lian you meng	26
-又见一帘幽梦	you xian yi chen you meng	26
 味如嚼蜡	wei ru jiao la	26
 求生不得	qiu sheng bu de	26
 涕泪交流	ti lei jiao liu	26
@@ -9096,7 +8158,6 @@ sort: by_weight
 急人之困	ji ren zhi kun	26
 为渊驱鱼	wei yuan qu yu	25
 白沙在涅	bai sha zai nie	25
-白沙在涅	bai shan zai nie	25
 才情横溢	cai qing heng yi	25
 竭忠尽智	jie zhong jin zhi	25
 墙头马上	qiang tou ma shang	25
@@ -9152,13 +8213,11 @@ sort: by_weight
 光焰万丈	guang yan wan zhang	25
 笔下生花	bi xia sheng hua	25
 豺狼当道	chai lang dang dao	25
-别无长物	bie wu chang wu	25
 别无长物	bie wu zhang wu	25
 涂炭生灵	tu tan sheng ling	25
 不厌其详	bu yan qi xiang	25
 丹青妙手	dan qing miao shou	25
 叨陪末座	tao pei mo zuo	25
-步履艰辛	bu lü jian xin	25
 步履艰辛	bu lv jian xin	25
 犬马之劳	quan ma zhi lao	25
 没头没脸	mei tou mei lian	25
@@ -9179,18 +8238,10 @@ sort: by_weight
 齐烟九点	qi yan jiu dian	24
 告贷无门	gao dai wu men	24
 白首方悔读书迟	bai shou fang hui du shu chi	24
-白首方悔读书迟	bai shou pang hui du shu chi	24
-白首方悔读书迟	bai shou wang hui du shu chi	24
-白首方悔读书迟	bai shou feng hui du shu chi	24
-白首方悔读书迟	bo shou fang hui du shu chi	24
-白首方悔读书迟	bo shou pang hui du shu chi	24
-白首方悔读书迟	bo shou wang hui du shu chi	24
-白首方悔读书迟	bo shou feng hui du shu chi	24
 车如流水马如龙	che ru liu shui ma ru long	24
 二八年华	er ba nian hua	24
 冲冠一怒为红颜	chong guan yi nu wei hong yan	24
 诸子百家	zhu zi bai jia	24
-诸子百家	zhu zi bo jia	24
 骑马找马	qi ma zhao ma	24
 满坑满谷	man keng man gu	24
 如簧之舌	ru huang zhi she	24
@@ -9212,13 +8263,11 @@ sort: by_weight
 一无可取	yi wu ke qu	24
 扶弱抑强	fu ruo yi qiang	24
 丹心碧血	dan xin bi xue	24
-丹心碧血	dan xin bi xie	24
 言近旨远	yan jin zhi yuan	24
 傲霜斗雪	ao shuang dou xue	24
 子曰诗云	zi yue shi yun	24
 抑强扶弱	yi qiang fu ruo	24
 一回生两回熟	yi hui sheng liang hui shu	24
-一回生两回熟	yi hui sheng liang hui shou	24
 难以逆料	nan yi ni liao	24
 不立文字	bu li wen zi	24
 爱钱如命	ai qian ru ming	24
@@ -9260,7 +8309,6 @@ sort: by_weight
 饮马长江	yin ma chang jiang	23
 群起效尤	qun qi xiao you	23
 判若霄壤	pan ruo xiao rang	23
-判若霄壤	pan re xiao rang	23
 救灾恤患	jiu zai xu huan	23
 蚁穴溃堤	yi xue kui di	23
 穷愁潦倒	qiong chou liao dao	23
@@ -9277,13 +8325,11 @@ sort: by_weight
 仇深似海	chou shen si hai	23
 褒衣博带	bao yi bo dai	23
 纲纪废弛	gang ji fei chi	23
-纲纪废弛	gang ji fei shi	23
 应付裕如	ying fu yu ru	23
 食而不化	shi er bu hua	23
 以身报国	yi shen bao guo	23
 铮铮有声	zheng zheng you sheng	23
 如闻其声	ru wen qi sheng	23
-如闻其声	ru wei qi sheng	23
 招降纳叛	zhao xiang na pan	23
 坚苦卓绝	jian ku zhuo jue	23
 居无求安	ju wu qiu an	23
@@ -9312,7 +8358,6 @@ sort: by_weight
 穷寇莫追	qiong kou mo zhui	23
 贪天之功	tan tian zhi gong	23
 现世现报	xian shi xian bao	23
-现世现报	xian shi xian boo	23
 不世之功	bu shi zhi gong	23
 手胼足胝	shou pian zu zhi	23
 一笔抹煞	yi bi mo sha	23
@@ -9328,8 +8373,6 @@ sort: by_weight
 秀才造反	xiu cai zao fan	22
 行己有耻	xing ji you chi	22
 人善被人欺	ren shan bei ren qi	22
-人善被人欺	ren shan bi ren qi	22
-人善被人欺	ren shan pi ren qi	22
 劈风斩浪	pi feng zhan lang	22
 佳偶天成	jia ou tian cheng	22
 费心劳力	fei xin lao li	22
@@ -9339,7 +8382,6 @@ sort: by_weight
 后生小子	hou sheng xiao zi	22
 曲突徙薪	qu tu xi xin	22
 雨淋日晒	yu lin ri shai	22
-如临深渊如履薄冰	ru lin shen yuan ru lü bo bing	22
 如临深渊如履薄冰	ru lin shen yuan ru lv bo bing	22
 韦编三绝	wei bian san jue	22
 沉滓泛起	chen zi fan qi	22
@@ -9358,7 +8400,6 @@ sort: by_weight
 反骄破满	fan jiao po man	22
 骨肉团圆	gu rou tuan yuan	22
 风声鹤唳草木皆兵	feng sheng he li cao mu jie bing	22
-北门锁钥	bei men suo yue	22
 北门锁钥	bei men suo yao	22
 人心惟危	ren xin wei wei	22
 浅斟低唱	qian zhen di chang	22
@@ -9403,7 +8444,6 @@ sort: by_weight
 明枪易躲暗箭难防	ming qiang yi duo an jian nan fang	21
 来势凶猛	lai shi xiong meng	21
 看风使舵	kan feng shi duo	21
-牵牛织女	qian niu zhi nü	21
 牵牛织女	qian niu zhi nv	21
 近在眉睫	jin zai mei jie	21
 冷水浇头	leng shui jiao tou	21
@@ -9421,7 +8461,6 @@ sort: by_weight
 一蟹不如一蟹	yi xie bu ru yi xie	21
 良知良能	liang zhi liang neng	21
 轮流做庄	lun liu zuo zhuang	21
-轮流做庄	lun liu zuo peng	21
 天地不容	tian di bu rong	21
 八府巡按	ba fu xun an	21
 公诸同好	gong zhu tong hao	21
@@ -9433,7 +8472,6 @@ sort: by_weight
 平等互惠	ping deng hu hui	21
 落花有意流水无情	luo hua you yi liu shui wu qing	21
 胸有丘壑	xiong you qiu he	21
-胸有丘壑	xiong you qiu huo	21
 万里鹏程	wan li peng cheng	21
 力不能支	li bu neng zhi	21
 怒形于色	nu xing yu se	21
@@ -9461,15 +8499,11 @@ sort: by_weight
 老弱残兵	lao ruo can bing	21
 挨打受气	ai da shou qi	21
 二者必居其一	er zhe bi ju qi yi	21
-二者必居其一	er zhe bi ju ji yi	21
-二者必居其一	er zhe bi ji qi yi	21
-二者必居其一	er zhe bi ji ji yi	21
 依法炮制	yi fa pao zhi	21
 习非成是	xi fei cheng shi	21
 无所措手足	wu suo cuo shou zu	21
 天理良心	tian li liang xin	21
 成事在人	cheng shi zai ren	21
-成事在人	cheng zi zai ren	21
 功名富贵	gong ming fu gui	21
 一画开天	yi hua kai tian	21
 庆父不死	qing fu bu si	21
@@ -9480,7 +8514,7 @@ sort: by_weight
 桃李不言下自成蹊	tao li bu yan xia zi cheng xi	21
 连日连夜	lian ri lian ye	21
 渔人之利	yu ren zhi li	21
-三男四女	san nan si nü	21
+三男四女	san nan si nv	21
 如鸟兽散	ru niao shou san	21
 不安于室	bu an yu shi	21
 悔罪自新	hui zui zi xin	21
