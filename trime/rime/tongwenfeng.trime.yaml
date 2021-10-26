@@ -4107,4 +4107,3 @@ preset_keys:
   标点: {text: '{Escape}/bd', label: 标点, functional: false}
   偏旁: {text: '{Escape}/pp', label: 偏旁, functional: false}
   竖标点: {text: '{Escape}/bdz', label: 竖标, functional: false}
-

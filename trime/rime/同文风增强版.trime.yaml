@@ -135,7 +135,7 @@ style:
   key_long_text_size: 15 #长标签字号
   key_text_size: 21 #键字号
   key_width: 10.0 #键宽，占屏幕宽的百分比
-  keyboards: [.default, default, luna_jiugong, terra_jiugong, default_jiugong_letter, jiugong_number, luna_bihua, default_bihua_letter, bihua_number, terra_jiugong, default_symbol, jiugong_use, defaultVJ5, defaultVJ6, letter, letterfh, number, use, menu, menux, symbols, symbols01, symbols11, symbols12, symbols13, symbols14, symbols21, symbols22, symbols31, symbols32, symbols33, symbols34, symbols35, symbols36, symbols41, symbols42, symbols43, symbols44, symbols51, symbols52, symbols53, symbols54, symbols55, symbols56, symbols61, symbols62, symbols63, symbols64, symbols65, symbols71, symbols72, symbols73, symbols74, symbols75, symbols81, symbols82, symbols83, symbols91, symbols92, symbols93, symbolsA1, symbolsA2, symbolsA3, symbolsA4, symbolsA5, symbolsB1, symbolsB2, symbolsB3, symbolsC1, symbolsC2, symbolsC3, symbolsC4, symbolsC5, symbolsD1, symbolsD2] #键盘配置
+  keyboards: [.default, default, luna_jiugong, terra_jiugong, default_jiugong_letter, jiugong_number, luna_bihua, terra_jiugong, default_symbol, jiugong_use, defaultVJ5, defaultVJ6, letter, letterfh, number, use, menu, menux, symbols, symbols01, symbols11, symbols12, symbols13, symbols14, symbols21, symbols22, symbols31, symbols32, symbols33, symbols34, symbols35, symbols36, symbols41, symbols42, symbols43, symbols44, symbols51, symbols52, symbols53, symbols54, symbols55, symbols56, symbols61, symbols62, symbols63, symbols64, symbols65, symbols71, symbols72, symbols73, symbols74, symbols75, symbols81, symbols82, symbols83, symbols91, symbols92, symbols93, symbolsA1, symbolsA2, symbolsA3, symbolsA4, symbolsA5, symbolsB1, symbolsB2, symbolsB3, symbolsC1, symbolsC2, symbolsC3, symbolsC4, symbolsC5, symbolsD1, symbolsD2] #键盘配置
   label_text_size: 22 #标签字号
   label_font: label.ttf #编标签字体
   latin_font: latin.ttf #西文本体
@@ -2137,7 +2137,7 @@ preset_keyboards:
       - {click: k, long_click: '""{Left}', swipe_up: '""{Left}', swipe_left: '"', swipe_right: '"', key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: l, long_click: "''{Left}", swipe_up: "''{Left}", swipe_left: "'", swipe_right: "'", key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
       # 第三行
-      - {click: Shift_L, composing: Escape, width: 13}
+      - {click: Shift_L, composing: Escape, width: 13, key_text_size: 16}
       - {width: 2}
       - {click: z, long_click: "`", swipe_up: "`", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
       - {click: x, long_click: "^",  swipe_up: cut, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
@@ -2147,14 +2147,15 @@ preset_keyboards:
       - {click: n, long_click: "[]{Left}", swipe_up: "[]{Left}", swipe_left: "[", swipe_right: "]", key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
       - {click: m, long_click: "(){Left}", swipe_up: "(){Left}", swipe_left: "(", swipe_right: ")", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
       - {width: 2}
-      - {click: BackSpace, swipe_left: Clear, swipe_up: Candidate_switch1, key_text_offset_y: 0, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst, hilited_key_text_color: bkst, width: 13}
+      - {click: BackSpace, swipe_left: Clear, swipe_up: Candidate_switch1, key_text_offset_y: 0, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst, width: 13, key_text_size: 21}
       # 第四行
-      - {height: *VJM, click: K_DefaultSymbol, composing: delimiterD, key_symbol_offset_x: 0, long_click: K_menu, key_back_color: gnb, hilited_key_back_color: gnh, key_symbol_color: gns, width: 17} #方案选择
-      - {click: ",", label: " ，", key_symbol_offset_x: 0, long_click: "!", swipe_up: "!", key_back_color: bdb, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: bdh, hilited_key_text_color: hbdt, width: 14}
+      - {height: *VJM, click: K_number, label: '?123', composing: delimiterD, key_symbol_offset_x: 0, long_click: liquid_keyboard_switch, swipe_down: K_menu, key_back_color: gnb, hilited_key_back_color: gnh, key_symbol_color: gns, width: 17, key_text_size: 16} #方案选择
+        #- {height: *VJM, click: K_DefaultSymbol, label: '符', composing: delimiterD1, key_symbol_offset_x: 0, long_click: K_menu, key_back_color: gnb, hilited_key_back_color: gnh, key_symbol_color: gns, width: 8, key_text_size: 16} #方案选择
+      - {click: ",", label: " ，", key_symbol_offset_x: 0, long_click: "!", swipe_up: "!", key_back_color: bdb, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: bdh, hilited_key_text_color: hbdt, width: 14, key_text_size: 16}
       - {click: space1, key_text_size: 18, key_text_offset_x: 0, key_text_offset_y: 0, hilited_key_text_color: hkgt, key_symbol_offset_x: 0, key_symbol_offset_y: 6, long_click: VOICE_ASSIST_Ch, swipe_left: Left, swipe_right: Right, key_back_color: kgb, key_text_color: kgt, key_symbol_color: kgs, hilited_key_back_color: kgh, width: 38}
       # - {click: space1, long_click: VOICE_ASSIST_Ch, swipe_left: Left, swipe_right: Right, key_text_size: 13.5, width: 26, key_symbol_offset_x: 0, key_back_color: bdb, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: bdh, hilited_key_text_color: hbdt}
-      - {click: ".", label: " 。", key_symbol_offset_x: 0, long_click: "?", swipe_up: "?", width: 14, key_back_color: bdb, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: bdh, hilited_key_text_color: hbdt}
-      - {click: Return, key_symbol_offset_x: 0, key_back_color: hcb, key_text_color: hct, hilited_key_text_color: hcht, key_symbol_color: hcs, hilited_key_back_color: hch, width: 17}
+      - {click: ".", label: " 。", key_symbol_offset_x: 0, long_click: "?", swipe_up: "?", width: 14, key_back_color: bdb, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: bdh, hilited_key_text_color: hbdt, key_text_size: 16}
+      - {click: Return, key_symbol_offset_x: 0, key_back_color: hcb, key_text_color: hct, hilited_key_text_color: hcht, key_symbol_color: hcs, hilited_key_back_color: hch, width: 17, key_text_size: 16}
 
 #--------笔画输入开始----------------#
   stroke:
@@ -2168,7 +2169,7 @@ preset_keyboards:
     author: "Harry"
     name: "笔画键盘"
     lock: true
-    ascii_keyboard: bihua_number
+    ascii_keyboard: jiugong_number
     height: *VJG_Other
     horizontal_gap: *NJL
     vertical_gap: *NJH
@@ -2189,7 +2190,7 @@ preset_keyboards:
       - {click: "n", label: "丶", key_back_color: szbdb, swipe_up: 4, key_text_size: 18}
       - {click: "z", label: "𠃍", key_back_color: szbdb, swipe_up: Hide, key_text_size: 18}
       - {click: "*", label: "通配", composing: "*", key_back_color: szbdb, swipe_up: 6, key_text_size: 18}
-      - {click: K_bihuaNumber, composing: Escape, width: *NUM_SYM_W, label: "123", key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16}
+      - {click: K_jiugongNumber, composing: Escape, width: *NUM_SYM_W, label: "123", key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16}
 
       - {click: "^", label: " ……", width: *NUM_SYM_W, key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 16, send_bindings: false, long_click: "(){Left}", swipe_left: "(", swipe_right: ")", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
       - {click: "'", label: "分词", composing: "'", key_back_color: szbdb, swipe_up: 7, key_text_size: 18}
@@ -2200,110 +2201,8 @@ preset_keyboards:
       - {click: "@", width: *NUM_SYM_W, key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 18, send_bindings: false, long_click: "[]{Left}", swipe_left: "[", swipe_right: "]", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
       - {click: liquid_keyboard_switch, label: "符", long_click: Menu, key_symbol_offset_x: 0, key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16}
       - {click: space3, key_back_color: szbdb, swipe_up: 0, key_text_size: 20}
-      - {click: K_bihuaLetter, long_click: Theme_settings1, swipe_up: Color_switch, key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16}
-      - {click: Return, width: *NUM_SYM_W, key_back_color: szhcb, hilited_key_back_color: szhch, key_text_color: szhct, hilited_key_text_color: szhct, key_symbol_color: hcs}
-
-
-  bihua_number:
-    ascii_mode: 1 # 这个是ascii的键盘模式，为0切换ascii模式则会加载ascii_keyboard所指定的键盘
-    author: "Harry"
-    name: "笔画数字"
-    lock: false
-    height: *VJG_Other
-    horizontal_gap: *NJL
-    vertical_gap: *NJH
-    key_text_offset_y: *DtextY
-    key_symbol_offset_y: *DsymY
-    key_press_offset_x: 0
-    key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
-    width: 23
-    keys:
-      - {click: ",", label: " ，", width: *NUM_SYM_W, key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 20, long_click: "?", swipe_up: "?", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
-      - {click: 1, composing: "'", key_back_color: szbdb, swipe_up: 1, swipe_down: Hide, key_text_size: 20}
-      - {click: 2, key_back_color: szbdb, swipe_up: 2, key_text_size: 20}
-      - {click: 3, key_back_color: szbdb, swipe_up: 3, key_text_size: 20}
-      - {click: BackSpace, width: *NUM_SYM_W, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, hilited_key_text_color: szhct, key_symbol_color: bkss, key_text_color: bkst, key_text_size: 20}
-
-      - {click: ".", label: " 。", width: *NUM_SYM_W, key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 20, long_click: "!", swipe_up: "!", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
-      - {click: 4, key_back_color: szbdb, swipe_up: 4, key_text_size: 20}
-      - {click: 5, key_back_color: szbdb, swipe_up: Hide, key_text_size: 20}
-      - {click: 6, key_back_color: szbdb, swipe_up: 6, key_text_size: 20}
-      - {click: K_back, width: *NUM_SYM_W, swipe_up: Color_switch, key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16}
-
-      - {click: "^", label: " ……", width: *NUM_SYM_W, key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 16, send_bindings: false, long_click: "(){Left}", swipe_left: "(", swipe_right: ")", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
-      - {click: 7, key_back_color: szbdb, swipe_up: 7, key_text_size: 20}
-      - {click: 8, key_back_color: szbdb, swipe_up: 8, key_text_size: 20}
-      - {click: 9, key_back_color: szbdb, swipe_up: 9, key_text_size: 20}
-      - {click: K_jiugong_use, width: *NUM_SYM_W, long_click: K_menu, key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16}
-
-      - {click: "@", width: *NUM_SYM_W, key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 18, send_bindings: false, long_click: "[]{Left}", swipe_left: "[", swipe_right: "]", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
-      - {click: space3, key_back_color: szbdb, swipe_up: 0, key_text_size: 20}
-      - {click: 0, key_back_color: szbdb, swipe_up: 0, key_text_size: 20}
-      - {click: K_bihuaLetter, long_click: Theme_settings1, swipe_up: Color_switch, key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16}
-      - {click: Return, width: *NUM_SYM_W, key_back_color: szhcb, hilited_key_back_color: szhch, key_text_color: szhct, hilited_key_text_color: szhct, key_symbol_color: hcs}
-
-  default_bihua_letter:
-    ascii_mode: 1
-    lock: false
-    author: "Harry"
-    name: "笔画26键"
-    name: "默认26键"
-    width: 10
-    height: *VJG
-    horizontal_gap: *VJL
-    vertical_gap: *VJH
-    key_text_offset_y: *DtextY
-    key_symbol_offset_y: *DsymY
-    key_press_offset_x: 0
-    key_press_offset_y: 8
-    key_symbol_offset_x: *DsymX
-    label_transform: uppercase #uppercase|none 中文模式下的字母标签自动大写
-    keys:
-      # 第一行
-      - {click: q, long_click: 1, swipe_up: 1, key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
-      - {click: w, long_click: 2, swipe_up: 2, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
-      - {click: e, long_click: 3, swipe_up: 3, key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
-      - {click: r, long_click: 4, swipe_up: 4, key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
-      - {click: t, long_click: 5, swipe_up: 5, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
-      - {click: y, long_click: 6, swipe_up: 6, key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
-      - {click: u, long_click: 7, swipe_up: 7, key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
-      - {click: i, long_click: 8, swipe_up: 8, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
-      - {click: o, long_click: 9, swipe_up: 9, key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
-      - {click: p, long_click: 0, swipe_up: 0, key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
-      # 第二行
-      - {width: 5}
-      - {click: a, long_click: "&", swipe_up: select_all, key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
-      - {click: s, long_click: "@", swipe_up: "@", key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
-      - {click: d, long_click: Date, swipe_up: Time, key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
-      - {click: f, long_click: ";", swipe_up: ";", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
-      - {click: g, long_click: K_use, symbol_text_size: 11, swipe_down: Hide, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
-      - {click: h, long_click: "+", swipe_up: "+", key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
-      - {click: j, long_click: "-", swipe_up: "-", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
-      - {click: k, long_click: '""{Left}', swipe_up: '""{Left}', swipe_left: '"', swipe_right: '"', key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
-      - {click: l, long_click: "''{Left}", swipe_up: "''{Left}", swipe_left: "'", swipe_right: "'", key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
-      # 第三行
-      - {click: Shift_L, composing: Escape, width: 13}
-      - {width: 2}
-      - {click: z, long_click: "`", swipe_up: "`", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
-      - {click: x, long_click: "^",  swipe_up: cut, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
-      - {click: c, long_click: ":", swipe_up: copy, key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
-      - {click: v, long_click: "_", swipe_up: paste, key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
-      - {click: b, long_click: "/", swipe_up: "/", key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
-      - {click: n, long_click: "[]{Left}", swipe_up: "[]{Left}", swipe_left: "[", swipe_right: "]", key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
-      - {click: m, long_click: "(){Left}", swipe_up: "(){Left}", swipe_left: "(", swipe_right: ")", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
-      - {width: 2}
-      - {click: BackSpace, swipe_left: Clear, swipe_up: Candidate_switch1, key_text_offset_y: 0, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst, hilited_key_text_color: bkst, width: 13}
-      # 第四行
-      - {height: *VJM, click: K_DefaultSymbol, composing: delimiterD, key_symbol_offset_x: 0, long_click: K_menu, key_back_color: gnb, hilited_key_back_color: gnh, key_symbol_color: gns, width: 11} #方案选择
-      - {click: liquid_keyboard_switch, label: "符", long_click: Menu, key_symbol_offset_x: 0, key_back_color: gnb, key_symbol_color: gns, hilited_key_back_color: gnh, width: 10, key_text_size: 15}
-      - {click: ",", label: " ，", key_symbol_offset_x: 0, long_click: "!", swipe_up: "!", key_back_color: bdb, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: bdh, hilited_key_text_color: hbdt, width: 10}
-      - {click: space1, key_text_size: 18, key_text_offset_x: 0, key_text_offset_y: 0, hilited_key_text_color: hkgt, key_symbol_offset_x: 0, key_symbol_offset_y: 6, long_click: VOICE_ASSIST_Ch, swipe_left: Left, swipe_right: Right, key_back_color: kgb, key_text_color: kgt, key_symbol_color: kgs, hilited_key_back_color: kgh, width: 38}
-      - {click: ".", label: " 。", key_symbol_offset_x: 0, long_click: "?", swipe_up: "?", width: 10, key_back_color: bdb, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: bdh, hilited_key_text_color: hbdt}
-      - {click: K_bihuaDefault, long_click: Theme_settings1, swipe_up: Color_switch, key_symbol_offset_x: 0, width: 10, key_back_color: gnb, key_symbol_color: gns, key_text_color: bdt, hilited_key_back_color: gnh, hilited_key_text_color: bdt, key_text_size: 15}
-      - {click: Return, key_symbol_offset_x: 0, key_back_color: hcb, key_text_color: hct, hilited_key_text_color: hcht, key_symbol_color: hcs, hilited_key_back_color: hch, width: 11}
-
-
+      - {click: K_jiugongLetter, long_click: Theme_settings1, swipe_up: Color_switch, key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16}
+      - {click: Return, width: *NUM_SYM_W, key_back_color: szhcb, hilited_key_back_color: szhch, key_text_color: szhct, hilited_key_text_color: szhct, key_symbol_color: hcs, key_text_size: 16}
 #--------笔画输入结束----------------#
 
 #--------九宫输入开始----------------#
@@ -2351,7 +2250,7 @@ preset_keyboards:
       - {click: liquid_keyboard_switch, label: "符", long_click: Menu, key_symbol_offset_x: 0, key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16}
       - {click: space3, key_back_color: szbdb, swipe_up: 0, key_text_size: 20}
       - {click: K_jiugongLetter, long_click: Theme_settings1, swipe_up: Color_switch, key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16}
-      - {click: Return, width: *NUM_SYM_W, key_back_color: szhcb, hilited_key_back_color: szhch, key_text_color: szhct, hilited_key_text_color: szhct, key_symbol_color: hcs}
+      - {click: Return, width: *NUM_SYM_W, key_back_color: szhcb, hilited_key_back_color: szhch, key_text_color: szhct, hilited_key_text_color: szhct, key_symbol_color: hcs, key_text_size: 16}
 
   jiugong_number:
     ascii_mode: 1 # 这个是ascii的键盘模式，为0切换ascii模式则会加载ascii_keyboard所指定的键盘
@@ -2390,7 +2289,7 @@ preset_keyboards:
       - {click: space3, key_back_color: szbdb, swipe_up: 0, key_text_size: 20}
       - {click: 0, key_back_color: szbdb, swipe_up: 0, key_text_size: 20}
       - {click: K_jiugongLetter, long_click: Theme_settings1, swipe_up: Color_switch, key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16}
-      - {click: Return, width: *NUM_SYM_W, key_back_color: szhcb, hilited_key_back_color: szhch, key_text_color: szhct, hilited_key_text_color: szhct, key_symbol_color: hcs}
+      - {click: Return, width: *NUM_SYM_W, key_back_color: szhcb, hilited_key_back_color: szhch, key_text_color: szhct, hilited_key_text_color: szhct, key_symbol_color: hcs, key_text_size: 16}
 
   default_symbol:
     ascii_mode: 1
@@ -2430,7 +2329,7 @@ preset_keyboards:
       - {click: '""{Left}', label: '“”', swipe_up: '""{Left}', swipe_left: '"', swipe_right: '"', key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: "''{Left}", label: "‘’",swipe_up: "''{Left}", swipe_left: "'", swipe_right: "'", key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
       # 第三行
-      - {click: K_back, composing: Escape, width: 13}
+      - {click: K_back, composing: Escape, width: 13, key_text_size: 15}
       - {width: 2}
       - {click: "`", label: "‵", swipe_up: "`", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
       - {click: "^", label: "……", swipe_up: "^", key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
@@ -2446,7 +2345,7 @@ preset_keyboards:
       - {click: ",", label: "，", key_symbol_offset_x: 0, swipe_up: ",", key_back_color: bdb, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: bdh, hilited_key_text_color: hbdt, width: 14}
       - {click: space1, key_text_size: 18, key_text_offset_x: 0, key_text_offset_y: 0, hilited_key_text_color: hkgt, key_symbol_offset_x: 0, key_symbol_offset_y: 6, swipe_left: Left, swipe_right: Right, key_back_color: kgb, key_text_color: kgt, key_symbol_color: kgs, hilited_key_back_color: kgh, width: 38}
       - {click: ".", label: "。", key_symbol_offset_x: 0, swipe_up: ".", width: 14, key_back_color: bdb, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: bdh, hilited_key_text_color: hbdt}
-      - {click: Return, key_symbol_offset_x: 0, key_back_color: hcb, key_text_color: hct, hilited_key_text_color: hcht, key_symbol_color: hcs, hilited_key_back_color: hch, width: 17}
+      - {click: Return, key_symbol_offset_x: 0, key_back_color: hcb, key_text_color: hct, hilited_key_text_color: hcht, key_symbol_color: hcs, hilited_key_back_color: hch, width: 17, key_text_size: 18}
 
 
   default_jiugong_letter:
@@ -2489,7 +2388,7 @@ preset_keyboards:
       - {click: k, long_click: '""{Left}', swipe_up: '""{Left}', swipe_left: '"', swipe_right: '"', key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
       - {click: l, long_click: "''{Left}", swipe_up: "''{Left}", swipe_left: "'", swipe_right: "'", key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
       # 第三行
-      - {click: Shift_L, composing: Escape, width: 13}
+      - {click: Shift_L, composing: Escape, width: 13, key_text_size: 16}
       - {width: 2}
       - {click: z, long_click: "`", swipe_up: "`", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
       - {click: x, long_click: "^",  swipe_up: cut, key_text_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH}
@@ -2499,15 +2398,15 @@ preset_keyboards:
       - {click: n, long_click: "[]{Left}", swipe_up: "[]{Left}", swipe_left: "[", swipe_right: "]", key_text_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH}
       - {click: m, long_click: "(){Left}", swipe_up: "(){Left}", swipe_left: "(", swipe_right: ")", key_text_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH}
       - {width: 2}
-      - {click: BackSpace, swipe_left: Clear, swipe_up: Candidate_switch1, key_text_offset_y: 0, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst, hilited_key_text_color: bkst, width: 13}
+      - {click: BackSpace, swipe_left: Clear, swipe_up: Candidate_switch1, key_text_offset_y: 0, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst, hilited_key_text_color: bkst, width: 13, key_text_size: 21}
       # 第四行
-      - {height: *VJM, click: K_DefaultSymbol, composing: delimiterD, key_symbol_offset_x: 0, long_click: K_menu, key_back_color: gnb, hilited_key_back_color: gnh, key_symbol_color: gns, width: 11} #方案选择
+      - {height: *VJM, click: K_jiugongNumber, composing: delimiterD, key_symbol_offset_x: 0, long_click: K_menu, key_back_color: gnb, hilited_key_back_color: gnh, key_symbol_color: gns, width: 11, key_text_size: 15} #方案选择
       - {click: liquid_keyboard_switch, label: "符", long_click: Menu, key_symbol_offset_x: 0, key_back_color: gnb, key_symbol_color: gns, hilited_key_back_color: gnh, width: 10, key_text_size: 15}
       - {click: ",", label: " ，", key_symbol_offset_x: 0, long_click: "!", swipe_up: "!", key_back_color: bdb, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: bdh, hilited_key_text_color: hbdt, width: 10}
       - {click: space1, key_text_size: 18, key_text_offset_x: 0, key_text_offset_y: 0, hilited_key_text_color: hkgt, key_symbol_offset_x: 0, key_symbol_offset_y: 6, long_click: VOICE_ASSIST_Ch, swipe_left: Left, swipe_right: Right, key_back_color: kgb, key_text_color: kgt, key_symbol_color: kgs, hilited_key_back_color: kgh, width: 38}
       - {click: ".", label: " 。", key_symbol_offset_x: 0, long_click: "?", swipe_up: "?", width: 10, key_back_color: bdb, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: bdh, hilited_key_text_color: hbdt}
       - {click: K_jiugongDefault, long_click: Theme_settings1, swipe_up: Color_switch, key_symbol_offset_x: 0, width: 10, key_back_color: gnb, key_symbol_color: gns, key_text_color: bdt, hilited_key_back_color: gnh, hilited_key_text_color: bdt, key_text_size: 15}
-      - {click: Return, key_symbol_offset_x: 0, key_back_color: hcb, key_text_color: hct, hilited_key_text_color: hcht, key_symbol_color: hcs, hilited_key_back_color: hch, width: 11}
+      - {click: Return, key_symbol_offset_x: 0, key_back_color: hcb, key_text_color: hct, hilited_key_text_color: hcht, key_symbol_color: hcs, hilited_key_back_color: hch, width: 11, key_text_size: 15}
 
 
 #--------九宫输入结束----------------#
@@ -2555,7 +2454,7 @@ preset_keyboards:
       - {click: k, long_click: '""{Left}', swipe_up: '""{Left}', swipe_left: '"', swipe_right: '"', key_text_color: TEX,key_back_color: wb86cK.png, hilited_key_back_color: BBH, key_symbol_color: 0x00, key_text_color: 0x00}
       - {click: l, long_click: "''{Left}", swipe_up: "''{Left}", swipe_left: "'", swipe_right: "'", key_text_color: TEX, key_back_color: wb86cL.png, hilited_key_back_color: CCH, key_symbol_color: 0x00, key_text_color: 0x00}
       # 第三行
-      - {click: Shift_L, composing: Escape, width: 13, key_back_color: gnb, hilited_key_back_color: gnh, off_key_back_color: gnb, on_key_back_color: gnb}
+      - {click: Shift_L, composing: Escape, width: 13, key_back_color: gnb, hilited_key_back_color: gnh, off_key_back_color: gnb, on_key_back_color: gnb, key_text_size: 16}
       - {width: 2}
       - {click: z, long_click: "`", swipe_up: "`", key_text_color: TEX, key_back_color: wb86cZ.png, hilited_key_back_color: AAH, key_symbol_color: 0x00, key_text_color: 0x00}
       - {click: x, long_click: "^",  swipe_up: cut, key_text_color: TEX, key_back_color: wb86cX.png, hilited_key_back_color: BBH, key_symbol_color: 0x00, key_text_color: 0x00}
@@ -2567,11 +2466,11 @@ preset_keyboards:
       - {width: 2}
       - {click: BackSpace, swipe_left: Clear, swipe_up: Candidate_switch1, key_text_offset_y: 0, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst, hilited_key_text_color: bkst, width: 13, height: *VJM}
 
-      - {height: *VJM, click: K_DefaultSymbol, composing: delimiterD, key_symbol_offset_x: 0, long_click: K_menu, key_back_color: gnb, hilited_key_back_color: gnh, key_symbol_color: gns, width: 17} #方案选择
+      - {height: *VJM, click: K_DefaultSymbol, composing: delimiterD, key_symbol_offset_x: 0, long_click: K_menu, key_back_color: gnb, hilited_key_back_color: gnh, key_symbol_color: gns, width: 17, key_text_size: 16} #方案选择
       - {click: ",", label: " ，", key_symbol_offset_x: 0, long_click: "!", swipe_up: "!", key_back_color: bdb, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: bdh, hilited_key_text_color: hbdt, width: 14}
       - {click: space1, key_text_size: 13.5, key_text_offset_x: 0, key_text_offset_y: 0, hilited_key_text_color: hkgt, key_symbol_offset_x: 0, key_symbol_offset_y: 6, long_click: VOICE_ASSIST_Ch, swipe_left: Left, swipe_right: Right, key_back_color: kgb, key_text_color: kgt, key_symbol_color: kgs, hilited_key_back_color: kgh, width: 38}
       - {click: ".", label: " 。", key_symbol_offset_x: 0, long_click: "?", swipe_up: "?", width: 14, key_back_color: bdb, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: bdh, hilited_key_text_color: hbdt}
-      - {click: Return, key_symbol_offset_x: 0, key_back_color: hcb, key_text_color: hct, hilited_key_text_color: hcht, key_symbol_color: hcs, hilited_key_back_color: hch, width: 17}
+      - {click: Return, key_symbol_offset_x: 0, key_back_color: hcb, key_text_color: hct, hilited_key_text_color: hcht, key_symbol_color: hcs, hilited_key_back_color: hch, width: 17, key_text_size: 16}
 
   # 五笔助记 white
   defaultVJ6:
@@ -2616,7 +2515,7 @@ preset_keyboards:
       - {click: k, long_click: '""{Left}', swipe_up: '""{Left}', swipe_left: '"', swipe_right: '"', key_text_color: TEX,key_back_color: wb86K.png, hilited_key_back_color: BBH, key_symbol_color: 0x00, key_text_color: 0x00}
       - {click: l, long_click: "''{Left}", swipe_up: "''{Left}", swipe_left: "'", swipe_right: "'", key_text_color: TEX, key_back_color: wb86L.png, hilited_key_back_color: CCH, key_symbol_color: 0x00, key_text_color: 0x00}
       # 第三行
-      - {click: Shift_L, composing: Escape, width: 13}
+      - {click: Shift_L, composing: Escape, width: 13, key_text_size: 16}
       - {width: 2}
       - {click: z, long_click: "`", swipe_up: "`", key_text_color: TEX, key_back_color: wb86Z.png, hilited_key_back_color: AAH, key_symbol_color: 0x00, key_text_color: 0x00}
       - {click: x, long_click: "^",  swipe_up: cut, key_text_color: TEX, key_back_color: wb86X.png, hilited_key_back_color: BBH, key_symbol_color: 0x00, key_text_color: 0x00}
@@ -2628,27 +2527,15 @@ preset_keyboards:
       - {width: 2}
       - {click: BackSpace, swipe_left: Clear, swipe_up: Candidate_switch1, key_text_offset_y: 0, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst, hilited_key_text_color: bkst, width: 13, height: *VJM}
 
-      - {height: *VJM, click: K_DefaultSymbol, composing: delimiterD, key_symbol_offset_x: 0, long_click: K_menu, key_back_color: gnb, hilited_key_back_color: gnh, key_symbol_color: gns, width: 17} #方案选择
+      - {height: *VJM, click: K_DefaultSymbol, composing: delimiterD, key_symbol_offset_x: 0, long_click: K_menu, key_back_color: gnb, hilited_key_back_color: gnh, key_symbol_color: gns, width: 17, key_text_size: 16} #方案选择
       - {click: ",", label: " ，", key_symbol_offset_x: 0, long_click: "!", swipe_up: "!", key_back_color: bdb, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: bdh, hilited_key_text_color: hbdt, width: 14}
       - {click: space1, key_text_size: 13.5, key_text_offset_x: 0, key_text_offset_y: 0, hilited_key_text_color: hkgt, key_symbol_offset_x: 0, key_symbol_offset_y: 6, long_click: VOICE_ASSIST_Ch, swipe_left: Left, swipe_right: Right, key_back_color: kgb, key_text_color: kgt, key_symbol_color: kgs, hilited_key_back_color: kgh, width: 38}
       - {click: ".", label: " 。", key_symbol_offset_x: 0, long_click: "?", swipe_up: "?", width: 14, key_back_color: bdb, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: bdh, hilited_key_text_color: hbdt}
-      - {click: Return, key_symbol_offset_x: 0, key_back_color: hcb, key_text_color: hct, hilited_key_text_color: hcht, key_symbol_color: hcs, hilited_key_back_color: hch, width: 17}
+      - {click: Return, key_symbol_offset_x: 0, key_back_color: hcb, key_text_color: hct, hilited_key_text_color: hcht, key_symbol_color: hcs, hilited_key_back_color: hch, width: 17, key_text_size: 16}
 
   letter:
     __include: /preset_keyboards/default
     __patch:
-        #"keys/@0/long_click": "$"
-        #"keys/@1/long_click": "&"
-        #"keys/@2/long_click": "("
-        #"keys/@3/long_click": ")"
-        #"keys/@4/long_click": "{"
-        #"keys/@5/long_click": "}"
-        #"keys/@6/long_click": "["
-        #"keys/@7/long_click": "]"
-        #"keys/@8/long_click": "%"
-        #"keys/@9/long_click": "~"
-        #"keys/@30/click": K_number
-        #"keys/@32/click": space2
         "keys/@32/long_click": ""
 
     ascii_mode: 1
@@ -2670,13 +2557,13 @@ preset_keyboards:
     key_symbol_offset_x: *DsymX
     width: 23
     keys:
-      - {click: ",", width: *NUM_SYM_W, key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 20, long_click: ".", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
+      - {click: ",", label: "，", width: *NUM_SYM_W, key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 20, long_click: "?", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
       - {click: 1, composing: "'", key_back_color: szbdb, swipe_up: 1, swipe_down: Hide, key_text_size: 20}
       - {click: 2, key_back_color: szbdb, swipe_up: 2, key_text_size: 20}
       - {click: 3, key_back_color: szbdb, swipe_up: 3, key_text_size: 20}
       - {click: BackSpace, width: *NUM_SYM_W, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, hilited_key_text_color: szhct, key_symbol_color: bkss, key_text_color: bkst, key_text_size: 20}
 
-      - {click: "?", width: *NUM_SYM_W, key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 20, long_click: "!", swipe_up: "!", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
+      - {click: ".", label: "。", width: *NUM_SYM_W, key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 20, long_click: "!", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
       - {click: 4, key_back_color: szbdb, swipe_up: 4, key_text_size: 20}
       - {click: 5, key_back_color: szbdb, swipe_up: 5, key_text_size: 20}
       - {click: 6, key_back_color: szbdb, swipe_up: 6, key_text_size: 20}
@@ -2688,11 +2575,41 @@ preset_keyboards:
       - {click: 9, key_back_color: szbdb, swipe_up: 9, key_text_size: 20}
       - {click: space3, width: *NUM_SYM_W, key_back_color: szgnb, hilited_key_back_color: szgnh, swipe_up: 0, key_text_size: 20}
 
-      - {click: liquid_keyboard_switch, width: *NUM_SYM_W, label: "符", key_back_color: szgnb, hilited_key_back_color: szgnh, swipe_up: 0, key_text_size: 16}
-      - {click: "…", key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 18, send_bindings: false, long_click: "[]{Left}", swipe_left: "[", swipe_right: "]", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
+      - {click: "+", width: *NUM_SYM_W, key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 20, long_click: "-", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
+      - {click: "*", key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 18, send_bindings: false, long_click: "/", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
       - {click: 0, key_back_color: szbdb, swipe_up: 0, key_text_size: 20}
-      - {click: "/", key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 18, long_click: "=", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
-      - {click: Return, width: *NUM_SYM_W, key_back_color: szhcb, hilited_key_back_color: szhch, key_text_color: szhct, hilited_key_text_color: szhct, key_symbol_color: hcs}
+      - {click: "%", key_text_offset_x: 3, key_symbol_offset_x: -12, key_symbol_offset_y: 18, long_click: "=", key_symbol_color: key_symbol_color, key_back_color: szbdb, key_text_size: 16}
+      - {click: Return, width: *NUM_SYM_W, key_back_color: szhcb, hilited_key_back_color: szhch, key_text_color: szhct, hilited_key_text_color: szhct, key_symbol_color: hcs, key_text_size: 16}
+
+  menux:
+    __include: /preset_keyboards/menu
+    __patch:
+        "keys/@1/click": Hint_switch1
+        "keys/@1/hint": "提示"
+        "keys/@3/click": Comment_switch1
+        "keys/@3/hint": "注解"
+        "keys/@5/click": Candidate_switch1
+        "keys/@5/hint": "候选窗"
+        "keys/@8/click": K_defaultMR
+        "keys/@8/hint": "默认"
+        "keys/@10/click": K_defaultVJ5
+        "keys/@10/hint": "助记(彩色)"
+        "keys/@12/click": K_defaultVJ6
+        "keys/@12/hint": "助记(白色)"
+        "keys/@16/click": K_menu1
+        "keys/@16/key_text_color": key_text_color
+        "keys/@16/key_text_size": 7
+        "keys/@17/click": K_menu1
+        "keys/@17/key_text_color": cdt
+        "keys/@17/key_text_size": 8
+        "keys/@10/swipe_right": K_menu
+        "keys/@11/swipe_right": K_menu
+        "keys/@12/swipe_right": K_menu
+        "keys/@13/swipe_right": K_menu
+        "keys/@14/swipe_right": K_menu
+        "keys/@15/swipe_right": K_menu
+        "keys/@16/swipe_right": K_menu
+        "keys/@17/swipe_right": K_menu
 
   use:
     ascii_mode: 0
@@ -2712,9 +2629,9 @@ preset_keyboards:
     keys:
       # 第1行
       - {click: select_all, width: *NUM_SYM_W, key_back_color: szgnb, hilited_key_back_color: szgnh}
-      - {click: Home, key_back_color: szbdb}
-      - {click: Up, key_back_color: szbdb}
-      - {click: End, key_back_color: szbdb}
+      - {click: Home, key_back_color: szbdb, key_text_size: 16}
+      - {click: Up, key_back_color: szbdb, key_text_size: 16}
+      - {click: End, key_back_color: szbdb, key_text_size: 16}
       - {click: BackSpace, width: *NUM_SYM_W, swipe_left: Clear, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst, key_text_size: 20}
       # 第2行
       - {click: cut, width: *NUM_SYM_W, key_back_color: szgnb, hilited_key_back_color: szgnh}
@@ -2727,13 +2644,13 @@ preset_keyboards:
       - {click: undo, key_back_color: szbdb, key_text_size: 30}
       - {click: Down, key_back_color: szbdb}
       - {click: redo, key_back_color: szbdb, key_text_size: 30}
-      - {click: K_back, width: *NUM_SYM_W, key_back_color: szgnb, hilited_key_back_color: szgnh}
+      - {click: K_back, width: *NUM_SYM_W, key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16}
       # 第4行
       - {click: paste, width: *NUM_SYM_W, key_back_color: szgnb, hilited_key_back_color: szgnh}
-      - {click: Tab2, key_back_color: szgnb, hilited_key_back_color: szgnh}
+      - {click: Tab2, key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16}
       - {click: space3, key_back_color: szgnb, hilited_key_back_color: szgnh}
-      - {click: Clear, key_back_color: szgnb, hilited_key_back_color: szgnh}
-      - {click: Delete, width: *NUM_SYM_W, key_back_color: szgnb, hilited_key_back_color: szgnh} #share_text可将长按设为分享
+      - {click: Clear, key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16}
+      - {click: Delete, width: *NUM_SYM_W, key_back_color: szgnb, hilited_key_back_color: szgnh, key_text_size: 16} #share_text可将长按设为分享
 
 
   menu:
@@ -2766,7 +2683,7 @@ preset_keyboards:
       - {click: VOICE_ASSIST, hint: 语音, key_hint_offset_y: 0, key_text_offset_y: -4, key_text_color: key_text_color, key_symbol_color: key_text_color, key_back_color: xdb, hilited_key_back_color: key_back_color, hilited_key_back_color: xdb}
       - {click: "", width: 10, swipe_left: K_menux, key_back_color: xdb, hilited_key_back_color: xdb}
       #第三行
-      - {click: "", width: 100, label: "By Jaaiko", swipe_left: K_menux, key_back_color: xdb, hilited_key_back_color: xdb}
+      - {click: "", width: 100, label: "By SivanLaai", swipe_left: K_menux, key_back_color: xdb, hilited_key_back_color: xdb, key_text_size: 16}
       # 第四行
       - {height: *VJG_Other, click: "", width: 47, swipe_left: K_menux, key_back_color: xdb, hilited_key_back_color: xdb}
       - {click: K_menux1, key_text_size: 8, width: 3, swipe_left: K_menux, key_text_offset_y: -9, key_text_offset_x: 0, key_back_color: key_back_color, key_symbol_color: key_text_color, key_back_color: xdb, hilited_key_back_color: key_back_color, hilited_key_back_color: xdb}
@@ -5774,8 +5691,6 @@ preset_keys:
   K_jiugongNumber: {label: 123, functional: false, send: Eisu_toggle, select: jiugong_number}
   K_DefaultSymbol: {label: "?123", functional: false, send: Eisu_toggle, select: default_symbol}
   K_jiugongDefault: {label: En, functional: false, send: Eisu_toggle, select: luna_jiugong}
-  K_bihuaLetter: {label: 中, functional: false, send: Eisu_toggle, select: default_bihua_letter}
-  K_bihuaNumber: {label: 123, functional: false, send: Eisu_toggle, select: bihua_number}
   K_bihuaDefault: {label: En, functional: false, send: Eisu_toggle, select: luna_bihua}
   K_menu: {label: ⚙, preview: ' ', functional: false, send: Eisu_toggle, select: menu}
   K_menu1: {label: ●, preview: ' ', functional: false, send: Eisu_toggle, select: menu}
@@ -5785,7 +5700,7 @@ preset_keys:
   K_letter: {label: abc, send: Eisu_toggle, select: letter}
   K_letter1: {label: 中文, send: Eisu_toggle, select: letter}
   K_switch: {label: 键盘, send: Eisu_toggle, select: .next}
-  K_number: {label: 123, send: Eisu_toggle, select: number}
+  K_number: {label: "?123", send: Eisu_toggle, select: number}
   K_number_Ch: {label: 数字, send: Eisu_toggle, select: number}
   K_use: {label: "‹ɪ›", send: Eisu_toggle, select: use}
   K_jiugong_use: {label: "编辑", send: Eisu_toggle, select: use}
