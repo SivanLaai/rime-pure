@@ -201,7 +201,7 @@ preset_color_schemes:
 #--------配色开始----------------#
   default:
     name: "默认.同文风优化版"
-    author: jaaiko
+    author: SivanLaai
     # 悬浮窗
     border_color: *COLOR_LIGHT_GRAY #悬浮窗边框
     text_color: *COLOR_XPERIA_CANDIDATE_GREEN #悬浮窗编码
@@ -290,7 +290,7 @@ preset_color_schemes:
 
   default1:
     name: "默认.讯飞原生版"
-    author: jaaiko
+    author: SivanLaai
     # 悬浮窗
     border_color: *COLOR_LIGHT_GRAY #悬浮窗边框
     text_color: *COLOR_BLACK #悬浮窗编码
@@ -379,7 +379,7 @@ preset_color_schemes:
 
   default2:
     name: "默认.简约配色"
-    author: jaaiko
+    author: SivanLaai
     back_color: 0xffeaeaea
     border_color: *COLOR_LIGHT_GRAY
     candidate_separator_color: *COLOR_TRANSPARENT
@@ -464,7 +464,7 @@ preset_color_schemes:
 
   purewhite:
     name: "默认.纯白"
-    author: jaaiko
+    author: SivanLaai
     back_color: 0xffeaeaea
     border_color: *COLOR_LIGHT_GRAY
     candidate_separator_color: *COLOR_TRANSPARENT
@@ -2100,7 +2100,7 @@ preset_keyboards:
   default:
     ascii_mode: 0
     name: "默认26键"
-    author: "jaaiko"
+    author: "SivanLaai"
     width: 10
     lock: true
     ascii_keyboard: letter
@@ -2214,7 +2214,7 @@ preset_keyboards:
 
   luna_jiugong:
     ascii_mode: 0 # 这个是ascii的键盘模式，为0切换ascii模式则会加载ascii_keyboard所指定的键盘
-    author: "jaaiko"
+    author: "SivanLaai"
     name: "九宫格键盘"
     lock: true
     ascii_keyboard: jiugong_number
@@ -2254,7 +2254,7 @@ preset_keyboards:
 
   jiugong_number:
     ascii_mode: 1 # 这个是ascii的键盘模式，为0切换ascii模式则会加载ascii_keyboard所指定的键盘
-    author: "jaaiko"
+    author: "SivanLaai"
     name: "九宫格数字"
     lock: false
     height: *VJG_Other
@@ -2294,7 +2294,7 @@ preset_keyboards:
   default_symbol:
     ascii_mode: 1
     name: "默认26键"
-    author: "jaaiko"
+    author: "SivanLaai"
     width: 10
     lock: false
     height: *VJG
@@ -2351,7 +2351,7 @@ preset_keyboards:
   default_jiugong_letter:
     ascii_mode: 1
     lock: false
-    author: "jaaiko"
+    author: "SivanLaai"
     name: "letter九宫26键"
     name: "默认26键"
     width: 10
@@ -2415,7 +2415,7 @@ preset_keyboards:
   defaultVJ5:
     ascii_keyboard: letter
     ascii_mode: 0
-    author: jaaiko
+    author: SivanLaai
     name: "助记26键(彩色)"
     height: 66
     horizontal_gap: 1
@@ -2476,7 +2476,7 @@ preset_keyboards:
   defaultVJ6:
     ascii_keyboard: letter
     ascii_mode: 0
-    author: "jaaiko"
+    author: "SivanLaai"
     name: "助记26键(白色)"
     height: 66
     horizontal_gap: 1
@@ -2544,7 +2544,7 @@ preset_keyboards:
 
   number:
     ascii_mode: 1 # 这个是ascii的键盘模式，为0切换ascii模式则会加载ascii_keyboard所指定的键盘
-    author: "冷粼粼"
+    author: "SivanLaai"
     name: "九宫格数字"
     lock: false
     height: *VJG_Other
