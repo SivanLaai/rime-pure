@@ -2465,8 +2465,8 @@ preset_keyboards:
       - {click: m, long_click: "(){Left}", swipe_up: "(){Left}", swipe_left: "(", swipe_right: ")", key_text_color: TEX, key_back_color: wb86cM.png, hilited_key_back_color: AAH, key_symbol_color: 0x00, key_text_color: 0x00}
       - {width: 2}
       - {click: BackSpace, swipe_left: Clear, swipe_up: Candidate_switch1, key_text_offset_y: 0, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst, hilited_key_text_color: bkst, width: 13, height: *VJM}
-
-      - {height: *VJM, click: K_DefaultSymbol, composing: delimiterD, key_symbol_offset_x: 0, long_click: K_menu, key_back_color: gnb, hilited_key_back_color: gnh, key_symbol_color: gns, width: 17, key_text_size: 16} #方案选择
+      # 第四行
+      - {height: *VJM, click: K_number, label: '?123', composing: delimiterD, key_symbol_offset_x: 0, long_click: liquid_keyboard_switch, swipe_down: K_menu, key_back_color: gnb, hilited_key_back_color: gnh, key_symbol_color: gns, width: 17, key_text_size: 16} #方案选择
       - {click: ",", label: " ，", key_symbol_offset_x: 0, long_click: "!", swipe_up: "!", key_back_color: bdb, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: bdh, hilited_key_text_color: hbdt, width: 14}
       - {click: space1, key_text_size: 13.5, key_text_offset_x: 0, key_text_offset_y: 0, hilited_key_text_color: hkgt, key_symbol_offset_x: 0, key_symbol_offset_y: 6, long_click: VOICE_ASSIST_Ch, swipe_left: Left, swipe_right: Right, key_back_color: kgb, key_text_color: kgt, key_symbol_color: kgs, hilited_key_back_color: kgh, width: 38}
       - {click: ".", label: " 。", key_symbol_offset_x: 0, long_click: "?", swipe_up: "?", width: 14, key_back_color: bdb, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: bdh, hilited_key_text_color: hbdt}
@@ -2526,8 +2526,8 @@ preset_keyboards:
       - {click: m, long_click: "(){Left}", swipe_up: "(){Left}", swipe_left: "(", swipe_right: ")", key_text_color: TEX, key_back_color: wb86M.png, hilited_key_back_color: AAH, key_symbol_color: 0x00, key_text_color: 0x00}
       - {width: 2}
       - {click: BackSpace, swipe_left: Clear, swipe_up: Candidate_switch1, key_text_offset_y: 0, key_back_color: bksb, hilited_key_back_color: bksh, key_symbol_color: bkss, key_text_color: bkst, hilited_key_text_color: bkst, width: 13, height: *VJM}
-
-      - {height: *VJM, click: K_DefaultSymbol, composing: delimiterD, key_symbol_offset_x: 0, long_click: K_menu, key_back_color: gnb, hilited_key_back_color: gnh, key_symbol_color: gns, width: 17, key_text_size: 16} #方案选择
+      # 第四行
+      - {height: *VJM, click: K_number, label: '?123', composing: delimiterD, key_symbol_offset_x: 0, long_click: liquid_keyboard_switch, swipe_down: K_menu, key_back_color: gnb, hilited_key_back_color: gnh, key_symbol_color: gns, width: 17, key_text_size: 16} #方案选择
       - {click: ",", label: " ，", key_symbol_offset_x: 0, long_click: "!", swipe_up: "!", key_back_color: bdb, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: bdh, hilited_key_text_color: hbdt, width: 14}
       - {click: space1, key_text_size: 13.5, key_text_offset_x: 0, key_text_offset_y: 0, hilited_key_text_color: hkgt, key_symbol_offset_x: 0, key_symbol_offset_y: 6, long_click: VOICE_ASSIST_Ch, swipe_left: Left, swipe_right: Right, key_back_color: kgb, key_text_color: kgt, key_symbol_color: kgs, hilited_key_back_color: kgh, width: 38}
       - {click: ".", label: " 。", key_symbol_offset_x: 0, long_click: "?", swipe_up: "?", width: 14, key_back_color: bdb, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: bdh, hilited_key_text_color: hbdt}
