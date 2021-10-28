@@ -60,11 +60,11 @@
 
 #### 部分皮肤预览
 
-##### 同文风优化版[配色：Jaaiko，键盘布局：Jaaiko]
+##### 同文风优化版[配色：SivanLaai，键盘布局：SivanLaai]
 
 ![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/trime_tongwen.3z9r9pmc5ko0.png)
 
-##### 讯飞默认皮肤[配色：Jaaiko，键盘布局：Jaaiko]
+##### 讯飞默认皮肤[配色：SivanLaai，键盘布局：SivanLaai]
 
 ![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/trime_xunfei.5tewulxml340.png)
 
@@ -73,7 +73,7 @@
 ![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/trime_cherry.6ibtk68ohb80.png)
 
 
-##### 极致简约[配色：Jaaiko，键盘布局：Jaaiko]
+##### 极致简约[配色：SivanLaai，键盘布局：SivanLaai]
 
 ![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/trime_preview.5g84abqu3a00.png)
 
@@ -83,7 +83,7 @@
 ![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/trime_wubizigen.58iqusedxr40.png)
 
 
-##### 炫彩[键盘布局：Jaaiko]
+##### 炫彩[键盘布局：SivanLaai]
 
 ![Image text](https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/trime_xuancai.5k9xzrtj80o0.png)
 ### 小狼毫输入法（PC端）
