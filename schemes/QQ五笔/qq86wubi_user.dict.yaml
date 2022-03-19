@@ -1,5 +1,5 @@
 ---
-name: wubi86_jidian_user
+name: qq86wubi_user
 version: "2019-01-20"
 last_edit_time: "2019-02-28"
 
@@ -15,7 +15,4 @@ sort: original
 # 格式：字词 键码  权重 （中间是tab，不是空格）
 # '#'开头的只是注释，所以可以随便分类了
 # 注释只能另起一行写，不能在词条后面写
-
-
-
 
