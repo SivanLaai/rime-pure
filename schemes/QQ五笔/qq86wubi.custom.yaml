@@ -12,7 +12,7 @@ patch:
     name: emoji_suggestion
     reset: 0
     states: [ 😑️, 😁️ ]
-  
+
   #######配置engine
   'engine/filters/@before 0':
     simplifier
@@ -39,4 +39,3 @@ patch:
   #标点及特殊表情
   'punctuator/import_preset': symbols
   'recognizer/patterns/punct': "^/([a-z]+|[0-9])$"
-
