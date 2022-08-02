@@ -1697,7 +1697,7 @@ sort: by_weight
 根文件系统	gen wen jian xi tong	4494
 支持向量机	zhi chi xiang liang ji	4489
 元字符	yuan zi fu	4488
-数据帧	shu ju zheng	4486
+数据帧	shu ju zhen	4486
 软连接	ruan lian jie	4485
 输出设备	shu chu she bei	4480
 项目代码	xiang mu dai ma	4479
@@ -2054,7 +2054,7 @@ sort: by_weight
 技术方面	ji shu fang mian	3650
 保护模式	bao hu mo shi	3648
 导出数据	dao chu shu ju	3646
-关键帧	guan jian zheng	3644
+关键帧	guan jian zhen	3644
 传递性	chuan di xing	3643
 绘制图形	hui zhi tu xing	3643
 打印日志	da yin ri zhi	3640
@@ -2339,7 +2339,7 @@ sort: by_weight
 技术架构	ji shu jia gou	3151
 异步线程	yi bu xian cheng	3147
 存储类型	cun chu lei xing	3146
-帧动画	zheng dong hua	3145
+帧动画	zhen dong hua	3145
 扁平化	bian ping hua	3145
 顺序查找	shun xu cha zhao	3145
 回滚事务	hui gun shi wu	3143
@@ -3566,7 +3566,7 @@ sort: by_weight
 反射技术	fan she ji shu	1760
 日期函数	ri qi han shu	1760
 服务化	fu wu hua	1758
-帧布局	zheng bu ju	1757
+帧布局	zhen bu ju	1757
 转义序列	zhuan yi xu lie	1757
 硬件设计	ying jian she ji	1754
 逻辑控制	luo ji kong zhi	1754
@@ -4355,7 +4355,7 @@ sort: by_weight
 事件拦截	shi jian lan jie	1258
 相对坐标	xiang dui zuo biao	1258
 网络营销	wang luo ying xiao	1258
-关键帧动画	guan jian zheng dong hua	1258
+关键帧动画	guan jian zhen dong hua	1258
 开发者社区	kai fa zhe she qu	1258
 随机算法	sui ji suan fa	1257
 多文件上传	duo wen jian shang chuan	1257
@@ -5240,7 +5240,7 @@ sort: by_weight
 闲置时间	xian zhi shi jian	868
 用户栈	yong hu zhan	866
 开放系统	kai fang xi tong	866
-帧速率	zheng su lv	865
+帧速率	zhen su lv	865
 僵死进程	jiang si jin cheng	865
 内存机制	nei cun ji zhi	864
 功能区	gong neng qu	863
@@ -5284,7 +5284,7 @@ sort: by_weight
 推荐书籍	tui jian shu ji	851
 源码阅读	yuan ma yue du	850
 线性分类	xian xing fen lei	850
-逐帧动画	zhu zheng dong hua	850
+逐帧动画	zhu zhen dong hua	850
 服务器开发	fu wu qi kai fa	849
 获取联系人	huo qu lian xi ren	849
 中文路径	zhong wen lu jing	848
@@ -5432,7 +5432,7 @@ sort: by_weight
 只读存储器	zhi du cun chu qi	799
 字处理	zi chu li	798
 开关按钮	kai guan an niu	798
-参考帧	can kao zheng	797
+参考帧	can kao zhen	797
 授权表	shou quan biao	797
 网络请求框架	wang luo qing qiu kuang jia	797
 今日头条	jin ri tou tiao	796
@@ -6375,7 +6375,7 @@ sort: by_weight
 消除锯齿	xiao chu ju chi	553
 生物信息学	sheng wu xin xi xue	553
 采样器	cai yang qi	552
-序列帧	xu lie zheng	551
+序列帧	xu lie zhen	551
 混合式	hun he shi	551
 嵌套类型	qian tao lei xing	551
 战略规划	zhan lve gui hua	551
@@ -6563,7 +6563,7 @@ sort: by_weight
 文件重定向	wen jian chong ding xiang	512
 选择排序法	xuan ze pai xu fa	512
 多元线性回归	duo yuan xian xing hui gui	512
-页帧	ye zheng	511
+页帧	ye zhen	511
 无偏估计	wu pian gu ji	511
 语法细节	yu fa xi jie	511
 数据流分析	shu ju liu fen xi	511
@@ -6665,7 +6665,7 @@ sort: by_weight
 密码强度	mi ma qiang du	490
 设置向导	she zhi xiang dao	490
 逻辑测试	luo ji ce shi	490
-帧同步	zheng tong bu	489
+帧同步	zhen tong bu	489
 解压版	jie ya ban	489
 内部碎片	nei bu sui pian	489
 定期维护	ding qi wei hu	489
@@ -6987,7 +6987,7 @@ sort: by_weight
 通信子网	tong xin zi wang	432
 数据加密算法	shu ju jia mi suan fa	432
 图像合成	tu xiang he cheng	431
-帧间预测	zheng jian yu ce	431
+帧间预测	zhen jian yu ce	431
 数据通路	shu ju tong lu	431
 欧拉路径	ou la lu jing	431
 调试错误	tiao shi cuo wu	431
@@ -7096,7 +7096,7 @@ sort: by_weight
 委托事件	wei tuo shi jian	414
 子串匹配	zi chuan pi pei	414
 定位时间	ding wei shi jian	414
-帧内编码	zheng nei bian ma	414
+帧内编码	zhen nei bian ma	414
 智能交通	zhi neng jiao tong	414
 环形进度条	huan xing jin du tiao	414
 快速开发平台	kuai su kai fa ping tai	414
@@ -7190,7 +7190,7 @@ sort: by_weight
 视觉设计师	shi jue she ji shi	400
 可变参数函数	ke bian can shu han shu	400
 开放系统互连	kai fang xi tong hu lian	400
-控制帧	kong zhi zheng	399
+控制帧	kong zhi zhen	399
 优化理论	you hua li lun	399
 最近点对	zui jin dian dui	399
 立即下载	li ji xia zai	399
@@ -8175,7 +8175,7 @@ sort: by_weight
 多级反馈队列	duo ji fan kui dui lie	259
 语义学	yu yi xue	258
 函数模版	han shu mo ban	258
-帧间编码	zheng jian bian ma	258
+帧间编码	zhen jian bian ma	258
 控制媒体	kong zhi mei ti	258
 数组查找	shu zu cha zhao	258
 日志监控	ri zhi jian kong	258
@@ -8812,7 +8812,7 @@ sort: by_weight
 宏语言	hong yu yan	191
 变换规则	bian huan gui ze	191
 噪声容限	zao sheng rong xian	191
-帧内压缩	zheng nei ya suo	191
+帧内压缩	zhen nei ya suo	191
 暴力打表	bao li da biao	191
 概率分析	gai lv fen xi	191
 文件流操作	wen jian liu cao zuo	191
@@ -9125,7 +9125,7 @@ sort: by_weight
 分页程序	fen ye cheng xu	161
 后端框架	hou duan kuang jia	161
 工具插件	gong ju cha jian	161
-帧间压缩	zheng jian ya suo	161
+帧间压缩	zhen jian ya suo	161
 数列有序	shu lie you xu	161
 无锁编程	wu suo bian cheng	161
 虚拟光盘	xu ni guang pan	161
@@ -9630,7 +9630,7 @@ sort: by_weight
 编程异常	bian cheng yi chang	122
 启发式技术	qi fa shi ji shu	122
 寻找最大数	xun zhao zui da shu	122
-帧封装	zheng feng zhuang	121
+帧封装	zhen feng zhuang	121
 侧拉菜单	ce la cai dan	121
 关系逻辑	guan xi luo ji	121
 程序保护	cheng xu bao hu	121
@@ -9840,7 +9840,7 @@ sort: by_weight
 软件安全性	ruan jian an quan xing	108
 对象式	dui xiang shi	107
 已分享	yi fen xiang	107
-帧差法	zheng cha fa	107
+帧差法	zhen cha fa	107
 新动态	xin dong tai	107
 转接板	zhuan jie ban	107
 分析属性	fen xi shu xing	107
@@ -10957,7 +10957,7 @@ sort: by_weight
 扩散性	kuo san xing	50
 色度学	se du xue	50
 色空间	se kong jian	50
-间隔帧	jian ge zheng	50
+间隔帧	jian ge zhen	50
 假设验证	jia she yan zheng	50
 全球地址	quan qiu di zhi	50
 刷新测试	shua xin ce shi	50
@@ -11991,7 +11991,7 @@ sort: by_weight
 伪像	wei xiang	22
 单故障	dan gu zhang	22
 取错误	qu cuo wu	22
-帧定位	zheng ding wei	22
+帧定位	zhen ding wei	22
 源阻抗	yuan zu kang	22
 群相册	qun xiang ce	22
 驱动门	qu dong men	22
@@ -12036,7 +12036,7 @@ sort: by_weight
 隐藏延时	yin cang yan shi	22
 上下位关系	shang xia wei guan xi	22
 不完全信息	bu wan quan xin xi	22
-帧控制字段	zheng kong zhi zi duan	22
+帧控制字段	zhen kong zhi zi duan	22
 平板扫描仪	ping ban sao miao yi	22
 流水线停顿	liu shui xian ting dun	22
 用户状态表	yong hu zhuang tai biao	22
