@@ -1,8 +1,8 @@
 ---
 name: Bug report
 about: 更好的描述问题，以解决问题，遇到问题先搜issue，解决不了在提交issue。
-title: ''
-labels: ''
+title: "[Rime软件名称和版本][输入方案][问题大致描述]"
+labels: bug
 assignees: ''
 
 ---
