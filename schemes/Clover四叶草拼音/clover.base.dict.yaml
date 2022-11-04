@@ -5538,7 +5538,7 @@ sort: by_weight
 钍	tu	35839
 姖	ju	35827
 畱	liu	35821
-瞓	shui	35820
+瞓	fen	35820
 骷	ku	35810
 徇	xun	35806
 嘧	mi	35804
@@ -25808,7 +25808,6 @@ sort: by_weight
 䭶	qi	1
 䭷	mao	1
 䭸	fu	1
-䭸	bao	1
 䭹	ang	1
 䭺	ang	1
 䭻	fen	1
@@ -26979,7 +26978,6 @@ sort: by_weight
 咶	hua	1
 咸	jian	1
 咹	an	1
-咹	en	1
 咻	xu	1
 咻	xiao	1
 咼	wai	1
@@ -26999,7 +26997,6 @@ sort: by_weight
 哋	di	1
 哌	gu	1
 哏	hen	1
-哏	en	1
 哐	qiang	1
 哛	fen	1
 員	yun	1
@@ -27019,8 +27016,6 @@ sort: by_weight
 哴	lang	1
 哺	fu	1
 哼	hng	1
-哽	ying	1
-哽	en	1
 哾	yue	1
 唄	bai	1
 唆	shua	1
@@ -27029,7 +27024,6 @@ sort: by_weight
 唏	xie	1
 唑	shi	1
 唓	che	1
-唔	mu	1
 唚	qin	1
 唜	mo	1
 唝	gong	1
@@ -27044,7 +27038,6 @@ sort: by_weight
 唬	guo	1
 唬	hao	1
 售	shu	1
-唵	en	1
 唷	yu	1
 唸	dian	1
 唼	qie	1
@@ -28075,7 +28068,6 @@ sort: by_weight
 懣	men	1
 懤	chou	1
 懨	yan	1
-懨	chu	1
 懲	cheng	1
 懶	lan	1
 懶	lai	1
@@ -28969,7 +28961,6 @@ sort: by_weight
 櫎	gu	1
 櫖	chu	1
 櫗	mei	1
-櫚	lu	1
 櫛	zhi	1
 櫝	du	1
 櫞	yuan	1
@@ -33956,7 +33947,6 @@ sort: by_weight
 鴟	chi	1
 鴢	ao	1
 鴣	gu	1
-鴤	dong	1
 鴥	yu	1
 鴦	yang	1
 鴨	ya	1
