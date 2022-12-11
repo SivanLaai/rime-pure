@@ -110,7 +110,7 @@
 
 ## 安装方法
 
-- [查看安装方法](https://sivanlaai.github.io/pages/7128fc/)
+- [查看安装方法](https://www.sivanlaai.top/posts/projects/rime/installation/)
 
 ## 更新历史
 #### 2022-11-4
@@ -188,7 +188,7 @@
  - 2.修复小鹤双拼简繁转换问题
  - 3.自然码支持简繁转换问题
 
-#### [以往全部历史](https://sivanlaai.github.io/pages/841d8d/)
+#### [以往全部历史](https://www.sivanlaai.top/posts/projects/rime/update_history/)
 
 ## 相关资源
  - 小狼毫输入法：https://github.com/rime/weasel
