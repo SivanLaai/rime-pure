@@ -12,7 +12,7 @@
 - ![visitors](https://visitor-badge.laobi.icu/badge?page_id=SivanLaai/rime-pure)
 
 ## 包含输入方案
- - [🍀️四叶草拼音九宫格](https://github.com/SivanLaai/rime-pure)
+ - [🍀️四叶草拼音九宫格](https://github.com/SivanLaai/rime-pure)（不再使用原来的词库，原来的词库有很多问题，现在只是保留名字。）
  - [四叶草地球拼音](https://github.com/SivanLaai/rime-pure/tree/master/schemes/Clover%E5%9B%9B%E5%8F%B6%E8%8D%89%E5%9C%B0%E7%90%83%E6%8B%BC%E9%9F%B3)
  - [极点五笔](https://github.com/KyleBing/rime-wubi86-jidian)
  - [小鹤双拼](https://www.flypy.com/index.html)
@@ -114,7 +114,7 @@
 
 ## 更新历史
 #### 2022-11-4
- - 1.优化四叶草拼音的基础词库为华宇输入法词库[@warm-ice0x00](https://github.com/warm-ice0x00)
+ - 1.优化四叶草拼音的基础词库为华宇输入法词库[@warm-ice0x00](https://github.com/warm-ice0x00)（不再使用原来的词库，原来的词库有很多问题。）
 #### 2022-3-19
  - 1.调整剪切板功能快捷方式
  - 2.qq86五笔用户词添加不成功修复
