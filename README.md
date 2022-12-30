@@ -113,10 +113,13 @@
 - [查看安装方法](https://www.sivanlaai.top/posts/projects/rime/installation/)
 
 ## 更新历史
+
 #### 2022-12-30
- - 1.移除九宫模式下ascii模式的切换
- - 2.优化九宫数字键盘布局
- ![](https://cdn.staticaly.com/gh/SivanLaai/image-store-rep@master/note/20221230200634.png)
+
+ - 1.移除九宫模式下ascii模式的切换。
+ - 2.优化九宫数字键盘布局。
+
+![Image text](https://cdn.staticaly.com/gh/SivanLaai/image-store-rep@master/note/20221230200634.png)
 
 #### 2022-11-4
  - 1.优化四叶草拼音的基础词库为华宇输入法词库[@warm-ice0x00](https://github.com/warm-ice0x00)（不再使用原来的词库，原来的词库有很多问题。）
