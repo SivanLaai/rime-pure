@@ -2217,7 +2217,6 @@ preset_keyboards:
     author: "SivanLaai"
     name: "九宫格键盘"
     lock: true
-    ascii_keyboard: jiugong_number
     height: *VJG_Other
     horizontal_gap: *NJL
     vertical_gap: *NJH
@@ -2253,7 +2252,7 @@ preset_keyboards:
       - {click: Return, width: *NUM_SYM_W, key_back_color: szhcb, hilited_key_back_color: szhch, key_text_color: szhct, hilited_key_text_color: szhct, key_symbol_color: hcs, key_text_size: 16}
 
   jiugong_number:
-    ascii_mode: 1 # 这个是ascii的键盘模式，为0切换ascii模式则会加载ascii_keyboard所指定的键盘
+    ascii_mode: 0 # 这个是ascii的键盘模式，为0切换ascii模式则会加载ascii_keyboard所指定的键盘
     author: "SivanLaai"
     name: "九宫格数字"
     lock: false
