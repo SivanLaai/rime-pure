@@ -12,7 +12,7 @@
 - ![visitors](https://visitor-badge.laobi.icu/badge?page_id=SivanLaai/rime-pure)
 
 ## QQ群
-有相关问题，大家可以加入QQ群相互讨论和学习
+大家也可以加入QQ群相互讨论和学习（应要求，建群只是提供一种交流方式，因为个人原因我可能不会在群里答疑[感谢理解]，有问题还是提issue）
 
 ![](https://cdn.staticaly.com/gh/SivanLaai/image-store-rep@master/note/Rime%20Pure%20%E4%BA%A4%E6%B5%81%E7%BE%A4%E7%BE%A4%E4%BA%8C%E7%BB%B4%E7%A0%81.png)
 
