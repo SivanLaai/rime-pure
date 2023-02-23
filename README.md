@@ -11,11 +11,6 @@
 
 - ![visitors](https://visitor-badge.laobi.icu/badge?page_id=SivanLaai/rime-pure)
 
-## QQ群
-大家也可以加入QQ群相互讨论和学习（应要求，建群只是提供一种交流方式，因为个人原因我可能不会在群里答疑[感谢理解]，有问题还是提issue）
-
-![](https://cdn.staticaly.com/gh/SivanLaai/image-store-rep@master/note/Rime%20Pure%20%E4%BA%A4%E6%B5%81%E7%BE%A4%E7%BE%A4%E4%BA%8C%E7%BB%B4%E7%A0%81.png)
-
 ## 包含输入方案
  - [🍀️四叶草拼音九宫格](https://github.com/SivanLaai/rime-pure)（不再使用原来的词库，原来的词库有很多问题，现在只是保留名字。）
  - [四叶草地球拼音](https://github.com/SivanLaai/rime-pure/tree/master/schemes/Clover%E5%9B%9B%E5%8F%B6%E8%8D%89%E5%9C%B0%E7%90%83%E6%8B%BC%E9%9F%B3)
