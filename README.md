@@ -110,7 +110,7 @@
 
 ## 安装方法
 
-- [查看安装方法](https://www.sivanlaai.top/posts/projects/rime/installation/)
+- [查看安装方法](https://www.laais.cn/posts/projects/rime/installation/)
 
 ## 更新历史
 
