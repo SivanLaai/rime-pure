@@ -4,7 +4,7 @@
 const char *const initials[] = {"",  "b",  "c", "ch", "d", "f", "g", "h",
                                 "j", "k",  "l", "m",  "n", "p", "q", "r",
                                 "s", "sh", "t", "w",  "x", "y", "z", "zh"};
-const char *const finals[] = {"ang",  "a",   "ai",  "an", "ang", "ao",   "e",
+const char *const finals[] = {"",     "a",   "ai",  "an", "ang", "ao",   "e",
                               "ei",   "en",  "eng", "er", "i",   "ia",   "ian",
                               "iang", "iao", "ie",  "in", "ing", "iong", "iu",
                               "o",    "ong", "ou",  "u",  "ua",  "uai",  "uan",
@@ -66,7 +66,7 @@ int main() {
     const uint8_t initial = buffer[0] & 0x1F;
     assert(0 <= initial && initial <= 23);
     const uint8_t final = (buffer[1] & 0x07) << 3 | buffer[0] >> 5;
-    assert(0 <= final && final <= 33);
+    assert(1 <= final && final <= 33);
     uint8_t tone = buffer[1] >> 3;
     fread(buffer, 4, 1, file_in);
     uint32_t frequency = bytes_to_uint32(buffer);
@@ -85,4 +85,5 @@ int main() {
   fclose(file_in);
   fclose(file_out);
   fclose(file_out_tone);
+  return 0;
 }
