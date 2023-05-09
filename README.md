@@ -114,6 +114,8 @@
 
 ## 更新历史
 
+#### 2023-05-09
+ - 添加转换自 [华宇拼音 v6.9.1.183](http://srf.unispim.com/software/index.php) 的 bigram 语言模型 [@warm-ice0x00](https://github.com/warm-ice0x00)
 #### 2022-12-30
 
  - 1.移除九宫模式下ascii模式的切换。
