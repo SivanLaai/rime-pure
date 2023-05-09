@@ -35,7 +35,7 @@ size_t Utf32ToUtf8(unsigned char *utf8, const unsigned long utf32) {
   }
   return 0;
 }
-unsigned long BytesToUint32(const unsigned char *const bytes) {
+unsigned long BytesToUInt32(const unsigned char *const bytes) {
   return bytes[3] << 24 | bytes[2] << 16 | bytes[1] << 8 | bytes[0];
 }
 int main(void) {
@@ -46,7 +46,7 @@ int main(void) {
   unsigned long count;
   SafeFSeek(file_in, 16, SEEK_SET);
   SafeFRead(buffer, 4, 1, file_in);
-  count = BytesToUint32(buffer);
+  count = BytesToUInt32(buffer);
   printf("Character count: %lu\n", (unsigned long)count);
   while (count--) {
     unsigned long utf32_character, frequency;
@@ -54,7 +54,7 @@ int main(void) {
     size_t utf8_length;
     unsigned char initial, final, tone, i;
     SafeFRead(buffer, 4, 1, file_in);
-    utf32_character = BytesToUint32(buffer);
+    utf32_character = BytesToUInt32(buffer);
     utf8_length = Utf32ToUtf8(character, utf32_character);
     assert(utf8_length);
     character[utf8_length] = '\0';
@@ -66,7 +66,7 @@ int main(void) {
     assert(1 <= final && final <= 33);
     tone = buffer[1] >> 3;
     SafeFRead(buffer, 4, 1, file_in);
-    frequency = BytesToUint32(buffer);
+    frequency = BytesToUInt32(buffer);
     SafeFRead(buffer, 1, 1, file_in);
     /* 是繁体且不是简体，降低字频 */
     if (*buffer & 2 && !(*buffer & 1)) frequency >>= 10;

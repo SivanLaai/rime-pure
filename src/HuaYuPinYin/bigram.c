@@ -12,7 +12,7 @@ darts.hh from https://github.com/s-yata/darts-clone/blob/master/include/darts.h
 
 #include "wrappers.h"
 enum { kMaxWordLength = 8, kRadix = 256, kInitialSize = 2 };
-unsigned long BytesToUint32(const unsigned char *const array) {
+unsigned long BytesToUInt32(const unsigned char *const array) {
   return array[3] << 24 | array[2] << 16 | array[1] << 8 | array[0];
 }
 size_t GbkToUtf8(char *const gbk_str, size_t gbk_bytes, char *const utf8_str,
@@ -76,7 +76,7 @@ void LsdSort(char **keys, size_t *lengths, int *values, const size_t n) {
   free(aux_lengths);
   free(aux_values);
 }
-void Uint32ToBytes(const unsigned long num, unsigned char *array) {
+void UInt32ToBytes(const unsigned long num, unsigned char *array) {
   *array++ = num & 0xFF;
   *array++ = (num >> 8) & 0xFF;
   *array++ = (num >> 16) & 0xFF;
@@ -187,58 +187,58 @@ int main(void) {
   assert(sizeof(int) == 4);
   SafeFSeek(file_in, 36, SEEK_SET);
   SafeFRead(buffer, 4, 1, file_in);
-  index_count = BytesToUint32(buffer);
+  index_count = BytesToUInt32(buffer);
   SafeFSeek(file_in, 52, SEEK_SET);
   SafeFRead(buffer, 4, 1, file_in);
-  item_count = BytesToUint32(buffer);
+  item_count = BytesToUInt32(buffer);
   SafeFSeek(file_in, 60, SEEK_SET);
   SafeFRead(buffer, 4, 1, file_in);
-  word_list_pos = BytesToUint32(buffer);
+  word_list_pos = BytesToUInt32(buffer);
   SafeFSeek(file_in, 64, SEEK_SET);
   SafeFRead(buffer, 4, 1, file_in);
-  index_pos = BytesToUint32(buffer);
+  index_pos = BytesToUInt32(buffer);
   SafeFSeek(file_in, 72, SEEK_SET);
   SafeFRead(buffer, 4, 1, file_in);
-  item_pos = BytesToUint32(buffer);
+  item_pos = BytesToUInt32(buffer);
   SafeFSeek(file_in, index_pos, SEEK_SET);
   keys = (char **)SafeMAlloc(kInitialSize * sizeof(char *));
   lengths = (size_t *)SafeMAlloc(kInitialSize * sizeof(size_t));
   values = (int *)SafeMAlloc(kInitialSize * sizeof(int));
   while (index_count--) {
-    char word[2 * kMaxWordLength + 1], word_u8[4 * kMaxWordLength + 1];
+    char word[2 * kMaxWordLength + 1], word_utf8[4 * kMaxWordLength + 1];
     unsigned long word_pos, item_index, next_item_index, start, i;
     long pos;
-    size_t word_gbk_bytes, word_u8_bytes, encoded_key_bytes;
+    size_t word_gbk_bytes, word_utf8_bytes, encoded_key_bytes;
     SafeFRead(buffer, 4, 1, file_in);
-    word_pos = BytesToUint32(buffer);
+    word_pos = BytesToUInt32(buffer);
     pos = SafeFTell(file_in);
     SafeFSeek(file_in, word_list_pos + word_pos, SEEK_SET);
     word_gbk_bytes = ReadString(file_in, word, 2 * kMaxWordLength);
-    word_u8_bytes =
-        GbkToUtf8(word, word_gbk_bytes, word_u8, 4 * kMaxWordLength);
-    if (!strcmp(word_u8, "△")) {
+    word_utf8_bytes =
+        GbkToUtf8(word, word_gbk_bytes, word_utf8, 4 * kMaxWordLength);
+    if (!strcmp(word_utf8, "△")) {
       SafeFSeek(file_in, pos + 12, SEEK_SET);
       continue;
     }
     SafeFSeek(file_in, pos + 4, SEEK_SET);
     SafeFRead(buffer, 4, 1, file_in);
     pos = SafeFTell(file_in);
-    item_index = BytesToUint32(buffer);
+    item_index = BytesToUInt32(buffer);
     start = item_pos + 4 * item_index;
     SafeFSeek(file_in, 12, SEEK_CUR);
     SafeFRead(buffer, 4, 1, file_in);
-    next_item_index = BytesToUint32(buffer);
+    next_item_index = BytesToUInt32(buffer);
     i = index_count ? next_item_index - item_index : item_count - item_index;
     SafeFSeek(file_in, start, SEEK_SET);
     while (i--) {
-      char word_2[2 * kMaxWordLength + 1], word_2_u8[4 * kMaxWordLength + 1],
-          u8_key[2 * 4 * kMaxWordLength + 1],
+      char word_2[2 * kMaxWordLength + 1], word_2_utf8[4 * kMaxWordLength + 1],
+          utf8_key[2 * 4 * kMaxWordLength + 1],
           encoded_key[2 * 5 * kMaxWordLength + 1];
       unsigned long word_index, next_word_index, word_2_pos, count;
       long pos_2;
-      size_t word_2_gbk_bytes, word_2_u8_bytes;
-      double prob;
-      int ln_prob;
+      size_t word_2_gbk_bytes, word_2_utf8_bytes;
+      double weight;
+      int ln_weight;
       SafeFRead(buffer, 4, 1, file_in);
       word_index = (buffer[2] & 3) << 16 | buffer[1] << 8 | buffer[0];
       count = buffer[3] << 6 | buffer[2] >> 2;
@@ -251,26 +251,26 @@ int main(void) {
           SafeFSeek(file_in, -4, SEEK_CUR);
         }
       }
-      prob = log(count) * 10000;
-      ln_prob = (int)(prob < 0 ? prob - 0.5 : prob + 0.5);
+      weight = log(count) * 10000;
+      ln_weight = (int)(weight < 0 ? weight - 0.5 : weight + 0.5);
       pos_2 = SafeFTell(file_in);
       SafeFSeek(file_in, index_pos + 16 * word_index, SEEK_SET);
       SafeFRead(buffer, 4, 1, file_in);
-      word_2_pos = BytesToUint32(buffer);
+      word_2_pos = BytesToUInt32(buffer);
       SafeFSeek(file_in, word_list_pos + word_2_pos, SEEK_SET);
       word_2_gbk_bytes = ReadString(file_in, word_2, 2 * kMaxWordLength);
-      word_2_u8_bytes =
-          GbkToUtf8(word_2, word_2_gbk_bytes, word_2_u8, 4 * kMaxWordLength);
-      if (!strcmp(word_2_u8, "△")) {
-        strcpy(word_2_u8, "$");
-        word_2_u8_bytes = 1;
+      word_2_utf8_bytes =
+          GbkToUtf8(word_2, word_2_gbk_bytes, word_2_utf8, 4 * kMaxWordLength);
+      if (!strcmp(word_2_utf8, "△")) {
+        strcpy(word_2_utf8, "$");
+        word_2_utf8_bytes = 1;
       }
       SafeFSeek(file_in, pos_2, SEEK_SET);
-      strcpy(u8_key, word_u8);
-      strcpy(u8_key + word_u8_bytes, word_2_u8);
-      SafeFPrintF(file_out_text, "%s,%d\n", u8_key, ln_prob);
+      strcpy(utf8_key, word_utf8);
+      strcpy(utf8_key + word_utf8_bytes, word_2_utf8);
+      SafeFPrintF(file_out_text, "%s,%d\n", utf8_key, ln_weight);
       encoded_key_bytes = ToCustomEncoding(
-          u8_key, word_u8_bytes + word_2_u8_bytes, encoded_key);
+          utf8_key, word_utf8_bytes + word_2_utf8_bytes, encoded_key);
       if (arrays_used == arrays_size) {
         arrays_size = arrays_size + (arrays_size >> 1);
         keys = (char **)SafeRealloc(keys, arrays_size * sizeof(char *));
@@ -280,7 +280,7 @@ int main(void) {
       keys[arrays_used] = (char *)SafeMAlloc(encoded_key_bytes + 1);
       strcpy(keys[arrays_used], encoded_key);
       lengths[arrays_used] = encoded_key_bytes;
-      values[arrays_used] = ln_prob;
+      values[arrays_used] = ln_weight;
       ++arrays_used;
     }
     SafeFSeek(file_in, pos + 4, SEEK_SET);
@@ -296,15 +296,15 @@ int main(void) {
   memset(buffer, 0, sizeof(buffer));
   SafeFWrite(buffer, 4, 1, file_out);
   double_array_size = darts_size(gram_db);
-  Uint32ToBytes(double_array_size, buffer);
+  UInt32ToBytes(double_array_size, buffer);
   SafeFWrite(buffer, 4, 1, file_out);
-  Uint32ToBytes(4, buffer);
+  UInt32ToBytes(4, buffer);
   SafeFWrite(buffer, 4, 1, file_out);
   double_array = (int *)darts_array(gram_db);
   double_array_end = double_array + double_array_size;
   for (double_array_ptr = double_array; double_array_ptr < double_array_end;
        ++double_array_ptr) {
-    Uint32ToBytes(*double_array_ptr, buffer);
+    UInt32ToBytes(*double_array_ptr, buffer);
     SafeFWrite(buffer, 4, 1, file_out);
   }
   darts_delete(gram_db);
