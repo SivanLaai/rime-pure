@@ -2,13 +2,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-size_t utf8len(const char *s) {
+
+#include "wrappers.h"
+size_t Utf8Len(const char *s) {
   size_t len = 0;
   for (; *s; ++s)
     if ((*s & 0xC0) != 0x80) ++len;
   return len;
 }
-const char *utf8index(const char *s, size_t pos) {
+const char *Utf8Index(const char *s, size_t pos) {
   ++pos;
   for (; *s; ++s) {
     if ((*s & 0xC0) != 0x80) --pos;
@@ -16,32 +18,33 @@ const char *utf8index(const char *s, size_t pos) {
   }
   return NULL;
 }
-void utf8slice(const char *const s, size_t *const start, size_t *const end) {
-  const char *p = utf8index(s, *start);
-  *start = p ? p - s : SIZE_MAX;
-  p = utf8index(s, *end);
-  *end = p ? p - s : SIZE_MAX;
+void Utf8Slice(const char *const s, size_t *const start, size_t *const end) {
+  const char *p = Utf8Index(s, *start);
+  *start = p ? (size_t)(p - s) : (size_t)-1;
+  p = Utf8Index(s, *end);
+  *end = p ? (size_t)(p - s) : (size_t)-1;
 }
-int main() {
-  char line[128];
-  FILE *const f_in = fopen("fixed.ini", "rb");
-  FILE *const f_out = fopen("custom_phrase.txt", "wb");
-  while (fgets(line, sizeof(line), f_in)) {
+int main(void) {
+  char line[64];
+  FILE *const file_in = SafeFOpen("fixed.ini", "rb");
+  FILE *const file_out = SafeFOpen("custom_phrase.txt", "wb");
+  while (SafeFGetS(line, sizeof(line), file_in)) {
+    const char *pinyin, *characters;
+    size_t len, i;
     line[strcspn(line, "\r\n")] = '\0';
     if (line[0] == '\0' || line[0] == '#') continue;
-    const char *const pinyin = strtok(line, "=");
-    const char *const characters = strtok(NULL, "=");
+    pinyin = strtok(line, "=");
+    characters = strtok(NULL, "=");
     if (characters == NULL) continue;
-    const size_t len = utf8len(characters);
-    size_t i;
+    len = Utf8Len(characters);
     for (i = 0; i < len; ++i) {
       size_t start = i, end = i + 1;
-      utf8slice(characters, &start, &end);
-      fprintf(f_out, "%.*s\t%s\t%lu\n", (int)(end - start), characters + start,
-              pinyin, (unsigned long)(len - i));
+      Utf8Slice(characters, &start, &end);
+      SafeFPrintF(file_out, "%.*s\t%s\t%lu\n", (int)(end - start),
+                  characters + start, pinyin, (unsigned long)(len - i));
     }
   }
-  fclose(f_in);
-  fclose(f_out);
+  fclose(file_in);
+  fclose(file_out);
   return 0;
 }

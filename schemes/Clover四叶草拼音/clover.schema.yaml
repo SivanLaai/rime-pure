@@ -113,8 +113,14 @@ speller:
     - derive/i$/ii/      # ii = i  # i 不小心按两下
     - derive/u$/uu/      # ui = u  # u 不小心按两下
 
+grammar:
+  language: zh-hans-t-huayu-bgw
+
 translator:
   dictionary: clover
+  contextual_suggestions: true
+  max_homophones: 5
+  max_homographs: 5
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
