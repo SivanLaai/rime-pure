@@ -3,7 +3,6 @@ darts.hh from https://github.com/s-yata/darts-clone/blob/master/include/darts.h
 */
 #include <assert.h>
 #include <darts.h>
-#include <float.h>
 #include <iconv.h>
 #include <math.h>
 #include <stdio.h>
@@ -11,7 +10,7 @@ darts.hh from https://github.com/s-yata/darts-clone/blob/master/include/darts.h
 #include <string.h>
 
 #include "wrappers.h"
-enum { kMaxWordLength = 8, kRadix = 256, kInitialSize = 2 };
+enum { kRadix = 256, kInitialSize = 2, kMaxWordLength = 8 };
 unsigned long BytesToUInt32(const unsigned char *const array) {
   return array[3] << 24 | array[2] << 16 | array[1] << 8 | array[0];
 }
@@ -45,7 +44,8 @@ size_t ReadString(FILE *const file, char *const buffer, const size_t bytes) {
   *p = '\0';
   return p - buffer;
 }
-void LsdSort(char **keys, size_t *lengths, int *values, const size_t n) {
+void LsdRadixSort(char **const keys, size_t *const lengths, int *const values,
+                  const size_t n) {
   size_t i, j;
   size_t count[kRadix + 1];
   char **aux_keys = (char **)SafeMAlloc(n * sizeof(char *));
@@ -53,9 +53,7 @@ void LsdSort(char **keys, size_t *lengths, int *values, const size_t n) {
   int *aux_values = (int *)SafeMAlloc(n * sizeof(int));
   size_t max_length = 0, d;
   for (i = 0; i < n; ++i) {
-    if (lengths[i] > max_length) {
-      max_length = lengths[i];
-    }
+    if (lengths[i] > max_length) max_length = lengths[i];
   }
   for (d = max_length; d--;) {
     memset(count, 0, sizeof(count));
@@ -76,6 +74,36 @@ void LsdSort(char **keys, size_t *lengths, int *values, const size_t n) {
   free(aux_lengths);
   free(aux_values);
 }
+/* Keeps the first keys and lengths, sums the values. */
+void Deduplicate(const char **keys, size_t *lengths, int *values,
+                 size_t *const n) {
+  const char **write_key;
+  size_t *write_length;
+  int *write_value;
+  const char **read_key;
+  const size_t *read_length;
+  const int *read_value;
+  const char **end = keys + *n;
+  if (*n <= 1) return;
+  write_key = keys;
+  write_length = lengths;
+  write_value = values;
+  read_key = keys + 1;
+  read_length = lengths + 1;
+  read_value = values + 1;
+  for (; read_key < end; ++read_key, ++read_length, ++read_value) {
+    if (!strcmp(*write_key, *read_key)) {
+      *write_value += *read_value;
+      free((void *)*read_key);
+    } else {
+      ++write_key, ++write_length, ++write_value;
+      *write_key = *read_key;
+      *write_length = *read_length;
+      *write_value = *read_value;
+    }
+  }
+  *n = write_key - keys + 1;
+}
 void UInt32ToBytes(const unsigned long num, unsigned char *array) {
   *array++ = num & 0xFF;
   *array++ = (num >> 8) & 0xFF;
@@ -92,7 +120,7 @@ const char *Utf8Index(const char *s, size_t pos) {
   ++pos;
   for (; *s; ++s) {
     if ((*s & 0xC0) != 0x80) --pos;
-    if (pos == 0) return s;
+    if (!pos) return s;
   }
   return NULL;
 }
@@ -104,7 +132,7 @@ void Utf8Slice(const char *const s, size_t *const start, size_t *const end) {
 }
 unsigned long Utf8ToCodePoint(const char *const utf8) {
   unsigned long code_point = 0;
-  if ((utf8[0] & 0x80) == 0) {
+  if (!(utf8[0] & 0x80)) {
     code_point = utf8[0];
   } else if ((utf8[0] & 0xE0) == 0xC0) {
     code_point = (utf8[0] & 0x1F) << 6;
@@ -122,12 +150,11 @@ unsigned long Utf8ToCodePoint(const char *const utf8) {
   return code_point;
 }
 /* Up to 5 bytes per character. */
-size_t ToCustomEncoding(const char *const utf8_str, const size_t utf8_bytes,
-                        char *const encoded_str) {
+size_t ToCustomEncoding(const char *const utf8_str, const size_t len,
+                        const size_t utf8_bytes, char *const encoded_str) {
   char buffer[4];
   char *e = encoded_str;
   size_t i;
-  const size_t len = Utf8Len(utf8_str);
   for (i = 0; i < len; ++i) {
     size_t start = i, end = i + 1;
     unsigned long u;
@@ -136,13 +163,13 @@ size_t ToCustomEncoding(const char *const utf8_str, const size_t utf8_bytes,
     memcpy(buffer, utf8_str + start, end - start);
     u = Utf8ToCodePoint(buffer);
     if (u < 0x80) {
-      if (u == 0) {
+      if (!u) {
         *e++ = (char)0xE0;
       } else {
         *e++ = (char)u;
       }
     } else if (u >= 0x4000 && u < 0xA000) {
-      if ((u & 0xFF) == 0) {
+      if (!(u & 0xFF)) {
         *e++ = (char)0xE1;
         *e++ = (char)((u >> 8) + 0x40);
       } else {
@@ -150,8 +177,8 @@ size_t ToCustomEncoding(const char *const utf8_str, const size_t utf8_bytes,
         *e++ = (char)(u & 0xFF);
       }
     } else {
-      int bits = 32, bytes_to_encode;
-      while (bits > 0 && (u & 0xFE000000) == 0) {
+      unsigned char bits = 32, bytes_to_encode;
+      while (bits > 0 && !(u & 0xFE000000)) {
         bits -= 7;
         u <<= 7;
       }
@@ -170,14 +197,18 @@ size_t ToCustomEncoding(const char *const utf8_str, const size_t utf8_bytes,
 int main(void) {
   FILE *const file_in = SafeFOpen("bigram.dat", "rb");
   FILE *const file_out = SafeFOpen("zh-hans-t-huayu-bgw.gram", "wb");
-  FILE *const file_out_text = SafeFOpen("bigram.txt", "wb");
+  FILE *const file_out_text = SafeFOpen("huayu-zh-hans.txt", "wb");
   unsigned char buffer[4];
-  unsigned long index_count, item_count, word_list_pos, index_pos, item_pos,
-      arrays_used = 0, arrays_size = kInitialSize;
+  unsigned long index_count, item_count, word_list_pos, index_pos, item_pos;
+  size_t arrays_used = 0, arrays_size = kInitialSize;
   char **keys;
   char **keys_ptr;
+  char **keys_end;
   size_t *lengths;
+  size_t *lengths_ptr;
   int *values;
+  int *values_ptr;
+  int *values_end;
   darts_t gram_db;
   const char grammar_format[32] = "Rime::Grammar/1.0";
   int *double_array;
@@ -185,6 +216,7 @@ int main(void) {
   int *double_array_end;
   int *double_array_ptr;
   assert(sizeof(int) == 4);
+  assert(sizeof(size_t) >= 4);
   SafeFSeek(file_in, 36, SEEK_SET);
   SafeFRead(buffer, 4, 1, file_in);
   index_count = BytesToUInt32(buffer);
@@ -208,7 +240,7 @@ int main(void) {
     char word[2 * kMaxWordLength + 1], word_utf8[4 * kMaxWordLength + 1];
     unsigned long word_pos, item_index, next_item_index, start, i;
     long pos;
-    size_t word_gbk_bytes, word_utf8_bytes, encoded_key_bytes;
+    size_t word_gbk_bytes, word_utf8_bytes;
     SafeFRead(buffer, 4, 1, file_in);
     word_pos = BytesToUInt32(buffer);
     pos = SafeFTell(file_in);
@@ -232,13 +264,10 @@ int main(void) {
     SafeFSeek(file_in, start, SEEK_SET);
     while (i--) {
       char word_2[2 * kMaxWordLength + 1], word_2_utf8[4 * kMaxWordLength + 1],
-          utf8_key[2 * 4 * kMaxWordLength + 1],
-          encoded_key[2 * 5 * kMaxWordLength + 1];
+          utf8_key[2 * 4 * kMaxWordLength + 1];
       unsigned long word_index, next_word_index, word_2_pos, count;
       long pos_2;
-      size_t word_2_gbk_bytes, word_2_utf8_bytes;
-      double weight;
-      int ln_weight;
+      size_t word_2_gbk_bytes, word_2_utf8_bytes, utf8_key_bytes;
       SafeFRead(buffer, 4, 1, file_in);
       word_index = (buffer[2] & 3) << 16 | buffer[1] << 8 | buffer[0];
       count = buffer[3] << 6 | buffer[2] >> 2;
@@ -247,12 +276,11 @@ int main(void) {
         next_word_index = (buffer[2] & 3) << 16 | buffer[1] << 8 | buffer[0];
         if (word_index == next_word_index) {
           count = (buffer[3] << 6 | buffer[2] >> 2) << 14 | count;
+          --i;
         } else {
           SafeFSeek(file_in, -4, SEEK_CUR);
         }
       }
-      weight = log(count) * 10000;
-      ln_weight = (int)(weight < 0 ? weight - 0.5 : weight + 0.5);
       pos_2 = SafeFTell(file_in);
       SafeFSeek(file_in, index_pos + 16 * word_index, SEEK_SET);
       SafeFRead(buffer, 4, 1, file_in);
@@ -268,28 +296,55 @@ int main(void) {
       SafeFSeek(file_in, pos_2, SEEK_SET);
       strcpy(utf8_key, word_utf8);
       strcpy(utf8_key + word_utf8_bytes, word_2_utf8);
-      SafeFPrintF(file_out_text, "%s,%d\n", utf8_key, ln_weight);
-      encoded_key_bytes = ToCustomEncoding(
-          utf8_key, word_utf8_bytes + word_2_utf8_bytes, encoded_key);
       if (arrays_used == arrays_size) {
         arrays_size = arrays_size + (arrays_size >> 1);
         keys = (char **)SafeRealloc(keys, arrays_size * sizeof(char *));
         lengths = (size_t *)SafeRealloc(lengths, arrays_size * sizeof(size_t));
         values = (int *)SafeRealloc(values, arrays_size * sizeof(int));
       }
-      keys[arrays_used] = (char *)SafeMAlloc(encoded_key_bytes + 1);
-      strcpy(keys[arrays_used], encoded_key);
-      lengths[arrays_used] = encoded_key_bytes;
-      values[arrays_used] = ln_weight;
+      utf8_key_bytes = word_utf8_bytes + word_2_utf8_bytes;
+      keys[arrays_used] = (char *)SafeMAlloc(utf8_key_bytes + 1);
+      strcpy(keys[arrays_used], utf8_key);
+      lengths[arrays_used] = utf8_key_bytes;
+      values[arrays_used] = count;
       ++arrays_used;
     }
     SafeFSeek(file_in, pos + 4, SEEK_SET);
   }
-  LsdSort(keys, lengths, values, arrays_used);
+  LsdRadixSort(keys, lengths, values, arrays_used);
+  Deduplicate((const char **)keys, lengths, values, &arrays_used);
+  keys_end = keys + arrays_used;
+  for (keys_ptr = keys, lengths_ptr = lengths, values_ptr = values;
+       keys_ptr < keys_end; ++keys_ptr, ++lengths_ptr, ++values_ptr) {
+    char *const key = (char *)SafeMAlloc(*lengths_ptr + 1);
+    const size_t end = *lengths_ptr - 1;
+    strcpy(key, *keys_ptr);
+    if (key[end] == '$') key[end] = '\0';
+    if (Utf8Len(key) >= 4)
+      SafeFPrintF(file_out_text, "%s\t%d\n", key, *values_ptr);
+  }
+  values_end = values + arrays_used;
+  for (values_ptr = values; values_ptr < values_end; ++values_ptr) {
+    assert(*values_ptr >= 1);
+    *values_ptr = (int)(log(*values_ptr) * 10000 + 0.5);
+  }
+  for (keys_ptr = keys, lengths_ptr = lengths; keys_ptr < keys_end;
+       ++keys_ptr, ++lengths_ptr) {
+    char buffer[2 * 5 * kMaxWordLength + 1];
+    const size_t encoded_length =
+        ToCustomEncoding(*keys_ptr, Utf8Len(*keys_ptr), *lengths_ptr, buffer);
+    char *encoded_string;
+    free(*keys_ptr);
+    encoded_string = (char *)SafeMAlloc(encoded_length + 1);
+    strcpy(encoded_string, buffer);
+    *keys_ptr = encoded_string;
+    *lengths_ptr = encoded_length;
+  }
+  LsdRadixSort(keys, lengths, values, arrays_used);
   gram_db = darts_new();
   if (darts_build(gram_db, arrays_used, (const char *const *)keys, lengths,
                   values, NULL)) {
-    fputs(darts_error(gram_db), stderr);
+    SafeFPutS(darts_error(gram_db), stderr);
     exit(EXIT_FAILURE);
   }
   SafeFWrite(grammar_format, 32, 1, file_out);
@@ -308,8 +363,7 @@ int main(void) {
     SafeFWrite(buffer, 4, 1, file_out);
   }
   darts_delete(gram_db);
-  for (keys_ptr = keys; keys_ptr < keys + arrays_size; ++keys_ptr)
-    free(*keys_ptr);
+  for (keys_ptr = keys; keys_ptr < keys_end; ++keys_ptr) free(*keys_ptr);
   free(keys);
   free(lengths);
   free(values);

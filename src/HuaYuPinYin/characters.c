@@ -47,7 +47,7 @@ int main(void) {
   SafeFSeek(file_in, 16, SEEK_SET);
   SafeFRead(buffer, 4, 1, file_in);
   count = BytesToUInt32(buffer);
-  printf("Character count: %lu\n", (unsigned long)count);
+  SafePrintF("Character count: %lu\n", (unsigned long)count);
   while (count--) {
     unsigned long utf32_character, frequency;
     unsigned char character[5];
