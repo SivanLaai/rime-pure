@@ -8,6 +8,7 @@ schema:
   author:
     - fkxxyz - https://www.fkxxyz.com
     - SivanLaai - https://sivanlaai.github.io
+    - warm-ice0x00
   description: |
     由🍀️四叶草亲自定制，特点：
       1. 结合搜狗输入法的输入习惯
@@ -15,9 +16,10 @@ schema:
       3. 加上很多特殊符号的输入支持
       4. 繁简切换支持
       5. 许多智能纠错
-    由SivanLaai补充：
+    由 SivanLaai 补充：
       1. 支持符号输入
       2. 支持笔画反查
+    由 warm-ice0x00 添加定制简体中文语言模型。
   dependencies:
     - emoji
     - stroke
@@ -41,8 +43,6 @@ switches:
   - name: emoji_suggestion
     reset: 0
     states: [ 😑️, 😁️ ]
-
-
 
 engine:
   processors:
@@ -119,8 +119,8 @@ grammar:
 translator:
   dictionary: clover
   contextual_suggestions: true
-  max_homophones: 5
-  max_homographs: 5
+  max_homophones: 3
+  max_homographs: 3
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
