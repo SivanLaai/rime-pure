@@ -211,7 +211,7 @@
  - **感谢@[lotem](https://github.com/lotem)**
  - **感谢trime作者@[osfans](https://github.com/osfans)**
  - **感谢四叶草拼音作者@[fkxxyz](https://github.com/fkxxyz)**
- - **感谢极品五笔作者@[KyleBing](https://github.com/KyleBing)**
+ - **感谢极品五笔@[七巧软件](http://www.jpwb.cc/rjxz.htm)**
  - **感谢qq五笔@[qq五笔](http://qq.pinyin.cn/wubi/)**
  - **感谢opencc作者@[BYVoid](https://github.com/BYVoid)**
  - **感谢@[小鹤双拼](https://www.flypy.com/)**
