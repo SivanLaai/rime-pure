@@ -69,10 +69,12 @@ int main(void) {
     frequency = BytesToUInt32(buffer);
     SafeFRead(buffer, 1, 1, file_in);
     /* 是繁体且不是简体，降低字频 */
-    if (*buffer & 2 && !(*buffer & 1)) frequency >>= 10;
+    if (*buffer & 2 && !(*buffer & 1)) {
+      frequency >>= 10;
+    }
     SafeFPrintF(file_out, "%s\t%s%s\t%lu\n", character, initials[initial],
                 finals[final], frequency);
-    for (i = 1; i <= 5; i++, tone >>= 1) {
+    for (i = 1; i <= 5; ++i, tone >>= 1) {
       if (tone & 1) {
         SafeFPrintF(file_out_tone, "%s\t%s%s%u\t%lu\n", character,
                     initials[initial], finals[final], i, frequency);
