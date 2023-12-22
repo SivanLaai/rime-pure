@@ -5,15 +5,7 @@
 #include "bcd.h"
 #include "darts.h"
 #include "wrappers.h"
-enum { kInitialSize = 2, kRadix = 256 };
-static const Bcd kE = {{0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02},
-                       {0x71, 0x82, 0x81, 0x82, 0x84, 0x59, 0x05}};
-static const Bcd kTenThousandLnTen = {
-    {0x00, 0x00, 0x00, 0x00, 0x02, 0x30, 0x25},
-    {0x85, 0x09, 0x29, 0x94, 0x04, 0x56, 0x84}};
-static const Bcd kTenThousandLnGoldenRatio = {
-    {0x00, 0x00, 0x00, 0x00, 0x00, 0x48, 0x12},
-    {0x11, 0x82, 0x50, 0x59, 0x60, 0x34, 0x47}};
+enum { kInitialSize = 2 };
 unsigned long BytesToUInt32(const unsigned char *const array) {
   return array[3] << 24 | array[2] << 16 | array[1] << 8 | array[0];
 }
@@ -57,12 +49,12 @@ void WriteUtf8Char(char **utf8, const unsigned short ucs2_char) {
 }
 void Ucs2LeToUtf8(const unsigned char *const ucs_2le, size_t ucs_2le_length,
                   char **utf8, size_t *const utf8_length) {
-  const unsigned char triangle[] = {0xB3, 0x25};
-  const size_t triangle_length = sizeof(triangle);
+  const unsigned char kTriangle[] = {0xB3, 0x25};
+  const size_t kTriangleLength = sizeof(kTriangle);
   size_t i;
   char *utf8_ptr;
-  if (ucs_2le_length == triangle_length &&
-      !memcmp(ucs_2le, triangle, triangle_length)) {
+  if (ucs_2le_length == kTriangleLength &&
+      !memcmp(ucs_2le, kTriangle, kTriangleLength)) {
     *utf8 = (char *)SafeMAlloc(sizeof("$"));
     memcpy(*utf8, "$", sizeof("$"));
     *utf8_length = 1;
@@ -211,6 +203,7 @@ void ToCustomEncoding(const char *const utf8, char **encoded,
 }
 void LsdRadixSort(char **const keys, size_t *const lengths, long *const values,
                   const size_t n) {
+  enum { kRadix = 256 };
   size_t i, j, max_length, d;
   size_t count[kRadix + 1];
   char **aux_keys;
@@ -251,6 +244,12 @@ void LsdRadixSort(char **const keys, size_t *const lengths, long *const values,
   free(aux_values);
 }
 int main(void) {
+  const Bcd kTenThousandLnTen = {{0x00, 0x00, 0x00, 0x00, 0x02, 0x30, 0x25},
+                                 {0x85, 0x09, 0x29, 0x94, 0x04, 0x56, 0x84}};
+  const Bcd kTenThousandLnGoldenRatio = {
+      {0x00, 0x00, 0x00, 0x00, 0x00, 0x48, 0x12},
+      {0x11, 0x82, 0x50, 0x59, 0x60, 0x34, 0x47}};
+  const char kGrammarFormat[32] = "Rime::Grammar/1.0";
   FILE *const word_to_index = SafeFOpen("word2index.dat", "rb");
   FILE *const trans_matrix = SafeFOpen("transmatrix.dat", "rb");
   FILE *const output_file = SafeFOpen("bigrams.txt", "wb");
@@ -263,18 +262,17 @@ int main(void) {
   char **words_end;
   size_t *word_lengths;
   size_t *word_lengths_ptr;
-  long *frequencies;
   char **bigrams;
   char **bigrams_ptr;
   char **bigrams_end;
   size_t *bigram_lengths;
+  long *frequencies;
   size_t arrays_used = 0, arrays_size = kInitialSize;
   darts_t double_array;
   long *trie;
   long *trie_ptr;
   long *trie_end;
   size_t trie_size;
-  const char grammar_format[32] = "Rime::Grammar/1.0";
   SafeFSeek(trans_matrix, 24, SEEK_SET);
   SafeFRead(buffer, 4, 1, trans_matrix);
   id_count = BytesToUInt32(buffer);
@@ -332,7 +330,7 @@ int main(void) {
       SafeFRead(buffer, 4, 1, trans_matrix);
       frequency = BytesToUInt32(buffer);
       word_2_length = *word_lengths_ptr;
-      log_frequency = BcdLog(BcdFromInteger(frequency), kE);
+      log_frequency = BcdLn(BcdFromInteger(frequency));
       while (j--) {
         log_frequency = BcdShiftLeft(log_frequency);
       }
@@ -346,8 +344,7 @@ int main(void) {
       bigram = (char *)SafeMAlloc(bigram_length + 1);
       memcpy(bigram, word_1, word_1_length);
       memcpy(bigram + word_1_length, word_2, word_2_length + 1);
-      SafeFWrite(bigram, bigram_length, 1, output_file);
-      SafeFPrintF(output_file, "\t%u\n", frequency);
+      SafeFPrintF(output_file, "%.*s\t%u\n", bigram_length, bigram, frequency);
       ToCustomEncoding(bigram, &encoded, &encoded_length);
       free(bigram);
       if (arrays_used == arrays_size) {
@@ -385,7 +382,7 @@ int main(void) {
   free(bigrams);
   free(bigram_lengths);
   free(frequencies);
-  SafeFWrite(grammar_format, 32, 1, grammar_db);
+  SafeFWrite(kGrammarFormat, 32, 1, grammar_db);
   memset(buffer, 0, sizeof(buffer));
   SafeFWrite(buffer, 4, 1, grammar_db);
   trie_size = darts_size(double_array);

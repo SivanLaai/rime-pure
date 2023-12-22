@@ -83,10 +83,10 @@ static unsigned char BcdAddByte(const unsigned char a, const unsigned char b,
   unsigned char low, high;
   low = (a & 0x0F) + (b & 0x0F) + *carry;
   *carry = low / 10;
-  low %= 10;
+  low -= *carry * 10;
   high = (a >> 4) + (b >> 4) + *carry;
   *carry = high / 10;
-  high %= 10;
+  high -= *carry * 10;
   return high << 4 | low;
 }
 Bcd BcdAdd(const Bcd a, const Bcd b) {
@@ -231,15 +231,18 @@ Bcd BcdDivide(const Bcd a, const Bcd b) {
   }
   return quotient;
 }
-Bcd BcdLog(const Bcd x, const Bcd base) {
+Bcd BcdLog(const Bcd a, const Bcd base) {
   const Bcd half = {{0x00}, {0x50}};
-  Bcd temp = x;
+  Bcd temp = a;
   Bcd y = {{0x00}, {0x00}};
   Bcd b = half;
   Bcd one = {{0x00}, {0x00}};
   Bcd tol = {{0x00}, {0x00}};
   Bcd reciprocal_base;
   BcdSetDigit(one.integer, kSignificantDigits - 1, 1);
+  if (!BcdLessThan(one, a)) {
+    return y;
+  }
   BcdSetDigit(tol.decimal, kSignificantDigits - 1, 1);
   reciprocal_base = BcdDivide(one, base);
   while (!BcdLessThan(temp, base)) {
@@ -254,6 +257,54 @@ Bcd BcdLog(const Bcd x, const Bcd base) {
     }
     b = BcdMultiply(b, half);
   }
+  return y;
+}
+Bcd BcdLn(const Bcd a) {
+  const Bcd kE = {{0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02},
+                  {0x71, 0x82, 0x81, 0x82, 0x84, 0x59, 0x05}};
+  const Bcd kReciprocalE = {{0x00}, {0x36, 0x78, 0x79, 0x44, 0x11, 0x71, 0x44}};
+  const Bcd kPolynomial1[] = {
+      {{0x00, 0x00, 0x00, 0x00, 0x00, 0x73, 0x81}, {0x00}},
+      {{0x00, 0x00, 0x00, 0x00, 0x46, 0x09, 0x00}, {0x00}},
+      {{0x00, 0x00, 0x00, 0x06, 0x21, 0x47, 0x25}, {0x00}},
+      {{0x00, 0x00, 0x00, 0x27, 0x56, 0x16, 0x00}, {0x00}},
+      {{0x00, 0x00, 0x00, 0x40, 0x74, 0x84, 0x00}, {0x00}}};
+  const Bcd kPolynomial2[] = {
+      {{0x00, 0x00, 0x00, 0x00, 0x00, 0x12, 0x60}, {0x00}},
+      {{0x00, 0x00, 0x00, 0x00, 0x12, 0x60, 0x00}, {0x00}},
+      {{0x00, 0x00, 0x00, 0x02, 0x55, 0x15, 0x00}, {0x00}},
+      {{0x00, 0x00, 0x00, 0x18, 0x14, 0x40, 0x00}, {0x00}},
+      {{0x00, 0x00, 0x00, 0x55, 0x56, 0x60, 0x00}, {0x00}},
+      {{0x00, 0x00, 0x00, 0x80, 0x01, 0x50, 0x40}, {0x00}}};
+  Bcd temp = a;
+  Bcd y = {{0x00}, {0x00}};
+  Bcd numerator, denominator;
+  unsigned char i;
+  Bcd one = {{0x00}, {0x00}};
+  BcdSetDigit(one.integer, kSignificantDigits - 1, 1);
+  if (!BcdLessThan(one, a)) {
+    return y;
+  }
+  while (!BcdLessThan(temp, kE)) {
+    temp = BcdMultiply(temp, kReciprocalE);
+    y = BcdAdd(y, one);
+  }
+  numerator = kPolynomial1[0];
+  for (i = 1; i < 5; ++i) {
+    numerator = BcdAdd(BcdMultiply(numerator, temp), kPolynomial1[i]);
+  }
+  numerator = BcdMultiply(numerator, temp);
+  for (i = 5; i--;) {
+    numerator = BcdSubtract(BcdMultiply(numerator, temp), kPolynomial1[i]);
+  }
+  denominator = kPolynomial2[0];
+  for (i = 1; i < 6; ++i) {
+    denominator = BcdAdd(BcdMultiply(denominator, temp), kPolynomial2[i]);
+  }
+  for (i = 5; i--;) {
+    denominator = BcdAdd(BcdMultiply(denominator, temp), kPolynomial2[i]);
+  }
+  y = BcdAdd(y, BcdDivide(numerator, denominator));
   return y;
 }
 #endif
