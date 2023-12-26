@@ -200,7 +200,7 @@
  - 2.修复小鹤双拼简繁转换问题
  - 3.自然码支持简繁转换问题
 
-#### [以往全部历史](https://www.sivanlaai.top/posts/projects/rime/update_history/)
+#### [查看全部历史](https://www.laais.cn/posts/projects/rime/update_history/)
 
 ## 相关资源
  - 小狼毫输入法：https://github.com/rime/weasel
