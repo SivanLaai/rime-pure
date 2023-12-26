@@ -114,6 +114,8 @@
 
 ## 更新历史
 
+#### 2023-12-19
+ - 升级 bigram 语言模型至先用 IDA 逆向分析，再编写 C 代码提取和转换为 Rime 格式的 [华宇拼音 v7](https://pinyin.thunisoft.com/index.html) 模型，同时优化语言模型的 bigram 频率和参数，提升输入法预测短语和句子的准确率。[@warm-ice0x00](https://github.com/warm-ice0x00)
 #### 2023-05-09
  - 添加转换自 [华宇拼音 v6.9.1.183](http://srf.unispim.com/software/index.php) 的 bigram 语言模型，解决 Rime 缺乏符合简体中文语言习惯的语言模型的问题，提升预测短语和句子的准确性，从而提升输入效率。[@warm-ice0x00](https://github.com/warm-ice0x00)
 #### 2022-12-30

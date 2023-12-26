@@ -108,19 +108,19 @@ speller:
     - derive/([aeiou])ng$/$1gn/   # gn = ng
     - derive/un$/uen/    # uen = un
     - derive/ui$/uei/    # uei = ui
-    - derive/iu$/iou/    # iou = ui
+    - derive/iu$/iou/    # iou = iu
     - derive/tie$/tei/    # tei = tie
     - derive/i$/ii/      # ii = i  # i 不小心按两下
-    - derive/u$/uu/      # ui = u  # u 不小心按两下
+    - derive/u$/uu/      # uu = u  # u 不小心按两下
 
 grammar:
-  language: zh-hans-t-huayu-bgw
+  language: zh-hans-t-huayu-v7-bgw
 
 translator:
   dictionary: clover
   contextual_suggestions: true
-  max_homophones: 3
-  max_homographs: 3
+  max_homophones: 2
+  max_homographs: 2
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/

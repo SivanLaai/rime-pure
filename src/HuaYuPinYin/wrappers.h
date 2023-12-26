@@ -55,6 +55,14 @@ int SafeFGetC(FILE *stream) {
   }
   return c;
 }
+int SafeUngetC(int c, FILE *stream) {
+  const int result = ungetc(c, stream);
+  if (result == EOF) {
+    perror("ungetc");
+    exit(EXIT_FAILURE);
+  }
+  return result;
+}
 int SafeFPutC(int c, FILE *stream) {
   if (fputc(c, stream) == EOF) {
     perror("fputc");
