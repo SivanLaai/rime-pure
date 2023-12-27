@@ -110,7 +110,7 @@
 
 ## 安装方法
 
-- [查看安装方法](https://www.laais.cn/posts/projects/rime/installation/)
+- [查看安装方法](https://blog.laais.cn/posts/projects/rime/installation/)
 
 ## 更新历史
 
@@ -200,7 +200,7 @@
  - 2.修复小鹤双拼简繁转换问题
  - 3.自然码支持简繁转换问题
 
-#### [查看全部历史](https://www.laais.cn/posts/projects/rime/update_history/)
+#### [查看全部历史](https://blog.laais.cn/posts/projects/rime/update_history/)
 
 ## 相关资源
  - 小狼毫输入法：https://github.com/rime/weasel
