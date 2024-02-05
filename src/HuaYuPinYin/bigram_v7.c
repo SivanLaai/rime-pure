@@ -2,9 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "bcd.h"
 #include "darts.h"
-#include "wrappers.h"
+#include "logarithm.h"
 enum { kInitialSize = 2 };
 unsigned long BytesToUInt32(const unsigned char *const array) {
   return array[3] << 24 | array[2] << 16 | array[1] << 8 | array[0];
@@ -18,10 +17,10 @@ void UInt32ToBytes(const unsigned long num, unsigned char *array) {
 void StringToBytes(const char *string, unsigned char **bytes,
                    size_t *bytes_length) {
   char *end;
-  unsigned char byte;
   size_t bytes_used = 0, bytes_size = kInitialSize;
   *bytes = (unsigned char *)SafeMAlloc(kInitialSize);
   for (; *string; string = end) {
+    unsigned char byte;
     ++string;
     byte = strtol(string, &end, 10);
     if (bytes_used == bytes_size) {
@@ -244,11 +243,14 @@ void LsdRadixSort(char **const keys, size_t *const lengths, long *const values,
   free(aux_values);
 }
 int main(void) {
-  const Bcd kTenThousandLnTen = {{0x00, 0x00, 0x00, 0x00, 0x02, 0x30, 0x25},
-                                 {0x85, 0x09, 0x29, 0x94, 0x04, 0x56, 0x84}};
-  const Bcd kTenThousandLnGoldenRatio = {
-      {0x00, 0x00, 0x00, 0x00, 0x00, 0x48, 0x12},
-      {0x11, 0x82, 0x50, 0x59, 0x60, 0x34, 0x47}};
+  static const unsigned char kTenThousandLnTen[] = {
+      0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+      0x00, 0x00, 0x00, 0x02, 0x30, 0x25, 0x85, 0x09, 0x29, 0x94, 0x04, 0x56,
+      0x84, 0x01, 0x79, 0x91, 0x45, 0x46, 0x84, 0x36, 0x42, 0x07, 0x60, 0x11};
+  static const unsigned char kTenThousandLnGoldenRatio[] = {
+      0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+      0x00, 0x00, 0x00, 0x00, 0x48, 0x12, 0x11, 0x82, 0x50, 0x59, 0x60, 0x34,
+      0x47, 0x49, 0x77, 0x58, 0x91, 0x34, 0x24, 0x36, 0x84, 0x23, 0x13, 0x52};
   const char kGrammarFormat[32] = "Rime::Grammar/1.0";
   FILE *const word_to_index = SafeFOpen("word2index.dat", "rb");
   FILE *const trans_matrix = SafeFOpen("transmatrix.dat", "rb");
@@ -316,7 +318,7 @@ int main(void) {
       char *encoded;
       size_t word_1_length, word_2_length, bigram_length, encoded_length;
       unsigned long word_1_id, frequency;
-      Bcd log_frequency;
+      unsigned char log_frequency[kLength];
       unsigned char j = 4;
       word_2 = *words_ptr;
       SafeFRead(buffer, 4, 1, trans_matrix);
@@ -330,14 +332,16 @@ int main(void) {
       SafeFRead(buffer, 4, 1, trans_matrix);
       frequency = BytesToUInt32(buffer);
       word_2_length = *word_lengths_ptr;
-      log_frequency = BcdLn(BcdFromInteger(frequency));
+      BcdFromInteger(log_frequency, frequency, kLength);
+      BcdLn(log_frequency, log_frequency);
       while (j--) {
-        log_frequency = BcdShiftLeft(log_frequency);
+        BcdShiftLeft(log_frequency, log_frequency, kLength);
       }
-      log_frequency = BcdSubtract(log_frequency, kTenThousandLnTen);
+      BcdSubtract(log_frequency, log_frequency, kTenThousandLnTen, kLength);
       if ((word_2_length == 1 && *word_2 == '$') ||
           (Utf8Len(word_1) == 1 && Utf8Len(word_2) == 1)) {
-        log_frequency = BcdSubtract(log_frequency, kTenThousandLnGoldenRatio);
+        BcdSubtract(log_frequency, log_frequency, kTenThousandLnGoldenRatio,
+                    kLength);
       }
       SafeFSeek(trans_matrix, frequencies_offset, SEEK_CUR);
       bigram_length = word_1_length + word_2_length;
@@ -357,7 +361,7 @@ int main(void) {
       }
       bigrams[arrays_used] = encoded;
       bigram_lengths[arrays_used] = encoded_length;
-      frequencies[arrays_used] = BcdToInteger(log_frequency);
+      frequencies[arrays_used] = BcdToInteger(log_frequency, kLength);
       ++arrays_used;
     }
   }
