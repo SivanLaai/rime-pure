@@ -10,27 +10,27 @@ const char *const finals[] = {"",     "a",   "ai",  "an", "ang", "ao",   "e",
                               "iang", "iao", "ie",  "in", "ing", "iong", "iu",
                               "o",    "ong", "ou",  "u",  "ua",  "uai",  "uan",
                               "uang", "ue",  "ui",  "un", "uo",  "v"};
-size_t Utf32ToUtf8(unsigned char *utf8, const unsigned long utf32) {
-  if (utf32 <= 0x7F) {
-    *utf8 = utf32;
+size_t Utf32ToUtf8(unsigned char *utf_8, const unsigned long utf_32) {
+  if (utf_32 <= 0x7F) {
+    *utf_8 = utf_32;
     return 1;
   }
-  if (utf32 <= 0x7FF) {
-    *utf8++ = 0xC0 | (utf32 >> 6);
-    *utf8 = 0x80 | (utf32 & 0x3F);
+  if (utf_32 <= 0x7FF) {
+    *utf_8++ = 0xC0 | (utf_32 >> 6);
+    *utf_8 = 0x80 | (utf_32 & 0x3F);
     return 2;
   }
-  if (utf32 <= 0xFFFF) {
-    *utf8++ = 0xE0 | (utf32 >> 12);
-    *utf8++ = 0x80 | ((utf32 >> 6) & 0x3F);
-    *utf8 = 0x80 | (utf32 & 0x3F);
+  if (utf_32 <= 0xFFFF) {
+    *utf_8++ = 0xE0 | (utf_32 >> 12);
+    *utf_8++ = 0x80 | ((utf_32 >> 6) & 0x3F);
+    *utf_8 = 0x80 | (utf_32 & 0x3F);
     return 3;
   }
-  if (utf32 <= 0x10FFFF) {
-    *utf8++ = 0xF0 | (utf32 >> 18);
-    *utf8++ = 0x80 | ((utf32 >> 12) & 0x3F);
-    *utf8++ = 0x80 | ((utf32 >> 6) & 0x3F);
-    *utf8 = 0x80 | (utf32 & 0x3F);
+  if (utf_32 <= 0x10FFFF) {
+    *utf_8++ = 0xF0 | (utf_32 >> 18);
+    *utf_8++ = 0x80 | ((utf_32 >> 12) & 0x3F);
+    *utf_8++ = 0x80 | ((utf_32 >> 6) & 0x3F);
+    *utf_8 = 0x80 | (utf_32 & 0x3F);
     return 4;
   }
   return 0;
@@ -47,17 +47,19 @@ int main(void) {
   SafeFSeek(file_in, 16, SEEK_SET);
   SafeFRead(buffer, 4, 1, file_in);
   count = BytesToUInt32(buffer);
-  SafePrintF("Character count: %lu\n", (unsigned long)count);
   while (count--) {
-    unsigned long utf32_character, frequency;
-    unsigned char character[5];
-    size_t utf8_length;
-    unsigned char initial, final, tone, i;
+    unsigned long utf_32_character;
+    unsigned long frequency;
+    unsigned char character[4];
+    size_t utf_8_length;
+    unsigned char initial;
+    unsigned char final;
+    unsigned char tone;
+    unsigned char i;
     SafeFRead(buffer, 4, 1, file_in);
-    utf32_character = BytesToUInt32(buffer);
-    utf8_length = Utf32ToUtf8(character, utf32_character);
-    assert(utf8_length);
-    character[utf8_length] = '\0';
+    utf_32_character = BytesToUInt32(buffer);
+    utf_8_length = Utf32ToUtf8(character, utf_32_character);
+    assert(utf_8_length);
     SafeFSeek(file_in, 2, SEEK_CUR);
     SafeFRead(buffer, 2, 1, file_in);
     initial = buffer[0] & 0x1F;
@@ -72,12 +74,12 @@ int main(void) {
     if (*buffer & 2 && !(*buffer & 1)) {
       frequency >>= 10;
     }
-    SafeFPrintF(file_out, "%s\t%s%s\t%lu\n", character, initials[initial],
-                finals[final], frequency);
+    SafeFPrintF(file_out, "%.*s\t%s%s\t%lu\n", utf_8_length, character,
+                initials[initial], finals[final], frequency);
     for (i = 1; i <= 5; ++i, tone >>= 1) {
       if (tone & 1) {
-        SafeFPrintF(file_out_tone, "%s\t%s%s%u\t%lu\n", character,
-                    initials[initial], finals[final], i, frequency);
+        SafeFPrintF(file_out_tone, "%.*s\t%s%s%u\t%lu\n", utf_8_length,
+                    character, initials[initial], finals[final], i, frequency);
       }
     }
     SafeFSeek(file_in, 3, SEEK_CUR);

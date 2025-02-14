@@ -4,8 +4,7 @@
 #include <string.h>
 
 #include "wrappers.h"
-enum { kInitialSize = 2 };
-size_t Utf8Len(const char *s) {
+size_t Utf8Length(const char *s) {
   size_t len = 0;
   for (; *s; ++s) {
     if ((*s & 0xC0) != 0x80) {
@@ -32,12 +31,13 @@ void Utf8Slice(const char *const s, size_t *const start, size_t *const end) {
   p = Utf8Index(s, *end);
   *end = p ? (size_t)(p - s) : (size_t)-1;
 }
-void GetLine(char **line, size_t *const n, FILE *const file) {
-  size_t size = kInitialSize;
-  int c;
-  *line = (char *)SafeMAlloc(kInitialSize);
-  *n = 0;
+void GetLine(char **line, size_t *const line_length, FILE *const file) {
+  enum { kInitialCapacity = 2 };
+  size_t size = kInitialCapacity;
+  *line = (char *)SafeMAlloc(kInitialCapacity);
+  *line_length = 0;
   while (1) {
+    int c;
     c = SafeFGetC(file);
     if (c == '\n' || c == EOF) {
       break;
@@ -49,26 +49,28 @@ void GetLine(char **line, size_t *const n, FILE *const file) {
       }
       break;
     }
-    if (*n == size) {
+    if (*line_length == size) {
       size += size >> 1;
       *line = (char *)SafeRealloc(*line, size);
     }
-    (*line)[(*n)++] = c;
+    (*line)[(*line_length)++] = c;
   }
-  if (*n == size) {
+  if (*line_length == size) {
     size += size >> 1;
     *line = (char *)SafeRealloc(*line, size);
   }
-  (*line)[*n] = '\0';
+  (*line)[*line_length] = '\0';
 }
 int main(void) {
   FILE *const file_in = SafeFOpen("fixed.ini", "rb");
   FILE *const file_out = SafeFOpen("custom_phrase.txt", "wb");
   char *line;
-  size_t n;
-  while (GetLine(&line, &n, file_in), n || !feof(file_in)) {
-    const char *pinyin, *characters;
-    size_t len, i;
+  size_t line_length;
+  while (GetLine(&line, &line_length, file_in), line_length || !feof(file_in)) {
+    const char *pinyin;
+    const char *characters;
+    size_t characters_length;
+    size_t i;
     if (line[0] == '\0' || line[0] == '#') {
       free(line);
       continue;
@@ -79,12 +81,14 @@ int main(void) {
       free(line);
       continue;
     }
-    len = Utf8Len(characters);
-    for (i = 0; i < len; ++i) {
-      size_t start = i, end = i + 1;
+    characters_length = Utf8Length(characters);
+    for (i = 0; i < characters_length; ++i) {
+      size_t start = i;
+      size_t end = i + 1;
       Utf8Slice(characters, &start, &end);
       SafeFPrintF(file_out, "%.*s\t%s\t%lu\n", (int)(end - start),
-                  characters + start, pinyin, (unsigned long)(len - i));
+                  characters + start, pinyin,
+                  (unsigned long)(characters_length - i));
     }
     free(line);
   }
