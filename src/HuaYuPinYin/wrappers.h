@@ -17,7 +17,7 @@ int SafePrintF(const char *format, ...) {
 }
 void *SafeMAlloc(size_t size) {
   const void *const result = malloc(size);
-  if (result == NULL) {
+  if (!result) {
     perror("malloc");
     exit(EXIT_FAILURE);
   }
@@ -25,7 +25,7 @@ void *SafeMAlloc(size_t size) {
 }
 void *SafeCAlloc(size_t num, size_t size) {
   const void *const result = calloc(num, size);
-  if (result == NULL) {
+  if (!result) {
     perror("calloc");
     exit(EXIT_FAILURE);
   }
@@ -33,7 +33,7 @@ void *SafeCAlloc(size_t num, size_t size) {
 }
 void *SafeRealloc(void *ptr, size_t new_size) {
   const void *const result = realloc(ptr, new_size);
-  if (result == NULL) {
+  if (!result) {
     perror("realloc");
     exit(EXIT_FAILURE);
   }
@@ -41,7 +41,7 @@ void *SafeRealloc(void *ptr, size_t new_size) {
 }
 FILE *SafeFOpen(const char *filename, const char *mode) {
   const FILE *const file = fopen(filename, mode);
-  if (file == NULL) {
+  if (!file) {
     perror("fopen");
     exit(EXIT_FAILURE);
   }
@@ -72,7 +72,7 @@ int SafeFPutC(int c, FILE *stream) {
 }
 char *SafeFGetS(char *str, int count, FILE *stream) {
   const char *const result = fgets(str, count, stream);
-  if (result == NULL && ferror(stream)) {
+  if (ferror(stream)) {
     perror("fgets");
     exit(EXIT_FAILURE);
   }
@@ -99,7 +99,7 @@ int SafeFPrintF(FILE *stream, const char *format, ...) {
 }
 size_t SafeFRead(void *ptr, size_t size, size_t nmemb, FILE *stream) {
   const size_t elements_read = fread(ptr, size, nmemb, stream);
-  if (elements_read != nmemb) {
+  if (ferror(stream)) {
     perror("fread");
     exit(EXIT_FAILURE);
   }
