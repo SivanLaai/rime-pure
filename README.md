@@ -232,7 +232,7 @@
 
 | 微信 | 支付宝 |
 | :---: | :---: |
-| <img src="https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/wechatpay.633o70e2s680.png" alt="Wechat QRcode" width=200>| <img src="https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/alipay.71u9hcw5res0.jpg" alt="Alipay QRcode" width=200> |
+| <img src="https://cdn.jsdelivr.net/gh/SivanLaai/picx-images-hosting@master/rime/wepay_20250723142909.361vej1r5h.webp" alt="Wechat QRcode" width=200>| <img src="https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/alipay.71u9hcw5res0.jpg" alt="Alipay QRcode" width=200> |
 
 ## 许可证
 [MIT](https://github.com/SivanLaai/rime_pure/blob/master/LICENSE)
