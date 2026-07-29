@@ -15,9 +15,13 @@
 - 优化视觉体验，继续保持 `rime-pure` 一贯的**极简、优雅、高效**设计理念。
 - **预览剧透：全新适配的九宫格布局界面**（清爽简洁的色调与精致的键位反馈）：
 
-  *(最新九宫格预览)*
+  *(最新九宫格主页面预览)*
   
-  <img src="https://cdn.statically.io/gh/SivanLaai/picx-images-hosting@master/rime/new_jiugong.1lcj5hqhzw.webp" width="50%" alt="九宫格预览" />
+  <img src="https://cdn.statically.io/gh/SivanLaai/picx-images-hosting@master/rime/new_main_jiugong.6wrfq7miuq.webp" width="50%" alt="九宫格预览" />
+
+  *(最新九宫格输入中预览)*
+  
+  <img src="https://cdn.statically.io/gh/SivanLaai/picx-images-hosting@master/rime/new_jiugong.1lcj5hqhzw.webp" width="50%" alt="九宫格输入预览" />
 
 ---
 
