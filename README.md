@@ -16,6 +16,7 @@
 - **预览剧透：全新适配的九宫格布局界面**（清爽简洁的色调与精致的键位反馈）：
 
   *(最新九宫格预览)*
+  
   <img src="https://cdn.statically.io/gh/SivanLaai/picx-images-hosting@master/rime/new_jiugong.1lcj5hqhzw.webp" width="50%" alt="九宫格预览" />
 
 ---
