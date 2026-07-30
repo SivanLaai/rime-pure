@@ -247,3 +247,31 @@
   例如“朝”拼 chao zhao zhu 输入：
   词频调整 chao 保留最高，依次递减10倍
   例如 chao 为 123，zhao 为 12，zhu 为 1
+
+
+---
+
+## 🤝 致谢与相关资源
+没有开源社区各路开发者与学者的贡献，就不会有这个便捷的整合项目：
+- 核心引擎：[小狼毫 Weasel](https://github.com/rime/weasel) | [同文 Trime](https://github.com/osfans/trime) (@lotem, @osfans)
+- 词库与方案：[四叶草拼音](https://github.com/fkxxyz/rime-cloverpinyin) (@fkxxyz) | 极品五笔 | QQ五笔 | [小鹤双拼](https://www.flypy.com/) | 徐码 | 郑码
+- 中文处理：[OpenCC 简繁转换](https://github.com/BYVoid/OpenCC) (@BYVoid)
+- 部分精美主题与配色来自于各大 Rime 爱好者与开源互联网作者。
+
+---
+
+## 💖 支持与赞助
+
+如果你非常喜欢本项目的输入体验，或者希望支持我后续持续优化：
+1. 给本项目点一个右上角的 **Star ⭐** 并分享给周围的朋友！🚀
+2. [点击邀请链接注册机场](https://ht.快车.com?c=TXELCY) 
+网际快车⭐️多线路确保不断流，流量不过期，不限设备数 ⭐️专用客户端+通用订阅。住宅IP，50+国家，6.8元起。
+3. 请作者喝一杯咖啡 ☕️：
+
+| 微信 | 支付宝 |
+| :---: | :---: |
+| <img src="https://cdn.jsdelivr.net/gh/SivanLaai/picx-images-hosting@master/rime/wepay_20250723142909.361vej1r5h.webp" alt="Wechat QRcode" width="160"> | <img src="https://cdn.jsdelivr.net/gh/SivanLaai/image-store-rep@master/rime/alipay.71u9hcw5res0.jpg" alt="Alipay QRcode" width="160"> |
+
+## License
+[MIT License](https://github.com/SivanLaai/rime_pure/blob/master/LICENSE)  
+Copyright (c) 2020-present SivanLaai
