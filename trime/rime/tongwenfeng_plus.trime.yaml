@@ -52,38 +52,6 @@ other:
   h: &NJL 6         #数字键盘列距
   i: &NJY 12         #数字键盘圆角
 
-
-# #颜色
-# colors:
-#   1: &COLOR_BLACK 0xff000000 #黑
-#   2: &COLOR_WHITE 0xffffffff #白
-#   3: &COLOR_GRAY_WHITE 0xffe1e3e7 # 灰白
-#   4: &COLOR_DARK_GRAY_WHITE 0xffacb2c2 # 深灰白
-#   5: &COLOR_DARK_GRAY_BLACK 0xff131313 # 深灰黑
-#   6: &COLOR_GRAY_BLUE 0xff3266a0 # 灰蓝 0xff3266a0
-#   7: &COLOR_TRANSPARENT 0x00000000 #透明
-#   8: &COLOR_GRAY 0xff838383 # 灰
-#   9: &COLOR_LIGHT_GRAY 0xFFe5e6eb #浅灰
-#   10: &COLOR_LIGHT_GRAY_PP 0xffc9cace #浅灰++ 0xff6f7b83
-#   11: &COLOR_DARK_SLATE_GRAY 0xFF2F4F4F #墨绿色
-#   12: &COLOR_ORANGE  0xFFf57d51  #橙
-#   13: &COLOR_DARK_SLATE_GRAY1 0xff253238 #墨绿色1
-#   14: &COLOR_LIGHT_GRAY_P 0xffcccccc #浅灰+
-#   15: &COLOR_DARK_SLATE_GRAY2 0xff354346 #墨绿色2
-#   16: &COLOR_RED  0xffe63549 #红色 0xffe63549 cd0b0b
-#   17: &COLOR_DARK_RED 0xff881c1c  #深暗红
-#   18: &COLOR_LIGHT_SEA_BLUE 0xff1693d8 #浅海蓝
-#   19: &COLOR_DARK_SEA_BLUE 0xff007dc7  #暗海蓝
-#   20: &COLOR_BLACK_1 0xff888888 #黑1
-#   21: &COLOR_GRAY_1 0xffaaaaaa #灰1
-#   21: &COLOR_LIGHT_BLUE 0xFF56A2FA #浅蓝
-#   22: &COLOR_IFLY_BLUE 0xFF3d9dff #讯飞蓝
-#   23: &COLOR_LIGHT_IFLY_GRAY_P 0xFFb6b7b9 #讯飞功能按键激活灰
-#   24: &COLOR_NOSIGNAL_GRAY 0xffa3a7aa #按键无法选择灰
-#   25: &COLOR_DARK_GRAY 0xff6f7b83 #深灰
-#   26: &COLOR_DARK_SEA_BLUE_P 0xff025281 #深暗海蓝
-#   27: &COLOR_XPERIA_CANDIDATE_GREEN 0xff00a886 #SONY绿
-
 #键盘高度
 height:
   1: &jpgd1 30 #表情键盘
@@ -3292,7 +3260,7 @@ preset_keyboards:
       - {click: VOICE_ASSIST, hint: 语音, key_hint_offset_y: 0, key_text_offset_y: -4, key_text_color: key_text_color, key_symbol_color: key_text_color, key_back_color: xdb, hilited_key_back_color: key_back_color, hilited_key_back_color: xdb}
       - {click: "", width: 10, swipe_left: K_menux, key_back_color: xdb, hilited_key_back_color: xdb}
       #第三行
-      - {click: "", width: 100, label: "By SivanLaai", swipe_left: K_menux, key_back_color: xdb, hilited_key_back_color: xdb, key_text_size: 16}
+      - {click: "", width: 100, label: "By SivanLaai", swipe_left: K_menux, key_back_color: xdb, hilited_key_back_color: xdb, key_text_size: 16, key_text_color: key_text_color}  
       # 第四行
       - {height: *VJG_Other, click: "", width: 47, swipe_left: K_menux, key_back_color: xdb, hilited_key_back_color: xdb}
       - {click: K_menux1, key_text_size: 8, width: 3, swipe_left: K_menux, key_text_offset_y: -9, key_text_offset_x: 0, key_back_color: key_back_color, key_symbol_color: key_text_color, key_back_color: xdb, hilited_key_back_color: key_back_color, hilited_key_back_color: xdb}
@@ -6128,12 +6096,12 @@ preset_keys:
   IME_next: {label: 下一输入法, send: LANGUAGE_SWITCH, select: .next} #直接切換到下一輸入法
   Schema_switch: {label: 下一方案, functional: false, send: Control+Shift+1}
   Schema_Eng: {label: En, functional: true, send: Control+Shift+0}
-  Theme_settings: {label: 主题, send: SETTINGS, option: "theme"}
+  Theme_settings1: {label: 主题, send: SETTINGS, option: "theme"}
   Color_switch: {label: 配色, functional: false, send: PROG_RED}
   Help: {label: 说明, send: Help}
   Info: {label: 关于, send: INFO}
-  Menu: {label: 菜单, functional: false, send: Menu}
-  Settings: {label: 设置, functional: false, send: SETTINGS}
+  Menu1: {label: 菜单, functional: false, send: Menu}
+  Settings1: {label: 设置, functional: false, send: SETTINGS}
   # trime命令
   Date: {label: 日期, send: function, command: date, option: " yyyy-MM-dd "}
   Time: {label: 時間, send: function, command: date, option: "HH:mm:ss"} #時間： date 格式
@@ -6379,5 +6347,8 @@ preset_keys:
   Hint_switch: {toggle: _hide_key_hint, send: Mode_switch, states: [ ≑, ≟]}
   Hint_switch1: {toggle: _hide_key_hint, functional: false, send: Mode_switch, states: [ ≑, ≟]}
   Deploy: {label: ♻, send: function, command: broadcast, option: "com.osfans.trime.deploy"}
+  Settings: {label: ⚙, functional: false, send: SETTINGS}
+  Color_settings: {label: ◲, send: SETTINGS, option: "color"}
+  Menu: {label: "✎", functional: false, send: Menu}
   
 
