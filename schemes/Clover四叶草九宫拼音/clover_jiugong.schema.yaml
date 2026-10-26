@@ -73,6 +73,9 @@ speller:
     - derive/([+_*^0])$//
     - derive/^(.*)$/\U$1/
 
+grammar:
+  language: zh-hans-t-huayu-v7-bgw
+
 translator:
   dictionary: clover
   prism: clover_jiugong
@@ -81,7 +84,6 @@ translator:
   enable_user_dict: true
   enable_encoder: true
   encode_commit_history: true
-  max_phrase_length: 10
   user_dict: user
   db_class: tabledb
   disable_user_dict_for_patterns:
@@ -91,6 +93,9 @@ translator:
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
     - xform/eh/ê/
+  contextual_suggestions: true
+  max_homophones: 2
+  max_homographs: 2
 
 custom_phrase:
   dictionary: ""
